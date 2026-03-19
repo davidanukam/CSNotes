@@ -70,7 +70,7 @@ How do make a “good” software? By using a systematic, disciplined, and quant
     - Tools aid in automation and support of software engineering processes and methods
     - Examples are: source control and management (git), testing (JUnit), Documentation (JavaDoc), Issue and Project Tracking Software (Jira)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/ce393ce8-9fee-4619-aa38-675cefe82717/image.png)
+![image.png|91](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/ce393ce8-9fee-4619-aa38-675cefe82717/image.png)
 
 ## PROCESS FRAMEWORK:
 
