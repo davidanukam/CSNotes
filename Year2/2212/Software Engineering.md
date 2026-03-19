@@ -70,7 +70,7 @@ How do make a “good” software? By using a systematic, disciplined, and quant
     - Tools aid in automation and support of software engineering processes and methods
     - Examples are: source control and management (git), testing (JUnit), Documentation (JavaDoc), Issue and Project Tracking Software (Jira)
 
-![image.png|91](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/ce393ce8-9fee-4619-aa38-675cefe82717/image.png)
+![image.png|697](assets/SoftwareEngineeringLayers.png)
 
 ## PROCESS FRAMEWORK:
 
@@ -90,7 +90,7 @@ This defines the steps, tasks, and activities involved in software engineering. 
 
 **Process:** A collection of activities, actions, and tasks that are performed when some work product is to be created
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/dbb70773-82b2-4949-88ae-e9eed17a96b9/image.png)
+![image.png|697](assets/ProcessFramework.png)
 
 There are **five activities** applicable to all software projects:
 
@@ -177,7 +177,7 @@ A task set is defined by creating several lists:
 
 It is important to note that the five activities (communication, planning…) are NOT necessarily performed in that specific order. There are many different **process flows** for these activities that determine HOW these activities are actually organized and sequenced over time
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/ae2588f6-cffb-4108-bd13-0c8fcba6fee0/image.png)
+![image.png|91](assets/ProcessFlows.png)
 
 ## PRESCRIPTIVE PROCESS MODELS:
 
