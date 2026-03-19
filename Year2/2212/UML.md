@@ -311,7 +311,7 @@ Since this does rely on face-to-face meetings, here are the different type of me
     2. What went well, what could be improved, and what the team will commit to improving in the next sprint
     3. Meeting is run by the scrum master
 
-![image.png](assets/Scrum.png)
+![image.png|681](assets/ScrumAgileFramework.png)
 
 Okay, so what are the pros and cons of scrum?
 
@@ -370,7 +370,7 @@ There are typically 3 ways to implement pair programming
 2. **Driver/Navigation** → One developer sets the architectural or strategic direction, and the other implements these decisions as code
 3. **Ping-Pong** → Shifts rapidly back-and-forth between the two developers, so they are working on a similar or same problem on two computers rather than one
 
-![image.png](attachment:6ab85e9e-6a58-41f2-81ea-2c8e5a5f8a13:24a82a3a-b30b-44c4-af41-580fa987f9dc.png)
+![image.png|526](assets/ExtremeProgramming(XP)AgileFramework.png)
 
 What are the pros and cons of XP framework?
 
@@ -396,7 +396,7 @@ Focuses on change management and service delivery. It shows all the projects tas
 
 It tries to limit the amount of work in progress at any given time
 
-![each square represents a task. this is called a kanban board](attachment:1ccf8923-fa6f-4551-905f-0272a87930bc:image.png)
+![each square represents a task. this is called a kanban board](assets/KanbanAgileFramework.png)
 
 each square represents a task. this is called a kanban board
 
