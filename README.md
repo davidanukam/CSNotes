@@ -3,7 +3,7 @@ All Notes to help you ACE Computer Science at Western University
 
 ---
 ## Year 1
-Coming Soon!
+Coming Soon
 
 ---
 ## Year 2
@@ -11,4 +11,8 @@ Coming Soon!
 
 ---
 ## Year 3
-Coming
+Coming Soon
+
+---
+## Year 4
+Coming Soon
