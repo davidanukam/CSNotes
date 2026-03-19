@@ -117,7 +117,7 @@ Remember those user scenarios that I said we will get to in the last set of note
 
 ### USERS STORIES:
 
-![image.png](attachment:88a18748-29f0-4003-8f1b-4e04fbe8b9bc:image.png)
+![image.png](assets/UserStoriesTemplate.png)
 
 “how things begin” is just context, so it describes the state of the system or scenario before the action actually occurs
 
@@ -138,7 +138,7 @@ Let us walk through an example:
 
 Write a user story that describes the “favorites” feature available on most Web browsers.
 
-![the priority and estimate is not something we need to be concerned about](attachment:c09a180f-3de9-4df9-a30c-14f77b048d5c:IMG_1874.jpeg)
+![the priority and estimate is not something we need to be concerned about](assets/UserStoryExample.jpeg)
 
 the priority and estimate is not something we need to be concerned about
 
