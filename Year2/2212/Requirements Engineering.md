@@ -269,15 +269,15 @@ Task 3:
 
 Creating a Use Case Diagram
 
-![IMG_1875.jpeg](attachment:044a7763-462b-4ffc-80b9-426257d118c1:IMG_1875.jpeg)
+![IMG_1875.jpeg|452](assets/UseCaseDiagramForUserScenarioExample.jpeg)
 
 It is best to keep this diagram as simple as possible
 
 Task 4:
 
-![image.png](attachment:cbbe7b0d-ae9e-4861-ade9-8bbf6176e2cf:image.png)
+![image.png|527](assets/UseCaseTable1Part1ForUserScenarioExample.png)
 
-![image.png](attachment:25d93cc9-2caa-4a34-919d-d43f62fe0b13:image.png)
+![image.png|91](UseCaseTable1Part2ForUserScenarioExample.png)
 
 yes for scenario you go into the itty bitty details of everything
 
