@@ -49,7 +49,7 @@ What do Activity Diagrams do?
 - Can show concurrent flows (meaning it can show multiple tasks being carried out simultaneously)
 - Can be used to document use cases or diagramming code and algorithms
 
-![IMG_1815.jpeg](ActivityDiagrams.jpeg)
+![IMG_1815.jpeg](assets/UML/ActivityDiagrams.jpeg)
 
 Some things to note are:
 
@@ -73,7 +73,7 @@ Activity diagrams can also be used to show concurrency
 - Waits until ALL incoming flows have reached the join before proceeding
 - So, in the image we are given, the action node “mix together” can not be executed until “mix dry ingredients” and “mix wet ingredients” are both done
 
-![image.png|431](Fork&Join.png)
+![image.png|431](assets/UML/Fork&Join.png)
 
 The **Swimlane Diagram** is a useful variation of the activity diagram that allows you to represent the flow of activities
 
@@ -81,7 +81,7 @@ Swimlane Diagrams indicate which actor has responsibility for the specific actio
 
 So, given our example above:
 
-![image.png|406](SwimlaneDiagram.png)
+![image.png|406](assets/UML/SwimlaneDiagram.png)
 
 As you can tell, responsibilities are represented as parallel segments that divide the diagram vertically, like a swimming pool, hence the name swimlane diagram
 
@@ -101,7 +101,7 @@ void printEvenNumbers(int start, int end){
 
 Let say we are given this small function, are we able to draw an activity diagram from it?
 
-![image.png|344](PrintEvenNumbersActivityDiagram.png)
+![image.png|344](assets/UML/PrintEvenNumbersActivityDiagram.png)
 
 it would look something like this!
 
@@ -161,7 +161,7 @@ Create a Use Case diagram for the CS1 Ask Tool
 
 Who would the actors be in this case and what would the use cases be here?
 
-![image.png|431](UseCaseDiagramCS1AskTool.png)
+![image.png|431](assets/UML/UseCaseDiagramCS1AskTool.png)
 
 ## AGILITY AND PROCESS:
 
@@ -192,7 +192,7 @@ In prescriptive models, the further you are into development, the higher the cos
 
 Although the cost of change is cheaper in agile models, we still can’t avoid it completely.
 
-![image.png|559](CostOfChangeChart.png)
+![image.png|559](assets/UML/CostOfChangeChart.png)
 
 for example, the yellow highlight represents the cost of change in a prescriptive process model. the one in hot pink represents agile models. although yes they are still cheaper than prescriptive models, the further and further you get into the agile process, it does become a bit more expensive. even if you have the craziest project, if the customer decides “actually, i want to make the biggest change imaginable”, this is gonna cost you a lot
 
@@ -311,7 +311,7 @@ Since this does rely on face-to-face meetings, here are the different type of me
     2. What went well, what could be improved, and what the team will commit to improving in the next sprint
     3. Meeting is run by the scrum master
 
-![image.png|681](ScrumAgileFramework.png)
+![image.png|681](assets/UML/ScrumAgileFramework.png)
 
 Okay, so what are the pros and cons of scrum?
 
@@ -370,7 +370,7 @@ There are typically 3 ways to implement pair programming
 2. **Driver/Navigation** → One developer sets the architectural or strategic direction, and the other implements these decisions as code
 3. **Ping-Pong** → Shifts rapidly back-and-forth between the two developers, so they are working on a similar or same problem on two computers rather than one
 
-![image.png|526](ExtremeProgramming(XP)AgileFramework.png)
+![image.png|526](assets/UML/ExtremeProgramming(XP)AgileFramework.png)
 
 What are the pros and cons of XP framework?
 
@@ -396,13 +396,13 @@ Focuses on change management and service delivery. It shows all the projects tas
 
 It tries to limit the amount of work in progress at any given time
 
-![each square represents a task. this is called a kanban board|630](KanbanAgileFramework.png)
+![each square represents a task. this is called a kanban board|630](assets/UML/KanbanAgileFramework.png)
 
 each square represents a task. this is called a kanban board
 
 There is a more simple representation of this:
 
-![image.png|602](SimpleKanbanAgileFramework.png)
+![image.png|602](assets/UML/SimpleKanbanAgileFramework.png)
 
 **Backlog:** Tasks waiting to be selected for development
 
@@ -450,7 +450,7 @@ Involves several stages that loop continuously:
 - **Continuous Deployment:** Integrated code is deployed to the production environment
 - **Continuous Monitoring:** Team operations staff members proactively monitor software performance in the production environment
 
-![image.png|668](DevelopmentOperations(DevOps)AgileFramework.png)
+![image.png|668](assets/UML/DevelopmentOperations(DevOps)AgileFramework.png)
 
 What are the pros and cons of this framework?
 
