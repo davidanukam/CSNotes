@@ -177,7 +177,7 @@ A task set is defined by creating several lists:
 
 It is important to note that the five activities (communication, planning…) are NOT necessarily performed in that specific order. There are many different **process flows** for these activities that determine HOW these activities are actually organized and sequenced over time
 
-![image.png|697](assets/ProcessFlows.png)
+![image.png|697](assets/SoftwareEngineering/ProcessFlows.png)
 
 ## PRESCRIPTIVE PROCESS MODELS:
 
@@ -201,7 +201,7 @@ The different types of process models we will be talking about are:
 
 ### WATERFALL PROCESS MODEL:
 
-![image.png|697](assets/WaterfallProcessModel.png)
+![image.png|697](assets/SoftwareEngineering/WaterfallProcessModel.png)
 
 This is also known as the “classic life cycle”.
 
@@ -213,7 +213,7 @@ The good news is that it is VERY ordered, and it is very simple. It can make sen
 
 ### V-MODEL PROCESS MODEL:
 
-![variation of the waterfall model|472](assets/V-ModelProcessModel.png)
+![variation of the waterfall model|472](assets/SoftwareEngineering/V-ModelProcessModel.png)
 
 variation of the waterfall model
 
