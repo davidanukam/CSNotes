@@ -117,7 +117,7 @@ Remember those user scenarios that I said we will get to in the last set of note
 
 ### USERS STORIES:
 
-![image.png](assets/UserStoriesTemplate.png)
+![image.png|588](assets/UserStoriesTemplate.png)
 
 “how things begin” is just context, so it describes the state of the system or scenario before the action actually occurs
 
@@ -138,7 +138,7 @@ Let us walk through an example:
 
 Write a user story that describes the “favorites” feature available on most Web browsers.
 
-![the priority and estimate is not something we need to be concerned about](assets/UserStoryExample.jpeg)
+![the priority and estimate is not something we need to be concerned about|525](assets/UserStoryExample.jpeg)
 
 the priority and estimate is not something we need to be concerned about
 
@@ -175,7 +175,7 @@ The difference between use cases and user stories:
 
 In use cases, we typically have something called “the actor template”
 
-![image.png](attachment:13c5b4bf-02b5-4b0f-87b1-b609881ce79d:image.png)
+![image.png|91](assets/ActorTemplate.png)
 
 So:
 
