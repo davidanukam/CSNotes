@@ -101,7 +101,7 @@ void printEvenNumbers(int start, int end){
 
 Let say we are given this small function, are we able to draw an activity diagram from it?
 
-![image.png|331](assets/printEvenNumbersActivityDiagram.png)
+![image.png|331](assets/PrintEvenNumbersActivityDiagram.png)
 
 it would look something like this!
 
