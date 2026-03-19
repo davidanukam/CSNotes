@@ -70,7 +70,7 @@ How do make a “good” software? By using a systematic, disciplined, and quant
     - Tools aid in automation and support of software engineering processes and methods
     - Examples are: source control and management (git), testing (JUnit), Documentation (JavaDoc), Issue and Project Tracking Software (Jira)
 
-![image.png|697](assets/SoftwareEngineeringLayers.png)
+![image.png|697](assets/SoftwareEngineering/SoftwareEngineeringLayers.png)
 
 ## PROCESS FRAMEWORK:
 
@@ -90,7 +90,7 @@ This defines the steps, tasks, and activities involved in software engineering. 
 
 **Process:** A collection of activities, actions, and tasks that are performed when some work product is to be created
 
-![image.png|697](assets/ProcessFramework.png)
+![image.png|697](assets/SoftwareEngineering/ProcessFramework.png)
 
 There are **five activities** applicable to all software projects:
 
