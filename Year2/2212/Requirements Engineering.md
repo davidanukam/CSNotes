@@ -38,7 +38,7 @@ There are 2 main requirements that concern users’/stakeholders’:
 
 So, to give more examples:
 
-![image.png](assets/.png)
+![image.png](assets/ExampleOfFunctionalRequirements&Non-FunctionalRequirements.png)
 
 If we wanted to classify these as functional or NF requirements, we would end up with:
 
