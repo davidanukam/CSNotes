@@ -139,7 +139,10 @@ Let me talk about what symbols are used in use cases and give an example
         - Each smaller subcase describes some logical unit of behavior. So, although this subcase is not directly drawn in the use cases, we have to logically figure out this subcase
         - So, for example, if we had a use case “access locked laptop”, we can assume a subcase would be “enter password” since the laptop is locked. So, we would have an includes arrow point from “access locked laptop” to the subcase “enter password”
         - This subcase is OUTSIDE of the rectangle with the use cases
-        - Above the arrow, you would put the word “<<includes>>” with the <<>>
+        - Above the arrow, you would put the word 
+```txt
+“<<includes>>” with the <<>>
+```
     - **Extends:**
         - Denotes that this use case may OPTIONALLY make use of the extended use case
         - This is just an includes arrow but pointing the opposite way
