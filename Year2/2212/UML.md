@@ -450,7 +450,7 @@ Involves several stages that loop continuously:
 - **Continuous Deployment:** Integrated code is deployed to the production environment
 - **Continuous Monitoring:** Team operations staff members proactively monitor software performance in the production environment
 
-![image.png](assets/DevelopmentOperations(DevOps)AgileFramework.png)
+![image.png|668](assets/DevelopmentOperations(DevOps)AgileFramework.png)
 
 What are the pros and cons of this framework?
 
