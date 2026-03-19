@@ -50,7 +50,7 @@ If we wanted to classify these as functional or NF requirements, we would end up
 
 An **action** in the communication activity continues into modeling
 
-![image.png](attachment:323437e3-f7e8-4fdc-b9ee-0d78a335c4aa:image.png)
+![image.png|570](assets/RequirementsEngineeringAction.png)
 
 This action entails the following tasks:
 
