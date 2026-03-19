@@ -153,7 +153,7 @@ Important to not over complicate a use diagram. `<<includes>>` and `<<extends>>`
 
 Example:
 
-Create a use diagram for the CS1 Ask Tool
+Create a Use Case diagram for the CS1 Ask Tool
 
 - This is the tool we use in class to ask/answer questions live in class, enter groupwork codes, enter participation tickets, and view our participation stats.
 - Your instructor uses this tool to generate groupwork and participation keys, view participation statistics for a given student, view class participation statistics as a whole, and view incoming questions/answers during class.
@@ -161,7 +161,7 @@ Create a use diagram for the CS1 Ask Tool
 
 Who would the actors be in this case and what would the use cases be here?
 
-![image.png](assets/UseCaseDiagramCS1AskTool.png)
+![image.png|431](assets/UseCaseDiagramCS1AskTool.png)
 
 ## AGILITY AND PROCESS:
 
@@ -192,7 +192,7 @@ In prescriptive models, the further you are into development, the higher the cos
 
 Although the cost of change is cheaper in agile models, we still can’t avoid it completely.
 
-![image.png](attachment:6a081f0f-2d3d-4413-97ae-7c0ffdd51100:image.png)
+![image.png|559](assets/CostOfChangeChart.png)
 
 for example, the yellow highlight represents the cost of change in a prescriptive process model. the one in hot pink represents agile models. although yes they are still cheaper than prescriptive models, the further and further you get into the agile process, it does become a bit more expensive. even if you have the craziest project, if the customer decides “actually, i want to make the biggest change imaginable”, this is gonna cost you a lot
 
