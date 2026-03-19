@@ -254,9 +254,9 @@ Remember, in order to be considered an actor, they/it must interact with the sys
 
 Now, what if we wanted to fill out the actor template above with the actors we are given?
 
-![image.png](ActorTable1ForUserScenarioExample.png)
+![image.png](assets/RequirementsEngineering/ActorTable1ForUserScenarioExample.png)
 
-![image.png](ActorTable2ForUserScenarioExample.png)
+![image.png](assets/RequirementsEngineering/ActorTable2ForUserScenarioExample.png)
 
 What are the possible use cases here?
 
@@ -269,23 +269,23 @@ Task 3:
 
 Creating a Use Case Diagram
 
-![IMG_1875.jpeg|416](UseCaseDiagramForUserScenarioExample.jpeg)
+![IMG_1875.jpeg|416](assets/RequirementsEngineering/UseCaseDiagramForUserScenarioExample.jpeg)
 
 It is best to keep this diagram as simple as possible
 
 Task 4:
 
-![image.png|527](UseCaseTable1Part1ForUserScenarioExample.png)
+![image.png|527](assets/RequirementsEngineering/UseCaseTable1Part1ForUserScenarioExample.png)
 
-![image.png|527](UseCaseTable1Part2ForUserScenarioExample.png)
+![image.png|527](assets/RequirementsEngineering/UseCaseTable1Part2ForUserScenarioExample.png)
 
 yes for scenario you go into the itty bitty details of everything
 
 Task 5:
 
-![image.png|527](UseCaseTable2Part1ForUserScenarioExample.png)
+![image.png|527](assets/RequirementsEngineering/UseCaseTable2Part1ForUserScenarioExample.png)
 
-![image.png|527](UseCaseTable2Part2ForUserScenarioExample.png)
+![image.png|527](assets/RequirementsEngineering/UseCaseTable2Part2ForUserScenarioExample.png)
 
 Note for task 4 and 5, if you don’t have the exact same answer, that’s fine. Everyone interprets stuff differently
 
@@ -315,7 +315,7 @@ Agile methods have minimal rules, meaning there isn’t a lot of documentation
 
 So, how would this agile spiral model look like?
 
-![image.png|603](AgileSpiralModel.png)
+![image.png|603](assets/RequirementsEngineering/AgileSpiralModel.png)
 
 We unfortunately will be going through each and every single damn point that is on this graph
 
