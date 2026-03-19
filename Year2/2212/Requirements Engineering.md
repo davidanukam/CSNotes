@@ -226,7 +226,7 @@ But you’re probably thinking “erm didnt we alr learn about use cases??” ye
 
 Let us do an example:
 
-![image.png](assets/Actor.png)
+![image.png|568](assets/UserScenarioExample.png)
 
 What do we need to do?
 
@@ -254,9 +254,9 @@ Remember, in order to be considered an actor, they/it must interact with the sys
 
 Now, what if we wanted to fill out the actor template above with the actors we are given?
 
-![image.png](attachment:67a93420-f136-4fbe-9752-8753cff9fbb2:image.png)
+![image.png](assets/ActorTable1ForUserScenarioExample.png)
 
-![image.png](attachment:b81641c3-4521-4d1c-b165-a2042ad894a4:image.png)
+![image.png](assets/ActorTable2ForUserScenarioExample.png)
 
 What are the possible use cases here?
 
