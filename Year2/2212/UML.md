@@ -81,7 +81,7 @@ Swimlane Diagrams indicate which actor has responsibility for the specific actio
 
 So, given our example above:
 
-![image.png|458](assets/SwimLaneDiagram.png)
+![image.png|412](assets/SwimLaneDiagram.png)
 
 As you can tell, responsibilities are represented as parallel segments that divide the diagram vertically, like a swimming pool, hence the name swimlane diagram
 
@@ -101,7 +101,7 @@ void printEvenNumbers(int start, int end){
 
 Let say we are given this small function, are we able to draw an activity diagram from it?
 
-![image.png](attachment:b9d768a1-d129-447e-9e79-16477d4c2dc6:image.png)
+![image.png|331](assets/printEvenNumbersActivityDiagram.png)
 
 it would look something like this!
 
