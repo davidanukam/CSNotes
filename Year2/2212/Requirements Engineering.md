@@ -175,7 +175,7 @@ The difference between use cases and user stories:
 
 In use cases, we typically have something called “the actor template”
 
-![image.png|91](assets/ActorTemplate.png)
+![image.png|536](assets/ActorTableExample.png)
 
 So:
 
@@ -188,7 +188,7 @@ So:
 
 We also typically have a use case template:
 
-![image.png](attachment:a14f5d70-3f75-42db-a801-1f91016de4a8:image.png)
+![image.png|541](assets/UseCaseTemplate.png)
 
 Use Case → well no shit, the use case
 
@@ -226,7 +226,7 @@ But you’re probably thinking “erm didnt we alr learn about use cases??” ye
 
 Let us do an example:
 
-![image.png](attachment:8db81bc0-7624-4b7d-a8bb-0f441527cd6b:image.png)
+![image.png](assets/Actor.png)
 
 What do we need to do?
 
