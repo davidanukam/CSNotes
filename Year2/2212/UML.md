@@ -73,7 +73,7 @@ Activity diagrams can also be used to show concurrency
 - Waits until ALL incoming flows have reached the join before proceeding
 - So, in the image we are given, the action node “mix together” can not be executed until “mix dry ingredients” and “mix wet ingredients” are both done
 
-![image.png|91](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/11c6c6d0-dff1-4fab-8963-123180cc8313/image.png)
+![image.png|431](assets/Fork&Join.png)
 
 The **Swimlane Diagram** is a useful variation of the activity diagram that allows you to represent the flow of activities
 
