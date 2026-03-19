@@ -396,13 +396,13 @@ Focuses on change management and service delivery. It shows all the projects tas
 
 It tries to limit the amount of work in progress at any given time
 
-![each square represents a task. this is called a kanban board](assets/KanbanAgileFramework.png)
+![each square represents a task. this is called a kanban board|630](assets/KanbanAgileFramework.png)
 
 each square represents a task. this is called a kanban board
 
 There is a more simple representation of this:
 
-![image.png](attachment:0c1ec02e-ebf7-4589-8e53-ad985adeb318:image.png)
+![image.png|602](assets/SImpleKanbanAgileFramework.png)
 
 **Backlog:** Tasks waiting to be selected for development
 
@@ -450,7 +450,7 @@ Involves several stages that loop continuously:
 - **Continuous Deployment:** Integrated code is deployed to the production environment
 - **Continuous Monitoring:** Team operations staff members proactively monitor software performance in the production environment
 
-![image.png](attachment:82863cba-3cde-4868-b114-b52300b32944:image.png)
+![image.png](assets/DevelopmentOperations(DevOps)AgileFramework.png)
 
 What are the pros and cons of this framework?
 
