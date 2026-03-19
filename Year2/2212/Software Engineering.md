@@ -225,7 +225,7 @@ For this and the waterfall, you are only testing the software right at the end o
 
 ### PROTOTYPING PROCESS MODEL:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/99154ab2-d55f-44cd-9e3a-5e58dee6b4eb/image.png)
+![image.png|697](assets/PrototypingProcessModel.png)
 
 Begins at communication, collecting initial known requirements, and outlining areas where further definition is necessary. Basically, you are making a prototype of your project, sending it to the stakeholder, and they provide feedback on said prototype to see if this is what they want
 
@@ -247,7 +247,7 @@ Cons:
 
 ### SPIRAL PROCESS MODEL:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/e0176f95-ff5e-4243-ba44-f361406da5e9/image.png)
+![image.png|697](assets/SpiralProcessModel.png)
 
 This kinda combines both the waterfall and prototype method, you want the controlled and well-understood method from the waterfall model, but also getting the frequent prototypes like the prototype model. This model DOES have risk management built in, since you are constantly considering what risks might come up.
 
@@ -269,7 +269,7 @@ This is considered an evolutionary model. Since the prototypes and project evolv
 
 ### UNIFIED PROCESS MODEL:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/3c5a5204-631d-4f03-8da4-82bb75357d63/9d0c9ad8-7232-4d6d-8ad6-58b6a142f528.png)
+![image.png|697](assets/UnifiedProcessModel.png)
 
 It consists of a number of phrases that map to the generic framework activities. This process model tries to overlap them a bit, into the phases like inception, elaboration, and the rest.
 
