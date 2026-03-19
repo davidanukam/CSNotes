@@ -49,7 +49,7 @@ What do Activity Diagrams do?
 - Can show concurrent flows (meaning it can show multiple tasks being carried out simultaneously)
 - Can be used to document use cases or diagramming code and algorithms
 
-![IMG_1815.jpeg](assets/ActivityDiagrams.jpeg)
+![IMG_1815.jpeg](ActivityDiagrams.jpeg)
 
 Some things to note are:
 
@@ -73,7 +73,7 @@ Activity diagrams can also be used to show concurrency
 - Waits until ALL incoming flows have reached the join before proceeding
 - So, in the image we are given, the action node “mix together” can not be executed until “mix dry ingredients” and “mix wet ingredients” are both done
 
-![image.png|431](assets/Fork&Join.png)
+![image.png|431](Fork&Join.png)
 
 The **Swimlane Diagram** is a useful variation of the activity diagram that allows you to represent the flow of activities
 
@@ -81,7 +81,7 @@ Swimlane Diagrams indicate which actor has responsibility for the specific actio
 
 So, given our example above:
 
-![image.png|406](assets/SwimLaneDiagram.png)
+![image.png|406](SwimlaneDiagram.png)
 
 As you can tell, responsibilities are represented as parallel segments that divide the diagram vertically, like a swimming pool, hence the name swimlane diagram
 
@@ -101,7 +101,7 @@ void printEvenNumbers(int start, int end){
 
 Let say we are given this small function, are we able to draw an activity diagram from it?
 
-![image.png|344](assets/PrintEvenNumbersActivityDiagram.png)
+![image.png|344](PrintEvenNumbersActivityDiagram.png)
 
 it would look something like this!
 
