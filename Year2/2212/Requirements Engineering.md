@@ -269,13 +269,13 @@ Task 3:
 
 Creating a Use Case Diagram
 
-![IMG_1875.jpeg|452](assets/UseCaseDiagramForUserScenarioExample.jpeg)
+![IMG_1875.jpeg|416](assets/UseCaseDiagramForUserScenarioExample.jpeg)
 
 It is best to keep this diagram as simple as possible
 
 Task 4:
 
-![image.png|527](assets/UseCaseTable1Part1ForUserScenarioExample.png)
+![image.png|527](UseCaseTable1Part1ForUserScenarioExample.png)
 
 ![image.png|527](UseCaseTable1Part2ForUserScenarioExample.png)
 
