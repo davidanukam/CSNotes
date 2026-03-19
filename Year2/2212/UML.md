@@ -49,7 +49,7 @@ What do Activity Diagrams do?
 - Can show concurrent flows (meaning it can show multiple tasks being carried out simultaneously)
 - Can be used to document use cases or diagramming code and algorithms
 
-![IMG_1815.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/60092032-b730-4e51-b48e-434e6619df20/IMG_1815.jpeg)
+![IMG_1815.jpeg](assets/ActivityDiagrams.jpeg)
 
 Some things to note are:
 
@@ -81,7 +81,7 @@ Swimlane Diagrams indicate which actor has responsibility for the specific actio
 
 So, given our example above:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/4b6ca2c9-a800-497f-8274-da0e0b5db6a2/image.png)
+![image.png|458](assets/SwimLaneDiagram.png)
 
 As you can tell, responsibilities are represented as parallel segments that divide the diagram vertically, like a swimming pool, hence the name swimlane diagram
 
