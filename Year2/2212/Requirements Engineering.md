@@ -42,7 +42,7 @@ So, to give more examples:
 
 If we wanted to classify these as functional or NF requirements, we would end up with:
 
-![IMG_1820.jpeg](attachment:61a90bb4-8f8d-4e3d-b4c4-6c332f89c3f6:IMG_1820.jpeg)
+![IMG_1820.jpeg](assets/AnswerOfFunctionalRequirements&Non-FunctionalRequirements.jpeg)
 
 ## REQUIREMENTS ENGINEERING:
 
