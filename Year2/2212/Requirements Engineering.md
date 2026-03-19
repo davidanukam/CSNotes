@@ -38,19 +38,19 @@ There are 2 main requirements that concern users’/stakeholders’:
 
 So, to give more examples:
 
-![image.png](ExampleOfFunctionalRequirements&Non-FunctionalRequirements.png)
+![image.png](assets/RequirementsEngineering/ExampleOfFunctionalRequirements&Non-FunctionalRequirements.png)
 
 If we wanted to classify these as functional or NF requirements, we would end up with:
 
-![IMG_1820.jpeg](AnswerOfFunctionalRequirements&Non-FunctionalRequirements.jpeg)
+![IMG_1820.jpeg](assets/RequirementsEngineering/AnswerOfFunctionalRequirements&Non-FunctionalRequirements.jpeg)
 
 ## REQUIREMENTS ENGINEERING:
 
 **Requirements engineering** is the process of developing a complete requirements specification for a project. In other words, it is the process of defining, documenting, and maintaining the needs of a system
 
-An **action** in the communication activity continues into modeling
+An **action** in the communication activity continues into modelling
 
-![image.png|570](RequirementsEngineeringAction.png)
+![image.png|570](assets/RequirementsEngineering/RequirementsEngineeringAction.png)
 
 This action entails the following tasks:
 
@@ -117,7 +117,7 @@ Remember those user scenarios that I said we will get to in the last set of note
 
 ### USERS STORIES:
 
-![image.png|588](UserStoriesTemplate.png)
+![image.png|588](assets/RequirementsEngineering/UserStoriesTemplate.png)
 
 “how things begin” is just context, so it describes the state of the system or scenario before the action actually occurs
 
@@ -138,7 +138,7 @@ Let us walk through an example:
 
 Write a user story that describes the “favorites” feature available on most Web browsers.
 
-![the priority and estimate is not something we need to be concerned about|525](UserStoryExample.jpeg)
+![the priority and estimate is not something we need to be concerned about|525](assets/RequirementsEngineering/UserStoryExample.jpeg)
 
 the priority and estimate is not something we need to be concerned about
 
@@ -175,7 +175,7 @@ The difference between use cases and user stories:
 
 In use cases, we typically have something called “the actor template”
 
-![image.png|536](ActorTableExample.png)
+![image.png|536](assets/RequirementsEngineering/ActorTableExample.png)
 
 So:
 
@@ -188,7 +188,7 @@ So:
 
 We also typically have a use case template:
 
-![image.png|541](UseCaseTemplate.png)
+![image.png|541](assets/RequirementsEngineering/UseCaseTemplate.png)
 
 Use Case → well no shit, the use case
 
@@ -226,7 +226,7 @@ But you’re probably thinking “erm didnt we alr learn about use cases??” ye
 
 Let us do an example:
 
-![image.png|568](UserScenarioExample.png)
+![image.png|568](assets/RequirementsEngineering/UserScenarioExample.png)
 
 What do we need to do?
 
