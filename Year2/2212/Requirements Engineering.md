@@ -38,7 +38,7 @@ There are 2 main requirements that concern users’/stakeholders’:
 
 So, to give more examples:
 
-![image.png](attachment:ecdb21ad-90c6-4255-93ae-92fa76a471f0:image.png)
+![image.png](assets/.png)
 
 If we wanted to classify these as functional or NF requirements, we would end up with:
 
