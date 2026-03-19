@@ -277,15 +277,15 @@ Task 4:
 
 ![image.png|527](assets/UseCaseTable1Part1ForUserScenarioExample.png)
 
-![image.png|91](UseCaseTable1Part2ForUserScenarioExample.png)
+![image.png|527](UseCaseTable1Part2ForUserScenarioExample.png)
 
 yes for scenario you go into the itty bitty details of everything
 
 Task 5:
 
-![image.png](attachment:38ef4d91-3a3f-41ce-81a5-7526f40a8d27:image.png)
+![image.png|527](UseCaseTable2Part1ForUserScenarioExample.png)
 
-![image.png](attachment:bf4324c5-cc59-4aa6-8144-74e22a00715b:image.png)
+![image.png|527](UseCaseTable2Part2ForUserScenarioExample.png)
 
 Note for task 4 and 5, if you don’t have the exact same answer, that’s fine. Everyone interprets stuff differently
 
