@@ -38,11 +38,11 @@ There are 2 main requirements that concern users’/stakeholders’:
 
 So, to give more examples:
 
-![image.png](assets/ExampleOfFunctionalRequirements&Non-FunctionalRequirements.png)
+![image.png](ExampleOfFunctionalRequirements&Non-FunctionalRequirements.png)
 
 If we wanted to classify these as functional or NF requirements, we would end up with:
 
-![IMG_1820.jpeg](assets/AnswerOfFunctionalRequirements&Non-FunctionalRequirements.jpeg)
+![IMG_1820.jpeg](AnswerOfFunctionalRequirements&Non-FunctionalRequirements.jpeg)
 
 ## REQUIREMENTS ENGINEERING:
 
@@ -50,7 +50,7 @@ If we wanted to classify these as functional or NF requirements, we would end up
 
 An **action** in the communication activity continues into modeling
 
-![image.png|570](assets/RequirementsEngineeringAction.png)
+![image.png|570](RequirementsEngineeringAction.png)
 
 This action entails the following tasks:
 
@@ -117,7 +117,7 @@ Remember those user scenarios that I said we will get to in the last set of note
 
 ### USERS STORIES:
 
-![image.png|588](assets/UserStoriesTemplate.png)
+![image.png|588](UserStoriesTemplate.png)
 
 “how things begin” is just context, so it describes the state of the system or scenario before the action actually occurs
 
@@ -138,7 +138,7 @@ Let us walk through an example:
 
 Write a user story that describes the “favorites” feature available on most Web browsers.
 
-![the priority and estimate is not something we need to be concerned about|525](assets/UserStoryExample.jpeg)
+![the priority and estimate is not something we need to be concerned about|525](UserStoryExample.jpeg)
 
 the priority and estimate is not something we need to be concerned about
 
@@ -175,7 +175,7 @@ The difference between use cases and user stories:
 
 In use cases, we typically have something called “the actor template”
 
-![image.png|536](assets/ActorTableExample.png)
+![image.png|536](ActorTableExample.png)
 
 So:
 
@@ -188,7 +188,7 @@ So:
 
 We also typically have a use case template:
 
-![image.png|541](assets/UseCaseTemplate.png)
+![image.png|541](UseCaseTemplate.png)
 
 Use Case → well no shit, the use case
 
@@ -226,7 +226,7 @@ But you’re probably thinking “erm didnt we alr learn about use cases??” ye
 
 Let us do an example:
 
-![image.png|568](assets/UserScenarioExample.png)
+![image.png|568](UserScenarioExample.png)
 
 What do we need to do?
 
@@ -254,9 +254,9 @@ Remember, in order to be considered an actor, they/it must interact with the sys
 
 Now, what if we wanted to fill out the actor template above with the actors we are given?
 
-![image.png](assets/ActorTable1ForUserScenarioExample.png)
+![image.png](ActorTable1ForUserScenarioExample.png)
 
-![image.png](assets/ActorTable2ForUserScenarioExample.png)
+![image.png](ActorTable2ForUserScenarioExample.png)
 
 What are the possible use cases here?
 
@@ -269,23 +269,23 @@ Task 3:
 
 Creating a Use Case Diagram
 
-![IMG_1875.jpeg|416](assets/UseCaseDiagramForUserScenarioExample.jpeg)
+![IMG_1875.jpeg|416](UseCaseDiagramForUserScenarioExample.jpeg)
 
 It is best to keep this diagram as simple as possible
 
 Task 4:
 
-![image.png|527](assets/UseCaseTable1Part1ForUserScenarioExample.png)
+![image.png|527](UseCaseTable1Part1ForUserScenarioExample.png)
 
-![image.png|527](assets/UseCaseTable1Part2ForUserScenarioExample.png)
+![image.png|527](UseCaseTable1Part2ForUserScenarioExample.png)
 
 yes for scenario you go into the itty bitty details of everything
 
 Task 5:
 
-![image.png|527](assets/UseCaseTable2Part1ForUserScenarioExample.png)
+![image.png|527](UseCaseTable2Part1ForUserScenarioExample.png)
 
-![image.png|527](assets/UseCaseTable2Part2ForUserScenarioExample.png)
+![image.png|527](UseCaseTable2Part2ForUserScenarioExample.png)
 
 Note for task 4 and 5, if you don’t have the exact same answer, that’s fine. Everyone interprets stuff differently
 
@@ -315,7 +315,7 @@ Agile methods have minimal rules, meaning there isn’t a lot of documentation
 
 So, how would this agile spiral model look like?
 
-![image.png|603](assets/AgileSpiralModel.png)
+![image.png|603](AgileSpiralModel.png)
 
 We unfortunately will be going through each and every single damn point that is on this graph
 
