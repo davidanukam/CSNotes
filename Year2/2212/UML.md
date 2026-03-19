@@ -139,20 +139,17 @@ Let me talk about what symbols are used in use cases and give an example
         - Each smaller subcase describes some logical unit of behavior. So, although this subcase is not directly drawn in the use cases, we have to logically figure out this subcase
         - So, for example, if we had a use case “access locked laptop”, we can assume a subcase would be “enter password” since the laptop is locked. So, we would have an includes arrow point from “access locked laptop” to the subcase “enter password”
         - This subcase is OUTSIDE of the rectangle with the use cases
-        - Above the arrow, you would put the word 
-```txt
-“<<includes>>” with the <<>>
-```
+        - Above the arrow, you would put the word `“<<includes>>”` with the `<<>>`
     - **Extends:**
         - Denotes that this use case may OPTIONALLY make use of the extended use case
         - This is just an includes arrow but pointing the opposite way
         - For example, if we had a use case “access locked laptop”, we might have an extended use case “forgot password help” in order for the user to get help in case they forgot their password. There would be an arrow extending from the “forgot password help” to the use case “access locked laptop”
         - Once again, this is also OUTSIDE of the rectangle with the use cases
-        - Above the arrow, you would put the word “<<extends>>” with the << >>
+        - Above the arrow, you would put the word `“<<extends>>”` with the `<< >>`
 
 Use case diagram are helpful in ensuring that you have covered all functionality of the system as you get to see the system as a whole
 
-Important to not over complicate a use diagram. <<includes>> and <<extends>> should also be used if they make the diagram simpler, not more complex
+Important to not over complicate a use diagram. `<<includes>>` and `<<extends>>` should also be used if they make the diagram simpler, not more complex
 
 Example:
 
@@ -164,7 +161,7 @@ Create a use diagram for the CS1 Ask Tool
 
 Who would the actors be in this case and what would the use cases be here?
 
-![image.png](attachment:58596951-6df7-40bf-ace3-b06443feff67:image.png)
+![image.png](assets/UseCaseDiagramCS1AskTool.png)
 
 ## AGILITY AND PROCESS:
 
