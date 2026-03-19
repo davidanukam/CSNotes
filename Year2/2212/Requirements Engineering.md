@@ -275,17 +275,17 @@ It is best to keep this diagram as simple as possible
 
 Task 4:
 
-![image.png|527](UseCaseTable1Part1ForUserScenarioExample.png)
+![image.png|527](assets/UseCaseTable1Part1ForUserScenarioExample.png)
 
-![image.png|527](UseCaseTable1Part2ForUserScenarioExample.png)
+![image.png|527](assets/UseCaseTable1Part2ForUserScenarioExample.png)
 
 yes for scenario you go into the itty bitty details of everything
 
 Task 5:
 
-![image.png|527](UseCaseTable2Part1ForUserScenarioExample.png)
+![image.png|527](assets/UseCaseTable2Part1ForUserScenarioExample.png)
 
-![image.png|527](UseCaseTable2Part2ForUserScenarioExample.png)
+![image.png|527](assets/UseCaseTable2Part2ForUserScenarioExample.png)
 
 Note for task 4 and 5, if you don’t have the exact same answer, that’s fine. Everyone interprets stuff differently
 
@@ -315,7 +315,7 @@ Agile methods have minimal rules, meaning there isn’t a lot of documentation
 
 So, how would this agile spiral model look like?
 
-![image.png](attachment:0d1bdd4e-b29d-4f43-9c2c-f9997b9ec3bf:image.png)
+![image.png|603](assets/AgileSpiralModel.png)
 
 We unfortunately will be going through each and every single damn point that is on this graph
 
