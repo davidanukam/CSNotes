@@ -311,7 +311,7 @@ Since this does rely on face-to-face meetings, here are the different type of me
     2. What went well, what could be improved, and what the team will commit to improving in the next sprint
     3. Meeting is run by the scrum master
 
-![image.png](attachment:3c542a70-510b-4d41-91d2-659600efc13c:image.png)
+![image.png](assets/Scrum.png)
 
 Okay, so what are the pros and cons of scrum?
 
