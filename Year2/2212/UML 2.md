@@ -198,7 +198,7 @@ some important things to note:
 - A person can be the author of zero or more books
 - A book can be authored by 1 or more people
 
-![IMG_2001.jpeg|450](assets/UML2/.jpeg)
+![IMG_2001.jpeg|697](assets/UML2/ClassExample2.jpeg)
 
 Example 3:
 
@@ -222,7 +222,7 @@ things to note:
 
 - Add an **interface** to your class diagram called Media that has methods getAuthor() and addAuthor(). Assume that the Book class now **implements** this interface
 
-![there is no need to add the getAuthor and addAuthor in book and music class, since they implement the same methods from the interface Media](attachment:811fc240-9a91-44d3-b2c1-c967bf14107c:IMG_2002.jpeg)
+![ClassExample3|697](assets/UML2/ClassExample3.jpeg)
 
 there is no need to add the getAuthor and addAuthor in book and music class, since they implement the same methods from the interface Media
 
@@ -252,7 +252,7 @@ note:
 
 - use the diagram from before and simply add the customer class
 
-![IMG_2003.jpeg](attachment:41213873-c482-43ee-b077-408a225cde5f:IMG_2003.jpeg)
+![ClassExample4|697](assets/UML2/ClassExample4.jpeg)
 
 We did reverse engineering a class diagram. Let us try forward engineering a class!
 
