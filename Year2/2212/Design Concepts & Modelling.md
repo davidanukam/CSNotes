@@ -1,6 +1,6 @@
 ## SOFTWARE DESIGN:
 
-![image.png](attachment:8979a253-5d25-4e21-a9f9-98a7f6111c3c:image.png)
+![Modelling](assetrs.png)
 
 Good software design should exhibit:
 
