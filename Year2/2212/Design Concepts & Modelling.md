@@ -503,7 +503,7 @@ A controller is an abstraction that allows for arming and disarming of a node. T
 
 As architectural design proceeds, we naturally refine archetypes. So, we might refine the Detector archetype into the Sensor class hierarchy
 
-![image.png](attachment:fe504402-1a54-42a1-9687-cfe301ef32bc:acae9803-c3c8-4d7a-b1e7-61473a9fcb02.png)
+![ArchetypeSensorExample|500](assets/DesignConcepts&Modelling/ArchetypeSensorExample.png)
 
 As we refine archetypes into components, the structure of the system begins to emerge.
 
