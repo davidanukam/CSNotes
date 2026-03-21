@@ -84,7 +84,7 @@ There are two others: dependency and composition, but we won’t cover these. On
 
 ### **ASSOCIATION:**
 
-![image.png](attachment:46f72d13-7407-48a5-afeb-8b41a1957029:image.png)
+![image.png|91](attachment:46f72d13-7407-48a5-afeb-8b41a1957029:image.png)
 
 An **association** is a structural relationship that represents how two entities are linked or connected to each other within a system
 
