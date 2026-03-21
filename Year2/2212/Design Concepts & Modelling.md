@@ -359,7 +359,7 @@ An **advantage** of this style is that components can be changed or added to the
 
 ### DATA FLOW:
 
-![Dar](attachment:d87c652b-ebfa-4ed2-a276-24268a95883c:d66f0ed4-8b1f-4906-b015-22f2b8d12661.png)
+![DataFlow|697](assets/DesignConcepts&Modelling/DataFlow.png)
 
 In this style, independent components called **filters** are used to transform data.
 
@@ -371,7 +371,7 @@ Common applications of this style is in data processing applications, as well as
 
 ### CALL-AND-RETURN:
 
-![image.png](attachment:69a41a60-bed7-4ebd-b86a-0f393ac08494:6e8e2012-9521-4de4-85da-ed0e9310744a.png)
+![CallAndReturn|697](assets/DesignConcepts&Modelling/CallAndReturn.png)
 
 This architectural style aims for a program structure that is relatively easy to modify and scale.
 
@@ -388,7 +388,7 @@ Communication between components are accomplished via message passage (invoking 
 
 ### LAYERED:
 
-![image.png](attachment:85da8c41-44db-4d85-8e92-47885f2aee41:image.png)
+![Layered|500](assets/DesignConcepts&Modelling/Layered.png)
 
 In this style, layers are defined that provide services to the layers above it through operations completed by interacting with the lower layers
 
@@ -400,7 +400,7 @@ We can see each layer getting more abstract as we go towards the outer layer and
 
 ### MODEL-VIEW-CONTROLLER:
 
-![image.png](attachment:bd78e702-85ec-4bd6-8ab6-72a07297245e:image.png)
+![ModelViewController](attachment:bd78e702-85ec-4bd6-8ab6-72a07297245e:image.png)
 
 This style is very popular in web and mobile development
 
