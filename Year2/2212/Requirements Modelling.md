@@ -277,7 +277,7 @@ Guards are Boolean conditions to transitions that must be satisfied in order for
 
 Lastly, we have actions. These are optional and denote something that occurs concurrently with or as a consequence of a transition
 
-![image.png](attachment:619954da-e556-4765-b0ef-63ab3e027c9c:1390e565-dc26-4f81-a3c4-7ccf6130ca16.png)
+![Actions|697](assets/RequirementsModelling/Actions.png)
 
 Well, now that we know what state diagrams are, you are might be thinking “What the fart is the difference between a state and an activity diagram?”
 
@@ -301,7 +301,7 @@ In a way, sequence diagrams can be seen as a shorthand version of a use case, re
 
 Example: In the below example, we are documenting how events cause transitions between objects in the safehome system based on the initial event triggered by the homeowner
 
-![IMG_2012.jpeg](attachment:4fa15b22-3b8b-41b2-b385-43bf79088fdd:IMG_2012.jpeg)
+![SequenceDiagram|697](assets/RequirementsModelling/SequenceDiagram.jpeg)
 
 At the top of the diagram, we have a list of objects and actors (the actor is represented by stick figures, while objects are represented by rectangles)
 
@@ -325,7 +325,7 @@ Next, we have **activation bar.** These represent time processing the activity. 
 
 Lastly, we have **interaction frames.** These are a relatively new notation in UML 2, so you might not see them in older diagrams. Interaction frames allow us to define control structures such as decisions or loops. A box is drawn around the part of the diagram that is going to be impacted by the decision/loop. We then add a Boolean statement in square brackets called “guard”, similar to the state diagram
 
-![image.png](attachment:6a9b7f99-a23b-43a5-b01b-cc8a1a3c10e9:a9667171-100b-4d57-bfd4-e6e1ed1e1123.png)
+![InteractionFrame|697](assets/RequirementsModelling/InteractionFrame.png)
 
 ^ this diagram shows us activating the sensors after a password is correctly input. We added the interaction frame so we can show that this happens for every sensor. Only add this if it makes it more clear
 
