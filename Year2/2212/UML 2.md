@@ -84,7 +84,7 @@ There are two others: dependency and composition, but we won’t cover these. On
 
 ### **ASSOCIATION:**
 
-![image.png|91](attachment:46f72d13-7407-48a5-afeb-8b41a1957029:image.png)
+![image.png|50](assets/UML2/AssociationArrow.png)
 
 An **association** is a structural relationship that represents how two entities are linked or connected to each other within a system
 
@@ -92,7 +92,7 @@ If two classes need to communicate with each other, there must be a link between
 
 Let us do a small example:
 
-![image.png](attachment:51e266df-688c-4b99-aa49-0029b8c7aafa:image.png)
+![image.png|50](assets/UML2/.png)
 
 If we wrote a method in course class, we can use it in the student and professor class since there is an association between them
 
