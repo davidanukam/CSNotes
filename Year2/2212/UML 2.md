@@ -124,7 +124,7 @@ You can also use other numbers for this, it doesn't have to be only 0 and 1
 
 ### GENERALIZATION:
 
-![image.png](assets/UML2/.png)
+![image.png|50](assets/UML2/GeneralizationArrow.png)
 
 **Generalizations** represents inheritance relationship between 2 classes. The arrow points to the parent object in the relationship. If you see the `extends` keyword in a java code, that is considered generalization
 
@@ -132,7 +132,7 @@ A better example will be provided when we actually want to draw one. Cause now y
 
 ### REALIZATION:
 
-![image.png](attachment:2608b448-25e4-4442-b868-92e9f767cda0:image.png)
+![image.png|50](assets/UML2/RealizationArrow.png)
 
 **Realizations** represents a relationship where a class implements an INTERFACE. So, it is where one element defines certain responsibilities or behaviors (usually through an interface), but does not provide an implementation. The other element (usually a class) then implements those responsibilities. If you see the `implements` keyword in java, this is realization
 
@@ -142,7 +142,7 @@ Usually things like interfaces and enumeration are enclosed by `<< >>` and place
 
 UML allows you to give differing level of details in your diagram based on the concept you are focusing on, your target audience, and if you are using it for conceptual or software modeling.
 
-![image.png](attachment:05e501e5-a019-4e7a-bc3b-e5421c0d1efe:image.png)
+![image.png](assets/UML2/LowDetailToHighDetailModelling.png)
 
 conceptual modeling is just very abstract, there isn’t much detail on the attributes and methods that will be used in the class. software modeling, obviously, is more in depth.
 
