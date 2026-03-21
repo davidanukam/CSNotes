@@ -424,7 +424,7 @@ Each pattern focuses on a specific and common problem, and provides a descriptio
 
 Remember, these aren’t code, rather, they are high-level descriptions of the solution
 
-![ArchitecturalStyleAndPatt](assets/DesignConcepts&Modelling/ArchitecturalStyleAndPatterns.png)
+![ArchitecturalStyleAndPatterns|500](assets/DesignConcepts&Modelling/ArchitecturalStyleAndPatterns.png)
 
 The main difference between the architectural style and pattern is:
 
@@ -452,7 +452,7 @@ One of the ways we provide visual representation of architectural context is thr
 
 This is NOT a UML diagram, as UML does not contain any diagrams specifically for showing system contact. But, it can be helpful with the conjunction with other UML representations to detail a systems architecture
 
-![image.png](attachment:6fa92357-120d-463f-ad97-5d5b9ca0726d:image.png)
+![ArchitecturalContextDiagram(ACD)|527](assets/DesignConcepts&Modelling/ArchitecturalContextDiagram(ACD).png)
 
 Our **target system** is the system or part of the system we are creating
 
