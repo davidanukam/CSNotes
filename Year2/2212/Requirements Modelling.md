@@ -142,7 +142,7 @@ The homeowner receives security information via a control panel, the PC, or a br
 
 These are some operations that might exist, but we obviously need to think about what class will they belong to
 
-![image.png](attachment:def3e90c-047b-4062-9529-a5ea214354c1:image.png)
+![image.png|252](assets/RequirementsModelling/AnalysisClassExample.png)
 
 Analysis classes should contain a class name, list of attributes, and a list of operations
 
