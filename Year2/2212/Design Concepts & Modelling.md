@@ -468,7 +468,7 @@ By doing this, it allow us to know its dependencies as well as what interfaces i
 
 Below is an example of an ACD about this damn SafeHome system
 
-![image.png|500](assets/DesignConcepts&Modelling/ACDofSafeHomeSystem.png)
+![ACDofSafeHomeSystem|500](assets/DesignConcepts&Modelling/ACDofSafeHomeSystem.png)
 
 ### **ARCHETYPES:**
 
@@ -482,7 +482,7 @@ We can figure out what type of archetypes we need by examining our requirements 
 
 EXAMPLE:
 
-![image.png](attachment:227f3214-d27f-4b14-9285-6a07b5c0f3a8:e0267737-8f3a-4930-99cb-2335089f02da.png)
+![ArchetypeExample|500](assets/DesignConcepts&Modelling/ArchetypeExample.png)
 
 This is an extremely abstract class diagram that only shows basic relationships and class names
 
