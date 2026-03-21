@@ -531,7 +531,7 @@ In our case, they depends on an interface provided by another component
 
 Let us take a look at what exactly this component diagram is even trying to tell us
 
-![image.png](attachment:727bae56-f862-4591-a54e-c9220ad544e8:image.png)
+![ExternalCommunicationManagementComponent](assets/DesignConcepts&Modelling/ExternalCommunicationManagementComponent.png)
 
 first, we have an external communication management component. This component acquires and processes transactions as they move from the user-facing components such as the GUI and the internet interface and calls the SafeHome executive component to complete its functions
 
