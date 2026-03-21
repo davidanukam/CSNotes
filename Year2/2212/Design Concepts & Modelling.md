@@ -229,11 +229,11 @@ For this example, let us focus on the Pothole class
 
 An analysis class just briefly lists the variables and functions, its a simpler version of the class diagram. So it would look something like this:
 
-![AnalysisClass](assets/DesignConcepts&Modelling/Anal.png)
+![AnalysisClass|300](assets/DesignConcepts&Modelling/AnalysisClass.png)
 
 In order to refine this into a design class, we essentially add parameters, types, return value, visibility. So make it a class diagram BUT more detailed
 
-![image.png](attachment:a51bfbbe-eb26-49eb-914c-eb276db1337d:image.png)
+![DesignClass|500](assets/DesignConcepts&Modelling/DesignClass.png)
 
 You can also add relationships to this and so on
 
@@ -264,7 +264,7 @@ Elements of the design model include software engineering design pyramid + deplo
 - Data model is compromised of data object and database architectures
 - Data objects can be an external entity, a thing, event, place, structure, whatever. They contain a set of attributes that act as a quality, characteristic, or descriptor of the object. They may be connected to one another in many different ways
 
-![image.png](attachment:f3d4b1ea-d0b3-4713-884b-7718cc638bbf:image.png)
+![EntityRelationshipDiagram](attachment:f3d4b1ea-d0b3-4713-884b-7718cc638bbf:image.png)
 
 this is considered a data model
 
