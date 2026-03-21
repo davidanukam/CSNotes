@@ -261,19 +261,19 @@ The first black node represents the initial pseudo-state. It isn’t a real stat
 
 The states are the ones represented in the blue boxes below
 
-![Stages](assets/RequirementsModelling/Stages.png)
+![States|697](assets/RequirementsModelling/States.png)
 
 - each state is given a name, as well as additional information such as conditions that trigger an action
 
 Transitions are denoted by arrows that are labeled with the name of events that trigger the transition
 
-![image.png](attachment:29928141-8c74-4cb2-a538-7b8169d8f87b:1af8c524-5780-4463-8f43-8a9af9d7fd9d.png)
+![Transitions|697](assets/RequirementsModelling/Transitions.png)
 
 states can have multiple possible transitions entering and leaving them
 
 Guards are Boolean conditions to transitions that must be satisfied in order for transition to occur
 
-![image.png](attachment:2dd9ac89-0acb-4843-bb90-ef15140eb280:7c777448-3f1c-4bab-8d37-5bca4d5f9842.png)
+![Guards&Booleans](assets/RequirementsModelling/Guards&Booleans.png)
 
 Lastly, we have actions. These are optional and denote something that occurs concurrently with or as a consequence of a transition
 
