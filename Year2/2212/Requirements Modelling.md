@@ -28,9 +28,9 @@ Requirements models is actually made up of smaller, more specific models
 - **Data Models:** Depict the information domain for the problem we are trying to solve. This encompasses areas such as databases, data architecture, data management, anything to do with data. One work we might use is something called Entity Relationship Diagram (ERD). We won’t really talk abt it but I’ll attach an image
 - **Flow-Oriented Models:** Represent functional elements of the system and how they transform data in the system. These models are often detailed in something called Data Flow Diagram (DFD)
 
-![image.png](attachment:3963c8e6-eeec-4e69-a5ab-085155e3fa1e:image.png)
+![En|697](assets/RequirementsModelling/EntityRelationshipDiagram(ERD).png)
 
-![image.png](attachment:a209d951-f00e-41ff-8b5f-93de1c93f016:image.png)
+![image.png|697](assets/RequirementsModelling/DataFlowDiagram(DFD).png)
 
 We will mainly focus on behavioral and class-oriented modeling
 
