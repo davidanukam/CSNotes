@@ -539,7 +539,7 @@ first, we have an external communication management component. This component ac
 
 The SafeHome executive component manages the information and selects the appropriate product function based on the transactions passed to it from the external communication management component. For the sake of this example, let us say its calling our security function
 
-![image.png|300](assets/DesignConcepts&Modelling/SubComponents.png)
+![SubComponents|697](assets/DesignConcepts&Modelling/SubComponents.png)
 
 Under the security function, we have the control panel component that processes physical input from the homeowner, and calls on the security function to arm and disarm the system
 
@@ -557,7 +557,7 @@ This would be accomplished by applying the architecture to a specific part of ou
 
 After elaborating the SafeHome security functions, we might end up with something like:
 
-![image.png](attachment:8d8c2e96-05a2-4ef0-982a-ff1d5399d004:image.png)
+![ElaboratedSafeHomeArchitecture|697](assets/DesignConcepts&Modelling/ElaboratedSafeHomeArchitecture.png)
 
 with more detail on each sensor type and security component
 
