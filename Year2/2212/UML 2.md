@@ -264,7 +264,7 @@ Create a UML diagram for a design of a shopping cart system. It should contain t
     
 - A **User class** that represents a user of the store. It should have attributes for their name, address, and email and operations to get/set their values. The User class should also contain a reference to the one ShoppingCart that belongs to the user.
     
-    ![Untitled Diagram.png](attachment:5b75f63c-1eb1-4372-9eeb-34000d109d2f:Untitled_Diagram.png)
+    ![ClassDiagramForShoppingCartExample|661](assets/UML2/ClassDiagramForShoppingCartExample.png)
     
 
 ## DEPLOYMENT DIAGRAM:
@@ -278,7 +278,7 @@ UML deployment diagrams are used to visually represent this setup. These diagram
 
 Descriptor form example:
 
-![image.png](attachment:5fca47fe-2405-4826-98c5-5de49e942d78:image.png)
+![DescriptorF](attachment:5fca47fe-2405-4826-98c5-5de49e942d78:image.png)
 
 This is what the environment will look like for example, we don’t know what servers or machines will be used, but its a general overview of what implements what and so on
 
