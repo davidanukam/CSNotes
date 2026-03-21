@@ -517,13 +517,13 @@ EXAMPLE:
 
 Now, let us take a look at the overall safe home architecture
 
-![this is called a component diagram, he said we never looked at it too closely so dont shoot the messenger](assets/DesignConcepts&Modelling/SafeHomeComponent.png)
+![SafeHomeComponentDiagram|697](assets/DesignConcepts&Modelling/SafeHomeComponentDiagram.png)
 
 this is called a component diagram, he said we never looked at it too closely so dont shoot the messenger
 
 Let us look through some of the parts
 
-![image.png](attachment:fea2484c-aa26-46bd-abd0-9c3338ecfa68:image.png)
+![SafeHomeExecutiveComponent](assets/DesignConcepts&Modelling/SafeHomeExecutiveComponent.png)
 
 The dotted lines drawn between the components are dependencies. Dependencies are directional relationships which are used to show that some some elements depends on other elements for specification or implementation
 
