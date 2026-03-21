@@ -452,7 +452,7 @@ One of the ways we provide visual representation of architectural context is thr
 
 This is NOT a UML diagram, as UML does not contain any diagrams specifically for showing system contact. But, it can be helpful with the conjunction with other UML representations to detail a systems architecture
 
-![ArchitecturalContextDiagram(ACD)|527](assets/DesignConcepts&Modelling/ArchitecturalContextDiagram(ACD).png)
+![ArchitecturalContextDiagram(ACD)|500](assets/DesignConcepts&Modelling/ArchitecturalContextDiagram(ACD).png)
 
 Our **target system** is the system or part of the system we are creating
 
@@ -468,7 +468,7 @@ By doing this, it allow us to know its dependencies as well as what interfaces i
 
 Below is an example of an ACD about this damn SafeHome system
 
-![image.png](attachment:4eebaa56-1b93-4cb7-8b38-8b9a1c4d9b5b:image.png)
+![image.png|500](assets/DesignConcepts&Modelling/ACDofSafeHomeSystem.png)
 
 ### **ARCHETYPES:**
 
