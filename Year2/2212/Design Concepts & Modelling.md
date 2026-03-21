@@ -523,7 +523,7 @@ this is called a component diagram, he said we never looked at it too closely so
 
 Let us look through some of the parts
 
-![SafeHomeExecutiveComponent](assets/DesignConcepts&Modelling/SafeHomeExecutiveComponent.png)
+![SafeHomeExecutiveComponent|300](assets/DesignConcepts&Modelling/SafeHomeExecutiveComponent.png)
 
 The dotted lines drawn between the components are dependencies. Dependencies are directional relationships which are used to show that some some elements depends on other elements for specification or implementation
 
@@ -531,15 +531,15 @@ In our case, they depends on an interface provided by another component
 
 Let us take a look at what exactly this component diagram is even trying to tell us
 
-![ExternalCommunicationManagementComponent](assets/DesignConcepts&Modelling/ExternalCommunicationManagementComponent.png)
+![ExternalCommunicationManagementComponent|300](assets/DesignConcepts&Modelling/ExternalCommunicationManagementComponent.png)
 
 first, we have an external communication management component. This component acquires and processes transactions as they move from the user-facing components such as the GUI and the internet interface and calls the SafeHome executive component to complete its functions
 
-![image.png](attachment:db6ccf3b-eecd-416d-9ba3-906e5d488903:41f1856a-2bc6-4ce7-9aef-4fe46dae3efd.png)
+![SafeHomeExecutiveComponent2|300](assets/DesignConcepts&Modelling/SafeHomeExecutiveComponent2.png)
 
 The SafeHome executive component manages the information and selects the appropriate product function based on the transactions passed to it from the external communication management component. For the sake of this example, let us say its calling our security function
 
-![image.png](attachment:f59c4249-5cfb-4f06-b374-037c2dd9aa98:image.png)
+![image.png|300](assets/DesignConcepts&Modelling/SubComponents.png)
 
 Under the security function, we have the control panel component that processes physical input from the homeowner, and calls on the security function to arm and disarm the system
 
