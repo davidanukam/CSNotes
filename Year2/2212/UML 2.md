@@ -278,13 +278,13 @@ UML deployment diagrams are used to visually represent this setup. These diagram
 
 Descriptor form example:
 
-![DescriptorF](attachment:5fca47fe-2405-4826-98c5-5de49e942d78:image.png)
+![DescriptorFormExample|480](assets/UML2/DescriptorFormExample.png)
 
 This is what the environment will look like for example, we don’t know what servers or machines will be used, but its a general overview of what implements what and so on
 
 Instance Form:
 
-![image.png](attachment:a0d53ec6-ab38-4bdc-b13e-e3931de1d4ac:image.png)
+![InstanceFormExample|480](assets/UML2/InstanceFormExample.png)
 
 more specific, we see what servers are being used and so on
 
