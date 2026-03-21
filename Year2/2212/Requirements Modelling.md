@@ -164,7 +164,7 @@ Each card is divided into three sections:
 - List the class responsibilities on the left
 - List the collaborators on the right
 
-![image.png](attachment:d5439e8e-9b9f-4001-bf11-70e45e04888d:image.png)
+![ClassResponsibilityCollaborator(CRC)Card|697](assets/RequirementsModelling/ClassResponsibilityCollaborator(CRC)Card.png)
 
 something like this, the “collaborator” are the classes it collabs with
 
@@ -214,7 +214,7 @@ Example 2:
 
 Given this use case, identify all EVENTS in this use case:
 
-![image.png](attachment:f7512ccf-c81f-4673-8b6b-1d1e09360339:image.png)
+![UseCaseTable](assets/RequirementsModelling/.png)
 
 The events in this case would be:
 
