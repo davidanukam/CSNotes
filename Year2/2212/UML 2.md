@@ -319,7 +319,7 @@ The analysis process involves reviewing multiple sources of domain knowledge, in
 - Expert advice
 - Current/future requirements
 
-![image.png](attachment:6c73180c-6470-48ce-a3b3-01ec5e54448f:image.png)
+![DomainAnalysisDiagram|697](assets/UML2/DomainAnalysisDiagram.png)
 
 This analysis should result in a domain analysis model that contains:
 
