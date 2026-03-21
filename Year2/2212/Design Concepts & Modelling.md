@@ -264,7 +264,7 @@ Elements of the design model include software engineering design pyramid + deplo
 - Data model is compromised of data object and database architectures
 - Data objects can be an external entity, a thing, event, place, structure, whatever. They contain a set of attributes that act as a quality, characteristic, or descriptor of the object. They may be connected to one another in many different ways
 
-![EntityRelationshipDiagram](attachment:f3d4b1ea-d0b3-4713-884b-7718cc638bbf:image.png)
+![EntityRelationshipDiagram(ERD)|500](assets/DesignConcepts&Modelling/EntityRelationshipDiagram(ERD).png)
 
 this is considered a data model
 
@@ -347,7 +347,7 @@ A software architectural style dictates an overall vision of the system that imp
 
 ### **DATA-CENTERED:**
 
-![image.png](attachment:e26bef4e-9978-45ff-bc2c-7c800f106b4d:image.png)
+![DataCentered|697](assets/DesignConcepts&Modelling/DataCentered.png)
 
 In this style, data store resides at the center of the architecture. This can be a data base, or other kind store such as a file system, repository, or a blackboard.
 
@@ -359,7 +359,7 @@ An **advantage** of this style is that components can be changed or added to the
 
 ### DATA FLOW:
 
-![image.png](attachment:d87c652b-ebfa-4ed2-a276-24268a95883c:d66f0ed4-8b1f-4906-b015-22f2b8d12661.png)
+![Dar](attachment:d87c652b-ebfa-4ed2-a276-24268a95883c:d66f0ed4-8b1f-4906-b015-22f2b8d12661.png)
 
 In this style, independent components called **filters** are used to transform data.
 
