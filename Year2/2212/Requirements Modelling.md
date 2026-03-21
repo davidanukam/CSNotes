@@ -88,7 +88,7 @@ The homeowner receives security information via a control panel, the PC, or a br
 
 Let us throw these into a table:
 
-![image.png](attachment:552b1f16-9db7-45f4-ae95-b3b42da9539d:image.png)
+![image.png|697](assets/RequirementsModelling/PotentialClass&GeneralClassification.png)
 
 Now that we have these nouns, how do we know which ones are going to be classes? There are characteristics that should be used to consider each potential class for inclusion:
 
@@ -101,7 +101,7 @@ Now that we have these nouns, how do we know which ones are going to be classes?
 
 Let us apply these on the above nouns
 
-![image.png](attachment:e092eab4-ef49-4342-8283-ac9feab6be29:image.png)
+![image.png|697](assets/RequirementsModelling/PotentialClass&GeneralClassificationAnalyzed.png)
 
 - homeowner is rejected since no information is stored about the homeowner, and they don’t have any identifiable operations
 - installation is rejected since this is an occurrence, and not truly part of the system when its running
