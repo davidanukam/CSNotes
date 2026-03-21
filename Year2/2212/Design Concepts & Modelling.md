@@ -48,7 +48,7 @@ In order to create a structured plan that ensures the software is efficient, mai
     - Converts high-level system structures into detailed functional descriptions for each software component
     - Defines the internal data structures and processing methods for each component
     
-    ![image.png|91](attachment:f096c83f-c1d0-4fc9-bebc-808cd0efa50d:image.png)
+    ![AnalysisModelToDesignModel|661](assets/DesignConcepts&Modelling/AnalysisModelToDesignModel.png)
     
 
 These models and designs become the blueprint for the **Construction Activity.** A good design leads to high-quality software product. But, what is considered a “good” design? How do we ensure that our design is good?
@@ -57,7 +57,7 @@ These models and designs become the blueprint for the **Construction Activity.**
 
 Don’t just start designing and pray that it is good. There are actual guidelines people tend to follow to ensure that their software has a good design:
 
-1. The design must fulfill both explicit and implicit customer requirements
+1. The design must fulfil both explicit and implicit customer requirements
     - So, for example, if the stakeholder wants a login system, you have to take into consideration that you might need a “forget password?” button. Although the stakeholder didn’t explicitly say they wanted it, it’s implied
 2. The design must be clear and easy to understand for developers, testers, and support teams
     - It is very important to know your audience
@@ -88,7 +88,7 @@ Design concepts are concepts that must be understood before design practices are
 - Involves simplifying a complex system by focusing on the essential features and disregarding the irrelevant details. It helps in identifying general principles that can apply across various situations
 - Levels of abstraction can be looked at like this:
 
-![image.png](attachment:fedbc88f-b53b-4b18-9d5c-72bc1dce3f12:image.png)
+![Abstraction](assets/DesignConcepts&Modelling/LevelsOfAbstraction.png)
 
 - There are two types of abstractions we have:
     - **Procedural abstraction:** Design concept where complex processes or tasks are simplified by encapsulating them into a procedure . This allows the users or developers to interact with the procedure at a high level without needing to understand the intricate details of how it works internally
