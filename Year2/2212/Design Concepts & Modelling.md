@@ -400,7 +400,7 @@ We can see each layer getting more abstract as we go towards the outer layer and
 
 ### MODEL-VIEW-CONTROLLER:
 
-![ModelViewController](attachment:bd78e702-85ec-4bd6-8ab6-72a07297245e:image.png)
+![ModelViewController|697](assets/DesignConcepts&Modelling/ModelViewController.png)
 
 This style is very popular in web and mobile development
 
@@ -424,7 +424,7 @@ Each pattern focuses on a specific and common problem, and provides a descriptio
 
 Remember, these aren’t code, rather, they are high-level descriptions of the solution
 
-![image.png](attachment:1ec22b35-3c23-41f5-8b29-32523ae5391d:image.png)
+![ArchitecturalStyleAndPatt](assets/DesignConcepts&Modelling/ArchitecturalStyleAndPatterns.png)
 
 The main difference between the architectural style and pattern is:
 
