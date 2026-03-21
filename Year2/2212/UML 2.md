@@ -92,13 +92,13 @@ If two classes need to communicate with each other, there must be a link between
 
 Let us do a small example:
 
-![image.png|50](assets/UML2/.png)
+![image.png|697](assets/UML2/AssociationExample.png)
 
 If we wrote a method in course class, we can use it in the student and professor class since there is an association between them
 
 You can also add multiplicity as well:
 
-![image.png](attachment:4a9d0987-b61e-49bf-a88e-3e0a828024f6:cd9772a5-7712-4965-9de4-5596658fc184.png)
+![image.png|697](assets/UML2/AssociationMultiplicityExample.png)
 
 Let us talk about what they indicate:
 
@@ -124,7 +124,7 @@ You can also use other numbers for this, it doesn't have to be only 0 and 1
 
 ### GENERALIZATION:
 
-![image.png](attachment:78935ebd-1d07-4be7-bae8-f33d502ec0d3:image.png)
+![image.png](assets/UML2/.png)
 
 **Generalizations** represents inheritance relationship between 2 classes. The arrow points to the parent object in the relationship. If you see the `extends` keyword in a java code, that is considered generalization
 
