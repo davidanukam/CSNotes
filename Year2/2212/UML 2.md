@@ -26,7 +26,7 @@ For methods: you cam add return types, parameter names, and types
 
 For attributes and operations, you can add visibility that indicates which other classes can see and access them (use + for PUBLIC, - for PRIVATE, # for PROTECTED)
 
-![image.png](attachment:e6d4b7ac-3892-4ac4-90fe-87073d80e811:image.png)
+![ComponentsOfAClass|257](assets/UML2/ComponentsOfAClass.png)
 
 So, a better example would be something like:
 
