@@ -142,7 +142,7 @@ Usually things like interfaces and enumeration are enclosed by `<< >>` and place
 
 UML allows you to give differing level of details in your diagram based on the concept you are focusing on, your target audience, and if you are using it for conceptual or software modeling.
 
-![image.png](assets/UML2/LowDetailToHighDetailModelling.png)
+![image.png|697](assets/UML2/LowDetailToHighDetailModelling.png)
 
 conceptual modeling is just very abstract, there isn’t much detail on the attributes and methods that will be used in the class. software modeling, obviously, is more in depth.
 
@@ -170,7 +170,7 @@ public class Person {
 }
 ```
 
-![IMG_1997.jpeg](attachment:a04762fb-fecb-4479-989e-c822424f2757:IMG_1997.jpeg)
+![IMG_1997.jpeg|450](assets/UML2/ClassExample.jpeg)
 
 simple enough, i mean its just one class
 
@@ -198,7 +198,7 @@ some important things to note:
 - A person can be the author of zero or more books
 - A book can be authored by 1 or more people
 
-![IMG_2001.jpeg](attachment:b260a989-6411-42a1-adbf-5dcdd38f5cd9:IMG_2001.jpeg)
+![IMG_2001.jpeg|450](assets/UML2/.jpeg)
 
 Example 3:
 
