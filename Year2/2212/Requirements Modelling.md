@@ -10,7 +10,7 @@ The benefits of this process for us are more detailed in models that depict vari
 
 The idea here is that:
 
-![image.png](attachment:ad1a56d9-1892-42c6-b8ae-fffa7175620b:image.png)
+![Modelling|697](assets/RequirementsModelling/Modelling.png)
 
 we have already completed the communication activity, we have our requirements, and now, we are starting to model these requirements into something we can use to build the software
 
