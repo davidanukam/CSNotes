@@ -28,7 +28,7 @@ So, for example, imagine building a house without a blueprint. You might finish 
 
 In order to create a structured plan that ensures the software is efficient, maintainable, and meets user needs before coding begins, we use the software engineering design
 
-![SoftwareEngineeringDesign|697](assets/DesignConcepts&Modelling/SoftwareEngineeringDesign.png)
+![SoftwareEngineeringDesign|500](assets/DesignConcepts&Modelling/SoftwareEngineeringDesign.png)
 
 - **DATA/CLASS DESIGN:**
     
@@ -88,7 +88,7 @@ Design concepts are concepts that must be understood before design practices are
 - Involves simplifying a complex system by focusing on the essential features and disregarding the irrelevant details. It helps in identifying general principles that can apply across various situations
 - Levels of abstraction can be looked at like this:
 
-![Abstraction](assets/DesignConcepts&Modelling/LevelsOfAbstraction.png)
+![LevelsOfAbstraction|429](assets/DesignConcepts&Modelling/LevelsOfAbstraction.png)
 
 - There are two types of abstractions we have:
     - **Procedural abstraction:** Design concept where complex processes or tasks are simplified by encapsulating them into a procedure . This allows the users or developers to interact with the procedure at a high level without needing to understand the intricate details of how it works internally
@@ -229,7 +229,7 @@ For this example, let us focus on the Pothole class
 
 An analysis class just briefly lists the variables and functions, its a simpler version of the class diagram. So it would look something like this:
 
-![image.png](attachment:69163a94-326d-4678-a4be-afac512dcdf5:image.png)
+![AnalysisClass](assets/DesignConcepts&Modelling/Anal.png)
 
 In order to refine this into a design class, we essentially add parameters, types, return value, visibility. So make it a class diagram BUT more detailed
 
