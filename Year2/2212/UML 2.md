@@ -64,7 +64,7 @@ Example:
 
 Static operations + attributes are shown by underlining them in the class
 
-![image.png](attachment:f8b81480-cdfd-494e-88ff-ab44c9c379e8:image.png)
+![ComponentsOfAClassStaticExample|260](assets/UML2/ComponentsOfAClassStaticExample.png)
 
 so here, display() and delayTime are static
 
