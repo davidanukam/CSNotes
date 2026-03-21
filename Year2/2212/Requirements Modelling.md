@@ -214,7 +214,7 @@ Example 2:
 
 Given this use case, identify all EVENTS in this use case:
 
-![UseCaseTable](assets/RequirementsModelling/.png)
+![UseCaseTable|697](assets/RequirementsModelling/UseCaseTable.png)
 
 The events in this case would be:
 
@@ -251,7 +251,7 @@ While there many ways to represent behavioral representations, the main two we w
 
 State diagrams represent the active states for a class and the events that cause a transition between these states
 
-![state diagram that documents the state and transitions involved in inputting a password from the home user in the safehome example](attachment:16780cef-e9b1-4617-b55d-2a69e04339b6:af56d022-e328-4f1b-9658-8259e733c76a.png)
+![StateDiagram|697](assets/RequirementsModelling/StateDiagram.png)
 
 state diagram that documents the state and transitions involved in inputting a password from the home user in the safehome example
 
@@ -261,7 +261,7 @@ The first black node represents the initial pseudo-state. It isn’t a real stat
 
 The states are the ones represented in the blue boxes below
 
-![image.png](attachment:bbef7e52-ee44-4bd9-a602-7a323ddff8e6:9b59f57d-7f6e-44f5-8a72-4e0aac982424.png)
+![Stages](assets/RequirementsModelling/Stages.png)
 
 - each state is given a name, as well as additional information such as conditions that trigger an action
 
