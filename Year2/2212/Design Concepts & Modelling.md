@@ -517,7 +517,7 @@ EXAMPLE:
 
 Now, let us take a look at the overall safe home architecture
 
-![this is called a component diagram, he said we never looked at it too closely so dont shoot the messenger](attachment:522ea3f9-548f-4aea-b16a-25d725e27eb2:image.png)
+![this is called a component diagram, he said we never looked at it too closely so dont shoot the messenger](assets/DesignConcepts&Modelling/SafeHomeComponent.png)
 
 this is called a component diagram, he said we never looked at it too closely so dont shoot the messenger
 
