@@ -1,6 +1,6 @@
 ## SOFTWARE DESIGN:
 
-![Modelling](assetrs.png)
+![Modelling|697](assets/DesignConcepts&Modelling/Modelling.png)
 
 Good software design should exhibit:
 
@@ -28,7 +28,7 @@ So, for example, imagine building a house without a blueprint. You might finish 
 
 In order to create a structured plan that ensures the software is efficient, maintainable, and meets user needs before coding begins, we use the software engineering design
 
-![image.png](attachment:e3b7dfc2-bd07-45ee-81ce-f7ea0d80847d:7cca4e25-f673-407e-89f7-c9fcdefea899.png)
+![SoftwareEngineeringDesign|697](assets/DesignConcepts&Modelling/SoftwareEngineeringDesign.png)
 
 - **DATA/CLASS DESIGN:**
     
@@ -48,7 +48,7 @@ In order to create a structured plan that ensures the software is efficient, mai
     - Converts high-level system structures into detailed functional descriptions for each software component
     - Defines the internal data structures and processing methods for each component
     
-    ![image.png](attachment:f096c83f-c1d0-4fc9-bebc-808cd0efa50d:image.png)
+    ![image.png|91](attachment:f096c83f-c1d0-4fc9-bebc-808cd0efa50d:image.png)
     
 
 These models and designs become the blueprint for the **Construction Activity.** A good design leads to high-quality software product. But, what is considered a “good” design? How do we ensure that our design is good?
