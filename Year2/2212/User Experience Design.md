@@ -73,7 +73,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
     
     - For example, the image below is a bad design, since it does not allow the user to exit out of the popup, it forces the users to accept cookies even if they don’t want to
         
-        ![PlaceUserInControl](assets/UserExperienceDesign/PlaceUserInControl.png)
+        ![PlaceUserInControl|300](assets/UserExperienceDesign/PlaceUserInControl.png)
         
 - Provide for flexible interaction, meaning your interface should work with keyboards, touch screen, mouse, anything
     
@@ -101,7 +101,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
     - So, for example, in real life if you wanted to throw something away, you throw it in the trash. This metaphor is seen in Windows when you want to throw something away, you drag it to the recycle bin
 - Disclose information in a progressive fashion
     
-    ![image.png](attachment:6e3a28d3-8dc5-4ea6-a044-918f3e41a5e4:6f66a721-5058-4ff7-ae28-0a8f4792ac55.png)
+    ![MicrosoftOfficeRibbons|661](assets/UserExperienceDesign/MicrosoftOfficeRibbons.png)
     
 
 **MAKE INTERFACE CONSISTENT:**
@@ -113,7 +113,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
     
     - Steam has a very inconsistent UI, its buttons are always somehow different
     
-    ![image.png](attachment:d1cca8e8-1d0c-4d82-901c-6cd6cea51bc1:image.png)
+    ![ButtonsOfSteam](assets/UserExperienceDesign/ButtonsOfSteam.png)
     
 - If past interactive models have created user expectations, do NOT make changes unless there is a compelling reason to do so.
     
