@@ -218,13 +218,13 @@ In this process, we begin with the classes from the analysis model and divide th
 
 Due to this, our analysis classes become design components and we can identify interfaces based on operations in analysis classes
 
-![image.png|91](attachment:7c02fcb1-d9ec-42cb-b509-9f4a4c121b86:image.png)
+![AnalysisClassExample|300](assets/UserExperienceDesign/AnalysisClassExample.png)
 
 This is an example of an analysis class. Remember, it is a really simplified version of a class diagram
 
 Let us see how we can elaborate on this analysis class to design our component
 
-![image.png](attachment:d2740f70-69ef-4739-b511-0c4f8807dd35:image.png)
+![AnalysisClassComponentExample|550](assets/UserExperienceDesign/AnalysisClassComponentExample.png)
 
 This is how we might represent our PrintJob design component
 
