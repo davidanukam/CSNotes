@@ -18,7 +18,7 @@ Now we know there is something called UX (user experience) and UI (user interfac
 
 UX is the overall experience from what the user expects, while UI is the artistic design of what the user sees
 
-![image.png](attachment:7064e9e3-e304-42d9-8e09-82e59ef96647:2195e6a3-80a7-4da2-bae5-e0b0751166e1.png)
+![iUXvsUI](assets/UserExperienceDesign/UXvsUI.png)
 
 UX is more research based, its for people who do research to see what people want from a software, while UI is simply artistic, how the software will actually look like
 
