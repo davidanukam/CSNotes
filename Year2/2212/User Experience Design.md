@@ -457,7 +457,7 @@ So, let us summarize the component-level design process
     
     What are collaboration diagrams? Here they are:
     
-    ![collab diagram for that PrintJob example](attachment:53513194-fda1-4f05-8533-740b2e6954c5:c2f52c94-e40e-4c69-85f2-8bfd31043838.png)
+    ![CollaborationDiagramExample|500](assets/UserExperienceDesign/CollaborationDiagramExample.png)
     
     collab diagram for that PrintJob example
     
