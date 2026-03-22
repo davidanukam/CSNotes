@@ -113,7 +113,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
     
     - Steam has a very inconsistent UI, its buttons are always somehow different
     
-    ![ButtonsOfSteam](assets/UserExperienceDesign/ButtonsOfSteam.png)
+    ![ButtonsOfSteam|661](assets/UserExperienceDesign/ButtonsOfSteam.png)
     
 - If past interactive models have created user expectations, do NOT make changes unless there is a compelling reason to do so.
     
@@ -133,7 +133,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
 
 ### CUSTOMER JOURNEY MAP:
 
-![image.png](attachment:8db2e683-1ba2-4671-8cfb-1a75a1c79c6c:image.png)
+![CustomerJourneyMap|697](assets/UserExperienceDesign/CustomerJourneyMap.png)
 
 This helps you visualize how users interact with a product/service throughout their journey, from the initial contact to the final interaction. To build an effective CJM, these are some important steps:
 
@@ -146,7 +146,7 @@ This helps you visualize how users interact with a product/service throughout th
 
 ### **USER PERSONAS:**
 
-![image.png](attachment:88dddc87-6e78-4a8d-b9c2-8e5d9982ad6e:image.png)
+![UserPersonas|697](assets/UserExperienceDesign/UserPersonas.png)
 
 User personas are fictional representations of your ideal end user. They are based on user research and incorporates the needs, goals, and observed behavior patterns of your user base.
 
@@ -218,7 +218,7 @@ In this process, we begin with the classes from the analysis model and divide th
 
 Due to this, our analysis classes become design components and we can identify interfaces based on operations in analysis classes
 
-![image.png](attachment:7c02fcb1-d9ec-42cb-b509-9f4a4c121b86:image.png)
+![image.png|91](attachment:7c02fcb1-d9ec-42cb-b509-9f4a4c121b86:image.png)
 
 This is an example of an analysis class. Remember, it is a really simplified version of a class diagram
 
