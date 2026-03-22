@@ -275,17 +275,17 @@ This mean that our component should be designed such that they can be extended w
 
 Example:
 
-![OpenClosedPrinciple](attachment:65185b91-6098-460e-a458-99caafac59c3:image.png)
+![OpenClosedPrinciple|500](assets/UserExperienceDesign/OpenClosedPrinciple.png)
 
 Here, we have a sensor interface and a detector component which may contain a set of classes that each defines a different kind of sensor
 
 This would be an ideal design, as we can simply add new sensor types in the detector component that implements the Sensor interface, So, the component is open for extension (adding new classes) but you do not have to modify anything else in the detector component.
 
-![image.png](attachment:fd08fb84-ff9b-4ed4-9b4d-fcf67bd2486b:image.png)
+![BadOCPExample|500](assets/UserExperienceDesign/BadOCPExample.png)
 
 this would be a bad example, because it does not incorporate polymorphism. And, if you wanted to add a new sensor type, you would have to modify the code which violates the OCP. When you are using a switch case, this hints maybe you should be splitting this class up into several other classes.
 
-![image.png](attachment:d6a68c84-dbee-4c50-aa60-cab21c678dd2:image.png)
+![image.png|500](attachment:d6a68c84-dbee-4c50-aa60-cab21c678dd2:image.png)
 
 this would be a better example, as they all have their own class BUT they still use the same interface
 
