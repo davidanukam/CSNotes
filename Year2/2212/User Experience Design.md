@@ -285,7 +285,7 @@ This would be an ideal design, as we can simply add new sensor types in the dete
 
 this would be a bad example, because it does not incorporate polymorphism. And, if you wanted to add a new sensor type, you would have to modify the code which violates the OCP. When you are using a switch case, this hints maybe you should be splitting this class up into several other classes.
 
-![image.png|500](attachment:d6a68c84-dbee-4c50-aa60-cab21c678dd2:image.png)
+![GoodOCPExample|500](assets/UserExperienceDesign/GoodOCPExample.png)
 
 this would be a better example, as they all have their own class BUT they still use the same interface
 
@@ -364,7 +364,7 @@ The reason for this is because if you want to change or modify an interface, the
 
 Example cause this doesn’t make sense lol:
 
-![image.png](attachment:120fef8e-0727-4661-86b1-2b0321c3c219:image.png)
+![MoreInterfaces](assets/UserExperienceDesign/MoreInterfaces.png)
 
 The computeJob interface does a good job staying focused on one thing, calculating the cost of a print job. It is likely that any client component making use of this interface is most likely going to use those operations.
 
