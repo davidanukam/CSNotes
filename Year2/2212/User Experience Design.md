@@ -18,13 +18,13 @@ Now we know there is something called UX (user experience) and UI (user interfac
 
 UX is the overall experience from what the user expects, while UI is the artistic design of what the user sees
 
-![UXvsUI](assets/UserExperienceDesign/UXvsUI.png)
+![UXvsUI|500](assets/UserExperienceDesign/UXvsUI.png)
 
 UX is more research based, its for people who do research to see what people want from a software, while UI is simply artistic, how the software will actually look like
 
 ### DESIGN ELEMENTS:
 
-![DesignElements&Subcomponents](assets/UserExperienceDesign/DesignElements.png)
+![DesignElements&Subcomponents|500](assets/UserExperienceDesign/DesignElements&Subcomponents.png)
 
 I’m just gonna define each design element (the ones in blue, since those are the main components of UX design elements)
 
@@ -73,7 +73,7 @@ This guy named Theo Mandel defined three golden rules of interface design, which
     
     - For example, the image below is a bad design, since it does not allow the user to exit out of the popup, it forces the users to accept cookies even if they don’t want to
         
-        ![image.png](attachment:44c89d86-3c36-4c78-a135-bde31e816da4:image.png)
+        ![PlaceUserInControl](assets/UserExperienceDesign/PlaceUserInControl.png)
         
 - Provide for flexible interaction, meaning your interface should work with keyboards, touch screen, mouse, anything
     
