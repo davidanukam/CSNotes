@@ -24,7 +24,7 @@ UX is more research based, its for people who do research to see what people wan
 
 ### DESIGN ELEMENTS:
 
-![image.png](attachment:b2509be6-b98b-4819-8137-b2607223d190:91c4f599-72cb-42f7-aaeb-858b21c95405.png)
+![DesignElements&Subcomponents](assets/UserExperienceDesign/DesignElements.png)
 
 I’m just gonna define each design element (the ones in blue, since those are the main components of UX design elements)
 
