@@ -364,7 +364,7 @@ The reason for this is because if you want to change or modify an interface, the
 
 Example cause this doesn’t make sense lol:
 
-![MoreInterfaces](assets/UserExperienceDesign/MoreInterfaces.png)
+![MoreInterfaces|500](assets/UserExperienceDesign/MoreInterfaces.png)
 
 The computeJob interface does a good job staying focused on one thing, calculating the cost of a print job. It is likely that any client component making use of this interface is most likely going to use those operations.
 
@@ -432,7 +432,7 @@ Once again, there are 3 different types of coupling:
 
 Example:
 
-![a simple method that does specific calculations depending on the flag passed to the method](attachment:ee9f951a-7446-49ba-8415-f441090c6d11:image.png)
+![ControlFlagMethodExample|697](assets/UserExperienceDesign/ControlFlagMethodExample.png)
 
 a simple method that does specific calculations depending on the flag passed to the method
 
