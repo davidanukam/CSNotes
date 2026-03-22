@@ -242,7 +242,7 @@ In many cases, we may also need to add infrastructure classes to support our des
 
 Once we have filled in all the necessary details for implementation, we should be at a point where we can hand this design to our developers and they can implement the system
 
-![image.png](attachment:4c629e9f-8488-4852-9e1f-8a531a27b26d:image.png)
+![ElaboratedDesignClass|500](assets/UserExperienceDesign/ElaboratedDesignClass.png)
 
 Here, we can see the PrintJob component elaborated into a design component, which includes a PrintJob design class, as well as a set of interfaces. Extra attributes and operations have been added
 
@@ -275,7 +275,7 @@ This mean that our component should be designed such that they can be extended w
 
 Example:
 
-![image.png](attachment:65185b91-6098-460e-a458-99caafac59c3:image.png)
+![OpenClosedPrinciple](attachment:65185b91-6098-460e-a458-99caafac59c3:image.png)
 
 Here, we have a sensor interface and a detector component which may contain a set of classes that each defines a different kind of sensor
 
