@@ -16,7 +16,7 @@ A downside of this is that there is a single point of failure, meaning you can o
 
 ### DISTRIBUTED VERSION CONTROL SYSTEMS:
 
-![CentralizedVersionControlSystem(CVCS)|500](assets/Patterns+VersionControl/DistVersionControlSystem(DVCS).png)
+![DistributedVersionControlSystem(DVCS)|500](assets/Patterns+VersionControl/DistributedVersionControlSystem(DVCS).png)
 
 Each user has a full repository clone, so it is not server dependent. If central server is lost, it can be restored from any clone. It can be faster + allows offline access
 
@@ -30,7 +30,7 @@ Free, open-source, and widely used
 
 Git stores versions as a stream of file snapshots
 
-![image.png](attachment:01aac6c3-8304-4536-98b2-90dde8277574:image.png)
+![GitVersions](attachment:01aac6c3-8304-4536-98b2-90dde8277574:image.png)
 
 each version captures the state of all files
 
