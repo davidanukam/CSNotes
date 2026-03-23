@@ -209,7 +209,7 @@ These address common user interface problems and often deal with different UI co
 
 ![PasswordStrengthMeterPattern|697](assets/Patterns+VersionControl/PasswordStrengthMeterPattern.png)
 
-![NavigationTabs&SearchBar|697](assets/Patterns+VersionControl/NavigationTabs&Searchbar.png)
+![NavigationTabs&SearchBar|697](assets/Patterns+VersionControl/NavigationTabs&SearchBar.png)
 
 ### WEB APPLICATION PATTERNS:
 
