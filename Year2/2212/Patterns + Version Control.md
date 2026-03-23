@@ -225,7 +225,7 @@ These are specific to the problems encountered in web development and incorporat
 
 Describes solutions to common problems encountered when developing mobile applications
 
-![MobilePatt](attachment:78bfa042-84a3-4feb-aee1-8c8a21c3609d:image.png)
+![MobilePatterns|697](assets/Patterns+VersionControl/MobilePatterns.png)
 
 ### OBJECT-ORIENTED PATTERNS:
 
@@ -258,7 +258,7 @@ You can find patterns:
 
 This is how we document a pattern:
 
-![image.png](attachment:60a8aa84-82a9-4bcc-9a73-f2c77c52ae54:image.png)
+![PatternDescription|697](assets/Patterns+VersionControl/PatternDescription.png)
 
 JUST READ THE DESCRIPTION ON WHAT EACH DOES
 
@@ -282,7 +282,7 @@ Examples of anti-patterns:
 
 Now that we know about patterns and anti-patterns, how do they fit into our design process and development activities
 
-![visualizes part of the process model centered around pattern-based design](attachment:5a72594d-d6a4-47c0-ae1d-dc761f90cdc2:image.png)
+![](attachment:5a72594d-d6a4-47c0-ae1d-dc761f90cdc2:image.png)
 
 visualizes part of the process model centered around pattern-based design
 
