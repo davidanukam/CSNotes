@@ -30,7 +30,7 @@ Free, open-source, and widely used
 
 Git stores versions as a stream of file snapshots
 
-![GitVersions](attachment:01aac6c3-8304-4536-98b2-90dde8277574:image.png)
+![GitVersions|697](assets/Patterns+VersionControl/GitVersions.png)
 
 each version captures the state of all files
 
