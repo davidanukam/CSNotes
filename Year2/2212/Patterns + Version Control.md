@@ -40,7 +40,7 @@ Git has 3 main states that your files can reside in:
 - **Staged:** marked a modified file in its current version to go into your next commit snapshot
 - **Committed:** data is safely stored in your local database
 
-![](attachment:e19fda65-0e1c-4d74-919b-3093af272176:image.png)
+![GitStages|697](assets/Patterns+VersionControl/GitStages.png)
 
 ### **COMMANDS:**
 
@@ -58,7 +58,7 @@ git init # initialize an exisiting directory as a new Git repository
 git clone [repo_url] # retrieve an entire repository from a hosted location at the given repo
 ```
 
-showing modified files +stage a file for commit + unstage a file (staging)
+showing modified files + stage a file for commit + unstage a file (staging)
 
 ```bash
 git status # show modified files in working directory, staged for your next commit
