@@ -6,7 +6,7 @@ Version control can: revert files, track history, compare versions, backup, enab
 
 ### CENTRALIZED VERSION CONTROL SYSTEMS:
 
-![CentralizedVersionControlSystem](assets/.png)
+![CentralizedVersionControlSystem(CVCS)|500](assets/Patterns+VersionControl/CentralizedVersionControlSystem(CVCS).png)
 
 A single server contains all versioned files and history
 
@@ -16,7 +16,7 @@ A downside of this is that there is a single point of failure, meaning you can o
 
 ### DISTRIBUTED VERSION CONTROL SYSTEMS:
 
-![image.png](attachment:66ddda8e-6d66-4bcb-b84c-ab30cb062e38:image.png)
+![CentralizedVersionControlSystem(CVCS)|500](assets/Patterns+VersionControl/DistVersionControlSystem(DVCS).png)
 
 Each user has a full repository clone, so it is not server dependent. If central server is lost, it can be restored from any clone. It can be faster + allows offline access
 
