@@ -217,15 +217,15 @@ These are specific to the problems encountered in web development and incorporat
 
 - Example: Product page patterns, shopping cart patterns, following/follow pattern
 
-![image.png](attachment:0a5edce5-1f99-48bb-8197-0d684c7dda05:image.png)
+![ProductPage|697](assets/Patterns+VersionControl/ProductPage.png)
 
-![image.png](attachment:c258273c-bd05-4d0d-b31a-b07b06f788d4:image.png)
+![ShoppingCart|697](assets/Patterns+VersionControl/ShoppingCart.png)
 
 ### MOBILE PATTERNS:
 
 Describes solutions to common problems encountered when developing mobile applications
 
-![image.png](attachment:78bfa042-84a3-4feb-aee1-8c8a21c3609d:image.png)
+![MobilePatt](attachment:78bfa042-84a3-4feb-aee1-8c8a21c3609d:image.png)
 
 ### OBJECT-ORIENTED PATTERNS:
 
