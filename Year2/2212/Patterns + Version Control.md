@@ -159,7 +159,7 @@ Example of design pattern:
 
 “solution”.. you guessed it… the solution that has a proven track record in real world use
 
-![image.png](attachment:359abfdb-1ea2-487a-9450-35c808c29199:image.png)
+![DesignPattern2|697](assets/Patterns+VersionControl/DesignPattern2.png)
 
 “consequences” potential trade offs for using the solution
 
@@ -207,7 +207,7 @@ Frequently called design patterns, these address problems associated with the de
 
 These address common user interface problems and often deal with different UI controls that might be appropriate in specific contexts and for certain end users
 
-![image.png](attachment:e121a991-1ea5-41fb-a9b8-d3196fea4ddf:image.png)
+![image.png|91](assets/Patterns+VersionControl/PasswordStrengthMeterPattern.png)
 
 ![image.png](attachment:171c953f-aa1b-4469-b279-63fc2da9c041:image.png)
 
