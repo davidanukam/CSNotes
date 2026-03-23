@@ -6,7 +6,7 @@ Version control can: revert files, track history, compare versions, backup, enab
 
 ### CENTRALIZED VERSION CONTROL SYSTEMS:
 
-![image.png](attachment:7baefcca-7eb5-46fd-98b5-39dd4a397d3c:image.png)
+![CentralizedVersionControlSystem](assets/.png)
 
 A single server contains all versioned files and history
 
