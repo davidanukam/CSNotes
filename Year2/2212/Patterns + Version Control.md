@@ -40,7 +40,7 @@ Git has 3 main states that your files can reside in:
 - **Staged:** marked a modified file in its current version to go into your next commit snapshot
 - **Committed:** data is safely stored in your local database
 
-![image.png](attachment:e19fda65-0e1c-4d74-919b-3093af272176:image.png)
+![](attachment:e19fda65-0e1c-4d74-919b-3093af272176:image.png)
 
 ### **COMMANDS:**
 
