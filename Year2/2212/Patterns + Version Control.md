@@ -207,9 +207,9 @@ Frequently called design patterns, these address problems associated with the de
 
 These address common user interface problems and often deal with different UI controls that might be appropriate in specific contexts and for certain end users
 
-![image.png|91](assets/Patterns+VersionControl/PasswordStrengthMeterPattern.png)
+![PasswordStrengthMeterPattern|697](assets/Patterns+VersionControl/PasswordStrengthMeterPattern.png)
 
-![image.png](attachment:171c953f-aa1b-4469-b279-63fc2da9c041:image.png)
+![NavigationTabs&SearchBar|697](assets/Patterns+VersionControl/NavigationTabs&Searchbar.png)
 
 ### WEB APPLICATION PATTERNS:
 
