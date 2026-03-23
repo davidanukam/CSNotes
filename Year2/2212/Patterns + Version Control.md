@@ -80,7 +80,7 @@ It provides central repository for team collabs
 
 Personal repos can be created for experimentation
 
-You cannot access the Git repository on GitLab until you have added a SSH key to your profile. If you want to know more about this cause tbh i am not going through the tutorial here, go to slide 20 →50 ish
+You cannot access the Git repository on GitLab until you have added a SSH key to your profile. If you want to know more about this cause tbh i am not going through the tutorial here, go to slide 20 → 50 ish
 
 Some notes on SSH keys:
 
