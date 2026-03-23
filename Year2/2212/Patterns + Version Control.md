@@ -282,7 +282,7 @@ Examples of anti-patterns:
 
 Now that we know about patterns and anti-patterns, how do they fit into our design process and development activities
 
-![](attachment:5a72594d-d6a4-47c0-ae1d-dc761f90cdc2:image.png)
+![PatternBasedDesign|697](assets/Patterns+VersionControl/PatternBasedDesign.png)
 
 visualizes part of the process model centered around pattern-based design
 
