@@ -151,7 +151,7 @@ Context helps us understand the environment and appropriateness of the solution
 
 Example of design pattern:
 
-![image.png](attachment:b840bcf5-9a4a-4456-bd2a-ec39174a7ee2:image.png)
+![DesignPattern|697](assets/Patterns+VersionControl/DesignPattern.png)
 
 “problem” is basically the definition of the problem
 
