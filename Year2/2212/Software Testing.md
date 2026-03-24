@@ -206,7 +206,7 @@ switch(a):
 	default: d;
 ```
 
-![SwitchCase](assets/SoftwareTesting/SwitchCase.png)
+![SwitchCase|250](assets/SoftwareTesting/SwitchCase.png)
 
 There are three ways to compute cyclomatic complexity:
 
@@ -221,7 +221,7 @@ There are three ways to compute cyclomatic complexity:
 
 So, if we look at this again
 
-![a](assets/SoftwareTesting/.png)
+![FlowGraphExample|300](assets/SoftwareTesting/FlowGraphExample.png)
 
 We can see that the cyclomatic complexity here is:
 
@@ -241,7 +241,7 @@ One quick way to evaluate cyclomatic complexity:
 
 Example:
 
-![a](assets/SoftwareTesting/.png)
+![ProcedureExample|500](assets/SoftwareTesting/ProcedureExample.png)
 
 <> is basically ≠
 
