@@ -241,7 +241,7 @@ One quick way to evaluate cyclomatic complexity:
 
 Example:
 
-![<> is basically ≠](attachment:f74c4377-5c40-4cfe-9e38-31ff990246f6:image.png)
+![a](assets/SoftwareTesting/.png)
 
 <> is basically ≠
 
@@ -250,7 +250,7 @@ Example:
 
 (please note a do while is legit just a while loop btw)
 
-![IMG_2198.jpeg](attachment:5360de2f-0096-4e73-992a-3fb561becb34:IMG_2198.jpeg)
+![a](assets/SoftwareTesting/.png)
 
 Basis path testing steps:
 
@@ -269,7 +269,7 @@ Basis path testing is simple and effective, but may not be sufficient on its own
 
 **LOOP TESTING:**
 
-![image.png](attachment:48a8ea54-52df-4c70-b321-11d2b7966ddf:95c39120-a426-4ed0-ba28-4b6453b2b7c2.png)
+![a](assets/SoftwareTesting/.png)
 
 Test cases for simple loops:
 
@@ -330,7 +330,7 @@ Combine all components at once, leads to chaos and difficult error isolation
 
 Start with the main control module, integrate subordinate modules incrementally
 
-![image.png](attachment:68731324-7d34-4172-9bcc-6decb57f02d9:f69da5c1-2b5e-49a7-9cb1-51c7521dae22.png)
+![a](assets/SoftwareTesting/.png)
 
 modules are integrated by moving downwards
 
@@ -340,11 +340,11 @@ There are two approaches to moving downwards:
     1. A prototype could be made of the features currently being integrated
     2. Stubs are required to replace modules not currently being integrated
 
-![image.png](attachment:1f63e894-6d72-492a-b2cf-2d7908ee27da:05a474a3-68cb-48b9-abf1-ea22f2059a9c.png)
+![a](assets/SoftwareTesting/.png)
 
 1. Breadth-first integration: Integrate all components at each level before moving down
 
-![image.png](attachment:c01ae12c-917b-4a2d-98ae-806bc4b1f614:image.png)
+![a](assets/SoftwareTesting/.png)
 
 Use main control module as a test driver
 
@@ -358,7 +358,7 @@ Perform regression testing
 
 Start with low-level components, combine into clusters, and test
 
-![image.png](attachment:363aadc4-5bf3-42c0-911b-6ddd0b323e8d:image.png)
+![a](assets/SoftwareTesting/.png)
 
 Steps:
 
@@ -458,7 +458,7 @@ JUnit life cycle phases:
 
 Many IDEs support automatically creating a template test fixture for a given class
 
-![image.png](attachment:ae876cf6-2971-4807-9625-957f2da6f311:9ac7ede6-4d72-43d8-8351-4e00a65f2113.png)
+![a](assets/SoftwareTesting/.png)
 
 Methods annotated with `@BeforeAll` are run BEFORE any tests
 
@@ -480,10 +480,10 @@ These methods are all optional
 
 How does a JUnit test look like? Mind you this is for the class given in the slides… so obv not all JUnit tests look like this, but briefly this is their structure
 
-![image.png](attachment:ae416ada-a26a-4aa4-984c-4d85d834d572:033e9374-9b62-4d3c-a9f8-9533d40a101a.png)
+![a](assets/SoftwareTesting/.png)
 
 - assertsEquals(expResult, result) is MANDATORY though, this checks if the given values are equal. if they are not, then we have failed
 
 some other asserts
 
-![image.png](attachment:0ef51487-c657-44ce-a408-4dc73d12deb0:image.png)
+![a](assets/SoftwareTesting/.png)
