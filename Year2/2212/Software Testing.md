@@ -119,7 +119,7 @@ Using white-box testing methods, you can derive test cases that:
 
 **Independent paths:** Paths that introduce new processing statements or conditions
 
-![a](assets/SoftwareTesting/IndependentPaths.png)
+![IndependentPaths|500](assets/SoftwareTesting/IndependentPaths.png)
 
 So, we have paths:
 
@@ -144,11 +144,11 @@ In order to calculate the cyclomatic complexity:
 
 1. Create a flow graph from your code
 
-![a](assets/SoftwareTesting/.png)
+![FlowGraphExample|350](assets/SoftwareTesting/FlowGraphExample.png)
 
 Here are some examples of how flow graphs look for different loop statements:
 
-![a](assets/SoftwareTesting/.png)
+![FlowGraphForLoopStatements|697](assets/SoftwareTesting/FlowGraphForLoopStatements.png)
 
 Some more examples:
 
