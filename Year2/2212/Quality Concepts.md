@@ -211,7 +211,7 @@ Even normal comments are different
 /** This is a Javadoc single line comment */
 ```
 
-![GeneralJavadocCommentStructure|](assets/QualityConcepts/GeneralJavadocCommentStructure.png)
+![GeneralJavadocCommentStructure||697](assets/QualityConcepts/GeneralJavadocCommentStructure.png)
 
 the description CAN contain HTML, but it is not necessary.
 
@@ -221,11 +221,11 @@ Longer descriptions are there too
 
 Some common Javadoc block tags:
 
-![image.png](attachment:8eae3e8f-8f27-4a39-bf0c-2720868b0136:image.png)
+![CommonJavadocBlockTags|697](assets/QualityConcepts/CommonJavadocBlockTags.png)
 
 There are also inline tags:
 
-![image.png](attachment:52cf9f71-c663-48c9-8f0d-9acf829b5be0:image.png)
+![CommonJavadocInlineTags](assets/CommonJavadocInlineTags.png)
 
 inline tags can be used in the description part of Javadoc
 
