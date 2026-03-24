@@ -189,13 +189,13 @@ while a;
 	b;
 ```
 
-![a](assets/SoftwareTesting/.png)
+![While|200](assets/SoftwareTesting/While.png)
 
 while a is true, do b. otherwise, stop
 
-![a](assets/SoftwareTesting/.png)
+![ForLoopCode|500](assets/SoftwareTesting/ForLoopCode.png)
 
-![a](assets/SoftwareTesting/.png)
+![ForLoop|200](assets/SoftwareTesting/ForLoop.png)
 
 if i is greater than or equal to 10, end. otherwise, i gets increments and a is executed. that is why we put a and step 3 in the same node
 
@@ -206,7 +206,7 @@ switch(a):
 	default: d;
 ```
 
-![a](assets/SoftwareTesting/.png)
+![SwitchCase](assets/SoftwareTesting/SwitchCase.png)
 
 There are three ways to compute cyclomatic complexity:
 
