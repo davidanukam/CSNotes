@@ -184,7 +184,7 @@ Most IDEs have built-in tools for generating Javadoc
 
 Classes, methods, and attributes have a different type of Javadoc:
 
-![Le](assets/QualityConcepts/LevelsOfJavadocDocumentation.png)
+![LevelsOfJavadocDocumentation](assets/QualityConcepts/LevelsOfJavadocDocumentation.png)
 
 Note:
 
@@ -211,7 +211,7 @@ Even normal comments are different
 /** This is a Javadoc single line comment */
 ```
 
-![image.png](attachment:68ea3454-eb62-4bc0-8dd3-52306d9008e5:image.png)
+![GeneralJavadocCommentStructure|](assets/QualityConcepts/GeneralJavadocCommentStructure.png)
 
 the description CAN contain HTML, but it is not necessary.
 
