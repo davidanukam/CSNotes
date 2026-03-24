@@ -259,6 +259,6 @@ The current working directory MUST contain the java file
 
 Extra command line options:
 
-![image.png](attachment:0a41d2a3-323c-4a1c-bf11-6e4d269ca96f:image.png)
+![ExtraJavadocCommandLineOptions|697](assets/QualityConcepts/ExtraJavadocCommandLineOptions.png)
 
 If you want to practice more (cause this will be needed for our project) go to the week 8 → javadoc tutorial tab
