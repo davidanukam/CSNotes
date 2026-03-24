@@ -77,7 +77,7 @@ Attributes of a good test:
 
 There are two approaches to testing:
 
-![a](assets/SoftwareTesting/.png)
+![BlackBox&WhiteBoxTesting|697](assets/SoftwareTesting/BlackBox&WhiteBoxTesting.png)
 
 Black Box and White Box testing are complementary, meant to be USED TOGETHER, not alternatives to each other
 
@@ -101,7 +101,7 @@ So, what is tested:
 
 **UNIT TEST SCAFFOLDING:**
 
-![a](assets/SoftwareTesting/.png)
+![UnitTestScaffolding|500](assets/SoftwareTesting/UnitTestScaffolding.png)
 
 Because components are not stand-alone, **driver** and/or **stub** software must often be developed for each unit test
 
@@ -119,7 +119,7 @@ Using white-box testing methods, you can derive test cases that:
 
 **Independent paths:** Paths that introduce new processing statements or conditions
 
-![a](assets/SoftwareTesting/.png)
+![a](assets/SoftwareTesting/IndependentPaths.png)
 
 So, we have paths:
 
