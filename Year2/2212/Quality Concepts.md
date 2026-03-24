@@ -40,7 +40,7 @@ How do we assess and evaluate quality?
 
 McCall’s software quality factors:
 
-![McCallsSoftwareQualityFactors](assets/QualityConcepts/McCallsSoftwareQualityFactors.png)
+![McCallsSoftwareQualityFactors|697](assets/QualityConcepts/McCallsSoftwareQualityFactors.png)
 
 **PRODUCT OPERATION**: Operational elements of a software
 
@@ -184,7 +184,7 @@ Most IDEs have built-in tools for generating Javadoc
 
 Classes, methods, and attributes have a different type of Javadoc:
 
-![image.png](attachment:cb35571e-b8af-48a7-b02a-f9a52dda2f61:image.png)
+![Le](assets/QualityConcepts/LevelsOfJavadocDocumentation.png)
 
 Note:
 
