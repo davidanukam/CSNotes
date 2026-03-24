@@ -77,7 +77,7 @@ Attributes of a good test:
 
 There are two approaches to testing:
 
-![](attachment:6763a594-c2f3-4d5f-9463-2f1dac773322:image.png)
+![a](assets/SoftwareTesting/.png)
 
 Black Box and White Box testing are complementary, meant to be USED TOGETHER, not alternatives to each other
 
@@ -101,7 +101,7 @@ So, what is tested:
 
 **UNIT TEST SCAFFOLDING:**
 
-![image.png](attachment:5d4d8e84-1755-4fb9-84a0-01edf8fb089b:ea318047-ecb8-446d-b12a-ec2acd4076dc.png)
+![a](assets/SoftwareTesting/.png)
 
 Because components are not stand-alone, **driver** and/or **stub** software must often be developed for each unit test
 
@@ -119,7 +119,7 @@ Using white-box testing methods, you can derive test cases that:
 
 **Independent paths:** Paths that introduce new processing statements or conditions
 
-![image.png](attachment:27997ae1-c019-45ba-813b-54a27e6495ff:8cca3512-19d1-4d35-8dc7-2a2357f10226.png)
+![a](assets/SoftwareTesting/.png)
 
 So, we have paths:
 
@@ -144,11 +144,11 @@ In order to calculate the cyclomatic complexity:
 
 1. Create a flow graph from your code
 
-![image.png](attachment:c831fed0-f773-4ff9-9035-cad3acd16ebc:d093b06a-3a20-48c0-bccb-b895498ffacd.png)
+![a](assets/SoftwareTesting/.png)
 
 Here are some examples of how flow graphs look for different loop statements:
 
-![image.png](attachment:bb129dc3-88e5-4125-9725-4455ab1cb4be:image.png)
+![a](assets/SoftwareTesting/.png)
 
 Some more examples:
 
@@ -159,7 +159,7 @@ ELSE
 	d;
 ```
 
-![image.png](attachment:969adbc3-1f30-4f3e-9865-d96d25a402c7:image.png)
+![a](assets/SoftwareTesting/.png)
 
 if a is not true, you can short circuit obviously
 
@@ -170,7 +170,7 @@ ELSE
 	d;
 ```
 
-![image.png](attachment:5db2dc03-d7ca-4d6a-8423-8ed188c4ec56:image.png)
+![a](assets/SoftwareTesting/.png)
 
 true or anything is true, so there is no need to check b you only check b if a is false
 
@@ -180,7 +180,7 @@ Do
 Until b;
 ```
 
-![image.png](attachment:cfaf0577-6071-4ff7-8a69-afb29e16c5c8:image.png)
+![a](assets/SoftwareTesting/.png)
 
 constantly do a until b is true. once b is true, stop, if b is false, continue doing a
 
@@ -189,13 +189,13 @@ while a;
 	b;
 ```
 
-![image.png](attachment:2333b401-5091-4a9b-b7e7-8cc39b01f3bc:image.png)
+![a](assets/SoftwareTesting/.png)
 
 while a is true, do b. otherwise, stop
 
-![image.png](attachment:bf44b3f9-78bb-48f6-afb5-8b8a6f947d0f:image.png)
+![a](assets/SoftwareTesting/.png)
 
-![image.png](attachment:103aabc3-a3f7-4a0c-ae5a-4122e74582c0:image.png)
+![a](assets/SoftwareTesting/.png)
 
 if i is greater than or equal to 10, end. otherwise, i gets increments and a is executed. that is why we put a and step 3 in the same node
 
@@ -206,7 +206,7 @@ switch(a):
 	default: d;
 ```
 
-![image.png](attachment:978d8f29-25e3-42d9-8986-1ccafaeb8dca:image.png)
+![a](assets/SoftwareTesting/.png)
 
 There are three ways to compute cyclomatic complexity:
 
@@ -221,7 +221,7 @@ There are three ways to compute cyclomatic complexity:
 
 So, if we look at this again
 
-![image.png](attachment:c831fed0-f773-4ff9-9035-cad3acd16ebc:d093b06a-3a20-48c0-bccb-b895498ffacd.png)
+![a](assets/SoftwareTesting/.png)
 
 We can see that the cyclomatic complexity here is:
 
