@@ -458,7 +458,7 @@ JUnit life cycle phases:
 
 Many IDEs support automatically creating a template test fixture for a given class
 
-![a](assets/SoftwareTesting/.png)
+![TestFixtureTemplate|500](assets/SoftwareTesting/TestFixtureTemplate.png)
 
 Methods annotated with `@BeforeAll` are run BEFORE any tests
 
@@ -480,10 +480,10 @@ These methods are all optional
 
 How does a JUnit test look like? Mind you this is for the class given in the slides… so obv not all JUnit tests look like this, but briefly this is their structure
 
-![a](assets/SoftwareTesting/.png)
+![TestMethodExample|697](assets/SoftwareTesting/TestMethodExample.png)
 
 - assertsEquals(expResult, result) is MANDATORY though, this checks if the given values are equal. if they are not, then we have failed
 
 some other asserts
 
-![a](assets/SoftwareTesting/.png)
+![OtherAsserts|697](assets/SoftwareTesting/OtherAsserts.png)
