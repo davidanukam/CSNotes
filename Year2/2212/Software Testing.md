@@ -330,7 +330,7 @@ Combine all components at once, leads to chaos and difficult error isolation
 
 Start with the main control module, integrate subordinate modules incrementally
 
-![a](assets/SoftwareTesting/Top-DownIntegratio.png)
+![Top-DownIntegrationTesting|500](assets/SoftwareTesting/Top-DownIntegrationTesting.png)
 
 modules are integrated by moving downwards
 
@@ -340,11 +340,11 @@ There are two approaches to moving downwards:
     1. A prototype could be made of the features currently being integrated
     2. Stubs are required to replace modules not currently being integrated
 
-![a](assets/SoftwareTesting/.png)
+![DFS|500](assets/SoftwareTesting/DFS.png)
 
 1. Breadth-first integration: Integrate all components at each level before moving down
 
-![a](assets/SoftwareTesting/.png)
+![BFS|500](assets/SoftwareTesting/BFS.png)
 
 Use main control module as a test driver
 
@@ -358,7 +358,7 @@ Perform regression testing
 
 Start with low-level components, combine into clusters, and test
 
-![a](assets/SoftwareTesting/.png)
+![Bottom-UpIntegrationTesting|500](assets/SoftwareTesting/Bottom-UpIntegrationTesting.png)
 
 Steps:
 
