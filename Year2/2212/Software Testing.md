@@ -159,7 +159,7 @@ ELSE
 	d;
 ```
 
-![a](assets/SoftwareTesting/.png)
+![IfElseAnd|200](assets/SoftwareTesting/IfElseAnd.png)
 
 if a is not true, you can short circuit obviously
 
@@ -170,7 +170,7 @@ ELSE
 	d;
 ```
 
-![a](assets/SoftwareTesting/.png)
+![IfElseOr|200](assets/SoftwareTesting/IfElseOr.png)
 
 true or anything is true, so there is no need to check b you only check b if a is false
 
@@ -180,7 +180,7 @@ Do
 Until b;
 ```
 
-![a](assets/SoftwareTesting/.png)
+![DoUntil|200](assets/SoftwareTesting/DoUntil.png)
 
 constantly do a until b is true. once b is true, stop, if b is false, continue doing a
 
