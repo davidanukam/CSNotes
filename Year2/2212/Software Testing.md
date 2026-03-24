@@ -50,7 +50,7 @@ TEST CASE DOCUMENTATION (RECORDKEEPING):
 
 here is the format of such test case documentation:
 
-![image.png](attachment:c64d70e7-1a92-45c8-a1cc-e0eeb8f277ca:image.png)
+![TestCaseDocumentation](assets/SoftwareTesting/TestCaseDocumentation.png)
 
 CRITERIA FOR DONE:
 
@@ -77,7 +77,7 @@ Attributes of a good test:
 
 There are two approaches to testing:
 
-![image.png](attachment:6763a594-c2f3-4d5f-9463-2f1dac773322:image.png)
+![](attachment:6763a594-c2f3-4d5f-9463-2f1dac773322:image.png)
 
 Black Box and White Box testing are complementary, meant to be USED TOGETHER, not alternatives to each other
 
