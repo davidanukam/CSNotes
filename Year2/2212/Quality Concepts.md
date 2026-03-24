@@ -253,7 +253,7 @@ the package to generate the documentation for. Your working directory must conta
 javadoc -d C:\\Users\\yourUser\\docs myclass.java
 ```
 
-only the documentation for the file [myclass.java](http://myclass.java) will be generated and stored in the C:\Users\yourUser\docs directory
+only the documentation for the file **myclass.java** will be generated and stored in the C:\Users\yourUser\docs directory
 
 The current working directory MUST contain the java file
 
