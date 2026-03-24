@@ -250,7 +250,7 @@ Example:
 
 (please note a do while is legit just a while loop btw)
 
-![a](assets/SoftwareTesting/.png)
+![ProcedureExampleAnswer|697](assets/SoftwareTesting/ProcedureExampleAnswer.jpeg)
 
 Basis path testing steps:
 
@@ -269,7 +269,7 @@ Basis path testing is simple and effective, but may not be sufficient on its own
 
 **LOOP TESTING:**
 
-![a](assets/SoftwareTesting/.png)
+![LoopTesting|500](assets/SoftwareTesting/LoopTesting.png)
 
 Test cases for simple loops:
 
@@ -330,7 +330,7 @@ Combine all components at once, leads to chaos and difficult error isolation
 
 Start with the main control module, integrate subordinate modules incrementally
 
-![a](assets/SoftwareTesting/.png)
+![a](assets/SoftwareTesting/Top-DownIntegratio.png)
 
 modules are integrated by moving downwards
 
