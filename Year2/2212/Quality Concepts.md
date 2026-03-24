@@ -225,13 +225,13 @@ Some common Javadoc block tags:
 
 There are also inline tags:
 
-![CommonJavadocInlineTags](assets/CommonJavadocInlineTags.png)
+![CommonJavadocInlineTags|697](assets/QualityConcepts/CommonJavadocInlineTags.png)
 
 inline tags can be used in the description part of Javadoc
 
 the code basically displays HOW the class, method whatever will work
 
-![image.png](attachment:4046fc26-ab35-4da0-be46-1f4a558d23ca:image.png)
+![InlineTagCommentExample|697](assets/QualityConcepts/InlineTagCommentExample.png)
 
 since this is a comment, obviously it is not going to be interpreted
 
