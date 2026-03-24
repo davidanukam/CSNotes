@@ -40,7 +40,7 @@ How do we assess and evaluate quality?
 
 McCall’s software quality factors:
 
-![image.png](attachment:f62d2b12-fdd7-4d9e-8033-206842308fe8:image.png)
+![McCallsSoftwareQualityFactors](assets/QualityConcepts/McCallsSoftwareQualityFactors.png)
 
 **PRODUCT OPERATION**: Operational elements of a software
 
