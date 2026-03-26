@@ -82,7 +82,7 @@ $\neg[(\neg p)\land (\neg q)]$, construct a truth table for this statement
 
 ![IMG_1752.jpeg](assets/Logics&Proofs/ConjunctionExample.jpeg)
 
-if you say “errrrrrmmmm do i really have to make columns for $\neg p\$ and $\neg q$” NO you don’t have to, this is for clarity
+if you say “errrrrrmmmm do i really have to make columns for $\neg p$ and $\neg q$” NO you don’t have to, this is for clarity
 
 ## DISJUNCTION:
 
@@ -179,7 +179,7 @@ So, for example, show that:
 
 $p\longrightarrow q$ is equivalent to $\neg(p\land (\neg q))$
 
-![IMG_1754.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/c74fd82e-a1b7-4eb6-9171-c83608a278fc/IMG_1754.jpeg)
+![IMG_1754.jpeg|121](assets/Logics&Proofs/.jpeg)
 
 Let us refer to $P=p\longrightarrow q$ and $Q=\neg(p\land(\neg q))$, even though they are two different formulas, since they have the same truth value for each logic possibility, we can say that $P\equiv Q$
 
