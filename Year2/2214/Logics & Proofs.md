@@ -80,7 +80,7 @@ So, let us say we have this compound statement
 
 $\neg[(\neg p)\land (\neg q)]$, construct a truth table for this statement
 
-![IMG_1752.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/cd41c22a-bdee-4ff1-a741-7c464f45be33/IMG_1752.jpeg)
+![IMG_1752.jpeg](assets/Logics&Proofs/ConjunctionExample.jpeg)
 
 if you say “errrrrrmmmm do i really have to make columns for $\neg p\$ and $\neg q$” NO you don’t have to, this is for clarity
 
