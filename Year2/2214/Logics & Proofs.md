@@ -296,7 +296,7 @@ Some of these are kinda a no shit sherlock..
 
 We also have logical equivalences involving conditional statements:
 
-![image.png|91](assets/Logics&Proofs/.png)
+![BiconditionalEquivalenceTable](assets/Logics&Proofs/ConditionalEquivalenceTable.png)
 
 You can use the above equivalences to prove some of these. For example, to prove the 3rd one, we basically do:
 
@@ -306,7 +306,7 @@ i mean kinda obvious
 
 We also have logical equivalences involving biconditional statements:
 
-![image.png](assets/Logics&Proofs/.png)
+![BiconditionalEquivalenceTable|400](assets/Logics&Proofs/BiconditionalEquivalenceTable.png)
 
 You can further simplify the first one:
 
@@ -392,7 +392,7 @@ Which of the following statement is equivalent to the negation of the statement 
 2. Some snakes are poisonous
 3. Some snakes are not poisonous
 
-![IMG_1898.jpeg](assets/Logics&Proofs/.jpeg)
+![NegationOfQuantifiersExample|697](assets/Logics&Proofs/NegationOfQuantifiersExample.jpeg)
 
 What are the negations of the statements $\forall x(x^2>x)$ and $\exists x(x^2=2)$
 
