@@ -290,13 +290,13 @@ Since the result of $p\land\neg p$ is always F (0), we call this statement a con
 
 We have some important equivalences we should know
 
-![image.png|91](assets/Logics&Proofs/.png)
+![LogicalEquivalenceTable|400](assets/Logics&Proofs/LogicalEquivalenceTable.png)
 
 Some of these are kinda a no shit sherlock..
 
 We also have logical equivalences involving conditional statements:
 
-![BiconditionalEquivalenceTable](assets/Logics&Proofs/ConditionalEquivalenceTable.png)
+![ConditionalEquivalenceTable|300](assets/Logics&Proofs/ConditionalEquivalenceTable.png)
 
 You can use the above equivalences to prove some of these. For example, to prove the 3rd one, we basically do:
 
@@ -306,7 +306,7 @@ i mean kinda obvious
 
 We also have logical equivalences involving biconditional statements:
 
-![BiconditionalEquivalenceTable|400](assets/Logics&Proofs/BiconditionalEquivalenceTable.png)
+![BiconditionalEquivalenceTable|300](assets/Logics&Proofs/BiconditionalEquivalenceTable.png)
 
 You can further simplify the first one:
 
