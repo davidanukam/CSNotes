@@ -141,7 +141,7 @@ The truth table for this bad boy:
 
 There is a lot of terminology used to express $p\longrightarrow q$. Here they are:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c8767688-b709-4213-94e2-2916623deff0/4af2242b-48e6-4ec7-ac2f-472410403bd5/image.png)
+![image.png|91](assets/Logics&Proofs/.png)
 
 Example:
 
@@ -290,13 +290,13 @@ Since the result of $p\land\neg p$ is always F (0), we call this statement a con
 
 We have some important equivalences we should know
 
-![image.png](attachment:2ba97190-4f62-4404-9598-84312445063b:image.png)
+![image.png|91](assets/Logics&Proofs/.png)
 
 Some of these are kinda a no shit sherlock..
 
 We also have logical equivalences involving conditional statements:
 
-![image.png](attachment:e08ff572-f9c0-48ce-b027-969615078c84:image.png)
+![image.png|91](assets/Logics&Proofs/.png)
 
 You can use the above equivalences to prove some of these. For example, to prove the 3rd one, we basically do:
 
@@ -306,7 +306,7 @@ i mean kinda obvious
 
 We also have logical equivalences involving biconditional statements:
 
-![image.png](attachment:e9156f54-348d-45ef-9533-3b735e2e62ed:image.png)
+![image.png](assets/Logics&Proofs/.png)
 
 You can further simplify the first one:
 
