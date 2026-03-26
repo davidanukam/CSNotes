@@ -436,11 +436,11 @@ This statement is saying (I say for the 50th time) that “for every single inte
 
 So, to sum it up in a table:
 
-![image.png](assets/Logics&Proofs/.png)
+![NestedQuantifiersTable|500](assets/Logics&Proofs/NestedQuantifiersTable.png)
 
 Translate the statement “the sum of two positive integers is always positive” into a logical statement. Note, you can use logical expressions like conjunction and whatnot normally.
 
-![image](assets/Logics&Proofs/.jpeg)
+![LogicalStatementExample|697](assets/Logics&Proofs/LogicalStatementExample.jpeg)
 
 Translate the statement “Every real number except zero has a multiplicative inverse” (a multiplicative inverse of a real number x is a real number y such that xy = 1)
 
