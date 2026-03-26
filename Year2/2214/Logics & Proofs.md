@@ -436,13 +436,11 @@ This statement is saying (I say for the 50th time) that “for every single inte
 
 So, to sum it up in a table:
 
-![image.png](attachment:6e0535b5-2974-40f0-b987-92dd5224a950:image.png)
+![image.png](assets/Logics&Proofs/.png)
 
 Translate the statement “the sum of two positive integers is always positive” into a logical statement. Note, you can use logical expressions like conjunction and whatnot normally.
 
-![ask abt something here (everyone who is seeing this ignore this)](attachment:9058fab2-dcb1-4682-9630-87170a9c5c13:IMG_1899.jpeg)
-
-ask abt something here (everyone who is seeing this ignore this)
+![image](assets/Logics&Proofs/.jpeg)
 
 Translate the statement “Every real number except zero has a multiplicative inverse” (a multiplicative inverse of a real number x is a real number y such that xy = 1)
 
