@@ -1,3 +1,3 @@
 # 2214 - Discrete Structures for Computing
 
-1. Logics & Pro
+1. [Logics & Proofs](Logics%20&%20Proofs.md)
