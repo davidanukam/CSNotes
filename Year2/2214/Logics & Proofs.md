@@ -392,15 +392,15 @@ Which of the following statement is equivalent to the negation of the statement 
 2. Some snakes are poisonous
 3. Some snakes are not poisonous
 
-![IMG_1898.jpeg](attachment:45170b21-94e5-48a9-9d7f-b681885e29bb:IMG_1898.jpeg)
+![IMG_1898.jpeg](assets/Logics&Proofs/.jpeg)
 
-What are the negations of the statements $\forall x(x^2>x)$ and $\exist x(x^2=2)$
+What are the negations of the statements $\forall x(x^2>x)$ and $\exists x(x^2=2)$
 
-$$ \neg(\forall x (x^2>x))\\\equiv\exist x \neg(x^2>x)\\\equiv \exist x(x^2\leq x) $$
+$$ \neg(\forall x (x^2>x))\\\equiv\exists x \neg(x^2>x)\\\equiv \exists x(x^2\leq x) $$
 
 I think its kinda obvious that the negation of $x^2>x$ is $x^2\leq x$… If we are saying “it is not true that $x^2>x$”, then this means that $x^2\leq x$
 
-$$ \neg(\exist x(x^2=2))\\\equiv\forall z\neg(x^2=2)\\\equiv\forall x(x^2\neq 2) $$
+$$ \neg(\exists x(x^2=2))\\\equiv\forall z\neg(x^2=2)\\\equiv\forall x(x^2\neq 2) $$
 
 ### NESTED QUANTIFIERS:
 
