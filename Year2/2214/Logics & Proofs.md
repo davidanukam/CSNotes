@@ -141,7 +141,7 @@ The truth table for this bad boy:
 
 There is a lot of terminology used to express $p\longrightarrow q$. Here they are:
 
-![image.png|91](assets/Logics&Proofs/.png)
+![ConditionalTerms|697](assets/Logics&Proofs/ConditionalTerms.png)
 
 Example:
 
@@ -179,7 +179,7 @@ So, for example, show that:
 
 $p\longrightarrow q$ is equivalent to $\neg(p\land (\neg q))$
 
-![IMG_1754.jpeg|121](assets/Logics&Proofs/.jpeg)
+![EquivalenceExample|697](assets/Logics&Proofs/EquivalenceExample.jpeg)
 
 Let us refer to $P=p\longrightarrow q$ and $Q=\neg(p\land(\neg q))$, even though they are two different formulas, since they have the same truth value for each logic possibility, we can say that $P\equiv Q$
 
