@@ -53,7 +53,7 @@ $$ p\rightarrow q\\ p\\---\\\therefore q $$
 
 While we did say we can do a truth table to prove an argument is valid, sometimes, this can be very tedious. Imagine you have 10 arguments, you would have $2^{10}=1024$ different rows. Thankfully, we don’t always need to resort to truth tables. Instead, we can establish the validity of some relatively simple argument forms, called **rules of inference.** These rules of inference can be used as building blocks to construct more complicated argument forms
 
-![](attachment:805fa409-b9e9-472e-bbb4-089520576232:image.png)
+![](assets/Proofs/.png)
 
 The proofs of theorems designed for human consumption are always almost informal, where more than one rule of inference may be used in each step, where steps may be skipped, where the axioms being assumed and the rules of inference used are not explicitly stated. Informal proofs can often explain to humans why theorems are true, whereas computers are perfectly happy producing formal proofs using automated reasoning systems.
 
@@ -99,17 +99,17 @@ Examples:
 
 - Prove that the following theorem is true “The sum of two odd numbers is even”
 
-![IMG_1902.jpeg](attachment:1d15ebd1-8754-4758-a92e-c5d0428e138d:IMG_1902.jpeg)
+![](assets/Proofs/.jpeg)
 
 When we write $a=2k+1$, this is because we can rewrite ANY ODD NUMBER in the form of $2n+1$.
 
 - Directly prove that if $n$ is an odd integer, then $n^2$ is also an odd integer
 
-![IMG_1903.jpeg](attachment:cf938e24-1709-4b9f-98fc-b16c5d88cec1:IMG_1903.jpeg)
+![](assets/Proofs/.jpeg)
 
 - Prove that if $n$ is odd, then the remainder of $n^2$ by 8 is 1
 
-![IMG_2391.jpeg](attachment:8ab3a073-db3f-475c-9c93-610cec52fe83:IMG_2391.jpeg)
+![](assets/Proofs/.jpeg)
 
 ### PROOF BY CONTRAPOSITION:
 
@@ -119,7 +119,7 @@ Example:
 
 - Prove that the following theorem is true “If n is an integer and 3n + 2 is odd, then n is odd”
 
-![IMG_1904.jpeg](attachment:5f8ca629-8b0e-4af1-9e1a-a9e5149bb387:IMG_1904.jpeg)
+![](assets/Proofs/.jpeg)
 
 ### PROOF BY CONTRADICTION:
 
@@ -138,11 +138,11 @@ Example:
 
 - Prove by contradiction $\sqrt{2}$ is irrational
 
-![IMG_1905.jpeg](attachment:e73124b3-fe9f-4fa6-8b71-5fff10366e00:IMG_1905.jpeg)
+![](assets/Proofs/.jpeg)
 
 - Prove by contradiction of the theorem “If $3n+2$ is odd, then $n$ is odd”
 
-![IMG_1907.jpeg](attachment:893a11ea-e5ab-450a-99cf-08aeec6b7811:IMG_1907.jpeg)
+![](assets/Proofs/.jpeg)
 
 ### EXHAUSTIVE PROOF AND PROOF BY CASES:
 
