@@ -119,7 +119,7 @@ Example:
 
 - Prove that the following theorem is true “If n is an integer and 3n + 2 is odd, then n is odd”
 
-![](assets/Proofs/.jpeg)
+![ProofByContrapositionExample|697](assets/Proofs/ProofByContrapositionExample.jpeg)
 
 ### PROOF BY CONTRADICTION:
 
@@ -138,11 +138,11 @@ Example:
 
 - Prove by contradiction $\sqrt{2}$ is irrational
 
-![](assets/Proofs/.jpeg)
+![ProofByContradictionExample1|697](assets/Proofs/ProofByContradictionExample1.jpeg)
 
 - Prove by contradiction of the theorem “If $3n+2$ is odd, then $n$ is odd”
 
-![](assets/Proofs/.jpeg)
+![ProofByContradictionExample2|697](assets/Proofs/ProofByContradictionExample2.jpeg)
 
 ### EXHAUSTIVE PROOF AND PROOF BY CASES:
 
@@ -160,11 +160,11 @@ Examples:
 
 - Prove that if $n$ is an integer which is not a multiple of 3, then the remainder of $n^2$ by 3 is 1
 
-![](assets/Proofs/.jpeg)
+![ProofByCasesExample1|697](assets/Proofs/ProofByCasesExample1.jpeg)
 
 - Show that there are no solutions in integers x and y of $x^2+3y^2=8$
 
-![](assets/Proofs/.jpeg)
+![ProofByCasesExample2](assets/Proofs/ProofByCasesExample2.jpeg)
 
 ### PROOF OF EQUIVALENCES:
 
