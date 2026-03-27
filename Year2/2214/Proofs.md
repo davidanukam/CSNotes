@@ -24,7 +24,7 @@ where $\therefore$ is “therefore”
 
 We know that when $p$ and $q$ are propositional variables, then the conjunction of the premises must imply the conclusion. So, $((p\rightarrow q)\land p)\rightarrow q$ must be a tautology. When both $p\rightarrow q$ and $p$ is true, we know that $q$ must also be true. So, when the conjunction of all premises are true, we look at the conclusion. If the conclusion is true when the conjunction of the premises are true, then the argument is valid. Using a truth table here can help us determine whether or not this is true, so let us use a truth table
 
-![](assets/Proofs/.jpeg)
+![ArgumentExample|697](assets/Proofs/ArgumentExample.jpeg)
 
 Now, suppose that both “If you have a current password, then you can log onto the network” and “you have a current password” are true statements. When we replace $p$ by “You have a current password” and $q$ by “You can log onto the network”, it necessarily follows that the conclusion “You can log onto the network” is true. This argument is valid because its form is valid. Note, that whenever we replace p and q by propositions where both $p\rightarrow q$ and $p$ are BOTH true, then $q$ must be true (refer to truth table)
 
@@ -53,7 +53,7 @@ $$ p\rightarrow q\\ p\\---\\\therefore q $$
 
 While we did say we can do a truth table to prove an argument is valid, sometimes, this can be very tedious. Imagine you have 10 arguments, you would have $2^{10}=1024$ different rows. Thankfully, we don’t always need to resort to truth tables. Instead, we can establish the validity of some relatively simple argument forms, called **rules of inference.** These rules of inference can be used as building blocks to construct more complicated argument forms
 
-![](assets/Proofs/.png)
+![](assets/Proofs/RulesOf.png)
 
 The proofs of theorems designed for human consumption are always almost informal, where more than one rule of inference may be used in each step, where steps may be skipped, where the axioms being assumed and the rules of inference used are not explicitly stated. Informal proofs can often explain to humans why theorems are true, whereas computers are perfectly happy producing formal proofs using automated reasoning systems.
 
@@ -160,11 +160,11 @@ Examples:
 
 - Prove that if $n$ is an integer which is not a multiple of 3, then the remainder of $n^2$ by 3 is 1
 
-![IMG_1908.jpeg](attachment:2e2411f8-7c02-4263-9903-065bdd715f84:IMG_1908.jpeg)
+![](assets/Proofs/.jpeg)
 
 - Show that there are no solutions in integers x and y of $x^2+3y^2=8$
 
-![IMG_1910.jpeg](attachment:9601fc5a-ecc4-4b43-9ac9-103b2e69eec6:IMG_1910.jpeg)
+![](assets/Proofs/.jpeg)
 
 ### PROOF OF EQUIVALENCES:
 
@@ -181,7 +181,7 @@ Example:
 
 - Prove the theorem “If $n$ is an integer, then $n$ is odd IF AND ONLY IF $n^2$ is odd”
 
-![IMG_1911.jpeg](attachment:4ee41025-bc05-4a7b-9313-01f8266f8251:IMG_1911.jpeg)
+![assets/Proofs/](assets/Proofs/.jpeg)
 
 You don’t necessarily have to use proof by contradiction in the second one, you can use any proof method you like!
 
@@ -206,7 +206,7 @@ Example:
     $p_3$: $n^2$ is even
     
 
-![IMG_1912.jpeg](attachment:9a94cdf5-56ee-4e1e-b84a-a6f5e3710ed3:IMG_1912.jpeg)
+![](assets/Proofs/.jpeg)
 
 ### COUNTEREXAMPLES:
 
