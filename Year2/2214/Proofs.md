@@ -164,7 +164,7 @@ Examples:
 
 - Show that there are no solutions in integers x and y of $x^2+3y^2=8$
 
-![ProofByCasesExample2](assets/Proofs/ProofByCasesExample2.jpeg)
+![ProofByCasesExample2|697](assets/Proofs/ProofByCasesExample2.jpeg)
 
 ### PROOF OF EQUIVALENCES:
 
@@ -181,7 +181,7 @@ Example:
 
 - Prove the theorem “If $n$ is an integer, then $n$ is odd IF AND ONLY IF $n^2$ is odd”
 
-![assets/Proofs/](assets/Proofs/.jpeg)
+![ProofOfEquivalencesExample|697](assets/Proofs/ProofOfEquivalencesExample.jpeg)
 
 You don’t necessarily have to use proof by contradiction in the second one, you can use any proof method you like!
 
@@ -206,7 +206,7 @@ Example:
     $p_3$: $n^2$ is even
     
 
-![](assets/Proofs/.jpeg)
+![EquivalenceExample|697](assets/Proofs/EquivalenceExample.jpeg)
 
 ### COUNTEREXAMPLES:
 
@@ -214,11 +214,11 @@ Showing that a mathematical statement is true requires a lot of formal proof. Ho
 
 ### EXISTENCE PROOF:
 
-Many theorems are assertions that objects of a particular type exist. A theorem of this type is a proposition in the form $\exist x P(x)$, where $P$ is a predicate. When you prove something exists, you have a choice, there is **constructive proof** and **nonconstructive proof**.
+Many theorems are assertions that objects of a particular type exist. A theorem of this type is a proposition in the form $\exists x P(x)$, where $P$ is a predicate. When you prove something exists, you have a choice, there is **constructive proof** and **nonconstructive proof**.
 
-Constructive proof is basically saying “if i am trying to show that something exists, find an example for which $P(x)$ is true” therefore, it exists.
+Constructive proof is basically saying “if I am trying to show that something exists, find an example for which $P(x)$ is true” therefore, it exists.
 
-Nonconstructive proof is basically saying “assume that there are NO VALUES for which $P(x)$ is true, then contradict this own statement by saying ‘erm actually is it true’ and show an example” which i think is so stupid bro but who am i to judge…
+Nonconstructive proof is basically saying “assume that there are NO VALUES for which $P(x)$ is true, then contradict this own statement by saying ‘erm actually is it true’ and show an example” which I think is so stupid bro but who am I to judge…
 
 I am going to give two examples, one of showing constructive proof, and one of nonconstructive proof:
 
