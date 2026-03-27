@@ -24,7 +24,7 @@ where $\therefore$ is “therefore”
 
 We know that when $p$ and $q$ are propositional variables, then the conjunction of the premises must imply the conclusion. So, $((p\rightarrow q)\land p)\rightarrow q$ must be a tautology. When both $p\rightarrow q$ and $p$ is true, we know that $q$ must also be true. So, when the conjunction of all premises are true, we look at the conclusion. If the conclusion is true when the conjunction of the premises are true, then the argument is valid. Using a truth table here can help us determine whether or not this is true, so let us use a truth table
 
-![IMG_1900.jpeg](attachment:fcd9fda9-f932-42c4-ac9b-9526539359a1:IMG_1900.jpeg)
+![](assets/Proofs/.jpeg)
 
 Now, suppose that both “If you have a current password, then you can log onto the network” and “you have a current password” are true statements. When we replace $p$ by “You have a current password” and $q$ by “You can log onto the network”, it necessarily follows that the conclusion “You can log onto the network” is true. This argument is valid because its form is valid. Note, that whenever we replace p and q by propositions where both $p\rightarrow q$ and $p$ are BOTH true, then $q$ must be true (refer to truth table)
 
@@ -53,7 +53,7 @@ $$ p\rightarrow q\\ p\\---\\\therefore q $$
 
 While we did say we can do a truth table to prove an argument is valid, sometimes, this can be very tedious. Imagine you have 10 arguments, you would have $2^{10}=1024$ different rows. Thankfully, we don’t always need to resort to truth tables. Instead, we can establish the validity of some relatively simple argument forms, called **rules of inference.** These rules of inference can be used as building blocks to construct more complicated argument forms
 
-![image.png](attachment:805fa409-b9e9-472e-bbb4-089520576232:image.png)
+![](attachment:805fa409-b9e9-472e-bbb4-089520576232:image.png)
 
 The proofs of theorems designed for human consumption are always almost informal, where more than one rule of inference may be used in each step, where steps may be skipped, where the axioms being assumed and the rules of inference used are not explicitly stated. Informal proofs can often explain to humans why theorems are true, whereas computers are perfectly happy producing formal proofs using automated reasoning systems.
 
