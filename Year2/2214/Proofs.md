@@ -18,8 +18,7 @@ Let us denote $p=\text{You have a current password}$ and $q=\text{You can log on
 
 Then, the above argument has the form:
 
-$$ p\rightarrow q $$$$
-p$$ \\ ----- \\ \therefore q $$
+$$ p\rightarrow q $$$$ p $$$$ \therefore q $$
 
 where $\therefore$ is “therefore”
 
