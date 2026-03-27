@@ -33,15 +33,19 @@ Now, suppose that both “If you have a current password, then you can log onto 
 
 For example, if given the following four arguments and the conclusion:
 
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
-$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
+$$ 1.\ M\rightarrow E $$
+$$ 2.\ A\rightarrow L $$
+$$ 3. \ (E\lor L)\rightarrow\neg W $$
+$$ 4.\ W $$
+$$ ----- $$
+$$ \therefore \neg M \land \neg A $$
 
 Where:
 
+$$ M:\text{Studies medicine}\\A:\text{Studies art}\\E:\text{Prepares to earn a good living}\\L:\text{Prepares to live a good life}\\W:\text{College tuition is wasted} $$
+$$ M:\text{Studies medicine}\\A:\text{Studies art}\\E:\text{Prepares to earn a good living}\\L:\text{Prepares to live a good life}\\W:\text{College tuition is wasted} $$
+$$ M:\text{Studies medicine}\\A:\text{Studies art}\\E:\text{Prepares to earn a good living}\\L:\text{Prepares to live a good life}\\W:\text{College tuition is wasted} $$
+$$ M:\text{Studies medicine}\\A:\text{Studies art}\\E:\text{Prepares to earn a good living}\\L:\text{Prepares to live a good life}\\W:\text{College tuition is wasted} $$
 $$ M:\text{Studies medicine}\\A:\text{Studies art}\\E:\text{Prepares to earn a good living}\\L:\text{Prepares to live a good life}\\W:\text{College tuition is wasted} $$
 
 So, let us translate the following arguments and conclusion to see if the conclusion falls through:
