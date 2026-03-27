@@ -18,10 +18,10 @@ Let us denote $p=\text{You have a current password}$ and $q=\text{You can log on
 
 Then, the above argument has the form:
 
-$$ p\rightarrow q \\ p \\-----\\ \therefore q $$
-$$ p\rightarrow q \\ p \\-----\\ \therefore q $$
-$$ p\rightarrow q \\ p \\-----\\ \therefore q $$
-$$ p\rightarrow q \\ p \\-----\\ \therefore q $$
+$$ p\rightarrow q $$
+$$ p $$
+$$ ----- $$
+$$ \therefore q $$
 
 where $\therefore$ is “therefore”
 
@@ -33,6 +33,11 @@ Now, suppose that both “If you have a current password, then you can log onto 
 
 For example, if given the following four arguments and the conclusion:
 
+$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
+$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
+$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
+$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
+$$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
 $$ 1.\ M\rightarrow E\\ 2.\ A\rightarrow L\\3. \ (E\lor L)\rightarrow\neg W\\4.\ W\\-----\\\therefore \neg M \land \neg A $$
 
 Where:
