@@ -53,7 +53,7 @@ $$ p\rightarrow q\\ p\\---\\\therefore q $$
 
 While we did say we can do a truth table to prove an argument is valid, sometimes, this can be very tedious. Imagine you have 10 arguments, you would have $2^{10}=1024$ different rows. Thankfully, we don’t always need to resort to truth tables. Instead, we can establish the validity of some relatively simple argument forms, called **rules of inference.** These rules of inference can be used as building blocks to construct more complicated argument forms
 
-![](assets/Proofs/RulesOf.png)
+![RulesOfInferenceTable|400](assets/Proofs/RulesOfInferenceTable.png)
 
 The proofs of theorems designed for human consumption are always almost informal, where more than one rule of inference may be used in each step, where steps may be skipped, where the axioms being assumed and the rules of inference used are not explicitly stated. Informal proofs can often explain to humans why theorems are true, whereas computers are perfectly happy producing formal proofs using automated reasoning systems.
 
@@ -99,17 +99,17 @@ Examples:
 
 - Prove that the following theorem is true “The sum of two odd numbers is even”
 
-![](assets/Proofs/.jpeg)
+![DirectProofExample1|697](assets/Proofs/DirectProofExample1.jpeg)
 
 When we write $a=2k+1$, this is because we can rewrite ANY ODD NUMBER in the form of $2n+1$.
 
 - Directly prove that if $n$ is an odd integer, then $n^2$ is also an odd integer
 
-![](assets/Proofs/.jpeg)
+![DirectProofExample2|697](assets/Proofs/DirectProofExample2.jpeg)
 
 - Prove that if $n$ is odd, then the remainder of $n^2$ by 8 is 1
 
-![](assets/Proofs/.jpeg)
+![DirectProofExample3|697](assets/Proofs/DirectProofExample3.jpeg)
 
 ### PROOF BY CONTRAPOSITION:
 
