@@ -118,19 +118,19 @@ $P(\{0,1\})=\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
 
 $P(\{0,1,2\})=\{\emptyset, \{0\}, \{1\},\{2\},\{0,1\},\{0,2\},\{1,2\},\{0,1,2\}\}$
 
-## INSERSECTION:
+## INTERSECTION:
 
 Basically the conjunction of 2 sets. The intersection of 2 sets $A$ and $B$ is the set of objects which are elements in both $A$ and $B$ (notation: $A\cap B$)
 
-$$ A\cap B=\{x|x\in A\land x\in B\} $$
+$$ A \cap B= \{x|x\in A\land x\in B\} $$
 
 Examples:
 
-$\{0,1,2\}\cap\{1,2,3\}=\{1,2\}$, you only want the elements that are in common between the two sets, so obviously 0 wouldn’t be in there since the second set does not contain 0
+$\lbrace 0,1,2 \rbrace \cap \lbrace 1,2,3 \rbrace = \lbrace 1,2 \rbrace$, you only want the elements that are in common between the two sets, so obviously 0 wouldn’t be in there since the second set does not contain 0
 
-$\{0,1,2\}\cap\{3,4,5\}=\emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
+$\lbrace 0,1,2 \rbrace \cap \lbrace 3,4,5 \rbrace = \emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
 
-$\lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace x^2 \ | \ x \in \lbrace 0,1,2,3 \rbrace \rbrace = \lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace 0,1,4,9 \rbrace = \lbrace 1,9 \rbrace$
+$\lbrace x \in N \ | \ x \text{ odd} \rbrace \cap \lbrace x^2 \ | \ x \in \lbrace 0,1,2,3 \rbrace \rbrace = \lbrace x \in N \ | \ x \text{ odd} \rbrace \cap \lbrace 0,1,4,9 \rbrace = \lbrace 1,9 \rbrace$
 
 So, you want the intersection between $x$ which is in the set of all natural numbers such that $x$ is actually odd and $x^2$ such that $x$ is in the set $\lbrace 0,1,2,3 \rbrace$. You would need to square the numbers on the right hand side of the intersection, and find the common elements between the two. Hopefully you know what natural numbers are…
 
