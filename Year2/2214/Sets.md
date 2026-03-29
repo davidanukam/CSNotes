@@ -138,11 +138,11 @@ So, you want the intersection between $x$ which is in the set of all natural num
 
 If we know that $A\subset B$, then $A\cap B=A$
 
-- Take an example to visual this, if we had $A=\{1,2\}$ and $B=\{1,2,3\}$, it is very obvious that $A\subset B$. Now, if we wanted to find the intersection between the two $\{1,2\}\cap\{1,2,3\}=\{1,2\}$ which is clearly $A$
+- Take an example to visual this, if we had $A = \lbrace 1,2 \rbrace$ and $B = \lbrace 1,2,3\}$, it is very obvious that $A\subset B$. Now, if we wanted to find the intersection between the two $\{1,2\}\cap\{1,2,3\}=\{1,2\}$ which is clearly $A$
 
 Now, is this true for the converse? Is it true that if $A\cap B = A$, then $A\subset B$?
 
-- Well, naturally, this is also true. Once again, let us take an example. If we had $A=\{1,2\}$ and $B=\{1,2,3\}$, the intersection would be: $\{1,2\}\cap\{1,2,3\}=\{1,2\}$. Then, it is clearly obvious that $A\subset B$
+- Well, naturally, this is also true. Once again, let us take an example. If we had $A = \lbrace 1,2 \rbrace$ and $B = \lbrace 1,2,3 \rbrace$, the intersection would be: $\lbrace 1,2 \rbrace \cap \lbrace 1,2,3 \rbrace = \lbrace 1,2 \rbrace$. Then, it is clearly obvious that $A\subset B$
 
 Now is this the correct way for proving theorems? No, but I’m giving an example to make stuff clearer.
 
@@ -150,7 +150,7 @@ Now is this the correct way for proving theorems? No, but I’m giving an exampl
 
 Basically the disjunction of 2 sets. The union of 2 sets $A$ and $B$ is the set of objects which are elements of either $A$ or of $B$ (notation: $A\cup B$)
 
-$$ A \cup B = \lbrace x \ | \ x \in A \and x \in B\} $$
+$$ A \cup B = \lbrace x \ | \ x \in A \lor x \in B \rbrace $$
 
 It is important to note, we do not add a duplicate elements when we do the union. This will make more sense in examples
 
