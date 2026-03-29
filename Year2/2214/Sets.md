@@ -229,7 +229,7 @@ If you ever forget, just think of $\cap =\land$, $\cup=\lor$, $\emptyset=0$, and
 
 Let $A$ and $B$ be sets. The Cartesian product of $A$ and $B$, denoted by $A\times B$, is the set of all ordered pairs $(a,b)$, where $a\in A$ and $b\in B$
 
-$$ A\times B=\{(a,b)\ | \ a\in A\land b\in B\} $$
+$$ A\times B=\lbrace(a,b)\ | \ a\in A\land b\in B\rbrace $$
 
 Example:
 
@@ -272,7 +272,7 @@ What if we wanted to find the cardinality of union of 3 sets? What would that be
 
 So, this would be:
 
-$$ |A\cup B\cup C|=|A| + |B| +|C| - |A\cap B|-|A\cap C|-|B\cap C|+|A\cap B\cap C| $$
+$$| A \cup B \cup C | = | A | + | B | + | C | - | A \cap B | - | A \cap C | - | B \cap C | + | A \cap B \cap C |$$
 
 Why is it like this?
 
