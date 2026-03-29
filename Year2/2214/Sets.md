@@ -108,7 +108,7 @@ A set is always a subset of itself $A\subset A$
 
 The **power set** of a set $A$ is the set of ALL subsets of $A$, including $\emptyset$ and $A$. It has various notations, such as: $P(A)$ and $2^A$
 
-$$ P(A) = \lbrace S | S\subset A\} $$
+$$ P(A) = \lbrace S \ | \ S \subset A \rbrace $$
 
 Examples:
 
@@ -122,7 +122,7 @@ $P(\lbrace 0,1,2 \rbrace) = \lbrace \emptyset, \lbrace 0 \rbrace, \lbrace 1 \rbr
 
 Basically the conjunction of 2 sets. The intersection of 2 sets $A$ and $B$ is the set of objects which are elements in both $A$ and $B$ (notation: $A\cap B$)
 
-$$ A \cap B = \lbrace x | x \in A \land x \in B \rbrace $$
+$$ A \cap B = \lbrace x \ | \ x \in A \land x \in B \rbrace $$
 
 Examples:
 
@@ -258,7 +258,7 @@ The proper definition of cardinality of infinite sets requires functions, so whe
 
 We are often interested in finding the cardinality of a union of two finite sets $A$ and $B$. I hope you know what union means. So, the cardinality of A or B is:
 
-$$| A \cup B | = | A | + | B | - | A \cap B |$$
+$$| \ A \cup B \ | = | A | + | B | - | A \cap B |$$
 
 Why? I think drawing it out makes a lot of sense:
 
