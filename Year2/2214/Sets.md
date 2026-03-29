@@ -130,15 +130,15 @@ $\{0,1,2\}\cap\{1,2,3\}=\{1,2\}$, you only want the elements that are in common 
 
 $\{0,1,2\}\cap\{3,4,5\}=\emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
 
-$\{x\in N\ |\ x \text{ odd}\}\cap\{x^2\ | \ x \in \{0,1,2,3\}\}= \{x\in N\ |\ x \text{ odd}\}\cap\{0,1,4,9\}=\{1,9\}$
+$\lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace x^2 \ | \ x \in \{0,1,2,3\}\}= \{x\in N\ |\ x \text{ odd}\}\cap\{0,1,4,9\}=\{1,9\}$
 
-So, you want the intersection between $x$ which is in the set of all natural numbers such that $x$ is actually odd and $x^2$ such that $x$ is in the set $\{0,1,2,3\}$. You would need to square the numbers on the right hand side of the intersection, and find the common elements between the two. Hopefully you know what natural numbers are…
+So, you want the intersection between $x$ which is in the set of all natural numbers such that $x$ is actually odd and $x^2$ such that $x$ is in the set $\lbrace 0,1,2,3 \rbrace$. You would need to square the numbers on the right hand side of the intersection, and find the common elements between the two. Hopefully you know what natural numbers are…
 
 ### PROPERTIES:
 
 If we know that $A\subset B$, then $A\cap B=A$
 
-- Take an example to visual this, if we had $A = \lbrace 1,2 \rbrace$ and $B = \lbrace 1,2,3\}$, it is very obvious that $A\subset B$. Now, if we wanted to find the intersection between the two $\{1,2\}\cap\{1,2,3\}=\{1,2\}$ which is clearly $A$
+- Take an example to visual this, if we had $A = \lbrace 1,2 \rbrace$ and $B = \lbrace 1,2,3 \rbrace$, it is very obvious that $A\subset B$. Now, if we wanted to find the intersection between the two $\lbrace 1,2 \rbrace \cap \lbrace 1,2,3 \rbrace = \lbrace 1,2 \rbrace$ which is clearly $A$
 
 Now, is this true for the converse? Is it true that if $A\cap B = A$, then $A\subset B$?
 
