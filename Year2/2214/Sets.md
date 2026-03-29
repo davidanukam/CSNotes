@@ -70,7 +70,7 @@ We are basically saying $S$ is the set of the objects $x$ such that (which is de
 
 The variable $x$ is just a placeholder which can be changed to any other symbol to avoid clashes
 
-- $A = \lbrace x \ | \ x \text{ is a letter of the English alphabet} \rbrace$ is not ideal, since X is an actual character in the English alphabet
+- $A = \lbrace x \ | \ x \text{ is a letter of the English alphabet} \rbrace$ is not ideal, since $X$ is an actual character in the English alphabet
 
 ## SET EQUALITY AND SUBSETS:
 
@@ -130,7 +130,7 @@ $\lbrace 0,1,2 \rbrace \cap \lbrace 1,2,3 \rbrace = \lbrace 1,2 \rbrace$, you on
 
 $\lbrace 0,1,2 \rbrace \cap \lbrace 3,4,5 \rbrace = \emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
 
-$\lbrace x \in N \ | \ x \text{ odd} \rbrace \cap \lbrace x^2 \ | \ x \in \lbrace 0,1,2,3 \rbrace \rbrace = \lbrace x \in N \ | \ x \text{ odd} \rbrace \cap \lbrace 0,1,4,9 \rbrace = \lbrace 1,9 \rbrace$
+$\lbrace x \in \mathbb{N} \ | \ x \text{ odd} \rbrace \cap \lbrace x^2 \ | \ x \in \lbrace 0,1,2,3 \rbrace \rbrace = \lbrace x \in \mathbb{N} \ | \ x \text{ odd} \rbrace \cap \lbrace 0,1,4,9 \rbrace = \lbrace 1,9 \rbrace$
 
 So, you want the intersection between $x$ which is in the set of all natural numbers such that $x$ is actually odd and $x^2$ such that $x$ is in the set $\lbrace 0,1,2,3 \rbrace$. You would need to square the numbers on the right hand side of the intersection, and find the common elements between the two. Hopefully you know what natural numbers are…
 
@@ -176,7 +176,7 @@ Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$,
 
 ## COMPLEMENT:
 
-Basically elements that are not in a set $A$. So, if you are given a universal set $U$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
+Basically elements that are not in a set $A$. So, if you are given a universal set $\mathbb{U}$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
 
 $$ A^C = \lbrace x [ \in U ] \ | \ x \notin A \rbrace $$
 
