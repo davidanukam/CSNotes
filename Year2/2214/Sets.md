@@ -98,7 +98,7 @@ The universal set is the set of all objects under consideration. Often denoted $
 
 When we use a universal set in terms of Venn Diagram, we usually represent it as a rectangle.
 
-![image.png](attachment:3bf90fdc-2d36-4b27-a2b6-858b69a5111c:image.png)
+![image.png](assets/.png)
 
 ## SUBSETS AND POWER SETS:
 
