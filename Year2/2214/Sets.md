@@ -116,7 +116,7 @@ $P(\{0,1\})=\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
 
 - The $2^A$ notation should make sense now. We have 2 elements in A, if we do $2^2 = 4$, which clearly matches our power set. Wow notations (i’m so sleeeep deprived help)
 
-$P(\{0,1,2\})=\{\empty, \{0\}, \{1\},\{2\},\{0,1\},\{0,2\},\{1,2\},\{0,1,2\}\}$
+$P(\{0,1,2\})=\{\emptyset, \{0\}, \{1\},\{2\},\{0,1\},\{0,2\},\{1,2\},\{0,1,2\}\}$
 
 ## INSERSECTION:
 
@@ -128,7 +128,7 @@ Examples:
 
 $\{0,1,2\}\cap\{1,2,3\}=\{1,2\}$, you only want the elements that are in common between the two sets, so obviously 0 wouldn’t be in there since the second set does not contain 0
 
-$\{0,1,2\}\cap\{3,4,5\}=\empty$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
+$\{0,1,2\}\cap\{3,4,5\}=\emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
 
 $\{x\in N\ |\ x \text{ odd}\}\cap\{x^2\ | \ x \in \{0,1,2,3\}\}= \{x\in N\ |\ x \text{ odd}\}\cap\{0,1,4,9\}=\{1,9\}$
 
@@ -136,13 +136,13 @@ So, you want the intersection between $x$ which is in the set of all natural num
 
 ### PROPERTIES:
 
-If we know that $A\sube B$, then $A\cap B=A$
+If we know that $A\subset B$, then $A\cap B=A$
 
-- Take an example to visual this, if we had $A=\{1,2\}$ and $B=\{1,2,3\}$, it is very obvious that $A\sube B$. Now, if we wanted to find the intersection between the two $\{1,2\}\cap\{1,2,3\}=\{1,2\}$ which is clearly $A$
+- Take an example to visual this, if we had $A=\{1,2\}$ and $B=\{1,2,3\}$, it is very obvious that $A\subset B$. Now, if we wanted to find the intersection between the two $\{1,2\}\cap\{1,2,3\}=\{1,2\}$ which is clearly $A$
 
-Now, is this true for the converse? Is it true that if $A\cap B = A$, then $A\sube B$?
+Now, is this true for the converse? Is it true that if $A\cap B = A$, then $A\subset B$?
 
-- Well, naturally, this is also true. Once again, let us take an example. If we had $A=\{1,2\}$ and $B=\{1,2,3\}$, the intersection would be: $\{1,2\}\cap\{1,2,3\}=\{1,2\}$. Then, it is clearly obvious that $A\sube B$
+- Well, naturally, this is also true. Once again, let us take an example. If we had $A=\{1,2\}$ and $B=\{1,2,3\}$, the intersection would be: $\{1,2\}\cap\{1,2,3\}=\{1,2\}$. Then, it is clearly obvious that $A\subset B$
 
 Now is this the correct way for proving theorems? No, but I’m giving an example to make stuff clearer.
 
@@ -166,13 +166,13 @@ $[1,5]\cup(2,6]=\{x\in R\ | \ 1\leq x\leq 5 \text{ or }2<x\leq6\}=[1,6]$
 
 ### PROPERTIES:
 
-If we know that $A\sube B$, then $A\cup B=B$
+If we know that $A\subset B$, then $A\cup B=B$
 
-- Okay example time just so this makes things clearer. If we had $A=\{1,2\}$ and $B=\{0,1,2,3\}$, then obviously, we can see that $A\sube B$. Now, if we were to do the union between these two sets: $\{1,2\}\cup\{0,1,2,3\}=\{0,1,2,3\}$, which is clearly $B$
+- Okay example time just so this makes things clearer. If we had $A=\{1,2\}$ and $B=\{0,1,2,3\}$, then obviously, we can see that $A\subset B$. Now, if we were to do the union between these two sets: $\{1,2\}\cup\{0,1,2,3\}=\{0,1,2,3\}$, which is clearly $B$
 
-Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$, then $A\sube B$?
+Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$, then $A\subset B$?
 
-- Example, once again. If we had $A=\{1,2,3\}\cup\{0,1,2,3,4\}=\{0,1,2,3,4\}$, we know this is true. Now, is it true that $A\sube B$? Well no shit just look. it is very obvious that $A\sube B$
+- Example, once again. If we had $A=\{1,2,3\}\cup\{0,1,2,3,4\}=\{0,1,2,3,4\}$, we know this is true. Now, is it true that $A\subset B$? Well no shit just look. it is very obvious that $A\subset B$
 
 ## COMPLEMENT:
 
@@ -182,11 +182,11 @@ $$ A^C=\{x[\in U]\ | \ x\not\in A\} $$
 
 Examples:
 
-For any universe $U$, $U^C=\empty$ and $\empty^C=U$
+For any universe $U$, $U^C=\emptyset$ and $\emptyset^C=U$
 
-In the universe $R$ of real numbers, $[1,5)^C=\{x\in R \ | \ \neg(1\leq x< 5)\}=\{x\in R \ | \ x< 1\lor x\geq 5\}=(-\infin, 1)\cup[5,+\infin)$
+In the universe $R$ of real numbers, $[1,5)^C=\{x\in R \ | \ \neg(1\leq x< 5)\}=\{x\in R \ | \ x< 1\lor x\geq 5\}=(-\infty, 1)\cup[5,+\infty)$
 
-For any universe $U$ and any set $A\sube U$, $(A^C)^C=A$, how can we prove this?
+For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove this?
 
 - Let us assume we have an element $x\in A$, if $x$ is an element in $A$, this means $x$ CANNOT be in $A^C$. So, $x$ is going to be in the complement of $A^C$
 - $x\in A\rightarrow x\not\in A^C\rightarrow x\in (A^C)^C$, since $x\in A$ and $x\in (A^C)^C$, this means $(A^C)^C=A$
@@ -194,7 +194,7 @@ For any universe $U$ and any set $A\sube U$, $(A^C)^C=A$, how can we prove this?
 
 ## **DIFFERENCE:**
 
-Given 2 sets $A$ and $B$, the difference of $A$ in $B$ is the set of elements of $B$ which are NOT in $A$ (notation: $B\backslash A\text{ or }B-A$). It is not necessary that $A\sube B$
+Given 2 sets $A$ and $B$, the difference of $A$ in $B$ is the set of elements of $B$ which are NOT in $A$ (notation: $B\backslash A\text{ or }B-A$). It is not necessary that $A\subset B$
 
 $$ B\backslash A=\{x \ | \ x\in B\land x\not\in A\}=\{x\in B \ | \ x\notin A\} $$
 
