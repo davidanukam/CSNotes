@@ -243,12 +243,12 @@ We say that a set if finite if it has $n$ elements of some natural number $n$. O
 
 If you want to dumb it down, this means cardinality is simply the number of elements in the set. It is denoted by the absolute value symbol
 
-Example:
+Examples:
 
 $|\emptyset|=0$,
 $|\{\emptyset\}|=1$
 $|\{0,1,2,3\}|=4$
-$\...$and so on
+$\dots$ and so on
 
 For infinite sets (like all real numbers, all natural numbers, and so on), their cardinality is also infinite. But, there are different types of infinity. We don’t need to know them, but its good to know there are different types
 
