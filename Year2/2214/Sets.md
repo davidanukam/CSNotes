@@ -160,19 +160,19 @@ $\{0,1,2\}\cup\{1,2,3\}=\{0,1,2,3\}$. DO NOT REPEAT THE SAME ELEMENT TWICE.
 
 $\{0,1,2\}\cup\{4,5,6\}=\{0,1,2,3,4,5,6\}$
 
-$[1,5]\cup(2,6]=\{x\in R\ | \ 1\leq x\leq 5 \text{ or }2<x\leq6\}=[1,6]$
+$[1,5]\cup(2,6]=\lbrace x \in R \ | \ 1 \le x \le 5 \text{ or } 2 \lt x \le6\}=[1,6]$
 
-- If this doesn’t make sense, you basically need the union between $\{1,2,3,4,5\}\cup\{3,4,5,6\}=\{1,2,3,4,5,6\}$
+- If this doesn’t make sense, you basically need the union between $\lbrace 1,2,3,4,5 \rbrace \cup \lbrace 3,4,5,6 \rbrace = \lbrace 1,2,3,4,5,6 \rbrace$
 
 ### PROPERTIES:
 
 If we know that $A\subset B$, then $A\cup B=B$
 
-- Okay example time just so this makes things clearer. If we had $A=\{1,2\}$ and $B=\{0,1,2,3\}$, then obviously, we can see that $A\subset B$. Now, if we were to do the union between these two sets: $\{1,2\}\cup\{0,1,2,3\}=\{0,1,2,3\}$, which is clearly $B$
+- Okay example time just so this makes things clearer. If we had $A=\lbrace 1,2 \rbrace$ and $B=\lbrace 0,1,2,3 \rbrace$, then obviously, we can see that $A\subset B$. Now, if we were to do the union between these two sets: $\{1,2\}\cup\{0,1,2,3\}=\{0,1,2,3\}$, which is clearly $B$
 
 Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$, then $A\subset B$?
 
-- Example, once again. If we had $A=\lbrace1,2,3\rbrace \cup \lbrace 0,1,2,3,4 \rbrace = \lbrace 0,1,2,3,4\}$, we know this is true. Now, is it true that $A\subset B$? Well no shit just look. it is very obvious that $A\subset B$
+- Example, once again. If we had $A=\lbrace1,2,3\rbrace \cup \lbrace 0,1,2,3,4 \rbrace = \lbrace 0,1,2,3,4 \rbrace$, we know this is true. Now, is it true that $A\subset B$? Well no shit just look. it is very obvious that $A\subset B$
 
 ## COMPLEMENT:
 
