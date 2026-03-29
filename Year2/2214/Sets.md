@@ -245,7 +245,7 @@ If you want to dumb it down, this means cardinality is simply the number of elem
 
 Example:
 
-$|\emptyset|=0$, $|\{\emptyset\}|=1$, $|\{0,1,2,3\}|=4$, and so on
+$|\emptyset|=0$, $|{\emptyset}|=1$, $|{0,1,2,3}|=4$, and so on
 
 For infinite sets (like all real numbers, all natural numbers, and so on), their cardinality is also infinite. But, there are different types of infinity. We don’t need to know them, but its good to know there are different types
 
