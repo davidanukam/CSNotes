@@ -116,13 +116,13 @@ $P(\{0,1\})=\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
 
 - The $2^A$ notation should make sense now. We have 2 elements in A, if we do $2^2 = 4$, which clearly matches our power set. Wow notations (i’m so sleeeep deprived help)
 
-$P(\{0,1,2\})=\{\emptyset, \{0\}, \{1\},\{2\},\{0,1\},\{0,2\},\{1,2\},\{0,1,2\}\}$
+$P(\lbrace 0,1,2 \rbrace) = \lbrace \emptyset, \lbrace 0 \rbrace, \lbrace 1 \rbrace,\lbrace 2 \rbrace, \lbrace 0,1 \rbracebrace,\{0,2\},\{1,2\},\{0,1,2\}\}$
 
 ## INTERSECTION:
 
 Basically the conjunction of 2 sets. The intersection of 2 sets $A$ and $B$ is the set of objects which are elements in both $A$ and $B$ (notation: $A\cap B$)
 
-$$ A \cap B= \{x|x\in A\land x\in B\} $$
+$$ A \cap B = \lbrace x | x \in A \land x \in B \rbrace $$
 
 Examples:
 
