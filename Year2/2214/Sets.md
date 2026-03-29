@@ -206,9 +206,9 @@ The difference with respect to the universe is the complement: $B\backslash A=B\
 - $x\in B-A\rightarrow x\in B\land x\notin A^C\rightarrow x\in B\land x\in A^C \ (B\cap A^C)$
 - This can be both ways: $x\in B-A\longleftrightarrow x\in B\land x\notin A^C\longleftrightarrow x\in B\land x\in A^C \ (B\cap A^C)$
 
-$\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 2,3 \rbrace = \lbrace 0,1,4 \rbrace $, the elements in $B$ that are NOT in $A$
+$\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 2,3 \rbrace = \lbrace 0,1,4 \rbrace$, the elements in $B$ that are NOT in $A$
 
-$\{0,1,2,3,4\}\backslash\{5,6,7\}=\{0,1,2,3,4\}$
+$\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 5,6,7 \rbrace = \lbrace 0,1,2,3,4 \rbrace$
 
 ## NOTABLE SET IDENTITIES:
 
