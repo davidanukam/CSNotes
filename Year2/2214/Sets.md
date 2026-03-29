@@ -52,13 +52,13 @@ So, long story, we will be using the naïve set theory although it results in pa
 
 ## REPRESENTING SETS:
 
-The elements of a set $S$ are listed like this: $S=\{0,1,2,3\}$, since we said sets are unordered, the order does not matter here
+The elements of a set $S$ are listed like this: $S = \lbrace 0,1,2,3 \rbrace$, since we said sets are unordered, the order does not matter here
 
 It is better practice to NOT list one element more than once in a set
 
 For larger (infinite or finite) sets, we list enough elements to highlight the pattern and then we use “…” to leave the other implied
 
-So, if we had $A=\{a,b,c,...,x,y,z\}$, although we did not list every single alphabets in there, we can establish that $A$ is the set of alphabets in the English language
+So, if we had $A = \lbrace a,b,c, \dots, x,y,z \rbrace$, although we did not list every single alphabets in there, we can establish that $A$ is the set of alphabets in the English language
 
 If we had $\mathbb{Z} = \lbrace \dots, -3-2-1,0,1,2,3, \dots \rbrace$, you should be able to tell that $\mathbb{Z}$ is just the set of integers
 
