@@ -98,7 +98,7 @@ The universal set is the set of all objects under consideration. Often denoted $
 
 When we use a universal set in terms of Venn Diagram, we usually represent it as a rectangle.
 
-![image.png](assets/.png)
+![CommonSets](assets/Sets/CommonSets.png)
 
 ## SUBSETS AND POWER SETS:
 
@@ -259,13 +259,13 @@ $$ |A\cup B|=|A| + |B| -|A\cap B| $$
 
 Why? I think drawing it out makes a lot of sense:
 
-![image.png](attachment:19da4267-5e1d-41b6-a7d7-d88a885400ea:image.png)
+![CardinalityOfUnionOf2Sets](assets/Sets/CardinalityOfUnionOf2Sets.png)
 
 The reason why we subtract $A\cap B$, is because the number of elements $A\cap B$ is counted twice, once when we are counting $A$ and another time when we are counting $B$
 
 What if we wanted to find the cardinality of union of 3 sets? What would that be? The best way is to draw it out
 
-![image.png](attachment:a37bdc9e-b1e5-40c5-87fe-84e826360c8b:image.png)
+![CardinalityOfUnionOf3Sets](assets/Sets/CardinalityOfUnionOf3Sets.png)
 
 So, this would be:
 
