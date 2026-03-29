@@ -150,15 +150,15 @@ Now is this the correct way for proving theorems? No, but I’m giving an exampl
 
 Basically the disjunction of 2 sets. The union of 2 sets $A$ and $B$ is the set of objects which are elements of either $A$ or of $B$ (notation: $A\cup B$)
 
-$$ A\cup B=\{x \ | \ x\in A \lor x\in B\} $$
+$$ A \cup B = \lbrace x \ | \ x \in A \and x \in B\} $$
 
 It is important to note, we do not add a duplicate elements when we do the union. This will make more sense in examples
 
 Examples:
 
-$\{0,1,2\}\cup\{1,2,3\}=\{0,1,2,3\}$. DO NOT REPEAT THE SAME ELEMENT TWICE.
+$\lbrace 0,1,2 \rbrace \cup \lbrace 1,2,3 \rbrace = \lbrace 0,1,2,3 \rbrace$. DO NOT REPEAT THE SAME ELEMENT TWICE.
 
-$\lbrace 0,1,2 \rbrace \cup\ {4,5,6\}=\{0,1,2,3,4,5,6\}$
+$\lbrace 0,1,2 \rbrace \cup \lbrace 4,5,6 \rbrace = \lbrace 0,1,2,3,4,5,6 \rbrace$
 
 $[1,5] \cup (2,6] = \lbrace x \in R \ | \ 1 \le x \le 5 \text{ or } 2 \lt x \le 6 \rbrace = [1,6]$
 
