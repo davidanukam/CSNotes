@@ -84,15 +84,15 @@ $$ A\subset B\ \iff\ \forall x(x\in A\rightarrow x\in B) $$
 
 Example:
 
-$A=\{1,2,3\}$ and $B=\{1,2,3,4,5,6\}$, then we can say that $A$ is a subset of $B$ as all the elements in A are in B $A\subset B$
+$A = \lbrace 1,2,3 \rbrace$ and $B = \lbrace 1,2,3,4,5,6 \rbrace$, then we can say that $A$ is a subset of $B$ as all the elements in A are in B $A \subset B$
 
-$\{1,4\}\not\subset\{1,2,3\}$ since $\{1,4\}$ are not in the second set
+$\lbrace 1,4 \rbrace \not \subset \lbrace 1,2,3 \rbrace$ since $\lbrace 1,4 \rbrace$ are not in the second set
 
 ## EMPTY SET AND UNIVERSAL SET:
 
-As the name states, an empty set is a set that contains no elements. It is usually denoted as $\emptyset$ or $\{\}$
+As the name states, an empty set is a set that contains no elements. It is usually denoted as $\emptyset$ or $\lbrace \rbrace$
 
-However, if you were to do something like $\{\emptyset\}$, this is not the same thing, this is saying a set containing an empty set.
+However, if you were to do something like $\lbrace \emptyset \rbrace$, this is not the same thing, this is saying a set containing an empty set.
 
 The universal set is the set of all objects under consideration. Often denoted $U$
 
