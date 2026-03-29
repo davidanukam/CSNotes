@@ -47,14 +47,14 @@ If we are given this relation $R = \lbrace (1,5), (2,5) \rbrace$, answer the fol
 3. What is the image/range of this relation?
 
 - This relation IS a function, since 5 is mapped to by two different elements of $A$. The elements of $A$ are unique and are not mapped twice.
-- The domain of this relation: $D_R=\{1,2\}$. Remember, the domain is the first element is each ordered pair
-- The image of this relation: $Range=Im(f)=\{5\}$
+- The domain of this relation: $D_R = \lbrace 1,2 \rbrace$. Remember, the domain is the first element is each ordered pair
+- The image of this relation: $Range = Im(f) = \lbrace 5 \rbrace$
 
-If you are given this relation: $R=\{(1,2),(1,4),(2,2),(2,5)\}$, answer the same questions above
+If you are given this relation: $R = \lbrace (1,2),(1,4),(2,2),(2,5) \rbrace$, answer the same questions above
 
 - This is NOT a function, since 1 is mapped to two elements and 2 is mapped to two elements
-- The domain of this relation: $D_R=\{1,2\}$
-- The image of this relation: $Range=I(R)=\{2,4,5\}$
+- The domain of this relation: $D_R = \lbrace 1,2 \rbrace$
+- The image of this relation: $Range = I(R) = \lbrace 2,4,5 \rbrace$
 
 Two functions are considered equal when they have:
 
@@ -65,7 +65,7 @@ Two functions are considered equal when they have:
 Another way to describe range:
 
 - The range of a function, denoted as $Range(f)$ or $f(A)$, is the set of ALL values that $f$ maps to in the codomain $B$. In other words, it is the set of OUTPUT values of the function
-- $f(A)=\{f(a) \ | \ a\in A\}$
+- $f(A) = \lbrace f(a) \ | \ a \in A \rbrace$
 - The range $f(A)$ is ALWAYS a subset of the codomain $B$, because $f$ maps elements from $A\rightarrow B$
 
 ![FunctionRange|697](assets/Functions/FunctionRange.png)
