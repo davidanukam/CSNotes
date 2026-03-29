@@ -178,13 +178,13 @@ Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$,
 
 Basically elements that are not in a set $A$. So, if you are given a universal set $U$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
 
-$$ A^C = \lbrace x \ [ \in U ] \ | \ x \notin A \rbrace $$
+$$ A^C = \lbrace x \lbrack \in U \rbrack \ | \ x \notin A \rbrace $$
 
 Examples:
 
 For any universe $U$, $U^C=\emptyset$ and $\emptyset^C=U$
 
-In the universe $R$ of real numbers, $[1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \ge 5 \rbrace =(-\infty, 1) \cup [5,+\infty)$
+In the universe $R$ of real numbers, $\brack 1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \ge 5 \rbrace =(-\infty, 1) \cup [5,+\infty)$
 
 For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove this?
 
@@ -196,7 +196,7 @@ For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove thi
 
 Given 2 sets $A$ and $B$, the difference of $A$ in $B$ is the set of elements of $B$ which are NOT in $A$ (notation: $B\backslash A\text{ or }B-A$). It is not necessary that $A\subset B$
 
-$$ B \backslash A = \lbrace x \ | \ x \in B \land x \notin A \rbrace = \brace x \in B \ | \ x \notin A \rbrace $$
+$$ B \ \backslash \ A = \lbrace x \ | \ x \in B \land x \notin A \rbrace = \brace x \in B \ | \ x \notin A \rbrace $$
 
 Examples:
 
@@ -206,7 +206,7 @@ The difference with respect to the universe is the complement: $B\backslash A=B\
 - $x\in B-A\rightarrow x\in B\land x\notin A^C\rightarrow x\in B\land x\in A^C \ (B\cap A^C)$
 - This can be both ways: $x\in B-A\longleftrightarrow x\in B\land x\notin A^C\longleftrightarrow x\in B\land x\in A^C \ (B\cap A^C)$
 
-$\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 2,3 \rbrace = \lbrace 0,1,4 \rbrace$, the elements in $B$ that are NOT in $A$
+$\lbrace 0,1,2,3,4 \rbrace \ \backslash \ \lbrace 2,3 \rbrace = \lbrace 0,1,4 \rbrace$, the elements in $B$ that are NOT in $A$
 
 $\lbrace 0,1,2,3,4 \rbrace \ \backslash \ \lbrace 5,6,7 \rbrace = \lbrace 0,1,2,3,4 \rbrace$
 
