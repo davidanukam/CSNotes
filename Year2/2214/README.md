@@ -2,5 +2,5 @@
 
 1. [Logics & Proofs](Logics%20&%20Proofs.md)
 2. [Proofs](Proofs.md)
-3. 
+3. [Sets](Sets.md)
 4. [Functions](Functions.md)
