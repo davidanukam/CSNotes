@@ -86,13 +86,13 @@ Example:
 
 $A=\{1,2,3\}$ and $B=\{1,2,3,4,5,6\}$, then we can say that $A$ is a subset of $B$ as all the elements in A are in B $A\subset B$
 
-$\{1,4\}\not\sube\{1,2,3\}$ since $\{1,4\}$ are not in the second set
+$\{1,4\}\not\subset\{1,2,3\}$ since $\{1,4\}$ are not in the second set
 
 ## EMPTY SET AND UNIVERSAL SET:
 
 As the name states, an empty set is a set that contains no elements. It is usually denoted as $\emptyset$ or $\{\}$
 
-However, if you were to do something like $\{\empty\}$, this is not the same thing, this is saying a set containing an empty set.
+However, if you were to do something like $\{\emptyset\}$, this is not the same thing, this is saying a set containing an empty set.
 
 The universal set is the set of all objects under consideration. Often denoted $U$
 
@@ -102,17 +102,17 @@ When we use a universal set in terms of Venn Diagram, we usually represent it as
 
 ## SUBSETS AND POWER SETS:
 
-The empty set is a subset of any set, so $\empty\sube A$
+The empty set is a subset of any set, so $\emptyset\subset A$
 
-A set is always a subset of itself $A\sube A$
+A set is always a subset of itself $A\subset A$
 
-The **power set** of a set $A$ is the set of ALL subsets of $A$, including $\empty$ and $A$. It has various notations, such as: $P(A)$ and $2^A$
+The **power set** of a set $A$ is the set of ALL subsets of $A$, including $\emptyset$ and $A$. It has various notations, such as: $P(A)$ and $2^A$
 
-$$ P(A) = \{S | S\sube A\} $$
+$$ P(A) = \{S | S\subset A\} $$
 
 Examples:
 
-$P(\{0,1\})=\{\empty, \{0\}, \{1\}, \{0,1\}\}$
+$P(\{0,1\})=\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
 
 - The $2^A$ notation should make sense now. We have 2 elements in A, if we do $2^2 = 4$, which clearly matches our power set. Wow notations (i’m so sleeeep deprived help)
 
