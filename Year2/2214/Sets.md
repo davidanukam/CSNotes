@@ -196,7 +196,7 @@ For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove thi
 
 Given 2 sets $A$ and $B$, the difference of $A$ in $B$ is the set of elements of $B$ which are NOT in $A$ (notation: $B\backslash A\text{ or }B-A$). It is not necessary that $A\subset B$
 
-$$ B\backslash A=\{x \ | \ x\in B\land x\not\in A\}=\{x\in B \ | \ x\notin A\} $$
+$$B \backslash A = \lbrace x \ | \ x \in B \land x \not\in A \rbrace = \brace x \in B \ | \ x \notin A\} $$
 
 Examples:
 
