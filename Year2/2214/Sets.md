@@ -212,9 +212,9 @@ $\{0,1,2,3,4\}\backslash\{5,6,7\}=\{0,1,2,3,4\}$
 
 ## NOTABLE SET IDENTITIES:
 
-- Identity laws: $A\cap U =A$; $A\cup\empty=A$
-- Domination laws: $A\cup U=U$; $A\cap\empty =\empty$
-- Law of disjointness: $A\cap A^C=\empty$
+- Identity laws: $A\cap U =A$; $A\cup\emptyset=A$
+- Domination laws: $A\cup U=U$; $A\cap\emptyset =\emptyset$
+- Law of disjointness: $A\cap A^C=\emptyset$
 - Law of partition: $A\cup A^C=U$
 - Idempotent laws: $A\cap A= A; \ A\cup A= A$
 - Complementation laws: $(A^C)^C=A$
@@ -223,7 +223,7 @@ $\{0,1,2,3,4\}\backslash\{5,6,7\}=\{0,1,2,3,4\}$
 - Distributive laws: $A\cap (B\cup C)= (A\cap B)\cup (A\cap C);\ A\cup(B\cap C)=(A\cup B)\cap (A\cup C)$
 - De Morgan’s Law: $(A\cap B)^C=A^C\cup B^C;\ (A\cup B)^C=A^C\cap B^C$
 
-If you ever forget, just think of $\cap =\land$, $\cup=\lor$, $\empty=0$, and $U=1$
+If you ever forget, just think of $\cap =\land$, $\cup=\lor$, $\emptyset=0$, and $U=1$
 
 ## CARTESIAN PRODUCTS:
 
@@ -245,7 +245,7 @@ If you want to dumb it down, this means cardinality is simply the number of elem
 
 Example:
 
-$|\empty|=0$, $|\{\empty\}|=1$, $|\{0,1,2,3\}|=4$, and so on
+$|\emptyset|=0$, $|\{\emptyset\}|=1$, $|\{0,1,2,3\}|=4$, and so on
 
 For infinite sets (like all real numbers, all natural numbers, and so on), their cardinality is also infinite. But, there are different types of infinity. We don’t need to know them, but its good to know there are different types
 
