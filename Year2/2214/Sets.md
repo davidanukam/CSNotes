@@ -184,7 +184,7 @@ Examples:
 
 For any universe $U$, $U^C=\emptyset$ and $\emptyset^C=U$
 
-In the universe $R$ of real numbers, $\brack 1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \ge 5 \rbrace =(-\infty, 1) \cup [5,+\infty)$
+In the universe $R$ of real numbers, $\lbrack 1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \ge 5 \rbrace =(-\infty, 1) \cup \lbrack 5,+\infty)$
 
 For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove this?
 
