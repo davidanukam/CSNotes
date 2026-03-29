@@ -130,7 +130,7 @@ $\{0,1,2\}\cap\{1,2,3\}=\{1,2\}$, you only want the elements that are in common 
 
 $\{0,1,2\}\cap\{3,4,5\}=\emptyset$, since there are no common elements between the two sets, so it is simply the empty set. Sets with empty intersection are said to be **disjoint**
 
-$\lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace x^2 \ | \ x \in \{0,1,2,3\}\}= \{x\in N\ |\ x \text{ odd}\}\cap\{0,1,4,9\}=\{1,9\}$
+$\lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace x^2 \ | \ x \in \lbrace 0,1,2,3 \rbrace \rbrace = \lbrace x \in N \ | \ x \text{odd} \rbrace \cap \lbrace 0,1,4,9 \rbrace = \lbrace 1,9 \rbrace$
 
 So, you want the intersection between $x$ which is in the set of all natural numbers such that $x$ is actually odd and $x^2$ such that $x$ is in the set $\lbrace 0,1,2,3 \rbrace$. You would need to square the numbers on the right hand side of the intersection, and find the common elements between the two. Hopefully you know what natural numbers are…
 
