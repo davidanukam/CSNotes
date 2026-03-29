@@ -158,9 +158,9 @@ Examples:
 
 $\{0,1,2\}\cup\{1,2,3\}=\{0,1,2,3\}$. DO NOT REPEAT THE SAME ELEMENT TWICE.
 
-$\{0,1,2\}\cup\{4,5,6\}=\{0,1,2,3,4,5,6\}$
+$\lbrace 0,1,2 \rbrace \cup\ {4,5,6\}=\{0,1,2,3,4,5,6\}$
 
-$[1,5]\cup(2,6]=\lbrace x \in R \ | \ 1 \le x \le 5 \text{ or } 2 \lt x \le6\}=[1,6]$
+$[1,5] \cup (2,6] = \lbrace x \in R \ | \ 1 \le x \le 5 \text{ or } 2 \lt x \le 6 \rbrace = [1,6]$
 
 - If this doesn’t make sense, you basically need the union between $\lbrace 1,2,3,4,5 \rbrace \cup \lbrace 3,4,5,6 \rbrace = \lbrace 1,2,3,4,5,6 \rbrace$
 
@@ -168,7 +168,7 @@ $[1,5]\cup(2,6]=\lbrace x \in R \ | \ 1 \le x \le 5 \text{ or } 2 \lt x \le6\}=[
 
 If we know that $A\subset B$, then $A\cup B=B$
 
-- Okay example time just so this makes things clearer. If we had $A=\lbrace 1,2 \rbrace$ and $B=\lbrace 0,1,2,3 \rbrace$, then obviously, we can see that $A\subset B$. Now, if we were to do the union between these two sets: $\{1,2\}\cup\{0,1,2,3\}=\{0,1,2,3\}$, which is clearly $B$
+- Okay example time just so this makes things clearer. If we had $A = \lbrace 1,2 \rbrace$ and $B = \lbrace 0,1,2,3 \rbrace$, then obviously, we can see that $A\subset B$. Now, if we were to do the union between these two sets: $\lbrace 1,2 \rbrace \cup \lbrace 0,1,2,3 \rbrace = \lbrace 0,1,2,3 \rbrace$, which is clearly $B$
 
 Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$, then $A\subset B$?
 
