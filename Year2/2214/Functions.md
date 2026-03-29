@@ -8,7 +8,7 @@ Functions are also maps
 
 From each element in $A$, one element maps to at LEAST one element in $B$ basically
 
-![image.png](attachment:3b7db33e-5d75-48d1-9ca2-400960fe3108:image.png)
+![Functions](assets/Functions/.png)
 
 ### RELATIONS:
 
