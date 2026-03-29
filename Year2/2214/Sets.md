@@ -37,7 +37,7 @@ Well, if we assume that $S\in S$, this contradicts the third statement, therefor
 
 Well, what if we assume that $S\notin S$, but this contradicts the second statement, because it should have ALL sets, therefore, $S\in S$
 
-This set stems due to the naive set theory, which results in a paradox
+This set stems due to the naïve set theory, which results in a paradox
 
 ### AXIOMATIC VS. NAIVE:
 
@@ -45,10 +45,10 @@ There is a more proper axiomatic set theory which gets rid of the known paradoxe
 
 However, since:
 
-- Naive set theory is enough for everyday use of set theory, it is much more user-friendly than the axiomatic set theory
-- Naive set theory is a useful stepping stone towards more formal set theories
+- Naïve set theory is enough for everyday use of set theory, it is much more user-friendly than the axiomatic set theory
+- Naïve set theory is a useful stepping stone towards more formal set theories
 
-So, long story, we will be using the naive set theory although it results in paradoxes.
+So, long story, we will be using the naïve set theory although it results in paradoxes.
 
 ## REPRESENTING SETS:
 
@@ -76,15 +76,15 @@ The variable $x$ is just a placeholder which can be changed to any other symbol 
 
 Two sets $A$ and $B$ are equal IF AND ONLY IF they have exactly the same elements:
 
-$$ A=B\ iff \ \forall x(x\in A\iff x\in B) $$
+$$ A=B\ \iff \ \forall x(x\in A\iff x\in B) $$
 
-A set $A$ is a **subset** of a set $B$ (notation: $A\sube B$) IF AND ONLY IF every element of $A$ is ALSO an element of $B$
+A set $A$ is a **subset** of a set $B$ (notation: $A\subset B$) IF AND ONLY IF every element of $A$ is ALSO an element of $B$
 
-$$ A\sube B\ iff\ \forall x(x\in A\rightarrow x\in B) $$
+$$ A\subset B\ \iff\ \forall x(x\in A\rightarrow x\in B) $$
 
 Example:
 
-$A=\{1,2,3\}$ and $B=\{1,2,3,4,5,6\}$, then we can say that $A$ is a subset of $B$ as all the elements in A are in B $A\sube B$
+$A=\{1,2,3\}$ and $B=\{1,2,3,4,5,6\}$, then we can say that $A$ is a subset of $B$ as all the elements in A are in B $A\subset B$
 
 $\{1,4\}\not\sube\{1,2,3\}$ since $\{1,4\}$ are not in the second set
 
