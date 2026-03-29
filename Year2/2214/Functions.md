@@ -131,7 +131,7 @@ If we are given $A=\{1,2,3\}$ and $B=\{4,5\}$ and the function $f=\{(1,4),(2,5),
 
 A function is said to be **bijective** IF AND ONLY IF it is BOTH injective and surjective
 
-![image.png|91](assets/Functions/BijectiveFunction.png)
+![BijectiveFunction|697](assets/Functions/BijectiveFunction.png)
 
 Example:
 
@@ -165,10 +165,8 @@ This relation becomes a function IF AND ONLY IF it is bijective
 
 So, for the above example, we can still have an inverse relation $f^{-1}=\{(a,1),(b,2),(b,3)\}$
 
-<aside> 🤓
-
-It is important to note that:
-
+<aside> 🤓 It is important to note that: </aside>
+<aside>
 - All functions are relations
 - Not all relations are functions </aside>
 
@@ -180,7 +178,7 @@ If $f:A\rightarrow B$ and $g:B\rightarrow C$ are functions, then the composition
 
 $$ g\circ f:A\rightarrow C,g\circ f=g(f(x)) $$
 
-![IMG_1915.jpeg](attachment:205c1e4e-8d8f-48d1-b0b3-1f1ec70c5ee1:IMG_1915.jpeg)
+![CompositionOfFunctions|697](assets/Functions/CompositionOfFunctions.jpeg)
 
 So, if we had a function $h=g\circ f$, and we wanted to find the value of $h(1)$, this would be:
 
