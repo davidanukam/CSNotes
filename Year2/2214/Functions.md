@@ -26,7 +26,7 @@ If $|A|=n$ and $|B|=m$, how many relations do we have from $A\rightarrow B$?
 
 Examples:
 
-If you are given two sets $A=\{1,2,3\}$ and $B=\{5,6,7\}$ and the relation $R=\{(1,5),(1,7),(2,6)\}$, is this a function? **NO,** because 1 maps to 5 and 7, when we said a function should make $A$ map to EXACTLY one element of $B$
+If you are given two sets $A=\lbrace 1,2,3 \rbrace}$ and $B=\{5,6,7\}$ and the relation $R=\{(1,5),(1,7),(2,6)\}$, is this a function? **NO,** because 1 maps to 5 and 7, when we said a function should make $A$ map to EXACTLY one element of $B$
 
 If you are given the relation $R=\{(1,5),(2,5)\}$, is this a function? **YES,** although you might be saying “but but but 5 is mapped to twice” that does not matter. It matters that the first element is not mapped to two different numbers in $B$. If the numbers in $B$ are mapped two by TWO DIFFERENT ELEMENTS FROM $A$, then that’s fine
 
