@@ -176,9 +176,9 @@ Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$,
 
 ## COMPLEMENT:
 
-Basically elements that are not in a set $A$. So, if you are given a universal set $\mathbb{U}$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
+Basically elements that are not in a set $A$. So, if you are given a universal set $U$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
 
-$$ A^C = \lbrace x [ \in U ] \ | \ x \notin A \rbrace $$
+$$ A^C = \lbrace x \ [ \in U ] \ | \ x \notin A \rbrace $$
 
 Examples:
 
@@ -208,7 +208,7 @@ The difference with respect to the universe is the complement: $B\backslash A=B\
 
 $\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 2,3 \rbrace = \lbrace 0,1,4 \rbrace$, the elements in $B$ that are NOT in $A$
 
-$\lbrace 0,1,2,3,4 \rbrace \backslash \lbrace 5,6,7 \rbrace = \lbrace 0,1,2,3,4 \rbrace$
+$\lbrace 0,1,2,3,4 \rbrace \ \backslash \ \lbrace 5,6,7 \rbrace = \lbrace 0,1,2,3,4 \rbrace$
 
 ## NOTABLE SET IDENTITIES:
 
