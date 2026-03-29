@@ -165,9 +165,9 @@ This relation becomes a function IF AND ONLY IF it is bijective
 
 So, for the above example, we can still have an inverse relation $f^{-1}=\{(a,1),(b,2),(b,3)\}$
 
-<aside> 🤓 It is important to note that: </aside>
-<aside> - All functions are relations </aside>
-<aside> - Not all relations are functions </aside>
+🤓 It is important to note that:
+- All functions are relations
+- Not all relations are functions
 
 this is common sense if you think about it
 
