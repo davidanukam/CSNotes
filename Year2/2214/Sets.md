@@ -258,7 +258,7 @@ The proper definition of cardinality of infinite sets requires functions, so whe
 
 We are often interested in finding the cardinality of a union of two finite sets $A$ and $B$. I hope you know what union means. So, the cardinality of A or B is:
 
-$$| \ A \cup B \ | = | A | + | B | - | A \cap B |$$
+$$| A \cup B | = | A | + | B | - | A \cap B |$$
 
 Why? I think drawing it out makes a lot of sense:
 
