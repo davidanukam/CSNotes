@@ -233,7 +233,7 @@ $$ A\times B=\{(a,b)\ | \ a\in A\land b\in B\} $$
 
 Example:
 
-$\{1,2\}\times \{2,4,5\}=\{(1,2),(1,4),(1,5),(2,2),(2,4),(2,5)\}$
+$\lbrace1,2\rbrace\times \lbrace2,4,5\rbrace=\lbrace(1,2),(1,4),(1,5),(2,2),(2,4),(2,5)\rbrace$
 
 (there is relation here but it makes more sense when we explain functions so wait)
 
@@ -246,8 +246,8 @@ If you want to dumb it down, this means cardinality is simply the number of elem
 Examples:
 
 $|\emptyset| = 0$,
-$|\left{\emptyset\}`| = 1$
-$|`\{0,1,2,3\}`| = 4$
+$|\lbrace\emptyset\rbrace| = 1$
+$|\lbrace0,1,2,3\rbrace| = 4$
 $\dots$ and so on
 
 For infinite sets (like all real numbers, all natural numbers, and so on), their cardinality is also infinite. But, there are different types of infinity. We don’t need to know them, but its good to know there are different types
