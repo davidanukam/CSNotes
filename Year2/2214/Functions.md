@@ -92,7 +92,7 @@ $R=\{(x,x^2)\ | \ x\in A\}$
 2. The domain of this function is $D_f=A$ and the codomain of this function: $Codomain=B$
 3. The range/image of this function: $Range=Im(f)=\{x^2\ | \ x\in A\}$, it is all perfect squares
 
-If we have $A=Z$ , which is just $(-\infinite,+\infinite)$, and $B=Z$, and we are given the relation:
+If we have $A=Z$ , which is just $(-\infty,+\infty)$, and $B=Z$, and we are given the relation:
 
 $R=\{(x^2,x)\ | \ x\in A\}$
 
@@ -166,9 +166,8 @@ This relation becomes a function IF AND ONLY IF it is bijective
 So, for the above example, we can still have an inverse relation $f^{-1}=\{(a,1),(b,2),(b,3)\}$
 
 <aside> 🤓 It is important to note that: </aside>
-<aside>
-- All functions are relations
-- Not all relations are functions </aside>
+<aside> - All functions are relations </aside>
+<aside> - Not all relations are functions </aside>
 
 this is common sense if you think about it
 
