@@ -108,15 +108,15 @@ A set is always a subset of itself $A\subset A$
 
 The **power set** of a set $A$ is the set of ALL subsets of $A$, including $\emptyset$ and $A$. It has various notations, such as: $P(A)$ and $2^A$
 
-$$ P(A) = \{S | S\subset A\} $$
+$$ P(A) = \lbrace S | S\subset A\} $$
 
 Examples:
 
-$P(\{0,1\})=\{\emptyset, \{0\}, \{1\}, \{0,1\}\}$
+$P(\lbrace 0,1 \rbrace) = \lbrace \emptyset, \lbrace 0 \rbrace, \lbrace 1 \rbrace, \lbrace 0,1 \rbrace \rbrace$
 
 - The $2^A$ notation should make sense now. We have 2 elements in A, if we do $2^2 = 4$, which clearly matches our power set. Wow notations (i’m so sleeeep deprived help)
 
-$P(\lbrace 0,1,2 \rbrace) = \lbrace \emptyset, \lbrace 0 \rbrace, \lbrace 1 \rbrace,\lbrace 2 \rbrace, \lbrace 0,1 \rbracebrace,\{0,2\},\{1,2\},\{0,1,2\}\}$
+$P(\lbrace 0,1,2 \rbrace) = \lbrace \emptyset, \lbrace 0 \rbrace, \lbrace 1 \rbrace,\lbrace 2 \rbrace, \lbrace 0,1 \rbrace,\lbrace 0,2 \rbrace,\lbrace 1,2 \rbrace,\lbrace 0,1,2 \rbrace \rbrace$
 
 ## INTERSECTION:
 
