@@ -8,7 +8,7 @@ Functions are also maps
 
 From each element in $A$, one element maps to at LEAST one element in $B$ basically
 
-![Functions](assets/Functions/.png)
+![FunctionMap|697](assets/Functions/FunctionMap.png)
 
 ### RELATIONS:
 
@@ -68,7 +68,7 @@ Another way to describe range:
 - $f(A)=\{f(a) \ | \ a\in A\}$
 - The range $f(A)$ is ALWAYS a subset of the codomain $B$, because $f$ maps elements from $A\rightarrow B$
 
-![image.png](attachment:869f7881-18b8-437d-9098-2d66f032b683:image.png)
+![FunctionRange|697](assets/Functions/FunctionRange.png)
 
 Is this a function?
 
@@ -92,7 +92,7 @@ $R=\{(x,x^2)\ | \ x\in A\}$
 2. The domain of this function is $D_f=A$ and the codomain of this function: $Codomain=B$
 3. The range/image of this function: $Range=Im(f)=\{x^2\ | \ x\in A\}$, it is all perfect squares
 
-If we have $A=Z$ , which is just $(-\infin,+\infin)$, and $B=Z$, and we are given the relation:
+If we have $A=Z$ , which is just $(-\infinite,+\infinite)$, and $B=Z$, and we are given the relation:
 
 $R=\{(x^2,x)\ | \ x\in A\}$
 
@@ -131,7 +131,7 @@ If we are given $A=\{1,2,3\}$ and $B=\{4,5\}$ and the function $f=\{(1,4),(2,5),
 
 A function is said to be **bijective** IF AND ONLY IF it is BOTH injective and surjective
 
-![image.png](attachment:b3cf93e4-083d-4b22-ad37-03f5eef6a48c:e8522201-2317-4910-83ae-6312c68cacf6.png)
+![image.png|91](assets/Functions/BijectiveFunction.png)
 
 Example:
 
