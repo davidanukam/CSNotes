@@ -172,7 +172,7 @@ If we know that $A\subset B$, then $A\cup B=B$
 
 Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$, then $A\subset B$?
 
-- Example, once again. If we had $A=\{1,2,3\}\cup\{0,1,2,3,4\}=\{0,1,2,3,4\}$, we know this is true. Now, is it true that $A\subset B$? Well no shit just look. it is very obvious that $A\subset B$
+- Example, once again. If we had $A=\lbrace1,2,3\rbrace \cup \lbrace 0,1,2,3,4 \rbrace = \lbrace 0,1,2,3,4\}$, we know this is true. Now, is it true that $A\subset B$? Well no shit just look. it is very obvious that $A\subset B$
 
 ## COMPLEMENT:
 
@@ -196,7 +196,7 @@ For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove thi
 
 Given 2 sets $A$ and $B$, the difference of $A$ in $B$ is the set of elements of $B$ which are NOT in $A$ (notation: $B\backslash A\text{ or }B-A$). It is not necessary that $A\subset B$
 
-$$ B \backslash A = \lbrace x \ | \ x \in B \land x \not\in A \rbrace = \brace x \in B \ | \ x \notin A \rbrace $$
+$$ B \backslash A = \lbrace x \ | \ x \in B \land x \notin A \rbrace = \brace x \in B \ | \ x \notin A \rbrace $$
 
 Examples:
 
