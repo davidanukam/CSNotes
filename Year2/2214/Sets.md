@@ -64,13 +64,13 @@ If we had $Z=\{...,-3-2-1,0,1,2,3,...,\}$, you should be able to tell that $Z$ i
 
 There is also the weirdest way in mankind to define sets as well
 
-$$ S=\{X|X\text{ is an integer between 0 and 3 (incl.)}\}\\=\{x | X\in Z\text{ and } 0\leq X\leq 3\}\\=\{0,1,2,3\} $$
+$$ S = \lbrace X \ | \ X \text{ is an integer between 0 and 3 (incl.)} \rbrace = \lbrace x \ | \ X \in Z \text{ and } 0 \le X \le 3\rbrace \\=\{0,1,2,3\} $$
 
 We are basically saying $S$ is the set of the objects $x$ such that (which is denoted by | ) $x$ is an integer and $0\leq X\leq 3$
 
 The variable $x$ is just a placeholder which can be changed to any other symbol to avoid clashes
 
-- $A=\{x|x\text{ is a letter of the English alphabet}\}$ is not ideal, since X is an actual character in the English alphabet
+- $A = \lbrace x \ | \ x \text{ is a letter of the English alphabet} \rbrace$ is not ideal, since X is an actual character in the English alphabet
 
 ## SET EQUALITY AND SUBSETS:
 
