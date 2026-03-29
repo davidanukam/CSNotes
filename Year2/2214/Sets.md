@@ -178,13 +178,13 @@ Now, is this also true for the inverse? Meaning, is it true that if $A\cup B=B$,
 
 Basically elements that are not in a set $A$. So, if you are given a universal set $U$, the complement of set $A$ (with respect to $U$), is the set of elements of $U$ that are NOT in $A$ (notation: $A^C$ or $\bar A$)
 
-$$ A^C=\{x[\in U]\ | \ x\not\in A\} $$
+$$ A^C = \lbrace x [ \in U ] \ | \ x \notin A \rbrace $$
 
 Examples:
 
 For any universe $U$, $U^C=\emptyset$ and $\emptyset^C=U$
 
-In the universe $R$ of real numbers, $[1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \geq 5 \rbrace =(-\infty, 1) \cup [5,+\infty)$
+In the universe $R$ of real numbers, $[1,5)^C = \lbrace x \in R \ | \ \neg(1 \le x \lt 5) \rbrace = \lbrace x \in R \ | \ x \lt 1 \lor x \ge 5 \rbrace =(-\infty, 1) \cup [5,+\infty)$
 
 For any universe $U$ and any set $A\subset U$, $(A^C)^C=A$, how can we prove this?
 
