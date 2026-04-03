@@ -63,9 +63,9 @@ $\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ 
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
-A recurrence relation for the sequence $\lbrace a_n \rbrace$ is an equation that expresses $a_n$ in terms of one or more of the previous terms of the sequence, namely $a_0,a_1,...,a_{n-1}$, for all integers $n,n\ge n_0$, and $n_0$ is a nonnegative number. In simpler terms, a recursive sequence is a sequence in which terms are defined using one or more previous terms along with the initial condition.
+A recurrence relation for the sequence $\lbrace a_n \rbrace$ is an equation that expresses $a_n$ in terms of one or more of the previous terms of the sequence, namely $a_0,a_1,\dots,a_{n-1}$, for all integers $n,n\ge n_0$, and $n_0$ is a nonnegative number. In simpler terms, a recursive sequence is a sequence in which terms are defined using one or more previous terms along with the initial condition.
 
-The most common recurrence formula is the **Fibonacci sequence.** The Fibonacci sequence, $f_0,f_1,f_2,...$ is defined by the initial conditions (or base cases) $f_0=0$ and $f_1=1$ and the recurrence relation
+The most common recurrence formula is the **Fibonacci sequence.** The Fibonacci sequence, $f_0,f_1,f_2,\dots$ is defined by the initial conditions (or base cases) $f_0=0$ and $f_1=1$ and the recurrence relation
 
 $$ f_n=f_{n-1}+f_{n-2} $$
 
@@ -81,7 +81,7 @@ So, we want to find a non-recursive formula to calculate $a_n$ is called solving
 
 Example:
 
-Let $\{a_n\}$ be a sequence such that $a_1=1$ and $a_n=a_{n-1}+n$. Find the closed formula for $a_n$
+Let $\lbrace a_n \rbrace$ be a sequence such that $a_1=1$ and $a_n=a_{n-1}+n$. Find the closed formula for $a_n$
 
 ![IMG_1920.jpeg](attachment:a3d7d280-e7c8-41ab-adc4-3999bacf3c4e:IMG_1920.jpeg)
 
