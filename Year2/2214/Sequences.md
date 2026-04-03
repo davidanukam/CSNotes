@@ -43,7 +43,7 @@ Example:
 
 If we are given $a_5=10$ and $a_{10}=20$, what is the value of $a_{20}$?
 
-![](assets/Sequences/.jpeg)
+![](assets/Sequences/Arithmetic.jpeg)
 
 ### GEOMETRIC PROGRESSION:
 
@@ -59,7 +59,7 @@ Example:
 
 $\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
 
-![](assets/Sequences/.jpeg)
+![GeometricProgressionExample](assets/Sequences/GeometricProgressionExample.jpeg)
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
@@ -71,7 +71,7 @@ $$ f_n=f_{n-1}+f_{n-2} $$
 
 So, for example, if we wanted to find $f_7$, it would look something like this:
 
-![](assets/Sequences/.jpeg)
+![RecursivelyDefinedSequenceExample](assets/Sequences/RecursivelyDefinedSequenceExample.jpeg)
 
 ### CLOSED FORMULA:
 
@@ -83,7 +83,7 @@ Example:
 
 Let $\lbrace a_n \rbrace$ be a sequence such that $a_1=1$ and $a_n=a_{n-1}+n$. Find the closed formula for $a_n$
 
-![](assets/Sequences/ClosedFormulaExample.jpeg)
+![ClosedFormulaExample](assets/Sequences/ClosedFormulaExample.jpeg)
 
 It is important to note that not all recursive methods have closed formulas
 
