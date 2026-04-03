@@ -6,7 +6,7 @@ Doing an example will help
 
 Examples:
 
-If $a_n=2n$, find $\{a_n\}$
+If $a_n=2n$, find $\lbrace a_n \rbrace$
 
 - We typically start from $n=0$, so we would get:
     
@@ -16,12 +16,12 @@ If $a_n=2n$, find $\{a_n\}$
     - $a_3=2(3)=6$
 - So, since we are asked to find the set of values that create the sequence, we would get
     
-    $a_n=\{0,2,4,6,...\}$
+    $a_n=\lbrace 0,2,4,6,\dots \rbrace$
     
 
-Consider the sequence $\{a_n\}$ where $a_n=n^2+n+41$, Find the first five elements of this sequence
+Consider the sequence $\lbrace a_n \rbrace$ where $a_n=n^2+n+41$, Find the first five elements of this sequence
 
-- $a_n$ goes on to infinity and starts at zero, we denote this by $\{a_n\}^{\infin}_{n=0}$.
+- $a_n$ goes on to infinity and starts at zero, we denote this by $\lbrace a_n \rbrace^{\infty}_{n=0}$.
 - The first 5 elements, starting from zero would be:
     - $a_0=(0)^2+0+41=41$
     - $a_1=43; \ a_2=47; \ a_3=54;\ a_4=61$
