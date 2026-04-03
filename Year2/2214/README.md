@@ -4,3 +4,4 @@
 2. [Proofs](Proofs.md)
 3. [Sets](Sets.md)
 4. [Functions](Functions.md)
+5. [Sequences](Sequences.md)
