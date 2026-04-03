@@ -59,7 +59,7 @@ Example:
 
 $\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
 
-![IMG_1917.jpeg|121](attachment:acc0e4fd-ec5e-42fd-b6cd-79f8341e6084:IMG_1917.jpeg)
+![](assets/Sequences/.jpeg)
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
@@ -71,7 +71,7 @@ $$ f_n=f_{n-1}+f_{n-2} $$
 
 So, for example, if we wanted to find $f_7$, it would look something like this:
 
-![IMG_1918.jpeg](attachment:a4aeebe8-d1ba-4fbd-87d7-d8c469ab2666:IMG_1918.jpeg)
+![](assets/Sequences/.jpeg)
 
 ### CLOSED FORMULA:
 
@@ -83,7 +83,7 @@ Example:
 
 Let $\lbrace a_n \rbrace$ be a sequence such that $a_1=1$ and $a_n=a_{n-1}+n$. Find the closed formula for $a_n$
 
-![IMG_1920.jpeg](attachment:a3d7d280-e7c8-41ab-adc4-3999bacf3c4e:IMG_1920.jpeg)
+![](assets/Sequences/ClosedFormulaExample.jpeg)
 
 It is important to note that not all recursive methods have closed formulas
 
@@ -113,6 +113,6 @@ $\sum_{i=5}^{2023}2^i$. Which can also be written as $\sum_{i=0}^{2018}2^{i+5}$
 
 The most important ones you should know would be these:
 
-![image.png](attachment:c8afb56b-00c1-48ad-a26e-29f2ef200986:image.png)
+![SummationExamples](assets/Sequences/SummationExamples.png)
 
 first column is sum the second column is closed formula
