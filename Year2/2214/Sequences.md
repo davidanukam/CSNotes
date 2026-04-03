@@ -43,7 +43,7 @@ Example:
 
 If we are given $a_5=10$ and $a_{10}=20$, what is the value of $a_{20}$?
 
-![](assets/Sequences/Arithmetic.jpeg)
+![ArithmeticProgressionExample](assets/Sequences/ArithmeticProgressionExample.jpeg)
 
 ### GEOMETRIC PROGRESSION:
 
