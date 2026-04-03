@@ -5,4 +5,4 @@
 3. [Sets](Sets.md)
 4. [Functions](Functions.md)
 5. [Sequences](Sequences.md)
-6. [Mat]
+6. [Matrices](Matrices.md)
