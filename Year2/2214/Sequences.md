@@ -43,7 +43,7 @@ Example:
 
 If we are given $a_5=10$ and $a_{10}=20$, what is the value of $a_{20}$?
 
-![ArithmeticProgressionExample](assets/Sequences/ArithmeticProgressionExample.jpeg)
+![ArithmeticProgressionExample|697](assets/Sequences/ArithmeticProgressionExample.jpeg)
 
 ### GEOMETRIC PROGRESSION:
 
@@ -59,7 +59,7 @@ Example:
 
 $\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
 
-![GeometricProgressionExample](assets/Sequences/GeometricProgressionExample.jpeg)
+![GeometricProgressionExample|697](assets/Sequences/GeometricProgressionExample.jpeg)
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
@@ -71,7 +71,7 @@ $$ f_n=f_{n-1}+f_{n-2} $$
 
 So, for example, if we wanted to find $f_7$, it would look something like this:
 
-![RecursivelyDefinedSequenceExample](assets/Sequences/RecursivelyDefinedSequenceExample.jpeg)
+![RecursivelyDefinedSequenceExample|697](assets/Sequences/RecursivelyDefinedSequenceExample.jpeg)
 
 ### CLOSED FORMULA:
 
@@ -83,7 +83,7 @@ Example:
 
 Let $\lbrace a_n \rbrace$ be a sequence such that $a_1=1$ and $a_n=a_{n-1}+n$. Find the closed formula for $a_n$
 
-![ClosedFormulaExample](assets/Sequences/ClosedFormulaExample.jpeg)
+![ClosedFormulaExample|697](assets/Sequences/ClosedFormulaExample.jpeg)
 
 It is important to note that not all recursive methods have closed formulas
 
@@ -113,6 +113,6 @@ $\sum_{i=5}^{2023}2^i$. Which can also be written as $\sum_{i=0}^{2018}2^{i+5}$
 
 The most important ones you should know would be these:
 
-![SummationExamples](assets/Sequences/SummationExamples.png)
+![SummationExamples|500](assets/Sequences/SummationExamples.png)
 
 first column is sum the second column is closed formula
