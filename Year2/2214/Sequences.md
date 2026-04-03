@@ -25,7 +25,7 @@ Consider the sequence $\lbrace a_n \rbrace$ where $a_n=n^2+n+41$, Find the first
 - The first 5 elements, starting from zero would be:
     - $a_0=(0)^2+0+41=41$
     - $a_1=43; \ a_2=47; \ a_3=54;\ a_4=61$
-    - So, our sequence would look something like $a_n=\{41,43,47,54,61,...\}$
+    - So, our sequence would look something like $a_n=\lbrace 41,43,47,54,61,\dots \rbrace$
 
 Sequences of the form $a_1,a_2,...,a_n$ are often used in cs. These finite sequences are what we call **strings**
 
@@ -33,7 +33,7 @@ Sequences of the form $a_1,a_2,...,a_n$ are often used in cs. These finite seque
 
 An arithmetic progression is a sequence of the form
 
-$$ a,a+d,a+2d,a+3d,...,a+nd $$
+$$ a,a+d,a+2d,a+3d,\dots,a+nd $$
 
 where the initial term $a$ and the common difference $d$ are **REAL NUMBERS.**
 
@@ -57,13 +57,13 @@ So, $a_n=ar^{n-1}$
 
 Example:
 
-$\{a_n\}$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
+$\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
 
 ![IMG_1917.jpeg](attachment:acc0e4fd-ec5e-42fd-b6cd-79f8341e6084:IMG_1917.jpeg)
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
-A recurrence relation for the sequence $\{a_n\}$ is an equation that expresses $a_n$ in terms of one or more of the previous terms of the sequence, namely $a_0,a_1,...,a_{n-1}$, for all integers $n,n\geq n_0$, and $n_0$ is a nonnegative number. In simpler terms, a recursive sequence is a sequence in which terms are defined using one or more previous terms along with the initial condition.
+A recurrence relation for the sequence $\lbrace a_n \rbrace$ is an equation that expresses $a_n$ in terms of one or more of the previous terms of the sequence, namely $a_0,a_1,...,a_{n-1}$, for all integers $n,n\ge n_0$, and $n_0$ is a nonnegative number. In simpler terms, a recursive sequence is a sequence in which terms are defined using one or more previous terms along with the initial condition.
 
 The most common recurrence formula is the **Fibonacci sequence.** The Fibonacci sequence, $f_0,f_1,f_2,...$ is defined by the initial conditions (or base cases) $f_0=0$ and $f_1=1$ and the recurrence relation
 
