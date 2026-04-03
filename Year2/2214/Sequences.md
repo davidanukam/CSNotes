@@ -43,7 +43,7 @@ Example:
 
 If we are given $a_5=10$ and $a_{10}=20$, what is the value of $a_{20}$?
 
-![IMG_1916.jpeg](attachment:97726b5d-0b48-49fa-9d3e-9dbd48448cab:IMG_1916.jpeg)
+![](assets/Sequences/.jpeg)
 
 ### GEOMETRIC PROGRESSION:
 
@@ -59,7 +59,7 @@ Example:
 
 $\lbrace a_n \rbrace$ is a geometric progression. If we are given that $a_2=8,\ a_5=64$, find $a_{10}$
 
-![IMG_1917.jpeg](attachment:acc0e4fd-ec5e-42fd-b6cd-79f8341e6084:IMG_1917.jpeg)
+![IMG_1917.jpeg|121](attachment:acc0e4fd-ec5e-42fd-b6cd-79f8341e6084:IMG_1917.jpeg)
 
 ### RECURSIVELY DEFINED SEQUENCES:
 
