@@ -4,7 +4,7 @@ A matrix is a rectangular array of numbers, each of which is called an entry of 
 
 If a given matrix has $m$ rows and $n$ columns, it is called an $m\times n$ matrix, and the number $m$ and $n$ are the dimensions of the matrix
 
-![image.png](attachment:e80473da-1651-4a4d-9367-b61a57ada58b:image.png)
+![MatrixExample](assets/Matrices/MatrixExample.png)
 
 for example, in this matrix, it has 2 rows, and 3 columns, so the dimensions of this matrix would be
 
