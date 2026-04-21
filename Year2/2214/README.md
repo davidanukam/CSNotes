@@ -6,3 +6,4 @@
 4. [Functions](Functions.md)
 5. [Sequences](Sequences.md)
 6. [Matrices](Matrices.md)
+7. [Induction](Induction.md)
