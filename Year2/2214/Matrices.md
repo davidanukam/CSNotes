@@ -12,17 +12,17 @@ $2\times 3$
 
 We sometimes refer to an $m\times 1$ matrix as a **column vector** and a $1\times n$ matrix as a **row vector**
 
-![image.png](assets/Matrices/.png)
+![ColumnVectorAndRowVector](assets/Matrices/ColumnVectorAndRowVector.png)
 
 the one on the left is referred to as a column vector since it has 1 column and $m$ rows, the one on the right is referred to as a row vector since it has 1 row and $n$ columns
 
 A matrix is a square if it has the same number of rows as columns, In this case, the number of rows or columns is called the **order of the matrix**
 
-![image.png|91](assets/Matrices/.png)
+![SquareMatrixExample](assets/Matrices/SquareMatrixExample.png)
 
 The way we denoted matrices is by using capital letters, and the entries of a matrix are denoted by the corresponding lowercase letter with “double subscripts”. As an example, if we had this $3\times 3$ matrix:
 
-![image.png|91](assets/Matrices/.png)
+![](assets/Matrices/DenotedMatrixNotation.png)
 
 If we wanted the value in the 2nd row 3rd column, instead of saying “the entry in the matrix A in the 2nd row 3rd column is…” you can just say $a_{23}=$, just makes naming easier
 
