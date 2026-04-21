@@ -54,9 +54,9 @@ Example:
 
 Find the value of $2A$
 
-![IMG_1934.jpeg](attachment:992e373d-993f-45c2-aa04-1eb6c94ff1b2:IMG_1934.jpeg)
+![IMG_1934.jpeg](assets/Matrices/.jpeg)
 
-There is also something called a zero matrix but i am not making a header for it… can you GUESS what a zero matrix is…………………… this isnt rocket science
+There is also something called a zero matrix but I am not making a header for it… can you GUESS what a zero matrix is…………………… this isn't rocket science
 
 ### MATRIX MULTIPLICATION:
 
@@ -71,25 +71,25 @@ The best way to explain this is through an example
 
 Examples: Find the value of $AB$
 
-![image.png](attachment:167858a2-da1e-413e-ad89-4f643c9abc3c:image.png)
+![image.png](assets/Matrices/.png)
 
-![IMG_1936.jpeg](attachment:8c0c9a02-99cc-4775-aa3b-7759c2cc06c4:IMG_1936.jpeg)
+![IMG_1936.jpeg|121](assets/Matrices/.jpeg)
 
 Given the below values of $A$ and $B$, find the values of $AB$ and $BA$
 
-![image.png](attachment:69ab7844-c54e-4464-aed1-840e94f7827d:image.png)
+![image.png](assets/Matrices/.png)
 
-![IMG_1938.jpeg](attachment:1f7e3091-c866-44b7-8a12-dcf7f71cac24:IMG_1938.jpeg)
+![IMG_1938.jpeg|121](assets/Matrices/.jpeg)
 
 ### DIAGONAL MATRIX:
 
 The entries $a_{ii}$ of a square matrix $A$ form the main diagonal of $A$. For example, in the below matrix, the main diagonal of the matrix consists of 1, 2, 4
 
-![image.png](attachment:38d0eafe-98bc-473f-906c-f3511969a86f:image.png)
+![image.png|91](assets/Matrices/.png)
 
 A square matrix in which every element NOT on the main diagonal is zero is called a **diagonal matrix.** It is important to know that it MUST be a square matrix
 
-![image.png](attachment:74dfe332-f6f5-4ea7-a5ce-8d3183403c5b:image.png)
+![image.png](assets/Matrices/.png)
 
 these are considered diagonal matrices, all the non main diagonal entries are 0
 
@@ -97,7 +97,7 @@ these are considered diagonal matrices, all the non main diagonal entries are 0
 
 An identity matrix, denoted by $I$, is a square matrix which has $1$’s all along the main diagonal, and zero everywhere else
 
-![image.png](attachment:5af81fcf-5dc3-4180-8bb0-206548499f9c:image.png)
+![image.png](assets/Matrices/.png)
 
 If you multiply a non-zero matrix $A$ with an identity matrix, you are just going to get $A$ again
 
