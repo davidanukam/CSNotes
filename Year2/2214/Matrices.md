@@ -12,23 +12,23 @@ $2\times 3$
 
 We sometimes refer to an $m\times 1$ matrix as a **column vector** and a $1\times n$ matrix as a **row vector**
 
-![image.png](attachment:c35718f5-9fb1-49ec-b9fe-dafb25d8d8b1:image.png)
+![image.png](assets/Matrices/.png)
 
 the one on the left is referred to as a column vector since it has 1 column and $m$ rows, the one on the right is referred to as a row vector since it has 1 row and $n$ columns
 
 A matrix is a square if it has the same number of rows as columns, In this case, the number of rows or columns is called the **order of the matrix**
 
-![image.png](attachment:e3085493-c680-406e-8d9a-82b779bb6418:image.png)
+![image.png|91](assets/Matrices/.png)
 
 The way we denoted matrices is by using capital letters, and the entries of a matrix are denoted by the corresponding lowercase letter with “double subscripts”. As an example, if we had this $3\times 3$ matrix:
 
-![image.png](attachment:3be9bef3-1193-4643-8d28-79a1f6de5b50:image.png)
+![image.png|91](assets/Matrices/.png)
 
 If we wanted the value in the 2nd row 3rd column, instead of saying “the entry in the matrix A in the 2nd row 3rd column is…” you can just say $a_{23}=$, just makes naming easier
 
 So, if we had this matrix:
 
-![image.png](attachment:0afc7a40-ba03-4f26-acda-742bc4ab9d90:image.png)
+![image.png](assets/Matrices/.png)
 
 and we wanted the value of the 1st row, 2nd column, we would write $b_{12}=2$. If we wanted the value of the 3rd row 1st column, this would be $b_{31}=0$
 
@@ -38,11 +38,11 @@ Let $A$ and $B$ be matrices with the same dimensions. The sum of $A$ and $B$, wr
 
 Example:
 
-![image.png](attachment:4f2aee4a-d6b8-4628-8186-1471e3378091:image.png)
+![image.png](assets/Matrices/.png)
 
 Find the sum of these two matrices
 
-![IMG_1933.jpeg](attachment:0de383d2-f400-4762-933e-e19c3f1e023f:IMG_1933.jpeg)
+![IMG_1933.jpeg](assets/Matrices/.jpeg)
 
 ### MULTIPLICATION BY SCALAR:
 
@@ -50,7 +50,7 @@ Let $A$ be a matrix and $c$ be a scalar. Then, the scalar multiple $cA$ is the m
 
 Example:
 
-![image.png](attachment:74ce5bce-ba52-43d2-b6fd-92833762e030:image.png)
+![image.png](assets/Matrices/.png)
 
 Find the value of $2A$
 
