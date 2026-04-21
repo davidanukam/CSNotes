@@ -22,13 +22,13 @@ A matrix is a square if it has the same number of rows as columns, In this case,
 
 The way we denoted matrices is by using capital letters, and the entries of a matrix are denoted by the corresponding lowercase letter with “double subscripts”. As an example, if we had this $3\times 3$ matrix:
 
-![](assets/Matrices/DenotedMatrixNotation.png)
+![DenotedMatrixNotation](assets/Matrices/DenotedMatrixNotation.png)
 
 If we wanted the value in the 2nd row 3rd column, instead of saying “the entry in the matrix A in the 2nd row 3rd column is…” you can just say $a_{23}=$, just makes naming easier
 
 So, if we had this matrix:
 
-![image.png](assets/Matrices/.png)
+![DenotedMatrixExample](assets/Matrices/DenotedMatrixExample.png)
 
 and we wanted the value of the 1st row, 2nd column, we would write $b_{12}=2$. If we wanted the value of the 3rd row 1st column, this would be $b_{31}=0$
 
@@ -38,7 +38,7 @@ Let $A$ and $B$ be matrices with the same dimensions. The sum of $A$ and $B$, wr
 
 Example:
 
-![image.png](assets/Matrices/.png)
+![SumOfMatriciesSetup](assets/Matrices/SumOfMatriciesSetup.png)
 
 Find the sum of these two matrices
 
