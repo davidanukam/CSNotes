@@ -71,15 +71,15 @@ The best way to explain this is through an example
 
 Examples: Find the value of $AB$
 
-![image.png](assets/Matrices/.png)
+![MatrixMultiplicationSetup](assets/Matrices/MatrixMultiplicationSetup.png)
 
-![IMG_1936.jpeg|121](assets/Matrices/.jpeg)
+![MatrixMultiplicationExample](assets/Matrices/MatrixMultiplicationExample.jpeg)
 
 Given the below values of $A$ and $B$, find the values of $AB$ and $BA$
 
-![image.png](assets/Matrices/.png)
+![ABvsBASetup](assets/Matrices/ABvsBASetup.png)
 
-![IMG_1938.jpeg|121](assets/Matrices/.jpeg)
+![IMG_1938.jpeg|121](assets/Matrices/ABvsBAExample.jpeg)
 
 ### DIAGONAL MATRIX:
 
