@@ -79,17 +79,17 @@ Given the below values of $A$ and $B$, find the values of $AB$ and $BA$
 
 ![ABvsBASetup](assets/Matrices/ABvsBASetup.png)
 
-![IMG_1938.jpeg|121](assets/Matrices/ABvsBAExample.jpeg)
+![ABvsBAExample](assets/Matrices/ABvsBAExample.jpeg)
 
 ### DIAGONAL MATRIX:
 
 The entries $a_{ii}$ of a square matrix $A$ form the main diagonal of $A$. For example, in the below matrix, the main diagonal of the matrix consists of 1, 2, 4
 
-![image.png|91](assets/Matrices/.png)
+![MainDiagonalExample](assets/Matrices/MainDiagonalExample.png)
 
 A square matrix in which every element NOT on the main diagonal is zero is called a **diagonal matrix.** It is important to know that it MUST be a square matrix
 
-![image.png](assets/Matrices/.png)
+![DiagonalMatrixExample](assets/Matrices/DiagonalMatrixExample.png)
 
 these are considered diagonal matrices, all the non main diagonal entries are 0
 
@@ -97,7 +97,7 @@ these are considered diagonal matrices, all the non main diagonal entries are 0
 
 An identity matrix, denoted by $I$, is a square matrix which has $1$’s all along the main diagonal, and zero everywhere else
 
-![image.png](assets/Matrices/.png)
+![IdentityMatrixExample](assets/Matrices/IdentityMatrixExample.png)
 
 If you multiply a non-zero matrix $A$ with an identity matrix, you are just going to get $A$ again
 
