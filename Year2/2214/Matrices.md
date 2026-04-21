@@ -42,7 +42,7 @@ Example:
 
 Find the sum of these two matrices
 
-![IMG_1933.jpeg](assets/Matrices/.jpeg)
+![SumOfMatriciesExample](assets/Matrices/SumOfMatriciesExample.jpeg)
 
 ### MULTIPLICATION BY SCALAR:
 
@@ -50,11 +50,11 @@ Let $A$ be a matrix and $c$ be a scalar. Then, the scalar multiple $cA$ is the m
 
 Example:
 
-![image.png](assets/Matrices/.png)
+![MultiplicationSetup](assets/Matrices/MultiplicationSetup.png)
 
 Find the value of $2A$
 
-![IMG_1934.jpeg](assets/Matrices/.jpeg)
+![MultiplicationExample](assets/Matrices/MultiplicationExample.jpeg)
 
 There is also something called a zero matrix but I am not making a header for it… can you GUESS what a zero matrix is…………………… this isn't rocket science
 
