@@ -26,7 +26,7 @@ Prove that $1+3+5+...+(2n-1)=n^2$
 The idea behind the induction principle is the same as the idea of domino show, if we can be sure that:
 
 - the first tile falls (base case)
-    - provided the $k$th tile falls (IH), then the $(k+1)$th tile ALSO falls (inductive step)
+    - provided the $k^{th}$ tile falls (I.H), then the $(k+1)^{th}$ tile ALSO falls (inductive step)
 - therefore, all tiles fall
 
 Example:
