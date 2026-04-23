@@ -50,7 +50,7 @@ If $A$ is a finite set with $|A| = n$, then how many distinct binary relations a
 
 ### REFLEXIVE:
 
-A relation $R \subseteq A \times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\in R)$.
+A relation $R \subseteq A \times A$ is reflexive if $\forall a(a\in A\mathbb{R}ightarrow(a,a)\in R)$.
 
 In other words, a relation $R$ on a set $A$ is reflexive if for every element $a\in A$ the pair $(a,a)$ is in the relation. In other words, for a reflexive relation, **every element must be related to itself**.
 
@@ -73,7 +73,7 @@ These two will always be true:
 
 $R=\mathbb{Z} \times \mathbb{Z}$, this is always going to be reflexive, and $R=\emptyset$ is NEVER going to be reflexive
 
-On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\subseteq A \times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\mathbb{N}otin R)$.
+On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\subseteq A \times A$ is reflexive if $\forall a(a\in A\mathbb{R}ightarrow(a,a)\mathbb{N}otin R)$.
 
 - this is different from being non-reflexive, let me explain why
 
@@ -97,11 +97,11 @@ We have that $gcd(1,1)=1$, therefore, we can determine that this relation is not
 
 ### SYMMETRY:
 
-A relation $R \subseteq A \times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rightarrow(b,a)\in R\}$
+A relation $R \subseteq A \times A$ is symmetric if $\forall a,b\in A((a,b)\in R\mathbb{R}ightarrow(b,a)\in R\}$
 
 These will make more sense with an example:
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z}\ |\ x=y\}$ is symmetric since $x=y \rightarrow y=x$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z}\ |\ x=y\}$ is symmetric since $x=y \mathbb{R}ightarrow y=x$
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\mathbb{N}ot\le2$)
 
 Once again, two things that will always be true:
@@ -130,7 +130,7 @@ Take these as true:
 
 **ASYMMETRY:**
 
-A relation $R \subseteq A \times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\rightarrow (b,a)\mathbb{N}otin R)$. In other words, if $(a,b)$ is in the relation, then $(b,a)$ CANNOT be in the relation at the same time
+A relation $R \subseteq A \times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\mathbb{R}ightarrow (b,a)\mathbb{N}otin R)$. In other words, if $(a,b)$ is in the relation, then $(b,a)$ CANNOT be in the relation at the same time
 
 Example:
 
@@ -149,7 +149,7 @@ More concrete examples:
 
 ### TRANSITIVITY:
 
-A relation $R\subseteq A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\land (b,c)\in R \rightarrow(a,c)\in R)$
+A relation $R\subseteq A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\land (b,c)\in R \mathbb{R}ightarrow(a,c)\in R)$
 
 Examples:
 
@@ -317,7 +317,7 @@ So, from the above graph example, we can determine the following now knowing the
 - Whenever $(a,b)$ is an edge with $a\mathbb{N}eq b$, then $(b,a)$ is not an edge. So, you would have to check:
     - $(0,1)\ vs. \ (1,0), (0,2)\ vs. (2,0)...$,
 - So, in this case, $R$ is symmetric
-- $R$ is transitive because for example, you have $(0,3)\land(3,1)\rightarrow (0,3)$
+- $R$ is transitive because for example, you have $(0,3)\land(3,1)\mathbb{R}ightarrow (0,3)$
 
 ## EQUIVALENCE RELATIONS:
 
@@ -422,7 +422,7 @@ Let us check if it is POSET:
 
 - This is reflexive, since every element in $S$ is related to itself
 - This is antisymmetric, because there is no pair in $R$ where $(a,b)\in R$ and $(b,a)\in R$ unless $a=b$. For example, we have $(1,2)\in R$ but not $(2,1)\in R$
-- This is transitive, because we have $(1,2)\land (2,3)\rightarrow (1,3)$
+- This is transitive, because we have $(1,2)\land (2,3)\mathbb{R}ightarrow (1,3)$
 
 Therefore, this is a partially ordered set
 
@@ -437,7 +437,7 @@ Example:
 Let $S=\{1,2,3\}$ and define the relation $R$ as $R=\{(1,2),(1,3),(2,3)\}$
 
 - It is asymmetric, because if $(1,2)\in R$, then $(2,1)\mathbb{N}ot\in R$ (the same can be said about the rest of the sets)
-- It is transitive, because $(1,2)\land (2,3)\rightarrow (1,3)$
+- It is transitive, because $(1,2)\land (2,3)\mathbb{R}ightarrow (1,3)$
 
 Therefore, this is a strict ordering on the set $S$
 
@@ -485,7 +485,7 @@ A totally ordered set such that every nonempty subset has a minimum is call a we
 
 Examples cause AHHH these make no sense:
 
-The set of real numbers $(\R,\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \R$, we ALWAYS have either $a\leq b$ OR $b\leq a$
+The set of real numbers $(\mathbb{R},\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \mathbb{R}$, we ALWAYS have either $a\leq b$ OR $b\leq a$
 
 - So, you have have $a=3.5$ and $b=-2$, since you have $a\geq b$, this is totally ordered
 
