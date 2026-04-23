@@ -11,7 +11,7 @@ Prove that, for any natural number $n$, the sum of the natural numbers from 1 to
 
 $$ 1+2+...+n=\frac{n(n+1)}{2} $$
 
-![IMG_2147.jpeg](attachment:1e2f9fa3-a3cd-495a-8b0d-0312623cf035:IMG_2147.jpeg)
+![IMG_2147.jpeg|121](attachment:1e2f9fa3-a3cd-495a-8b0d-0312623cf035:IMG_2147.jpeg)
 
 Prove that $2^1+2^2+...+2^n=2^{n+1}-2$
 
