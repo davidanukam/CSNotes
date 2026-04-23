@@ -382,8 +382,8 @@ Since we have elements 1, 3, and 5 have the same equivalence class and elements 
 
 A partition of a set $S$ is a collection $\{A_j\ | \ j\in J\}$ (where $J$ is a set of indices) of subsets of $S$ which are:
 
-- mutually disjoint (for all $j,k\in J$ with $j\mathbb{N}eq k$, $A_j\cap A_k=\emptyset$)
-- nonempty (for all $k\in J, A_k\mathbb{N}eq\emptyset$)
+- mutually disjoint (for all $j,k\in J$ with $j\neq k$, $A_j\cap A_k=\emptyset$)
+- nonempty (for all $k\in J, A_k \neq \emptyset$)
 - whose union is $S$ ($\cup_{j\in J}A_j=S$)
 
 To put this in simpler terms:
