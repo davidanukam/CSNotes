@@ -11,17 +11,17 @@ Prove that, for any natural number $n$, the sum of the natural numbers from 1 to
 
 $$ 1+2+...+n=\frac{n(n+1)}{2} $$
 
-![IMG_2147.jpeg|121](assets/Induction/.jpeg)
+![SumExample1](assets/Induction/SumExample1.jpeg)
 
 Prove that $2^1+2^2+...+2^n=2^{n+1}-2$
 
-![IMG_2148.jpeg](assets/Induction/jpeg)
+![SumExample2](assets/Induction/SumExample2.jpeg)
 
 - it is a general rule that if you have $a^m+a^n$ where $m=n$, you can factor out $a^m$, leave you with $2\times a^m$. After that, we can apply the rule that $a^m\times a^n = a^{m+n}$
 
 Prove that $1+3+5+...+(2n-1)=n^2$
 
-![IMG_2149.jpeg](assets/Induction/.jpeg)
+![SumExample3](assets/Induction/SumExample3.jpeg)
 
 The idea behind the induction principle is the same as the idea of domino show, if we can be sure that:
 
