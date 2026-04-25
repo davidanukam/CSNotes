@@ -284,7 +284,7 @@ A relation $R\subset A\times B$ can be represented as a graph with vertex set $V
 
 So, for example:
 
-If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace} \subset A\times B$ can be represented as:
+If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace} \subseteq A\times B$ can be represented as:
 
 ![DirectGraphExampleOfRelation](assets/Relation/DirectGraphExampleOfRelation.jpeg)
 
