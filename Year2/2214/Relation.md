@@ -416,7 +416,7 @@ A set $S$ together with a partial ordering $R$ is called a partially ordered set
 
 Example:
 
-Let $S=\{1,2,3\}$ and define the relation $R$ as $R=\{(1,1),(2,2),(3,3), (1,2), (1,3), (2,3)\}$
+Let $S=\lbrace{1,2,3\rbrace}$ and define the relation $R$ as $R=\lbrace{(1,1),(2,2),(3,3), (1,2), (1,3), (2,3)\rbrace}$
 
 Let us check if it is POSET:
 
@@ -434,7 +434,7 @@ A set $S$ together with partial order $R$ is called a strict partially ordered s
 
 Example:
 
-Let $S=\{1,2,3\}$ and define the relation $R$ as $R=\{(1,2),(1,3),(2,3)\}$
+Let $S=\lbrace{1,2,3\rbrace}$ and define the relation $R$ as $R=\lbrace{(1,2),(1,3),(2,3)\rbrace}$
 
 - It is asymmetric, because if $(1,2)\in R$, then $(2,1)\not\in R$ (the same can be said about the rest of the sets)
 - It is transitive, because $(1,2)\land (2,3)\rightarrow (1,3)$
@@ -445,9 +445,9 @@ Therefore, this is a strict ordering on the set $S$
 
 Let $A$ be a set. The power set $P(A)$ together with the inclusion relation $\subset$ is a POSET
 
-For example, if we had the set $A=\{1,2,3\}$ and the power set defined as:
+For example, if we had the set $A=\lbrace{1,2,3\rbrace}$ and the power set defined as:
 
-$P(A)=\{\emptyset, \{1\}, \{2\},\{3\},\{1,2\}, \{1,3\},\{2,3\},\{1,2,3\}\}$
+$P(A)=\lbrace{\emptyset, \{1\}, \{2\},\{3\},\{1,2}, \{1,3\rbrace},\{2,3\rbrace},\{1,2,3\rbrace}\rbrace}$
 
 - It is reflexive, since it is a well known fact that every set is a subset of itself
 - It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\{1,2\}\subset \{1,2,3\}$ and $\{1,2,3\}\subset \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
