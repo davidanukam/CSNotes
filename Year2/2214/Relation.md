@@ -153,13 +153,13 @@ A relation $R\subset A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\
 
 Examples:
 
-- $R=\{(x,y)\in \mathbb{Z} \times\Z\ | \ x= y\}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
-- $R=\{(x,y)\in\Z\times\Z\ | \ x < y\}$, this is transitive because by definition, $(x,y)\in R$ means $x<y$, similarly, $(y,z)\in R$ means that $y<z$. Therefore, $x<z$, so $(x,z)\in R$
-- $R=\{(x,y)\in\Z\times\Z\ | \ x+y < 2\}$, this is NOT transitive, because you can have $(x,y)=(1,0)$, which will give you $1+0=1<2$, and then you can have $(y,z)=(0,1)$, which will give you $0+1=1<2$, but then if you do $(x,z)=(1,1)$, you end up getting $1+1=2\not<2$. Therefore, it is not transitive
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\}$, this is transitive because by definition, $(x,y)\in R$ means $x<y$, similarly, $(y,z)\in R$ means that $y<z$. Therefore, $x<z$, so $(x,z)\in R$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\}$, this is NOT transitive, because you can have $(x,y)=(1,0)$, which will give you $1+0=1<2$, and then you can have $(y,z)=(0,1)$, which will give you $0+1=1<2$, but then if you do $(x,z)=(1,1)$, you end up getting $1+1=2\not<2$. Therefore, it is not transitive
 
 Take these as true:
 
-- $R=\Z\times\Z$ AND $R=\empty$ are transitive
+- $R=\mathbb{Z} \times \mathbb{Z}$ AND $R=\empty$ are transitive
 
 More concrete examples:
 
@@ -339,7 +339,7 @@ $I_A=\{(a,b)\in A\times A\ | \ a=b\}= \{(a,a)\ | \ a\in A\}$ is an equivalence r
 
 Example:
 
-Let $R\subset \Z\times \Z$ defined by $R=\{(a,b)\ | \ a-b \text{ is even}\}$
+Let $R\subset \mathbb{Z} \times \mathbb{Z}$ defined by $R=\{(a,b)\ | \ a-b \text{ is even}\}$
 
 - $R$ is reflexive, because you can have $(a,a)\in R$, and any number minus itself is going to be 0, which is even. Therefore, it is reflexive
 - Suppose $(a,b)\in R$, by definition, $a-b$ is even, then obviously $b-a$ is going to be even, therefore $(b,a)\in R$, so this relation is symmetric
@@ -485,7 +485,7 @@ A totally ordered set such that every nonempty subset has a minimum is call a we
 
 Examples cause AHHH these make no sense:
 
-The set of real numbers $(\R,\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \R$, we ALWAYS have either $a\leq b$ OR $b\leq a$
+The set of real numbers $(\mathbb{R},\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \R$, we ALWAYS have either $a\leq b$ OR $b\leq a$
 
 - So, you have have $a=3.5$ and $b=-2$, since you have $a\geq b$, this is totally ordered
 
