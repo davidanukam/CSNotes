@@ -467,13 +467,13 @@ Hasse diagrams are another type of graph representation specific for partial ord
 
 Example cause WHAT DID I JUST READ!
 
-![IMG_2159.jpeg](assets/Relation/HasseDiagramExample1.png)
+![HasseDiagramExample1](assets/Relation/HasseDiagramExample1.png)
 
 If you had one that was connected to two different elements, you would write them on the same level. For example:
 
 Consider the set $A=\lbrace{x,y\rbrace}$ and the power set of $A$. $P(A)=\lbrace{\emptyset, \lbrace{x\rbrace}, \lbrace{y\rbrace}, \lbrace{x,y\rbrace}\rbrace}$. Draw the Hasse diagram for this
 
-![IMG_2160.jpeg](assets/Relation/.jpeg)
+![HasseDiagramExample2](assets/Relation/HasseDiagramExample2.jpeg)
 
 ### TOTAL ORDERS:
 
@@ -516,7 +516,7 @@ An element $x$ of set $S$ is called a maximal element if there is no $y$ such th
 
 Examples!
 
-![image.png](assets/Relation/.png)
+![MaximalAndMinimalElementsExample1](assets/Relation/MaximalAndMinimalElementsExample1.png)
 
 In the above Hasse Diagram, we want to find the minimal and maximal element. Typically, the maximal is at the “top” of the diagram and minimal is at the “bottom”
 
@@ -536,11 +536,11 @@ What about maximal?
 
 It is important to note that a poset can have more than one maximal and minimal element:
 
-![image.png|91](assets/Relation/.png)
+![MaximalAndMinimalElementsExample2](assets/Relation/MaximalAndMinimalElementsExample2.png)
 
 in this diagram, we can see that a, c, and e are all minimal elements because no element is related to them
 
-![image.png|91](assets/Relation/.png)
+![MaximalAndMinimalElementsExample3](assets/Relation/MaximalAndMinimalElementsExample3.png)
 
 once again, in this diagram it is clear that both e and f are both maximal elements because they are not related to any element
 
