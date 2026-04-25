@@ -179,13 +179,13 @@ On $S=\lbrace{0,1,2,3\rbrace}$, let
 
 $R_1=\lbrace{(0,0), (1,1), (2,1), (2,2), (3,1), (3,3)\rbrace}$ and
 
-$R_2=\{(1,1),(1,2),(1,3)\}$. Find $R_1\cap R_2, R_1\cup R_2, R_2-R_1, R_1^C$
+$R_2=\lbrace{(1,1),(1,2),(1,3)\rbrace}$. Find $R_1\cap R_2, R_1\cup R_2, R_2-R_1, R_1^C$
 
 $R_1\cap R_2$ are common elements between the two relations, so it’s just going to be $(1,1)$
 
 $R_1\cup R_2$ is everything, I’m not writing it down but its just all of them
 
-$R_2-R_1$ is everything in $R_2$ that is NOT in $R_1$, so that would be $\{(1,2), (1,3)\}$
+$R_2-R_1$ is everything in $R_2$ that is NOT in $R_1$, so that would be $\lbrace{(1,2), (1,3)\rbrace}$
 
 $R_1^C$ is just everything not in $R_1$, if you are wondering how many elements that would be:
 
@@ -195,7 +195,7 @@ $|R_1^C|=S\times S-R_1 = 2^4-R_1 = 16 - 6 = 10$
 
 The inverse of a relation $R\subset A\times B$ is the relation:
 
-$$ R^{-1}=\{(b,a)\in B\times A\ | \ (a,b)\in R\}\subset A\times B $$
+$$ R^{-1}=\lbrace{(b,a)\in B\times A\ | \ (a,b)\in R\rbrace} \subset A\times B $$
 
 So, basically, if $R=\{(1,2), (2,3)\}$, then its inverse is: $R^{-1}=\{(2,1), (3,2)\}$
 
