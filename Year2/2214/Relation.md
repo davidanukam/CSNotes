@@ -60,9 +60,9 @@ Is this relation reflexive?
 
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x= y\}$
     - this is the most obvious example of a reflexive relation. This means that for each pair in the relation, the two elements x and y are equal. It satisfies the condition that for every $a\in \mathbb{Z}$, the pair $(a,a)$ is in the relation
-- $R=\{(x,y)\in  \times\Z\ | \ x\le y\}$
-    - For any $x\in \Z$, we know that $x\le x$ (any number is going to be less than or equal to itself), therefore, for every $x\in\Z$, the pair $(x,x)$ will be in the relation because $x\le x$
-- $R=\{(x,y)\in\Z\times\Z\ | \ x< y\}$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$
+    - For any $x\in \mathbb{Z}$, we know that $x\le x$ (any number is going to be less than or equal to itself), therefore, for every $x\in \mathbb{Z}$, the pair $(x,x)$ will be in the relation because $x\le x$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\}$
     - this ISN’T reflexive, because for example, 1 is not less than itself, so it cannot be reflexive
 
 Here are more concrete examples:
@@ -71,7 +71,7 @@ Here are more concrete examples:
 
 These two will always be true:
 
-$R=\Z\times\Z$, this is always going to be reflexive, and $R=\empty$ is NEVER going to be reflexive
+$R=\mathbb{Z} \times \mathbb{Z}$, this is always going to be reflexive, and $R=\empty$ is NEVER going to be reflexive
 
 On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\subset A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\notin R)$.
 
@@ -89,7 +89,7 @@ A relation is irreflexive if NO ELEMENT $a\in A$ is related to itself. In other 
 
 Let me give another example, let us look at this relation:
 
-$$ R=\{(x,y)\in \Z \times \Z\ |\text{ x and y are coprime, i.e. } gcd(x,y) = 1\}
+$$ R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\text{ x and y are coprime, i.e. } gcd(x,y) = 1\}
 
 $$
 
@@ -101,8 +101,8 @@ A relation $R\subset A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rig
 
 These will make more sense with an example:
 
-- $R=\{(x,y)\in \Z \times \Z\ |\ x=y\}$ is symmetric since $x=y \rightarrow y=x$
-- $R=\{(x,y)\in \Z \times \Z\ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x=y\}$ is symmetric since $x=y \rightarrow y=x$
+- $R=\{(x,y)\in \mathbb{Z} \times \Z\ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
 
 Once again, two things that will always be true:
 
