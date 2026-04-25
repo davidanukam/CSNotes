@@ -8,13 +8,13 @@ These relations can also be constructed through certain conditions:
 
 Examples:
 
-If $A=\lbrace{-2,-1,0,1,2,3\rbrace}$ and $B=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times B\ | \ a>b\}$
+If $A=\lbrace{-2,-1,0,1,2,3\rbrace}$ and $B=\lbrace{0,1,2,3\rbrace}$, let $R=\lbrace{(a,b)\in A\times B\ | \ a > b\rbrace}$
 
 This is basically saying let $R$ be a relation in the form of $(a,b),$ where $R\subset A\times B$, such that $a>b$. So, this would basically be all elements of $a\in A$ that you can pair with $b\in B$ such that $a>b$ (this has to be ORDERED)
 
-So, $R=\{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2)\}$
+So, $R=\lbrace{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2)\rbrace}$
 
-If $A=\{-2,-1,0,1,2,3\}$ and $B=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times B\ | \ b=a^2\}$
+If $A=\lbrace{-2,-1,0,1,2,3\rbrace}$ and $B=\lbrace{0,1,2,3\rbrace}$, let $R=\lbrace{(a,b)\in A\times B\ | \ b=a^2\rbrace}$
 
 So, $R=\{(-1,1), (0,0), (1,1)\}$
 
