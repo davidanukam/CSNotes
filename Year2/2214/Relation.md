@@ -136,12 +136,12 @@ Example:
 
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\}$ is NOT asymmetric, because in order for this relation to hold true, $(y,x)$ must be in the relation
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$ is NOT asymmetric for the same reason as above
-- $R=\{(x,y)\in\Z\times\Z\ |\ x<y \ \}$ IS asymmetric, because if $x<y$, then there is no way for $y<x$, so it is asymmetric
-- $R=\{(x,y)\in\Z\times\Z\ | \ x+ y< 2\}$ is NOT asymmetric, because $y+x$ is in the relation as well
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y \}$ IS asymmetric, because if $x<y$, then there is no way for $y<x$, so it is asymmetric
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\}$ is NOT asymmetric, because $y+x$ is in the relation as well
 
 Take these as true:
 
-- $R=\Z\times\Z$ is NOT asymmetric, and $R=\empty$ is asymmetric
+- $R=\mathbb{Z} \times \mathbb{Z}$ is NOT asymmetric, and $R=\empty$ is asymmetric
 
 More concrete examples:
 
@@ -153,7 +153,7 @@ A relation $R\subset A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\
 
 Examples:
 
-- $R=\{(x,y)\in\Z\times\Z\ | \ x= y\}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
+- $R=\{(x,y)\in \mathbb{Z} \times\Z\ | \ x= y\}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
 - $R=\{(x,y)\in\Z\times\Z\ | \ x < y\}$, this is transitive because by definition, $(x,y)\in R$ means $x<y$, similarly, $(y,z)\in R$ means that $y<z$. Therefore, $x<z$, so $(x,z)\in R$
 - $R=\{(x,y)\in\Z\times\Z\ | \ x+y < 2\}$, this is NOT transitive, because you can have $(x,y)=(1,0)$, which will give you $1+0=1<2$, and then you can have $(y,z)=(0,1)$, which will give you $0+1=1<2$, but then if you do $(x,z)=(1,1)$, you end up getting $1+1=2\not<2$. Therefore, it is not transitive
 
