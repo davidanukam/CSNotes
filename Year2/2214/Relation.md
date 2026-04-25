@@ -251,8 +251,8 @@ $$ m_{ij}=1\text{ if }(a_i,b_j)\in R\\m_{ij}=0\text{ if }(a_i,b_j)\not\in R $$
 
 To make more sense of this, let me give an example:
 
-- Let $A=\lbrace{a,b,c\rbrace}$ and $B=\{\text{'vowel', 'consonant'}\}$
-- Let $R=\{(a,\text{'vowel')}, (b,\text{'consonant'}), (c,\text{'consonant'})\}$, the matrix is going to be:
+- Let $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{\text{'vowel', 'consonant'}\rbrace}$
+- Let $R=\lbrace{(a,\text{'vowel')}, (b,\text{'consonant'}), (c,\text{'consonant'})\rbrace}$, the matrix is going to be:
 
 ![IMG_2156.jpeg](attachment:59b8ba76-ad68-46e7-a6b3-809a66c5123b:IMG_2156.jpeg)
 
@@ -262,7 +262,7 @@ What if you were given a matrix and asked to represent the relation?
 
 you just look to see where the matrices has one in it, so you do:
 
-$R=\{(a,0), (a,2), (b,1), (b,2)\}$
+$R=\lbrace{(a,0), (a,2), (b,1), (b,2)\rbrace}$
 
 ### GRAPHS:
 
@@ -274,7 +274,7 @@ We can represent relations as directed graphs, consisting of a set $V$ of vertic
 
 To make more sense of this, let us do an example:
 
-The graph $G=(V,E)$ with $V=\{0,1,2\}$ and $E=\{(0,0), (0,1), (1,0)\}$ is:
+The graph $G=(V,E)$ with $V=\lbrace{0,1,2\rbrace}$ and $E=\lbrace{(0,0), (0,1), (1,0)\rbrace}$ is:
 
 ![IMG_2157.jpeg](attachment:992dfaa8-fc08-4163-8f5f-e19b8693fd9f:IMG_2157.jpeg)
 
@@ -284,7 +284,7 @@ A relation $R\subset A\times B$ can be represented as a graph with vertex set $V
 
 So, for example:
 
-If $A=\{a,b,c\}$ and $B=\{0,1\}$, the relation $R=\{(a,0), (b,1), (c,1)\}\subset A\times B$ can be represented as:
+If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace}\subset A\times B$ can be represented as:
 
 ![image.png](attachment:6a8c41ec-9f88-466b-ada7-3d4dc927908c:image.png)
 
