@@ -530,7 +530,7 @@ But formally:
 What about maximal?
 
 - a is not a maximal element because $aRb$ and $aRc$
-- Similarly, b, c, d, and e are not maximal elements because:
+- Similarly, $b$, $c$, $d$, and $e$ are not maximal elements because:
     - $bRd, bRe, cRe, cRd, eRf,\text{ and }dRf$
 - Therefore, we have that $f$ is the maximal element in this case
 
@@ -538,11 +538,11 @@ It is important to note that a poset can have more than one maximal and minimal 
 
 ![MaximalAndMinimalElementsExample2](assets/Relation/MaximalAndMinimalElementsExample2.png)
 
-in this diagram, we can see that a, c, and e are all minimal elements because no element is related to them
+in this diagram, we can see that $a$, $c$, and $e$ are all minimal elements because no element is related to them
 
 ![MaximalAndMinimalElementsExample3](assets/Relation/MaximalAndMinimalElementsExample3.png)
 
-once again, in this diagram it is clear that both e and f are both maximal elements because they are not related to any element
+once again, in this diagram it is clear that both $e$ and $f$ are both maximal elements because they are not related to any element
 
 ### MAXIMUM AND MINIMUM ELEMENTS:
 
@@ -564,13 +564,13 @@ Both maximum and minimum elements do not need to exist. However, if they do, the
 
 Example:
 
-![image.png](assets/Relation/.png)
+![MaximalAndMinimalElementsExample4](assets/Relation/MaximalAndMinimalElementsExample4.png)
 
 here, the minimum element is a, because it is related to every other element in the relation
 
 - it is important to note (cause I forgot LOL) that transitive arrows are removed in Hasse diagrams. So, since a is related to b, and b is related to e, then obviously $a$ is related to $e$, and so on
 
-![image.png|91](assets/Relation/.png)
+![MaximalAndMinimalElementsExample5](assets/Relation/MaximalAndMinimalElementsExample5.png)
 
 here, there are no minimum or maximum elements. If you consider $a$ is the minimum element, it has to have a relation with all other elements. But, it does not have a relation with $b$, so it is not the minimum element. same can be said about $b$
 
