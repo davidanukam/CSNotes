@@ -8,3 +8,4 @@
 6. [Matrices](Matrices.md)
 7. [Induction](Induction.md)
 8. [Relation](Relation.md)
+9. [Number Th](Number%20Theory.md)

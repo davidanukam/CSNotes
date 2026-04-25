@@ -583,7 +583,7 @@ here, the minimum element is $a$, and the maximum element is $f$
 - this is because $a$ is related to every other element in the diagram. although they aren't immediately connected, you can deduce it. $a$ is related to $b$, $b$ is related to $d$, therefore $a$ is related to $d$. but $d$ is also related to $f$, therefore, $a$ is related to $f$. and the loop goes on
 - $f$ is the same, in some way every element is related to it
 
-![MaximalAndMinimalElementsExample7](aassets/Relation/MaximalAndMinimalElementsExample7png)
+![MaximalAndMinimalElementsExample7](assets/Relation/MaximalAndMinimalElementsExample7.png)
 
 in this diagram, you have no minimum or maximum element because not all elements are related in some way
 
