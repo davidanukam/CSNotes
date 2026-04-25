@@ -522,9 +522,9 @@ In the above Hasse Diagram, we want to find the minimal and maximal element. Typ
 
 But formally:
 
-- b and c are not minimal elements because $aRb$ and $aRc$
-- d and e are not minimal elements because $bRd$ and $cRd$, as well as $cRe$ and $bRe$
-- f is not a minimal element because $dRf$ and $eRf$.
+- $b$ and $c$ are not minimal elements because $aRb$ and $aRc$
+- $d$ and $e$ are not minimal elements because $bRd$ and $cRd$, as well as $cRe$ and $bRe$
+- $f$ is not a minimal element because $dRf$ and $eRf$.
 - Therefore, we have that $a$ is the minimal element because we have no $y$ such that $yRx$
 
 What about maximal?
