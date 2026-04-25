@@ -284,7 +284,7 @@ A relation $R\subset A\times B$ can be represented as a graph with vertex set $V
 
 So, for example:
 
-If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace}\subset A\times B$ can be represented as:
+If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace} \subset A\times B$ can be represented as:
 
 ![image.png](attachment:6a8c41ec-9f88-466b-ada7-3d4dc927908c:image.png)
 
@@ -292,7 +292,7 @@ the whole point here is that you keep the elements of $A$ and $B$ on opposite en
 
 Example:
 
-If $A=\{0,1,2,3\}$, the relation $R=\{(a,b)\in A\times A\ | \ a \text{ is a multiple of }b\}$ can be represented by the graph:
+If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ a \text{ is a multiple of }b\rbrace}$ can be represented by the graph:
 
 ![IMG_2158.jpeg](attachment:2a9872d4-aa01-4e31-98a1-0708e57f71ab:IMG_2158.jpeg)
 
