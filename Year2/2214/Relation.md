@@ -102,13 +102,13 @@ A relation $R\subset A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rig
 These will make more sense with an example:
 
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x=y\}$ is symmetric since $x=y \rightarrow y=x$
-- $R=\{(x,y)\in \mathbb{Z} \times \Z\ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
 
 Once again, two things that will always be true:
 
-$R=\Z\times\Z$ and $R=\empty$ will always be symmetric
+$R=\mathbb{Z} \times \mathbb{Z}$ and $R=\empty$ will always be symmetric
 
-- $R=\{(x,y)\in \Z\times\Z\ | \ x+ y < 2\}$, this is symmetric because if $x+y<2$, then obviously $y+x<2$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$, this is symmetric because if $x+y<2$, then obviously $y+x<2$
 
 More concrete examples:
 
@@ -120,13 +120,13 @@ Let $R$ be a relation on set $A$. We say that $R$ is **antisymmetric** IFF $x$ r
 
 Example:
 
-- $R=\{(x,y)\in \Z\times\Z\ | \ x\le y\}$, this is antisymmetric because in order for this relation to happen, $x$ and $y$ MUST be the same value
-- $R=\{(x,y)\in\Z\times\Z\ | \ |x|=|y|\}$, this is not antisymmetric because you can let this relation be true for something like $x=3$ and $y=-3$
-- $R=\{(x,y)\in \Z\times\Z\ | \ x+ y < 2\}$ is not antisymmetric because x and y do not have to be the same for this to be true, x can be 0 and y can be 1
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$, this is antisymmetric because in order for this relation to happen, $x$ and $y$ MUST be the same value
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ |x|=|y|\}$, this is not antisymmetric because you can let this relation be true for something like $x=3$ and $y=-3$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$ is not antisymmetric because x and y do not have to be the same for this to be true, x can be 0 and y can be 1
 
 Take these as true:
 
-- $R=\Z\times\Z$ is not antisymmetric and $R=\empty$ is antisymmetric
+- $R=\mathbb{Z} \times \mathbb{Z}$ is not antisymmetric and $R=\empty$ is antisymmetric
 
 **ASYMMETRY:**
 
@@ -134,8 +134,8 @@ A relation $R\subset A\times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\ri
 
 Example:
 
-- $R=\{(x,y)\in\Z\times\Z\ | \ x= y\}$ is NOT asymmetric, because in order for this relation to hold true, $(y,x)$ must be in the relation
-- $R=\{(x,y)\in\Z\times\Z\ | \ x\le y\}$ is NOT asymmetric for the same reason as above
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\}$ is NOT asymmetric, because in order for this relation to hold true, $(y,x)$ must be in the relation
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$ is NOT asymmetric for the same reason as above
 - $R=\{(x,y)\in\Z\times\Z\ |\ x<y \ \}$ IS asymmetric, because if $x<y$, then there is no way for $y<x$, so it is asymmetric
 - $R=\{(x,y)\in\Z\times\Z\ | \ x+ y< 2\}$ is NOT asymmetric, because $y+x$ is in the relation as well
 
