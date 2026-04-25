@@ -331,7 +331,7 @@ The most trivial example of all because forbid we get actual good examples:
 
 For any set $A$, the identity relation:
 
-$I_A=\{(a,b)\in A\times A\ | \ a=b\}= \{(a,a)\ | \ a\in A\}$ is an equivalence relation. It is:
+$I_A=\lbrace{(a,b)\in A\times A\ | \ a=b\rbrace}= \lbrace{(a,a)\ | \ a\in A\rbrace}$ is an equivalence relation. It is:
 
 - Reflexive, because any $a\in A$ is equal to itself
 - Symmetric, because if $a=b$, then $b=a$
@@ -339,7 +339,7 @@ $I_A=\{(a,b)\in A\times A\ | \ a=b\}= \{(a,a)\ | \ a\in A\}$ is an equivalence r
 
 Example:
 
-Let $R\subset \mathbb{Z} \times \mathbb{Z}$ defined by $R=\{(a,b)\ | \ a-b \text{ is even}\}$
+Let $R\subset \mathbb{Z} \times \mathbb{Z}$ defined by $R=\lbrace{(a,b)\ | \ a-b \text{ is even}\rbrace}$
 
 - $R$ is reflexive, because you can have $(a,a)\in R$, and any number minus itself is going to be 0, which is even. Therefore, it is reflexive
 - Suppose $(a,b)\in R$, by definition, $a-b$ is even, then obviously $b-a$ is going to be even, therefore $(b,a)\in R$, so this relation is symmetric
@@ -353,11 +353,11 @@ Equivalence class is the name given to a subset of some equivalence relation $R$
 
 Let $R$ be an equivalence relation on a set $A$. The set of all elements which are related (aka make the relation true) to an element $x$ of set $A$ is called the **equivalence class** of $x$
 
-$$ [x]=\{y \ | \ (x,y)\in R\} $$
+$$ [x]=\lbrace{y \ | \ (x,y)\in R\rbrace} $$
 
 Example:
 
-Let $A=\{1,2,3,4,5\}$ and the relation on this set $R=\{(a,b)\ | \ a+b \text{ is even}\}$
+Let $A=\lbrace{1,2,3,4,5\rbrace}$ and the relation on this set $R=\lbrace{(a,b)\ | \ a+b \text{ is even}\rbrace}$
 
 First, in order to find equivalence classes, we need to see if this relation is an equivalence relation or not
 
