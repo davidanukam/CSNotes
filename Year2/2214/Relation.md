@@ -67,7 +67,7 @@ Is this relation reflexive?
 
 Here are more concrete examples:
 
-![image.png](attachment:a03781bf-fbb4-4802-8f94-758af4ef93ae:image.png)
+![image.png|91](assets/Relation/.png)
 
 These two will always be true:
 
@@ -112,7 +112,7 @@ $R=\mathbb{Z} \times \mathbb{Z}$ and $R=\emptyset$ will always be symmetric
 
 More concrete examples:
 
-![image.png](attachment:18933c33-a5f5-471c-835e-3297ea12723c:image.png)
+![image.png|91](assets/Relation/.png)
 
 **ANTISYMMETRY:**
 
@@ -145,7 +145,7 @@ Take these as true:
 
 More concrete examples:
 
-![image.png](attachment:e124c43b-491d-406d-8fcc-ef06cbcf608a:image.png)
+![image.png|84](assets/Relation/.png)
 
 ### TRANSITIVITY:
 
@@ -163,7 +163,7 @@ Take these as true:
 
 More concrete examples:
 
-![image.png](attachment:c3a0be9e-af19-492c-a221-c84a36c414b0:image.png)
+![image.png|91](attachment:c3a0be9e-af19-492c-a221-c84a36c414b0:image.png)
 
 ## SET-THEORETIC OPERATIONS:
 
