@@ -81,19 +81,19 @@ On the other hand, a relation is NOT reflexive (also called irreflexive) if A re
 
 A relation is NOT reflexive if it fails to be reflexive. Meaning, there exists AT LEAST ONE ELEMENT $a\in A$ for which the pair $(a,a)$ is NOT in the relation. This means that the relation could be reflexive for some elements but not for others
 
-- Example: Consider $A=\lbrace{1,2,3\rbrace}$ and $R=\{(1,1),(2,2)\}$, the relation is not reflexive because $(3,3)$ is missing, even though the other two elements are related to each other
+- Example: Consider $A=\lbrace{1,2,3\rbrace}$ and $R=\lbrace{(1,1),(2,2)\rbrace}$, the relation is not reflexive because $(3,3)$ is missing, even though the other two elements are related to each other
 
 A relation is irreflexive if NO ELEMENT $a\in A$ is related to itself. In other words, for every $a\in A$, the pair $(a,a)$ is NEVER in the relation
 
-- Consider $A=\{1,2,3\}$ and $R=\{(1,2),(2,3)\}$, the relation is irreflexive because no element is related to itself, all the pairs are missing
+- Consider $A=\lbrace{1,2,3\rbrace}$ and $R=\lbrace{(1,2),(2,3)\rbrace}$, the relation is irreflexive because no element is related to itself, all the pairs are missing
 
 Let me give another example, let us look at this relation:
 
-$$ R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\text{ x and y are coprime, i.e. } gcd(x,y) = 1\}
+$$ R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\text{ x and y are coprime, i.e. } \gcd(x,y) = 1\rbrace}
 
 $$
 
-We have that $gcd(1,1)=1$, therefore, we can determine that this relation is not irreflexive. However, if we were to do something like $gcd(2,2)=2$, we can also determine that this relation is not reflexive.
+We have that $\gcd(1,1)=1$, therefore, we can determine that this relation is not irreflexive. However, if we were to do something like $\gcd(2,2)=2$, we can also determine that this relation is not reflexive.
 
 ### SYMMETRY:
 
