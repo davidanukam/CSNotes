@@ -58,11 +58,11 @@ Example:
 
 Is this relation reflexive?
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x= y\}$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\rbrace}$
     - this is the most obvious example of a reflexive relation. This means that for each pair in the relation, the two elements x and y are equal. It satisfies the condition that for every $a\in \mathbb{Z}$, the pair $(a,a)$ is in the relation
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\rbrace}$
     - For any $x\in \mathbb{Z}$, we know that $x\le x$ (any number is going to be less than or equal to itself), therefore, for every $x\in \mathbb{Z}$, the pair $(x,x)$ will be in the relation because $x\le x$
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\}$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\rbrace}$
     - this ISN’T reflexive, because for example, 1 is not less than itself, so it cannot be reflexive
 
 Here are more concrete examples:
@@ -81,7 +81,7 @@ On the other hand, a relation is NOT reflexive (also called irreflexive) if A re
 
 A relation is NOT reflexive if it fails to be reflexive. Meaning, there exists AT LEAST ONE ELEMENT $a\in A$ for which the pair $(a,a)$ is NOT in the relation. This means that the relation could be reflexive for some elements but not for others
 
-- Example: Consider $A=\{1,2,3\}$ and $R=\{(1,1),(2,2)\}$, the relation is not reflexive because $(3,3)$ is missing, even though the other two elements are related to each other
+- Example: Consider $A=\lbrace{1,2,3\rbrace}$ and $R=\{(1,1),(2,2)\}$, the relation is not reflexive because $(3,3)$ is missing, even though the other two elements are related to each other
 
 A relation is irreflexive if NO ELEMENT $a\in A$ is related to itself. In other words, for every $a\in A$, the pair $(a,a)$ is NEVER in the relation
 
