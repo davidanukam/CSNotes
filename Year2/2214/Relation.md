@@ -294,7 +294,7 @@ Example:
 
 If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ a \text{ is a multiple of }b\rbrace}$ can be represented by the graph:
 
-![IMG_2158.jpeg](assets/Relation/.jpeg)
+![GraphExampleOfRelationsExample2](assets/Relation/GraphExampleOfRelationsExample2.jpeg)
 
 **PROPERTIES:**
 
