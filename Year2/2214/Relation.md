@@ -97,18 +97,18 @@ We have that $\gcd(1,1)=1$, therefore, we can determine that this relation is no
 
 ### SYMMETRY:
 
-A relation $R\subset A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rightarrow(b,a)\in R\}$
+A relation $R\subset A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rightarrow(b,a)\in R)$
 
 These will make more sense with an example:
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x=y\}$ is symmetric since $x=y \rightarrow y=x$
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ |\ x \leq y\}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\rbrace}$ is symmetric since $x=y \rightarrow y=x$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \leq y\rbrace}$ is non-symmetric which can be proven by counterexample, if $x=2$ and $y=3$, then it is true that $x\leq y$ (because $2\le 3$) but $y\le x$ is obviously false (because $3\not\le2$)
 
 Once again, two things that will always be true:
 
 $R=\mathbb{Z} \times \mathbb{Z}$ and $R=\emptyset$ will always be symmetric
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$, this is symmetric because if $x+y<2$, then obviously $y+x<2$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\rbrace}$, this is symmetric because if $x+y<2$, then obviously $y+x<2$
 
 More concrete examples:
 
@@ -120,8 +120,8 @@ Let $R$ be a relation on set $A$. We say that $R$ is **antisymmetric** IFF $x$ r
 
 Example:
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$, this is antisymmetric because in order for this relation to happen, $x$ and $y$ MUST be the same value
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ |x|=|y|\}$, this is not antisymmetric because you can let this relation be true for something like $x=3$ and $y=-3$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\rbrace}$, this is antisymmetric because in order for this relation to happen, $x$ and $y$ MUST be the same value
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ |x|=|y|\rbrace}$, this is not antisymmetric because you can let this relation be true for something like $x=3$ and $y=-3$
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$ is not antisymmetric because x and y do not have to be the same for this to be true, x can be 0 and y can be 1
 
 Take these as true:
