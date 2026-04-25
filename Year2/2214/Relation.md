@@ -16,7 +16,7 @@ So, $R=\lbrace{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2)\rbrace}$
 
 If $A=\lbrace{-2,-1,0,1,2,3\rbrace}$ and $B=\lbrace{0,1,2,3\rbrace}$, let $R=\lbrace{(a,b)\in A\times B\ | \ b=a^2\rbrace}$
 
-So, $R=\{(-1,1), (0,0), (1,1)\}$
+So, $R=\lbrace{(-1,1), (0,0), (1,1)\rbrace}$
 
 There can be a lot of conditions, you get the point
 
@@ -26,13 +26,13 @@ A binary relation on a set $A$ such that $R\subset A\times A$
 
 Example:
 
-If $A=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times A\ |\ a\text{ is a multiple of }b\}$, so:
+If $A=\lbrace{0,1,2,3\rbrace}$, let $R=\lbrace{(a,b)\in A\times A\ | \ a\text{ is a multiple of }b\rbrace}$, so:
 
-$R=\{(0,0), (0,1), (0,2), (0,3), (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), (3,3)\}$
+$R=\lbrace{(0,0), (0,1), (0,2), (0,3), (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), (3,3)\rbrace}$
 
 Can we have an infinite set? Yes!
 
-$A=\mathbb{N}$, define $R=\{(a,b)\in A\times A \ |\ a=b\}$, well… there are infinite amount of numbers such that a = b in the set of natural numbers. $R=\{(0,0), (1,1),(2,2)...\}$ this is going to lead to an infinite set. Naturally, when your original set is something like all natural numbers or all integers, you naturally are going to end up with an infinite relation
+$A=\mathbb{N}$, define $R=\lbrace{(a,b)\in A\times A \ | \ a = b\rbrace}$, well… there are infinite amount of numbers such that a = b in the set of natural numbers. $R=\lbrace{(0,0), (1,1),(2,2)...\rbrace}$ this is going to lead to an infinite set. Naturally, when your original set is something like all natural numbers or all integers, you naturally are going to end up with an infinite relation
 
 **NOTATION NOTES:**
 
