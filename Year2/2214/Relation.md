@@ -2,13 +2,13 @@
 
 A relation from set $A$ to set $B$ is a subset $R\subset A\times B$
 
-So, a small example: if $A \times B = \{(0,0),(0,1), (0,2)\}$, then $R = \{(0,0),(0,1)\}$ or $\{(0,1),(0,2)\}$ or some variation thereof
+So, a small example: if $A \times B = \lbrace{(0,0),(0,1), (0,2)\rbrace}$, then $R = \lbrace{(0,0),(0,1)\rbrace}$ or $\lbrace{(0,1),(0,2)\rbrace}$ or some variation thereof
 
 These relations can also be constructed through certain conditions:
 
 Examples:
 
-If $A=\{-2,-1,0,1,2,3\}$ and $B=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times B\ | \ a>b\}$
+If $A=\lbrace{-2,-1,0,1,2,3\rbrace}$ and $B=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times B\ | \ a>b\}$
 
 This is basically saying let $R$ be a relation in the form of $(a,b),$ where $R\subset A\times B$, such that $a>b$. So, this would basically be all elements of $a\in A$ that you can pair with $b\in B$ such that $a>b$ (this has to be ORDERED)
 
