@@ -97,7 +97,7 @@ We have that $gcd(1,1)=1$, therefore, we can determine that this relation is not
 
 ### SYMMETRY:
 
-A relation $R\sube A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rightarrow(b,a)\in R\}$
+A relation $R\subset A\times A$ is symmetric if $\forall a,b\in A((a,b)\in R\rightarrow(b,a)\in R\}$
 
 These will make more sense with an example:
 
@@ -130,7 +130,7 @@ Take these as true:
 
 **ASYMMETRY:**
 
-A relation $R\sube A\times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\rightarrow (b,a)\notin R)$. In other words, if $(a,b)$ is in the relation, then $(b,a)$ CANNOT be in the relation at the same time
+A relation $R\subset A\times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\rightarrow (b,a)\notin R)$. In other words, if $(a,b)$ is in the relation, then $(b,a)$ CANNOT be in the relation at the same time
 
 Example:
 
@@ -149,7 +149,7 @@ More concrete examples:
 
 ### TRANSITIVITY:
 
-A relation $R\sube A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\land (b,c)\in R \rightarrow(a,c)\in R)$
+A relation $R\subset A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\land (b,c)\in R \rightarrow(a,c)\in R)$
 
 Examples:
 
@@ -193,9 +193,9 @@ $|R_1^C|=S\times S-R_1 = 2^4-R_1 = 16 - 6 = 10$
 
 ### INVERSE:
 
-The inverse of a relation $R\sube A\times B$ is the relation:
+The inverse of a relation $R\subset A\times B$ is the relation:
 
-$$ R^{-1}=\{(b,a)\in B\times A\ | \ (a,b)\in R\}\sube A\times B $$
+$$ R^{-1}=\{(b,a)\in B\times A\ | \ (a,b)\in R\}\subset A\times B $$
 
 So, basically, if $R=\{(1,2), (2,3)\}$, then its inverse is: $R^{-1}=\{(2,1), (3,2)\}$
 
@@ -217,7 +217,7 @@ Therefore, if $(a,b)\in R^{-1}$, then $(b,a)\in R^{-1}$ as well
 
 ### COMPOSITION:
 
-The composition of a relation $R_2\sube B\times C$ with a relation $R_1\sube A\times B$ is the relation $R_2\circ R_1\sube A\times C$ defined as:
+The composition of a relation $R_2\subset B\times C$ with a relation $R_1\subset A\times B$ is the relation $R_2\circ R_1\subset A\times C$ defined as:
 
 $$ R_2\circ R_1=\{(a,c)\in A\times C\ | \ \exist b \in B((a,b)\in R_1\land (b,c)\in R_2)\} $$
 
@@ -229,7 +229,7 @@ If you want to know what this nonsense means, let us do an example:
 
 ### POWERS OF RELATIONS:
 
-A binary relation $R\sube S\times S$ can be composed with itself
+A binary relation $R\subset S\times S$ can be composed with itself
 
 Meaning: $R^2=R\circ R$
 
@@ -245,7 +245,7 @@ Listing all the tuples in a relation can definitely be annoying, so we have many
 
 One of the ways to represent relations with finite sets is with a matrix of 0s and 1s.
 
-If $R\sube A\times B$ with $A=\{a_1,...,a_n\}$ and $B=\{b_1,...,b_k\}$, then the matrix of $R$ is the $n\times k$ matrix $M_R=[m_{ij}]$ with:
+If $R\subset A\times B$ with $A=\{a_1,...,a_n\}$ and $B=\{b_1,...,b_k\}$, then the matrix of $R$ is the $n\times k$ matrix $M_R=[m_{ij}]$ with:
 
 $$ m_{ij}=1\text{ if }(a_i,b_j)\in R\\m_{ij}=0\text{ if }(a_i,b_j)\not\in R $$
 
