@@ -392,21 +392,21 @@ To put this in simpler terms:
 2. The subsets do not overlap: If an element is in one subset, it cannot be in another.
 3. The subsets cover the whole set: Every element of $S$ must be in exactly one of the subsets.
 
-So, if you had a set $A=\lbrace{1,2,3,4,5\lbrace}$, you can have partitions like:
+So, if you had a set $A=\lbrace{1,2,3,4,5\rbrace}$, you can have partitions like:
 
-$A_1=\{1,2\}, A_2=\{3\},A_3=\{4,5\}$ or any combo of the sort
+$A_1=\lbrace{1,2\rbrace}, A_2=\lbrace{3\rbrace},A_3=\lbrace{4,5\rbrace}$ or any combo of the sort
 
 If on a set $S$ there is an equivalence relation, the equivalence classes form a partition of $S$ (look at the example above, the two partitions come from the equivalence classes)
 
-Viceversa, if a set $S$ has a partition, then the relation $R=\{(x,y)\in S\times S\ | \ x\text{ and }y\text{ belong to the same }A_k(k\in J)\}$ is an equivalence relation with $A_j(j\in J)$ as the equivalence class
+Vice versa, if a set $S$ has a partition, then the relation $R=\lbrace{(x,y)\in S\times S\ | \ x\text{ and }y\text{ belong to the same }A_k(k\in J)\rbrace}$ is an equivalence relation with $A_j(j\in J)$ as the equivalence class
 
 - So, basically, if you are going from partition (from an equivalence class) → equivalence relation, all the elements in one partition are going to be related to one another, so they would form their own “bundle”
 
 Example:
 
-Assume we have the partition $A_1=\{1,2\}, A_2=\{3\},A_3=\{4,5\}$, and let us assume we got this partitions from an equivalence class. That means, the elements in $A_1$ are related in a sense, and since this comes from an equivalence class, it must be symmetric, reflexive, and transitive. Same can be said for the other set, so we end up with:
+Assume we have the partition $A_1=\lbrace{1,2\rbrace}, A_2=\lbrace{3\rbrace},A_3=\lbrace{4,5\rbrace}$, and let us assume we got this partitions from an equivalence class. That means, the elements in $A_1$ are related in a sense, and since this comes from an equivalence class, it must be symmetric, reflexive, and transitive. Same can be said for the other set, so we end up with:
 
-$$ R=\{(1,1),(1,2),(2,1),(2,2),(3,3),(4,4),(4,5),(5,4),(5,5)\} $$
+$$ R=\lbrace{(1,1),(1,2),(2,1),(2,2),(3,3),(4,4),(4,5),(5,4),(5,5)\rbrace} $$
 
 ## PARTIAL ORDERING:
 
