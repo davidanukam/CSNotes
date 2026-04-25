@@ -1,6 +1,6 @@
 ## RELATIONS:
 
-A relation from set $A$ to set $B$ is a subset $R\sube A\times B$
+A relation from set $A$ to set $B$ is a subset $R\subset A\times B$
 
 So, a small example: if $A \times B = \{(0,0),(0,1), (0,2)\}$, then $R = \{(0,0),(0,1)\}$ or $\{(0,1),(0,2)\}$ or some variation thereof
 
@@ -10,7 +10,7 @@ Examples:
 
 If $A=\{-2,-1,0,1,2,3\}$ and $B=\{0,1,2,3\}$, let $R=\{(a,b)\in A\times B\ | \ a>b\}$
 
-This is basically saying let $R$ be a relation in the form of $(a,b),$ where $R\sube A\times B$, such that $a>b$. So, this would basically be all elements of $a\in A$ that you can pair with $b\in B$ such that $a>b$ (this has to be ORDERED)
+This is basically saying let $R$ be a relation in the form of $(a,b),$ where $R\subset A\times B$, such that $a>b$. So, this would basically be all elements of $a\in A$ that you can pair with $b\in B$ such that $a>b$ (this has to be ORDERED)
 
 So, $R=\{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2)\}$
 
@@ -22,7 +22,7 @@ There can be a lot of conditions, you get the point
 
 ### BINARY RELATIONS:
 
-A binary relation on a set $A$ such that $R\sube A\times A$
+A binary relation on a set $A$ such that $R\subset A\times A$
 
 Example:
 
@@ -36,7 +36,7 @@ $A=\N$, define $R=\{(a,b)\in A\times A \ |\ a=b\}$, well… there are infinite a
 
 **NOTATION NOTES:**
 
-If $R\sube A\times B$ is a binary relation, there are several ways to denote its elements:
+If $R\subset A\times B$ is a binary relation, there are several ways to denote its elements:
 
 - $(a,b)\in R$
 - $R(a,b)$, this is a logical notation
@@ -46,11 +46,11 @@ In this course, we will stick to the first one
 
 If $A$ is a finite set with $|A| = n$, then how many distinct binary relations are there on $A\times A$?
 
-- If $R\sube A\times A$, that means $|A\times A|=n^2$, therefore, we would have $2^{n^2}$ distinct binary relations
+- If $R\subset A\times A$, that means $|A\times A|=n^2$, therefore, we would have $2^{n^2}$ distinct binary relations
 
 ### REFLEXIVE:
 
-A relation $R\sube A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\in R)$.
+A relation $R\subset A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\in R)$.
 
 In other words, a relation $R$ on a set $A$ is reflexive if for every element $a\in A$ the pair $(a,a)$ is in the relation. In other words, for a reflexive relation, **every element must be related to itself**.
 
@@ -73,7 +73,7 @@ These two will always be true:
 
 $R=\Z\times\Z$, this is always going to be reflexive, and $R=\empty$ is NEVER going to be reflexive
 
-On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\sube A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\notin R)$.
+On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\subset A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\notin R)$.
 
 - this is different from being non-reflexive, let me explain why
 
