@@ -32,7 +32,7 @@ $R=\{(0,0), (0,1), (0,2), (0,3), (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), (3,3)
 
 Can we have an infinite set? Yes!
 
-$A=\N$, define $R=\{(a,b)\in A\times A \ |\ a=b\}$, well… there are infinite amount of numbers such that a = b in the set of natural numbers. $R=\{(0,0), (1,1),(2,2)...\}$ this is going to lead to an infinite set. Naturally, when your original set is something like all natural numbers or all integers, you naturally are going to end up with an infinite relation
+$A=\mathbb{N}$, define $R=\{(a,b)\in A\times A \ |\ a=b\}$, well… there are infinite amount of numbers such that a = b in the set of natural numbers. $R=\{(0,0), (1,1),(2,2)...\}$ this is going to lead to an infinite set. Naturally, when your original set is something like all natural numbers or all integers, you naturally are going to end up with an infinite relation
 
 **NOTATION NOTES:**
 
@@ -58,9 +58,9 @@ Example:
 
 Is this relation reflexive?
 
-- $R=\{(x,y)\in \Z \times \Z \ | \ x= y\}$
-    - this is the most obvious example of a reflexive relation. This means that for each pair in the relation, the two elements x and y are equal. It satisfies the condition that for every $a\in \Z$, the pair $(a,a)$ is in the relation
-- $R=\{(x,y)\in\Z\times\Z\ | \ x\le y\}$
+- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x= y\}$
+    - this is the most obvious example of a reflexive relation. This means that for each pair in the relation, the two elements x and y are equal. It satisfies the condition that for every $a\in \mathbb{Z}$, the pair $(a,a)$ is in the relation
+- $R=\{(x,y)\in  \times\Z\ | \ x\le y\}$
     - For any $x\in \Z$, we know that $x\le x$ (any number is going to be less than or equal to itself), therefore, for every $x\in\Z$, the pair $(x,x)$ will be in the relation because $x\le x$
 - $R=\{(x,y)\in\Z\times\Z\ | \ x< y\}$
     - this ISN’T reflexive, because for example, 1 is not less than itself, so it cannot be reflexive
@@ -219,7 +219,7 @@ Therefore, if $(a,b)\in R^{-1}$, then $(b,a)\in R^{-1}$ as well
 
 The composition of a relation $R_2\subset B\times C$ with a relation $R_1\subset A\times B$ is the relation $R_2\circ R_1\subset A\times C$ defined as:
 
-$$ R_2\circ R_1=\{(a,c)\in A\times C\ | \ \exist b \in B((a,b)\in R_1\land (b,c)\in R_2)\} $$
+$$ R_2\circ R_1=\{(a,c)\in A\times C\ | \ \exists b \in B((a,b)\in R_1\land (b,c)\in R_2)\} $$
 
 If you want to know what this nonsense means, let us do an example:
 
@@ -493,7 +493,7 @@ However, it is not **well-ordered** because there exists a subset without a smal
 
 - for example, in the subset $\{0,1\}$, although you might think 0 is the smallest element, remember this is real numbers, meaning we have decimals. Suppose we pick $0.1$, there is always going to be an element smaller than it (like $0.01$)
 
-The set of natural numbers $(\N,\leq)$ is well ordered because:
+The set of natural numbers $(\mathbb{N},\leq)$ is well ordered because:
 
 - It is a total order (any two natural numbers are comparable)
 - It is well ordered, because every nonempty set has a smallest element $\{3,5,7\}$ is well-ordered because 3 is the smallest element in the set. You cannot get any smaller
