@@ -568,7 +568,7 @@ Example:
 
 here, the minimum element is a, because it is related to every other element in the relation
 
-- it is important to note (cause i forgot LOL) that transitive arrows are removed in Hasse diagrams. So, since a is related to b, and b is related to e, then obv a is related to e, and so on
+- it is important to note (cause I forgot LOL) that transitive arrows are removed in Hasse diagrams. So, since a is related to b, and b is related to e, then obviously $a$ is related to $e$, and so on
 
 ![image.png](attachment:3ec461ba-e410-47d0-bf7a-77e56bbab98a:image.png)
 
