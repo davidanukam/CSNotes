@@ -572,15 +572,15 @@ here, the minimum element is a, because it is related to every other element in 
 
 ![image.png](attachment:3ec461ba-e410-47d0-bf7a-77e56bbab98a:image.png)
 
-here, there are no minimum or maximum elements. If you consider a is the minimum element, it has to have a relation with all other elements. But, it does not have a relation with b, so it is not the minimum element. same can be said about b
+here, there are no minimum or maximum elements. If you consider $a$ is the minimum element, it has to have a relation with all other elements. But, it does not have a relation with $b$, so it is not the minimum element. same can be said about $b$
 
-also, d is not the maximum element, because every element in the diagram must be related to d. but e is not related to d
+also, $d$ is not the maximum element, because every element in the diagram must be related to $d$. but $e$ is not related to $d$
 
 ![image.png](attachment:fe4a16bb-1e1f-4399-ba1a-bcc8e3ea61ce:image.png)
 
-here, the minimum element is a, and the maximum element is f
+here, the minimum element is $a$, and the maximum element is $f$
 
-- this is because a is related to every other element in the diagram. although they arent immediately connected, you can deduce it. a is related to b, b is related to d, therefore a is related to d. but d is also related to f, therefore, a is related to f. and the loop goes on
+- this is because $a$ is related to every other element in the diagram. although they arent immediately connected, you can deduce it. a is related to b, b is related to d, therefore a is related to d. but d is also related to f, therefore, a is related to f. and the loop goes on
 - f is the same, in some way every element is related to it
 
 ![image.png](attachment:8994e96e-acf3-494b-989d-8c530e2b6901:1cda29ee-5053-47cb-970c-02700f87b0aa.png)
