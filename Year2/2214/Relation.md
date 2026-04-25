@@ -67,7 +67,7 @@ Is this relation reflexive?
 
 Here are more concrete examples:
 
-![image.png|91](assets/Relation/.png)
+![ReflexiveExamples](assets/Relation/ReflexiveExamples.png)
 
 These two will always be true:
 
@@ -516,7 +516,7 @@ An element $x$ of set $S$ is called a maximal element if there is no $y$ such th
 
 Examples!
 
-![image.png](attachment:9e14e4b9-617f-4e37-a44b-959a0f1bf40c:image.png)
+![image.png](assets/Relation/.png)
 
 In the above Hasse Diagram, we want to find the minimal and maximal element. Typically, the maximal is at the “top” of the diagram and minimal is at the “bottom”
 
@@ -536,11 +536,11 @@ What about maximal?
 
 It is important to note that a poset can have more than one maximal and minimal element:
 
-![image.png](attachment:690f3e86-9fcb-4f24-8a58-74f7ed2368c4:image.png)
+![image.png|91](assets/Relation/.png)
 
 in this diagram, we can see that a, c, and e are all minimal elements because no element is related to them
 
-![image.png](attachment:0348b9d5-3aa2-4c24-9df0-b32b6fe9a73f:image.png)
+![image.png|91](assets/Relation/.png)
 
 once again, in this diagram it is clear that both e and f are both maximal elements because they are not related to any element
 
@@ -564,26 +564,26 @@ Both maximum and minimum elements do not need to exist. However, if they do, the
 
 Example:
 
-![image.png](attachment:27652540-e466-4e44-a88b-2cab83f7d9be:image.png)
+![image.png](assets/Relation/.png)
 
 here, the minimum element is a, because it is related to every other element in the relation
 
 - it is important to note (cause I forgot LOL) that transitive arrows are removed in Hasse diagrams. So, since a is related to b, and b is related to e, then obviously $a$ is related to $e$, and so on
 
-![image.png](attachment:3ec461ba-e410-47d0-bf7a-77e56bbab98a:image.png)
+![image.png|91](assets/Relation/.png)
 
 here, there are no minimum or maximum elements. If you consider $a$ is the minimum element, it has to have a relation with all other elements. But, it does not have a relation with $b$, so it is not the minimum element. same can be said about $b$
 
 also, $d$ is not the maximum element, because every element in the diagram must be related to $d$. but $e$ is not related to $d$
 
-![image.png](attachment:fe4a16bb-1e1f-4399-ba1a-bcc8e3ea61ce:image.png)
+![image.png](assets/Relation/.png)
 
 here, the minimum element is $a$, and the maximum element is $f$
 
 - this is because $a$ is related to every other element in the diagram. although they aren't immediately connected, you can deduce it. $a$ is related to $b$, $b$ is related to $d$, therefore $a$ is related to $d$. but $d$ is also related to $f$, therefore, $a$ is related to $f$. and the loop goes on
 - $f$ is the same, in some way every element is related to it
 
-![image.png](attachment:8994e96e-acf3-494b-989d-8c530e2b6901:1cda29ee-5053-47cb-970c-02700f87b0aa.png)
+![image.png|91](aassets/Relation/.png)
 
 in this diagram, you have no minimum or maximum element because not all elements are related in some way
 
