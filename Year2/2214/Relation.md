@@ -450,8 +450,8 @@ For example, if we had the set $A=\lbrace{1,2,3\rbrace}$ and the power set defin
 $P(A)=\lbrace{\emptyset, \lbrace{1\rbrace}, \lbrace{2\rbrace},\lbrace{3\rbrace},\lbrace{1,2\rbrace}, \lbrace{1,3\rbrace},\lbrace{2,3\rbrace},\lbrace{1,2,3\rbrace}\rbrace}$
 
 - It is reflexive, since it is a well known fact that every set is a subset of itself
-- It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\lbrace{1,2\rbrace}\subset \lbrace{1,2,3\rbrace}$ and $\lbrace{1,2,3\rbrace}\subset \lbrace{1,2\lbrace}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
-- It is transitive because we have (for example) that $\{1\}\subset \{1,2\}$ and we also have $\{1,2\}\subset \{1,2,3\}$. THEN, we have that $\{1\}\subset \{1,2,3\}$. Therefore it is transitive
+- It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\lbrace{1,2\rbrace}\subset \lbrace{1,2,3\rbrace}$ and $\lbrace{1,2,3\rbrace}\subset \lbrace{1,2\rbrace}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
+- It is transitive because we have (for example) that $\lbrace{1\rbrace}\subset \lbrace{1,2\rbrace}$ and we also have $\lbrace{1,2\rbrace}\subset \lbrace{1,2,3\rbrace}$. THEN, we have that $\lbrace{1\rbrace}\subset \lbrace{1,2,3\rbrace}$. Therefore it is transitive
 
 So, power sets are always a POSET
 
