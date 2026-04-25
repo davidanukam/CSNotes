@@ -122,7 +122,7 @@ Example:
 
 - $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\rbrace}$, this is antisymmetric because in order for this relation to happen, $x$ and $y$ MUST be the same value
 - $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ |x|=|y|\rbrace}$, this is not antisymmetric because you can let this relation be true for something like $x=3$ and $y=-3$
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$ is not antisymmetric because x and y do not have to be the same for this to be true, x can be 0 and y can be 1
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\rbrace}$ is not antisymmetric because x and y do not have to be the same for this to be true, x can be 0 and y can be 1
 
 Take these as true:
 
@@ -134,10 +134,10 @@ A relation $R\subset A\times A$ is asymmetric if $\forall a,b\in A((a,b)\in R\ri
 
 Example:
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\}$ is NOT asymmetric, because in order for this relation to hold true, $(y,x)$ must be in the relation
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\}$ is NOT asymmetric for the same reason as above
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y \}$ IS asymmetric, because if $x<y$, then there is no way for $y<x$, so it is asymmetric
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\}$ is NOT asymmetric, because $y+x$ is in the relation as well
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\rbrace}$ is NOT asymmetric, because in order for this relation to hold true, $(y,x)$ must be in the relation
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x \le y\rbrace}$ is NOT asymmetric for the same reason as above
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y \rbrace}$ IS asymmetric, because if $x<y$, then there is no way for $y<x$, so it is asymmetric
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\rbrace}$ is NOT asymmetric, because $y+x$ is in the relation as well
 
 Take these as true:
 
