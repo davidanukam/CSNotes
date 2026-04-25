@@ -576,14 +576,14 @@ here, there are no minimum or maximum elements. If you consider $a$ is the minim
 
 also, $d$ is not the maximum element, because every element in the diagram must be related to $d$. but $e$ is not related to $d$
 
-![image.png](assets/Relation/.png)
+![MaximalAndMinimalElementsExample6](assets/Relation/MaximalAndMinimalElementsExample6.png)
 
 here, the minimum element is $a$, and the maximum element is $f$
 
 - this is because $a$ is related to every other element in the diagram. although they aren't immediately connected, you can deduce it. $a$ is related to $b$, $b$ is related to $d$, therefore $a$ is related to $d$. but $d$ is also related to $f$, therefore, $a$ is related to $f$. and the loop goes on
 - $f$ is the same, in some way every element is related to it
 
-![image.png|91](aassets/Relation/.png)
+![MaximalAndMinimalElementsExample7](aassets/Relation/MaximalAndMinimalElementsExample7png)
 
 in this diagram, you have no minimum or maximum element because not all elements are related in some way
 
