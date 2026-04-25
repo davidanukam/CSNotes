@@ -163,7 +163,7 @@ Take these as true:
 
 More concrete examples:
 
-![image.png|91](attachment:c3a0be9e-af19-492c-a221-c84a36c414b0:image.png)
+![image.png|91](assets/Relation/.png)
 
 ## SET-THEORETIC OPERATIONS:
 
@@ -223,9 +223,9 @@ $$ R_2\circ R_1=\lbrace{(a,c)\in A\times C\ | \ \exists b \in B((a,b)\in R_1\lan
 
 If you want to know what this nonsense means, let us do an example:
 
-![image.png](attachment:2d79923b-2370-4d1c-b320-6062bd030b3f:image.png)
+![image.png](assets/Relation/.png)
 
-![IMG_2180.jpeg](attachment:c6481c74-df9d-4d13-bd1c-d08346b8ee67:IMG_2180.jpeg)
+![IMG_2180.jpeg|121](assets/Relation/.jpeg)
 
 ### POWERS OF RELATIONS:
 
@@ -254,11 +254,11 @@ To make more sense of this, let me give an example:
 - Let $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{\text{'vowel', 'consonant'}\rbrace}$
 - Let $R=\lbrace{(a,\text{'vowel')}, (b,\text{'consonant'}), (c,\text{'consonant'})\rbrace}$, the matrix is going to be:
 
-![IMG_2156.jpeg](attachment:59b8ba76-ad68-46e7-a6b3-809a66c5123b:IMG_2156.jpeg)
+![IMG_2156.jpeg](assets/Relation/.jpeg)
 
 What if you were given a matrix and asked to represent the relation?
 
-![image.png](attachment:f085535e-3fd5-428b-9b15-516c49c1a016:image.png)
+![image.png|72](assets/Relation/.png)
 
 you just look to see where the matrices has one in it, so you do:
 
@@ -276,7 +276,7 @@ To make more sense of this, let us do an example:
 
 The graph $G=(V,E)$ with $V=\lbrace{0,1,2\rbrace}$ and $E=\lbrace{(0,0), (0,1), (1,0)\rbrace}$ is:
 
-![IMG_2157.jpeg](attachment:992dfaa8-fc08-4163-8f5f-e19b8693fd9f:IMG_2157.jpeg)
+![IMG_2157.jpeg](assets/Relation/.jpeg)
 
 pretty straight forward… 0 is connected to itself to form a loop since we have the edge $(0,0)$. 0 is also connected to 1 since we have the edge $(0,1)$, and so on
 
@@ -286,7 +286,7 @@ So, for example:
 
 If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace} \subset A\times B$ can be represented as:
 
-![image.png](attachment:6a8c41ec-9f88-466b-ada7-3d4dc927908c:image.png)
+![image.png](assets/Relation/.png)
 
 the whole point here is that you keep the elements of $A$ and $B$ on opposite ends, not together
 
