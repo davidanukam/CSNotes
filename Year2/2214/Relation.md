@@ -112,7 +112,7 @@ $R=\mathbb{Z} \times \mathbb{Z}$ and $R=\emptyset$ will always be symmetric
 
 More concrete examples:
 
-![image.png|91](assets/Relation/.png)
+![SymmetryExample](assets/Relation/SymmetryExample.png)
 
 **ANTISYMMETRY:**
 
@@ -145,7 +145,7 @@ Take these as true:
 
 More concrete examples:
 
-![image.png|84](assets/Relation/.png)
+![AsymmetryExample](assets/Relation/AsymmetryExample.png)
 
 ### TRANSITIVITY:
 
@@ -163,7 +163,7 @@ Take these as true:
 
 More concrete examples:
 
-![image.png|91](assets/Relation/.png)
+![TransitivityExample](assets/Relation/TransitivityExample.png)
 
 ## SET-THEORETIC OPERATIONS:
 
