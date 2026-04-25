@@ -304,7 +304,7 @@ If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ 
 - A relation is antisymmetric iff whenever $(x,y)$ is an edge with $x\neq y$, then $(y,x)$ is not an edge
 - A relation is transitive iff whenever $(x,y)$ and $(y,z)$ are edges, then so is $(x,z)$
 
-A more concrete example for the antisymmetric one cause i hate it:
+A more concrete example for the antisymmetric one cause I hate it:
 
 ![image.png](attachment:94998a91-d952-40ff-86d6-9eca7a3ab67f:image.png)
 
