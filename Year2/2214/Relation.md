@@ -294,7 +294,7 @@ Example:
 
 If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ a \text{ is a multiple of }b\rbrace}$ can be represented by the graph:
 
-![IMG_2158.jpeg](attachment:2a9872d4-aa01-4e31-98a1-0708e57f71ab:IMG_2158.jpeg)
+![IMG_2158.jpeg](assets/Relation/.jpeg)
 
 **PROPERTIES:**
 
@@ -306,7 +306,7 @@ If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ 
 
 A more concrete example for the antisymmetric one cause I hate it:
 
-![image.png](attachment:94998a91-d952-40ff-86d6-9eca7a3ab67f:image.png)
+![image.png|91](assets/Relation/.png)
 
 If $(2,1)$ was in that edge, then the relation would NOT be antisymmetric
 
@@ -467,13 +467,13 @@ Hasse diagrams are another type of graph representation specific for partial ord
 
 Example cause WHAT DID I JUST READ!
 
-![IMG_2159.jpeg](attachment:4cb776e5-1f01-4c88-beec-568e60924d2d:481ac417-2655-4f43-9dcc-d7359dffe6b4.png)
+![IMG_2159.jpeg](assets/Relation/.png)
 
 If you had one that was connected to two different elements, you would write them on the same level. For example:
 
 Consider the set $A=\lbrace{x,y\rbrace}$ and the power set of $A$. $P(A)=\lbrace{\emptyset, \lbrace{x\rbrace}, \lbrace{y\rbrace}, \lbrace{x,y\rbrace}\rbrace}$. Draw the Hasse diagram for this
 
-![IMG_2160.jpeg](attachment:771a88f7-54e6-4deb-85ad-481eef2865c4:IMG_2160.jpeg)
+![IMG_2160.jpeg](assets/Relation/.jpeg)
 
 ### TOTAL ORDERS:
 
