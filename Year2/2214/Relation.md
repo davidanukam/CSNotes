@@ -370,17 +370,17 @@ Therefore, this is an equivalence relation, let us find the equivalence classes 
 
 So, basically, we need to find for each element in the set, what makes the relation true
 
-- $[1]=\{1,3,5\}$ because 1 + 1 = 2 (even), 1 + 3 = 4 (even), and 5 + 1 = 6 (even)
-- $[2]=\{2,4\}$
-- $[3]=\{1,3,5\}$
-- $[4]=\{2,4\}$
-- $[5]=\{1,3,5\}$
+- $[1]=\lbrace{1,3,5\rbrace}$ because 1 + 1 = 2 (even), 1 + 3 = 4 (even), and 5 + 1 = 6 (even)
+- $[2]=\lbrace{2,4\rbrace}$
+- $[3]=\lbrace{1,3,5\rbrace}$
+- $[4]=\lbrace{2,4\rbrace}$
+- $[5]=\lbrace{1,3,5\rbrace}$
 
-Since we have elements 1, 3, and 5 have the same equivalence class and elements 2 and 4 have the same equivalence class, so we can say that the representative of equivalence class $\{1,3,5\}$ is element 1 and the representative of equivalence class $\{2,4\}$ is 2
+Since we have elements 1, 3, and 5 have the same equivalence class and elements 2 and 4 have the same equivalence class, so we can say that the representative of equivalence class $\lbrace{1,3,5\rbrace}$ is element 1 and the representative of equivalence class $\lbrace{2,4\rbrace}$ is 2
 
 ### PARTITIONS:
 
-A partition of a set $S$ is a collection $\{A_j\ | \ j\in J\}$ (where $J$ is a set of indices) of subsets of $S$ which are:
+A partition of a set $S$ is a collection $\lbrace{A_j\ | \ j\in J\rbrace}$ (where $J$ is a set of indices) of subsets of $S$ which are:
 
 - mutually disjoint (for all $j,k\in J$ with $j\neq k$, $A_j\cap A_k=\emptyset$)
 - nonempty (for all $k\in J, A_k\neq\emptyset$)
@@ -392,7 +392,7 @@ To put this in simpler terms:
 2. The subsets do not overlap: If an element is in one subset, it cannot be in another.
 3. The subsets cover the whole set: Every element of $S$ must be in exactly one of the subsets.
 
-So, if you had a set $A=\{1,2,3,4,5\}$, you can have partitions like:
+So, if you had a set $A=\lbrace{1,2,3,4,5\lbrace}$, you can have partitions like:
 
 $A_1=\{1,2\}, A_2=\{3\},A_3=\{4,5\}$ or any combo of the sort
 
