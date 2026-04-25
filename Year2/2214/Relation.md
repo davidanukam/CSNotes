@@ -496,11 +496,11 @@ However, it is not **well-ordered** because there exists a subset without a smal
 The set of natural numbers $(\mathbb{N},\leq)$ is well ordered because:
 
 - It is a total order (any two natural numbers are comparable)
-- It is well ordered, because every nonempty set has a smallest element $\{3,5,7\}$ is well-ordered because 3 is the smallest element in the set. You cannot get any smaller
+- It is well ordered, because every nonempty set has a smallest element $\lbrace{3,5,7\rbrace}$ is well-ordered because 3 is the smallest element in the set. You cannot get any smaller
 
-The power set $(P(\{x,y\},\subset)$ is NOT totally ordered because $\{x\}$ and $\{y\}$ are incomparable
+The power set $(P(\{x,y\},\subset)$ is NOT totally ordered because $\lbrace{x\rbrace}$ and $\lbrace{y\rbrace}$ are incomparable
 
-- this is because $\{x\}\not \subset \{y\}$ and vice versa. Therefore, it is incomparable, making it not a total order
+- this is because $\lbrace{x\rbrace}\not \subset \lbrace{y\rbrace}$ and vice versa. Therefore, it is incomparable, making it not a total order
 
 ### MAXIMAL AND MINIMAL ELEMENTS:
 
