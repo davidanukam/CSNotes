@@ -197,7 +197,7 @@ The inverse of a relation $R\subset A\times B$ is the relation:
 
 $$ R^{-1}=\lbrace{(b,a)\in B\times A\ | \ (a,b)\in R\rbrace} \subset A\times B $$
 
-So, basically, if $R=\{(1,2), (2,3)\}$, then its inverse is: $R^{-1}=\{(2,1), (3,2)\}$
+So, basically, if $R=\lbrace{(1,2), (2,3)\rbrace}$, then its inverse is: $R^{-1}=\lbrace{(2,1), (3,2)\rbrace}$
 
 Theorem:
 
@@ -207,7 +207,7 @@ Proof:
 
 By definition, a relation is symmetric if $\forall a,b\in A$, whenever $(a,b)\in R$, then it must be true that $(b,a)\in R$
 
-The inverse relation $R^{-1}$ of a relation $R$ on a set is defined as $R^{-1}=\{(b,a)\ | \ (a,b)\in R\}$
+The inverse relation $R^{-1}$ of a relation $R$ on a set is defined as $R^{-1}=\lbrace{(b,a)\ | \ (a,b)\in R\rbrace}$
 
 If $(a,b)\in R^{-1}$, by definition of inverse, that means $(b,a)\in R$
 
@@ -219,7 +219,7 @@ Therefore, if $(a,b)\in R^{-1}$, then $(b,a)\in R^{-1}$ as well
 
 The composition of a relation $R_2\subset B\times C$ with a relation $R_1\subset A\times B$ is the relation $R_2\circ R_1\subset A\times C$ defined as:
 
-$$ R_2\circ R_1=\{(a,c)\in A\times C\ | \ \exists b \in B((a,b)\in R_1\land (b,c)\in R_2)\} $$
+$$ R_2\circ R_1=\lbrace{(a,c)\in A\times C\ | \ \exists b \in B((a,b)\in R_1\land (b,c)\in R_2)\rbrace} $$
 
 If you want to know what this nonsense means, let us do an example:
 
@@ -245,13 +245,13 @@ Listing all the tuples in a relation can definitely be annoying, so we have many
 
 One of the ways to represent relations with finite sets is with a matrix of 0s and 1s.
 
-If $R\subset A\times B$ with $A=\{a_1,...,a_n\}$ and $B=\{b_1,...,b_k\}$, then the matrix of $R$ is the $n\times k$ matrix $M_R=[m_{ij}]$ with:
+If $R\subset A\times B$ with $A=\lbrace{a_1,...,a_n\rbrace}$ and $B=\lbrace{b_1,...,b_k\rbrace}$, then the matrix of $R$ is the $n\times k$ matrix $M_R=[m_{ij}]$ with:
 
 $$ m_{ij}=1\text{ if }(a_i,b_j)\in R\\m_{ij}=0\text{ if }(a_i,b_j)\not\in R $$
 
 To make more sense of this, let me give an example:
 
-- Let $A=\{a,b,c\}$ and $B=\{\text{'vowel', 'consonant'}\}$
+- Let $A=\lbrace{a,b,c\rbrace}$ and $B=\{\text{'vowel', 'consonant'}\}$
 - Let $R=\{(a,\text{'vowel')}, (b,\text{'consonant'}), (c,\text{'consonant'})\}$, the matrix is going to be:
 
 ![IMG_2156.jpeg](attachment:59b8ba76-ad68-46e7-a6b3-809a66c5123b:IMG_2156.jpeg)
