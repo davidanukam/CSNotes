@@ -71,7 +71,7 @@ Here are more concrete examples:
 
 These two will always be true:
 
-$R=\mathbb{Z} \times \mathbb{Z}$, this is always going to be reflexive, and $R=\empty$ is NEVER going to be reflexive
+$R=\mathbb{Z} \times \mathbb{Z}$, this is always going to be reflexive, and $R=\emptyset$ is NEVER going to be reflexive
 
 On the other hand, a relation is NOT reflexive (also called irreflexive) if A relation $R\subset A\times A$ is reflexive if $\forall a(a\in A\rightarrow(a,a)\notin R)$.
 
@@ -106,7 +106,7 @@ These will make more sense with an example:
 
 Once again, two things that will always be true:
 
-$R=\mathbb{Z} \times \mathbb{Z}$ and $R=\empty$ will always be symmetric
+$R=\mathbb{Z} \times \mathbb{Z}$ and $R=\emptyset$ will always be symmetric
 
 - $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x+ y < 2\}$, this is symmetric because if $x+y<2$, then obviously $y+x<2$
 
@@ -126,7 +126,7 @@ Example:
 
 Take these as true:
 
-- $R=\mathbb{Z} \times \mathbb{Z}$ is not antisymmetric and $R=\empty$ is antisymmetric
+- $R=\mathbb{Z} \times \mathbb{Z}$ is not antisymmetric and $R=\emptyset$ is antisymmetric
 
 **ASYMMETRY:**
 
@@ -141,7 +141,7 @@ Example:
 
 Take these as true:
 
-- $R=\mathbb{Z} \times \mathbb{Z}$ is NOT asymmetric, and $R=\empty$ is asymmetric
+- $R=\mathbb{Z} \times \mathbb{Z}$ is NOT asymmetric, and $R=\emptyset$ is asymmetric
 
 More concrete examples:
 
@@ -159,7 +159,7 @@ Examples:
 
 Take these as true:
 
-- $R=\mathbb{Z} \times \mathbb{Z}$ AND $R=\empty$ are transitive
+- $R=\mathbb{Z} \times \mathbb{Z}$ AND $R=\emptyset$ are transitive
 
 More concrete examples:
 
@@ -382,8 +382,8 @@ Since we have elements 1, 3, and 5 have the same equivalence class and elements 
 
 A partition of a set $S$ is a collection $\{A_j\ | \ j\in J\}$ (where $J$ is a set of indices) of subsets of $S$ which are:
 
-- mutually disjoint (for all $j,k\in J$ with $j\neq k$, $A_j\cap A_k=\empty$)
-- nonempty (for all $k\in J, A_k\neq\empty$)
+- mutually disjoint (for all $j,k\in J$ with $j\neq k$, $A_j\cap A_k=\emptyset$)
+- nonempty (for all $k\in J, A_k\neq\emptyset$)
 - whose union is $S$ ($\cup_{j\in J}A_j=S$)
 
 To put this in simpler terms:
@@ -447,7 +447,7 @@ Let $A$ be a set. The power set $P(A)$ together with the inclusion relation $\su
 
 For example, if we had the set $A=\{1,2,3\}$ and the power set defined as:
 
-$P(A)=\{\empty, \{1\}, \{2\},\{3\},\{1,2\}, \{1,3\},\{2,3\},\{1,2,3\}\}$
+$P(A)=\{\emptyset, \{1\}, \{2\},\{3\},\{1,2\}, \{1,3\},\{2,3\},\{1,2,3\}\}$
 
 - It is reflexive, since it is a well known fact that every set is a subset of itself
 - It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\{1,2\}\subset \{1,2,3\}$ and $\{1,2,3\}\subset \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
@@ -471,7 +471,7 @@ Example cause WHAT DID I JUST READ!
 
 If you had one that was connected to two different elements, you would write them on the same level. For example:
 
-Consider the set $A=\{x,y\}$ and the power set of $A$. $P(A)=\{\empty, \{x\}, \{y\}, \{x,y\}\}$. Draw the Hasse diagram for this
+Consider the set $A=\{x,y\}$ and the power set of $A$. $P(A)=\{\emptyset, \{x\}, \{y\}, \{x,y\}\}$. Draw the Hasse diagram for this
 
 ![IMG_2160.jpeg](attachment:771a88f7-54e6-4deb-85ad-481eef2865c4:IMG_2160.jpeg)
 
@@ -485,7 +485,7 @@ A totally ordered set such that every nonempty subset has a minimum is call a we
 
 Examples cause AHHH these make no sense:
 
-The set of real numbers $(\mathbb{R},\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \R$, we ALWAYS have either $a\leq b$ OR $b\leq a$
+The set of real numbers $(\mathbb{R},\leq)$ with the usual less than or equal to relation is a total order because for any 2 real numbers $a,b\in \mathbb{R}$, we ALWAYS have either $a\leq b$ OR $b\leq a$
 
 - So, you have have $a=3.5$ and $b=-2$, since you have $a\geq b$, this is totally ordered
 
