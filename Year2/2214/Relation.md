@@ -306,7 +306,7 @@ If $A=\lbrace{0,1,2,3\rbrace}$, the relation $R=\lbrace{(a,b)\in A\times A\ | \ 
 
 A more concrete example for the antisymmetric one cause I hate it:
 
-![image.png|91](assets/Relation/.png)
+![AntisymmetricExample](assets/Relation/AntisymmetricExample.png)
 
 If $(2,1)$ was in that edge, then the relation would NOT be antisymmetric
 
@@ -467,7 +467,7 @@ Hasse diagrams are another type of graph representation specific for partial ord
 
 Example cause WHAT DID I JUST READ!
 
-![IMG_2159.jpeg](assets/Relation/.png)
+![IMG_2159.jpeg](assets/Relation/HasseDiagramExample1.png)
 
 If you had one that was connected to two different elements, you would write them on the same level. For example:
 
