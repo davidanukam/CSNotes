@@ -471,7 +471,7 @@ Example cause WHAT DID I JUST READ!
 
 If you had one that was connected to two different elements, you would write them on the same level. For example:
 
-Consider the set $A=\{x,y\}$ and the power set of $A$. $P(A)=\{\emptyset, \{x\}, \{y\}, \{x,y\}\}$. Draw the Hasse diagram for this
+Consider the set $A=\lbrace{x,y\rbrace}$ and the power set of $A$. $P(A)=\lbrace{\emptyset, \lbrace{x\rbrace}, \lbrace{y\rbrace}, \lbrace{x,y\rbrace}\rbrace}$. Draw the Hasse diagram for this
 
 ![IMG_2160.jpeg](attachment:771a88f7-54e6-4deb-85ad-481eef2865c4:IMG_2160.jpeg)
 
@@ -491,7 +491,7 @@ The set of real numbers $(\mathbb{R},\leq)$ with the usual less than or equal to
 
 However, it is not **well-ordered** because there exists a subset without a smallest element
 
-- for example, in the subset $\{0,1\}$, although you might think 0 is the smallest element, remember this is real numbers, meaning we have decimals. Suppose we pick $0.1$, there is always going to be an element smaller than it (like $0.01$)
+- for example, in the subset $\lbrace{0,1\rbrace}$, although you might think 0 is the smallest element, remember this is real numbers, meaning we have decimals. Suppose we pick $0.1$, there is always going to be an element smaller than it (like $0.01$)
 
 The set of natural numbers $(\mathbb{N},\leq)$ is well ordered because:
 
