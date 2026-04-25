@@ -153,9 +153,9 @@ A relation $R\subset A\times A$ is transitive if $\forall a,b,c\in A((a,b)\in R\
 
 Examples:
 
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\}$, this is transitive because by definition, $(x,y)\in R$ means $x<y$, similarly, $(y,z)\in R$ means that $y<z$. Therefore, $x<z$, so $(x,z)\in R$
-- $R=\{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\}$, this is NOT transitive, because you can have $(x,y)=(1,0)$, which will give you $1+0=1<2$, and then you can have $(y,z)=(0,1)$, which will give you $0+1=1<2$, but then if you do $(x,z)=(1,1)$, you end up getting $1+1=2\not<2$. Therefore, it is not transitive
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x = y\rbrace}$, this is transitive because by definition, $(x,y)\in R$ means that $x=y$. Similarly, $(y,z)\in R$ means that $y=z$. Since both of these are true, therefore, $x=z$, which means $(x,z)\in R$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x < y\rbrace}$, this is transitive because by definition, $(x,y)\in R$ means $x<y$, similarly, $(y,z)\in R$ means that $y<z$. Therefore, $x<z$, so $(x,z)\in R$
+- $R=\lbrace{(x,y)\in \mathbb{Z} \times \mathbb{Z} \ | \ x + y < 2\rbrace}$, this is NOT transitive, because you can have $(x,y)=(1,0)$, which will give you $1+0=1<2$, and then you can have $(y,z)=(0,1)$, which will give you $0+1=1<2$, but then if you do $(x,z)=(1,1)$, you end up getting $1+1=2\not<2$. Therefore, it is not transitive
 
 Take these as true:
 
@@ -175,9 +175,9 @@ So, you can say if $R_1$ and $R_2$ are reflexive (or even symmetric), then $R_1\
 
 Example:
 
-On $S=\{0,1,2,3\}$, let
+On $S=\lbrace{0,1,2,3\rbrace}$, let
 
-$R_1=\{(0,0), (1,1), (2,1), (2,2), (3,1), (3,3)\}$ and
+$R_1=\lbrace{(0,0), (1,1), (2,1), (2,2), (3,1), (3,3)\rbrace}$ and
 
 $R_2=\{(1,1),(1,2),(1,3)\}$. Find $R_1\cap R_2, R_1\cup R_2, R_2-R_1, R_1^C$
 
