@@ -276,7 +276,7 @@ To make more sense of this, let us do an example:
 
 The graph $G=(V,E)$ with $V=\lbrace{0,1,2\rbrace}$ and $E=\lbrace{(0,0), (0,1), (1,0)\rbrace}$ is:
 
-![IMG_2157.jpeg](assets/Relation/.jpeg)
+![GraphExampleOfRelationsExample1](assets/Relation/GraphExampleOfRelationsExample1.jpeg)
 
 pretty straight forward… 0 is connected to itself to form a loop since we have the edge $(0,0)$. 0 is also connected to 1 since we have the edge $(0,1)$, and so on
 
@@ -286,7 +286,7 @@ So, for example:
 
 If $A=\lbrace{a,b,c\rbrace}$ and $B=\lbrace{0,1\rbrace}$, the relation $R=\lbrace{(a,0), (b,1), (c,1)\rbrace} \subset A\times B$ can be represented as:
 
-![image.png](assets/Relation/.png)
+![DirectGraphExampleOfRelation](assets/Relation/DirectGraphExampleOfRelation.jpeg)
 
 the whole point here is that you keep the elements of $A$ and $B$ on opposite ends, not together
 
