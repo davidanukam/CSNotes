@@ -266,7 +266,7 @@ $R=\{(a,0), (a,2), (b,1), (b,2)\}$
 
 ### GRAPHS:
 
-We can represent relations as directed graphs, consisting of a set $V$ of vertices and a set $E\sube V\times V$ of edges
+We can represent relations as directed graphs, consisting of a set $V$ of vertices and a set $E\subset V\times V$ of edges
 
 - For any edge $(a,b)\in E$, $a$ is the initial vertex and $b$ is the terminal vertex
 - An edge of the form $(a,a)$ is a loop
@@ -280,11 +280,11 @@ The graph $G=(V,E)$ with $V=\{0,1,2\}$ and $E=\{(0,0), (0,1), (1,0)\}$ is:
 
 pretty straight forward… 0 is connected to itself to form a loop since we have the edge $(0,0)$. 0 is also connected to 1 since we have the edge $(0,1)$, and so on
 
-A relation $R\sube A\times B$ can be represented as a graph with vertex set $V=A\cup B$ and the edge set $R$. If $A\neq B$, then the elements of $A$ are kept “separate” from the elements of $B$
+A relation $R\subset A\times B$ can be represented as a graph with vertex set $V=A\cup B$ and the edge set $R$. If $A\neq B$, then the elements of $A$ are kept “separate” from the elements of $B$
 
 So, for example:
 
-If $A=\{a,b,c\}$ and $B=\{0,1\}$, the relation $R=\{(a,0), (b,1), (c,1)\}\sube A\times B$ can be represented as:
+If $A=\{a,b,c\}$ and $B=\{0,1\}$, the relation $R=\{(a,0), (b,1), (c,1)\}\subset A\times B$ can be represented as:
 
 ![image.png](attachment:6a8c41ec-9f88-466b-ada7-3d4dc927908c:image.png)
 
@@ -321,7 +321,7 @@ So, from the above graph example, we can determine the following now knowing the
 
 ## EQUIVALENCE RELATIONS:
 
-A relation $R\sube A\times A$ is called an equivalence relation if it is reflexive, symmetric, AND transitive
+A relation $R\subset A\times A$ is called an equivalence relation if it is reflexive, symmetric, AND transitive
 
 If $R$ is an equivalence relation, two elements $a$ and $b$ such that $aRb$ are called equivalent. We use the notation `a~b`
 
@@ -339,7 +339,7 @@ $I_A=\{(a,b)\in A\times A\ | \ a=b\}= \{(a,a)\ | \ a\in A\}$ is an equivalence r
 
 Example:
 
-Let $R\sube \Z\times \Z$ defined by $R=\{(a,b)\ | \ a-b \text{ is even}\}$
+Let $R\subset \Z\times \Z$ defined by $R=\{(a,b)\ | \ a-b \text{ is even}\}$
 
 - $R$ is reflexive, because you can have $(a,a)\in R$, and any number minus itself is going to be 0, which is even. Therefore, it is reflexive
 - Suppose $(a,b)\in R$, by definition, $a-b$ is even, then obviously $b-a$ is going to be even, therefore $(b,a)\in R$, so this relation is symmetric
@@ -410,7 +410,7 @@ $$ R=\{(1,1),(1,2),(2,1),(2,2),(3,3),(4,4),(4,5),(5,4),(5,5)\} $$
 
 ## PARTIAL ORDERING:
 
-A relation $R\sube S\times S$ (same set) is called a partial ordering, or partial order, if it is reflexive, ANTISYMMETRIC, and transitive
+A relation $R\subset S\times S$ (same set) is called a partial ordering, or partial order, if it is reflexive, ANTISYMMETRIC, and transitive
 
 A set $S$ together with a partial ordering $R$ is called a partially ordered set, or a POSET, and is denoted by $(S,R)$
 
@@ -428,7 +428,7 @@ Therefore, this is a partially ordered set
 
 ### STRICT ORDERINGS:
 
-A relation $R\sube S\times S$ (same set) is called a strict ordering (or order) if it is asymmetric and transitive
+A relation $R\subset S\times S$ (same set) is called a strict ordering (or order) if it is asymmetric and transitive
 
 A set $S$ together with partial order $R$ is called a strict partially ordered set, or strict POSET, and is denoted by $(S,R)$
 
@@ -443,14 +443,14 @@ Therefore, this is a strict ordering on the set $S$
 
 ### POWER SET POSET:
 
-Let $A$ be a set. The power set $P(A)$ together with the inclusion relation $\sube$ is a POSET
+Let $A$ be a set. The power set $P(A)$ together with the inclusion relation $\subset$ is a POSET
 
 For example, if we had the set $A=\{1,2,3\}$ and the power set defined as:
 
 $P(A)=\{\empty, \{1\}, \{2\},\{3\},\{1,2\}, \{1,3\},\{2,3\},\{1,2,3\}\}$
 
 - It is reflexive, since it is a well known fact that every set is a subset of itself
-- It is antisymmetric, because the rule states if $A\sube B$ and $B\sube A$, then $A=B$. For example, if we have $\{1,2\}\sube \{1,2,3\}$ and $\{1,2,3\}\sube \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
+- It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\{1,2\}\sube \{1,2,3\}$ and $\{1,2,3\}\sube \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
 - It is transitive because we have (for example) that $\{1\}\sube \{1,2\}$ and we also have $\{1,2\}\sube \{1,2,3\}$. THEN, we have that $\{1\}\sube \{1,2,3\}$. Therefore it is transitive
 
 So, power sets are always a POSET
