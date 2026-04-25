@@ -450,8 +450,8 @@ For example, if we had the set $A=\{1,2,3\}$ and the power set defined as:
 $P(A)=\{\empty, \{1\}, \{2\},\{3\},\{1,2\}, \{1,3\},\{2,3\},\{1,2,3\}\}$
 
 - It is reflexive, since it is a well known fact that every set is a subset of itself
-- It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\{1,2\}\sube \{1,2,3\}$ and $\{1,2,3\}\sube \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
-- It is transitive because we have (for example) that $\{1\}\sube \{1,2\}$ and we also have $\{1,2\}\sube \{1,2,3\}$. THEN, we have that $\{1\}\sube \{1,2,3\}$. Therefore it is transitive
+- It is antisymmetric, because the rule states if $A\subset B$ and $B\subset A$, then $A=B$. For example, if we have $\{1,2\}\subset \{1,2,3\}$ and $\{1,2,3\}\subset \{1,2\}$, then it must be that the two sets are equal, but clearly they aren't equal, therefore, it is antisymmetric
+- It is transitive because we have (for example) that $\{1\}\subset \{1,2\}$ and we also have $\{1,2\}\subset \{1,2,3\}$. THEN, we have that $\{1\}\subset \{1,2,3\}$. Therefore it is transitive
 
 So, power sets are always a POSET
 
@@ -498,9 +498,9 @@ The set of natural numbers $(\N,\leq)$ is well ordered because:
 - It is a total order (any two natural numbers are comparable)
 - It is well ordered, because every nonempty set has a smallest element $\{3,5,7\}$ is well-ordered because 3 is the smallest element in the set. You cannot get any smaller
 
-The power set $(P(\{x,y\},\sube)$ is NOT totally ordered because $\{x\}$ and $\{y\}$ are incomparable
+The power set $(P(\{x,y\},\subset)$ is NOT totally ordered because $\{x\}$ and $\{y\}$ are incomparable
 
-- this is because $\{x\}\not\sube\{y\}$ and vice versa. Therefore, it is incomparable, making it not a total order
+- this is because $\{x\}\not \subset \{y\}$ and vice versa. Therefore, it is incomparable, making it not a total order
 
 ### MAXIMAL AND MINIMAL ELEMENTS:
 
@@ -522,7 +522,7 @@ In the above Hasse Diagram, we want to find the minimal and maximal element. Typ
 
 But formally:
 
-- b and c are not minimal elements because $aRb$ amd $aRc$
+- b and c are not minimal elements because $aRb$ and $aRc$
 - d and e are not minimal elements because $bRd$ and $cRd$, as well as $cRe$ and $bRe$
 - f is not a minimal element because $dRf$ and $eRf$.
 - Therefore, we have that $a$ is the minimal element because we have no $y$ such that $yRx$
