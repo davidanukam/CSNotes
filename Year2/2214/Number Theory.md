@@ -342,9 +342,12 @@ $$ x\equiv a^{-1}.b\ (mod\ m) $$
 1. **General solution**
 	1. If $gcd(a,m)=1$, the unique solution is:
     
+
 $$ x\equiv x_0\ (mod\ m) $$
-	2. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
+
+	1. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
     
+
 $$ x \equiv x_0,\ x_0 + \frac{m}{d}, \ x_0 + 2 \frac{m}{d} +\ x_0 + (d-1) \frac{m}{d} \pmod{m} $$
     
 
@@ -387,8 +390,6 @@ Example for this nonsense!
 
 Solve for $x$:
 
-<div align="left">
-
 $$
 \begin{cases} 
 x \equiv 2 \pmod 5 \\ 
@@ -396,7 +397,6 @@ x \equiv 3 \pmod 7
 \end{cases}
 $$
 
-</div>
 
 ![IMG_2347.jpeg](attachment:d7bf17df-aebc-4e1e-b50c-1323c209412c:IMG_2347.jpeg)
 
