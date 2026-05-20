@@ -339,13 +339,11 @@ $$ a.a^{-1}\equiv 1 \ (mod\ m) $$
     
 $$ x\equiv a^{-1}.b\ (mod\ m) $$
     
-2. **General solution**
-    
-    1. If $gcd(a,m)=1$, the unique solution is:
+1. **General solution**
+	1. If $gcd(a,m)=1$, the unique solution is:
     
 $$ x\equiv x_0\ (mod\ m) $$
-    
-    b. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
+	2. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
     
 $$ x \equiv x_0,\ x_0 + \frac{m}{d}, \ x_0 + 2 \frac{m}{d} +\ x_0 + (d-1) \frac{m}{d} \pmod{m} $$
     
