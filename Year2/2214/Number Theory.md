@@ -332,8 +332,8 @@ $$ a.a^{-1}\equiv 1 \ (mod\ m) $$
 
 - How do we find the inverse? Using the extended Euclidean Algorithm (you use the coefficient, this will make sense with an example)
 
-1. **Multiply both sides by the inverse**
-2. Once the inverse $a^{-1}$ has been found, multiply both sides of the original congruence
+**Multiply both sides by the inverse**
+1. Once the inverse $a^{-1}$ has been found, multiply both sides of the original congruence
 
 $$ x\equiv a^{-1}.b\ (mod\ m) $$
 
