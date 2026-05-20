@@ -273,7 +273,7 @@ Find the $gcd(120,700)$
 
 ![IMG_2342.jpeg](attachment:aaec6841-d8df-4be1-867b-19b47c5c0f68:IMG_2342.jpeg)
 
-### BEZOUT’S THEOREM:
+### BÉZOUT’S THEOREM:
 
 For integers $a,b$, there exists integers $s,t$ such that:
 
@@ -378,7 +378,7 @@ Let $m,n$ be two coprime integers. For every $a, b \in \mathbb{Z}$, there exists
 
 $$ \begin{cases}x\equiv a\ mod\ m\\x\equiv b\ mod\ n\end{cases} $$
 
-is equivalent to the single congruence $x\equiv c\ mod\ mn$. Moreover, if a Bezout identity $sm+tn=1$ is known, $c$ can be determined as $c=a+(b-a)sm=(a-b)tn+b$
+is equivalent to the single congruence $x\equiv c\ mod\ mn$. Moreover, if a Bézout identity $sm+tn=1$ is known, $c$ can be determined as $c=a+(b-a)sm=(a-b)tn+b$
 
 Example for this nonsense!
 
