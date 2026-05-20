@@ -389,7 +389,7 @@ Example for this nonsense!
 
 Solve for $x$:
 
-$\begin{cases} x \equiv 2 \pmod{5} \\ x \equiv 3 \pmod{7} \end{cases}$
+$\begin{cases} x \equiv 2 \pmod 5 \\ x \equiv 3 \pmod 7 \end{cases}$
 
 ![IMG_2347.jpeg](attachment:d7bf17df-aebc-4e1e-b50c-1323c209412c:IMG_2347.jpeg)
 
