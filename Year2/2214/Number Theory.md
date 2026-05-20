@@ -210,9 +210,9 @@ Find all primes up to 30:
 
 ![IMG_2179.jpeg](attachment:53cbb88d-72bc-479e-b06b-63cd0b3e9c9b:IMG_2179.jpeg)
 
-You wanna know the time complexity of this algo is… cause dont forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
+You wanna know the time complexity of this algo is… cause don't forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
 
-However, while this might be helpful for smaller numbers… the biggest prime number found is $2^{82,589,933}-1$ by some computer volunteered by Patrick Laroche of the Great Interner Mersenne Prime Search (GIMPS). So imagine if you used that algo above to find the prime numbers between 2 and whatever the fart that number is… yea good luck bro see you in 100 years
+However, while this might be helpful for smaller numbers… the biggest prime number found is $2^{82,589,933}-1$ by some computer volunteered by Patrick Laroche of the Great Internet Mersenne Prime Search (GIMPS). So imagine if you used that algo above to find the prime numbers between 2 and whatever the fart that number is… yea good luck bro see you in 100 years
 
 ### MERSENNE PRIMES:
 
@@ -374,7 +374,7 @@ An inverse of a modulo m exists IFF $gcd(a,m)=1$
 
 ### CHINESE REMAINDER THEOREM:
 
-Let $m,n$ be two coprime integers. For every $a,b\in\Z$, there exists $c\in\Z$ such that the system:
+Let $m,n$ be two coprime integers. For every $a, b \in \mathbb{Z}$, there exists $c \in \mathbb{Z}$ such that the system:
 
 $$ \begin{cases}x\equiv a\ mod\ m\\x\equiv b\ mod\ n\end{cases} $$
 
