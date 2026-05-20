@@ -59,7 +59,7 @@ Let $m>1$ be an integer. Remember that, for two integers $a$ and $b$, $a\equiv b
 
 - in simpler terms, we say two numbers are congruent if they leave the same remainder when you divide them by another number. So, if we said $17\equiv 5 \ (mod \ 6)$ is basically saying when you divide 17 by 6 and when you divide 5 by 6 you get the same remainder (5)
 
-The relation $\{(a,b)\in \Z\times\Z\ | \ a\equiv b\ mod\ m\}$ is an equivalence relation on the integers
+The relation $\{(a,b)\in \mathbb{Z} \times \mathbb{Z} \ | \ a\equiv b\ mod\ m\}$ is an equivalence relation on the integers
 
 - meaning, it will be reflexive, symmetric, and transitive
     - $a\equiv a\ mod \ m$ is obviously reflexive
@@ -103,7 +103,7 @@ Find the remainder of $2^{2023}$ divided by 15
 
 ![IMG_2170.jpeg](attachment:485f4319-c3df-458c-aa30-96e9c7cb78fd:IMG_2170.jpeg)
 
-^ its important to note that after you reach a remainder of 1, you dont have to write anything after that. i did it so i can show you the cycle continues
+^ its important to note that after you reach a remainder of 1, you don't have to write anything after that. I did it so I can show you the cycle continues
 
 also.. you can do something like this:
 
@@ -187,7 +187,7 @@ Since $P_i$ is a factor of the number on the left hand side, we should get an in
 
 However, you do NOT get an integer on the right hand side. Why?
 
-- $P_i$ is a prime number, and the smallest prime number we have is 2. so 1/ by anything that isn’t one is not going to be an integer. So how can we say $\Z\neq\Z$…? clearly a contradiction
+- $P_i$ is a prime number, and the smallest prime number we have is 2. so 1/ by anything that isn’t one is not going to be an integer. So how can we say $\mathbb{Z} \neq \mathbb{Z}$…? clearly a contradiction
 
 Therefore, there are infinitely many prime numbers!
 
