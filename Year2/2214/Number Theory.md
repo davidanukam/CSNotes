@@ -328,7 +328,7 @@ How to solve linear congruence?
     1. If $gcd(a,m)=1$, the congruence can be solved by multiplying both sides by the modular inverse of $a\ mod\ m$, denoted by $a^{-1}$
     2. The modular inverse $a^{-1}$ is an integer such that:
     
-    $$ a.a^{-1}\equiv 1 \ (mod\ m) $$
+$$ a.a^{-1}\equiv 1 \ (mod\ m) $$
     
 
 - How do we find the inverse? Using the extended Euclidean Algorithm (you use the coefficient, this will make sense with an example)
@@ -337,17 +337,17 @@ How to solve linear congruence?
     
     1. Once the inverse $a^{-1}$ has been found, multiply both sides of the original congruence
     
-    $$ x\equiv a^{-1}.b\ (mod\ m) $$
+$$ x\equiv a^{-1}.b\ (mod\ m) $$
     
 2. **General solution**
     
     1. If $gcd(a,m)=1$, the unique solution is:
     
-    $$ x\equiv x_0\ (mod\ m) $$
+$$ x\equiv x_0\ (mod\ m) $$
     
     b. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
     
-    $$ x \equiv x_0,\ x_0 + \frac{m}{d}, \ x_0 + 2 \frac{m}{d} +\ x_0 + (d-1) \frac{m}{d} \pmod{m} $$
+$$ x \equiv x_0,\ x_0 + \frac{m}{d}, \ x_0 + 2 \frac{m}{d} +\ x_0 + (d-1) \frac{m}{d} \pmod{m} $$
     
 
 It is important to note that if you have something like $x\equiv a\ mod\ n$, you can rewrite this as an equation: $x=n.k+a$
