@@ -347,7 +347,7 @@ How to solve linear congruence?
     
     b. If $gcd(a,m)=d>1$ and $d\ |\ b$, there are $d$ solutions
     
-    $$ x\equiv x_0,\ x_0+\frac{m}{d},\ x_0+2\frac{m}{d}+\ x_0+(d-1)\frac{m}{d}\ (mod\ m) $$
+    $$ x \equiv x_0,\ x_0 + \frac{m}{d}, \ x_0+2\frac{m}{d}+\ x_0+(d-1)\frac{m}{d} \pmod{m} $$
     
 
 It is important to note that if you have something like $x\equiv a\ mod\ n$, you can rewrite this as an equation: $x=n.k+a$
@@ -384,7 +384,7 @@ Example for this nonsense!
 
 Solve for $x$:
 
-$\begin{cases} x \equiv 2 \pmod{5} \\ x \equiv 3 \mod\ 7\end{cases}$
+$\begin{cases} x \equiv 2 \pmod{5} \\ x \equiv 3 \pmod{7} \end{cases}$
 
 ![IMG_2347.jpeg](attachment:d7bf17df-aebc-4e1e-b50c-1323c209412c:IMG_2347.jpeg)
 
