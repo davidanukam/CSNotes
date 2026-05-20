@@ -337,8 +337,8 @@ $$ a.a^{-1}\equiv 1 \ (mod\ m) $$
 
 $$ x\equiv a^{-1}.b\ (mod\ m) $$
 
-1. **General solution**
-2. If $gcd(a,m)=1$, the unique solution is:
+**General solution**
+1. If $gcd(a,m)=1$, the unique solution is:
 
 $$ x\equiv x_0\ (mod\ m) $$
 
