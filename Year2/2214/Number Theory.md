@@ -376,7 +376,12 @@ An inverse of a modulo m exists IFF $gcd(a,m)=1$
 
 Let $m,n$ be two coprime integers. For every $a, b \in \mathbb{Z}$, there exists $c \in \mathbb{Z}$ such that the system:
 
-$$ \begin{cases} x \equiv a \pmod m \\ x \equiv b \pmod n \end{cases} $$
+$$
+\begin{cases} 
+x \equiv a \pmod m \\ 
+x \equiv b \pmod n 
+\end{cases}
+$$
 
 is equivalent to the single congruence $x\equiv c\ mod\ mn$. Moreover, if a Bézout identity $sm+tn=1$ is known, $c$ can be determined as $c=a+(b-a)sm=(a-b)tn+b$
 
