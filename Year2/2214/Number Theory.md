@@ -25,13 +25,13 @@ so, you can say something like $2\ | \ 16$ since $16=2\times 8$
 
 Some proofs if you want to know how we established 2, 5, and 6:
 
-![image.png](attachment:7581aa25-ae67-472a-9a37-98bb7d2bac64:image.png)
+![PropertiesOfDivisibilityProofExample1](assets/NumberTheory/PropertiesOfDivisibilityProofExample1.png)
 
 Example:
 
 Find all integer $a$ such that: $a\ | \ a^2+2$
 
-![IMG_2167.jpeg](attachment:5811a989-f1f2-4e88-9a8f-baad3cdc27cc:IMG_2167.jpeg)
+![IMG_2167.jpeg|121](attachment:5811a989-f1f2-4e88-9a8f-baad3cdc27cc:IMG_2167.jpeg)
 
 ### INTEGER DIVISION:
 
