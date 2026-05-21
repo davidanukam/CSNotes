@@ -107,9 +107,9 @@ Find the remainder of $2^{2023}$ divided by 15
 
 also.. you can do something like this:
 
-![image.png|91](assets/NumberTheory/PropertiesOfCongruenceExample3.png)
+![PropertiesOfCongruenceExample3](assets/NumberTheory/PropertiesOfCongruenceExample3.png)
 
-you establish that 505 x 4 = 2020, its missing a 3 so you do 2^2020 . 2^3, so whatever the remainder of 2^3 mod 15 is is the answer. so i guess
+you establish that 505 x 4 = 2020, its missing a 3 so you do 2^2020 . 2^3, so whatever the remainder of 2^3 mod 15 is is the answer.
 
 ## PRIME NUMBERS:
 
