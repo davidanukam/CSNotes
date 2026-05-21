@@ -93,7 +93,7 @@ Let $a,b,c,d$ be integers and let $m$ be a positive integer
 - $ac\equiv bd\ mod\ m$
 - $a^n\equiv b^n \ mod \ m$
 
-![some basic proofs… idk if we should know them but he has them written so](attachment:ea2d297b-ece8-4d7a-bc7e-80dfc407582d:IMG_2169.jpeg)
+![PropertiesOfCongruenceExample1](assets/NumberTheory/PropertiesOfCongruenceExample1.jpeg)
 
 some basic proofs… idk if we should know them but he has them written so
 
@@ -101,13 +101,13 @@ Example:
 
 Find the remainder of $2^{2023}$ divided by 15
 
-![IMG_2170.jpeg](attachment:485f4319-c3df-458c-aa30-96e9c7cb78fd:IMG_2170.jpeg)
+![IMG_2170.jpeg|121](assets/NumberTheory/.jpeg)
 
 ^ its important to note that after you reach a remainder of 1, you don't have to write anything after that. I did it so I can show you the cycle continues
 
 also.. you can do something like this:
 
-![image.png](attachment:37f0e57d-834a-4cd5-9b7c-27ff95194975:image.png)
+![image.png|91](assets/NumberTheory/.png)
 
 you establish that 505 x 4 = 2020, its missing a 3 so you do 2^2020 . 2^3, so whatever the remainder of 2^3 mod 15 is is the answer. so i guess
 
