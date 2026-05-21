@@ -210,7 +210,7 @@ Find all primes up to 30:
 
 ![IMG_2179.jpeg](assets/NumberTheory/.jpeg)
 
-You wanna know the time complexity of this algo is… cause don't forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
+You want to know the time complexity of this algo is… cause don't forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
 
 However, while this might be helpful for smaller numbers… the biggest prime number found is $2^{82,589,933}-1$ by some computer volunteered by Patrick Laroche of the Great Internet Mersenne Prime Search (GIMPS). So imagine if you used that algo above to find the prime numbers between 2 and whatever the fart that number is… yea good luck bro see you in 100 years
 
