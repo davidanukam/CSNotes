@@ -31,7 +31,7 @@ Example:
 
 Find all integer $a$ such that: $a\ | \ a^2+2$
 
-![IMG_2167.jpeg|121](attachment:5811a989-f1f2-4e88-9a8f-baad3cdc27cc:IMG_2167.jpeg)
+![PropertiesOfDivisibilityProofExample2](assets/NumberTheory/PropertiesOfDivisibilityProofExample2.jpeg)
 
 ### INTEGER DIVISION:
 
