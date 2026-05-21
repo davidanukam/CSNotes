@@ -208,7 +208,7 @@ Example:
 
 Find all primes up to 30:
 
-![IMG_2179.jpeg](assets/NumberTheory/.jpeg)
+![SieveOfEratosthenesExample](assets/NumberTheory/SieveOfEratosthenesExample.jpeg)
 
 You want to know the time complexity of this algo is… cause don't forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
 
