@@ -101,13 +101,13 @@ Example:
 
 Find the remainder of $2^{2023}$ divided by 15
 
-![IMG_2170.jpeg|121](assets/NumberTheory/.jpeg)
+![PropertiesOfCongruenceExample2](assets/NumberTheory/PropertiesOfCongruenceExample2.jpeg)
 
 ^ its important to note that after you reach a remainder of 1, you don't have to write anything after that. I did it so I can show you the cycle continues
 
 also.. you can do something like this:
 
-![image.png|91](assets/NumberTheory/.png)
+![image.png|91](assets/NumberTheory/PropertiesOfCongruenceExample3.png)
 
 you establish that 505 x 4 = 2020, its missing a 3 so you do 2^2020 . 2^3, so whatever the remainder of 2^3 mod 15 is is the answer. so i guess
 
@@ -364,7 +364,7 @@ Consider the following:
 
 $5^{-1}$ in $\text{ mod }7$
 
-![IMG_2346.jpeg](attachment:cfb49fa3-7a23-42c0-bd7d-117b55865693:IMG_2346.jpeg)
+![IMG_2346.jpeg](assets/NumberTheory/assets/NumberTheory/.jpeg)
 
 An inverse of a modulo m exists IFF $gcd(a,m)=1$
 
@@ -393,8 +393,8 @@ x \equiv 3 \pmod 7
 $$
 
 
-![IMG_2347.jpeg](attachment:d7bf17df-aebc-4e1e-b50c-1323c209412c:IMG_2347.jpeg)
+![IMG_2347.jpeg|121](assets/NumberTheory/.jpeg)
 
 Find the common solutions of the 2 congruences $x\equiv1\ mod\ 3$ and $x\equiv 4\ mod \ 5$
 
-![IMG_2348.jpeg](attachment:1b812718-8f65-459b-a761-c44425b4b1bc:IMG_2348.jpeg)
+![IMG_2348.jpeg](assets/NumberTheory/.jpeg)
