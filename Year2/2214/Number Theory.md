@@ -208,7 +208,7 @@ Example:
 
 Find all primes up to 30:
 
-![IMG_2179.jpeg](attachment:53cbb88d-72bc-479e-b06b-63cd0b3e9c9b:IMG_2179.jpeg)
+![IMG_2179.jpeg](assets/NumberTheory/.jpeg)
 
 You wanna know the time complexity of this algo is… cause don't forget this IS a cs course $O(n\log\log n)$ which is crazy crazy
 
@@ -227,7 +227,7 @@ If $k$ is NOT prime, then surely $2^k-1$ is not prime either
 
 - if $k=10$ (which is not prime) → $2^{10}-1=1024-1=1023$ which is not prime $(\frac{1023}{3}=341)$
 
-![image.png](attachment:e851ef27-b1e0-4b28-ac9b-4d034b6f3373:image.png)
+![image.png|91](assets/NumberTheory/.png)
 
 ## GREATEST COMMON DIVISOR (GCD):
 
@@ -247,13 +247,13 @@ Example:
 
 Find $gcd(24,18)$
 
-![IMG_2339.jpeg](attachment:943b7aa0-61e7-4beb-97af-2cf7f3a4b7fc:IMG_2339.jpeg)
+![IMG_2339.jpeg|121](assets/NumberTheory/.jpeg)
 
 A more difficult one:
 
 Find $gcd(10!, 2^{10}\times3^{10})$
 
-![IMG_2340.jpeg](attachment:f1f2f440-41e4-46fe-a795-69cbd8ab5af6:IMG_2340.jpeg)
+![IMG_2340.jpeg](assets/NumberTheory/.jpeg)
 
 Finding the gcd through factorization is not an efficient method, cause sometimes the numbers are just way too big
 
@@ -267,11 +267,11 @@ Example:
 
 Find the $gcd(24,18)$
 
-![IMG_2341.jpeg](attachment:db1c4cd8-4b7d-483b-bee7-743173a9b471:IMG_2341.jpeg)
+![IMG_2341.jpeg](assets/NumberTheory/.jpeg)
 
 Find the $gcd(120,700)$
 
-![IMG_2342.jpeg](attachment:aaec6841-d8df-4be1-867b-19b47c5c0f68:IMG_2342.jpeg)
+![IMG_2342.jpeg](assets/NumberTheory/.jpeg)
 
 ### BÉZOUT’S THEOREM:
 
@@ -285,7 +285,7 @@ Find the $gcd(432,126)$
 
 Now, his examples are literally one sentence and make no sense so I am going to explain it a bit longer but it’ll make sense!
 
-![IMG_2343.jpeg](attachment:06ec967f-8bd5-4991-9dcd-05d1984bb0b7:IMG_2343.jpeg)
+![IMG_2343.jpeg|121](assets/NumberTheory/.jpeg)
 
 ## LEAST COMMON MULTIPLE:
 
@@ -352,11 +352,11 @@ Examples:
 
 Solve $3x\equiv 4\ mod\ 20$
 
-![IMG_2344.jpeg](attachment:ea79d338-3c9f-45a6-a22c-e6e652a049e4:IMG_2344.jpeg)
+![IMG_2344.jpeg|121](assets/NumberTheory/.jpeg)
 
 Solve $2x\equiv 1\ mod \ 20$
 
-![IMG_2345.jpeg](attachment:cf6b77da-e03b-49d0-9bb1-74e63e476514:IMG_2345.jpeg)
+![IMG_2345.jpeg|121](assets/NumberTheory/.jpeg)
 
 What if we were given the inverse of a number and we had to get its original form?
 
