@@ -227,7 +227,7 @@ If $k$ is NOT prime, then surely $2^k-1$ is not prime either
 
 - if $k=10$ (which is not prime) → $2^{10}-1=1024-1=1023$ which is not prime $(\frac{1023}{3}=341)$
 
-![image.png|91](assets/NumberTheory/.png)
+![MersennePrimesExample](assets/NumberTheory/MersennePrimesExample.png)
 
 ## GREATEST COMMON DIVISOR (GCD):
 
