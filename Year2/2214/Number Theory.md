@@ -247,13 +247,13 @@ Example:
 
 Find $gcd(24,18)$
 
-![IMG_2339.jpeg|121](assets/NumberTheory/.jpeg)
+![GreatestCommonDivisorExample1](assets/NumberTheory/GreatestCommonDivisorExample1.jpeg)
 
 A more difficult one:
 
 Find $gcd(10!, 2^{10}\times3^{10})$
 
-![IMG_2340.jpeg](assets/NumberTheory/.jpeg)
+![GreatestCommonDivisorExample2](assets/NumberTheory/GreatestCommonDivisorExample2.jpeg)
 
 Finding the gcd through factorization is not an efficient method, cause sometimes the numbers are just way too big
 
@@ -267,7 +267,7 @@ Example:
 
 Find the $gcd(24,18)$
 
-![IMG_2341.jpeg](assets/NumberTheory/.jpeg)
+![IMG_2341.jpeg](assets/NumberTheoryEuclideanAlgorithmExample1.jpeg)
 
 Find the $gcd(120,700)$
 
