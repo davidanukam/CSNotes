@@ -267,11 +267,11 @@ Example:
 
 Find the $gcd(24,18)$
 
-![IMG_2341.jpeg](assets/NumberTheoryEuclideanAlgorithmExample1.jpeg)
+![EuclideanAlgorithmExample1](assets/NumberTheory/EuclideanAlgorithmExample1.jpeg)
 
 Find the $gcd(120,700)$
 
-![IMG_2342.jpeg](assets/NumberTheory/.jpeg)
+![EuclideanAlgorithmExample2](assets/NumberTheory/EuclideanAlgorithmExample2.jpeg)
 
 ### BÉZOUT’S THEOREM:
 
@@ -285,7 +285,7 @@ Find the $gcd(432,126)$
 
 Now, his examples are literally one sentence and make no sense so I am going to explain it a bit longer but it’ll make sense!
 
-![IMG_2343.jpeg|121](assets/NumberTheory/.jpeg)
+![BézoutsTheoremExample](assets/NumberTheory/BézoutsTheoremExample.jpeg)
 
 ## LEAST COMMON MULTIPLE:
 
