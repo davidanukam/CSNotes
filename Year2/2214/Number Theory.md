@@ -356,7 +356,7 @@ Solve $3x\equiv 4\ mod\ 20$
 
 Solve $2x\equiv 1\ mod \ 20$
 
-![IMG_2345.jpeg|121](assets/NumberTheory/.jpeg)
+![LinearCongruencesExample2](assets/NumberTheory/LinearCongruencesExample2.jpeg)
 
 What if we were given the inverse of a number and we had to get its original form?
 
@@ -364,7 +364,7 @@ Consider the following:
 
 $5^{-1}$ in $\text{ mod }7$
 
-![IMG_2346.jpeg](assets/NumberTheory/assets/NumberTheory/.jpeg)
+![LinearCongruencesExample3](assets/NumberTheory/LinearCongruencesExample3.jpeg)
 
 An inverse of a modulo m exists IFF $gcd(a,m)=1$
 
