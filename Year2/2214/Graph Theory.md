@@ -41,9 +41,9 @@ Example:
 
 If you had the vertices $V=\{1,2,3,4\}$ and the edges $E=\{(1,2), (4,3), (1,3)\}$ and you wanted to draw and undirected graph:
 
-![IMG_2359.jpeg|121](assets/GraphTheory/.jpeg)
+![](assets/GraphTheory/.jpeg)
 
-![image.png](attachment:853b3bd7-8269-4d70-bed4-6c2d0e448299:image.png)
+![](assets/GraphTheory/.png)
 
 # ADVANCED GRAPH TYPES:
 
