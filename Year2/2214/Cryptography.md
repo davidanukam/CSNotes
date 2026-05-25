@@ -14,7 +14,7 @@ Mathematically:
 
 - Letters are mapped to numbers (A → 0, B → 1, C → 2, …, Z → 25)
 - **Encryption:** $e(x)=(x+3)\ mod\ 26$
-- **Decryption:** sdf $d(x)=(x-3)\ mod\ 26$
+- **Decryption:** $d(x)=(x-3)\ mod\ 26$
 
 Example:
 
