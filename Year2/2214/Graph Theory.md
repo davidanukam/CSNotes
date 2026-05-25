@@ -64,7 +64,7 @@ Useful for representing flux/flow where connection channels matter
 
 Example:
 
-![IMG_2360.jpeg](attachment:7d379004-faec-4841-bc12-8a37a0b273d3:IMG_2360.jpeg)
+![](assets/GraphTheory/.jpeg)
 
 this is considered a directed multigraph because there are 2 edges between one vertex, and since there is an arrow it is directed
 
@@ -75,9 +75,9 @@ Essentially the same as an undirected graph, with the addition of:
 - Multiple UNDIRECTED edges between vertices
 - Useful for connected where channel identity matters
 
-Example;
+Example:
 
-![IMG_2361.jpeg](attachment:9b34e102-d641-4e9f-8d9b-061a7f83b635:IMG_2361.jpeg)
+![](assets/GraphTheory/.jpeg)
 
 this is considered a undirected multigraph because there are 2 edges between one vertex, and since there is no arrow it is undirected
 
@@ -93,7 +93,7 @@ Can represent:
 
 Anything, whatever is relevant to the question
 
-![image.png](attachment:0da23025-6c13-4c97-aaf6-c62c4a728f5c:image.png)
+![](assets/GraphTheory/.png)
 
 Weights can be applied to directed or undirected graphs or multigraphs
 
