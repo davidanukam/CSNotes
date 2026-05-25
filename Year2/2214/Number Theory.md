@@ -393,8 +393,8 @@ x \equiv 3 \pmod 7
 $$
 
 
-![IMG_2347.jpeg|121](assets/NumberTheory/.jpeg)
+![ChineseRemainderTheoremExample1](assets/NumberTheory/ChineseRemainderTheoremExample1.jpeg)
 
 Find the common solutions of the 2 congruences $x\equiv1\ mod\ 3$ and $x\equiv 4\ mod \ 5$
 
-![IMG_2348.jpeg](assets/NumberTheory/.jpeg)
+![ChineseRemainderTheoremExample2](assets/NumberTheory/ChineseRemainderTheoremExample2.jpeg)
