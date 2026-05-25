@@ -99,9 +99,9 @@ Example:
 
 Between 20000 and 70000 find the number of even integers in which no digit is repeated
 
-![i didnt write the explanation of the second case but… its the same thing kinda](attachment:0cdb67e8-2d4d-4c48-8547-d58f4af4ff55:IMG_2354.jpeg)
+![PermutationExample](assets/Counting/PermutationExample.jpeg)
 
-i didnt write the explanation of the second case but… its the same thing kinda
+I didn't write the explanation of the second case but… its the same thing kinda
 
 Example:
 
@@ -172,7 +172,7 @@ Example:
 
 A student wishes to walk from the corner X to the corner Y through the streets as given in the street map shown below. How many shortest routes are there from X to Y available to the student?
 
-![IMG_2356.jpeg](attachment:04057571-a0c4-45db-a382-12b3cfe5b92b:IMG_2356.jpeg)
+![IMG_2356.jpeg|121](attachment:04057571-a0c4-45db-a382-12b3cfe5b92b:IMG_2356.jpeg)
 
 Example:
 
