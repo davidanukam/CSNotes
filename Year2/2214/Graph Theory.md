@@ -43,7 +43,7 @@ If you had the vertices $V=\{1,2,3,4\}$ and the edges $E=\{(1,2), (4,3), (1,3)\}
 
 ![UndirectedGraphExample1](assets/GraphTheory/UndirectedGraphExample1.jpeg)
 
-![](assets/GraphTheory/.png)
+![UndirectedGraphExample2](assets/GraphTheory/UndirectedGraphExample2.png)
 
 # ADVANCED GRAPH TYPES:
 
@@ -64,7 +64,7 @@ Useful for representing flux/flow where connection channels matter
 
 Example:
 
-![](assets/GraphTheory/.jpeg)
+![DirectedMultigraphExample](assets/GraphTheory/DirectedMultigraphExample.jpeg)
 
 this is considered a directed multigraph because there are 2 edges between one vertex, and since there is an arrow it is directed
 
@@ -77,7 +77,7 @@ Essentially the same as an undirected graph, with the addition of:
 
 Example:
 
-![](assets/GraphTheory/.jpeg)
+![UndirectedMultigraphExample](assets/GraphTheory/UndirectedMultigraphExample.jpeg)
 
 this is considered a undirected multigraph because there are 2 edges between one vertex, and since there is no arrow it is undirected
 
@@ -93,7 +93,7 @@ Can represent:
 
 Anything, whatever is relevant to the question
 
-![](assets/GraphTheory/.png)
+![WeightedGraphExample](assets/GraphTheory/WeightedGraphExample.png)
 
 Weights can be applied to directed or undirected graphs or multigraphs
 
