@@ -11,7 +11,7 @@ Thank you for helping improve this repository! Whether you're fixing formatting,
   - [2. Rename Image Files](#2-rename-image-files)
   - [3. Upload Your Own Notes](#3-upload-your-own-notes)
 - [Getting Started with Git](#getting-started-with-git)
-- [Repository Structure](#repository-structure)
+- [Repository Structure Example](#repository-structure-example)
 - [Submitting Your Contribution](#submitting-your-contribution)
 
 ---
@@ -34,7 +34,7 @@ If you find a note that doesn't render properly on GitHub, feel free to open a p
 
 **You are able to change both the syntax and alter the content or meaning of the notes**.
 
-However, these changes (the altering of the content) will mostly likely take more time to review and merge as re
+*However*, these changes (the altering of the note content) will most likely take more time to review and merge as maintainers will have to check it more thoroughly.
 
 ---
 
