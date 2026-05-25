@@ -20,7 +20,7 @@ Example:
 
 Encrypt the message “Socrates is mortal” using the Caesar Cipher
 
-![IMG_2350.jpeg|121](assets/Cryptography/.jpeg)
+![CeaserCipherExample](assets/Cryptography/CeaserCipherExample.jpeg)
 
 ### AFFINE CIPHERS:
 
@@ -57,7 +57,7 @@ $$ x\equiv a^{-1}(y-b)\ mod\ 26 $$
 
 Inverse is the number such that $a.a^{-1}\equiv 1\ mod\ 26$
 
-![image](assets/Cryptography/.png)
+![AffineCipherExample](assets/Cryptography/AffineCipherExample.png)
 
 where y represents the encrypted number and x represents the original number
 
@@ -107,4 +107,4 @@ To decrypt the message $y$, we compute $x=d(y)=y^d\ mod\ n=(x^e)^d\ mod\ n$
 
 Example:
 
-![IMG_2352.jpeg](attachment:d64aab39-aa03-43ae-97a4-f579f8807934:IMG_2352.jpeg)
+![RSAExample](assets/Cryptography/RSAExample.jpeg)
