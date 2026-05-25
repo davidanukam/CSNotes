@@ -54,9 +54,8 @@ After:  assets/SoftwareTesting/BoundaryValueAnalysisExample.png
 
 And in the corresponding `.md` file, update:
 ```markdown
-![](assets/SoftwareTesting/img_023.png)
-⬇️
-![BoundaryValueAnalysisExample](assets/SoftwareTesting/BoundaryValueAnalysisExample.png)
+Before: ![](assets/SoftwareTesting/img_023.png)
+After: ![BoundaryValueAnalysisExample](assets/SoftwareTesting/BoundaryValueAnalysisExample.png)
 ```
 
 ---
@@ -118,7 +117,7 @@ New to Git? No worries! Here's a quick-reference cheat sheet to get you up and r
 
 ---
 
-## Repository Structure
+## Repository Structure Example
 
 ```
 CSNotes/
@@ -153,4 +152,4 @@ When opening a pull request, please include a brief description of:
 - **Why** the change was needed (e.g., "Image links used Obsidian syntax which doesn't render on GitHub")
 - **Which files** were affected
 
-Thank you for contributing! 🎉
+Thank you for contributing!
