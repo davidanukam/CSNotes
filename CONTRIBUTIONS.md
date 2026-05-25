@@ -32,7 +32,9 @@ Some notes in this repo were originally written in [Notion](https://www.notion.s
 
 If you find a note that doesn't render properly on GitHub, feel free to open a pull request with the fix.
 
- change syntax — **do not alter the content or meaning of the notes**.
+**You are able to change both the syntax and alter the content or meaning of the notes**.
+
+However, these changes (the altering of the content) will mostly likely take more time to review and merge as re
 
 ---
 
