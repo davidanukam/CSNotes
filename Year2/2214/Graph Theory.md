@@ -119,11 +119,11 @@ The neighbors of a vertex v is the set $N(v)$ of all vertices adjacent to V.
 
 Example:
 
-![image.png](attachment:8a895951-589f-42f9-8581-87a39ef0cd1c:image.png)
+![](assets/GraphTheory/.png)
 
 What are the degrees and neighbors of each vertex?
 
-![IMG_2363.jpeg](attachment:fb6fc34e-91ea-4630-82a5-99054199d062:IMG_2363.jpeg)
+![](assets/GraphTheory/.jpeg)
 
 **HANDSHAKING THEOREM:**
 
@@ -170,7 +170,7 @@ A loop contributes 1 to both the in-degree and out-degree of a vertex
 
 Example:
 
-![image.png](attachment:f7901b18-0bf4-4aa3-9315-18b9bf04a267:image.png)
+![](assets/GraphTheory/.png)
 
 What are the in and out degrees of each vertex?
 
