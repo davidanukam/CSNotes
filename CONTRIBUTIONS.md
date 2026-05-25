@@ -56,7 +56,7 @@ And in the corresponding `.md` file, update:
 ```markdown
 ![](assets/SoftwareTesting/img_023.png)
 ⬇️
-![Boundary Value Analysis Example](assets/SoftwareTesting/BoundaryValueAnalysisExample.png)
+![BoundaryValueAnalysisExample](assets/SoftwareTesting/BoundaryValueAnalysisExample.png)
 ```
 
 ---
