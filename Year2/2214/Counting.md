@@ -172,7 +172,7 @@ Example:
 
 A student wishes to walk from the corner X to the corner Y through the streets as given in the street map shown below. How many shortest routes are there from X to Y available to the student?
 
-![IMG_2356.jpeg|121](attachment:04057571-a0c4-45db-a382-12b3cfe5b92b:IMG_2356.jpeg)
+![CombinationsExample](assets/Counting/CombinationsExample.jpeg)
 
 Example:
 
@@ -203,7 +203,7 @@ To generate $r$ rows of cells:
     - One bottom line
 - So:
     
-    $$ \text{Number of horizontal lines = }r+1 $$
+$$ \text{Number of horizontal lines = }r+1 $$
     
 
 Likewise, for $c$ columns, you need $c+1$ vertical lines
@@ -221,4 +221,4 @@ For any natural numbers $n,k$, with $k\le n$:
 
 $$ \binom{n+1}{k+1}=\binom{n}{k}+\binom{n}{k+1} $$
 
-![image.png](attachment:b5cc634b-87dc-4905-9fb5-46ebceba9fff:image.png)
+![PascalsIdentityExample](assets/Counting/PascalsIdentityExample.png)
