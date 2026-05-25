@@ -352,7 +352,7 @@ Examples:
 
 Solve $3x\equiv 4\ mod\ 20$
 
-![IMG_2344.jpeg|121](assets/NumberTheory/.jpeg)
+![LinearCongruencesExample1](assets/NumberTheory/LinearCongruencesExample1.jpeg)
 
 Solve $2x\equiv 1\ mod \ 20$
 
