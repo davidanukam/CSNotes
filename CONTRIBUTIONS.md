@@ -30,7 +30,9 @@ Some notes in this repo were originally written in [Notion](https://www.notion.s
 - **LaTeX/Math** — Obsidian renders inline math with `$...$`; GitHub supports this in some contexts but may need `$$...$$` blocks for display math.
 - **Checkboxes and task lists** — Ensure they use standard GitHub syntax: `- [ ]` and `- [x]`.
 
-If you find a note that doesn't render properly on GitHub, feel free to open a pull request with the fix. Please only change syntax — **do not alter the content or meaning of the notes**.
+If you find a note that doesn't render properly on GitHub, feel free to open a pull request with the fix.
+
+ change syntax — **do not alter the content or meaning of the notes**.
 
 ---
 
