@@ -11,4 +11,4 @@
 9. [Number Theory](Number%20Theory.md)
 10. [Cryptography](Cryptography.md)
 11. [Counting](Counting.md)
-12. [](GraphTheory.)
+12. [Graph Theory](Graph%20Theory.md)
