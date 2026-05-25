@@ -11,7 +11,7 @@ Common features of all types of graphs:
 
 So, for example if you were given the vertices: $V=\{1,2,3,4\}$ along with the set of edges: $E=\{(1,2), (2,1), (1,4), (3,4), (4,4)\}$, how would you draw this graph?
 
-![](assets/GraphTheory/.jpeg)
+![GraphExample](assets/GraphTheory/GraphExample.jpeg)
 
 something like this
 
@@ -25,7 +25,7 @@ Loops: Edges from a vertex to itself $(a,a)$
 
 Between any two vertices, only ONE edge is allowed
 
-![](assets/GraphTheory/.png)
+![DirectedGraphExample](assets/GraphTheory/DirectedGraphExample.png)
 
 ### UNDIRECTED GRAPHS:
 
@@ -41,7 +41,7 @@ Example:
 
 If you had the vertices $V=\{1,2,3,4\}$ and the edges $E=\{(1,2), (4,3), (1,3)\}$ and you wanted to draw and undirected graph:
 
-![](assets/GraphTheory/.jpeg)
+![UndirectedGraphExample1](assets/GraphTheory/UndirectedGraphExample1.jpeg)
 
 ![](assets/GraphTheory/.png)
 
@@ -174,7 +174,7 @@ Example:
 
 What are the in and out degrees of each vertex?
 
-![IMG_2365.jpeg](attachment:88279926-9df7-4bcc-bc26-f8583411b519:IMG_2365.jpeg)
+![](assets/GraphTheory/.jpeg)
 
 **Theorem:**
 
