@@ -123,7 +123,7 @@ Example:
 
 What are the degrees and neighbors of each vertex?
 
-![](assets/GraphTheory/.jpeg)
+![NeighborsExample](assets/GraphTheory/NeighborsExample.jpeg)
 
 **HANDSHAKING THEOREM:**
 
@@ -174,7 +174,7 @@ Example:
 
 What are the in and out degrees of each vertex?
 
-![](assets/GraphTheory/.jpeg)
+![InOutDegreesExample](assets/GraphTheory/InOutDegreesExample.jpeg)
 
 **Theorem:**
 
