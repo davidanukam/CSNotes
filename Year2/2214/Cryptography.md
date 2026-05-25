@@ -20,7 +20,7 @@ Example:
 
 Encrypt the message “Socrates is mortal” using the Caesar Cipher
 
-![IMG_2350.jpeg](attachment:5d530cc4-77c9-4b6b-bb3c-95d872c9cabe:IMG_2350.jpeg)
+![IMG_2350.jpeg|121](assets/Cryptography/.jpeg)
 
 ### AFFINE CIPHERS:
 
@@ -57,7 +57,7 @@ $$ x\equiv a^{-1}(y-b)\ mod\ 26 $$
 
 Inverse is the number such that $a.a^{-1}\equiv 1\ mod\ 26$
 
-![where y represents the encrypted number and x represents the original number](attachment:bf40f097-3710-44bf-a3a1-293a3a0f970a:image.png)
+![image](assets/Cryptography/.png)
 
 where y represents the encrypted number and x represents the original number
 
