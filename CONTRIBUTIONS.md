@@ -6,7 +6,6 @@ Thank you for helping improve this repository! Whether you're fixing formatting,
 
 ## Table of Contents
 
-- [Ways to Contribute](#ways-to-contribute)
 - [Getting Started with Git](#getting-started-with-git)
   - [1. Fix Markdown Syntax for GitHub](#1-fix-markdown-syntax-for-github)
   - [2. Rename Image Files](#2-rename-image-files)
