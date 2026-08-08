@@ -7,33 +7,12 @@ Thank you for helping improve this repository! Whether you're fixing formatting,
 ## Table of Contents
 
 - [Getting Started with Git](#getting-started-with-git)
+- [Ways to Contribute](#ways-to-contribute)
   - [1. Fix Markdown Syntax for GitHub](#1-fix-markdown-syntax-for-github)
   - [2. Rename Image Files](#2-rename-image-files)
   - [3. Upload Your Own Notes](#3-upload-your-own-notes)
 - [Repository Structure Example](#repository-structure-example)
 - [Submitting Your Contribution](#submitting-your-contribution)
-
----
-
-## Ways to Contribute
-
-### 1. Fix Markdown Syntax for GitHub
-
-Some notes in this repo were originally written in [Notion](https://www.notion.so/) or [Obsidian](https://obsidian.md/), which use slightly different Markdown flavors than GitHub. This means certain formatting may not render correctly when viewed on GitHub.
-
-**Common issues to look out for and fix:**
-
-- **Callout blocks** — Notion/Obsidian callouts (e.g., `> [!NOTE]`) may not render as expected on GitHub.
-- **Embedded images** — Obsidian uses `![[image.png]]` syntax; GitHub requires standard Markdown: `![alt text](path/to/image.png)`.
-- **Internal links** — Obsidian wiki-links like `[[Note Name]]` are not supported on GitHub. Replace them with standard relative links: `[Note Name](../path/Note%20Name.md)`.
-- **LaTeX/Math** — Obsidian renders inline math with `$...$`; GitHub supports this in some contexts but may need `$$...$$` blocks for display math.
-- **Checkboxes and task lists** — Ensure they use standard GitHub syntax: `- [ ]` and `- [x]`.
-
-If you find a note that doesn't render properly on GitHub, feel free to open a pull request with the fix.
-
-**You are able to change both the syntax and alter the content or meaning of the notes**.
-
-*However*, these changes (the altering of the note content) will most likely take more time to review and merge as maintainers will have to check it more thoroughly.
 
 ---
 
@@ -65,6 +44,27 @@ New to Git? No worries! Here's a quick-reference cheat sheet to get you up and r
    git push origin fix/markdown-syntax-2212
    ```
 7. Open a **Pull Request** from your fork to the `main` branch of this repo.
+
+---
+## Ways to Contribute
+
+### 1. Fix Markdown Syntax for GitHub
+
+Some notes in this repo were originally written in [Notion](https://www.notion.so/) or [Obsidian](https://obsidian.md/), which use slightly different Markdown flavors than GitHub. This means certain formatting may not render correctly when viewed on GitHub.
+
+**Common issues to look out for and fix:**
+
+- **Callout blocks** — Notion/Obsidian callouts (e.g., `> [!NOTE]`) may not render as expected on GitHub.
+- **Embedded images** — Obsidian uses `![[image.png]]` syntax; GitHub requires standard Markdown: `![alt text](path/to/image.png)`.
+- **Internal links** — Obsidian wiki-links like `[[Note Name]]` are not supported on GitHub. Replace them with standard relative links: `[Note Name](../path/Note%20Name.md)`.
+- **LaTeX/Math** — Obsidian renders inline math with `$...$`; GitHub supports this in some contexts but may need `$$...$$` blocks for display math.
+- **Checkboxes and task lists** — Ensure they use standard GitHub syntax: `- [ ]` and `- [x]`.
+
+If you find a note that doesn't render properly on GitHub, feel free to open a pull request with the fix.
+
+**You are able to change both the syntax and alter the content or meaning of the notes**.
+
+*However*, these changes (the altering of the note content) will most likely take more time to review and merge as maintainers will have to check it more thoroughly.
 
 ---
 
