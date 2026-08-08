@@ -38,6 +38,37 @@ If you find a note that doesn't render properly on GitHub, feel free to open a p
 
 ---
 
+## Getting Started with Git
+
+New to Git? No worries! Here's a quick-reference cheat sheet to get you up and running:
+
+📄 [Git Cheat Sheet (PDF)](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+
+**Basic workflow for contributing:**
+
+1. **Fork** this repository using the "Fork" button on GitHub.
+2. **Clone** your fork to your local machine:
+   ```bash
+   git clone https://github.com/<your-username>/CSNotes.git
+   ```
+3. **Create a new branch** for your changes:
+   ```bash
+   git checkout -b fix/markdown-syntax-2212
+   ```
+4. Make your changes locally.
+5. **Stage and commit** your changes:
+   ```bash
+   git add .
+   git commit -m "Fix image link syntax in SoftwareTesting.md"
+   ```
+6. **Push** your branch to your fork:
+   ```bash
+   git push origin fix/markdown-syntax-2212
+   ```
+7. Open a **Pull Request** from your fork to the `main` branch of this repo.
+
+---
+
 ### 2. Rename Image Files
 
 Image files in the `assets/` folders sometimes have unclear or inconsistent names, making them hard to identify or link to. You can help by renaming them to be more descriptive and consistent.
@@ -87,37 +118,6 @@ YearX/
         └── TopicName/
                 ImageName.png
 ```
-
----
-
-## Getting Started with Git
-
-New to Git? No worries! Here's a quick-reference cheat sheet to get you up and running:
-
-📄 [Git Cheat Sheet (PDF)](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
-
-**Basic workflow for contributing:**
-
-1. **Fork** this repository using the "Fork" button on GitHub.
-2. **Clone** your fork to your local machine:
-   ```bash
-   git clone https://github.com/<your-username>/CSNotes.git
-   ```
-3. **Create a new branch** for your changes:
-   ```bash
-   git checkout -b fix/markdown-syntax-2212
-   ```
-4. Make your changes locally.
-5. **Stage and commit** your changes:
-   ```bash
-   git add .
-   git commit -m "Fix image link syntax in SoftwareTesting.md"
-   ```
-6. **Push** your branch to your fork:
-   ```bash
-   git push origin fix/markdown-syntax-2212
-   ```
-7. Open a **Pull Request** from your fork to the `main` branch of this repo.
 
 ---
 
