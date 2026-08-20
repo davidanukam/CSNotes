@@ -74,7 +74,7 @@ function YearPage({ yearSlug }: { yearSlug: string }) {
               <li key={course.folder}>
                 <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
                   {course.comingSoon
-                    ? `${course.code} — Coming Soon`
+                    ? `${course.code} - Coming Soon`
                     : `${course.code} - ${course.title}`}
                 </a>
               </li>
