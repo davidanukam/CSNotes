@@ -136,6 +136,27 @@ a:hover {
   color: var(--text);
 }
 
+.year-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.year-link:hover {
+  text-decoration: none;
+}
+
+.open-link-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex-shrink: 0;
+  opacity: 0.72;
+}
+
+.year-link:hover .open-link-icon {
+  opacity: 1;
+}
+
 .year-block h2 a:hover {
   color: var(--accent);
 }
@@ -147,6 +168,7 @@ a:hover {
 .item-list {
   margin: 0;
   padding-left: 1.25rem;
+  list-style: disc;
 }
 
 .item-list li {
@@ -221,6 +243,43 @@ a:hover {
   border-radius: 10px;
   border: 1px solid var(--line);
   background: #fff;
+}
+
+.md-image-btn {
+  display: block;
+  max-width: 100%;
+  margin: 1rem 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: zoom-in;
+}
+
+.md-image-btn img {
+  margin: 0;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(5, 6, 12, 0.82);
+  cursor: zoom-out;
+}
+
+.lightbox img {
+  max-width: min(92vw, 1100px);
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  margin: 0;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: default;
 }
 
 .markdown pre {

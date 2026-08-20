@@ -125,14 +125,34 @@ export function getYears(): YearMeta[] {
   });
 }
 
+export function decodeParam(value: string): string {
+  let current = value.replace(/\+/g, " ");
+  for (let i = 0; i < 4; i++) {
+    try {
+      const next = decodeURIComponent(current);
+      if (next === current) break;
+      current = next;
+    } catch {
+      break;
+    }
+  }
+  return current.trim();
+}
+
+function sameName(a: string, b: string): boolean {
+  return decodeParam(a).toLowerCase() === decodeParam(b).toLowerCase();
+}
+
 export function getYear(slug: string): YearMeta | undefined {
-  return getYears().find((year) => year.slug.toLowerCase() === slug.toLowerCase());
+  const decoded = decodeParam(slug);
+  return getYears().find((year) => sameName(year.slug, decoded));
 }
 
 export function getCourse(yearSlug: string, courseCode: string): CourseMeta | undefined {
   const year = getYear(yearSlug);
+  const decoded = decodeParam(courseCode);
   return year?.courses.find(
-    (course) => course.code === courseCode || course.folder === courseCode,
+    (course) => sameName(course.code, decoded) || sameName(course.folder, decoded),
   );
 }
 
@@ -144,22 +164,25 @@ export function getNoteFile(
   const course = getCourse(yearSlug, courseCode);
   if (!course) return undefined;
 
-  const meta = course.notes.find(
-    (note) => note.slug === noteSlug || note.slug.toLowerCase() === noteSlug.toLowerCase(),
-  );
+  const want = decodeParam(noteSlug).replace(/\.md$/i, "");
+  const meta =
+    course.notes.find((note) => sameName(note.slug, want) || sameName(note.fileName, want)) ??
+    notesFromFolder(join(ROOT, decodeParam(yearSlug), course.folder)).find(
+      (note) => sameName(note.slug, want) || sameName(note.fileName, want),
+    );
   if (!meta) return undefined;
 
-  const filePath = join(ROOT, yearSlug, course.folder, meta.fileName);
+  const filePath = join(ROOT, decodeParam(yearSlug), course.folder, meta.fileName);
   if (!existsSync(filePath)) return undefined;
 
   return {
     meta,
     course,
     markdown: readFileSync(filePath, "utf8"),
-    relDir: `/${yearSlug}/${course.folder}`,
+    relDir: `/${decodeParam(yearSlug)}/${course.folder}`,
   };
 }
 
 export function hrefFor(...parts: string[]): string {
-  return "/" + parts.map((part) => encodeURIComponent(part)).join("/");
+  return "/" + parts.map((part) => encodeURIComponent(decodeParam(part))).join("/");
 }

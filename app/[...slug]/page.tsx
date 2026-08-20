@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { MarkdownBody } from "@/components/MarkdownBody";
 import { OnThisPage } from "@/components/OnThisPage";
 import { TopBar } from "@/components/TopBar";
-import { getCourse, getNoteFile, getYear, getYears, hrefFor } from "@/lib/content";
+import { decodeParam, getCourse, getNoteFile, getYear, getYears, hrefFor } from "@/lib/content";
 import { extractHeadings, rewriteMarkdown } from "@/lib/markdown";
 
 type Params = { slug: string[] };
@@ -23,29 +23,33 @@ export function generateStaticParams(): Params[] {
   return params;
 }
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
-  if (slug.length === 1) {
-    const year = getYear(slug[0]);
+  const parts = slug.map(decodeParam);
+  if (parts.length === 1) {
+    const year = getYear(parts[0]);
     return { title: year?.label ?? "Year" };
   }
-  if (slug.length === 2) {
-    const course = getCourse(slug[0], slug[1]);
+  if (parts.length === 2) {
+    const course = getCourse(parts[0], parts[1]);
     return { title: course ? `${course.code} - ${course.title}` : "Course" };
   }
-  const note = getNoteFile(slug[0], slug[1], slug.slice(2).join("/"));
+  const note = getNoteFile(parts[0], parts[1], parts.slice(2).join("/"));
   return { title: note?.meta.title ?? "Note" };
 }
 
 export default async function CatchAllPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
+  const parts = slug.map(decodeParam);
 
-  if (slug.length === 1) return <YearPage yearSlug={slug[0]} />;
-  if (slug.length === 2) return <CoursePage yearSlug={slug[0]} courseCode={slug[1]} />;
-  if (slug.length >= 3) {
-    return <NotePage yearSlug={slug[0]} courseCode={slug[1]} noteSlug={slug.slice(2).join("/")} />;
+  if (parts.length === 1) return <YearPage yearSlug={parts[0]} />;
+  if (parts.length === 2) return <CoursePage yearSlug={parts[0]} courseCode={parts[1]} />;
+  if (parts.length >= 3) {
+    return (
+      <NotePage yearSlug={parts[0]} courseCode={parts[1]} noteSlug={parts.slice(2).join("/")} />
+    );
   }
 
   notFound();
@@ -65,7 +69,7 @@ function YearPage({ yearSlug }: { yearSlug: string }) {
         {year.comingSoon ? (
           <p className="muted">Coming Soon</p>
         ) : (
-          <ol className="item-list">
+          <ul className="item-list">
             {year.courses.map((course) => (
               <li key={course.folder}>
                 <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
@@ -75,7 +79,7 @@ function YearPage({ yearSlug }: { yearSlug: string }) {
                 </a>
               </li>
             ))}
-          </ol>
+          </ul>
         )}
       </main>
     </>
@@ -97,13 +101,13 @@ function CoursePage({ yearSlug, courseCode }: { yearSlug: string; courseCode: st
         {course.comingSoon ? (
           <p className="muted">Notes for this course have not been added yet.</p>
         ) : (
-          <ol className="item-list">
+          <ul className="item-list">
             {course.notes.map((note) => (
               <li key={note.slug}>
                 <a href={hrefFor(yearSlug, course.folder, note.slug)}>{note.title}</a>
               </li>
             ))}
-          </ol>
+          </ul>
         )}
       </main>
     </>

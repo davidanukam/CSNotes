@@ -1,4 +1,5 @@
 import { TopBar } from "@/components/TopBar";
+import { OpenLinkIcon } from "@/components/OpenLinkIcon";
 import { getYears, hrefFor } from "@/lib/content";
 
 export default function HomePage() {
@@ -16,22 +17,28 @@ export default function HomePage() {
         {years.map((year) => (
           <section className="year-block" key={year.slug}>
             <h2>
-              <a href={hrefFor(year.slug)}>{year.label}</a>
+              <a className="year-link" href={hrefFor(year.slug)}>
+                {year.label}
+                <OpenLinkIcon />
+              </a>
             </h2>
             {year.comingSoon ? (
               <p className="muted">Coming Soon</p>
             ) : (
-              <ol className="item-list">
+              <ul className="item-list">
                 {year.courses.map((course) => (
                   <li key={course.folder}>
-                <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
-                  {course.comingSoon
-                    ? `${course.code} - Coming Soon`
-                    : `${course.code} - ${course.title}`}
-                </a>
+                    <a
+                      href={hrefFor(year.slug, course.folder)}
+                      className={course.comingSoon ? "muted" : undefined}
+                    >
+                      {course.comingSoon
+                        ? `${course.code} - Coming Soon`
+                        : `${course.code} - ${course.title}`}
+                    </a>
                   </li>
                 ))}
-              </ol>
+              </ul>
             )}
           </section>
         ))}
