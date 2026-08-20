@@ -3,28 +3,52 @@
 import { useEffect, useState } from "react";
 import type { Heading } from "@/lib/content";
 
+const TOP_OFFSET = 96;
+
 export function OnThisPage({ headings }: { headings: Heading[] }) {
   const [activeId, setActiveId] = useState("");
 
   useEffect(() => {
     if (headings.length === 0) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible[0]?.target.id) setActiveId(visible[0].target.id);
-      },
-      { rootMargin: "-80px 0px -65% 0px", threshold: [0, 0.25, 1] },
-    );
-
-    for (const heading of headings) {
-      const el = document.getElementById(heading.id);
-      if (el) observer.observe(el);
+    function headingNodes() {
+      return headings.flatMap((heading) => {
+        const el = document.getElementById(heading.id);
+        return el ? [{ id: heading.id, el }] : [];
+      });
     }
 
-    return () => observer.disconnect();
+    function computeActive() {
+      const items = headingNodes();
+      if (items.length === 0) return;
+
+      const last = items[items.length - 1];
+      const lastTop = last.el.getBoundingClientRect().top;
+      const scrolledToEnd =
+        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 24;
+      const lastVisible = lastTop < window.innerHeight && last.el.getBoundingClientRect().bottom > 0;
+
+      if (scrolledToEnd && lastVisible) {
+        setActiveId(last.id);
+        return;
+      }
+
+      let current = items[0].id;
+      for (const item of items) {
+        if (item.el.getBoundingClientRect().top <= TOP_OFFSET) current = item.id;
+      }
+      setActiveId(current);
+    }
+
+    computeActive();
+    window.addEventListener("scroll", computeActive, { passive: true });
+    window.addEventListener("hashchange", computeActive);
+    window.addEventListener("resize", computeActive);
+    return () => {
+      window.removeEventListener("scroll", computeActive);
+      window.removeEventListener("hashchange", computeActive);
+      window.removeEventListener("resize", computeActive);
+    };
   }, [headings]);
 
   if (headings.length === 0) return null;
@@ -38,6 +62,7 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
             <a
               className={`depth-${heading.depth}${activeId === heading.id ? " active" : ""}`}
               href={`#${heading.id}`}
+              onClick={() => setActiveId(heading.id)}
             >
               {heading.text}
             </a>
