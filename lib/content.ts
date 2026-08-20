@@ -29,9 +29,11 @@ export type NoteMeta = {
 
 export type CourseMeta = {
   year: string;
+  folder: string;
   code: string;
   title: string;
   notes: NoteMeta[];
+  comingSoon: boolean;
 };
 
 export type YearMeta = {
@@ -67,6 +69,12 @@ function parseNoteLinks(markdown: string): NoteMeta[] {
   return notes;
 }
 
+function mergeNotes(listed: NoteMeta[], onDisk: NoteMeta[]): NoteMeta[] {
+  const seen = new Set(listed.map((note) => note.slug.toLowerCase()));
+  const extras = onDisk.filter((note) => !seen.has(note.slug.toLowerCase()));
+  return [...listed, ...extras];
+}
+
 function notesFromFolder(courseDir: string): NoteMeta[] {
   return readdirSync(courseDir)
     .filter((name) => name.endsWith(".md") && name.toLowerCase() !== "readme.md")
@@ -84,20 +92,27 @@ export function getYears(): YearMeta[] {
     const courses: CourseMeta[] = [];
 
     for (const entry of readdirSync(yearDir).sort()) {
-      if (SKIP.has(entry) || entry.startsWith(".")) continue;
+      if (SKIP.has(entry) || entry.startsWith(".") || entry === "assets") continue;
       const courseDir = join(yearDir, entry);
       if (!statSync(courseDir).isDirectory()) continue;
-      const readmePath = join(courseDir, "README.md");
-      if (!existsSync(readmePath)) continue;
+      if (!/^\d+$/.test(entry)) continue;
 
-      const readme = readFileSync(readmePath, "utf8");
-      const { code, title } = parseCourseTitle(readme, entry);
-      const notes = parseNoteLinks(readme);
+      const readmePath = join(courseDir, "README.md");
+      const readme = existsSync(readmePath) ? readFileSync(readmePath, "utf8") : "";
+      const { code, title } = readme
+        ? parseCourseTitle(readme, entry)
+        : { code: entry, title: "Coming Soon" };
+      const listed = readme ? parseNoteLinks(readme) : [];
+      const onDisk = notesFromFolder(courseDir);
+      const notes = mergeNotes(listed, onDisk);
+
       courses.push({
         year: slug,
+        folder: entry,
         code,
-        title,
-        notes: notes.length > 0 ? notes : notesFromFolder(courseDir),
+        title: notes.length === 0 && !readme ? "Coming Soon" : title,
+        notes,
+        comingSoon: notes.length === 0,
       });
     }
 
@@ -116,7 +131,9 @@ export function getYear(slug: string): YearMeta | undefined {
 
 export function getCourse(yearSlug: string, courseCode: string): CourseMeta | undefined {
   const year = getYear(yearSlug);
-  return year?.courses.find((course) => course.code === courseCode);
+  return year?.courses.find(
+    (course) => course.code === courseCode || course.folder === courseCode,
+  );
 }
 
 export function getNoteFile(
@@ -132,14 +149,14 @@ export function getNoteFile(
   );
   if (!meta) return undefined;
 
-  const filePath = join(ROOT, yearSlug, courseCode, meta.fileName);
+  const filePath = join(ROOT, yearSlug, course.folder, meta.fileName);
   if (!existsSync(filePath)) return undefined;
 
   return {
     meta,
     course,
     markdown: readFileSync(filePath, "utf8"),
-    relDir: `/${yearSlug}/${courseCode}`,
+    relDir: `/${yearSlug}/${course.folder}`,
   };
 }
 

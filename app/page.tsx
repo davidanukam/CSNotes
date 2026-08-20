@@ -23,10 +23,12 @@ export default function HomePage() {
             ) : (
               <ol className="item-list">
                 {year.courses.map((course) => (
-                  <li key={course.code}>
-                    <a href={hrefFor(year.slug, course.code)}>
-                      {course.code} - {course.title}
-                    </a>
+                  <li key={course.folder}>
+                <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
+                  {course.comingSoon
+                    ? `${course.code} - Coming Soon`
+                    : `${course.code} - ${course.title}`}
+                </a>
                   </li>
                 ))}
               </ol>

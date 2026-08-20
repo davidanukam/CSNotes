@@ -13,9 +13,9 @@ export function generateStaticParams(): Params[] {
   for (const year of getYears()) {
     params.push({ slug: [year.slug] });
     for (const course of year.courses) {
-      params.push({ slug: [year.slug, course.code] });
+      params.push({ slug: [year.slug, course.folder] });
       for (const note of course.notes) {
-        params.push({ slug: [year.slug, course.code, note.slug] });
+        params.push({ slug: [year.slug, course.folder, note.slug] });
       }
     }
   }
@@ -67,9 +67,11 @@ function YearPage({ yearSlug }: { yearSlug: string }) {
         ) : (
           <ol className="item-list">
             {year.courses.map((course) => (
-              <li key={course.code}>
-                <a href={hrefFor(year.slug, course.code)}>
-                  {course.code} - {course.title}
+              <li key={course.folder}>
+                <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
+                  {course.comingSoon
+                    ? `${course.code} — Coming Soon`
+                    : `${course.code} - ${course.title}`}
                 </a>
               </li>
             ))}
@@ -90,15 +92,19 @@ function CoursePage({ yearSlug, courseCode }: { yearSlug: string; courseCode: st
       <main className="shell">
         <div className="page-heading">
           <span className="code">{course.code}</span>
-          <h1>{course.title}</h1>
+          <h1>{course.comingSoon ? "Coming Soon" : course.title}</h1>
         </div>
-        <ol className="item-list">
-          {course.notes.map((note) => (
-            <li key={note.slug}>
-              <a href={hrefFor(yearSlug, courseCode, note.slug)}>{note.title}</a>
-            </li>
-          ))}
-        </ol>
+        {course.comingSoon ? (
+          <p className="muted">Notes for this course have not been added yet.</p>
+        ) : (
+          <ol className="item-list">
+            {course.notes.map((note) => (
+              <li key={note.slug}>
+                <a href={hrefFor(yearSlug, course.folder, note.slug)}>{note.title}</a>
+              </li>
+            ))}
+          </ol>
+        )}
       </main>
     </>
   );
@@ -121,7 +127,7 @@ function NotePage({
 
   return (
     <>
-      <TopBar backHref={hrefFor(yearSlug, courseCode)} markdown={note.markdown} />
+      <TopBar backHref={hrefFor(yearSlug, note.course.folder)} markdown={note.markdown} />
       <main className="note-layout">
         <article>
           <div className="toc-mobile">

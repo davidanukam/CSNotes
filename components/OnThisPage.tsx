@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import type { Heading } from "@/lib/content";
 
 export function OnThisPage({ headings }: { headings: Heading[] }) {
-  const [activeId, setActiveId] = useState(headings[0]?.id ?? "");
+  const [activeId, setActiveId] = useState("");
 
   useEffect(() => {
     if (headings.length === 0) return;
