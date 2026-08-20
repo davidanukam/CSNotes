@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+public/Year1
+public/Year2
+public/Year3
+public/Year4

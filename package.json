@@ -1,0 +1,29 @@
+{
+  "name": "csnotes",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/copy-assets.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/copy-assets.mjs",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "github-slugger": "^2.0.0",
+    "katex": "^0.16.22",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
