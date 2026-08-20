@@ -1,0 +1,37 @@
+name: Formatting or improvement
+description: Fix Markdown rendering, rename images, or improve structure without changing the meaning of the notes.
+title: "[Improve] "
+labels: ["improvement"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of change
+      options:
+        - Markdown / GitHub rendering
+        - Rename image files
+        - Folder or README structure
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: files
+    attributes:
+      label: Affected files or folders
+      placeholder: Year2/2212/Software Testing.md
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current problem
+      description: What does not render, what is inconsistently named, or what is hard to navigate?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed change
+      description: What should change, and why?
+    validations:
+      required: true

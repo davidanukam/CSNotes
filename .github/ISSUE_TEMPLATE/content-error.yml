@@ -1,0 +1,50 @@
+name: Content error
+description: Report a typo, wrong formula, outdated info, or other mistake in the notes.
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep these notes accurate. Fill this in so maintainers can find and fix the issue quickly.
+  - type: dropdown
+    id: year
+    attributes:
+      label: Year
+      options:
+        - Year 1
+        - Year 2
+        - Year 3
+        - Year 4
+        - Not sure / repo-wide
+    validations:
+      required: true
+  - type: input
+    id: course
+    attributes:
+      label: Course code
+      description: For example, 2212 or 2214.
+      placeholder: "2214"
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File
+      description: Path to the note, relative to the repo root.
+      placeholder: Year2/2214/Number Theory.md
+    validations:
+      required: true
+  - type: textarea
+    id: whats-wrong
+    attributes:
+      label: What's wrong?
+      description: Quote the incorrect part if you can, and explain the issue.
+      placeholder: The formula for ... currently says ..., but it should be ...
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix (optional)
+      description: The corrected wording, formula, or explanation if you have one.

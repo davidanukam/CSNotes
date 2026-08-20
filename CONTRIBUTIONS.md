@@ -149,6 +149,8 @@ CSNotes/
 
 ## Submitting Your Contribution
 
+GitHub will pre-fill an issue or pull request form from the templates in `.github/`. Use those instead of a blank issue/PR when you can.
+
 When opening a pull request, please include a brief description of:
 
 - **What** you changed

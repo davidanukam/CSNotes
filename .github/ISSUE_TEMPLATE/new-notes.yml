@@ -1,0 +1,43 @@
+name: New notes
+description: Propose adding notes for a course or topic that is not covered yet.
+title: "[Notes] "
+labels: ["new-notes"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New notes are welcome. Please write them in Markdown and follow the folder layout in [CONTRIBUTIONS.md](https://github.com/davidanukam/CSNotes/blob/main/CONTRIBUTIONS.md).
+  - type: dropdown
+    id: year
+    attributes:
+      label: Year
+      options:
+        - Year 1
+        - Year 2
+        - Year 3
+        - Year 4
+    validations:
+      required: true
+  - type: input
+    id: course
+    attributes:
+      label: Course code and name
+      placeholder: "2210 — Data Structures and Algorithms"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Do you already have notes to contribute?
+      options:
+        - Yes, I can open a pull request
+        - Not yet — I am requesting this course be added
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Topics you would cover, format (Markdown), and whether images are included.
+    validations:
+      required: true

@@ -19,3 +19,8 @@ Coming Soon
 ## Contributing
 Want to help improve these notes?
 Check out the [Contribution Guide](CONTRIBUTIONS.md) to get started!
+
+---
+
+## License
+These notes are licensed under [CC BY-SA 4.0](LICENSE). You may share and adapt them with attribution, as long as you distribute your adaptations under the same license.

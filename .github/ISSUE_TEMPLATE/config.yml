@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution Guide
+    url: https://github.com/davidanukam/CSNotes/blob/main/CONTRIBUTIONS.md
+    about: Read this before opening an issue or pull request.
