@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import type { Heading } from "@/lib/content";
 
 const TOP_OFFSET = 96;
@@ -51,6 +51,22 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
     };
   }, [headings]);
 
+  function handleClick(event: MouseEvent<HTMLAnchorElement>, id: string) {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    event.preventDefault();
+    const hash = `#${id}`;
+    if (window.location.hash !== hash) {
+      history.pushState(null, "", hash);
+    }
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   if (headings.length === 0) return null;
 
   return (
@@ -62,7 +78,7 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
             <a
               className={`depth-${heading.depth}${activeId === heading.id ? " active" : ""}`}
               href={`#${heading.id}`}
-              onClick={() => setActiveId(heading.id)}
+              onClick={(event) => handleClick(event, heading.id)}
             >
               {heading.text}
             </a>
