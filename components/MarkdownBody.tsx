@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Components } from "react-markdown";
+import type { Components, Options } from "react-markdown";
 import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import rehypeKatex from "rehype-katex";
@@ -10,8 +10,8 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import "highlight.js/styles/github-dark.css";
 
-const remarkPlugins = [remarkGfm, remarkMath];
-const rehypePlugins = [
+const remarkPlugins: Options["remarkPlugins"] = [remarkGfm, remarkMath];
+const rehypePlugins: Options["rehypePlugins"] = [
   rehypeSlug,
   rehypeKatex,
   [rehypeHighlight, { ignoreMissing: true }],
