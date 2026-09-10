@@ -371,12 +371,22 @@ a:hover {
   border-left: 2px solid var(--line);
 }
 
-.toc a:hover {
-  color: var(--text);
+.toc a:hover,
+.toc a:focus,
+.toc a:active,
+.toc a:visited {
+  color: var(--muted);
   text-decoration: none;
 }
 
-.toc a.active {
+.toc a:hover {
+  color: var(--text);
+}
+
+.toc a.active,
+.toc a.active:visited,
+.toc a.active:focus,
+.toc a.active:active {
   color: var(--accent);
   border-left-color: var(--accent);
 }
