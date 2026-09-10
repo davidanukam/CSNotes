@@ -62,7 +62,6 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
             <a
               className={`depth-${heading.depth}${activeId === heading.id ? " active" : ""}`}
               href={`#${heading.id}`}
-              onClick={() => setActiveId(heading.id)}
             >
               {heading.text}
             </a>
