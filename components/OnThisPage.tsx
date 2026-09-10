@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import type { Heading } from "@/lib/content";
 
 const TOP_OFFSET = 96;
@@ -53,6 +53,14 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
 
   if (headings.length === 0) return null;
 
+  function onHeadingClick(event: MouseEvent<HTMLAnchorElement>, id: string) {
+    event.preventDefault();
+    const el = document.getElementById(id);
+    if (!el) return;
+    window.history.replaceState(null, "", `#${id}`);
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   return (
     <nav className="toc" aria-label="On this page">
       <h2>On this page</h2>
@@ -62,6 +70,7 @@ export function OnThisPage({ headings }: { headings: Heading[] }) {
             <a
               className={`depth-${heading.depth}${activeId === heading.id ? " active" : ""}`}
               href={`#${heading.id}`}
+              onClick={(event) => onHeadingClick(event, heading.id)}
             >
               {heading.text}
             </a>
