@@ -3,12 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: process.cwd(),
-  webpack: (config, { dev }) => {
-    if (dev) {
-      config.cache = { type: "memory" };
-    }
-    return config;
-  },
+  agentRules: false,
 };
 
 export default nextConfig;
