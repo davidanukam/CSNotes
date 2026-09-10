@@ -9,7 +9,8 @@ Coming Soon
 - [2214 - Discrete Structures for Computing](Year2/2214)
 
 ## Year 3
-Coming Soon
+- [3307 - Object Oriented Design and Analysis](Year3/3307)
+- [](Year3/3350)
 
 ## Year 4
 Coming Soon
