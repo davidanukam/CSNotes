@@ -3,6 +3,7 @@ All Notes to help you ACE Computer Science at Western University
 
 ## Year 1
 I will add this during my free time :)
+
 ...or someone could always help me out!
 
 ## Year 2
