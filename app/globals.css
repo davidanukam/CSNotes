@@ -287,12 +287,23 @@ a:hover {
   overflow-x: auto;
   padding: 1rem 1.1rem;
   border-radius: 10px;
-  background: #171a24;
+  background: #0d1117;
   border: 1px solid var(--line);
 }
 
+.markdown pre code {
+  color: #c9d1d9;
+}
+
+.markdown pre code.hljs {
+  display: block;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+}
+
 .markdown code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   font-size: 0.9em;
 }
 

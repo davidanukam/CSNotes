@@ -3,10 +3,19 @@
 import { useEffect, useState } from "react";
 import type { Components } from "react-markdown";
 import ReactMarkdown from "react-markdown";
+import rehypeHighlight from "rehype-highlight";
 import rehypeKatex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
+import "highlight.js/styles/github-dark.css";
+
+const remarkPlugins = [remarkGfm, remarkMath];
+const rehypePlugins = [
+  rehypeSlug,
+  rehypeKatex,
+  [rehypeHighlight, { ignoreMissing: true }],
+];
 
 function parseObsidianAlt(alt?: string): { alt: string; width?: number } {
   if (!alt) return { alt: "" };
@@ -57,8 +66,8 @@ export function MarkdownBody({ markdown }: { markdown: string }) {
   return (
     <div className="markdown">
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[rehypeSlug, rehypeKatex]}
+        remarkPlugins={remarkPlugins}
+        rehypePlugins={rehypePlugins}
         components={components}
       >
         {markdown}
