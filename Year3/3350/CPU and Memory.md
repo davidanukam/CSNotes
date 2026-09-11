@@ -174,7 +174,7 @@ CPI is influenced by the hardware you are executing on and the actual program yo
 Let us consider an example of computing CPI for a program:
 
 $$  
-\text{Overall\ effective}\ CPI=\sum_{i=1}^n(CPI_i\times IC_i)/IC  
+\text{Overall\ effective}\ CPI=\sum_{i=1}^n(CPI_i\times IC_i) \ / \ IC  
 $$
 
 (ic just means instruction count btw)
