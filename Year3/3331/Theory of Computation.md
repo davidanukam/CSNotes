@@ -376,6 +376,8 @@ We also have special language operations:
 
 ### **CONCATENATION:**
 
+> Concatenation is NOT communitive (a cat b != b cat a all the time)
+
 If $L_1$ and $L_2$ are languages over $\sum$, then:
 
 $$  
