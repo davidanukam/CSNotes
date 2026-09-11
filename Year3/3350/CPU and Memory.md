@@ -1,6 +1,6 @@
 ## **CPU:**
 
-![[Pasted image 20260911014955.png]]
+![3 Parts Of A Computer](assets/3PartsOfAComputer.png)
 
 Quick review:
 
