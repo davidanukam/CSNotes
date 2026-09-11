@@ -194,7 +194,7 @@ The language $\sum^*$ contains an infinite number of string, including: $\epsilo
 
 It is important to know that $\emptyset\neq\epsilon$, $\epsilon$ HAS 1 string, but it just happens to have no letters, its just empty
 
-$L\sube\sum^*$
+$L\subseteq\sum^*$
 
 If we say that $a\in\sum$, this would mean the contents of $\sum$ would be letters or symbols
 
