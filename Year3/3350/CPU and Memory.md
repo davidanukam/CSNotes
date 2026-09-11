@@ -153,13 +153,14 @@ How do we reduce the number of clock cycles required for a program? Well, first 
 - different instructions may take different amounts of time depending on what they do
 - two different hardware's could execute the same instruction in different numbers of clock cycles. a good way to compare two different implementations of the same ISA
 
-![]()
+![ClockCycleCalculation](assets/ClockCycleCalculation.png)
 
 If we want to talk about the number of cycles for a specific instruction type, this is usually denoted by $CPI_i$
 
 So, modifying our first equation
 
-![image.png](attachment:ef47ee80-bc04-4a5b-b344-7a06925c8bb6:image.png)
+![]()
+
 
 CPI is influenced by the hardware you are executing on and the actual program you are executing
 
