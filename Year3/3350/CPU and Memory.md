@@ -175,7 +175,7 @@ So how the hell did we get this averaging?
 
 - its the number of cycles needed to execute a particular type of instruction, then you multiply it by the NUMBER of instructions of that specific type, divide that by the total number of instructions in your entire program
 
-![image.png](attachment:4ceed649-4630-449e-8bf5-b998086ecdfb:image.png)
+![CPICalculationTableExample](assets/CPICalculationTableExample.png)
 
 Inst. Freq basically is just what proportion of instructions in the program are of a particular type
 
