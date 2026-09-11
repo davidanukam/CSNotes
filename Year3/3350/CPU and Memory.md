@@ -138,7 +138,7 @@ It is important to distinguish _elapsed time_ and the _time spent on your task_
 
 clockcycle → the length of time for every single clock tick/clock cycle
 
-![image.png](attachment:1bcb9624-9ac6-44cd-97cd-5231817b4843:image.png)
+![CPUTimeExample](assets/CPUTimeExample.png)
 
 CPU execution time only measures the amount of time that that particular program spent actively being executed by the CPU, it does NOT take into consideration that you may have 30 other things open in the background. That execution time is not necessarily the amount of time in real life that actually elapsed for you waiting for that program to finish. That real life time is called **wall time**
 
