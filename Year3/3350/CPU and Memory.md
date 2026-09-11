@@ -1,6 +1,6 @@
 ## **CPU:**
 
-![image.png](attachment:9a3647d0-3c78-4f8f-b3ea-1c2fde2db239:image.png)
+![[Pasted image 20260911014955.png]]
 
 Quick review:
 
