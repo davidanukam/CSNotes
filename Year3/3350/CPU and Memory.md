@@ -44,7 +44,7 @@ On 6th-gen Intel CPUs:
 
 - 32 bit division takes around 26 clock cycles which is a LOT. But, if you know stuff about bit shifting and 2’s complement and the sort, you’ll know that if you shift an integer to the right by one, then that is the same as diving by two. And you know how many clock cycles a bit shift takes? around 1 clock cycle. That is much better to do!
 - Floating point division takes around 14 clock cycles. Let us say you want to divide your number by 2, that would be the same as multiplying by 0.5, and multiplication only takes around 5 clock cycles, so multiplying would be more efficient!
-- Can reduce 1 
+- For example, you can reduce 1 division operations to 3 multiplication operations to improve performance
 
 ### UNDERSTANDING AND ANALYZING PERFORMANCE:
 
