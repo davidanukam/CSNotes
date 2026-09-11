@@ -93,7 +93,9 @@ $$
 
 - typically, the faster a CPUs clock, the higher its performance
 
-But, the micro-architecture and the instruction set architecture (ISA) play a large role, they influence how much work the CPU does per cycle .
+But, the micro-architecture and the instruction set architecture (ISA) play a large role, they influence how much work the CPU does per cycle (i.e. efficiency).
+
+- there is a tradeoff being speed and the complexity of the tasks we want to complete
 
 Example:
 
