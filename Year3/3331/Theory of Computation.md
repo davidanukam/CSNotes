@@ -359,7 +359,7 @@ Proof:
 
 Let me give a more solid example w numbers so it makes sense:
 
-![IMG_2704.jpeg](attachment:7760e442-9153-4095-bfe2-ca99ab5ffeda:IMG_2704.jpeg)
+![](DiagonalizationExample.png)
 
 ## FUNCTIONS ON LANGUAGES:
 
