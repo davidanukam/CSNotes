@@ -555,9 +555,9 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 - **SD:** Semi-Decidable (Countable infinite)
 - **D:** Decidable Languages (Countable infinite)
 - **Context-Free Languages:**
-	- **FSMs:** Finite State Machines ()
+	- **FSMs:** Finite State Machines (Finite Automata)
 	- **All Compilers are here**
-	- ![](FiniteStateMachineExample)
+	- ![FiniteStateMachineExample](assets/FiniteStateMachineExample.png)
 - **Regular Languages:**
 	- **PDAs:** Pushdown Automates
 
