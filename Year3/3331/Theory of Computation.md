@@ -556,10 +556,12 @@ Semi-Decidable (Countable infinite)
 Decidable Languages (Countable infinite)
 Everything outside SD is immposible to say anything about it (Will be proved later)
 
+![](DiagramOfLanguagesAndMac)
+
 Turing machine
 - We have a tape that we can read and write stuff on by moving the head (the arrow in this picture)
 
 Compilers are in the Context-Free languages circle
 
-Grammer: Gernate any possible code in C++
-Compie: Gets a code and tells you if it is syntacically correct.
+Grammar: Generate any possible code in C++
+Compiler: Gets a code and tells you if it is syntactically correct.
