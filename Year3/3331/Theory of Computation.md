@@ -357,7 +357,7 @@ Proof:
 5. Therefore, irrationals cannot be listed (they are uncountable)
     
 
-Let me give a more solid example w numbers so it makes sense:
+Let me give a more solid example with numbers so it makes sense:
 
 ![DiagonalizationExample](assets/DiagonalizationExample.png)
 
