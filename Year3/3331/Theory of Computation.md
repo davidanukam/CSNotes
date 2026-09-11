@@ -28,7 +28,7 @@ beta = (2 + 5) / 10;
 
 can be broken down into this tree:
 
-![image.png](attachment:c04e91de-d3a5-43b3-ae88-b4d1195aba43:image.png)
+![](assets/ParseTreeExample.png)
 
 In order to study all these different problems, we need one common way to talk about them. That framework is called **Language Recognition**
 
