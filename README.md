@@ -12,6 +12,7 @@ I will add this during my free time :)
 
 ## Year 3
 - [3307 - Object Oriented Design and Analysis](Year3/3307)
+- [3331 - Theory of Computing](Year3/3331)
 - [3350 - Computer Organization](Year3/3350)
 
 ## Year 4
