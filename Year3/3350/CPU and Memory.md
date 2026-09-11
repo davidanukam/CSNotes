@@ -159,8 +159,7 @@ If we want to talk about the number of cycles for a specific instruction type, t
 
 So, modifying our first equation
 
-![]()
-
+![CPUTimeCalculations](assets/CPUTimeCalculations.png)
 
 CPI is influenced by the hardware you are executing on and the actual program you are executing
 
