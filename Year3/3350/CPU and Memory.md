@@ -86,6 +86,9 @@ $$
 
 **THROUGHPUT:** The total amount of work done in a given unit of time. Crucial for data centers and servers. This isn’t really concerned with how fast your program is, it is more focused on how much data can we put through the processor at a given time.
 
+- We can the increase throughput
+- Dependent on the code being executed as different instructions result in different throughput measures.
+
 **CLOCK FREQUENCY:** A static metric of saying how quickly does my CPU execute
 
 - typically, the faster a CPUs clock, the higher its performance
