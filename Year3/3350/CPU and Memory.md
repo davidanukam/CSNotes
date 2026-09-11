@@ -1,6 +1,6 @@
 ## **CPU:**
 
-![3 Parts Of A Computer](assets/3PartsOfAComputer.png)
+![3PartsOfAComputer](assets/3PartsOfAComputer.png)
 
 Quick review:
 
