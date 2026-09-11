@@ -82,7 +82,7 @@ If we have two programs $X \ \text{and} \ Y$, and we say that $X$ is $n$ times f
 $$  
 \frac{performance_X}{performance_Y}=\frac{execution\_time_X}{execution\_time_Y}=n  
 $$
-- so, if program x executes in 10 seconds, and program t exe
+- so, if program x executes in 10 seconds, and program t executes in 30 seconds, then we can say that program x is 0.33 times faster than program y.
 
 **THROUGHPUT:** The total amount of work done in a given unit of time. Crucial for data centers and servers. This isn’t really concerned with how fast your program is, it is more focused on how much data can we put through the processor at a given time.
 
