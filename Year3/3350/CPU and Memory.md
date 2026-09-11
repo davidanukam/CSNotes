@@ -187,7 +187,7 @@ Consider the following questions:
 
 (3) What if two ALU instructions could be executed at once
 
-![IMG_2706.jpeg](attachment:b2bd4297-9112-431c-982d-456838f5a55c:IMG_2706.jpeg)
+![3CPIAnswers](assets/3CPIAnswers.png)
 
 ### UNDERSTANDING PROGRAM PERFORMANCE:
 
