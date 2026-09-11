@@ -567,6 +567,8 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 Turing machines
 - We have a tape that we can read and write stuff on by moving the head (the arrow in this picture)
 
+![TuringMachineTapeExample](assets/TuringMachineTapeExample.png)
+
 Compilers are in the Context-Free languages circle
 
 Grammar: Generate any possible code in C++
