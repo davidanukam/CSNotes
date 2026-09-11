@@ -579,6 +579,7 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 ![GrammerLanguageAndMachineGraphExample](assets/GrammerLanguageAndMachineGraphExample.png)
 
 Examples of each
-**Grammar:** Generate any possible code in C++
-- **Compiler:** Gets a code and tells you if it is syntactically correct.
-**Machine:** ()
+
+- **Grammar:** Generate any possible code in C++
+	- **Compiler:** 
+- **Machine (Compiler):** Get that code and tell you if it is syntactically correct.
