@@ -555,8 +555,11 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 - Everything outside SD is impossible to say anything about it (Will be proved later)
 - SD: Semi-Decidable (Countable infinite)
 - D: Decidable Languages (Countable infinite)
-- Context-Free Languages: All Compilers are here
-- Regular Languages: 
+- Context-Free Languages
+	- FSMs: Finite State Machines
+	- **All Compilers are here**
+- Regular Languages
+	- PDAs
 
 ![DiagramOfLanguagesAndMachines](assets/DiagramOfLanguagesAndMachines.png)
 
