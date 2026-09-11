@@ -546,7 +546,7 @@ You can transform a function computation problem into a verification problem
 **Language to be decided:** $L=\{w\text{ of the form: }x\times y = z|z \text{ is any well formed integer, and }z =x \times y\}$
 
 so it would basically be:  
-L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is not int 3, then it isnt in the language
+L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is not int 3, then it isn't in the language
 
 - so $12\times 9=108\in L$, but $12\times 8=108\not\in L$
 
@@ -554,9 +554,12 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 
 Semi-Decidable (Countable infinite)
 Decidable Languages (Countable infinite)
-Everything outside SD is impposible to say anything about it (Will be proved later)
+Everything outside SD is immposible to say anything about it (Will be proved later)
 
 Turing machine
 - We have a tape that we can read and write stuff on by moving the head (the arrow in this picture)
 
-COmpiers are in the Context-Free languages c
+Compilers are in the Context-Free languages circle
+
+Grammer: Gernate any possible code in C++
+Compie: Gets a code and tells you if it is syntacically correct.
