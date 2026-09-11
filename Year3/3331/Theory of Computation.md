@@ -59,7 +59,7 @@ we denote $\sum^*$ as the set of ALL possible strings over an alphabet $\sum$
 
 - for example, $|\epsilon|=0$ or $|1001101|=7$, $|\text{hello}|=5$
 
-**$\mathbin{\#}_c(s)$** is the number of times that $c$ occurs in $s$
+$\mathbin{\#}_c(s)$ is the number of times that $c$ occurs in $s$
 
 - for example, $\mathbin{\#}_a(abbaaa)$ is basically saying how many $a$’s are there in the sequence $abbaaa$? $\mathbin{\#}_a(abbaaa)=4$
 
