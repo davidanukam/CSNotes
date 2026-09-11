@@ -95,7 +95,7 @@ $$
 
 But, the micro-architecture and the instruction set architecture (ISA) play a large role, they influence how much work the CPU does per cycle (i.e. efficiency).
 
-- there is a tradeoff being speed and the complexity of the tasks we want to complete
+- there is a tradeoff between speed and the complexity of the tasks we want to complete (duh)
 
 Example:
 
