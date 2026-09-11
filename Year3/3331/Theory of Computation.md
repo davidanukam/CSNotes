@@ -564,7 +564,7 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 
 ![DiagramOfLanguagesAndMachines](assets/DiagramOfLanguagesAndMachines.png)
 
-Rule of Least Power:
+**Rule of Least Power:**
 
 ![RuleOfLeastPower](assets/RuleOfLeastPower.png)
 
