@@ -127,7 +127,7 @@ Every time a clock goes from 0 to 1 → uptick
     - **data transfer and computation:** when the clock is high (or low), values are moved around (data transfer) and operations like add are performed
     - **update status:** at the end of the cycle, the results of the computation are saved into registers
 
-**Clock frequency or rate (CR):**How many cycles happen in one second
+**Clock frequency or rate (CR): How many cycles happen in one second
 
 - the inverse of the clock period
 
