@@ -581,5 +581,5 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 Examples of each
 
 - **Grammar:** Generate any possible code in C++
-	- **Compiler:** 
 - **Machine (Compiler):** Get that code and tell you if it is syntactically correct.
+- **Language:** Creates the strings used throughout the program (fact check cause idk)
