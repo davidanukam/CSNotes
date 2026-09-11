@@ -550,5 +550,7 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 
 - so $12\times 9=108\in L$, but $12\times 8=108\not\in L$
 
-Lanuages and machine
-Dicidable
+Languages and machine
+Decidable Languages
+Semi-Decidable (Countable infinite)
+Everything outside SD is immposibble to say anything about it (Will be proved later)
