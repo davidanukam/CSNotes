@@ -559,7 +559,8 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 	- **All Compilers are here**
 	- ![FiniteStateMachineExample](assets/FiniteStateMachineExample.png)
 - **Regular Languages:**
-	- **PDAs:** Pushdown Automates
+	- **PDAs:** Pushdown Automata(s)
+	- ![PushdownAutomataExample](assets/PushdownAutomataExample.png)
 
 **Claim: Everything outside SD is impossible to say anything about it (Will be proved later)**
 
