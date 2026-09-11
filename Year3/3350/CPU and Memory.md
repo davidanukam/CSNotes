@@ -77,11 +77,12 @@ the faster something is (your execution time) if you get the reciprocal of that,
 
 - so, if your execution time is 10 seconds, then your performance is $1/10=0.1$
 
-If we have two programs $X\text{and }Y$, and we say that $X$ is $n$ times faster than $Y$, then:
+If we have two programs $X \ \text{and} \ Y$, and we say that $X$ is $n$ times faster than $Y$, then:
 
 $$  
 \frac{performance_X}{performance_Y}=\frac{execution\_time_X}{execution\_time_Y}=n  
 $$
+- so, if program x executes in 10 seconds, and program t exe
 
 **THROUGHPUT:** The total amount of work done in a given unit of time. Crucial for data centers and servers. This isn’t really concerned with how fast your program is, it is more focused on how much data can we put through the processor at a given time.
 
