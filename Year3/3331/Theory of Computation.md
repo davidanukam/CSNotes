@@ -565,11 +565,12 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 ![DiagramOfLanguagesAndMachines](assets/DiagramOfLanguagesAndMachines.png)
 
 **Rule of Least Power:**
-- This is the 
+- This is the way to tackle each problem in the course? (I guess)
+
 ![RuleOfLeastPower](assets/RuleOfLeastPower.png)
 
 **Turing machines**
-- We have a tape that we can read and write stuff on by moving the head (the arrow in this picture)
+- Turing machines have a tape that they can read and write stuff on by moving the head pointer (the arrow in this picture)
 
 ![TuringMachineTapeExample](assets/TuringMachineTapeExample.png)
 
@@ -577,6 +578,7 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 
 ![GrammerLanguageAndMachineGraphExample](assets/GrammerLanguageAndMachineGraphExample.png)
 
+Examples of each
 **Grammar:** Generate any possible code in C++
 - **Compiler:** Gets a code and tells you if it is syntactically correct.
 **Machine:** ()
