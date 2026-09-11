@@ -188,11 +188,11 @@ Examples: Let $\sum=\{a,b\}$
 
 Some languages over $\sum$ include:
 
-- $\empty, \{\epsilon\}, \{a,b\}, \{\epsilon, a, aa, aaa, aaaaaa\}$, and many more!
+- $\emptyset, \{\epsilon\}, \{a,b\}, \{\epsilon, a, aa, aaa, aaaaaa\}$, and many more!
 
 The language $\sum^*$ contains an infinite number of string, including: $\epsilon, a, b, ab, ababaa,...$
 
-It is important to know that $\empty\neq\epsilon$, $\epsilon$ HAS 1 string, but it just happens to have no letters, its just empty
+It is important to know that $\emptyset\neq\epsilon$, $\epsilon$ HAS 1 string, but it just happens to have no letters, its just empty
 
 $L\sube\sum^*$
 
@@ -233,7 +233,7 @@ $L=\{w\in\{a,b\}^*|\text{ ny prefix of w starts with an }a\}$
 
 $L=\{w\in \{a,b\}^*|\text{ every prefix of w starts with }a\}$
 
-- this one is a bit tricky. $\epsilon$ is a prefix of every string, and $\epsilon$ does NOT start with $a$. So, this means $L=\empty$
+- this one is a bit tricky. $\epsilon$ is a prefix of every string, and $\epsilon$ does NOT start with $a$. So, this means $L=\emptyset$
 
 You can use repetition in a language definition:
 
@@ -264,13 +264,13 @@ $\{w\in \{a,b\}^* |\ w\text{ is even}\}$ would be:
 
 ### **HOW LARGE IS A LANGUAGE:**
 
-We know that the **smallest** possible language is the empty set $\empty$, which has ZERO strings
+We know that the **smallest** possible language is the empty set $\emptyset$, which has ZERO strings
 
 We also know that the **largest** possible language is $\sum^*$, which contains every possivle string, which would make that language infinitely large
 
 There is a theory that states:
 
-**If $\sum\ne\empty$, then $\sum^*$ is countably infinite**
+**If $\sum\ne\emptyset$, then $\sum^*$ is countably infinite**
 
 Now, what the HELL does this mean?
 
@@ -304,7 +304,7 @@ countably infinite just means you can make an infinite list of something
 
 Another theorem states:
 
-**If $\sum\ne\empty$ then the set of languages over $\sum$ is uncountably infinite**
+**If $\sum\ne\emptyset$ then the set of languages over $\sum$ is uncountably infinite**
 
 **Uncountably infinite** means there are so many things that is impossible to make a list of all of them. Even an infinite list would miss something
 
@@ -396,10 +396,10 @@ $$
 L\{\epsilon\}=\{\epsilon\}L=L  
 $$
 
-The empty language $\empty$ is like the number 0 for multiplication. Concatenating anything with $\empty$ gives you $\empty$
+The empty language $\emptyset$ is like the number 0 for multiplication. Concatenating anything with $\emptyset$ gives you $\emptyset$
 
 $$  
-L\{\empty\}=\{\empty\}L=\empty  
+L\{\emptyset\}=\{\emptyset\}L=\emptyset  
 $$
 
 When defining languages with variables like $n$ and $m$ in $a^nb^m$, the variables are independent
