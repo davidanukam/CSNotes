@@ -549,3 +549,6 @@ so it would basically be:
 L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is not int 3, then it isnt in the language
 
 - so $12\times 9=108\in L$, but $12\times 8=108\not\in L$
+
+Lanuages and machine
+Dicidable
