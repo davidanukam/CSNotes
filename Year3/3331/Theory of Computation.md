@@ -61,7 +61,7 @@ we denote $\sum^*$ as the set of ALL possible strings over an alphabet $\sum$
 
 $\\\#_{c}(s)$ is the number of times that $c$ occurs in $s$
 
-- for example, $\mathbin{\#}_{a}(abbaaa)$ is basically saying how many $a$’s are there in the sequence $abbaaa$? $\mathbin{\#}_{a}(abbaaa)=4$
+- for example, $\\\#_{a}(abbaaa)$ is basically saying how many $a$’s are there in the sequence $abbaaa$? $\mathbin{\#}_{a}(abbaaa)=4$
 
 **Concatenation:** stick two strings together basically
 
