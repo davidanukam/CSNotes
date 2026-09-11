@@ -359,7 +359,7 @@ Proof:
 
 Let me give a more solid example w numbers so it makes sense:
 
-![](DiagonalizationExample.png)
+![DiagonalizationExample](assets/DiagonalizationExample.png)
 
 ## FUNCTIONS ON LANGUAGES:
 
