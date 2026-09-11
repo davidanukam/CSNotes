@@ -51,6 +51,7 @@ On 6th-gen Intel CPUs:
 Performance is influence by multiple layers:
 
 - **Algorithmic analysis:** The fundamental $O(n)$ complexity
+	- Remember
 - **Programming language, compiler, architecture:** Determines the number and type of machine instructions generated from the source code. So, what programming language is the program written in? Is it a compiled or interpreted language? Also the architecture, an Intel CPU from 10 years ago won’t perform as well compared to CPU’s nowadays
 - **Processor and Memory:** Determines how fast instructions are executed and how fast data moves to and from the processor
 - **I/O System (including OS):** Determines how fast I/O operations are executed
