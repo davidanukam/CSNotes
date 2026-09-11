@@ -107,7 +107,7 @@ So, the clock frequency itself is not enough to guarantee the performance, rathe
 
 The CPU is a synchronous digital system. This means all its internal components (like the control unit and the datapath) need to move and work together.
 
-![CPUClockingExample](CPUClockingExample.png)
+![CPUClockingExample](assets/CPUClockingExample.png)
 
 Every time a clock goes from 0 to 1 → uptick
 
