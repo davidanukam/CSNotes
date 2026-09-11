@@ -552,18 +552,19 @@ L = { x * y = z such that integer_3 = int_1 x int_2 }. if int 1 times int 2 is n
 
 ### Languages and machine
 
-- Everything outside SD is impossible to say anything about it (Will be proved later)
 - SD: Semi-Decidable (Countable infinite)
 - D: Decidable Languages (Countable infinite)
 - Context-Free Languages
 	- FSMs: Finite State Machines
 	- **All Compilers are here**
 - Regular Languages
-	- PDAs
+	- PDAs: Pushdown Automata
+
+**Claim: Everything outside SD is impossible to say anything about it (Will be proved later)**
 
 ![DiagramOfLanguagesAndMachines](assets/DiagramOfLanguagesAndMachines.png)
 
-Turing machine
+Turing machines
 - We have a tape that we can read and write stuff on by moving the head (the arrow in this picture)
 
 Compilers are in the Context-Free languages circle
