@@ -28,7 +28,7 @@ beta = (2 + 5) / 10;
 
 can be broken down into this tree:
 
-![](assets/ParseTreeExample.png)
+![ParseTreeExample](assets/ParseTreeExample.png)
 
 In order to study all these different problems, we need one common way to talk about them. That framework is called **Language Recognition**
 
@@ -44,7 +44,7 @@ An **alphabet** is a finite, non empty set of symbols. An alphabet is usually de
 
 - an example of alphabets can be a **binary alphabet**, which is just the set $\sum=\{0,1\}$
 
-![image.png](attachment:81f01f53-35e3-4011-88cb-2e0ecd6a2d5f:image.png)
+![AlphabetExampleChart](assets/AlphabetExampleChart.png)
 
 we denote $\sum^*$ as the set of ALL possible strings over an alphabet $\sum$
 
