@@ -20,3 +20,8 @@
 | seaborn      | Statistical plots, in one line each            | Exploratory analysis      |
 | PyTorch      | Networks you define and train yourself         | The deep learning weeks   |
 | TensorFlow   | The same job, a different ecosystem            | Named so you recognize it |
+> Anaconda installs the whole list in one step. Then make a virtual environment per project so one project's package versions cannot break another's.
+
+```bash
+conda create -n ds3000
+```
