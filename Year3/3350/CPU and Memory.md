@@ -1,4 +1,4 @@
-## **CPU:**
+## CPU:
 
 ![3PartsOfAComputer](assets/3PartsOfAComputer.png)
 
