@@ -164,13 +164,13 @@ Think of the question being: **"Predict something given this data"**
 
 We have **2 categories**:
 
-**Regression**
+#### **Regression**
 
 (See [Linear Regression Code Example](examples/LinearRegression/linear_regression.ipynb))
 
 ![RegressionExample](assets/RegressionExample.png)
 
-**Classification**
+#### **Classification**
 
 ![ClassificationExample](assets/ClassificationExample.png)
 
@@ -184,7 +184,7 @@ Think of the question being: **"What is already a part of this data"**
 
 We have **2 categories**:
 
-**Clustering**
+#### **Clustering**
 
 ![ClusteringExample](assets/ClusteringExample.png)
 
@@ -192,7 +192,7 @@ With no label columns (the expected outputs), how do we know that the model lear
 
 Well... we don't 😭 the algorithm returns 3 groups regardless and it takes a domain expert to judge them.
 
-**Dimensionality reduction**
+#### **Dimensionality reduction**
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
