@@ -36,4 +36,9 @@ conda create -n ds3000
 
 #### Big data, and where it actually came from
 
-Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and 
+Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and incorrect labels.
+
+For example:
+ - (Coffee example)
+
+#### Too much to read by ha
