@@ -8,7 +8,7 @@ export function YearCardGrid({ years }: { years: YearMeta[] }) {
         <li key={year.slug}>
           <a
             href={hrefFor(year.slug)}
-            className={`entry-card lecture-card${year.comingSoon ? " muted" : ""}`}
+            className={`entry-card year-card${year.comingSoon ? " muted" : ""}`}
           >
             <span className="entry-card-title">{year.label}</span>
           </a>

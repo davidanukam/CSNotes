@@ -180,6 +180,16 @@ a:hover {
   justify-content: center;
 }
 
+.entry-card.year-card {
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-card.year-card .entry-card-title {
+  justify-content: center;
+  text-align: center;
+}
+
 @media (max-width: 640px) {
   .entry-card {
     min-height: 6.5rem;
