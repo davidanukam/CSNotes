@@ -117,37 +117,7 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 
 ### Where this is already deployed
 
-Medical imaging
-- From: a scan
-- To: whether a radiologist should look at it first
-
-Credit decisions
-- From: an application
-- To: the chance that this loan is not repaid
-
-Driver assistance
-- From: camera and radar
-- To: where the lane and the car in front are
-
-Speech interfaces
-- From: a waveform
-- To: the words that were said
-
-Machine translation
-- From: a sentence
-- To: the same sentence in another language
-
-Industrial maintenance
-- From: vibration history
-- To: days until this bearing fails
-
-Network security
-- From: traffic between hosts
-- To: whether this connection is an intrusion
-
-Generated media
-- From: a text prompt
-- To: an image or video matching it
+![[Pasted image 20260914163458.png]]
 
 > Every one of these examples has the same **shape**.
 > Something measurable goes in, and one answer, that was learning from the examples, comes out.
