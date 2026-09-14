@@ -31,8 +31,10 @@ conda create -n ds3000
 
 ## The Landscape
 
-### Goal
+### Question
 
+
+### Goal
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
 ---
