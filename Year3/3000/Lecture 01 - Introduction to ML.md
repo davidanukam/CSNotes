@@ -95,3 +95,4 @@ For example:
 
 #### Learning is a search for better cooordinates
 
+- PCA
