@@ -205,13 +205,13 @@ We have **2 categories**:
 
 Clustering
 
-![ClusteringExample](ass)
+![ClusteringExample](assets/ClusteringExample.png)
 
 Dimensionality reduction
 
-()
+![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
-Reinforcement Learning
+### Reinforcement Learning
 
 > **There is no dataset at all**
 
