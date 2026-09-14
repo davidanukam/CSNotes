@@ -47,6 +47,9 @@ To process all of that data (the coffee data collected in the last example) it w
 
 So there are three solutions:
 - Look at less of it:
-	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all.)
+	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
 - Where the rules by hand:
 	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
+- Have a machine find the rules:
+	- Show the machine the answers you already know (the fraud and non-frauds)
+	- This course answers **How?**
