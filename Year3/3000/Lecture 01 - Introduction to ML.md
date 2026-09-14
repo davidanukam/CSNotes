@@ -112,3 +112,10 @@ This is the learned mapping ("Distance form the center" was chosen by a human wh
 
 Working out the mapping from the data is what the *learning* in **deep learning** refers to and why those models need far more data than anything here.
 
+### Where this is already deployed
+
+- Medical imaging
+- Credit decisions
+- Driver assistance
+- 
+
