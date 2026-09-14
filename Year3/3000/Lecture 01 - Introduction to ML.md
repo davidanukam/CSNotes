@@ -1,4 +1,5 @@
 ## The 5 parts
+
 1. [The Landscape](#The%20Landscape)
 2. The 3 Learning Paradigms
 3. From Data to a Result You Trust
@@ -21,10 +22,12 @@
 | PyTorch      | Networks you define and train yourself         | The deep learning weeks   |
 | TensorFlow   | The same job, a different ecosystem            | Named so you recognize it |
 > Anaconda installs the whole list in one step.
-> So make a virtual environment per project so one project's package versions cannot break another's.
+> So make a virtual environment for each project so that one project's package versions cannot break another's.
 
 ```bash
 conda create -n ds3000
 ```
 
 ## The Landscape
+
+**Goal:**
