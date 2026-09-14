@@ -75,6 +75,6 @@ Most of the mathematics behind machine learning was published before 1920 but th
 
 #### What every machine learning problem needs
 
-1. Input data
-2. Expected output
-3. A measure of wrong
+1. Input data (Something measurable about each case, in a form a program can read)
+2. Expected output (The right answer for each of those cases, from someone or something you trust)
+3. A measure of wrong (A number saying how far the answer is form that right answer)
