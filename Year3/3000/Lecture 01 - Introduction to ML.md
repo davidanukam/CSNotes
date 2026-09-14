@@ -158,5 +158,6 @@ A dataset is basically just a table that can have three parts.
 
 ![[Pasted image 20260914160834.png]]
 
-**A Feature**:
+**Feature**: The data that you are given
+**Label**: The outcome/result that you want
 
