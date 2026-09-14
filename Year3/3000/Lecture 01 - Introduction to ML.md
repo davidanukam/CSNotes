@@ -117,5 +117,9 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 - Medical imaging
 - Credit decisions
 - Driver assistance
-- 
+- Speech interfaces
+- Machine translation
+- Industrial maintenance
+- Network security
+- Generated media
 
