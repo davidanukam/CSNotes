@@ -191,10 +191,12 @@ We have **2 categories**:
 
 **Classification**
 
-![[Pasted image 20260914162407.png]]
+![ClassificationExample](assets/ClassificationExample.png)
 
 ### Unsupervised Learning
 
 **The data only contains Feature columns**
 
 Think of the question being: **"What is already a part of this data"**
+
+![](assets/UnsupervisedLearningTableExample.png)
