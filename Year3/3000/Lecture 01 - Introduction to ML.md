@@ -50,11 +50,11 @@ To process all of that data (the coffee data collected in the last example) it w
 
 So there are three solutions:
 
-1. **Look at less of it:**
+1. **Look at less of it**:
 	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
-2. **Write the rules by hand:**
+2. **Write the rules by hand**:
 	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
-3. **Have a machine find the rules:**
+3. **Have a machine find the rules**:
 	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
 	- This course answers **How?**
 
@@ -85,11 +85,12 @@ Most of the mathematics behind machine learning was published before 1920 but th
 
 For example:
 
-- **Speech recognition:**
+- **Speech recognition**:
 	- A few thousand numbers describing one slice of sound
 	- What a human typist heard in that slice
 	- How many characters the transcript got wrong
-- **Tomorrow's power demand:**
+
+- **Tomorrow's power demand**:
 	- The outside temperature that day, in degrees Celsius
 	- The power actually drawn that day, in megawatt hours
 	- How far the prediction landed from the real demand
@@ -153,4 +154,6 @@ Generated media
 
 ### What a dataset actually is
 
-A 
+A dataset is basically just a table that can have three parts.
+
+**A Feature**:
