@@ -114,12 +114,26 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 
 ### Where this is already deployed
 
-- Medical imaging
-- Credit decisions
-- Driver assistance
-- Speech interfaces
-- Machine translation
-- Industrial maintenance
-- Network security
-- Generated media
+Medical imaging
+- 
+
+Credit decisions
+- 
+
+Driver assistance
+- 
+
+Speech interfaces
+- 
+
+Machine translation
+- 
+
+Industrial maintenance
+- 
+
+Network security
+- 
+
+Generated media
 
