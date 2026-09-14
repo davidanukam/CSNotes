@@ -132,13 +132,15 @@ Speech interfaces
 
 Machine translation
 - From: a sentence
-- To: 
+- To: the same sentence in another language
 
 Industrial maintenance
-- 
+- From: vibration history
+- To: days until this bearing fails
 
 Network security
-- 
+- From: traffic between hosts
+- To: whether this connection is an intrusion
 
 Generated media
-- 
+- From: a
