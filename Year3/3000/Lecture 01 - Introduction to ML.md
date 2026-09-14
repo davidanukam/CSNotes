@@ -8,4 +8,15 @@
 > Remember Part 3 the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
 ## The Tools
-| Tool | What it is used for| Where y
+| Tool         | What it is used for                        | Where you meet it |
+| ------------ | ------------------------------------------ | ----------------- |
+| Python       | The language everything else is written in |                   |
+| Jupyter      |                                            |                   |
+| NumPy        |                                            |                   |
+| pandas       |                                            |                   |
+| Matplotlib   |                                            |                   |
+| scikit-learn |                                            |                   |
+| SciPy        |                                            |                   |
+| seaborn      |                                            |                   |
+| PyTorch      |                                            |                   |
+| TensorFlow   |                                            |                   |
