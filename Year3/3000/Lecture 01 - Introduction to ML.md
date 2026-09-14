@@ -190,8 +190,9 @@ We have **2 categories**:
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
-With no label columns (the expected outputs), how do we know that the mo
+With no label columns (the expected outputs), how do we know that the model learned correctly and produced the right
 ### Reinforcement Learning
 
 > **There is no dataset at all**
 
+Here instead of a dataset, we have an Agent and an 
