@@ -9,6 +9,7 @@
 > Remember Part 3 the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
 ## The Tools
+
 | Tool         | What it is used for                            | Where you meet it         |
 | ------------ | ---------------------------------------------- | ------------------------- |
 | Python       | The language everything else is written in     | Every lab, from week one  |
@@ -30,4 +31,6 @@ conda create -n ds3000
 
 ## The Landscape
 
-**Goal:**
+### **Goal:**
+**Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
+
