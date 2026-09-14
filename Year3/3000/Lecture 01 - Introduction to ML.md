@@ -83,4 +83,8 @@ For example:
 - Speech recognition:
 	- A few thousand numbers describing one slice of sound
 	- What a human typist heard in that slice
-	- How many characers the transcript g
+	- How many characters the transcript got wrong
+- Tomorrow's power demand
+	- The outside temperature that day, in degrees Celsius
+	- The power actually drawn that day, in megawatt hours
+	- How far the prediction 
