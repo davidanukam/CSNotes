@@ -80,4 +80,7 @@ Most of the mathematics behind machine learning was published before 1920 but th
 3. A measure of wrong (A number saying how far the answer is form that right answer (and that can be made smaller))
 
 For example:
-- Speech recognition
+- Speech recognition:
+	- A few thousand numbers describing one slice of sound
+	- What a human typist heard in that slice
+	- How many characers the transcript g
