@@ -129,6 +129,7 @@ A dataset is basically just a table that can have three parts.
 ![DatasetExample](assets/DatasetExample.png)
 
 **Feature**: The data that you are given
+
 **Label**: The outcome/result that you want
 
 A **Feature column** is sometimes called: attribute, predictor, covariate, independent variable, or input
