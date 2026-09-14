@@ -98,6 +98,10 @@ PCA (Check it out later)
 
 Learning finds the parameters of a mapping that sends the inputs into a space where the classes separate.
 
+This is the raw input space data (no mapping learning)
+
 ![[Pasted image 20260914143959.png]]
+
+This is the learned mapping ("Distance form the center was chosen by a human)
 
 Working out the mapping from the data is what the *learning* in **deep learning** refers to and why those models need far more data than anything here.
