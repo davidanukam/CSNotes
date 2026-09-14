@@ -2,9 +2,9 @@
 
 1. [The Landscape](#the-landscape)
 2. [The 3 Learning Paradigms](#the-3-learning-paradigms)
-3. [From Data to a Result You Trust](#From%20Datato-a-result-you-trust)
-4. [Linear Regression, Your First Model](#Linear%20Regression,%20Your%20First%20Model)
-5. [Finding the Best Line](Finding%20the%20Best%20Line)
+3. [From Data to a Result You Trust](#from-data-to-a-result-you-trust)
+4. [Linear Regression, Your First Model](#linear-regression,-your-first-model)
+5. [Finding the Best Line](#finding-the-best-line)
 
 > Remember **Part 3** the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
