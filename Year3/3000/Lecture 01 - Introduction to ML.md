@@ -85,8 +85,8 @@ Most of the mathematics behind machine learning was published before 1920 but th
 
 For example:
 
-- **Speech recognition**:
-	- A few thousand numbers describing one slice of sound
+**Speech recognition**:
+-A few thousand numbers describing one slice of sound
 	- What a human typist heard in that slice
 	- How many characters the transcript got wrong
 
