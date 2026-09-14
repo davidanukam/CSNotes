@@ -120,16 +120,19 @@ Medical imaging
 
 Credit decisions
 - From: an application
-- To: the chance that this loan
+- To: the chance that this loan is not repaid
 
 Driver assistance
-- 
+- From: camera and radar
+- To: where the lane and the car in front are
 
 Speech interfaces
-- 
+- From: a waveform
+- To: the words that were said
 
 Machine translation
-- 
+- From: a sentence
+- To: 
 
 Industrial maintenance
 - 

@@ -25,16 +25,17 @@ export default function HomePage() {
             {year.comingSoon ? (
               <p className="muted">Coming Soon</p>
             ) : (
-              <ul className="item-list">
+              <ul className="card-grid">
                 {year.courses.map((course) => (
                   <li key={course.folder}>
                     <a
                       href={hrefFor(year.slug, course.folder)}
-                      className={course.comingSoon ? "muted" : undefined}
+                      className={`course-card${course.comingSoon ? " muted" : ""}`}
                     >
-                      {course.comingSoon
-                        ? `${course.code} - Coming Soon`
-                        : `${course.code} - ${course.title}`}
+                      <span className="course-card-code">{course.code}</span>
+                      <span className="course-card-title">
+                        {course.comingSoon ? "Coming Soon" : course.title}
+                      </span>
                     </a>
                   </li>
                 ))}
