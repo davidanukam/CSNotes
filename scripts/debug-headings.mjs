@@ -6,7 +6,7 @@ function extractHeadings(markdown) {
   const headings = [];
   let inCode = false;
 
-  for (const line of markdown.split("\n")) {
+  for (const line of markdown.split(/\r?\n/)) {
     if (line.trimStart().startsWith("```")) {
       inCode = !inCode;
       continue;
