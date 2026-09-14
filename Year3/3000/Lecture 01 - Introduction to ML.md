@@ -58,4 +58,6 @@ So there are three solutions:
 
 1. Artificial intelligence
 	- The effort to automate intellectual tasks normally performed by people.
-		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by)
+		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
+	- Machine learning
+		- P
