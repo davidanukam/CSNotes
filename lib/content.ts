@@ -51,7 +51,13 @@ function yearFolders(): string[] {
 }
 
 function parseCourseTitle(markdown: string, fallbackCode: string): { code: string; title: string } {
-  const heading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim() ?? fallbackCode;
+  const heading =
+    markdown
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .find((line) => /^#\s+/.test(line))
+      ?.replace(/^#\s+/, "")
+      .trim() ?? fallbackCode;
   const split = heading.match(/^(\d+)\s*[-–—]\s*(.+)$/);
   if (split) return { code: split[1], title: split[2].trim() };
   return { code: fallbackCode, title: heading };

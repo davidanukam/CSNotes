@@ -130,20 +130,7 @@ a:hover {
 .year-block h2 {
   margin: 0 0 0.65rem;
   font-size: 1.35rem;
-}
-
-.year-block h2 a {
   color: var(--text);
-}
-
-.year-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-}
-
-.year-link:hover {
-  text-decoration: none;
 }
 
 .open-link-icon {
@@ -151,14 +138,6 @@ a:hover {
   height: 0.95rem;
   flex-shrink: 0;
   opacity: 0.72;
-}
-
-.year-link:hover .open-link-icon {
-  opacity: 1;
-}
-
-.year-block h2 a:hover {
-  color: var(--accent);
 }
 
 .muted {
@@ -184,13 +163,12 @@ a:hover {
   list-style: none;
 }
 
-.course-card {
+.entry-card {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
   min-height: 8.25rem;
   height: 100%;
-  padding: 1.15rem 1.2rem;
+  padding: 1.05rem 1.2rem 1.15rem;
   background: var(--bg-raised);
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -198,39 +176,47 @@ a:hover {
   text-decoration: none;
 }
 
+.entry-card.lecture-card {
+  justify-content: center;
+}
+
 @media (max-width: 640px) {
-  .course-card {
-    min-height: 0;
+  .entry-card {
+    min-height: 6.5rem;
   }
 }
 
-.course-card:hover,
-.course-card:focus {
+.entry-card:hover,
+.entry-card:focus {
   text-decoration: none;
   border-color: var(--accent-strong);
 }
 
-.course-card:hover .course-card-title,
-.course-card:focus .course-card-title {
+.entry-card:hover .entry-card-title,
+.entry-card:focus .entry-card-title {
   color: var(--accent);
 }
 
-.course-card-code {
+.entry-card-code {
   color: var(--accent);
   font-size: 0.88rem;
   font-weight: 600;
 }
 
-.course-card-title {
+.entry-card-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
   color: var(--text);
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.02em;
+  text-align: left;
 }
 
-.course-card.muted .course-card-code,
-.course-card.muted .course-card-title {
+.entry-card.muted .entry-card-code,
+.entry-card.muted .entry-card-title {
   color: var(--muted);
 }
 

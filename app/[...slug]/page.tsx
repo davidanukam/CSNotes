@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { MarkdownBody } from "@/components/MarkdownBody";
 import { OnThisPage } from "@/components/OnThisPage";
 import { TopBar } from "@/components/TopBar";
+import { CourseCardGrid, LectureCardGrid } from "@/components/LinkCards";
 import { decodeParam, getCourse, getNoteFile, getYear, getYears, hrefFor } from "@/lib/content";
 import { extractHeadings, rewriteMarkdown } from "@/lib/markdown";
 
@@ -69,17 +70,7 @@ function YearPage({ yearSlug }: { yearSlug: string }) {
         {year.comingSoon ? (
           <p className="muted">Coming Soon</p>
         ) : (
-          <ul className="item-list">
-            {year.courses.map((course) => (
-              <li key={course.folder}>
-                <a href={hrefFor(year.slug, course.folder)} className={course.comingSoon ? "muted" : undefined}>
-                  {course.comingSoon
-                    ? `${course.code} - Coming Soon`
-                    : `${course.code} - ${course.title}`}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <CourseCardGrid yearSlug={year.slug} courses={year.courses} />
         )}
       </main>
     </>
@@ -101,13 +92,7 @@ function CoursePage({ yearSlug, courseCode }: { yearSlug: string; courseCode: st
         {course.comingSoon ? (
           <p className="muted">Notes for this course have not been added yet.</p>
         ) : (
-          <ul className="item-list">
-            {course.notes.map((note) => (
-              <li key={note.slug}>
-                <a href={hrefFor(yearSlug, course.folder, note.slug)}>{note.title}</a>
-              </li>
-            ))}
-          </ul>
+          <LectureCardGrid yearSlug={yearSlug} courseFolder={course.folder} notes={course.notes} />
         )}
       </main>
     </>

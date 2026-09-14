@@ -1,6 +1,6 @@
 import { TopBar } from "@/components/TopBar";
-import { OpenLinkIcon } from "@/components/OpenLinkIcon";
-import { getYears, hrefFor } from "@/lib/content";
+import { CourseCardGrid } from "@/components/LinkCards";
+import { getYears } from "@/lib/content";
 
 export default function HomePage() {
   const years = getYears();
@@ -16,30 +16,11 @@ export default function HomePage() {
 
         {years.map((year) => (
           <section className="year-block" key={year.slug}>
-            <h2>
-              <a className="year-link" href={hrefFor(year.slug)}>
-                {year.label}
-                <OpenLinkIcon />
-              </a>
-            </h2>
+            <h2>{year.label}</h2>
             {year.comingSoon ? (
               <p className="muted">Coming Soon</p>
             ) : (
-              <ul className="card-grid">
-                {year.courses.map((course) => (
-                  <li key={course.folder}>
-                    <a
-                      href={hrefFor(year.slug, course.folder)}
-                      className={`course-card${course.comingSoon ? " muted" : ""}`}
-                    >
-                      <span className="course-card-code">{course.code}</span>
-                      <span className="course-card-title">
-                        {course.comingSoon ? "Coming Soon" : course.title}
-                      </span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <CourseCardGrid yearSlug={year.slug} courses={year.courses} />
             )}
           </section>
         ))}
