@@ -150,3 +150,7 @@ Generated media
 
 > Every one of these examples has the same **shape**.
 > Something measurable goes in, and one answer, that was learning from the examples, comes out.
+
+### What a dataset actually is
+
+A 
