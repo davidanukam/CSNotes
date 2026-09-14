@@ -65,4 +65,4 @@ So there are three solutions:
 	- Deep learning
 		- This is basically just MLP in the way that it is machine learning that builds its representation in successive layers.
 			- The word "deep" refers to the number of layers used, not the insight that is produced.
-			- Might be called **Layered** or **Hiearar**
+			- Might be called **Layered** or **Hierarchical** representation learning.
