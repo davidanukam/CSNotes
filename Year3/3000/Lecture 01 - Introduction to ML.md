@@ -60,16 +60,16 @@ So there are three solutions:
 
 ![AIMLDLDiagram](assets/AIMLDLDiagram.png)
 
-1. Artificial intelligence
+1. **Artificial intelligence**
 	- The effort to automate intellectual tasks normally performed by people.
 	- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
-2. Machine learning
+2. **Machine learning**
 	- These are programs that find the rules themselves using the data given to them
 	- This took off when the data and hardware improved to a point that the older mathematics could use them.
-	- Deep learning
-		- This is basically just MLP (Multi-layer Perceptron) in the way that it is machine learning that builds its representation in successive layers.
-		- The word **"deep"** refers to the number of layers used, not the insight that is produced.
-		- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
+3. **Deep learning**
+	- This is basically just MLP (Multi-layer Perceptron) in the way that it is machine learning that builds its representation in successive layers.
+	- The word **"deep"** refers to the number of layers used, not the insight that is produced.
+	- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
 
 Machine Learning took a while to take off because of the state of data and hardware at the time.
 
@@ -111,3 +111,4 @@ This is the learned mapping ("Distance form the center" was chosen by a human wh
 > Something to note is that the only thing that changed was the coordinates of the points. This new set of coordinates is called a **representation**.
 
 Working out the mapping from the data is what the *learning* in **deep learning** refers to and why those models need far more data than anything here.
+
