@@ -34,14 +34,14 @@ conda create -n ds3000
 ### **Goal:**
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
-#### Big data, and where it actually came from
+### Big data, and where it actually came from
 
 Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and incorrect labels.
 
 For example:
  - (Coffee example)
 
-#### Too much to read by hand
+### Too much to read by hand
 
 To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
 
@@ -54,7 +54,7 @@ So there are three solutions:
 	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
 	- This course answers **How?**
 
-#### Three words, three decades
+### Three words, three decades
 
 ![AIMLDLDiagram](assets/AIMLDLDiagram.png)
 
@@ -73,7 +73,7 @@ Machine Learning took a while to take off because of the state of data and hardw
 
 Most of the mathematics behind machine learning was published before 1920 but there wasn't enough stored data to fit a model and the hardware was not fast enough to fit it.
 
-#### What every machine learning problem needs
+### What every machine learning problem needs
 
 1. **Input data** (Something measurable about each case, in a form a program can read)
 2. **Expected output** (The right answer for each of those cases, from someone or something you trust)
