@@ -43,6 +43,7 @@ For example:
 
 ![BuyingACoffeeExample](assets/BuyingACoffeeExample.png)
 
+![HowOtherDataIsUsedExample](assets/HowOtherDataIsUsedExample.png)
 ### Too much to read by hand
 
 To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
