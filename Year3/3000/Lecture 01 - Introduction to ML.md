@@ -96,8 +96,8 @@ For example:
 PCA (Check it out later)
 #### Learning is a search for better coordinates
 
-Learning finds the parameters of a mapping that sends the inputs into a space where the classes separate
+Learning finds the parameters of a mapping that sends the inputs into a space where the classes separate.
 
 ![[Pasted image 20260914143959.png]]
 
-Learning finds
+Working out the mapping from the data is what the *learning* in **deep learning** refers to and why those models need far more data than anything here.
