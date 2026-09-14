@@ -1,5 +1,22 @@
-import type { CourseMeta, NoteMeta } from "@/lib/content";
+import type { CourseMeta, NoteMeta, YearMeta } from "@/lib/content";
 import { hrefFor } from "@/lib/content";
+
+export function YearCardGrid({ years }: { years: YearMeta[] }) {
+  return (
+    <ul className="card-grid">
+      {years.map((year) => (
+        <li key={year.slug}>
+          <a
+            href={hrefFor(year.slug)}
+            className={`entry-card lecture-card${year.comingSoon ? " muted" : ""}`}
+          >
+            <span className="entry-card-title">{year.label}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export function CourseCardGrid({
   yearSlug,
