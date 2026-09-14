@@ -40,7 +40,8 @@ conda create -n ds3000
 Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and incorrect labels.
 
 For example:
- - (Coffee example)
+
+![CoffeeExample]()
 
 ### Too much to read by hand
 
