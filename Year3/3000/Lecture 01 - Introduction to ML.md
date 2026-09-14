@@ -195,9 +195,12 @@ Well... we don't 😭 the algorithm returns 3 groups regardless and it takes a d
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
 This is **NOT** the same as reshaping a column (transformation).
-A log makes a skewed feature look more normal and the table is 
+
+**Transformation**: A log makes a skewed feature look more normal and the table keeps every column.
+
+**Reduction**: deletes columns (it changes **p**)
 ### Reinforcement Learning
 
 > **There is no dataset at all**
 
-Here instead of a dataset, we have an Agent and an 
+Here instead of a dataset, we have an Agent and an environment
