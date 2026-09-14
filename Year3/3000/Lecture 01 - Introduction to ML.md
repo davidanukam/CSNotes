@@ -190,7 +190,7 @@ We have **2 categories**:
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
-H
+With no label columns (the expected outputs), how do we know that the mo
 ### Reinforcement Learning
 
 > **There is no dataset at all**
