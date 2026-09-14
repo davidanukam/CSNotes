@@ -177,7 +177,7 @@ Sort a new problem into supervised, unsupervised or reinforcement learning, and 
 
 ### Supervised Learning
 
-**The data contains Feature columns AND Labeled columns**
+> **The data contains Feature columns AND Labeled columns**
 
 Think of the question being: **"Predict something given this data"**
 
@@ -195,7 +195,7 @@ We have **2 categories**:
 
 ### Unsupervised Learning
 
-**The data only contains Feature columns**
+> **The data only contains Feature columns**
 
 Think of the question being: **"What is already a part of this data"**
 
