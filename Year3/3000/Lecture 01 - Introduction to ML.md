@@ -62,5 +62,5 @@ So there are three solutions:
 	- Machine learning
 		- These are programs that find the rules themselves using the data given to them
 			- This took off when the data and hardware improved to a point that the older mathematics could use them.
-	- Deeo kearning
-		- 
+	- Deep learning
+		- This is basically just mlp
