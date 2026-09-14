@@ -35,10 +35,7 @@ conda create -n ds3000
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
 ### Goal
-Place the three terms correctly inside one another, state the three ingredients
-every machine learning problem needs,
-and say what a model is really
-searching for.
+Place the three terms correctly inside one another, state the three ingredients every machine learning problem needs, and say what a model is really searching for.
 
 ---
 ### Big data, and where it actually came from
@@ -193,6 +190,7 @@ We have **2 categories**:
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
+H
 ### Reinforcement Learning
 
 > **There is no dataset at all**
