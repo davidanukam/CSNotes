@@ -194,7 +194,8 @@ Well... we don't 😭 the algorithm returns 3 groups regardless and it takes a d
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
-This is **NOT** the same as 
+This is **NOT** the same as reshaping a column (transformation).
+A log makes a skewed feature look more normal and the table is 
 ### Reinforcement Learning
 
 > **There is no dataset at all**
