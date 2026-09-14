@@ -47,4 +47,4 @@ To process all of that data (the coffee data collected in the last example) it w
 
 So there are three solutions:
 - Look at less of it:
-	- 
+	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud)
