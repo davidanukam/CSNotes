@@ -92,3 +92,6 @@ For example:
 
 > Focus on the third one (A measure of wrong). A program that has no way to prefer one answer over another cannot get better at anything.
 > Choosing that measure is a modeling decision which we will get to later.
+
+#### Learning is a search for better cooordinates
+
