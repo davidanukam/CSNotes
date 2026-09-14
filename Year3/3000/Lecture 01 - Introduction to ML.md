@@ -179,6 +179,8 @@ Sort a new problem into supervised, unsupervised or reinforcement learning, and 
 
 **The data contains Feature columns AND Labeled columns**
 
+Think of the question being: "Predict something from this data"
+
 ![SupervisedLearningTableExample](assets/SupervisedLearningTableExample.png)
 
 We have **2 categories**:
@@ -191,4 +193,4 @@ Classification
 
 ()
 
-## Unsuper
+### Unsupervised Learning
