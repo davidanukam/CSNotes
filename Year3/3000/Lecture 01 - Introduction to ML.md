@@ -6,7 +6,7 @@
 4. [Linear Regression, Your First Model](#Linear%20Regression,%20Your%20First%20Model)
 5. [Finding the Best Line](Finding%20the%20Best%20Line)
 
-> Remember Part 3 the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
+> Remember **Part 3** the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
 ## The Tools
 
@@ -22,7 +22,7 @@
 | seaborn      | Statistical plots, in one line each            | Exploratory analysis      |
 | PyTorch      | Networks you define and train yourself         | The deep learning weeks   |
 | TensorFlow   | The same job, a different ecosystem            | Named so you recognize it |
-> Anaconda installs the whole list in one step.
+> **Anaconda** installs the whole list in one step.
 > So make a virtual environment for each project so that one project's package versions cannot break another's.
 
 ```bash
@@ -105,7 +105,7 @@ This is the raw input space data (no mapping learning)
 
 This is the learned mapping ("Distance form the center" was chosen by a human who could see the picture, but it is not what happens in deep learning)
 
-(Picture of Learned Mapping goes here once prof makes slides interactive)
+⚠️ (Picture of Learned Mapping goes here once prof makes slides interactive)
 
 > Something to note is that the only thing that changed was the coordinates of the points. This new set of coordinates is called a **representation**.
 
