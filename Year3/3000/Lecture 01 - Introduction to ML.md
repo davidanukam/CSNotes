@@ -101,11 +101,11 @@ Learning finds the parameters of a mapping that sends the inputs into a space wh
 
 This is the raw input space data (no mapping learning)
 
-![[Pasted image 20260914143959.png]]
+![RawInputSpaceData](assets/RawInputSpaceData.png)
 
 This is the learned mapping ("Distance form the center" was chosen by a human who could see the picture, but it is not what happens in deep learning)
 
-(Picture of Learned Mapping goes here once prof makes slides interactiv)
+(Picture of Learned Mapping goes here once prof makes slides interactive)
 
 > Something to note is that the only thing that changed was the coordinates of the points. This new set of coordinates is called a **representation**.
 
