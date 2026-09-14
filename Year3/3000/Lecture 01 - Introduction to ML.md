@@ -181,6 +181,14 @@ Sort a new problem into supervised, unsupervised or reinforcement learning, and 
 
 ![SupervisedLearningTableExample](assets/SupervisedLearningTableExample.png)
 
-We have two categories:
+We have **2 categories**:
 
-1. Regre
+**Regression**
+
+![[Pasted image 20260914161920.png]]
+
+Classification
+
+()
+
+## Unsuper
