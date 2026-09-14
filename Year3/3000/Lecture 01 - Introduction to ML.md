@@ -41,4 +41,6 @@ Most of the time, data that is recorded is not designed to become a dataset. Thi
 For example:
  - (Coffee example)
 
-#### Too much to read by ha
+#### Too much to read by hand
+
+To process all of that data (the coffe data collec)
