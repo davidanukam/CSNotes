@@ -47,11 +47,12 @@ For example:
 To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
 
 So there are three solutions:
-- Look at less of it:
-	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
-- Where the rules by hand:
+
+**Look at less of it:**
+- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
+**Where the rules by hand:**
 	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
-- Have a machine find the rules:
+**Have a machine find the rules:**
 	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
 	- This course answers **How?**
 
@@ -62,9 +63,9 @@ So there are three solutions:
 1. Artificial intelligence
 	- The effort to automate intellectual tasks normally performed by people.
 	- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
-	- Machine learning
-		- These are programs that find the rules themselves using the data given to them
-		- This took off when the data and hardware improved to a point that the older mathematics could use them.
+2. Machine learning
+	- These are programs that find the rules themselves using the data given to them
+	- This took off when the data and hardware improved to a point that the older mathematics could use them.
 	- Deep learning
 		- This is basically just MLP (Multi-layer Perceptron) in the way that it is machine learning that builds its representation in successive layers.
 		- The word **"deep"** refers to the number of layers used, not the insight that is produced.
