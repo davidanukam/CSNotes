@@ -56,6 +56,8 @@ So there are three solutions:
 
 #### Three words, three decades
 
+![AIMLDiagram]()
+
 1. Artificial intelligence
 	- The effort to automate intellectual tasks normally performed by people.
 		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
@@ -71,4 +73,8 @@ Machine Learning took a while to take off because of the state of data and hardw
 
 Most of the mathematics behind machine learning was published before 1920 but there wasn't enough stored data to fit a model and the hardware was not fast enough to fit it.
 
-#### What every machine learning 
+#### What every machine learning problem needs
+
+1. Input data
+2. Expected output
+3. A measure of wrong
