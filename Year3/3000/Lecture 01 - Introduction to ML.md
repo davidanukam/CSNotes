@@ -41,7 +41,7 @@ Most of the time, data that is recorded is not designed to become a dataset. Thi
 
 For example:
 
-![CoffeeExample]()
+![BuyingACoffeeExample](assets/BuyingACoffeeExample.png)
 
 ### Too much to read by hand
 
