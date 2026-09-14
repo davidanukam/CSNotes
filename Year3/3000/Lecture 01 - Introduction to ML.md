@@ -117,7 +117,7 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 
 ### Where this is already deployed
 
-![[Pasted image 20260914163458.png]]
+![MachineLearningApplicationExamples](assets/MachineLearningApplicationExamples.png)
 
 > Every one of these examples has the same **shape**.
 > Something measurable goes in, and one answer, that was learning from the examples, comes out.
