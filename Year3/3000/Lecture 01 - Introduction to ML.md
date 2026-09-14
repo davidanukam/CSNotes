@@ -164,7 +164,7 @@ Think of the question being: **"Predict something given this data"**
 
 We have **2 categories**:
 
-**Regression**
+**Regression** (See [Linear Regression Code Example](examples/LinearRegression))
 
 ![RegressionExample](assets/RegressionExample.png)
 
