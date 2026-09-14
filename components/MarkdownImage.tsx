@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type { Components } from "react-markdown";
 
 function parseObsidianAlt(alt?: string): { alt: string; width?: number } {
   if (!alt) return { alt: "" };
@@ -9,9 +10,9 @@ function parseObsidianAlt(alt?: string): { alt: string; width?: number } {
   return { alt: match[1].replace(/\|+$/, "").trim(), width: Number(match[2]) };
 }
 
-export function MarkdownImage({ alt, src }: { alt?: string; src?: string }) {
+export const MarkdownImage: NonNullable<Components["img"]> = ({ alt, src }) => {
   const [preview, setPreview] = useState(false);
-  const parsed = parseObsidianAlt(alt);
+  const parsed = parseObsidianAlt(typeof alt === "string" ? alt : undefined);
   const imageSrc = typeof src === "string" ? src : "";
 
   useEffect(() => {
