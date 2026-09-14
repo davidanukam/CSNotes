@@ -67,4 +67,8 @@ So there are three solutions:
 			- The word "deep" refers to the number of layers used, not the insight that is produced.
 			- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
 
-Machine Learning took a while to take off because of that state of data and hardware at the time. Most mathematics behind machine learning was published before 1920 but 
+Machine Learning took a while to take off because of the state of data and hardware at the time.
+
+Most of the mathematics behind machine learning was published before 1920 but there wasn't enough stored data to fit a model and the hardware was not fast enough to fit it.
+
+#### What every machine learning 
