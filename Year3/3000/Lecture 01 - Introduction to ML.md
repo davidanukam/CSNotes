@@ -161,8 +161,8 @@ A dataset is basically just a table that can have three parts.
 **Feature**: The data that you are given
 **Label**: The outcome/result that you want
 
-A Feature column is sometimes called: attribute, predictor, covariate, independent variable, or input
+A **Feature column** is sometimes called: attribute, predictor, covariate, independent variable, or input
 
-A Label column is sometimes called: target, response, outcome, dependent variable, or ground truth
+A **Label column** is sometimes called: target, response, outcome, dependent variable, or ground truth
 
-A
+A **Row** is sometimes called: instance, observation, example, sample, or record
