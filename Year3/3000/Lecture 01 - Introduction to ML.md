@@ -43,4 +43,8 @@ For example:
 
 #### Too much to read by hand
 
-To process all of that data (the coffe data collec)
+To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
+
+So there are three solutions:
+- Look at less of it:
+	- 
