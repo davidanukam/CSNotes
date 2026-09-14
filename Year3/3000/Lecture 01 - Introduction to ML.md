@@ -169,5 +169,9 @@ A **Row** is sometimes called: instance, observation, example, sample, or record
 
 ## The 3 Learning Paradigms
 
+### Question:
+What can you still learn when a label column is missing or when the only feedback you ever get is a score that arrives after the decision?
+
 ### Goal:
+Sort a new problem into supervised, unsupervised or reinforcement learning, and say what its data would have to look like.
 
