@@ -187,11 +187,11 @@ We have **2 categories**:
 
 **Regression**
 
-
+![RegressionExample](assets/RegressionExample.png)
 
 **Classification**
 
-()
+![[Pasted image 20260914162407.png]]
 
 ### Unsupervised Learning
 
