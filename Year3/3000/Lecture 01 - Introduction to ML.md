@@ -177,4 +177,6 @@ Sort a new problem into supervised, unsupervised or reinforcement learning, and 
 
 ### Supervised Learning
 
-The data contains Feature columns AND A Labeled columns
+**The data contains Feature columns AND Labeled columns**
+
+![[Pasted image 20260914161626.png]]
