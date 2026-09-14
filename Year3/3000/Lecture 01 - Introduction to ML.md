@@ -199,4 +199,7 @@ We have **2 categories**:
 
 Think of the question being: **"What is already a part of this data"**
 
-![](assets/UnsupervisedLearningTableExample.png)
+![UnsupervisedLearningTableExample](assets/UnsupervisedLearningTableExample.png)
+
+We have **2 categories**:
+
