@@ -8,15 +8,15 @@
 > Remember Part 3 the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
 ## The Tools
-| Tool         | What it is used for                        | Where you meet it         |
-| ------------ | ------------------------------------------ | ------------------------- |
-| Python       | The language everything else is written in | Every lab, from week one  |
-| Jupyter      |                                            | Lab submissions           |
-| NumPy        |                                            | Behind every model        |
-| pandas       |                                            | Data loading and cleaning |
-| Matplotlib   |                                            | Exploratory analysis      |
-| scikit-learn |                                            | Most of this course       |
-| SciPy        |                                            | Under the models          |
-| seaborn      | Statistical plots, in one line each        | Exploratory analysis      |
-| PyTorch      | Networks you define and train yourself     | The deep learning weeks   |
-| TensorFlow   | The same job, a different ecosystem        | Named so you recognize it |
+| Tool         | What it is used for                            | Where you meet it         |
+| ------------ | ---------------------------------------------- | ------------------------- |
+| Python       | The language everything else is written in     | Every lab, from week one  |
+| Jupyter      | A notebook: code, output and prose in one file | Lab submissions           |
+| NumPy        | Arrays and the arithmetic on them              | Behind every model        |
+| pandas       | Tables, joins, missing values                  | Data loading and cleaning |
+| Matplotlib   | Plots you can put in a report                  | Exploratory analysis      |
+| scikit-learn | The classical models, one interface            | Most of this course       |
+| SciPy        | Optimization, linear algebra, statistics       | Under the models          |
+| seaborn      | Statistical plots, in one line each            | Exploratory analysis      |
+| PyTorch      | Networks you define and train yourself         | The deep learning weeks   |
+| TensorFlow   | The same job, a different ecosystem            | Named so you recognize it |
