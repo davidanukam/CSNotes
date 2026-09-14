@@ -48,15 +48,13 @@ To process all of that data (the coffee data collected in the last example) it w
 
 So there are three solutions:
 
-**Look at less of it:**
-- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
-
-**Write the rules by hand:**
-- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
-
-**Have a machine find the rules:**
-- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
-- This course answers **How?**
+1. **Look at less of it:**
+	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
+2. **Write the rules by hand:**
+	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
+3. **Have a machine find the rules:**
+	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
+	- This course answers **How?**
 
 ### Three words, three decades
 
