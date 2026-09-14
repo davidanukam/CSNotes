@@ -203,4 +203,6 @@ This is **NOT** the same as reshaping a column (transformation).
 
 > **There is no dataset at all**
 
-Here instead of a dataset, we have an Agent and an environment
+Here instead of a dataset, we have an **Agent** (the robot) and an **Environment** (the maze).
+
+The Agent learns from its own experiences 
