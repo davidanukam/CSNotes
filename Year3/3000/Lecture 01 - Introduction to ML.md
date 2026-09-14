@@ -51,5 +51,9 @@ So there are three solutions:
 - Where the rules by hand:
 	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
 - Have a machine find the rules:
-	- Show the machine the answers you already know (the fraud and non-frauds)
+	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
 	- This course answers **How?**
+
+#### Three words, three decades
+
+1. Art
