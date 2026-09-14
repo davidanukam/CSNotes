@@ -31,7 +31,7 @@ conda create -n ds3000
 
 ## The Landscape
 
-### Goal:
+### Goal
 
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
@@ -169,10 +169,10 @@ A **Row** is sometimes called: instance, observation, example, sample, or record
 
 ## The 3 Learning Paradigms
 
-### Question:
+### Question
 What can you still learn when a label column is missing or when the only feedback you ever get is a score that arrives after the decision?
 
-### Goal:
+### Goal
 Sort a new problem into supervised, unsupervised or reinforcement learning, and say what its data would have to look like.
 
 ### Supervised Learning
