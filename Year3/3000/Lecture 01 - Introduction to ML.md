@@ -203,11 +203,11 @@ Think of the question being: **"What is already a part of this data"**
 
 We have **2 categories**:
 
-Clustering
+**Clustering**
 
 ![ClusteringExample](assets/ClusteringExample.png)
 
-Dimensionality reduction
+**Dimensionality reduction**
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
@@ -215,3 +215,4 @@ Dimensionality reduction
 
 > **There is no dataset at all**
 
+()
