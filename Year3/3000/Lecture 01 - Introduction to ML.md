@@ -61,14 +61,14 @@ So there are three solutions:
 
 1. Artificial intelligence
 	- The effort to automate intellectual tasks normally performed by people.
-		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
+	- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
 	- Machine learning
 		- These are programs that find the rules themselves using the data given to them
-			- This took off when the data and hardware improved to a point that the older mathematics could use them.
+		- This took off when the data and hardware improved to a point that the older mathematics could use them.
 	- Deep learning
-		- This is basically just MLP in the way that it is machine learning that builds its representation in successive layers.
-			- The word "deep" refers to the number of layers used, not the insight that is produced.
-			- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
+		- This is basically just MLP (Multi-layer Perceptron) in the way that it is machine learning that builds its representation in successive layers.
+		- The word **"deep"** refers to the number of layers used, not the insight that is produced.
+		- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
 
 Machine Learning took a while to take off because of the state of data and hardware at the time.
 
@@ -105,7 +105,7 @@ This is the raw input space data (no mapping learning)
 
 This is the learned mapping ("Distance form the center" was chosen by a human who could see the picture, but it is not what happens in deep learning)
 
-⚠️ (Picture of Learned Mapping goes here once prof makes slides interactive)
+❗(Picture of Learned Mapping goes here once prof makes slides interactive)
 
 > Something to note is that the only thing that changed was the coordinates of the points. This new set of coordinates is called a **representation**.
 
