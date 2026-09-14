@@ -143,4 +143,8 @@ Network security
 - To: whether this connection is an intrusion
 
 Generated media
-- From: a
+- From: a text prompt
+- To: an image or video matching it
+
+> Every one of these examples has the same **shape**.
+> Something measurable goes in, and one answer comes out () 
