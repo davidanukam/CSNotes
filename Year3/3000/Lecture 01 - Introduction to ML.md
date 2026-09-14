@@ -175,3 +175,6 @@ What can you still learn when a label column is missing or when the only feedbac
 ### Goal:
 Sort a new problem into supervised, unsupervised or reinforcement learning, and say what its data would have to look like.
 
+### Supervised Learning
+
+The data contains Feature columns AND A Labeled columns
