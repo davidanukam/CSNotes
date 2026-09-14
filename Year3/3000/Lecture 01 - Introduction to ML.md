@@ -56,4 +56,5 @@ So there are three solutions:
 
 #### Three words, three decades
 
-1. Art
+1. Artificial intelligence
+	- The effort to automate intellectual tasks normally performed by people.
