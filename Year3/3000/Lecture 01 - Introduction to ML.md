@@ -66,3 +66,5 @@ So there are three solutions:
 		- This is basically just MLP in the way that it is machine learning that builds its representation in successive layers.
 			- The word "deep" refers to the number of layers used, not the insight that is produced.
 			- Might be called **Layered** or **Hierarchical** representation learning as the model learns that to measure as well as what to conclude.
+
+Machine Learning took a while to take off 
