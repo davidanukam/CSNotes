@@ -1,8 +1,8 @@
 ## The 5 parts
 
-1. [The Landscape](#The%20Landscape)
-2. [The 3 Learning Paradigms](#The%203%20Learning%20Paradigms)
-3. [From Data to a Result You Trust](#From%20Data%20to%20a%20Result%20You%20Trust)
+1. [The Landscape](#the-landscape)
+2. [The 3 Learning Paradigms](#the-3-learning-paradigms)
+3. [From Data to a Result You Trust](#From%20Datato-a-result-you-trust)
 4. [Linear Regression, Your First Model](#Linear%20Regression,%20Your%20First%20Model)
 5. [Finding the Best Line](Finding%20the%20Best%20Line)
 
