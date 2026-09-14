@@ -207,5 +207,9 @@ Here instead of a dataset, we have an **Agent** (the robot) and an **Environment
 
 The Agent learns from its own experiences so each row is created by the looping of the action and the returned new state (+ reward).
 
-![StateActionRewardExample](assets/StateActionRewardExample.png)
+**![StateActionRewardExample](assets/StateActionRewardExample.png)**
+
+**NOT TALKED ABOUT IN THIS COURSE SO LOWKEY IGNORE IT!!!**
+
+## From Data to a Result You Trust
 
