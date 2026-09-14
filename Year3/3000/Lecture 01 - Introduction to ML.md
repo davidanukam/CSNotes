@@ -35,6 +35,7 @@ conda create -n ds3000
 
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
+---
 ### Big data, and where it actually came from
 
 Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and incorrect labels.
@@ -44,6 +45,8 @@ For example:
 ![BuyingACoffeeExample](assets/BuyingACoffeeExample.png)
 
 ![HowOtherDataIsUsedExample](assets/HowOtherDataIsUsedExample.png)
+
+---
 ### Too much to read by hand
 
 To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
@@ -77,6 +80,7 @@ Machine Learning took a while to take off because of the state of data and hardw
 
 Most of the mathematics behind machine learning was published before 1920 but there wasn't enough stored data to fit a model and the hardware was not fast enough to fit it.
 
+---
 ### What every machine learning problem needs
 
 1. **Input data** (Something measurable about each case, in a form a program can read)
@@ -86,19 +90,21 @@ Most of the mathematics behind machine learning was published before 1920 but th
 For example:
 
 **Speech recognition**:
--A few thousand numbers describing one slice of sound
-	- What a human typist heard in that slice
-	- How many characters the transcript got wrong
+- A few thousand numbers describing one slice of sound
+- What a human typist heard in that slice
+- How many characters the transcript got wrong
 
-- **Tomorrow's power demand**:
-	- The outside temperature that day, in degrees Celsius
-	- The power actually drawn that day, in megawatt hours
-	- How far the prediction landed from the real demand
+**Tomorrow's power demand**:
+- The outside temperature that day, in degrees Celsius
+- The power actually drawn that day, in megawatt hours
+- How far the prediction landed from the real demand
 
 > Focus on the third one (A measure of wrong). A program that has no way to prefer one answer over another cannot get better at anything.
 > Choosing that measure is a modeling decision which we will get to later.
 
 PCA (Check it out later)
+
+---
 #### Learning is a search for better coordinates
 
 Learning finds the parameters of a mapping that sends the inputs into a space where the classes separate.
