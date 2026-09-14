@@ -156,7 +156,7 @@ Generated media
 
 A dataset is basically just a table that can have three parts.
 
-![[Pasted image 20260914160834.png]]
+![DatasetExample](assets/DatasetExample.png)
 
 **Feature**: The data that you are given
 **Label**: The outcome/result that you want
@@ -187,14 +187,14 @@ We have **2 categories**:
 
 **Regression**
 
-![[Pasted image 20260914161920.png]]
 
-Classification
 
-**The data only contains Feature columns**
-
-Think of the question being: **"What is already a part of this data"**
+**Classification**
 
 ()
 
 ### Unsupervised Learning
+
+**The data only contains Feature columns**
+
+Think of the question being: **"What is already a part of this data"**
