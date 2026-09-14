@@ -203,3 +203,11 @@ Think of the question being: **"What is already a part of this data"**
 
 We have **2 categories**:
 
+Clustering
+
+()
+
+Dimensionality reduction
+
+()
+
