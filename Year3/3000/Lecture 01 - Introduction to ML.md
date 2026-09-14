@@ -17,6 +17,6 @@
 | Matplotlib   |                                            | Exploratory analysis      |
 | scikit-learn |                                            | Most of this course       |
 | SciPy        |                                            | Under the models          |
-| seaborn      |                                            |                           |
-| PyTorch      |                                            |                           |
-| TensorFlow   |                                            |                           |
+| seaborn      | Statistical plots, in one line each        | Exploratory analysis      |
+| PyTorch      | Networks you define and train yourself     | The deep learning weeks   |
+| TensorFlow   | The same job, a different ecosystem        | Named so you recognize it |
