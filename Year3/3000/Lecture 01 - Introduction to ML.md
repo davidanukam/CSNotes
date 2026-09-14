@@ -205,7 +205,7 @@ We have **2 categories**:
 
 Clustering
 
-()
+![ClusteringExample](ass)
 
 Dimensionality reduction
 
