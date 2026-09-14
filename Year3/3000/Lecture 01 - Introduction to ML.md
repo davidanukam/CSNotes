@@ -60,4 +60,5 @@ So there are three solutions:
 	- The effort to automate intellectual tasks normally performed by people.
 		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
 	- Machine learning
-		- P
+		- These are programs that find the rules themselves using the data given to them
+			- 
