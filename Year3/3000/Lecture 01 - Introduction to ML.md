@@ -186,11 +186,15 @@ We have **2 categories**:
 
 ![ClusteringExample](assets/ClusteringExample.png)
 
+With no label columns (the expected outputs), how do we know that the model learned correctly and produced the right groups?
+
+Well... we don't 😭 the algorithm returns 3 groups regardless and it takes a domain expert to judge them.
+
 **Dimensionality reduction**
 
 ![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
 
-
+This is **NOT** the same as 
 ### Reinforcement Learning
 
 > **There is no dataset at all**
