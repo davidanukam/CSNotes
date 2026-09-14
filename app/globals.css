@@ -187,7 +187,6 @@ a:hover {
 .course-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   gap: 0.35rem;
   min-height: 8.25rem;
   height: 100%;
@@ -197,6 +196,12 @@ a:hover {
   border-radius: 12px;
   color: var(--text);
   text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .course-card {
+    min-height: 0;
+  }
 }
 
 .course-card:hover,

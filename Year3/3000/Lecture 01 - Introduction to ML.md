@@ -147,4 +147,4 @@ Generated media
 - To: an image or video matching it
 
 > Every one of these examples has the same **shape**.
-> Something measurable goes in, and one answer comes out () 
+> Something measurable goes in, and one answer, that was learning from the examples, comes out.
