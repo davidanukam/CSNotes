@@ -61,4 +61,6 @@ So there are three solutions:
 		- This includes systems that have no implicit learning at all (a chess engine searching moves, or a tax program running rules an expert wrote by hand)
 	- Machine learning
 		- These are programs that find the rules themselves using the data given to them
-			- 
+			- This took off when the data and hardware improved to a point that the older mathematics could use them.
+	- Deeo kearning
+		- 
