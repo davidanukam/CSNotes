@@ -115,10 +115,12 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 ### Where this is already deployed
 
 Medical imaging
-- 
+- From: a scan
+- To: whether a radiologist should look at it first
 
 Credit decisions
-- 
+- From: an application
+- To: the chance that this loan
 
 Driver assistance
 - 
