@@ -142,7 +142,7 @@ It is important to distinguish _elapsed time_ and the _time spent on your task_
 - so this is **Wall time** vs. **CPU time**
 - CPU Time does NOT include the time waiting for I/O or the time spent on other processes
 
-#CPU clock cycles for a program → how many times does the CPU need to tick for a program to be executed
+CPU clock cycles for a program → how many times does the CPU need to tick for a program to be executed
 
 clockcycle → the length of time for every single clock tick/clock cycle
 
