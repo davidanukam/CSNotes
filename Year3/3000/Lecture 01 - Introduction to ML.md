@@ -34,5 +34,6 @@ conda create -n ds3000
 ### **Goal:**
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
-#### Big data, and where it came from
+#### Big data, and where it actually came from
 
+Most of the time, data that is recorded is not designed to become a dataset.
