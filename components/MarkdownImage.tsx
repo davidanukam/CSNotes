@@ -53,4 +53,5 @@ export const MarkdownImage: NonNullable<Components["img"]> = ({ alt, src }) => {
       ) : null}
     </>
   );
-}
+};
+

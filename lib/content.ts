@@ -1,19 +1,9 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-const ROOT = process.cwd();
-const SKIP = new Set([
-  "app",
-  "components",
-  "lib",
-  "node_modules",
-  "out",
-  "public",
-  "scripts",
-  ".git",
-  ".github",
-  ".next",
-]);
+const SKIP = new Set(["assets"]);
+const YEAR_SLUGS = ["Year1", "Year2", "Year3", "Year4"] as const;
+type YearSlug = (typeof YEAR_SLUGS)[number];
 
 export type Heading = {
   depth: number;
@@ -43,11 +33,29 @@ export type YearMeta = {
   courses: CourseMeta[];
 };
 
-function yearFolders(): string[] {
-  return readdirSync(ROOT)
-    .filter((name) => /^Year\d+$/i.test(name))
-    .filter((name) => statSync(join(ROOT, name)).isDirectory())
-    .sort((a, b) => Number(a.replace(/\D/g, "")) - Number(b.replace(/\D/g, "")));
+function yearRoot(slug: YearSlug): string {
+  switch (slug) {
+    case "Year1":
+      return join(process.cwd(), "Year1");
+    case "Year2":
+      return join(process.cwd(), "Year2");
+    case "Year3":
+      return join(process.cwd(), "Year3");
+    case "Year4":
+      return join(process.cwd(), "Year4");
+  }
+}
+
+function matchYearSlug(value: string): YearSlug | undefined {
+  const decoded = decodeParam(value);
+  return YEAR_SLUGS.find((slug) => sameName(slug, decoded));
+}
+
+function yearFolders(): YearSlug[] {
+  return YEAR_SLUGS.filter((slug) => {
+    const dir = yearRoot(slug);
+    return existsSync(dir) && statSync(dir).isDirectory();
+  });
 }
 
 function parseCourseTitle(markdown: string, fallbackCode: string): { code: string; title: string } {
@@ -94,11 +102,11 @@ function notesFromFolder(courseDir: string): NoteMeta[] {
 
 export function getYears(): YearMeta[] {
   return yearFolders().map((slug) => {
-    const yearDir = join(ROOT, slug);
+    const yearDir = yearRoot(slug);
     const courses: CourseMeta[] = [];
 
     for (const entry of readdirSync(yearDir).sort()) {
-      if (SKIP.has(entry) || entry.startsWith(".") || entry === "assets") continue;
+      if (SKIP.has(entry) || entry.startsWith(".")) continue;
       const courseDir = join(yearDir, entry);
       if (!statSync(courseDir).isDirectory()) continue;
       if (!/^\d+$/.test(entry)) continue;
@@ -168,24 +176,27 @@ export function getNoteFile(
   noteSlug: string,
 ): { meta: NoteMeta; course: CourseMeta; markdown: string; relDir: string } | undefined {
   const course = getCourse(yearSlug, courseCode);
-  if (!course) return undefined;
+  const year = matchYearSlug(yearSlug);
+  if (!course || !year) return undefined;
 
   const want = decodeParam(noteSlug).replace(/\.md$/i, "");
+  const yearDir = yearRoot(year);
+  const courseDir = join(yearDir, course.folder);
   const meta =
     course.notes.find((note) => sameName(note.slug, want) || sameName(note.fileName, want)) ??
-    notesFromFolder(join(ROOT, decodeParam(yearSlug), course.folder)).find(
+    notesFromFolder(courseDir).find(
       (note) => sameName(note.slug, want) || sameName(note.fileName, want),
     );
   if (!meta) return undefined;
 
-  const filePath = join(ROOT, decodeParam(yearSlug), course.folder, meta.fileName);
+  const filePath = join(courseDir, meta.fileName);
   if (!existsSync(filePath)) return undefined;
 
   return {
     meta,
     course,
     markdown: readFileSync(filePath, "utf8"),
-    relDir: `/${decodeParam(yearSlug)}/${course.folder}`,
+    relDir: `/${year}/${course.folder}`,
   };
 }
 
