@@ -75,16 +75,19 @@ Most of the mathematics behind machine learning was published before 1920 but th
 
 #### What every machine learning problem needs
 
-1. Input data (Something measurable about each case, in a form a program can read)
-2. Expected output (The right answer for each of those cases, from someone or something you trust)
-3. A measure of wrong (A number saying how far the answer is form that right answer (and that can be made smaller))
+1. **Input data** (Something measurable about each case, in a form a program can read)
+2. **Expected output** (The right answer for each of those cases, from someone or something you trust)
+3. **A measure of wrong** (A number saying how far the answer is form that right answer (and that can be made smaller))
 
 For example:
-- Speech recognition:
+
+- **Speech recognition:**
 	- A few thousand numbers describing one slice of sound
 	- What a human typist heard in that slice
 	- How many characters the transcript got wrong
-- Tomorrow's power demand
+- **Tomorrow's power demand:**
 	- The outside temperature that day, in degrees Celsius
 	- The power actually drawn that day, in megawatt hours
-	- How far the prediction 
+	- How far the prediction landed from the real demand
+
+> Focus on the third one (A measure of wrong)
