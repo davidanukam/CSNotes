@@ -120,7 +120,7 @@ Working out the mapping from the data is what the *learning* in **deep learning*
 ![MachineLearningApplicationExamples](assets/MachineLearningApplicationExamples.png)
 
 > Every one of these examples has the same **shape**.
-> Something measurable goes in, and one answer, that was learning from the examples, comes out.
+> Something measurable goes in, and one answer, that was learned from the examples, comes out.
 
 ### What a dataset actually is
 
