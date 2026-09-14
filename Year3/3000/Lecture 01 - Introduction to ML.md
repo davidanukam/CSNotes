@@ -214,6 +214,7 @@ The Agent learns from its own experiences so each row is created by the looping 
 ## From Data to a Result You Trust
 
 ### Question
-What actually happens between
-opening a data file and
-reporting a number you would stand behind — and which of those steps is the one that quietly ruins it?
+What actually happens between opening a data file and reporting a number you would stand behind and which of those steps is the one that quietly ruins it?
+
+### Goal
+Walk a project through seven stages, split a dataset three ways for the right reason, and say why a test score stops being honest the moment you tune against it.
