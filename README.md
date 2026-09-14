@@ -2,14 +2,19 @@
 All Notes to help you ACE Computer Science at Western University
 
 ## Year 1
-Coming Soon
+I will add this during my free time :)
+
+...or someone could always help me out!
 
 ## Year 2
 - [2212 - Introduction To Software Engineering](Year2/2212)
 - [2214 - Discrete Structures for Computing](Year2/2214)
 
 ## Year 3
-Coming Soon
+- [3000 - Introduction to Machine Learning](Year3/3000) 
+- [3307 - Object Oriented Design and Analysis](Year3/3307)
+- [3331 - Theory of Computing](Year3/3331)
+- [3350 - Computer Organization](Year3/3350)
 
 ## Year 4
 Coming Soon

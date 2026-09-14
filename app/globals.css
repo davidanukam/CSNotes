@@ -287,12 +287,23 @@ a:hover {
   overflow-x: auto;
   padding: 1rem 1.1rem;
   border-radius: 10px;
-  background: #171a24;
+  background: #0d1117;
   border: 1px solid var(--line);
 }
 
+.markdown pre code {
+  color: #c9d1d9;
+}
+
+.markdown pre code.hljs {
+  display: block;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+}
+
 .markdown code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
   font-size: 0.9em;
 }
 
@@ -360,12 +371,22 @@ a:hover {
   border-left: 2px solid var(--line);
 }
 
-.toc a:hover {
-  color: var(--text);
+.toc a:hover,
+.toc a:focus,
+.toc a:active,
+.toc a:visited {
+  color: var(--muted);
   text-decoration: none;
 }
 
-.toc a.active {
+.toc a:hover {
+  color: var(--text);
+}
+
+.toc a.active,
+.toc a.active:visited,
+.toc a.active:focus,
+.toc a.active:active {
   color: var(--accent);
   border-left-color: var(--accent);
 }
