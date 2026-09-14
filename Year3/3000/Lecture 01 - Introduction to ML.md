@@ -166,3 +166,8 @@ A **Feature column** is sometimes called: attribute, predictor, covariate, indep
 A **Label column** is sometimes called: target, response, outcome, dependent variable, or ground truth
 
 A **Row** is sometimes called: instance, observation, example, sample, or record
+
+## The 3 Learning Paradigms
+
+### Goal:
+
