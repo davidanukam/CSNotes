@@ -146,11 +146,17 @@ Figure out how the objects connect and interact with each other.
 
 ```cpp
 #include <iostream>
+#inlcude <string>
 using namespace std;
+
+class Wheel {
+public:
+	Wheel(string )
+};
 
 class Car {
 private:
-	// each wheel is a reference to created wheel object
+	// each wheel is a reference to separately created wheel object
 	Wheel &front_left_wheel;
 	Wheel &front_right_wheel;
 	Wheel &back_left_wheel;
@@ -158,7 +164,7 @@ private:
 
 public:
 	Car() {}
-}
+};
 ```
 
 **Composition** Code Example:
