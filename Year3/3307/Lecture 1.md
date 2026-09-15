@@ -44,8 +44,8 @@ A **destructor** is a special method that is automatically called when an object
 
 **Abstract class** is a class that cannot be instantiated (cannot create object from it directly). It is meant to be a base class for other classes.
 
-- It contains at least one **pure virtual function** (a virtual function is expected to be overridden). Child classes must provide an implementation for this function
-    - With a virtual function, if you tell an `Animal` to `makeSound()` , it will check what SPECIFIC type of animal it actually is and make the appropriate sound
+- It contains at least one **pure virtual function** (a virtual function is expected to be overridden). Child classes **must** provide an implementation for this function
+    - With a virtual function, if you tell an `Animal` to `makeSound()`, it will check what SPECIFIC type of animal it actually is and make the appropriate sound
 
 ```cpp
 #include <iostream>
