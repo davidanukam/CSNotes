@@ -162,9 +162,9 @@ class Car {
 private:
 	// each wheel is a reference to separately created wheel object
 	Wheel &front_left_wheel("front", "left");
-	Wheel &front_right_wheel;
-	Wheel &back_left_wheel;
-	Wheel &back_right_wheel;
+	Wheel &front_right_wheel("front", "right");
+	Wheel &back_left_wheel("back", "left");
+	Wheel &back_right_wheel("back", "right");
 
 public:
 	Car() {}
@@ -177,12 +177,22 @@ public:
 #include <iostream>
 using namespace std;
 
+class Wheel {
+private:
+	string loc;
+	string side;
+
+public:
+	Wheel(string loc, string side) : loc(loc), side(side) {}
+};
+
 class Car {
 private:
-	Wheel front_left_wheel;
-	Wheel front_right_wheel;
-	Wheel back_left_wheel;
-	Wheel back_right_wheel;
+	// each wheel i to separately created wheel object
+	Wheel front_left_wheel("front", "left");
+	Wheel front_right_wheel("front", "right");
+	Wheel back_left_wheel("back", "left");
+	Wheel back_right_wheel("back", "right");
 
 public:
 	Car() {}
