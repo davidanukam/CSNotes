@@ -31,7 +31,7 @@ Without namespaces defined in the header:
 
 ```cpp
 #include <iostream>
-..
+
 int main() {
 	std::cout << "Hello, World!";
 	return 0;
@@ -43,7 +43,7 @@ With namespaces in the header:
 ```cpp
 #include <iostream>
 using namespace as std;
-..
+
 int main(){
 	cout << "Hello, World!";
 	return 0;
