@@ -288,7 +288,7 @@ int main() {
 }
 ```
 
-Example of OOP:
+### Example of OOP:
 
 ```cpp
 #include <iostream>
@@ -335,6 +335,8 @@ the reason why this is OOP is because you don’t change the balance directly, y
 
 **Functional programming** is a programming style that basically focuses on **PURE functions** (functions that ALWAYS give the same output for the same input and don’t change anything else) and **immutability** (data is not changed after its created)
 
+### Example of Functional Programming:
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -372,5 +374,6 @@ They can also interact with other objects and modify the states of them.
 
 This means that the state of the program evolves over time.
 
+(Check the [Example of OOP:]())
 ## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
 
