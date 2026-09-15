@@ -191,6 +191,7 @@ int main() {
 	Wheel w4("back", "right");
 
 	Car c(w1, w2, w3, w4);
+	c.showWheelInfo()
 }
 ```
 
@@ -200,13 +201,23 @@ int main() {
 class Car {
 private:
 	// each wheel belongs to the car object that is created
-	Wheel front_left_wheel("front", "left");
-	Wheel front_right_wheel("front", "right");
-	Wheel back_left_wheel("back", "left");
-	Wheel back_right_wheel("back", "right");
+	Wheel flw("front", "left");
+	Wheel frw("front", "right");
+	Wheel blw("back", "left");
+	Wheel brw("back", "right");
 
 public:
 	Car() {}
+	
+	void showWheelInfo() {
+		cout << "Wheel 1: " << flw.showInfo() << "\n" << "Wheel 2: " << frw.showInfo() << "\n" << "Wheel 3: " << blw.showInfo() << "\n" << "Wheel 4: " << brw.showInfo() << endl;
+	}
+}
+
+int main {
+	Car c;
+	
+	c.showWheelInfo()
 }
 ```
 
