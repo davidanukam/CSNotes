@@ -381,4 +381,12 @@ In Functional Programming, their is an emphasis on immutability meaning that dat
 
 This means that you would create new data structures based on transformations.
 
-So In the banking example (Check the [Example of Functional Programming](#Example%20of%20Functional Programming)) you always return a new account balance after each transaction rather than modifying the existing one
+So In the banking example (Check the [Example of Functional Programming](#Example%20of%20Functional%20Programming)) you always return a new account balance after each transaction rather than modifying the existing one.
+
+## MODULARITY AND REUSE: OOP
+
+Reuse is 
+
+## MODULARITY AND REUSE: FUNCTIONAL PROGRAMMING
+
+R
