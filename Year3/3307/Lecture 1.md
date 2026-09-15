@@ -150,10 +150,11 @@ using namespace std;
 
 class Car {
 private:
-	Wheel front_left_wheel;
-	Wheel front_right_wheel;
-	Wheel back_left_wheel;
-	Wheel back_right_wheel;
+	// each wheel is a reference to  
+	Wheel &front_left_wheel;
+	Wheel &front_right_wheel;
+	Wheel &back_left_wheel;
+	Wheel &back_right_wheel;
 
 public:
 	Car() {}
