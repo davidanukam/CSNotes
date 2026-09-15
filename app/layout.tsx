@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import { Inter } from "next/font/google";
 import "katex/dist/katex.min.css";
 import "./globals.css";
@@ -46,9 +47,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const theme = (await cookies()).get("theme")?.value;
+  const dataTheme = theme === "light" ? "light" : "dark";
+
   return (
-    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="en" data-theme={dataTheme} data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className={`${inter.variable} ${inter.className}`} suppressHydrationWarning>
         {children}
       </body>

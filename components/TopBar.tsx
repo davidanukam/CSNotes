@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BackButton } from "./BackButton";
 import { CopyMarkdownButton } from "./CopyMarkdownButton";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function TopBar({
   backHref,
@@ -17,6 +18,7 @@ export function TopBar({
       </Link>
       <div className="topbar-right">
         {markdown ? <CopyMarkdownButton markdown={markdown} /> : null}
+        <ThemeToggle />
       </div>
     </header>
   );
