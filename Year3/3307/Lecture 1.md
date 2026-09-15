@@ -481,4 +481,6 @@ int main() {
 
 ## FLEXIBILITY AND EXTENSIBILITY: OOP
 
-**Flexibility**: OOP uses tigh
+**Flexibility**: OOP uses tightly coupled systems so it is harder to change certain aspects without affecting others.
+
+**Extensibility**: However, because of 
