@@ -511,3 +511,4 @@ class Sqaure : public Shape {
 
 ## FLEXIBILITY AND EXTENSIBILITY: FUNCTIONAL PROGRAMMING
 
+**Flexibility**: This is obvious as each individual function can be modifiy
