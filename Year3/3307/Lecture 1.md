@@ -539,4 +539,10 @@ int main() {
 }
 ```
 
-## TYPICAL USE CAS
+## TYPICAL USE CASES
+
+### OOP
+Use OOP when you can map things to real-world entities
+- USer interfaces, games, and buisness systems (e.g.)
+
+### FUNCTIONAL PROGRAMMING
