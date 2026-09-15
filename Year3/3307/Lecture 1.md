@@ -385,7 +385,8 @@ So In the banking example (Check the [Example of Functional Programming](#Exampl
 
 ## MODULARITY AND REUSE: OOP
 
-Reuse is 
+Reuse is basically just having reusable classes.
+Modularity is basically just inheritance and polymorphism (this means that new functionality is created by extending existing classes)
 
 ## MODULARITY AND REUSE: FUNCTIONAL PROGRAMMING
 

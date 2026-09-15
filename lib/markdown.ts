@@ -67,6 +67,7 @@ export function rewriteMarkdown(markdown: string, noteDirUrl: string): string {
     ) {
       return full.replace(url, `#${headingIdFromFragment(trimmed)}`);
     }
+
     if (bang === "!" && !decoded.startsWith("/")) {
       const next = `${noteDirUrl}/${decoded}`.replace(/\\/g, "/");
       return full.replace(url, encodePath(next));
