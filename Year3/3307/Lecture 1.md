@@ -374,6 +374,6 @@ They can also interact with other objects and modify the states of them.
 
 This means that the state of the program evolves over time.
 
-(Check the [Example of OOP:](#example-of-opp-:))
+(Check the [Example of OOP:](#example-of-opp))
 ## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
 
