@@ -440,9 +440,11 @@ We will talk more about **Encapsulation** in [Lecture 2](Lecture%202.md)!!! YAY 
 
 **Abstraction**: Focuses on **WHAT** an object does by exposing their behavior through pubic methods
 
-Lets use an example:
+Lets use some examples:
 
-- **Abstraction**: When you press the gas pedal to move forward in a car, you do not need to know *HOW* the fuel injectors, spark plugs, or transmission gears operate. All you need to know is that pressing this pedal makes you go vroom vroom.
 - **Encapsulation**: The components of a cars engine are safely sealed under the hood (enCAPsulated). The internal wires and pistons cannot be touched or rewired directly from the driver's seat. This means that you must interact with them safely via designated controls.
+- **Abstraction**: When you press the gas pedal to move forward in a car, you do not need to know *HOW* the fuel injectors, spark plugs, or transmission gears operate. All you need to know is that pressing this pedal makes you go vroom vroom.
 
-## ABSTRACTION AND ENCAPSULATION: FUNCTIONAL 
+## ABSTRACTION AND ENCAPSULATION: FUNCTIONAL PROGRAMMING
+
+**Encapsulation**: Is not relied on at all!
