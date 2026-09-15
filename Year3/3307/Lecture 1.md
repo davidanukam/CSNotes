@@ -449,4 +449,9 @@ Lets use some examples:
 
 **Encapsulation**: Is not relied on at all! (Because there are no objects that have any data to hide 🤷)
 
-**Abstraction**: Focuses on **WHAT** a function
+**Abstraction**: Focuses on **WHAT** a function does rather than **HOW** it does that. This can be done through the use of:
+- high-order functions
+- function composition
+- pure functions
+... all of which we will get to sometime soon 😭
+
