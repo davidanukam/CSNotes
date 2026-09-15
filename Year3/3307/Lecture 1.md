@@ -405,7 +405,7 @@ using namespace std;
 
 // A function that adds two numbers
 int add(int a, int b) {
-	return a + b; 
+	return a + b;
 }
 
 // A function that takes two numbers and another function as input
@@ -461,15 +461,16 @@ using namespace std;
 
 // A function to double a number
 int doubleNumber(int x) {
-	return x * 2; 
+	return x * 2;
 }
 
-// A function that takes two numbers and another function as input
-int applyFunction(int x, int y, int (*func)(int, int)) {
-	return func(x, y); // Call the passed function with x and y
+// A function to square a number
+int squareNumber(int x) {
+	return x * x;
 }
 
 int main() {
+	int m
 	int result = applyFunction(5, 3, add); // Pass the 'add' function as an argument
 	cout << "Result: " << result << endl; // Output: Result: 8
 	return 0;
