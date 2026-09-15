@@ -436,9 +436,11 @@ In Functional Programming, concurrency is easier to manage due to the immutable 
 
 We will talk more about **Encapsulation** in [Lecture 2](Lecture%202.md)!!! YAY SO FUN!!! 😑
 
+**Encapsulation**: 
+
 **Abstraction**: Objects hide their internal state and only expose their behavior through pubic methods
 
 Lets use an example:
 
 - Abstraction: When you press the gas pedal to move forward in a car, you do not need to know *HOW* the fuel injectors, spark plugs, or transmission gears operate. All you need to know is that pressing this pedal makes you go vroom vroom.
-- Encapsulation: The components of the cars engine are safely sealed under the hood. The internal wires and pistons cannot be touched or re
+- Encapsulation: The components of the cars engine are safely sealed under the hood. The internal wires and pistons cannot be touched or rewired directly form the driver's seat. This means that you must interact with them safely via designate controls.
