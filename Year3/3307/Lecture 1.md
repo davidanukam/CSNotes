@@ -455,3 +455,23 @@ Lets use some examples:
 - pure functions
 ... all of which we will get to sometime soon 😭
 
+```cpp
+#include <iostream>
+using namespace std;
+
+// A function to double a number
+int doubleNumber(int x) {
+	return x * 2; 
+}
+
+// A function that takes two numbers and another function as input
+int applyFunction(int x, int y, int (*func)(int, int)) {
+	return func(x, y); // Call the passed function with x and y
+}
+
+int main() {
+	int result = applyFunction(5, 3, add); // Pass the 'add' function as an argument
+	cout << "Result: " << result << endl; // Output: Result: 8
+	return 0;
+}
+```
