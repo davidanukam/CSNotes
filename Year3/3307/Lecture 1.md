@@ -424,4 +424,10 @@ int main() {
 
 In OOP, concurrency can be complex because of the shared mutable states of an object
 
-This raises issues like race conditions, deadlocks, and makes it hard to debug.
+This raises issues like **race conditions**, **deadlocks**, and makes it hard to debug.
+
+To manage concurrent access, you can use mechanisms like **locks** or **synchronization**.
+
+## CONCURRENCY: FUNCTIONAL PROGRAMMING
+
+In Functional Programming, concurrency is e
