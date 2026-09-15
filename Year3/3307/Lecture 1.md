@@ -142,7 +142,7 @@ Figure out how the objects connect and interact with each other.
 	- If that house object gets destroyed, then all of the rooms within it also get destroyed)
 4. **Inheritance:** An “is-a” relationship (e.g., an `Admin` IS a `User`)
 
-Lets see some **Relationship** example:
+Lets see some **Relationship** examples:
 
 We'll use a `Car` class and a `Wheel` class!
 
@@ -241,6 +241,53 @@ int main {
 }
 ```
 
+**Inheritance** Code Example:
+
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Car {
+private:
+    string type = "N/A";
+
+public:
+	Car() {
+        cout << "I am a Car!" << endl;
+    }
+
+    void showName() {
+        cout << "> Type: " << type << endl;
+    }
+};
+
+class Ford : public Car {
+private:
+    string type = "Ford";
+
+public:
+	Ford() {
+        cout << "> I am a Ford!" << endl;
+    }
+
+    void showName() {
+        cout << "> Type: " << type << endl;
+    }
+};
+
+int main() {
+    Car c;
+    c.showName();
+
+    cout << endl;
+
+    Ford f;
+    f.showName();
+}
+```
+
 Example of OOP:
 
 ```cpp
@@ -286,7 +333,7 @@ the reason why this is OOP is because you don’t change the balance directly, y
 
 ## FUNCTIONAL PROGRAMMING:
 
-**Functional programming** is a programming style that basically focuses on PURE functions (functions that ALWAYS give the same output for the same input and don’t change anything else) and **immutability** (data is not changed after its created)
+**Functional programming** is a programming style that basically focuses on **PURE functions** (functions that ALWAYS give the same output for the same input and don’t change anything else) and **immutability** (data is not changed after its created)
 
 ```cpp
 #include <iostream>
