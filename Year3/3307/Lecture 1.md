@@ -191,7 +191,7 @@ int main() {
 	Wheel w4("back", "right");
 
 	Car c(w1, w2, w3, w4);
-	c.showWheelInfo()
+	c.showWheelInfo();
 }
 ```
 
@@ -217,7 +217,7 @@ public:
 int main {
 	Car c;
 	
-	c.showWheelInfo()
+	c.showWheelInfo();
 }
 ```
 
