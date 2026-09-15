@@ -167,7 +167,7 @@ private:
 	Wheel &back_right_wheel;
 
 public:
-	Car(Wheel fl, Wheel fr, Wheel bl, Wheel br) : front_left_wheel(flw) {}
+	Car(Wheel &flw, Wheel &frw, Wheel &blw, Wheel &brw) : front_left_wheel(flw), front_right_wheel(frw), back_left_wheel(blw), back_right_wheel(brw) {}
 };
 
 int main() {
@@ -176,7 +176,7 @@ int main() {
 	Wheel blw("back", "left");
 	Wheel brw("back", "right");
 
-	Car c;
+	Car c(flw, frw, blw, brw);
 }
 ```
 
