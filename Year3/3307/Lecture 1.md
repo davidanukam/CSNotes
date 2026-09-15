@@ -544,6 +544,7 @@ int main() {
 ### OOP
 Use OOP when you can map things to real-world entities
 - User interfaces, games, and business systems (e.g., payroll, inventory management)
-And also when it is critical to manage state and model entities with attributes and behaviors systems 
+And also when it is critical to manage state and model entities with attributes and behaviors inside of systems 
 
 ### FUNCTIONAL PROGRAMMING
+Use Functional Programming when you want to transform data, perform scientific computing, and concurrent processing
