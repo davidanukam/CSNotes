@@ -368,4 +368,9 @@ int main() {
 
 In OOP, objects maintain their internal state but can be modified by their methods.
 
-They can also interact and modify each other object'
+They can also interact with other objects and modify the states of them.
+
+This means that the state of the program evolves over time.
+
+## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
+
