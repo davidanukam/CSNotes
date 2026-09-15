@@ -481,6 +481,12 @@ int main() {
 
 ## FLEXIBILITY AND EXTENSIBILITY: OOP
 
-**Flexibility**: OOP uses tightly coupled systems so it is harder to change certain aspects without affecting others. However, 
+**Flexibility**: OOP uses tightly coupled systems so it is harder to change certain aspects without affecting others. However, they can still be flexible with the use of object hierarchies and class extensions (this can get more complex as the class hierarchy grows).
 
 **Extensibility**: However, because of inheritance and polymorphism, it is much easier to extend and modify objects and their behaviors.
+
+Example:
+
+```cpp
+
+```
