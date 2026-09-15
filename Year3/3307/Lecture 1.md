@@ -377,7 +377,7 @@ This means that the state of the program evolves over time.
 (Check the [Example of OOP](#Example%20of%20OOP))
 ## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
 
-In Functional Programming, their is an emphasis on immutability meaning that data should not be changed once it is already created.
+In Functional Programming, there is an emphasis on **immutability** meaning that data should not be changed once it is already created.
 
 This means that you would create new data structures based on transformations.
 
@@ -385,9 +385,10 @@ So In the banking example (Check the [Example of Functional Programming](#Exampl
 
 ## MODULARITY AND REUSE: OOP
 
-Reuse is basically just having reusable classes.
-Modularity is basically just inheritance and polymorphism (this means that new functionality is created by extending existing classes)
+**Reuse** is basically just having reusable classes.
+
+**Modularity** is basically just inheritance and polymorphism (this means that new functionality is created by extending existing classes)
 
 ## MODULARITY AND REUSE: FUNCTIONAL PROGRAMMING
 
-R
+Reuse is basically just writing new pure reusable functions.
