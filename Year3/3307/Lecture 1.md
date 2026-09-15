@@ -393,3 +393,4 @@ So in the banking example (Check the [Example of Functional Programming](#Exampl
 
 **Reuse** is basically just writing new pure reusable functions.
 
+As for Modul
