@@ -156,6 +156,9 @@ private:
 
 public:
 	Wheel(string loc, string side) : loc(loc), side(side) {}
+	void showInfo() {
+		cout << loc << "-" << side << endl;
+	}
 };
 
 class Car {
