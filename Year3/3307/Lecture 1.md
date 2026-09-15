@@ -150,14 +150,18 @@ Figure out how the objects connect and interact with each other.
 using namespace std;
 
 class Wheel {
+private:
+	string loc;
+	string side;
+
 public:
-	Wheel(string )
+	Wheel(string loc, string side) : loc(loc), side(side) {}
 };
 
 class Car {
 private:
 	// each wheel is a reference to separately created wheel object
-	Wheel &front_left_wheel;
+	Wheel &front_left_wheel("front", "left");
 	Wheel &front_right_wheel;
 	Wheel &back_left_wheel;
 	Wheel &back_right_wheel;
