@@ -149,12 +149,32 @@ private:
 	Wheel back_right_wheel;
 
 public:
-	
+	Car() {}
 }
 ```
 
 3. **Composition:** A **strong** "has-a" relationship where the parts cannot exist independently of the whole. (e.g., A `House` has a bunch of `Room` objects but if that house object gets destroyed, then all of the rooms within it also get destroyed)
 4. **Inheritance:** An “is-a” relationship (e.g., an `Admin` IS a `User`)
+
+Aggre
+
+Composition:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Car {
+private:
+	Wheel front_left_wheel;
+	Wheel front_right_wheel;
+	Wheel back_left_wheel;
+	Wheel back_right_wheel;
+
+public:
+	Car() {}
+}
+```
 
 Example of OOP:
 
