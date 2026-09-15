@@ -552,4 +552,6 @@ Use Functional Programming when you want to transform data, perform scientific c
 
 ## OBJECT-ORIENTED APPROACH VS FUNCTIONAL PROGRAMMING
 
-| Fe
+| Feature | Object-Oriented Approach | Functional Programming |
+| ------- | ------------------------ | ---------------------- |
+|         |                          |                        |
