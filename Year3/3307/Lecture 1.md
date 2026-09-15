@@ -142,11 +142,9 @@ Figure out how the objects connect and interact with each other.
 	- If that house object gets destroyed, then all of the rooms within it also get destroyed)
 4. **Inheritance:** An “is-a” relationship (e.g., an `Admin` IS a `User`)
 
-Lets see some Relationship example:
+Lets see some **Relationship** example:
 
-We'll use a `Car` class and a `Wheel` class
-
-**Aggregation** Code Example:
+We'll use a `Car` class and a `Wheel` class!
 
 ```cpp
 #include <iostream>
@@ -164,7 +162,11 @@ public:
 		cout << loc << "-" << side << endl;
 	}
 };
+```
 
+**Aggregation** Code Example:
+
+```cpp
 class Car {
 private:
 	// each wheel is a reference to separately created wheel object
@@ -181,7 +183,7 @@ public:
 };
 
 int main() {
-	Wheel flw("front", "left");
+	Wheel w1("front", "left");
 	Wheel frw("front", "right");
 	Wheel blw("back", "left");
 	Wheel brw("back", "right");
