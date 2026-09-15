@@ -543,6 +543,7 @@ int main() {
 
 ### OOP
 Use OOP when you can map things to real-world entities
-- USer interfaces, games, and buisness systems (e.g.)
+- User interfaces, games, and business systems (e.g., payroll, inventory management)
+And also when it is critical to manage state and model entities with attributes and behaviors systems 
 
 ### FUNCTIONAL PROGRAMMING
