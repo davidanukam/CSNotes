@@ -1,5 +1,34 @@
-# CSNotes
-All Notes to help you ACE Computer Science at Western University
+<div align="center">
+
+  <img src="CSNotesLogo.png" alt="logo" width="200" height="auto" />
+
+  <h1><a href="https://cs-notes-uwo.vercel.app/" target="_blank">CSNotes</a></h1>
+
+  <p>
+    All Notes to help you ACE Computer Science at Western University
+  </p>
+
+  <p>
+    <a href="https://github.com/davidanukam/CSNotes/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/davidanukam/CSNotes" alt="contributors" />
+    </a>
+    <a href="">
+        <img src="https://img.shields.io/github/last-commit/davidanukam/CSNotes" alt="last update" />
+    </a>
+    <a href="https://github.com/davidanukam/CSNotes/network/members">
+        <img src="https://img.shields.io/github/forks/davidanukam/CSNotes" alt="forks" />
+    </a>
+    <a href="https://github.com/davidanukam/CSNotes/stargazers">
+        <img src="https://img.shields.io/github/stars/davidanukam/CSNotes" alt="stars" />
+    </a>
+    <a href="https://github.com/davidanukam/CSNotes/issues/">
+        <img src="https://img.shields.io/github/issues/davidanukam/CSNotes" alt="open issues" />
+    </a>
+    <a href="https://github.com/davidanukam/CSNotes/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/davidanukam/CSNotes" alt="license" />
+    </a>
+  </p>
+</div
 
 ## Year 1
 I will add this during my free time :)
@@ -11,7 +40,7 @@ I will add this during my free time :)
 - [2214 - Discrete Structures for Computing](Year2/2214)
 
 ## Year 3
-- [3000 - Introduction to Machine Learning](Year3/3000) 
+- [3000 - Introduction to Machine Learning](Year3/3000)
 - [3307 - Object Oriented Design and Analysis](Year3/3307)
 - [3331 - Theory of Computing](Year3/3331)
 - [3350 - Computer Organization](Year3/3350)
@@ -21,34 +50,8 @@ Coming Soon
 
 ---
 
-## Opening these notes in Obsidian
-
-This repository is meant to live **inside** an Obsidian vault, not *be* the vault.
-
-Obsidian stores vault settings in a `.obsidian/` folder. That folder should sit **outside** the git repo so it is not committed. To get that layout:
-
-1. Create a parent folder (the name can be anything — `CSNotes`, `WesternNotes`, etc.).
-2. Clone your fork **into** that folder, so git lives one level down.
-3. In Obsidian, **Open folder as vault** on the **parent** folder — not the cloned repo.
-
-```bash
-mkdir WesternNotes
-cd WesternNotes
-git clone https://github.com/<your-username>/CSNotes.git
-```
-
-That should look like this:
-
-```
-WesternNotes/                 ← open THIS folder as your Obsidian vault
-├── .obsidian/                ← created by Obsidian; do not put this in git
-└── CSNotes/                  ← the cloned repo (this is where .git lives)
-    ├── .git/
-    ├── README.md
-    └── Year2/
-```
-
-**Do not** open the inner `CSNotes` folder (the one that contains `.git`) as a new vault. If you do, Obsidian will create `.obsidian/` inside the repo, mix vault settings with the notes, and the intended layout will break.
+## Setup
+See [Setup Guide](SETUP.md) for all the help you need!
 
 ---
 
