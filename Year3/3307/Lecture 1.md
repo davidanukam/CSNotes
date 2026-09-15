@@ -396,5 +396,8 @@ So in the banking example (Check the [Example of Functional Programming](#Exampl
 As for **Modularity**, functions can be combined, passed as arguments, or returned as values (higher-order functions).
 
 ```cpp
-#
+#include <iostream>
+using namespace std;
+
+// A function that adds two 
 ```
