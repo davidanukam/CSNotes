@@ -430,4 +430,5 @@ To manage concurrent access, you can use mechanisms like **locks** or **synchron
 
 ## CONCURRENCY: FUNCTIONAL PROGRAMMING
 
-In Functional Programming, concurrency is e
+In Functional Programming, concurrency is easier to manage due to the immutable data and how multiple functions can operate on it without interference.
+
