@@ -134,8 +134,8 @@ Figure out how the objects connect and interact with each other.
 
 **Relationship types:**
 
-1. **Association:** Objects know about each other (e.g., a `Customer` AND an `Order` know about )
-2. **Aggregation:** A “has-a” relationship where one object contains others (e.g., an `Order` CONTAINS multiple `Product` objects)
+1. **Association:** Objects know about each other (e.g., a `Student` AND an `Course`) - A student registers for a course and a course teaches students, but neither owns or depends on the other's existence.
+2. **Aggregation:** A “has-a” relationship where one object contains others (e.g., an `Department` HAS multiple `Product` objects)
 3. **Inheritance:** An “is-a” relationship (e.g., an `Admin` IS a `User`)
 
 Example of OOP:
