@@ -1,7 +1,6 @@
 import GithubSlugger, { slug as githubSlug } from "github-slugger";
 import type { Heading } from "./content";
 
-/** Turn an Obsidian-style heading hash (`#The%20Landscape`) into the site id (`the-landscape`). */
 export function headingIdFromFragment(fragment: string): string {
   const raw = fragment.startsWith("#") ? fragment.slice(1) : fragment;
   let text = raw;
@@ -47,9 +46,27 @@ export function extractHeadings(markdown: string): Heading[] {
 export function rewriteMarkdown(markdown: string, noteDirUrl: string): string {
   return markdown.replace(/(!?)\[[^\]]*\]\(([^)]+)\)/g, (full, bang, url) => {
     const trimmed = url.trim();
-    if (/^(https?:|mailto:|data:|#)/i.test(trimmed)) return full;
+    if (/^(https?:|mailto:|data:)/i.test(trimmed)) return full;
 
-    const decoded = decodeURIComponent(trimmed);
+    if (trimmed.startsWith("#")) {
+      return full.replace(url, `#${headingIdFromFragment(trimmed)}`);
+    }
+
+    let decoded = trimmed;
+    try {
+      decoded = decodeURIComponent(trimmed);
+    } catch {
+      decoded = trimmed;
+    }
+
+    if (
+      bang !== "!" &&
+      !decoded.includes("/") &&
+      !decoded.toLowerCase().endsWith(".md") &&
+      /%[0-9A-Fa-f]{2}/.test(trimmed)
+    ) {
+      return full.replace(url, `#${headingIdFromFragment(trimmed)}`);
+    }
     if (bang === "!" && !decoded.startsWith("/")) {
       const next = `${noteDirUrl}/${decoded}`.replace(/\\/g, "/");
       return full.replace(url, encodePath(next));

@@ -381,4 +381,4 @@ In Functional Programming, their is an emphasis on immutability meaning that dat
 
 This means that you would create new data structures based on transformations.
 
-So In the () you always return a new account balance
+So In the banking example (Check the [Example of Functional Programming](#Example%20of%20Functional Programming)) you always return a new account balance after each transaction rather than modifying the existing one
