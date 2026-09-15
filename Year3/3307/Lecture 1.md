@@ -548,5 +548,8 @@ And also when it is critical to manage state and model entities with attributes 
 
 ### FUNCTIONAL PROGRAMMING
 Use Functional Programming when you want to transform data, perform scientific computing, and process things concurrently
-- Web apps, reactive systems, and where immutability is crucial.
-- 
+- Web apps, reactive systems, and where immutability is crucial
+
+## OBJECT-ORIENTED APPROACH VS FUNCTIONAL PROGRAMMING
+
+| Fe
