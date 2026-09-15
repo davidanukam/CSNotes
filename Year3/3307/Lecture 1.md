@@ -488,5 +488,13 @@ int main() {
 Example:
 
 ```cpp
+#include <iostream>
+
+using namespace std;
+
+class Shape {
+	virtual void draw() = 0; // Abstract method
+}
+
 
 ```
