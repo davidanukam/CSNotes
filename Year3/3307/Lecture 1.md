@@ -171,6 +171,9 @@ private:
 
 public:
 	Car(Wheel &flw, Wheel &frw, Wheel &blw, Wheel &brw) : front_left_wheel(flw), front_right_wheel(frw), back_left_wheel(blw), back_right_wheel(brw) {}
+	void showWheelInfo() {
+		cout << "flw: " << front_left_wheel.showInfo();
+	}
 };
 
 int main() {
