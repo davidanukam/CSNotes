@@ -515,4 +515,6 @@ class Sqaure : public Shape {
 - pass them as arguments to other functions
 - return them form functions
 - assign them to variables
-- store them in da
+- store them in data structures (like arrays, lists, etc.)
+
+**Extensibility**: This is where **composability** comes in. We can combine small functions to build more complex behaviors
