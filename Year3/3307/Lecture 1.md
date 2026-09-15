@@ -520,3 +520,22 @@ class Sqaure : public Shape {
 **Extensibility**: This is where **composability** comes in. We can combine small functions to build more complex behaviors (e.g.,
 `int result = squareNumber(doubleNumber(x))`)
 
+Example:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+void drawShape(void (*drawFunc)()) {
+    drawFunc(); // Call the passed function to draw
+}
+
+int main() {
+    drawShape([]() { cout << "Drawing Circle" << endl; });
+    drawShape([]() { cout << "Drawing Square" << endl; });
+
+    return 0;
+}
+```
+
