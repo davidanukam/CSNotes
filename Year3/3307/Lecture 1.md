@@ -148,7 +148,8 @@ We'll use a `Car` class and a `Wheel` class!
 
 ```cpp
 #include <iostream>
-#inlcude <string>
+#include <string>
+
 using namespace std;
 
 class Wheel {
