@@ -508,3 +508,6 @@ class Sqaure : public Shape {
 	}
 };
 ```
+
+## FLEXIBILITY AND EXTENSIBILITY: FUNCTIONAL PROGRAMMING
+
