@@ -158,6 +158,7 @@ private:
 
 public:
 	Wheel(string loc, string side) : loc(loc), side(side) {}
+	
 	void showInfo() {
 		cout << loc << "-" << side << endl;
 	}
@@ -170,13 +171,14 @@ public:
 class Car {
 private:
 	// each wheel is a reference to separately created wheel object
-	Wheel &front_left_wheel;
-	Wheel &front_right_wheel;
-	Wheel &back_left_wheel;
-	Wheel &back_right_wheel;
+	Wheel &flw; // front left wheel
+	Wheel &frw; // front right wheel
+	Wheel &blw; // back left wheel
+	Wheel &brw; // back right wheel
 
 public:
 	Car(Wheel &flw, Wheel &frw, Wheel &blw, Wheel &brw) : front_left_wheel(flw), front_right_wheel(frw), back_left_wheel(blw), back_right_wheel(brw) {}
+	
 	void showWheelInfo() {
 		cout << "Wheel 1: " << front_left_wheel.showInfo() << "\n" << "Wheel 2: " << front_right_wheel.showInfo() << "\n" << "Wheel 3: " << back_left_wheel.showInfo() << "\n" << "Wheel 4: " << back_right_wheel.showInfo() << endl;
 	}
@@ -184,11 +186,11 @@ public:
 
 int main() {
 	Wheel w1("front", "left");
-	Wheel frw("front", "right");
-	Wheel blw("back", "left");
-	Wheel brw("back", "right");
+	Wheel w2("front", "right");
+	Wheel w3("back", "left");
+	Wheel w4("back", "right");
 
-	Car c(flw, frw, blw, brw);
+	Car c(w1, w2, w3, w4);
 }
 ```
 
