@@ -399,5 +399,10 @@ As for **Modularity**, functions can be combined, passed as arguments, or return
 #include <iostream>
 using namespace std;
 
-// A function that adds two 
+// A function that adds two numbers
+int add(int a, int b) {
+	return a + b; 
+}
+
+// A function that takes two numbers and anotehr function as inp
 ```
