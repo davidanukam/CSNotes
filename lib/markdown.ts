@@ -1,5 +1,17 @@
-import GithubSlugger from "github-slugger";
+import GithubSlugger, { slug as githubSlug } from "github-slugger";
 import type { Heading } from "./content";
+
+/** Turn an Obsidian-style heading hash (`#The%20Landscape`) into the site id (`the-landscape`). */
+export function headingIdFromFragment(fragment: string): string {
+  const raw = fragment.startsWith("#") ? fragment.slice(1) : fragment;
+  let text = raw;
+  try {
+    text = decodeURIComponent(raw.replace(/\+/g, " "));
+  } catch {
+    /* keep the raw fragment */
+  }
+  return githubSlug(text);
+}
 
 export function extractHeadings(markdown: string): Heading[] {
   const slugger = new GithubSlugger();

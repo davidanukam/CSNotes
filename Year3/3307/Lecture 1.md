@@ -377,4 +377,8 @@ This means that the state of the program evolves over time.
 (Check the [Example of OOP](#Example%20of%20OOP))
 ## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
 
-In Functional Programming, their is an emphasis on immutability meaning that data should not be changed once it is al
+In Functional Programming, their is an emphasis on immutability meaning that data should not be changed once it is already created.
+
+This means that you would create new data structures based on transformations.
+
+So In the () you always return a new account balance
