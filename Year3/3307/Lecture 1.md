@@ -169,6 +169,10 @@ private:
 public:
 	Car() {}
 };
+
+int main() {
+	
+}
 ```
 
 **Composition** Code Example:
@@ -188,7 +192,7 @@ public:
 
 class Car {
 private:
-	// each wheel i to separately created wheel object
+	// each wheel belongs to the car object that is created
 	Wheel front_left_wheel("front", "left");
 	Wheel front_right_wheel("front", "right");
 	Wheel back_left_wheel("back", "left");
