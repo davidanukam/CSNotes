@@ -494,7 +494,17 @@ using namespace std;
 
 class Shape {
 	virtual void draw() = 0; // Abstract method
-}
+};
 
+class Circle : public Shape {
+	void draw() override {
+		cout << "Drawing Circle" << endl;
+	}
+};
 
+class Sqaure : public Shape {
+	void draw() override {
+		cout << "Drawing Square" << endl;
+	}
+};
 ```
