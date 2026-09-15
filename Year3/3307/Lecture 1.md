@@ -404,5 +404,8 @@ int add(int a, int b) {
 	return a + b; 
 }
 
-// A function that takes two numbers and anotehr function as inp
+// A function that takes two numbers and another function as input
+int applyFunction(int x, int y, int (*func)(int, int)) {
+	return func(x, y); // Call the passed function with x and y
+}
 ```
