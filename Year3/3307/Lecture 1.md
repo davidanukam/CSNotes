@@ -203,6 +203,7 @@ int main() {
 
 	Car c(w1, w2, w3, w4);
 	c.showWheelInfo();
+	return 0;
 }
 ```
 
@@ -238,6 +239,7 @@ public:
 int main {
 	Car c;
 	c.showWheelInfo();
+	return 0;
 }
 ```
 
@@ -285,6 +287,7 @@ int main() {
 
     Ford f;
     f.showName();
+    return 0;
 }
 ```
 
@@ -326,6 +329,7 @@ int main() {
 	myAccount.withdraw(30); 
 	
 	cout << "Final balance: $" << myAccount.getBalance() << endl;
+	return 0;
 }
 ```
 
@@ -412,5 +416,6 @@ int applyFunction(int x, int y, int (*func)(int, int)) {
 int main() {
 	int result = applyFunction(5, 3, add); // Pass the 'add' function as an argument
 	cout << "Result: " << result << endl; // Output: Result: 8
+	return 0;
 }
 ```
