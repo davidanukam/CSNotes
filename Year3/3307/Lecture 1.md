@@ -212,10 +212,10 @@ int main() {
 class Car {
 private:
 	// each wheel belongs to the car object that is created
-	Wheel flw("front", "left");
-	Wheel frw("front", "right");
-	Wheel blw("back", "left");
-	Wheel brw("back", "right");
+	Wheel flw = Wheel("front", "left");
+	Wheel frw = Wheel("front", "right");
+	Wheel blw = Wheel("back", "left");
+	Wheel brw = Wheel("back", "right");
 
 public:
 	Car() {}
@@ -237,7 +237,6 @@ public:
 
 int main {
 	Car c;
-	
 	c.showWheelInfo();
 }
 ```
