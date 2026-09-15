@@ -552,10 +552,12 @@ Use Functional Programming when you want to transform data, perform scientific c
 
 ## OBJECT-ORIENTED APPROACH VS FUNCTIONAL PROGRAMMING
 
-| Feature          | Object-Oriented Approach       | Functional Programming               |
-| ---------------- | ------------------------------ | ------------------------------------ |
-| Focus            | Objects (data + behavior)      | Functions (transformation of data)   |
-| State Management | Mutable state within objects   | Immutable state, new data structures |
-| Modularity       | Classes and object heirarchies | Functions and composition            |
-| Concurrency      | Complex due to mutable state   | Easier with immutability             |
-| Abstraction      | Objects encapsulate stag       |                                      |
+| Feature           | Object-Oriented Approach               | Functional Programming                       |
+| ----------------- | -------------------------------------- | -------------------------------------------- |
+| Focus             | Objects (data + behavior)              | Functions (transformation of data)           |
+| State Management  | Mutable state within objects           | Immutable state, new data structures         |
+| Modularity        | Classes and object heirarchies         | Functions and composition                    |
+| Concurrency       | Complex due to mutable state           | Easier with immutability                     |
+| Abstraction       | Objects encapsulate state and behavior | Functions abstract operations                |
+| Reuse             | Inheritance, polymorphism              | Higher-order functions, function composition |
+| Typical Use Cases |                                        |                                              |
