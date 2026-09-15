@@ -447,4 +447,6 @@ Lets use some examples:
 
 ## ABSTRACTION AND ENCAPSULATION: FUNCTIONAL PROGRAMMING
 
-**Encapsulation**: Is not relied on at all!
+**Encapsulation**: Is not relied on at all! (Because there are no objects that have any data to hide 🤷)
+
+**Abstraction**: Focuses on **WHAT** a function
