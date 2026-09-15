@@ -547,4 +547,6 @@ Use OOP when you can map things to real-world entities
 And also when it is critical to manage state and model entities with attributes and behaviors inside of systems 
 
 ### FUNCTIONAL PROGRAMMING
-Use Functional Programming when you want to transform data, perform scientific computing, and concurrent processing
+Use Functional Programming when you want to transform data, perform scientific computing, and process things concurrently
+- Web apps, reactive systems, and where immutability is crucial.
+- 
