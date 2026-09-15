@@ -481,3 +481,4 @@ int main() {
 
 ## FLEXIBILITY AND EXTENSIBILITY: OOP
 
+**Flexibility**: OOP uses tigh
