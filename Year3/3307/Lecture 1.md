@@ -517,6 +517,6 @@ class Sqaure : public Shape {
 - assign them to variables
 - store them in data structures (like arrays, lists, etc.)
 
-**Extensibility**: This is where **composability** comes in. We can combine small functions to build more complex behaviors (e.g., 	`
+**Extensibility**: This is where **composability** comes in. We can combine small functions to build more complex behaviors (e.g.,
 `int result = squareNumber(doubleNumber(x))`)
 
