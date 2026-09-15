@@ -434,6 +434,6 @@ In Functional Programming, concurrency is easier to manage due to the immutable 
 
 ## ABSTRACTION AND ENCAPSULATION: OOP
 
-We will talk more about Encapsulation in [Lecture 2](Lecture%202.md)!!! YAY SO FUN!!! 😑
+We will talk more about **Encapsulation** in [Lecture 2](Lecture%202.md)!!! YAY SO FUN!!! 😑
 
-Abstraction: Objects hide thei
+**Abstraction**: Objects hide their internal state and only expose their behavior through pubic methods
