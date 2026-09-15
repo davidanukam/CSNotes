@@ -181,8 +181,18 @@ public:
 	Car(Wheel &w1, Wheel &w2, Wheel &w3, Wheel &w4) : flw(w1), frw(w2), blw(w3), brw(w4) {}
 	
 	void showWheelInfo() {
-		cout << "Wheel 1: " << flw.showInfo() << "\n" << "Wheel 2: " << frw.showInfo() << "\n" << "Wheel 3: " << blw.showInfo() << "\n" << "Wheel 4: " << brw.showInfo() << endl;
-	}
+        cout << "Wheel 1: ";
+        flw.showInfo();
+
+        cout << "Wheel 2: ";
+        frw.showInfo();
+
+        cout << "Wheel 3: ";
+        blw.showInfo();
+
+        cout << "Wheel 4: ";
+        brw.showInfo();
+    }
 };
 
 int main() {
@@ -211,8 +221,18 @@ public:
 	Car() {}
 	
 	void showWheelInfo() {
-		cout << "Wheel 1: " << flw.showInfo() << "\n" << "Wheel 2: " << frw.showInfo() << "\n" << "Wheel 3: " << blw.showInfo() << "\n" << "Wheel 4: " << brw.showInfo() << endl;
-	}
+        cout << "Wheel 1: ";
+        flw.showInfo();
+
+        cout << "Wheel 2: ";
+        frw.showInfo();
+
+        cout << "Wheel 3: ";
+        blw.showInfo();
+
+        cout << "Wheel 4: ";
+        brw.showInfo();
+    }
 }
 
 int main {
