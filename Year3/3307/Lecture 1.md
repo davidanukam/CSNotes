@@ -393,4 +393,5 @@ So in the banking example (Check the [Example of Functional Programming](#Exampl
 
 **Reuse** is basically just writing new pure reusable functions.
 
-As for Modul
+As for **Modularity**, functions can be combined, passed as arguments, or returned as values (higher-order functions).
+
