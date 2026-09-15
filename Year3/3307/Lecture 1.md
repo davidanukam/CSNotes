@@ -119,7 +119,7 @@ How do we identify these objects?
 
 Look at how the problem domain (e.g., online shopping) and find the key nouns. These are your potential objects
 
-- So, for an online store, objects could be Customer, Product, Order, ShoppingCart, etc.
+- So, for an online store, objects could be `Customer`, `Product`, `Order`, `ShoppingCart`, etc.
 
 **Define attributes and methods:**
 
@@ -150,7 +150,7 @@ using namespace std;
 
 class Car {
 private:
-	// each wheel is a reference to  
+	// each wheel is a reference to created wheel object
 	Wheel &front_left_wheel;
 	Wheel &front_right_wheel;
 	Wheel &back_left_wheel;
