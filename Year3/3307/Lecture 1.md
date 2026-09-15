@@ -177,10 +177,10 @@ private:
 	Wheel &brw; // back right wheel
 
 public:
-	Car(Wheel &flw, Wheel &frw, Wheel &blw, Wheel &brw) : front_left_wheel(flw), front_right_wheel(frw), back_left_wheel(blw), back_right_wheel(brw) {}
+	Car(Wheel &w1, Wheel &w2, Wheel &w3, Wheel &w4) : flw(w1), frw(w2), blw(w3), brw(w4) {}
 	
 	void showWheelInfo() {
-		cout << "Wheel 1: " << front_left_wheel.showInfo() << "\n" << "Wheel 2: " << front_right_wheel.showInfo() << "\n" << "Wheel 3: " << back_left_wheel.showInfo() << "\n" << "Wheel 4: " << back_right_wheel.showInfo() << endl;
+		cout << "Wheel 1: " << flw.showInfo() << "\n" << "Wheel 2: " << frw.showInfo() << "\n" << "Wheel 3: " << blw.showInfo() << "\n" << "Wheel 4: " << brw.showInfo() << endl;
 	}
 };
 
@@ -197,18 +197,6 @@ int main() {
 **Composition** Code Example:
 
 ```cpp
-#include <iostream>
-using namespace std;
-
-class Wheel {
-private:
-	string loc;
-	string side;
-
-public:
-	Wheel(string loc, string side) : loc(loc), side(side) {}
-};
-
 class Car {
 private:
 	// each wheel belongs to the car object that is created
