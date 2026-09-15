@@ -513,7 +513,7 @@ class Sqaure : public Shape {
 
 **Flexibility**: This is obvious as each individual function can be modified and treated as first-class citizens. Meaning you can:
 - pass them as arguments to other functions
-- return them form functions
+- return them from functions
 - assign them to variables
 - store them in data structures (like arrays, lists, etc.)
 
@@ -539,3 +539,4 @@ int main() {
 }
 ```
 
+## TYPICAL USE CAS
