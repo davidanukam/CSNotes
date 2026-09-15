@@ -288,7 +288,7 @@ int main() {
 }
 ```
 
-### Example of OOP
+### Example of OOP:
 
 ```cpp
 #include <iostream>
@@ -374,6 +374,6 @@ They can also interact with other objects and modify the states of them.
 
 This means that the state of the program evolves over time.
 
-(Check the [Example of OOP](#Example%20of%20OPP))
+(Check the [Example of OOP](#Example%20of%20OOP))
 ## STATE AND MUTABILITY: FUNCTIONAL PROGRAMMING
 
