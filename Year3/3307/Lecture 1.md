@@ -470,9 +470,10 @@ int squareNumber(int x) {
 }
 
 int main() {
-	int m
-	int result = applyFunction(5, 3, add); // Pass the 'add' function as an argument
-	cout << "Result: " << result << endl; // Output: Result: 8
+	int x = 5;
+	
+	int result = squareNumber(doubleNumber(x)); // First 5 * 2 = 10, then 10 * 10 = 100
+	cout << "Result: " << result << endl; // Output: Result: 100
 	return 0;
 }
 ```
