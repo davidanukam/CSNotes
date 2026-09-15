@@ -422,3 +422,6 @@ int main() {
 
 ## CONCURRENCY: OOP
 
+In OOP, concurrency can be complex because of the shared mutable states of an object
+
+This raises issues like race conditions, deadlocks, and makes it hard to debug.
