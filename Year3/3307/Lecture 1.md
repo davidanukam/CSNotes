@@ -472,8 +472,11 @@ int squareNumber(int x) {
 int main() {
 	int x = 5;
 	
+	// Compose functions: first double the number, then square it
 	int result = squareNumber(doubleNumber(x)); // First 5 * 2 = 10, then 10 * 10 = 100
 	cout << "Result: " << result << endl; // Output: Result: 100
 	return 0;
 }
 ```
+
+## FLEXI
