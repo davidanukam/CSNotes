@@ -138,10 +138,11 @@ Figure out how the objects connect and interact with each other.
 	- A student registers for a course and a course teaches students, but neither owns or depends on the other's existence.
 2. **Aggregation:** A **weak** “has-a” relationship where one object contains others (e.g., an `Department` HAS multiple `Professors` objects or a `Car` HAS multiple `Wheel` objects)
 	- If the department were to close down, the professors still continue to exist.
-3. **Composition:** A **strong** "has-a" relationship where the parts cannot exist independently of the whole. (e.g., A `House` has a bunch of `Room` objects)If that house object gets destroyed, then all of the rooms within it also get destroyed)
+3. **Composition:** A **strong** "has-a" relationship where the parts cannot exist independently of the whole. (e.g., A `House` has a bunch of `Room` objects)
+	- If that house object gets destroyed, then all of the rooms within it also get destroyed)
 4. **Inheritance:** An “is-a” relationship (e.g., an `Admin` IS a `User`)
 
-Aggregation:
+**Aggregation** Code Example:
 
 ```cpp
 #include <iostream>
@@ -159,7 +160,7 @@ public:
 }
 ```
 
-Composition:
+**Composition** Code Example:
 
 ```cpp
 #include <iostream>
