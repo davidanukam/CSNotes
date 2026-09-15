@@ -366,3 +366,6 @@ int main() {
 
 ## STATE AND MUTABILITY: OOP
 
+In OOP, objects maintain their internal state but can be modified by their methods.
+
+They can also interact and modify each other object'
