@@ -408,4 +408,9 @@ int add(int a, int b) {
 int applyFunction(int x, int y, int (*func)(int, int)) {
 	return func(x, y); // Call the passed function with x and y
 }
+
+int main() {
+	int result = applyFunction(5, 3, add); // Pass the 'add' function as an argument
+	cout << "Result: " << result << endl; // Output: Result: 8
+}
 ```
