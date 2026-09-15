@@ -161,16 +161,22 @@ public:
 class Car {
 private:
 	// each wheel is a reference to separately created wheel object
-	Wheel &front_left_wheel("front", "left");
-	Wheel &front_right_wheel("front", "right");
-	Wheel &back_left_wheel("back", "left");
-	Wheel &back_right_wheel("back", "right");
+	Wheel &front_left_wheel;
+	Wheel &front_right_wheel;
+	Wheel &back_left_wheel;
+	Wheel &back_right_wheel;
 
 public:
 	Car() {}
 };
 
 int main() {
+	Wheel fl("front", "left");
+	Wheel fr("front", "right");
+	Wheel bl("back", "left");
+	Wheel br("back", "right");
+
+	Car c;
 	
 }
 ```
