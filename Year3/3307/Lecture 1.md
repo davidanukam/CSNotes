@@ -63,7 +63,7 @@ protected:
 };
 ```
 
-An **Interface** is a class that ONLY has pure virtual functions (and a virtual destructor). It defines what a class MUST do, but not how.
+An **Interface** is a class that **ONLY** has **pure virtual functions** (and a **virtual destructor**). It defines what a class MUST do, but not how.
 
 ```cpp
 class IShape {
