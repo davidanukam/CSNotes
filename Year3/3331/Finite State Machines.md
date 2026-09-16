@@ -158,4 +158,10 @@ Drawing TBA (58)
 
 Slides 59 - 61
 
-## Simulating a
+## Simulating a NDFSM
+
+Include formula
+
+Example:
+
+Drawing TBA
