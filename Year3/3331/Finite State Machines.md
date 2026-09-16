@@ -31,3 +31,11 @@ Theorem: Every DFSM M, on input s, halts in |s| steps.
 Example:
 
 ![[Pasted image 20260916115502.png]]
+
+## Regular Languages
+
+A language is regular iff it is accepted by some FSM.
+
+Example:
+
+$L = \{w \in \}$
