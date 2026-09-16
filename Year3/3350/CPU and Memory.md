@@ -270,6 +270,10 @@ However, this is quite hard to do:
 
 With multi-core processors, you need explicit parallel programming, meanwhile pipelining is implicit and hidden from the programmer
 
+### Reducing Power
+
+Suppose a new CPU loa
+
 ## BENCHMARKS AND PROFILING:
 
 How do you, as a programmer, have a practical measure of program performance
