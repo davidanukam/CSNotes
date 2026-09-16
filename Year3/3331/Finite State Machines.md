@@ -36,7 +36,9 @@ Example:
 
 A language is regular iff it is accepted by some FSM.
 
-Example:
+Examples:
 
-$L = \{w \in \{a, b\}^{*} : every a is immediately follow by a b\}$
+$L = \{w \in \{a, b\}^{*} : \text{every a is immediately follow by a b}\}$
+Drawing TBA
 
+$L = \{w \in \{0, 1\}^{*} : \text{w has odd parity}\}$
