@@ -4,12 +4,12 @@
 
 - States are switched by reading input symbols
 
-## DFSM:
+## DFSM (Deterministic Finite Automata):
 - K is  a **finite** set of states
 - $\Sigma$ is an alphabet
-- s \ in K is the initial state
-- A \subseteq K is the set of acceping (final) states
-- \delta is the transition function from (K x \Sigma) to K
+- $s \in K$ is the initial state
+- $A \subseteq K$ is the set of accepting (final) states
+- $\delta$ is the **transition function** from (K x \Sigma) to K
 
 \delta: K x \Sigma -> K
-delta(p, q) = q : 
+delta(p, a) = q : p -> ^{1} q
