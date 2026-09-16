@@ -154,3 +154,6 @@ You can do this in 2 ways:
 
 Drawing TBA (58)
 
+## Dealing with Epsilon Transitions
+
+Slides 
