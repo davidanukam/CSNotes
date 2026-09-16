@@ -71,3 +71,8 @@ Drawing TBA
 Therefore, DFSMs are complete since their transition functions are always complete (So any missing transitions lead to the "dead" state - even if it is not shown for clarity)
 
 ## Programming FSMs
+
+In this example we want to cluster strings that share a "future"
+
+$L = \{w \in \{a, b\}^{*} : \text{w contains an even number of a's and an odd number of b's}\}$
+Drawing TBA
