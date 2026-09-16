@@ -453,6 +453,7 @@ Lets use some examples:
 - high-order functions
 - function composition
 - pure functions
+
 ... all of which we will get to sometime soon 😭
 
 ```cpp
