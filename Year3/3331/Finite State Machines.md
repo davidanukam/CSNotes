@@ -106,3 +106,6 @@ Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently
 - $A \subseteq K$ is the set of **accepting states**
 - $\Delta$ is the **transition relation**. It is a **finite subset** of $(K \times (\Sigma \cup \{\epsilon\})) \times K$
 
+### Accepting by an NDFSM:
+- Basically M **accepts** a string w iff there exists some path along which w drives M to some element of A.
+- The **language** accepted by M, **L(M)**, is the set of all strings **accepted** by M.
