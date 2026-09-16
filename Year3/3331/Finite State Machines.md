@@ -7,9 +7,9 @@
 - Final state has two circles around it
 
 ## DFSM (Deterministic Finite Automata):
-- K is  a **finite** set of states
-- $\Sigma$ is an alphabet
-- $s \in K$ is the initial state
+- K is  a **finite** set of **states**
+- $\Sigma$ is an **alphabet**
+- $s \in K$ is the **initial state**
 - $A \subseteq K$ is the set of accepting (final) states
 - $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
 
@@ -96,6 +96,12 @@ Drawing TBA
 Let $\Sigma = \{a, b, c, d\}$
 Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
 
-Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a NDFSM (Non-deterministic FSM) is easier.
+Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a [NDFSM](#NDFSM%20(Non-Deterministic%20Finite%20State%20Machine)) (Non-deterministic FSM) is easier.
 
-## NDFSM (Non-Deterministic Finite State )
+## NDFSM (Non-Deterministic Finite State Machine)
+
+- K is  a **finite** set of **states**
+- $\Sigma$ is an alphabet
+- $s \in K$ is the initial state
+- $A \subseteq K$ is the set of accepting (final) states
+- $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
