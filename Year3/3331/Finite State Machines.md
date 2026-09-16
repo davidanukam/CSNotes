@@ -94,6 +94,8 @@ Drawing TBA
 
 ### The Missing Letter Language
 Let $\Sigma = \{a, b, c, d\}$
-Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in w}\}$
+Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
 
-Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult.
+Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a NDFSM (Non-deterministic FSM) is easier.
+
+## NDFSM (Non-Deterministic Finite State )
