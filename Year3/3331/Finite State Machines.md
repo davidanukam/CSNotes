@@ -83,5 +83,12 @@ Drawing TBA
 $L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
 - It is easier to construct the DFA for $L = \{w \in \{a, b\}^{*} : \text{w contains aab}\}$
 - So start with $\not L$ and complement it
-How to complement:
-- Flip 
+
+$\not L$:
+Drawing TBA
+### How to complement:
+Just flip the **accepting** and **rejecting** states
+
+L:
+Drawing TBA
+
