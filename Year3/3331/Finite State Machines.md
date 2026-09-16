@@ -165,3 +165,10 @@ Include formula
 Example:
 
 Drawing TBA
+
+## NDFSM and DFSM
+
+So clearly: 
+
+> Theorem 5.3:
+> For each NDF
