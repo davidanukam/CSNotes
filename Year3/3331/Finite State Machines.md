@@ -42,3 +42,8 @@ $L = \{w \in \{a, b\}^{*} : \text{every a is immediately follow by a b}\}$
 Drawing TBA
 
 $L = \{w \in \{0, 1\}^{*} : \text{w has odd parity}\}$
+Drawing TBA
+
+$L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
+Drawing TBA
+
