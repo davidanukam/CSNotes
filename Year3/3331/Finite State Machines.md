@@ -17,4 +17,5 @@ $\delta: K \times \Sigma \rightarrow K$
 $\delta(p, a) = q : p \frac{a}{\rightarrow} q$
 
 Accepting by a DFSM
-- Basically when you read the string w iff reading M ends at the final state then the string w is accepted, elsse 
+- Basically when you read the string w *iff* reading M ends at the final state then the string w is accepted, else it is rejected.
+- The language accepted 
