@@ -58,3 +58,7 @@ So basically a iff relationship
 ---
 
 $L = \{w \in \{a, b\}^{*} : \text{no two consecutive characters are the same}\}$
+Drawing TBA
+
+$L = \{w \in \{a, b\}^{*} : \text{every a region in w is of even length}\}$
+Drawing TBA
