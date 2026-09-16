@@ -47,3 +47,6 @@ Drawing TBA
 $L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
 Drawing TBA
 
+**When the starting state IS the final state, then that means you are accepting $\epsilon$**
+
+**This also means that \epsilon is in t
