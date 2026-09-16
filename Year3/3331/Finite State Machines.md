@@ -94,6 +94,6 @@ Drawing TBA
 
 ### The Missing Letter Language
 Let $\Sigma = \{a, b, c, d\}$
-Let 
+Let $L_{\text{Missing}} = \{w : \text{there is a symbol a_i \in \Sigma not appearing in w\}$
 
-Trying to make a DFSm for L_{\text{Misisng}} is super difficult.
+Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult.
