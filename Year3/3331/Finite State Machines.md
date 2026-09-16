@@ -26,6 +26,8 @@ TBA
 ### Symbols Example
 TBA
 
-Theorem: Every DFSM M, 
+Theorem: Every DFSM M, on input s, halts in |s| steps.
 
+Example:
 
+![[Pasted image 20260916115502.png]]
