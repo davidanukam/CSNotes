@@ -201,7 +201,7 @@ int remainder = a % b; // returns the remainder of 5/2 which is 1
 
 **Assignment operators** either return true or false
 
-![image.png](attachment:80ffdfb9-f446-41c0-aba7-3c155777b075:image.png)
+![OperatorExampleTable](assets/OperatorExampleTable.png)
 
 example:
 
