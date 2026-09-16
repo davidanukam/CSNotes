@@ -80,3 +80,5 @@ Drawing TBA
 $L = \{w \in \{a - z\}^{*} : \text{all five vowels, a, e, i, o, and u, occur in w in alphabetical order}\}$
 Drawing TBA
 
+$L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
+- It is easier to construct the DFA for $L = \{w \in \{a, b\}^{*} : \text{no two consecutive characters are the same}\}$
