@@ -10,7 +10,7 @@
 - K is  a **finite** set of **states**
 - $\Sigma$ is an **alphabet**
 - $s \in K$ is the **initial state**
-- $A \subseteq K$ is the set of accepting (final) states
+- $A \subseteq K$ is the set of **accepting (final) states**
 - $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
 
 $\delta: K \times \Sigma \rightarrow K$
@@ -101,7 +101,7 @@ Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently
 ## NDFSM (Non-Deterministic Finite State Machine)
 
 - K is  a **finite** set of **states**
-- $\Sigma$ is an alphabet
-- $s \in K$ is the initial state
-- $A \subseteq K$ is the set of accepting (final) states
-- $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
+- $\Sigma$ is an **alphabet**
+- $s \in K$ is the **initial state**
+- $A \subseteq K$ is the set of **accepting states**
+- $\Delta$ is the **transition relation**. It is a **finite subset** of ($K \times \Sigma$) to $K$
