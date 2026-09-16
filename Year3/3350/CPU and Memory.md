@@ -276,7 +276,7 @@ Suppose a new CPU has:
 - 85% of capacitive load of old CPU
 - 15% voltage and 15% frequency reduction
 
-$\frac{P_{\text{new}}}{P_{\text{old}}$
+$\frac{P_new}{P_old} = \frac{2}{3}$
 
 ## BENCHMARKS AND PROFILING:
 
