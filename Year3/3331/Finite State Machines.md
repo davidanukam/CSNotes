@@ -98,6 +98,8 @@ Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ 
 
 Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a [NDFSM](#NDFSM%20(Non-Deterministic%20Finite%20State%20Machine)) (Non-deterministic FSM) is easier.
 
+See [The Missing Letter Language NDFSM](#The%20Missing%20Letter%20Language%20NDFSM)
+
 ## NDFSM (Non-Deterministic Finite State Machine)
 
 - K is  a **finite** set of **states**
@@ -126,10 +128,11 @@ $L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
 
 Drawing TBA
 
-### The Missing Letter Language
+### The Missing Letter Language NDFSM
 Let $\Sigma = \{a, b, c, d\}$
 Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
 
 Now it is easier:
 
 Drawing TBA (48)
+
