@@ -175,6 +175,7 @@ So clearly: $\{\text{}\} \subseteq \{\text{}\}$
 > For each NDFSM, there is an equivalent DFSM
 
 NFA: Easy to Build
+
 DFA: Easy to Use
 
 **So build an NFA FIRST, and then make it an DFA**
