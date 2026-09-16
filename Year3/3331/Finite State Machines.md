@@ -115,3 +115,11 @@ Drawing TBA (43)
 	- So if all are rejecting then you reject w (w is NOT in L(M))
 - The **language** accepted by M, **L(M)**, is the set of all strings **accepted** by M.
 
+### Optional Substrings
+
+$L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa followed by zero or more b's}\}$
+Drawing TBA
+
+$L = \{w \in \{a, b\}^{*} : \text{w = aba or 
+
+}\}$
