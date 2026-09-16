@@ -9,7 +9,7 @@
 - $\Sigma$ is an alphabet
 - $s \in K$ is the initial state
 - $A \subseteq K$ is the set of accepting (final) states
-- $\delta$ is the **transition function** from (K x \Sigma) to K
+- $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
 
-\delta: K x \Sigma -> K
+$\delta: K \times \Sigma \rightarrow K$
 delta(p, a) = q : p -> ^{1} q
