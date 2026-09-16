@@ -120,6 +120,6 @@ Drawing TBA (43)
 $L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa followed by zero or more b's}\}$
 Drawing TBA
 
-$L = \{w \in \{a, b\}^{*} : \text{w = aba or 
+$L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
+> For **or**, split the branch/path and use $\epsilon$ as the or is inclusive or.
 
-}\}$
