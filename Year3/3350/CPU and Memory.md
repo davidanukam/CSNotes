@@ -272,7 +272,11 @@ With multi-core processors, you need explicit parallel programming, meanwhile pi
 
 ### Reducing Power
 
-Suppose a new CPU loa
+Suppose a new CPU has:
+- 85% of capacitive load of old CPU
+- 15% voltage and 15% frequency reduction
+
+$\frac{P_{\text{new}}}{P_{\text{old}}$
 
 ## BENCHMARKS AND PROFILING:
 
