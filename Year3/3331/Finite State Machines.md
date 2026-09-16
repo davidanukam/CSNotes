@@ -144,4 +144,9 @@ Drawing TBA
 Using an NDFSM:
 Drawing TBA
 
-## A
+## Analyzing Nondeterministic FSMs
+
+You can do this in 2 ways:
+
+- Explore a search tree
+- Follow all paths in parallel
