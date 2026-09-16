@@ -136,4 +136,11 @@ Now it is easier:
 
 Drawing TBA (48)
 
-$L = \{w \in \{a, b, c\}^{*} : \exists x, y \in \{a, b, c\}^{*} (\text{w = x abcabb y})\}$
+$L = \{w \in \{a, b, c\}^{*} : \exists x, y \in \{a, b, c\}^{*} \ (\text{w = x abcabb y})\}$
+
+Using a DFSM:
+Drawing TBA
+
+Using an NDFSM:
+Drawing TBA
+
