@@ -19,6 +19,7 @@ $\delta(p, a) = q : p \frac{a}{\rightarrow} q$
 ### Accepting by a DFSM:
 - Basically when you read the string w *iff* reading M ends at the final state then the string w is accepted, else it is rejected.
 - The **language** accepted by M, **L(M)**, is the set of all strings **accepted** by M.
+- Also no $\epsilon$ transitions and no choice
 
 ### Drawing Example
 TBA
@@ -176,4 +177,5 @@ So clearly: $\{\text{}\} \subseteq \{\text{}\}$
 NFA: Easy to Build
 DFA: Easy to Use
 
-> So build an NFA FIRST, and then make it an DFA
+**So build an NFA FIRST, and then make it an DFA**
+
