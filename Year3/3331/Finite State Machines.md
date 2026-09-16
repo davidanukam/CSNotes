@@ -3,7 +3,8 @@
 ![[Pasted image 20260916113815.png]]
 
 - States are switched by reading input symbols
-- Initial state has the arrow 
+- Initial state has the arrow pointing to it
+- Final state has two circles around it
 
 ## DFSM (Deterministic Finite Automata):
 - K is  a **finite** set of states
