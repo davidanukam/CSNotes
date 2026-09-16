@@ -1,10 +1,10 @@
 ## The 5 parts
 
-1. [The Landscape](#The%20Landscape)
-2. [The 3 Learning Paradigms](#The%203%20Learning%20Paradigms)
-3. [From Data to a Result You Trust](#From%20Data%20to%20a%20Result%20You%20Trust)
-4. [Linear Regression, Your First Model](#Linear%20Regression,%20Your%20First%20Model)
-5. [Finding the Best Line](Finding%20the%20Best%20Line)
+1. [The Landscape](#the-landscape)
+2. [The 3 Learning Paradigms](#the-3-learning-paradigms)
+3. [From Data to a Result You Trust](#from-data-to-a-result-you-trust)
+4. [Linear Regression, Your First Model](#linear-regression,-your-first-model)
+5. [Finding the Best Line](#finding-the-best-line)
 
 > Remember **Part 3** the most: Every model in this course drops into the same seven stages, and the two places students lose marks are both in there: how the data was split, and what the reported number is allowed to be.
 
@@ -31,28 +31,35 @@ conda create -n ds3000
 
 ## The Landscape
 
-### Goal:
-
+### Question
 **Artificial intelligence**, **machine learning**, and **deep learning** get used interchangeably. What does each one actually mean, and why did the middle one take off when it did?
 
+### Goal
+Place the three terms correctly inside one another, state the three ingredients every machine learning problem needs, and say what a model is really searching for.
+
+---
 ### Big data, and where it actually came from
 
 Most of the time, data that is recorded is not designed to become a dataset. This is why there are missing fields, wrong units, and incorrect labels.
 
 For example:
- - (Coffee example)
 
+![BuyingACoffeeExample](assets/BuyingACoffeeExample.png)
+
+![HowOtherDataIsUsedExample](assets/HowOtherDataIsUsedExample.png)
+
+---
 ### Too much to read by hand
 
 To process all of that data (the coffee data collected in the last example) it would be inefficient to read all of the lines in the file.
 
 So there are three solutions:
 
-1. **Look at less of it:**
+1. **Look at less of it**:
 	- Only read a sample of a thousand rows (Your chosen sample might not contain enough fraud cases or none at all)
-2. **Write the rules by hand:**
+2. **Write the rules by hand**:
 	- You are told what a fraud case looks like and you code it as so (if the world changes then what a fraud looks like might change, thus, rendering your code useless)
-3. **Have a machine find the rules:**
+3. **Have a machine find the rules**:
 	- Show the machine the answers you already know (the fraud and non-frauds cases) and let it figure out what separates them.
 	- This course answers **How?**
 
@@ -75,6 +82,7 @@ Machine Learning took a while to take off because of the state of data and hardw
 
 Most of the mathematics behind machine learning was published before 1920 but there wasn't enough stored data to fit a model and the hardware was not fast enough to fit it.
 
+---
 ### What every machine learning problem needs
 
 1. **Input data** (Something measurable about each case, in a form a program can read)
@@ -83,19 +91,22 @@ Most of the mathematics behind machine learning was published before 1920 but th
 
 For example:
 
-- **Speech recognition:**
-	- A few thousand numbers describing one slice of sound
-	- What a human typist heard in that slice
-	- How many characters the transcript got wrong
-- **Tomorrow's power demand:**
-	- The outside temperature that day, in degrees Celsius
-	- The power actually drawn that day, in megawatt hours
-	- How far the prediction landed from the real demand
+**Speech recognition**:
+- A few thousand numbers describing one slice of sound
+- What a human typist heard in that slice
+- How many characters the transcript got wrong
+
+**Tomorrow's power demand**:
+- The outside temperature that day, in degrees Celsius
+- The power actually drawn that day, in megawatt hours
+- How far the prediction landed from the real demand
 
 > Focus on the third one (A measure of wrong). A program that has no way to prefer one answer over another cannot get better at anything.
 > Choosing that measure is a modeling decision which we will get to later.
 
 PCA (Check it out later)
+
+---
 #### Learning is a search for better coordinates
 
 Learning finds the parameters of a mapping that sends the inputs into a space where the classes separate.
@@ -112,3 +123,100 @@ This is the learned mapping ("Distance form the center" was chosen by a human wh
 
 Working out the mapping from the data is what the *learning* in **deep learning** refers to and why those models need far more data than anything here.
 
+### Where this is already deployed
+
+![MachineLearningApplicationExamples](assets/MachineLearningApplicationExamples.png)
+
+> Every one of these examples has the same **shape**.
+> Something measurable goes in, and one answer, that was learned from the examples, comes out.
+
+### What a dataset actually is
+
+A dataset is basically just a table that can have three parts.
+
+![DatasetExample](assets/DatasetExample.png)
+
+**Feature**: The data that you are given
+
+**Label**: The outcome/result that you want
+
+A **Feature column** is sometimes called: attribute, predictor, covariate, independent variable, or input
+
+A **Label column** is sometimes called: target, response, outcome, dependent variable, or ground truth
+
+A **Row** is sometimes called: instance, observation, example, sample, or record
+
+## The 3 Learning Paradigms
+
+### Question
+What can you still learn when a label column is missing or when the only feedback you ever get is a score that arrives after the decision?
+
+### Goal
+Sort a new problem into supervised, unsupervised or reinforcement learning, and say what its data would have to look like.
+
+### Supervised Learning
+
+> **The data contains Feature columns AND Labeled columns**
+
+Think of the question being: **"Predict something given this data"**
+
+![SupervisedLearningTableExample](assets/SupervisedLearningTableExample.png)
+
+We have **2 categories**:
+
+#### **Regression**
+
+(See [Linear Regression Code Example](examples/LinearRegression/linear_regression.ipynb))
+
+![RegressionExample](assets/RegressionExample.png)
+
+#### **Classification**
+
+![ClassificationExample](assets/ClassificationExample.png)
+
+### Unsupervised Learning
+
+> **The data only contains Feature columns**
+
+Think of the question being: **"What is already a part of this data"**
+
+![UnsupervisedLearningTableExample](assets/UnsupervisedLearningTableExample.png)
+
+We have **2 categories**:
+
+#### **Clustering**
+
+![ClusteringExample](assets/ClusteringExample.png)
+
+With no label columns (the expected outputs), how do we know that the model learned correctly and produced the right groups?
+
+Well... we don't 😭 the algorithm returns 3 groups regardless and it takes a domain expert to judge them.
+
+#### **Dimensionality reduction**
+
+![DimensionalityReductionExample](assets/DimensionalityReductionExample.png)
+
+This is **NOT** the same as reshaping a column (transformation).
+
+**Transformation**: A log makes a skewed feature look more normal and the table keeps every column.
+
+**Reduction**: deletes columns (it changes **p**)
+### Reinforcement Learning
+
+> **There is no dataset at all**
+
+Here instead of a dataset, we have an **Agent** (the robot) and an **Environment** (the maze).
+
+The Agent learns from its own experiences so each row is created by the looping of the action and the returned new state (+ reward).
+
+**![StateActionRewardExample](assets/StateActionRewardExample.png)**
+
+**NOT TALKED ABOUT IN THIS COURSE SO LOWKEY IGNORE IT!!!**
+
+## From Data to a Result You Trust
+
+### Question
+What actually happens between opening a data file and reporting a number you would stand behind and which of those steps is the one that quietly ruins it?
+
+### Goal
+Walk a project through seven stages, split a dataset three ways for the right reason, and say why a test score stops being honest the moment you tune against it.
