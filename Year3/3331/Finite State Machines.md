@@ -156,4 +156,6 @@ Drawing TBA (58)
 
 ## Dealing with Epsilon Transitions
 
-Slides 
+Slides 59 - 61
+
+## Simulating a
