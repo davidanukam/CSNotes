@@ -155,7 +155,7 @@ if (age >= 18) {
 
 Half of this shit is the same as C so I’m gonna briefly go over it im not giving long examples brah
 
-![image.png](attachment:b255fb65-1bdc-4a46-ba12-e8cf769ea351:image.png)
+![DataTypesExampleTable](assets/DataTypesExampleTable.png)
 
 To **declare** a variable, you do something like this:
 
