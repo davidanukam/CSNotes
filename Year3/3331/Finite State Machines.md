@@ -3,4 +3,9 @@
 ![[Pasted image 20260916113815.png]]
 
 - States are switched by reading input symbols
-- 
+
+## DFSM:
+- K is  a **finite** set of states
+- $\Sigma$ is an alphabet
+- s \ in K is the initial state
+- A \subseteq K is the set of acceping (final) states 
