@@ -57,3 +57,4 @@ So basically a iff relationship
 
 ---
 
+$L = \{w \in \{a, b\}^{*} : \text{no two consecutive characters are the same}\}$
