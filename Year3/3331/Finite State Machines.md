@@ -104,5 +104,5 @@ Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently
 - $\Sigma$ is an **alphabet**
 - $s \in K$ is the **initial state**
 - $A \subseteq K$ is the set of **accepting states**
-- $\Delta$ is the **transition relation**. It is a **finite subset** of ($K \times \Sigma ) \times K$
+- $\Delta$ is the **transition relation**. It is a **finite subset** of $(K \times (\Sigma \cup \{\epsilon\})) \times K$
 - 
