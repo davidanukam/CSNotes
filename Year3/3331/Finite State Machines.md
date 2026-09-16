@@ -38,4 +38,5 @@ A language is regular iff it is accepted by some FSM.
 
 Example:
 
-$L = \{w \in \}$
+$L = \{w \in \{a, b\}^{*} : every a is immediately follow by a b\}$
+
