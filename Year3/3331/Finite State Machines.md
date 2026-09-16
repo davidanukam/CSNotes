@@ -68,4 +68,6 @@ Drawing TBA
 
 ---
 
-Therefore, DFSMs are complete since their transition functions are always com
+Therefore, DFSMs are complete since their transition functions are always complete (So any missing transitions lead to the "dead" state - even if it is not shown for clarity)
+
+## Programming FSMs
