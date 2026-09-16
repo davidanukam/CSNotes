@@ -66,3 +66,6 @@ Drawing TBA
 $L = \{w \in \{a, b\}^{*} : \text{every b in w is surrounded by a's}\}$
 Drawing TBA
 
+---
+
+Therefore, DFSMs are complete since their transition functions are always com
