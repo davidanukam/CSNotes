@@ -250,6 +250,14 @@ Depending on the architect’s design goals they may want to look at metrics dif
 
 Obviously, the more power we use on our CPU, the hotter it’s going to get. And the more power we use on it, our battery life is going to decrease
 
+### Reducing Power
+
+Suppose a new CPU has:
+- 85% of capacitive load of old CPU
+- 15% voltage and 15% frequency reduction
+
+$\frac{P_new}{P_old} = \frac{2}{3}$ (finish formula)
+
 **THE POWER WALL**
 
 - We simply cannot consume any more power to get more performance
@@ -269,14 +277,6 @@ However, this is quite hard to do:
 - you have to take thread management, load balancing and all of the sorts into consideration which is hard to control
 
 With multi-core processors, you need explicit parallel programming, meanwhile pipelining is implicit and hidden from the programmer
-
-### Reducing Power
-
-Suppose a new CPU has:
-- 85% of capacitive load of old CPU
-- 15% voltage and 15% frequency reduction
-
-$\frac{P_new}{P_old} = \frac{2}{3}$
 
 ## BENCHMARKS AND PROFILING:
 
