@@ -92,3 +92,8 @@ Just flip the **accepting** and **rejecting** states
 L:
 Drawing TBA
 
+### The Missing Letter Language
+Let $\Sigma = \{a, b, c, d\}$
+Let 
+
+Trying to make a DFSm for L_{\text{Misisng}} is super difficult.
