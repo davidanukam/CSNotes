@@ -121,5 +121,15 @@ $L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa f
 Drawing TBA
 
 $L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
-> For **or**, split the branch/path and use $\epsilon$ as the or is inclusive or.
 
+> For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the or is inclusive or.
+
+Drawing TBA
+
+### The Missing Letter Language
+Let $\Sigma = \{a, b, c, d\}$
+Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
+
+Now it is easier:
+
+Drawing TBA (48)
