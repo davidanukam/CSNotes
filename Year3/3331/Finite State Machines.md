@@ -168,7 +168,8 @@ Drawing TBA
 
 ## NDFSM and DFSM
 
-So clearly: 
+So clearly: $\{\text{}\} \subseteq \{\text{}\}$
 
 > Theorem 5.3:
-> For each NDF
+> For each NDFSM, there is an equivalent DFSM
+
