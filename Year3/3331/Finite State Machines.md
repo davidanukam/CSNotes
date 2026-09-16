@@ -108,5 +108,6 @@ Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently
 
 ### Accepting by an NDFSM:
 - Basically M **accepts** a string w *iff* there exists some path along which w drives M to some element of A.
-	- In English, w is accepted if it moves the initia
+	- In English, w is accepted if it moves the initial state to literally any of the possible accepting states? (fact check)
 - The **language** accepted by M, **L(M)**, is the set of all strings **accepted** by M.
+
