@@ -31,7 +31,7 @@ TBA from prof example notes
 
 Example:
 
-![[Pasted image 20260916115502.png]]
+![FSMToAcceptOddIntegers](assets/FSMToAcceptOddIntegers.png)
 
 ## Regular Languages
 
@@ -44,7 +44,8 @@ $L = \{w \in \{a, b\}^{*} : \text{every a is immediately follow by a b}\}$
 ![FSMExample1](assets/FSMExample1.png)
 
 $L = \{w \in \{0, 1\}^{*} : \text{w has odd parity}\}$
-Drawing TBA
+
+![]()
 
 $L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
 Drawing TBA
