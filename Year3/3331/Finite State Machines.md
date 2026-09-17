@@ -22,10 +22,10 @@ $\delta(p, a) = q : p \frac{a}{\rightarrow} q$
 - Also no $\epsilon$ transitions and no choice
 
 ### Drawing Example
-TBA
+TBA from prof notes
 
 ### Symbols Example
-TBA
+TBA from prof example
 
 Theorem: Every DFSM M, on input s, halts in |s| steps.
 
