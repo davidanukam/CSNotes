@@ -1,6 +1,6 @@
 ### Finite Automata (Finite memory/states)
 
-![[Pasted image 20260916113815.png]]
+![](Finite State Machine Example.png)
 
 - States are switched by reading input symbols
 - Initial state has the arrow pointing to it
