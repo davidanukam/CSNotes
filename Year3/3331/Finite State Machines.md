@@ -45,10 +45,11 @@ $L = \{w \in \{a, b\}^{*} : \text{every a is immediately follow by a b}\}$
 
 $L = \{w \in \{0, 1\}^{*} : \text{w has odd parity}\}$
 
-![]()
+![FSMExample2](assets/FSMExample2.png)
 
 $L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
-Drawing TBA
+
+![FSMExample3](assets/FSMExample3.png)
 
 ---
 
