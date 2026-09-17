@@ -35,7 +35,7 @@ Example:
 
 ## Regular Languages
 
-A **language** is **regular** *iff* it is accepted by some FSM**.**
+A **language** is **regular** *iff* it is accepted by some **FSM**.
 
 Examples:
 
