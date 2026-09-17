@@ -57,12 +57,13 @@ $L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
 
 **This also means that $\epsilon$ is accepting (in the language)
 
-So basically a iff relationship
+So basically a *iff* relationship
 
 ---
 
 $L = \{w \in \{a, b\}^{*} : \text{no two consecutive characters are the same}\}$
-Drawing TBA
+
+![FSMExample4](assets/FSMExample4.png)
 
 $L = \{w \in \{a, b\}^{*} : \text{every a region in w is of even length}\}$
 Drawing TBA
