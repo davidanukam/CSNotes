@@ -71,7 +71,7 @@ $L = \{w \in \{a, b\}^{*} : \text{every a region in w is of even length}\}$
 
 $L = \{w \in \{a, b\}^{*} : \text{every b in w is surrounded by a's}\}$
 
-
+![FSMExample6](assets/FSMExample6.png)
 
 ---
 
