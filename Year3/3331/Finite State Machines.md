@@ -40,7 +40,8 @@ A **language** is **regular** *iff* it is accepted by some **FSM**.
 Examples:
 
 $L = \{w \in \{a, b\}^{*} : \text{every a is immediately follow by a b}\}$
-Drawing TBA
+
+![FSMExample1](assets/FSMExample1.png)
 
 $L = \{w \in \{0, 1\}^{*} : \text{w has odd parity}\}$
 Drawing TBA
