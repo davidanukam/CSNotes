@@ -22,12 +22,12 @@ $\delta(p, a) = q : p \frac{a}{\rightarrow} q$
 - Also no $\epsilon$ transitions and no choice
 
 ### Drawing Example
-TBA from prof notes
+TBA from prof example notes
 
 ### Symbols Example
-TBA from prof example
+TBA from prof example notes
 
-Theorem: Every DFSM M, on input s, halts in |s| steps.
+**Theorem**: Every DFSM M, on input s, halts in $|s|$ steps.
 
 Example:
 
@@ -35,7 +35,7 @@ Example:
 
 ## Regular Languages
 
-A language is regular iff it is accepted by some FSM.
+A **language** is **regular** *iff* it is accepted by some FSM**.**
 
 Examples:
 
