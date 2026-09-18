@@ -28,3 +28,4 @@ Block Offset:
 | 2   | 000...010 |
 | ... | ...       |
 | B-1 | ...       |
+Word Address: Viewing the main memory as a su of bytes
