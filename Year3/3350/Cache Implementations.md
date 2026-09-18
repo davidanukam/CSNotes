@@ -51,7 +51,9 @@ I'm kinda not getting this so I'll add a simple Explanation:
 
 $\underbrace{00000000}_{1 \ \text{Byte} \ = \ 8 \ \text{Bits}}$
 
-A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (N bytes)
+A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (*N* bytes).
+
+$\underbrace{\underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}$
 
 ## Types of Cache Organization
 
