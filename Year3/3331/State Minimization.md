@@ -35,4 +35,5 @@ Yes they are because the lengths of the strings will be the same so every time o
 
 ![[Pasted image 20260918114847.png]]
 
-No th
+No because (after adding the empty string to the end), one can be in the language while the other is not.
+
