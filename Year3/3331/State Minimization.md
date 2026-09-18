@@ -66,3 +66,5 @@ because x \equiv_{L} y
 
 so \therefore xa \equiv_{L} ya
 
+The number of states has to be at least the number of classes
+
