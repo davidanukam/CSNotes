@@ -49,8 +49,10 @@ N-way set associative (We use this most of the time)
 
 ![[Pasted image 20260918101658.png]]
 
-Underlined bits are the tag (so which line) and the non-underlined bits are the set (so which of the 4 sets to go to)
+High-Order B
+Underlined bits are the set (so which of the 4 sets to go to)
+Non-underlined bits are the set (so which line)
 
-
-Underlined bits are the tag (so which line) and the non-underlined bits are the set (so which of the 4 sets to go to)
+Underlined bits are the tag (so which line)
+Non-underlined bits are the set (so which of the 4 sets to go to)
 
