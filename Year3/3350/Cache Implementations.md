@@ -65,7 +65,7 @@ So to find the **Byte Address** (where this word is located in memory) we can mu
 
 So in this case (assuming the common 64-bit computer):
 - Lets say this word is at **Word Address** 16
-- We chose N = 8 because to get the size of a Word, you t
+- We chose N = 8 because to get the size of a Word, you take the M-bit computer and divide it by 8 (because again, 8 bits = 1 Byte) to get the number of Bytes a word has.
 
 Therefore the **Byte Address** = $N \times X = 8 \times 16 = 128$
 
