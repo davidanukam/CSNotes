@@ -13,16 +13,16 @@ We are going to answer these in this course
 ![[Pasted image 20260918095333.png]]
 
 - How do we get the exact location of the block (line) we need?
-	- First, use the set number (calculated from the address of the first byte)
+	- First, use the **set** number (calculated from the address of the first byte)
 	- Then, we can use the **tag** to find the exact location in the given set and the given line.
 
 ![[Pasted image 20260918095755.png]]
 
 ## Memory-Cache Mapping (Addressing Cache Memories)
 
+![[Pasted image 20260918105341.png]]
 
-
-Block Offset:
+**Block Offset**:
 
 | x   | y         |
 | --- | --------- |
@@ -31,9 +31,9 @@ Block Offset:
 | 2   | 000...010 |
 | ... | ...       |
 | B-1 | ...       |
-Word Address: Viewing the main memory as a su of bytes
+**Word Address**: Viewing the main memory as a su of bytes
 
-Byte Address:
+**Byte Address**:
 
 ![[Pasted image 20260918100656.png]]
 ## Types of Cache Organization
