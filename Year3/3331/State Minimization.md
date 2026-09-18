@@ -33,3 +33,6 @@ If $x$ and $y$ are indistinguishable, then we can merge $p$ and $q$ to get a min
 
 Yes they are because the lengths of the strings will be the same so every time one is odd it is not in the language and every time |w| is even then it is in the language.
 
+![[Pasted image 20260918114847.png]]
+
+No th
