@@ -49,4 +49,5 @@ N-way set associative (We use this most of the time)
 
 ![[Pasted image 20260918101658.png]]
 
-Underlined 
+Underlined bits are the tag (so which line) and the non-underlined bits are the set (so which of the 4 sets to go to)
+
