@@ -50,3 +50,7 @@ E.g.
 
 ![[Pasted image 20260918115142.png]]
 
+E.g.
+
+![[Pasted image 20260918115326.png]]
+
