@@ -35,7 +35,7 @@ Byte Address:
 ![[Pasted image 20260918100656.png]]
 ## Types of Cache Organization
 
-10/
+10/38
 
 Direct-Mapped
 
@@ -44,3 +44,4 @@ Fully Associative
 N-way set associative (We use this most of the time)
 - N is typically 2, 4, 8, or 16 (sometimes 32)
 - A memory block maps to a specific set but can be placed in any way of that set (so there are N choices of mapping).
+
