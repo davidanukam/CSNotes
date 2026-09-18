@@ -25,7 +25,8 @@ Given a language:
 - Describe and algorithm for finding that DFSM
 
 Indistinguishable (with respect to a language L):
-- tba
+- If, not matter what i
 
-If x and y and indistinguishable, then we can mege them
+If $x$ and $y$ are indistinguishable, then we can merge $p$ and $q$ to get a minimized DFSM.
+
 
