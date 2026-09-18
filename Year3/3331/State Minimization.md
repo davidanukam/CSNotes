@@ -20,5 +20,7 @@ Two problems:
 Lets focus on problem1 for now
 
 Given a language:
-- Capture the notion of equivalen
+- Capture the notion of equivalence classes of strings with respect to that language
+- Prove that we can always find a (unique up to state naming) deterministic FSM with a number of states equa to the number of equivalence classes of strings.
+- Describe and algorithm for finding th
 
