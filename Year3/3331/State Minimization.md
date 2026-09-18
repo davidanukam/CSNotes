@@ -64,9 +64,9 @@ $\delta : [x] \rightarrow^{a}[x, a]$
 e.g.
 $[x, y] \rightarrow^{a}[xa, ya]$
 
-because x \equiv_{L} y
+because $x \approx_{L} y$
 
-so \therefore xa \equiv_{L} ya
+so $\therefore xa \approx_{L} ya$
 
 The number of states has to be at least the number of classes
 
