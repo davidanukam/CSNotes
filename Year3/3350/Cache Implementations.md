@@ -28,7 +28,8 @@ The word contents begin at offset $<\text{block offset}>$ bytes from the beginni
 
 **Address Mapping**:
 
-block
+block address = $<\text{tag}> || <\text{set index}>$
+set # = 
 
 **Block Offset**:
 
