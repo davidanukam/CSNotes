@@ -29,3 +29,6 @@ Block Offset:
 | ... | ...       |
 | B-1 | ...       |
 Word Address: Viewing the main memory as a su of bytes
+
+## Types of Cache Organization
+
