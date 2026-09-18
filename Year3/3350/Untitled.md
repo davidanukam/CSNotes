@@ -35,8 +35,6 @@ Byte Address:
 ![[Pasted image 20260918100656.png]]
 ## Types of Cache Organization
 
-10/38
-
 **Direct-Mapped**:
 
 N = 1
@@ -44,14 +42,17 @@ N = 1
 - Each memory address is mapped to exactly one line in the cache
 - $b = log_2(B), N = C/B, s = 0, t = m - b$
 
-Fully Associative:
+**Fully Associative**:
 
 - R = 1 (allow a memory address to be mapped to any cache block)
-- Tag is whole address except block offes
+- Tag is whole address except block offset
+- $b = log_2(B), N = C/B, s = 0, t = m - b$
 
-N-way set associative (We use this most of the time)
+**N-way set associative (We use this most of the time**):
+
 - N is typically 2, 4, 8, or 16 (sometimes 32)
 - A memory block maps to a specific set but can be placed in any way of that set (so there are N choices of mapping).
+- $b = log_2(B), R = C/($
 
 ## Why Middle Bits For Set Index?
 
