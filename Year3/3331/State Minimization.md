@@ -24,5 +24,8 @@ Given a language:
 - Prove that we can always find a (unique up to state naming) deterministic FSM with a number of states equal to the number of equivalence classes of strings.
 - Describe and algorithm for finding that DFSM
 
-Indistinguishable with respect to 
+Indistinguishable (with respect to a language L):
+- tba
+
+If x and y and indistinguishable, then we can mege them
 
