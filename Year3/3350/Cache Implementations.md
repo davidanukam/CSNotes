@@ -49,6 +49,9 @@ set # = (block address) mod R
 
 Example:
 
+1 Byte = 8 bits
+
+$00000000$
 
 ## Types of Cache Organization
 
