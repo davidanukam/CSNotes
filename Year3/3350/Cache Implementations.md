@@ -57,9 +57,14 @@ e.g. *N* = 4 (1 Word = 4  Bytes):
 
 $\underbrace{\underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word}}$
 
-Okay so the Word in this example is a large number but that number could be whatever. We don't really care right now. All we want to know is *where* that word is in the Word Address.
+Okay so the **Word** in this example is equal to a large number but that number could be whatever (we don't really care right now).
 
-So to find the Word Address *X* for a Word with *N* Bytes we use the formula: $N \times X$
+All we want to know is *where* that word is in the **Word Address**.
+
+So to find the **Word Address** *X* for a **Word** with *N* **Bytes** we use the formula: $N \times X$
+
+So in this case, $N$
+
 ## Types of Cache Organization
 
 **Direct-Mapped**:
