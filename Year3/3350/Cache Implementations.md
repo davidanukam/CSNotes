@@ -51,7 +51,7 @@ Example:
 
 1 Byte = 8 bits
 
-$\underbrace{00000000}$
+$\underbrace{00000000}_{1 \text{Byte = 8 Bits}$
 
 ## Types of Cache Organization
 
