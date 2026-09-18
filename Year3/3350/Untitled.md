@@ -52,7 +52,7 @@ N = 1
 
 - N is typically 2, 4, 8, or 16 (sometimes 32)
 - A memory block maps to a specific set but can be placed in any way of that set (so there are N choices of mapping).
-- $b = log_2(B), R = C/($
+- $b = log_2(B), R = C/(B \times N), s = log_2(R), t = m - s- b$
 
 ## Why Middle Bits For Set Index?
 
@@ -68,3 +68,4 @@ Non-underlined bits are the set (so which line)
 Underlined bits are the tag (so which line)
 Non-underlined bits are the set (so which of the 4 sets to go to)
 
+**SO WE USE MIDDLE ORDER BIT INDEXING!!!**
