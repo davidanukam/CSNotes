@@ -49,9 +49,9 @@ set # = (block address) mod R
 
 Example:
 
-1 Byte = 8 bits
+$\underbrace{00000000}_{1 \ \text{Byte} \ = \ 8 \ \text{Bits}}$
 
-$\underbrace{00000000}_{1 \text{Byte = 8 Bits}$
+A **word** is a natural unit of data used by a processor, which often spans m
 
 ## Types of Cache Organization
 
