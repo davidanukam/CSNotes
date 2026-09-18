@@ -31,11 +31,11 @@ If $x$ and $y$ are indistinguishable, then we can merge $p$ and $q$ to get a min
 
 ![[Pasted image 20260918114655.png]]
 
-Yes they are because the lengths of the strings will be the same so every time one is odd it is not in the language and every time |w| is even then it is in the language.
+Yes, they are because the lengths of the strings will be the same so every time one is odd it is not in the language and every time |w| is even then it is in the language.
 
 ![[Pasted image 20260918114847.png]]
 
-No because (after adding the empty string to the end), one can be in the language while the other is not.
+No, because (after adding the empty string to the end), one can be in the language while the other is not.
 
 ## Equivalence Relation
 
@@ -55,7 +55,7 @@ E.g.
 
 ![[Pasted image 20260918115326.png]]
 
-Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in L are the **Accepting States**. The rest are the 
+Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in L are the **Accepting States**. The rest are the non-accepting states and the dead states.
 
 ## The Best We Can Do is also Unique
 
@@ -74,6 +74,4 @@ so $\therefore xa \approx_{L} ya$
 ![[Pasted image 20260918121117.png]]
 
 The # of Accepting States = # of equivalence classes that have all strings $\in L$
-
-The # of Dead States = 1 - Accepting States = # of equivalence classes that have all strings $\not\in L$
 
