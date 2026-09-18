@@ -57,6 +57,8 @@ E.g.
 
 Some equivalence classes in $\Sigma^{*} \in L$ while others are not. The ones that are in L are the **Accepting States**
 
+## The Best We Can Do is also Unique
+
 $\delta : [x] \rightarrow^{a}[x, a]$
 
 e.g.
