@@ -45,3 +45,8 @@ N-way set associative (We use this most of the time)
 - N is typically 2, 4, 8, or 16 (sometimes 32)
 - A memory block maps to a specific set but can be placed in any way of that set (so there are N choices of mapping).
 
+## Why Middle Bits For Set Index?
+
+![[Pasted image 20260918101658.png]]
+
+Underlined 
