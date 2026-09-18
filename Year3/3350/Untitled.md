@@ -15,4 +15,7 @@
 
 ![[Pasted image 20260918095755.png]]
 
-## Memory-Cache Mapping (Addressing Cahce Memories)
+## Memory-Cache Mapping (Addressing Cache Memories)
+
+Block Offset:
+|
