@@ -72,6 +72,7 @@ The number of states has to be at least the number of classes
 
 ![[Pasted image 20260918121117.png]]
 
-The # of accepting States = # of equivalence classes that have all string \in L
+The # of Accepting States = # of equivalence classes that have all strings \in L
 
-The # of dead states = 
+The # of Dead States = 1 - Accepting States = # of equivalence classes that have all strings \not\in L
+
