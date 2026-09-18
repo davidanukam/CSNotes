@@ -63,7 +63,9 @@ All we want to know is *where* that word is in the **Word Address**.
 
 So to find the **Byte Address** (where this word is located in memory) we can multiple the **Word Address** *X* for a **Word** with *N* **Bytes**: $N \times X$
 
-So in this case, $N \times X = 4 \times $
+So in this case (assuming the common 64-bit computer):
+
+Byte Address = $N \times X = 4 \times$
 
 ## Types of Cache Organization
 
