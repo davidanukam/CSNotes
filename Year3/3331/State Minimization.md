@@ -29,4 +29,7 @@ Indistinguishable (with respect to a language L):
 
 If $x$ and $y$ are indistinguishable, then we can merge $p$ and $q$ to get a minimized DFSM.
 
+![[Pasted image 20260918114655.png]]
+
+Yes they are because the lengths of the strings will be the same so every time one is odd it is not in the language and every time |w| is even then it is in the language.
 
