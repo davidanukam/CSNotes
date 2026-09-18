@@ -8,3 +8,6 @@
 ## General Organization of a Cache Memory
 
 ![[Pasted image 20260918095333.png]]
+
+- How to remember where it is coming from?
+	- First, use the set number (calculated from the address of the first byte)
