@@ -68,4 +68,9 @@ Non-underlined bits are the set (so which line)
 Underlined bits are the tag (so which line)
 Non-underlined bits are the set (so which of the 4 sets to go to)
 
-**SO WE USE MIDDLE ORDER BIT INDEXING!!!**
+**SO WE USE MIDDLE-ORDER BIT INDEXING!!!**
+
+Oh! Lets see an example for Direct-Mapped Cache
+
+![[Pasted image 20260918104935.png]]
+
