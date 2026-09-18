@@ -42,5 +42,10 @@ No because (after adding the empty string to the end), one can be in the languag
 ![[Pasted image 20260918115013.png]]
 
 Because L is an equivalence relation:
-	No equivalence class of L is empty
-	Each string in 
+- No equivalence class of L is empty
+- Each string in $\Sigma^{*}$ is in exactly one equivalence class of L
+
+E.g.
+
+![[Pasted image 20260918115142.png]]
+
