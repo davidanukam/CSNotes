@@ -59,16 +59,17 @@ Some equivalence classes in $\Sigma^{*} \in L$ while others are not. The ones th
 
 ## The Best We Can Do is also Unique
 
-$\delta : [x] \rightarrow^{a}[x, a]$
+$\delta : [x] \overset{a}{\rightarrow} [x, a]$
 
 e.g.
-$[x, y] \rightarrow^{a}[xa, ya]$
+
+$[x, y] \overset{a}{\rightarrow} [xa, ya]$
 
 because $x \approx_{L} y$
 
 so $\therefore xa \approx_{L} ya$
 
-The number of states has to be at least the number of classes
+> RemThe number of states has to be at least the number of classes
 
 ![[Pasted image 20260918121117.png]]
 
