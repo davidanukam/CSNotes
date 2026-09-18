@@ -9,9 +9,10 @@
 
 ![[Pasted image 20260918095333.png]]
 
-- How to remember where it is coming from?
+- How do we get the exact location of the block (line) we need?
 	- First, use the set number (calculated from the address of the first byte)
 	- Then, we can use the **tag** to find the exact location in the given set and the given line.
 
 ![[Pasted image 20260918095755.png]]
 
+## Memory-Cache Mapping (Addressing Cahce Memories)
