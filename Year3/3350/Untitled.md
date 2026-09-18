@@ -18,4 +18,11 @@
 ## Memory-Cache Mapping (Addressing Cache Memories)
 
 Block Offset:
-|
+
+| x   | y         |
+| --- | --------- |
+| 0   | 000...000 |
+| 1   | 000...001 |
+| 2   | 000...010 |
+| ... | ...       |
+| B-1 | ...       |
