@@ -13,7 +13,7 @@ We are going to answer these in this course
 ![[Pasted image 20260918095333.png]]
 
 - How do we get the exact location of the block (line) we need?
-	- First, use the **set** number (calculated from the address of the first byte)
+	- First, use the **set** index (calculated from the address of the first byte)
 	- Then, we can use the **tag** to find the exact location in the given set and the given line.
 
 ![[Pasted image 20260918095755.png]]
@@ -21,6 +21,8 @@ We are going to answer these in this course
 ## Memory-Cache Mapping (Addressing Cache Memories)
 
 ![[Pasted image 20260918105341.png]]
+
+The data word at the *m*-bit address 
 
 **Block Offset**:
 
