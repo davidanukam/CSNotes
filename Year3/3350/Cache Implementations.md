@@ -53,7 +53,10 @@ $\underbrace{00000000}_{1 \ \text{Byte} \ = \ 8 \ \text{Bits}}$
 
 A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (*N* bytes).
 
-$\underbrace{\underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}$
+e.g. *N* = 4 (1 Word = 4  Bytes):
+
+$\underbrace{\underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word}}$
+
 
 ## Types of Cache Organization
 
