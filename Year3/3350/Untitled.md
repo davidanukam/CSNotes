@@ -30,5 +30,14 @@ Block Offset:
 | B-1 | ...       |
 Word Address: Viewing the main memory as a su of bytes
 
+Byte Address:
+
+![[Pasted image 20260918100656.png]]
 ## Types of Cache Organization
 
+Direct-Mapped
+
+Fully Associative
+
+N-way set associative
+- N is typically 2, 4, 8, or 1
