@@ -37,7 +37,11 @@ Byte Address:
 
 10/38
 
-Direct-Mapped
+**Direct-Mapped**:
+
+N = 1
+- One line per set
+- Each memory address is mapped to exac
 
 Fully Associative
 
@@ -49,9 +53,12 @@ N-way set associative (We use this most of the time)
 
 ![[Pasted image 20260918101658.png]]
 
-High-Order B
+**High-Order Bit Indexing**:
+
 Underlined bits are the set (so which of the 4 sets to go to)
 Non-underlined bits are the set (so which line)
+
+**Middle-Order Bit Indexing**:
 
 Underlined bits are the tag (so which line)
 Non-underlined bits are the set (so which of the 4 sets to go to)
