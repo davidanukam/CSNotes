@@ -61,9 +61,9 @@ Okay so the **Word** in this example is equal to a large number but that number 
 
 All we want to know is *where* that word is in the **Word Address**.
 
-So to find the **Word Address** *X* for a **Word** with *N* **Bytes** we use the formula: $N \times X$
+So to find the **Byte Address** (where this word is located in memory) then  **Word Address** *X* for a **Word** with *N* **Bytes** we use the formula: $N \times X$
 
-So in this case, $N$
+So in this case, $N \times X = 4 \times$
 
 ## Types of Cache Organization
 
