@@ -14,5 +14,11 @@ Step 2: Get rid of redundant states:
 
 Two problems:
 
-1. Given a re
+1. Given a regular language, find a minimal DFSM for it
+2. Given a DFSM, find a minimal DFSM equivalent to it.
+
+Lets focus on problem1 for now
+
+Given a language:
+- Capture the notion of equivalen
 
