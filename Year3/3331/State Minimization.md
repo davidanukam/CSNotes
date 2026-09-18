@@ -55,7 +55,7 @@ E.g.
 
 ![[Pasted image 20260918115326.png]]
 
-Some equivalence classes in $\Sigma^{*} \in L$ while others are not. The ones that are in L are the **Accepting States**
+Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in L are the **Accepting States**. The rest are the 
 
 ## The Best We Can Do is also Unique
 
@@ -69,11 +69,11 @@ because $x \approx_{L} y$
 
 so $\therefore xa \approx_{L} ya$
 
-> RemThe number of states has to be at least the number of classes
+> Remember: The number of states has to be at least the number of classes
 
 ![[Pasted image 20260918121117.png]]
 
-The # of Accepting States = # of equivalence classes that have all strings \in L
+The # of Accepting States = # of equivalence classes that have all strings $\in L$
 
-The # of Dead States = 1 - Accepting States = # of equivalence classes that have all strings \not\in L
+The # of Dead States = 1 - Accepting States = # of equivalence classes that have all strings $\not\in L$
 
