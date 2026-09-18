@@ -11,3 +11,7 @@
 
 - How to remember where it is coming from?
 	- First, use the set number (calculated from the address of the first byte)
+	- Then, we can use the **tag** to find the exact location in the given set and the given line.
+
+![[Pasted image 20260918095755.png]]
+
