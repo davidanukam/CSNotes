@@ -55,4 +55,5 @@ E.g.
 
 ![[Pasted image 20260918115326.png]]
 
-Some equivalence classes i
+Some equivalence classes in $\Sigma^{*} \in L$ while others are not. The ones that are in L are the **Accepting States**
+
