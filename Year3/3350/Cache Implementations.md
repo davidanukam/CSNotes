@@ -29,7 +29,8 @@ The word contents begin at offset $<\text{block offset}>$ bytes from the beginni
 **Address Mapping**:
 
 block address = $<\text{tag}> || <\text{set index}>$
-set # = 
+set # = (block address) mod R
+- just take the "s bits" as set index
 
 **Block Offset**:
 
@@ -40,7 +41,7 @@ set # =
 | 2   | 000...010 |
 | ... | ...       |
 | B-1 | ...       |
-**Word Address**: Viewing the main memory as a su of bytes
+**Word Address**: Viewing the main memory as a succession of bytes
 
 **Byte Address**:
 
