@@ -44,6 +44,7 @@ No because (after adding the empty string to the end), one can be in the languag
 Because L is an equivalence relation:
 - No equivalence class of L is empty
 - Each string in $\Sigma^{*}$ is in exactly one equivalence class of L
+- Also it defines a partition meaning that each string goes to only ONE equivalence class and no equivalence classes are empty (we just said this but whatever)
 
 E.g.
 
