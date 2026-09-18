@@ -1,4 +1,7 @@
 ## Cache Design Questions
+
+We are going to answer these in this course
+
 1. How best to organize the memory block (a.k.a lines) inside the cache?
 2. To which block (line) of the cache does a given (main) memory address map?
 	- Note: Since the cache is a subset of the main memory, multiple memory addresses can map to the same cache location
