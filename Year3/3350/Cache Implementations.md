@@ -57,7 +57,7 @@ e.g. *N* = 4 (1 Word = 4  Bytes):
 
 $\underbrace{\underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word}}$
 
-
+Okay so the Word in this example is a large number but that number could be whatever. We don't really care right now. All we 
 ## Types of Cache Organization
 
 **Direct-Mapped**:
