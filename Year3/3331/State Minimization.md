@@ -45,7 +45,7 @@ Because L is an equivalence relation:
 - No equivalence class of L is empty
 - Each string in $\Sigma^{*}$ is in exactly one equivalence class of L
 - Also it defines a partition meaning that each string goes to only ONE equivalence class and no equivalence classes are empty (we just said this but whatever)
-- 
+- The union of the equivalence classes is equal to $\Sigma^{*}$
 
 E.g.
 
@@ -55,3 +55,4 @@ E.g.
 
 ![[Pasted image 20260918115326.png]]
 
+Some equivalence classes i
