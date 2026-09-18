@@ -14,6 +14,7 @@
 - $\delta$ is the **transition function** from ($K \times \Sigma$) to $K$
 
 $\delta: K \times \Sigma \rightarrow K$
+
 $\delta(p, a) = q : p \frac{a}{\rightarrow} q$
 
 ### Accepting by a DFSM:
