@@ -22,7 +22,13 @@ We are going to answer these in this course
 
 ![[Pasted image 20260918105341.png]]
 
-The data word at the *m*-bit address A is in cache if the tag bits in one of the $<valid>$ lines in set $<set index>$ match $<tag>$
+The data word at the *m*-bit address A is in cache if the tag bits in one of the $<\text{valid}>$ lines in set $<\text{set index}>$ match $<\text{tag}>$
+
+The word contents begin at offset $<\text{block offset}>$ bytes from the beginning of the block
+
+**Address Mapping**:
+
+block
 
 **Block Offset**:
 
