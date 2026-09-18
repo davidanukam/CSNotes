@@ -47,11 +47,11 @@ set # = (block address) mod R
 
 ![[Pasted image 20260918100656.png]]
 
-Example:
+I'm kinda not getting this so I'll add a simple Explanation:
 
 $\underbrace{00000000}_{1 \ \text{Byte} \ = \ 8 \ \text{Bits}}$
 
-A **word** is a natural unit of data used by a processor, which often spans m
+A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (N bytes)
 
 ## Types of Cache Organization
 
