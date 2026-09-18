@@ -55,7 +55,7 @@ A **Word** is a natural unit of data used by a processor, which often spans mult
 
 e.g. *N* = 8 (1 Word = 8 Bytes) -> I used 8 in this example because it will make sense in a couple paragraphs so keep reading:
 
-$\underbrace{\underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word}}$
+$\underbrace{\underbrace{00000111}_{1 \ \text{Byte}}, \underbrace{00000110}_{1 \ \text{Byte}}, \underbrace{00000101}_{1 \ \text{Byte}}, \underbrace{00000100}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word}}$
 
 Okay so the **Word** in this example is equal to a large number but that number could be whatever (we don't really care right now).
 
@@ -66,7 +66,7 @@ So to find the **Byte Address** (where this word is located in memory) we can mu
 So in this case (assuming the common 64-bit computer):
 - Lets say this word is at **Word Address** 16
 
-Byte Address = $N \times X = 4 \times$
+Byte Address = $N \times X = 8 \times 16$
 
 ## Types of Cache Organization
 
