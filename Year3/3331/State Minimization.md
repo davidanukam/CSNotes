@@ -60,5 +60,9 @@ Some equivalence classes in $\Sigma^{*} \in L$ while others are not. The ones th
 $\delta : [x] \rightarrow^{a}[x, a]$
 
 e.g.
+$[x, y] \rightarrow^{a}[xa, ya]$
 
-****
+because x \equiv_{L} y
+
+so \therefore xa \equiv_{L} ya
+
