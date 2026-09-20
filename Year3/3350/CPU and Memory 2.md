@@ -363,9 +363,7 @@ $$ \text{CPU Time} = \text{IC} \times (\text{CPI}_\text{ideal} + \text{Average m
 
 Here $CPI_{ideal}+\text{Average memory stall cycles}$ is called the $CPI_{stall}$, this takes into consideration cache misses, because when a cache miss occurs, we have to access the lower level of cache, and therefore the slower memory. and when this happens, the processor stalls. it has to wait until some cache has the piece of data it is looking for
 
-$$  
-\text{Average mem stall cycle} = \text{access count} \times \text{miss rate}\times \text{miss\_penalty}  
-$$
+$$\text{Average mem stall cycle} = \text{access count} \times \text{miss rate} \times \text{miss penalty}$$
 
 - `access_count` is the number of memory accesses that occur
 - `miss_rate` is the percentage of accesses that are going to be a miss
