@@ -354,7 +354,7 @@ Now, this brings us to a way where we can quantify cache misses, cache hits, and
 Simplified CPU Time:
 
 $$  
-CPUTime = Instruction\_Count\times CPI\times clock\_cycle  
+\text{CPUTime} = \text{Instruction\_Count} \times \text{CPI} \times \text{clock\_cycle}  
 $$
 
 Here, $CPI\rightarrow CPI_{ideal}$, meaning this does NOT consider cache misses
