@@ -267,3 +267,7 @@ $\hat{y}$: (or $f(x)$) The prediction (what the line says)
 $\theta_{0}$: The y-intercept (demand at 0 $\degree{C}$)
 $\theta_{1}$: The slope (MWH per degree) $\rightarrow$ How much the prediction moves per unit of $x$.
 
+This is the **Least Squares Linear Regression**:
+
+1. Get the Means of x and y:
+	- $
