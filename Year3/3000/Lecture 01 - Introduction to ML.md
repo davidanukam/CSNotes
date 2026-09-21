@@ -270,4 +270,7 @@ $\theta_{1}$: The slope (MWH per degree) $\rightarrow$ How much the prediction m
 This is the **Least Squares Linear Regression**:
 
 1. Get the Means of x and y:
-	- $\frac{1}{n} \Sigma_{i=1}^{n}({x_i})$
+	- $\bar{x} =\frac{1}{n} \Sigma_{i=1}^{n}({x_i})$
+	- $\bar{y} = \frac{1}{n} \Sigma_{i=1}^{n}({y_i})$
+2. Get the Standard Deviations of x and y:
+- 
