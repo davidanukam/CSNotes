@@ -288,7 +288,11 @@ This is the **Least Squares Linear Regression**:
 
 One issue we want to tackle is reducing the **Residual Sum of Squares (RSS)**.
 
-Thinking of the minimal or maximal point on a parabola, we know from calculus that the derivative at th
+Thinking of the minimal or maximal point on a parabola, we know from calculus that the derivative at that point is equal to 0 (the slope is 0 at that point).
+
+But the question is: Given a random point, how do we know which way to travel to reach either a local or global mimimum/maximum?
+
+This is w
 
 **Gradient Descent**:
 
