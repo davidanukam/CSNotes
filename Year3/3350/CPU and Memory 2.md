@@ -428,23 +428,23 @@ Example:
 
 A program running on a particular processor has a $CPI_{ideal}$ of 2, a 100 cycle miss penalty, 36% load/store instr’s, and a 4% miss rate. What is the average memory stall cycles? What is $CPI_{stall}$?
 
-![CPI]()
+![CPIStallExample](assets/CPIStallExample.png)
 
 Consider this:
 
 What if the previous miss rate is broken down as 2% instruction-cache miss rate and 4% data-cache miss rate?
 
-![IMG_2710.jpeg](attachment:c51a8728-b5b0-46e4-bcc7-6497a59c01d7:IMG_2710.jpeg)
+![CPIStallExample2](assets/CPIStallExample2.png)
 
 Another example:
 
-A program running on a particular processor has a $CPI_{ideal}$ of 2, a 100 cycle miss penalty, 36% load/store instr’s, and a 4% miss rate. What is the average memory stall cycles? What is $CPI_{stall}$? (these have alr been answered above)
+A program running on a particular processor has a $CPI_{ideal}$ of 2, a 100 cycle miss penalty, 36% load/store instr’s, and a 4% miss rate. What is the average memory stall cycles? What is $CPI_{stall}$? (these have already been answered above)
 
 What if the $CPI_{ideal}$ is reduced to 1?
 
 What if the data-cache miss rate went up by 1%? (Instruction-cache miss rate is still 2%)
 
-![IMG_2712.jpeg](attachment:31282146-e27a-4ca6-931d-bfd63ec579ba:IMG_2712.jpeg)
+
 
 **Banked cache:** A cache that is divided into two sections: one for instructions and one for data
 
