@@ -56,13 +56,13 @@ $L = \{w \in \{a, b\}^{*} : \text{w contains at most b}\}$
 
 **When the starting state IS the final state, then that means you are accepting $\epsilon$**
 
-**This also means that $\epsilon$ is accepting (in the language)
+**This also means that $\epsilon$ is accepting (in the language)**
 
 So basically a *iff* relationship
 
 ---
 
-$L = \{w \in \{a, b\}^{*} : \text{no two consecutive characters are the same}\}$
+$L = \brace{w \in \lbrace{a, b\rbrace}^{*} : \text{no two consecutive characters are the same}\rbrace}$
 
 ![FSMExample4](assets/FSMExample4.png)
 
