@@ -183,10 +183,10 @@ Example:
 
 ## NDFSM and DFSM
 
-So clearly: $\{\text{}\} \subseteq \{\text{}\}$
+So clearly: $\{\text{Languages accepted by a DFSM}\} \subseteq \{\text{Languages accepted by a NDFSM}\}$
 
 > Theorem 5.3:
-> For each NDFSM, there is an equivalent DFSM
+> For each NDFSM, there is an **equivalent** DFSM
 
 NFA: Easy to Build
 
