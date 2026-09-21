@@ -151,13 +151,13 @@ Now it is easier:
 
 $L = \{w \in \{a, b, c\}^{*} : \exists x, y \in \{a, b, c\}^{*} \ (\text{w = x abcabb y})\}$
 
-Pattern Matching Using a DFSM:
+Pattern Matching using a DFSM:
 
-Drawing TBA
+![DFSMPatternMatchingExample](assets/DFSMPatternMatchingExample.png)
 
-Using an NDFSM:
+Pattern Matching Using an NDFSM:
 
-Drawing TBA
+![NDFSMPatternMatchingExample]()
 
 ## Analyzing Nondeterministic FSMs
 
