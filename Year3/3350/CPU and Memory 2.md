@@ -303,7 +303,7 @@ Why is memory organized this way? Due to locality!
 - Programs tend to access data at level $k$ more often than they access data at level $k+1$
 - A good program obviously has good locality. so, it will access data in the higher level cache very frequently and rarely need to access the lower level
 
-![image.png](attachment:2d333bc3-3e9e-4264-bcfd-a238c8b4ddbf:image.png)
+![CacheLocalityExample](assets/CacheLocalityExample.png)
 
 When we want to access data that’s not in level $k$ (and assuming $k+1$ has it), a swap has to occur between the two caches
 
@@ -313,7 +313,7 @@ Something important to note is that the block sizes that are swapped between eac
 
 Let us consider what happens when the processor requests different pieces of data that are contained or not contained in a particular block
 
-![image.png](attachment:ce23031a-cc10-46db-ab3c-e8389eee9b66:7e7c7d42-2d02-4b7a-a9e5-abedaa5f1d47.png)
+
 
 First, we have something called a **cache hit**
 
