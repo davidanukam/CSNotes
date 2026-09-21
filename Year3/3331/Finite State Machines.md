@@ -83,7 +83,7 @@ Therefore, DFSMs are complete since their transition functions are always comple
 In this example we want to cluster strings that share a "future"
 
 $L = \{w \in \{a, b\}^{*} : \text{w contains an even number of a's and an odd number of b's}\}$
-Drawing TBA
+![]()
 
 $L = \{w \in \{a - z\}^{*} : \text{all five vowels, a, e, i, o, and u, occur in w in alphabetical order}\}$
 Drawing TBA
