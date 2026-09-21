@@ -105,7 +105,9 @@ L:
 ![ComplementFlippedFSMExample](assets/ComplementFlippedFSMExample.png)
 
 ### The Missing Letter Language
-Let $\Sigma = \{a, b, c, d\}$
+
+Let $\Sigma = \lbrace{a, b, c, d\rbrace}$
+
 Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
 
 Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a [NDFSM](#NDFSM%20(Non-Deterministic%20Finite%20State%20Machine)) (Non-deterministic FSM) is easier.
@@ -131,19 +133,21 @@ See [The Missing Letter Language NDFSM](#The%20Missing%20Letter%20Language%20NDF
 
 ### Optional Substrings
 
-$L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa followed by zero or more b's}\}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} : \text{w is made up of an optional a followed by aa followed by zero or more b's}\rbrace}$
 
 ![NFSMOptionalSubstringsExample](assets/NFSMOptionalSubstringsExample.png)
 
-$L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} : \text{w = aba or |w| is even}\rbrace}$
 
 > For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the **or** is the **inclusive or**.
 
 ![NFSMMultipleSublanguagesExample](assets/NFSMMultipleSublanguagesExample.png)
 
 ### The Missing Letter Language NDFSM
-Let $\Sigma = \{a, b, c, d\}$
-Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
+
+Let $\Sigma = \lbrace{a, b, c, d\rbrace}$
+
+Let $L_{\text{Missing}} = \lbrace{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\rbrace}$
 
 Now it is easier:
 
