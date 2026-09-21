@@ -167,7 +167,7 @@ You can do this in 2 ways:
 - Follow all paths in parallel
 	- You can use sets of states instead of just states which makes it **DETERMINISTIC**
 
-Drawing TBA (58)
+![AnalyzingNondeterministicFSMSExample](assets/AnalyzingNondeterministicFSMSExample.png)
 
 ## Dealing with Epsilon Transitions
 
