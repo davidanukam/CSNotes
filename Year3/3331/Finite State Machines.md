@@ -175,7 +175,7 @@ You can do this in 2 ways:
 
 ![AlgorithmToComputeEps(q)](assets/AlgorithmToComputeEps(q).png)
 
-
+![EPS(q)Example](assets/EPS(q)Example.png)
 ## Simulating a NDFSM
 
 ![SimulatingANDFSMFormula](assets/SimulatingANDFSMFormula.png)
