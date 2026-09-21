@@ -263,8 +263,8 @@ $\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
 
 $x$: The **feature** (temperature in $\degree{C}$) $\rightarrow$ also called a *covariate* or a *predictor*
 $y$: The **label** (power demand in MWH) $\rightarrow$ also called a *response*, it is the answer that is already recorded
-$\hat{y}$: (or $f(x)$) The **prediction** (what the line says) $\rightarrow$ 
-$\theta_{0}$: The **y-intercept** (demand at 0 $\degree{C}$)
+$\hat{y}$: (or $f(x)$) The **prediction** (what the line says) $\rightarrow$ the rule that returns the estimated value.
+$\theta_{0}$: The **y-intercept** (demand at 0 $\degree{C}$) $\rightarrow$ where the line starts
 $\theta_{1}$: The **slope** (MWH per degree) $\rightarrow$ How much the prediction moves per unit of $x$.
 
 This is the **Least Squares Linear Regression**:
@@ -301,7 +301,4 @@ Take small steps to minimize the slope at any given point (the derivative). We w
 ![GradientDescentExample](assets/GradientDescentExample.png)
 
 To alter the step size, we want to use a **hyperparameter** usually called **alhpa**. This is the **Learning Rate**. WE SET THE LEARNING RATE. THE MODEL DOES NOT ALTER THIS HYPERPARAMETER!!!
-
-
-
 
