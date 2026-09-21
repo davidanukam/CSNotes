@@ -42,13 +42,13 @@ The way we access data has a LARGE impact on overall performance
 
 As the results showed us:
 
-![AccessingDataComparisonExample](assets/AccessingDataComparisonExample.pnh)
+![AccessingDataComparisonExample](assets/AccessingDataComparisonExample.png)
 
 **Cache misses** is the largest impact on this performance drop (we will discuss what a cache miss is later on)
 
 ## TRENDS AND BASICS:
 
-![image.png](attachment:7dee0a5e-3ced-4bcf-9fa2-5017cea25416:image.png)
+![ComputerOrganizationExample](assets/ComputerOrganizationExample.png)
 
 This simple organization is symmetric with how a software or programmer views the hardware
 
