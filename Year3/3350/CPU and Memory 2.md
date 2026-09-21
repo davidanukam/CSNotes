@@ -42,7 +42,7 @@ The way we access data has a LARGE impact on overall performance
 
 As the results showed us:
 
-![]()
+![AccessingDataComparisonExample](assets/AccessingDataComparisonExample.pnh)
 
 **Cache misses** is the largest impact on this performance drop (we will discuss what a cache miss is later on)
 
