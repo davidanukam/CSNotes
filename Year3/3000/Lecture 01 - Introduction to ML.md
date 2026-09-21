@@ -300,5 +300,5 @@ Take small steps to minimize the slope at any given point (the derivative). We w
 
 ![GradientDescentExample](assets/GradientDescentExample.png)
 
-To alter the step size, we want to use a **hyperparameter** usually called **alhpa**. This is the **Learning Rate**. WE SET THE LEARNING RATE. THE MODEL DOES NOT ALTER THIS HYPERPARAMETER!!!
+To alter the step size, we want to use a **hyperparameter** usually called **Alpha**. This is the **Learning Rate**. WE SET THE LEARNING RATE. THE MODEL DOES NOT ALTER THIS HYPERPARAMETER!!!
 
