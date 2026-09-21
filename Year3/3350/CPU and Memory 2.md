@@ -65,7 +65,7 @@ Today, this is no longer a problem, because memory size is no longer a limiting 
 
 But, as we know, the speed of DRAM is not quite as fast as we would hope.
 
-![image.png](attachment:1182fe66-9f70-46ee-9187-6a3a6b455d4a:image.png)
+![[Pasted image 20260920235104.png]]
 
 DRAM is very very slow in comparison to the processor speed
 
