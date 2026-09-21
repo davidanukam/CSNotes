@@ -171,7 +171,10 @@ You can do this in 2 ways:
 
 ## Dealing with Epsilon Transitions
 
-![]()
+![EPSDefinition](assets/EPSDefinition.png)
+
+![AlgorithmToComputeEps(q)](assets/AlgorithmToComputeEps(q).png)
+
 
 ## Simulating a NDFSM
 
