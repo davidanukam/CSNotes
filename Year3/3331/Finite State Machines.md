@@ -175,11 +175,11 @@ Slides 59 - 61
 
 ## Simulating a NDFSM
 
-Include formula
+![SimulatingANDFSMFormula](assets/SimulatingANDFSMFormula.png)
 
 Example:
 
-Drawing TBA
+![SimulatingANDFSMExample](assets/SimulatingANDFSMExample.png)
 
 ## NDFSM and DFSM
 
