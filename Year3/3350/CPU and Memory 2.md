@@ -73,7 +73,7 @@ Because of this slowness, we have what we called the **memory wall.** Even, if o
 
 In order to counter this gap between processor speeds, memory speeds, we introduced the **memory hierarchy**
 
-![MemoryHierarchyExample](assets/MemoryHierarchyExample)
+![MemoryHierarchyExample](assets/MemoryHierarchyExample.png)
 
 At first, this was very simple. We had a cache memory and a main memory (and HDDs but whatever who cares about those)
 
@@ -95,7 +95,7 @@ Unfortunately, the swapping data between the main memory and the cache is a slow
 
 So, some knobheads came up with the idea that if swapping between cache and main memory is slow, then why don’t we add multi-level caches in order to avoid this slow process. so a small cache swaps with a slightly larger cache, and that slightly large cache swaps with main memory
 
-![image.png](attachment:a2f884a5-29a8-468a-8145-1ffacbefa9ca:image.png)
+![MemoryHie]()
 
 So L1 is very very small but also very very fast
 
