@@ -281,4 +281,11 @@ This is the **Least Squares Linear Regression**:
 	- $m = r(\frac{s_{y}}{s_{x}})$
 5. Compute the y-intercept:
 	- $b = \bar{y} - x \ \bar{x}$
-6. 
+6. Finally, we can create our Linear prediction function:
+	- $\hat{y} = mx + b$
+
+## Finding the Best Line
+
+**Gradient Descent**:
+
+T
