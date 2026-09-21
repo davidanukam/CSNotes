@@ -221,7 +221,13 @@ What actually happens between opening a data file and reporting a number you wou
 ### Goal
 Walk a project through seven stages, split a dataset three ways for the right reason, and say why a test score stops being honest the moment you tune against it.
 
-### Should This be a Macgine 
+### Should This be a Machine Learning at all?
+
+There are 3 questions you must ask to determine whether or not a machine learning algorithm is required at all.
+
+1. Is there a pattern to find?
+2. 
+
 ### The workflow, end to end
 
 1. **Frame**: This is where you want to frame the question that you want to answer.
