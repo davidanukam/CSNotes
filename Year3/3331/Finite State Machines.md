@@ -88,7 +88,7 @@ $L = \{w \in \{a, b\}^{*} : \text{w contains an even number of a's and an odd nu
 
 $L = \{w \in \{a - z\}^{*} : \text{all five vowels, a, e, i, o, and u, occur in w in alphabetical order}\}$
 
-Draw
+![VowelsInAlphaOrderFSMExample](assets/VowelsInAlphaOrderFSMExample.png)
 
 $L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
 - It is easier to construct the DFA for $L = \{w \in \{a, b\}^{*} : \text{w contains aab}\}$
