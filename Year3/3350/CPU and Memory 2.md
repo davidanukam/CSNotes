@@ -454,7 +454,7 @@ What if the data-cache miss rate went up by 1%? (Instruction-cache miss rate is 
 
 ### **AMAT:**
 
-**AMAT** is the average time to access memory considering both hits and misses. AMAT is measured in seconds, whereas $CPI_{stall}$ is measured in clock cycles
+**AMAT (Average Memory Access Time)** is the average time to access memory considering both hits and misses. AMAT is measured in seconds, whereas $CPI_{stall}$ is measured in clock cycles
 
 $$  
 AMAT=\text{Time for a hit + Miss Rate}\times \text{Miss Penalty}  
@@ -492,7 +492,7 @@ Without L2 cache:
 
 With L2 cache:
 
-![IMG_2714.jpeg](attachment:d91d1ee7-74e9-4ef3-b050-2760aa6285c3:IMG_2714.jpeg)
+![AMATExample2](assets/AMATExample2.png)
 
 ## LOCALITY AND CACHE:
 
