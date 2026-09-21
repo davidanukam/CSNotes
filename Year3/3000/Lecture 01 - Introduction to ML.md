@@ -261,7 +261,7 @@ $\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
 
 > The predicted demand is a starting value, plus so much per degree
 
-$x$: The feature (temperature in $\degree{C}$)
+$x$: The feature (temperature in $\degree{C}$) $\rightarrow$ also called a *covariate* or a *predictor*
 $y$: The label (power demand in MWH)
 $\hat{y}$: (or $f(x)$) The prediction (what the line says)
 $\theta_{0}$: The y-intercept (demand at 0 $\degree{C}$)
