@@ -157,7 +157,7 @@ Pattern Matching using a DFSM:
 
 Pattern Matching Using an NDFSM:
 
-![NDFSMPatternMatchingExample]()
+![NDFSMPatternMatchingExample](assets/NDFSMPatternMatchingExample.png)
 
 ## Analyzing Nondeterministic FSMs
 
