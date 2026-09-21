@@ -265,3 +265,6 @@ $x$: The feature (temperature in $\degree{C}$)
 $y$: The label (power demand in MWH)
 $\hat{y}$: (or $f(x)$) The prediction (what the line says)
 $\theta_{0}$: The y-intercept (demand at 0 $\degree{C}$)
+$\theta_{1}$: The slope (MWH per degree) $\rightarrow$ How much the prediction moves per unit of $x$.
+
+
