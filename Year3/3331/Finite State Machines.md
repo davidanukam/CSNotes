@@ -147,14 +147,16 @@ Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ 
 
 Now it is easier:
 
-Drawing TBA (48)
+![TheMissingLetterLanguageNDFSMExample](assets/TheMissingLetterLanguageNDFSMExample.png)
 
 $L = \{w \in \{a, b, c\}^{*} : \exists x, y \in \{a, b, c\}^{*} \ (\text{w = x abcabb y})\}$
 
-Using a DFSM:
+Pattern Matching Using a DFSM:
+
 Drawing TBA
 
 Using an NDFSM:
+
 Drawing TBA
 
 ## Analyzing Nondeterministic FSMs
