@@ -286,7 +286,9 @@ This is the **Least Squares Linear Regression**:
 
 ## Finding the Best Line
 
-One issue we want to tackle is reducing the Resi (RSS)
+One issue we want to tackle is reducing the **Residual Sum of Squares (RSS)**.
+
+Thinking of the minimal or maximal point on a parabola, we know from calculus that the derivative at th
 
 **Gradient Descent**:
 
