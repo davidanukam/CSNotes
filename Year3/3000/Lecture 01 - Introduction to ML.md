@@ -230,8 +230,9 @@ These 3 questions are to be answered in order.
 1. Is there a pattern to find?
 	- If the outcome of the problem is genuinely random, no amount of data will help.
 2. Does the rule have to be discovered?
-	- If the rule is not something that is already known, then write it 
+	- If the rule is not something that is already known, then write it down.
 3. Do you have the answers, not just the data?
+	- Get the data if you do not have it (duh) and make sure that it is labeled
 
 ### The workflow, end to end
 
