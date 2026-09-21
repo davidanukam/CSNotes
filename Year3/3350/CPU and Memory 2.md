@@ -192,7 +192,7 @@ There are two different ways arrays can be allocated in memory:
     
 - **Column-major order**: The columns are linear but the rows are not
     
-    
+    ![ColumnMajorOrderExample](assets/ColumnMajorOrderExample.png)
     
     this is how its allocated in FORTRAN
     
@@ -288,7 +288,7 @@ Temporal locality would be possible for M IF M was small, but assume its just ba
 
 ## CACHE HIERARCHY:
 
-![image.png](attachment:cfb48868-782b-48e4-bb8c-555f231facf3:image.png)
+
 
 We have talked about cache and everything but let us give it a set definition
 
