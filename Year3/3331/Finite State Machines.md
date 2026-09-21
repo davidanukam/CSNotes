@@ -200,5 +200,5 @@ Finally, we can use this algorithm to Construct a DFSM from a NDFSM:
 1. Compute the $\text{eps(q)'s}$
 2. Compute $\text{s' = eps(s)}$
 3. Compute $\delta'$
-4. Compute $\text{K' = a subset of \mathcal{P}{K{$
+4. Compute $\text{K' = a subset of} \ \mathcal{P}(K)$
 5. 
