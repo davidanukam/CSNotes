@@ -153,7 +153,7 @@ Now it is easier:
 
 ![TheMissingLetterLanguageNDFSMExample](assets/TheMissingLetterLanguageNDFSMExample.png)
 
-$L = \lbrace{w \in \lbrace{a, b, c\rbrace}^{*} : \exists x, y \in \lbrace{a, b, c\rbrace}^{*} \ (\text{w} = \text{x abcabb y})\rbrace}$
+$L = \lbrace{w \in \lbrace{a, b, c\rbrace}^{*} : \exists{x, y} \in \lbrace{a, b, c\rbrace}^{*} \ (\text{w} = \text{x abcabb y})\rbrace}$
 
 Pattern Matching using a DFSM:
 
