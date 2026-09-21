@@ -288,7 +288,7 @@ Temporal locality would be possible for M IF M was small, but assume its just ba
 
 ## CACHE HIERARCHY:
 
-
+![CacheHierarchyExample](assets/CacheHierarchyExample.png)
 
 We have talked about cache and everything but let us give it a set definition
 
