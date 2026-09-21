@@ -254,5 +254,11 @@ These 3 questions are to be answered in order.
 ()
 
 ### Example: Temperature and Demand
+
+**The Simple Model**:
+
 $\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
 
+> The predicted demand is a starting value, plus so much per degree
+
+$x$: The feature
