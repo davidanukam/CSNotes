@@ -102,7 +102,7 @@ Just flip the **accepting** and **rejecting** states
 
 L:
 
-![ComplementFlippedFSMExample]()
+![ComplementFlippedFSMExample](assets/ComplementFlippedFSMExample.png)
 
 ### The Missing Letter Language
 Let $\Sigma = \{a, b, c, d\}$
@@ -121,7 +121,7 @@ See [The Missing Letter Language NDFSM](#The%20Missing%20Letter%20Language%20NDF
 - $\Delta$ is the **transition relation**. It is a **finite subset** of $(K \times (\Sigma \cup \{\epsilon\})) \times K$
 	- No longer a function because from the same state the same input, you can get to different states
 
-Drawing TBA (43)
+
 
 ### Accepting by an NDFSM:
 - Basically M **accepts** a string w *iff* there exists some path along which w drives M to some element of A.
