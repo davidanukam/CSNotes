@@ -102,7 +102,7 @@ Just flip the **accepting** and **rejecting** states
 
 L:
 
-Drawing TBA
+![ComplementFlippedFSMExample]()
 
 ### The Missing Letter Language
 Let $\Sigma = \{a, b, c, d\}$
