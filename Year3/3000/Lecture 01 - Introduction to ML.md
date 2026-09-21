@@ -292,7 +292,7 @@ Thinking of the minimal or maximal point on a parabola, we know from calculus th
 
 But the question is: Given a random point, how do we know which way to travel to reach either a local or global mimimum/maximum?
 
-This is w
+This is where Gradient Descent comes in.
 
 **Gradient Descent**:
 
@@ -300,5 +300,8 @@ Take small steps to minimize the slope at any given point (the derivative). We w
 
 ![GradientDescentExample](assets/GradientDescentExample.png)
 
-To alter the step size, we want to use a **hyperperameter** usually called **alhpa**. This is the **Learning Rate**.
+To alter the step size, we want to use a **hyperparameter** usually called **alhpa**. This is the **Learning Rate**. WE SET THE LEARNING RATE. THE MODEL DOES NOT ALTER THIS HYPERPARAMETER!!!
+
+
+
 
