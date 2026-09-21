@@ -65,7 +65,7 @@ Today, this is no longer a problem, because memory size is no longer a limiting 
 
 But, as we know, the speed of DRAM is not quite as fast as we would hope.
 
-![[Pasted image 20260920235104.png]]
+![ProcessorMemoryGapExample2](assets/ProcessorMemoryGapExample2.png)
 
 DRAM is very very slow in comparison to the processor speed
 
@@ -73,7 +73,7 @@ Because of this slowness, we have what we called the **memory wall.** Even, if o
 
 In order to counter this gap between processor speeds, memory speeds, we introduced the **memory hierarchy**
 
-![image.png](attachment:ab397c98-df50-44fd-b0d4-567fe97d01cf:image.png)
+![MemoryHierarchyExample](assets/MemoryHierarchyExample)
 
 At first, this was very simple. We had a cache memory and a main memory (and HDDs but whatever who cares about those)
 
