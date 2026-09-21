@@ -92,10 +92,11 @@ $L = \{w \in \{a - z\}^{*} : \text{all five vowels, a, e, i, o, and u, occur in 
 
 $L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
 - It is easier to construct the DFA for $L = \{w \in \{a, b\}^{*} : \text{w contains aab}\}$
-- So start with $\not L$ and complement it
+- So start with $\neg L$ and complement it
 
-$\not L$:
-Drawing TBA
+$\neg L$:
+
+![[Pasted image 20260921014753.png]]
 ### How to complement:
 Just flip the **accepting** and **rejecting** states
 
