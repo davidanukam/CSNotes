@@ -221,3 +221,6 @@ What actually happens between opening a data file and reporting a number you wou
 ### Goal
 Walk a project through seven stages, split a dataset three ways for the right reason, and say why a test score stops being honest the moment you tune against it.
 
+## The workflow, end to end
+
+1. **Frame**: This is where you want to frame the question that you want to answer
