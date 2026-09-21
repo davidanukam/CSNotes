@@ -108,9 +108,9 @@ L:
 
 Let $\Sigma = \lbrace{a, b, c, d\rbrace}$
 
-Let $L_{\text{Missing}} = \{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\}$
+Let $L_{\text{Missing}} = \lbrace{w : \text{there is a symbol} \ a_{i} \ \in \Sigma \ \text{not appearing in} \ w\rbrace}$
 
-Trying to make a DFSM for $L_{\text{Misisng}}$ is super difficult but apparently making a [NDFSM](#NDFSM%20(Non-Deterministic%20Finite%20State%20Machine)) (Non-deterministic FSM) is easier.
+Trying to make a DFSM for $L_{\text{Missing}}$ is super difficult but apparently making a [NDFSM](#NDFSM%20(Non-Deterministic%20Finite%20State%20Machine)) (Non-deterministic FSM) is easier.
 
 See [The Missing Letter Language NDFSM](#The%20Missing%20Letter%20Language%20NDFSM)
 
