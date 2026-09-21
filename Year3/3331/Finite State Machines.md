@@ -137,9 +137,9 @@ $L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa f
 
 $L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
 
-> For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the **or** is the **inclusive** or.
+> For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the **or** is the **inclusive or**.
 
-Drawing TBA
+![NFSMMultipleSublanguagesExample](assets/NFSMMultipleSublanguagesExample.png)
 
 ### The Missing Letter Language NDFSM
 Let $\Sigma = \{a, b, c, d\}$
