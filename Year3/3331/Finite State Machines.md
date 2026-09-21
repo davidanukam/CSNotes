@@ -201,4 +201,8 @@ Finally, we can use this algorithm to Construct a DFSM from a NDFSM:
 2. Compute $s' = eps(s)$
 3. Compute $\delta'$
 4. Compute $K' = \text{a subset of} \ \mathcal{P}(K)$
-5. Compute $A' = \lbrace{ Q \in K' : Q \cap A \noteq \emptyset \rbrace}$
+5. Compute $A' = \lbrace{ Q \in K' : Q \cap A \neq \emptyset \rbrace}$
+
+Hard Example to complete:
+
+![ChangeThis]()
