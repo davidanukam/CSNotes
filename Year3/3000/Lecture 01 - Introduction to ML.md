@@ -288,4 +288,5 @@ This is the **Least Squares Linear Regression**:
 
 **Gradient Descent**:
 
-T
+Take small steps to minimize the slope at any given point (the derivative). We want to find any local and possibly, the global minimum/maximum (when the slope is exactly 0).
+
