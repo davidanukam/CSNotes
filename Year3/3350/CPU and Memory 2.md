@@ -95,7 +95,7 @@ Unfortunately, the swapping data between the main memory and the cache is a slow
 
 So, some knobheads came up with the idea that if swapping between cache and main memory is slow, then why don’t we add multi-level caches in order to avoid this slow process. so a small cache swaps with a slightly larger cache, and that slightly large cache swaps with main memory
 
-![MemoryHie]()
+![MemoryHierarchyExample2](assets/MemoryHierarchyExample2.png)
 
 So L1 is very very small but also very very fast
 
