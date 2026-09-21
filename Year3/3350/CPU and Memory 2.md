@@ -454,7 +454,7 @@ What if the data-cache miss rate went up by 1%? (Instruction-cache miss rate is 
 
 ### **AMAT:**
 
-**AMAT** is the average time to access memory considering both hits and misses. AMAT is measured in seconds, whereas $CPI_{stall}$ is measued in clock cycles
+**AMAT** is the average time to access memory considering both hits and misses. AMAT is measured in seconds, whereas $CPI_{stall}$ is measured in clock cycles
 
 $$  
 AMAT=\text{Time for a hit + Miss Rate}\times \text{Miss Penalty}  
@@ -474,7 +474,7 @@ Given the memory hierarchy, speed at each level differs. You must calculate the 
 
 Miss penalties defined per cache level:
 
-![image.png](attachment:30122d68-0e8f-41c6-b73d-b31d14bc225f:image.png)
+![AMATExample](assets/AMATExample.png)
 
 Example:
 
