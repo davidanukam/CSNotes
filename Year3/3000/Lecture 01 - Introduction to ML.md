@@ -254,4 +254,5 @@ These 3 questions are to be answered in order.
 ()
 
 ### Example: Temperature and Demand
-$$
+$\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
+
