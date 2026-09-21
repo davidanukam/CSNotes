@@ -273,4 +273,6 @@ This is the **Least Squares Linear Regression**:
 	- $\bar{x} =\frac{1}{n} \Sigma_{i=1}^{n}({x_i})$
 	- $\bar{y} = \frac{1}{n} \Sigma_{i=1}^{n}({y_i})$
 2. Get the Standard Deviations of x and y:
-	- $s_{x} = \sqrt{\frac{1}{n-1}\Sigma_{i=1}^{n}()^2}$
+	- $s_{x} = \sqrt{\frac{1}{n-1}\Sigma_{i=1}^{n}(x_i - \bar{x})^{2}}$
+	- $s_{y} = \sqrt{\frac{1}{n-1}\Sigma_{i=1}^{n}(y_i - \bar{y})^{2}}$
+3. Get the Corr
