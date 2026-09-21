@@ -223,4 +223,6 @@ Walk a project through seven stages, split a dataset three ways for the right re
 
 ## The workflow, end to end
 
-1. **Frame**: This is where you want to frame the question that you want to answer
+1. **Frame**: This is where you want to frame the question that you want to answer.
+2. Gather: This is where you either collect your data or update your dataset to include only the features, records, etc. that you need.
+3. Split: Since we need to train our model, test our odel and then
