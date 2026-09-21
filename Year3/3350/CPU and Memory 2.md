@@ -8,7 +8,7 @@ From a programmer’s point of view, CPU performance depends on:
 
 Why we are concerned with memory access time is because of the **processor memory gap**
 
-![image.png](attachment:22bb2a44-0740-4e45-a318-c40f6a315bc7:image.png)
+![ProcessorMemory]()
 
 The increasing gap between the memory speeds and the CPU speeds contributes to the memory wall.
 
