@@ -225,9 +225,10 @@ Walk a project through seven stages, split a dataset three ways for the right re
 
 There are 3 questions you must ask to determine whether or not a machine learning algorithm is required at all.
 
-These 3 questoin
+These 3 questions are to be answered in order.
 
 1. Is there a pattern to find?
+	- If the outcome of the problem is gen
 2. Does the rule have to be discovered?
 3. Do you have the answers, not just the data?
 
