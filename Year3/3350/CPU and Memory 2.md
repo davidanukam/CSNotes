@@ -8,7 +8,7 @@ From a programmer’s point of view, CPU performance depends on:
 
 Why we are concerned with memory access time is because of the **processor memory gap**
 
-![ProcessorMemory]()
+![ProcessorMemoryGapExample](assets/ProcessorMemoryGapExample.png)
 
 The increasing gap between the memory speeds and the CPU speeds contributes to the memory wall.
 
@@ -42,7 +42,7 @@ The way we access data has a LARGE impact on overall performance
 
 As the results showed us:
 
-![image.png](attachment:4dd2513d-8337-4f59-bc0a-28ea8a1bfd47:image.png)
+![]()
 
 **Cache misses** is the largest impact on this performance drop (we will discuss what a cache miss is later on)
 
