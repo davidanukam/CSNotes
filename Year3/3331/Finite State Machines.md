@@ -82,16 +82,16 @@ Therefore, DFSMs are complete since their transition functions are always comple
 
 In this example we want to cluster strings that share a "future"
 
-$L = \{w \in \{a, b\}^{*} : \text{w contains an even number of a's and an odd number of b's}\}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} : \text{w contains an even number of a's and an odd number of b's}\rbrace}$
 
 ![EvenAsAndOddBsFSMExample](assets/EvenAsAndOddBsFSMExample.png)
 
-$L = \{w \in \{a - z\}^{*} : \text{all five vowels, a, e, i, o, and u, occur in w in alphabetical order}\}$
+$L = \lbrace{w \in \lbrace{a - z\rbrace}^{*} : \text{all five vowels, a, e, i, o, and u, occur in w in alphabetical order}\rbrace}$
 
 ![VowelsInAlphaOrderFSMExample](assets/VowelsInAlphaOrderFSMExample.png)
 
-$L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
-- It is easier to construct the DFA for $L = \{w \in \{a, b\}^{*} : \text{w contains aab}\}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} : \text{w does not contain the substring aab}\rbrace}$
+- It is easier to construct the DFA for $L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} : \text{w contains aab}\rbrace}$
 - So start with $\neg L$ and complement it
 
 $\neg L$:
