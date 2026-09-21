@@ -193,5 +193,8 @@ So clearly: $\{\text{Languages accepted by a DFSM}\} \subseteq \{\text{Languages
 
 **So build an NFA FIRST, and then make it an DFA**
 
-![ProofThatNDFSMCan]()
+![ProofThatNDFSMCanBeMadeIntoDFSM](assets/ProofThatNDFSMCanBeMadeIntoDFSM.png)
 
+Finally, we can use this algorithm to Construct a DFSM from a NDFSM:
+
+1. Compute the eps(q)'s 
