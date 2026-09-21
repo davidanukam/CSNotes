@@ -286,10 +286,13 @@ This is the **Least Squares Linear Regression**:
 
 ## Finding the Best Line
 
+One issue we want to tackle is reducing the Resi (RSS)
+
 **Gradient Descent**:
 
 Take small steps to minimize the slope at any given point (the derivative). We want to find any local and possibly, the global minimum/maximum (when the slope is exactly 0).
 
 ![GradientDescentExample](assets/GradientDescentExample.png)
 
-To alter the step size, we want to use a **hyperperameter** usually called ****
+To alter the step size, we want to use a **hyperperameter** usually called **alhpa**. This is the **Learning Rate**.
+
