@@ -171,7 +171,7 @@ You can do this in 2 ways:
 
 ## Dealing with Epsilon Transitions
 
-Slides 59 - 61
+![]()
 
 ## Simulating a NDFSM
 
@@ -205,4 +205,4 @@ Finally, we can use this algorithm to Construct a DFSM from a NDFSM:
 
 Hard Example to complete:
 
-![ChangeThis]()
+![ChangeThisNDFSMToADFSM](assets/ChangeThisNDFSMToADFSM.png)
