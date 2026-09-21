@@ -444,7 +444,7 @@ What if the $CPI_{ideal}$ is reduced to 1?
 
 What if the data-cache miss rate went up by 1%? (Instruction-cache miss rate is still 2%)
 
-
+![CPIStallExample3](assets/CPIStallExample3.png)
 
 **Banked cache:** A cache that is divided into two sections: one for instructions and one for data
 
