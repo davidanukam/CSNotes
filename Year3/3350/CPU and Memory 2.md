@@ -186,13 +186,13 @@ There are two different ways arrays can be allocated in memory:
 
 - **Row-major order:** The row is linear but the columns are not
     
-    ![this is how its allocated in C](attachment:5a5ffc42-c0a7-4711-b0c3-30cef84b3847:image.png)
+    ![RowMajorOrderExample](assets/RowMajorOrderExample.png)
     
     this is how its allocated in C
     
 - **Column-major order**: The columns are linear but the rows are not
     
-    ![this is how its allocated in FORTRAN](attachment:d923ea22-ade6-40f7-8fa3-921a48f63dd1:image.png)
+    
     
     this is how its allocated in FORTRAN
     
