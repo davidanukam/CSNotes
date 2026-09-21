@@ -225,4 +225,5 @@ Walk a project through seven stages, split a dataset three ways for the right re
 
 1. **Frame**: This is where you want to frame the question that you want to answer.
 2. Gather: This is where you either collect your data or update your dataset to include only the features, records, etc. that you need.
-3. Split: Since we need to train our model, test our odel and then
+3. Split: Since we need to train our model, test our model and then (sometimes) validate our model, we need to split our dataset into parts and use each part for a different stop (to prevent overfitting).
+4. Choose: We want to use a type of model that can best fit the question (Linear Regression, Multiple Linear Regression, )
