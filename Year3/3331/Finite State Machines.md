@@ -96,11 +96,12 @@ $L = \{w \in \{a, b\}^{*} : \text{w does not contain the substring aab}\}$
 
 $\neg L$:
 
-![[Pasted image 20260921014753.png]]
+![ComplementFSMExample](assets/ComplementFSMExample.png)
 ### How to complement:
 Just flip the **accepting** and **rejecting** states
 
 L:
+
 Drawing TBA
 
 ### The Missing Letter Language
