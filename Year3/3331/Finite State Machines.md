@@ -188,9 +188,10 @@ So clearly: $\{\text{Languages accepted by a DFSM}\} \subseteq \{\text{Languages
 > Theorem 5.3:
 > For each NDFSM, there is an **equivalent** DFSM
 
-NFA: Easy to Build
-
-DFA: Easy to Use
+- NFA are Easy to Build while
+- DFA are Easy to Use
 
 **So build an NFA FIRST, and then make it an DFA**
+
+
 
