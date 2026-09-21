@@ -193,5 +193,5 @@ So clearly: $\{\text{Languages accepted by a DFSM}\} \subseteq \{\text{Languages
 
 **So build an NFA FIRST, and then make it an DFA**
 
-
+![ProofThatNDFSMCan]()
 
