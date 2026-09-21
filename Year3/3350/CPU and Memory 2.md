@@ -313,7 +313,7 @@ Something important to note is that the block sizes that are swapped between eac
 
 Let us consider what happens when the processor requests different pieces of data that are contained or not contained in a particular block
 
-
+![CacheMissExample](assets/CacheMissExample.png)
 
 First, we have something called a **cache hit**
 
@@ -428,7 +428,7 @@ Example:
 
 A program running on a particular processor has a $CPI_{ideal}$ of 2, a 100 cycle miss penalty, 36% load/store instr’s, and a 4% miss rate. What is the average memory stall cycles? What is $CPI_{stall}$?
 
-![IMG_2709.jpeg](attachment:3c47560e-ac61-4a80-86fe-9a197b02276e:IMG_2709.jpeg)
+![CPI]()
 
 Consider this:
 
