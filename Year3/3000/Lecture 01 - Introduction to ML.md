@@ -279,4 +279,6 @@ This is the **Least Squares Linear Regression**:
 	- $corr(x, y) = r = \frac{1}{n-1} \Sigma_{i=1}^{n}(\frac{x_{i} - \bar{x}}{s_{x}})(\frac{y_{i} - \bar{y}}{s_{y}})$
 4. Compute the Slope:
 	- $m = r(\frac{s_{y}}{s_{x}})$
-5. 
+5. Compute the y-intercept:
+	- $b = \bar{y} - x \ \bar{x}$
+6. 
