@@ -261,11 +261,11 @@ $\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
 
 > The predicted demand is a starting value, plus so much per degree
 
-$x$: The feature (temperature in $\degree{C}$) $\rightarrow$ also called a *covariate* or a *predictor*
-$y$: The label (power demand in MWH)
-$\hat{y}$: (or $f(x)$) The prediction (what the line says)
-$\theta_{0}$: The y-intercept (demand at 0 $\degree{C}$)
-$\theta_{1}$: The slope (MWH per degree) $\rightarrow$ How much the prediction moves per unit of $x$.
+$x$: The **feature** (temperature in $\degree{C}$) $\rightarrow$ also called a *covariate* or a *predictor*
+$y$: The **label** (power demand in MWH) $\rightarrow$ also called a *response*, it is the answer that is already recorded
+$\hat{y}$: (or $f(x)$) The **prediction** (what the line says) $\rightarrow$ 
+$\theta_{0}$: The **y-intercept** (demand at 0 $\degree{C}$)
+$\theta_{1}$: The **slope** (MWH per degree) $\rightarrow$ How much the prediction moves per unit of $x$.
 
 This is the **Least Squares Linear Regression**:
 
