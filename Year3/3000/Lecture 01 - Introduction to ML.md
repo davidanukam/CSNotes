@@ -244,3 +244,7 @@ These 3 questions are to be answered in order.
 5. **Train**: Obviously this is where you give the training data to the model and allow it to learn from the data and fid the patterns within it. This happens a multitude of times to allow for better accuracy.
 6. **Test**: ()
 7. **Deploy**: ()
+
+## Linear Regression (The 1st Model)
+
+Question:
