@@ -261,4 +261,6 @@ $\hat{y} = f(x) = \theta_{0} + \theta_{1} \ x$
 
 > The predicted demand is a starting value, plus so much per degree
 
-$x$: The feature
+$x$: The feature (temperature in $\degree{C}$)
+$y$: The label (power demand in MWH)
+$\hat{y}$: f(x)
