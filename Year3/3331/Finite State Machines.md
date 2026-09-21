@@ -133,11 +133,11 @@ See [The Missing Letter Language NDFSM](#The%20Missing%20Letter%20Language%20NDF
 
 $L = \{w \in \{a, b\}^{*} : \text{w is made up of an optional a followed by aa followed by zero or more b's}\}$
 
-Drawing TBA
+![NFSMOptionalSubstringsExample](assets/NFSMOptionalSubstringsExample.png)
 
 $L = \{w \in \{a, b\}^{*} : \text{w = aba or |w| is even}\}$
 
-> For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the or is inclusive or.
+> For **or**, split the branch/path and use $\epsilon$ as the transition symbol on both paths as the **or** is the **inclusive** or.
 
 Drawing TBA
 
