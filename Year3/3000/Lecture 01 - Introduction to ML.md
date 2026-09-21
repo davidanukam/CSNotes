@@ -277,4 +277,6 @@ This is the **Least Squares Linear Regression**:
 	- $s_{y} = \sqrt{\frac{1}{n-1}\Sigma_{i=1}^{n}(y_i - \bar{y})^{2}}$
 3. Get the Corr between x and y:
 	- $corr(x, y) = r = \frac{1}{n-1} \Sigma_{i=1}^{n}(\frac{x_{i} - \bar{x}}{s_{x}})(\frac{y_{i} - \bar{y}}{s_{y}})$
-	- 
+4. Compute the Slope:
+	- $m = r(\frac{s_{y}}{s_{x}})$
+5. 
