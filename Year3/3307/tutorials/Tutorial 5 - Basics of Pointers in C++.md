@@ -70,3 +70,5 @@ New value of a: 10
 
 > Basically works the same for other data types (double, char etc.)
 
+If you don't understand why Pointers are Strongly Typed then here is another example:
+
