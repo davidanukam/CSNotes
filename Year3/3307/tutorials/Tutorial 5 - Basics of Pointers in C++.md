@@ -42,3 +42,17 @@ p: 149
 - Since we are storing the location of the variable in memory, the pointer takes the type of the value that is at that location in memory.
 - THIS MEANS THAT **POINTERS** ARE **STRONGLY TYPED**!
 
+# Pointer Dereferencing Example
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 5;
+	int *p = &a;
+	
+	cout << "Value of a: " << a << endl;
+	cout << "Value using "
+}
+```
