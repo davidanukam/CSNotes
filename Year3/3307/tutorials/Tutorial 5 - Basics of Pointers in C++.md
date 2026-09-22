@@ -33,4 +33,10 @@ int main() {
 
 ```bash
 &a: 149
+p: 149
+*p: 5
 ```
+
+![[Pasted image 20260922095039.png|200]]
+
+- Since we are storing the l
