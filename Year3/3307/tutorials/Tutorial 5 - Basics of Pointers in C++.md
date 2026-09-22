@@ -77,14 +77,14 @@ int main() {
 	int a = 1025;
 	int *p = &a;
 	
-	cout << "Size of integer is " << sizeof(int) << " bytes" <, endl;
+	cout << "Size of integer is " << sizeof(int) << " bytes" << endl;
 	cout << "Address = " << p << " value = " << *p << endl;
 	cout << "Address = " << p + 1 << " value = " << *(p + 1) << endl;
 	
 	char *p0;
 	p0 = (char*)p; // Typecasting from int* to char*
 	
-	cout <, "Size of char is " << sizeof(char) << " bytes" << endl;
+	cout << "Size of char is " << sizeof(char) << " bytes" << endl;
 	cout << "Address = " << (void*)p0 << " value = " << (int)*p0 << endl;
 	
 	return 0;
