@@ -556,6 +556,20 @@ int main(){
 
 You can also pass functions as parameters as well.
 
+```cpp
+int add(int a, int b){
+	return a + b;
+}
+
+int op((add*)(int, int)) {
+	
+}
+
+int main(){
+	cout << add(5,2) << endl;
+	return 0;
+}
+```
 
 **Recursion** happens when a function calls itself to solve smaller instances of the same problem. Each recursive call reduces the problem’s size until it reaches the **base case**
 
