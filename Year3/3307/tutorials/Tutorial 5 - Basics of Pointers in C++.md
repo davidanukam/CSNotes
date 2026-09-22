@@ -53,6 +53,11 @@ int main() {
 	int *p = &a;
 	
 	cout << "Value of a: " << a << endl;
-	cout << "Value using "
+	cout << "Value using *p: " << *p << endl; // Dereference 'p' to get the value of 'a'
+	
+	*p = 10; // Change the value of 'a' using the pointer
+	cout << "New value of a: " << a << endl;
+	
+	return 0;
 }
 ```
