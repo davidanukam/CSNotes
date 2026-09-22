@@ -49,15 +49,22 @@ p: 149
 using namespace std;
 
 int main() {
-	int a = 5;
-	int *p = &a;
+	int a = 5; // Declare and initialize an integer
+	int *p = &a; // Declare a pointer and store the address of 'a'
 	
-	cout << "Value of a: " << a << endl;
+	cout << "Value of a: " << a << endl; // Output the value of 'a'
 	cout << "Value using *p: " << *p << endl; // Dereference 'p' to get the value of 'a'
 	
 	*p = 10; // Change the value of 'a' using the pointer
-	cout << "New value of a: " << a << endl;
+	cout << "New value of a: " << a << endl; // Output the new value of 'a'
 	
 	return 0;
 }
 ```
+
+```bash
+Value of a: 5
+Value using *p: 5
+New value of a: 10
+```
+
