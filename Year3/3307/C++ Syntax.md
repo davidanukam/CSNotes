@@ -554,6 +554,9 @@ int main(){
 }
 ```
 
+You can also pass functions as parameters as well.
+
+
 **Recursion** happens when a function calls itself to solve smaller instances of the same problem. Each recursive call reduces the problem’s size until it reaches the **base case**
 
 ```cpp
