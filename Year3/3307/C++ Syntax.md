@@ -557,7 +557,7 @@ int main(){
 You can also pass functions as parameters as well.
 
 ```cpp
-int add(int a, int b){
+int add(int a, int b) {
 	return a + b;
 }
 
@@ -565,7 +565,7 @@ int op((add*)(int, int), int a, int, b) {
 	return add(a, b);
 }
 
-int main(){
+int main() {
 	cout << op(add, 5,2) << endl;
 	return 0;
 }
