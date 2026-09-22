@@ -91,4 +91,27 @@ int main() {
 }
 ```
 
-# Dealing wi
+# Dealing with Pointers to Pointers
+
+```cpp
+int x = 5;
+    int *p1 = &x;
+    *p1 = 6;
+
+    int **q = &p1;
+    int ***r = &q;
+
+    cout << *p1 << endl;
+    cout << **q << endl;
+    cout << ***r << endl;
+
+    return 0;
+```
+
+```bash
+6
+6
+6
+```
+
+(Explain pointers to)
