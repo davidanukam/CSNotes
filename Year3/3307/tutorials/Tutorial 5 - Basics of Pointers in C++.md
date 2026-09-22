@@ -6,3 +6,7 @@ We know that:
 - float (4 bytes = 32 bits)
 
 Imagine we store an integer b that holds the value 8
+
+![[Pasted image 20260922094503.png|300]]
+
+So we want to know the
