@@ -75,6 +75,10 @@ Here's an example of pointers, memory and the strongly typed property.
 ```cpp
 int main() {
 	int a = 1025;
-	int *p *
+	int *p = &a;
+	
+	cout << "Size of integer is " << sizeof(int) << " bytes" <, endl;
+	cout << "Address = " << p << " value = " << *p << endl;
+	cout << "Address = " << p + 1 << " value = " << *p << endl;
 }
 ```
