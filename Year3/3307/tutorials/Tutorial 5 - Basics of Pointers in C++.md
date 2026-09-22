@@ -114,4 +114,4 @@ int x = 5;
 6
 ```
 
-(Explain pointers to)
+(Explain pointers to pointers using a memory example and addresses and blah blah blah)
