@@ -68,3 +68,5 @@ Value using *p: 5
 New value of a: 10
 ```
 
+> Basically works the same for other data types (double, char etc.)
+
