@@ -23,6 +23,8 @@ int main() {
 	p = &a;
 	a = 5;
 	
-	cout << "&a" << 
+	cout << "&a: " << &a << endl;
+	cout << "&a: " << &a << endl;
+	cout << "&a: " << &a << endl;
 }
 ```
