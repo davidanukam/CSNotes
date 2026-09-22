@@ -248,7 +248,7 @@ These 3 questions are to be answered in order.
 ## Linear Regression (The 1st Model)
 
 ### Question
-()
+How does a 
 
 ### Goal
 ()
