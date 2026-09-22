@@ -24,7 +24,13 @@ int main() {
 	a = 5;
 	
 	cout << "&a: " << &a << endl;
-	cout << "&a: " << &a << endl;
-	cout << "&a: " << &a << endl;
+	cout << "p: " << p << endl;
+	cout << "*p: " << *p << endl;
+	
+	return 0;
 }
+```
+
+```bash
+&a: 149
 ```
