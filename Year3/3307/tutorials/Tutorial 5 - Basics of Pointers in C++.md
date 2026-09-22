@@ -79,6 +79,11 @@ int main() {
 	
 	cout << "Size of integer is " << sizeof(int) << " bytes" <, endl;
 	cout << "Address = " << p << " value = " << *p << endl;
-	cout << "Address = " << p + 1 << " value = " << *p << endl;
+	cout << "Address = " << p + 1 << " value = " << *(p + 1) << endl;
+	
+	char *p0;
+	p0 = (char*) p; // Typecasting from int* to char*
+	
+	cout <, "Size "
 }
 ```
