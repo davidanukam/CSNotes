@@ -39,4 +39,6 @@ p: 149
 
 ![[Pasted image 20260922095039.png|200]]
 
-- Since we are storing the l
+- Since we are storing the location of the variable in memory, the pointer takes the type of the value that is at that location in memory.
+- THIS MEANS THAT **POINTERS** ARE **STRONGLY TYPED**!
+
