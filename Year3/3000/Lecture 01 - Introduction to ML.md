@@ -242,16 +242,16 @@ These 3 questions are to be answered in order.
 	- These three common sets are the **Training Set**, **Testing Set**, and **Validation Set** (60% / 20% / 20% split)
 4. **Choose**: We want to use a type of model that can best fit the question (Linear Regression, Multiple Linear Regression, T-Procedures, etc.)
 5. **Train**: Obviously this is where you give the training data to the model and allow it to learn from the data and fid the patterns within it. This happens a multitude of times to allow for better accuracy.
-6. **Test**: ()
-7. **Deploy**: ()
+6. **Test**: (Finish Later)
+7. **Deploy**: (Finish Later)
 
 ## Linear Regression (The 1st Model)
 
 ### Question
-How does a 
+How does a computer find that pair without a person dragging a slider, and what does the search do when the surface is not a simple bowl?
 
 ### Goal
-()
+Find a minimum by setting a derivative to zero, run gradient descent by hand for one step, and predict what a learning rate that is too small or too large will do.
 
 ### Example: Temperature and Demand
 
