@@ -15,5 +15,7 @@ $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbr
 
 $L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
 
-$L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
+$L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
+
+
 
