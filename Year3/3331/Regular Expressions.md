@@ -12,3 +12,6 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 Structural Induction
 
 $\text{L(a)*L(b)} = {a^{n}b^{m} | n, m \ge 0}$
+
+$L = {w \in \lbrace{a, b\rbrace}^{*} | |w| \text{is even}}$
+
