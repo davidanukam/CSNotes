@@ -87,3 +87,5 @@ Therefore, they are mergeable.
 
 ## Constructing $\equiv_{n}$ (length $n$)
 
+$\forall{p, q} \in K \ \text{and any} \ n \ge 1$
+
