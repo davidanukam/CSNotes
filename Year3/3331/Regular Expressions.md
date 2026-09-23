@@ -11,3 +11,4 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 
 Structural Induction
 
+L(a)*L(b)*
