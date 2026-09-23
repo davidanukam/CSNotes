@@ -79,3 +79,6 @@ so $\therefore xa \approx_{L} ya$
 
 The # of Accepting States = # of equivalence classes that have all strings $\in L$
 
+## The Overclustering Approach
+
+states p and state q behave the same for any w *iff* they do the same job lead
