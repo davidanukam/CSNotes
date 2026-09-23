@@ -7,4 +7,5 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 5. If $\alpha, \beta$ are regular expressions, then so is $\alpha \cup \beta$
 6. If $\alpha$ are regular expressions, then so is $\alpha^{*}$
 7. $\alpha$ are regular expressions, then so is $\alpha^{+}$
-8. 6. If $\alpha$ are regular expressions, then so is $(\alpha)$
+8. If $\alpha$ are regular expressions, then so is $(\alpha)$
+
