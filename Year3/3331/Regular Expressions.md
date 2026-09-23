@@ -11,7 +11,7 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 
 Structural Induction
 
-$L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = {a}^{*}b^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
+$L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
 
 $L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
 
