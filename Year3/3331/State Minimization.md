@@ -96,4 +96,7 @@ $q \equiv_{n} p$
 1.
 2.
 
+Lets look at an example
+
+![[Pasted image 20260923114628.png]]
 
