@@ -89,3 +89,11 @@ Therefore, they are mergeable.
 
 $\forall{p, q} \in K \ \text{and any} \ n \ge 1$
 
+$q \equiv_{n} p$
+
+*iff*
+
+1.
+2.
+
+
