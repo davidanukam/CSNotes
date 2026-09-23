@@ -81,4 +81,8 @@ The # of Accepting States = # of equivalence classes that have all strings $\in 
 
 ## The Overclustering Approach
 
-states p and state q behave the same for any w *iff* they do the same job lead
+States **p** and state **q** behave the **same** for any w *iff* they do the same job by either both leading to an **accepting** state or both leading to a **rejecting** state.
+
+Therefore, they are mergeable.
+
+
