@@ -9,3 +9,5 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 7. $\alpha$ are regular expressions, then so is $\alpha^{+}$
 8. If $\alpha$ are regular expressions, then so is $(\alpha)$
 
+Structural Induction
+
