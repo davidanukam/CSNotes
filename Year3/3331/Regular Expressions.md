@@ -3,4 +3,8 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 1. $\emptyset$ is a regular expression
 2. 2. $\epsilon$ is a regular expression
 3. Every element $a \in \Sigma$ is a regular expression
-4. if $\alpha, \beta$ are regular expressions, then so is $\alpha$
+4. If $\alpha, \beta$ are regular expressions, then so is $\alpha\beta$
+5. If $\alpha, \beta$ are regular expressions, then so is $\alpha \cup \beta$
+6. If $\alpha$ are regular expressions, then so is $\alpha^{*}$
+7. $\alpha$ are regular expressions, then so is $\alpha^{+}$
+8. 6. If $\alpha$ are regular expressions, then so is $(\alpha)$
