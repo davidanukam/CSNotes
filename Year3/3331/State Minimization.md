@@ -85,5 +85,5 @@ States **p** and state **q** behave the **same** for any w *iff* they do the sam
 
 Therefore, they are mergeable.
 
-## Constructing $\equiv_{n}$
+## Constructing $\equiv_{n}$ (length $n$)
 
