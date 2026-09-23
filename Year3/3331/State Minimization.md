@@ -100,5 +100,7 @@ Lets look at an example
 
 ![[Pasted image 20260923114628.png]]
 
-Complete DFA means that all states basically have n outnodes (where n = length of alphabet and each out)
+Complete DFA means that all states basically have n outnodes (where n = length of alphabet and each outnode appears at most once for any state)
+
+
 
