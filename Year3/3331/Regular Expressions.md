@@ -13,5 +13,5 @@ Structural Induction
 
 $\text{L(a)*L(b)} = {a^{n}b^{m} | n, m \ge 0}$
 
-$L = {w \in \lbrace{a, b\rbrace}^{*} | |w| \text{is even}}$
+$L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
 
