@@ -15,3 +15,5 @@ $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbr
 
 $L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
 
+43 -
+
