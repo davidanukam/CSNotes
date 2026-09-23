@@ -11,4 +11,4 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 
 Structural Induction
 
-$\text{L(a)*L(b)} = {a^{n}b^{m} | n, m \}$
+$\text{L(a)*L(b)} = {a^{n}b^{m} | n, m \ge 0}$
