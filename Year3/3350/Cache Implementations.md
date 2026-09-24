@@ -45,7 +45,7 @@ set # = (block address) mod R
 
 **Byte Address**:
 
-![[Pasted image 20260918100656.png]]
+![ByteAddressVsWordAdress](assets/ByteAddressVsWordAdress.png)
 
 I'm kinda not getting this so I'll add a simple Explanation:
 
