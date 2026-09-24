@@ -70,7 +70,7 @@ So in this case (assuming the common **64-bit** computer):
 
 Lets say this **Word** is at **Word Address** 16 (0x10)
 
-Therefore the **Byte Address** of this **Word** = $N \times X = 8 \times 16 = 128$ (0x)
+Therefore the **Byte Address** of this **Word** = $N \times X = 8 \times 16 = 128$ (0x80)
 
 ## Types of Cache Organization
 
