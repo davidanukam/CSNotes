@@ -76,12 +76,10 @@ Therefore the **Byte Address** of this **Word** = $N \times X = 8 \times 16 = 12
 
 **Direct-Mapped**:
 
-N = 1
-- One line per set
+- N = 1 (One line per set)
 - Each memory address is mapped to exactly one line in the cache
 - $b = log_2(B)$
 - $s = log_2(R)$
-- $N = 1$
 - $t = m - b$
 
 **Fully Associative**:
