@@ -7,7 +7,7 @@ We know that:
 
 Imagine we store an integer b that holds the value 8
 
-![MemoryAddressesExample|300]()
+![MemoryAddressesExample|300](../assets/MemoryAddressesExample.png)
 
 So we want to know the memory address of these variables and operate upon these memory addresses
 
