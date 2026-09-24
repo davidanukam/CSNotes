@@ -10,7 +10,7 @@ We are going to answer these in this course
 
 ## General Organization of a Cache Memory
 
-![[Pasted image 20260918095333.png]]
+![CacheMemoryStructureExample](assets/CacheMemoryStructureExample.png)
 
 - How do we get the exact location of the block (line) we need?
 	- First, use the **set** index (calculated from the address of the first byte)
