@@ -7,7 +7,7 @@ We know that:
 
 Imagine we store an integer b that holds the value 8
 
-![[Pasted image 20260922094503.png|300]]
+![MemoryAddressesExample|300]()
 
 So we want to know the memory address of these variables and operate upon these memory addresses
 
@@ -37,7 +37,7 @@ p: 149
 *p: 5
 ```
 
-![PointerInMemoryExample|200](assets/PointerInMemoryExample.png)
+![PointerInMemoryExample|200](../assets/PointerInMemoryExample.png)
 
 - Since we are storing the location of the variable in memory, the pointer takes the type of the value that is at that location in memory (This allows for both accessing the value and modifying the value).
 - THIS MEANS THAT **POINTERS** ARE **STRONGLY TYPED**!
