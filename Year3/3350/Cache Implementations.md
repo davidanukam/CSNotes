@@ -16,7 +16,7 @@ We are going to answer these in this course
 	- First, use the **set** index (calculated from the address of the first byte)
 	- Then, we can use the **tag** to find the exact location in the given set and the given line.
 
-![[Pasted image 20260918095755.png]]
+![CacheCapacityFormula](assets/CacheCapacityFormula.png)
 
 ## Memory-Cache Mapping (Addressing Cache Memories)
 
