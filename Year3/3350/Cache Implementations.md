@@ -53,7 +53,7 @@ From $1^{st}$ year, we know that **8 Bits = 1 Byte**
 
 $\underbrace{00000000}_{1 \ \text{Byte} \ = \ 8 \ \text{Bits}}$
 
-A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (*N* bytes).
+A **Word** is a natural unit of data used by a processor, which often spans multiple bytes (*N* bytes) and is based on the number of bits a processor has (e.g. 16-bit processor means 1 **Word** = 16 **bits** = 2 **bytes**).
 
 e.g. *N* = 8 (1 **Word** = 8 **Bytes**) -> I used 8 in this example because it will make sense in a couple sentences so keep reading:
 
