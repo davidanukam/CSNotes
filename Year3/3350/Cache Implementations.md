@@ -57,7 +57,7 @@ A **Word** is a natural unit of data used by a processor, which often spans mult
 
 e.g. *N* = 8 (1 **Word** = 8 **Bytes**) -> I used 8 in this example because it will make sense in a couple sentences so keep reading:
 
-$\underbrace{\underbrace{00000111}_{1 \ \text{Byte}}, \underbrace{00000110}_{1 \ \text{Byte}}, \underbrace{00000101}_{1 \ \text{Byte}}, \underbrace{00000100}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word} \ = \ 8 \ \text{Bytes}}$
+$\underbrace{\underbrace{00000111}_{1 \ \text{Byte}}, \underbrace{00000110}_{1 \ \text{Byte}}, \underbrace{00000101}_{1 \ \text{Byte}}, \underbrace{00000100}_{1 \ \text{Byte}}, \underbrace{00000011}_{1 \ \text{Byte}}, \underbrace{00000010}_{1 \ \text{Byte}}, \underbrace{00000001}_{1 \ \text{Byte}}, \underbrace{00000000}_{1 \ \text{Byte}}}_{1 \ \text{Word} \ = \ 8 \ \text{Bytes} \ (64 \ \text{bits})}$
 
 Okay so the **Word** in this example is equal to a large number (made from the **64 bits (8 Bytes)**) but that number could be whatever (we don't really care right now).
 
