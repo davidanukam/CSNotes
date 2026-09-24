@@ -98,9 +98,6 @@ $q \equiv_{n} p$
 
 Lets look at an example
 
-![]()
+![MimizingDFSMByUsingEquivalentClassesExample](assets/MimizingDFSMByUsingEquivalentClassesExample.png)
 
 Complete DFA means that all states basically have n outnodes (where n = length of alphabet and each outnode appears at most once for any state)
-
-
-
