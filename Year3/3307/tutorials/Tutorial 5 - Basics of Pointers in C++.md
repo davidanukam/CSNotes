@@ -37,7 +37,7 @@ p: 149
 *p: 5
 ```
 
-![[Pasted image 20260922095039.png|200]]
+![PointerInMemoryExample|200](assets/PointerInMemoryExample.png)
 
 - Since we are storing the location of the variable in memory, the pointer takes the type of the value that is at that location in memory (This allows for both accessing the value and modifying the value).
 - THIS MEANS THAT **POINTERS** ARE **STRONGLY TYPED**!
