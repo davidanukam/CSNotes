@@ -79,7 +79,8 @@ Therefore the **Byte Address** of this **Word** = $N \times X = 8 \times 16 = 12
 N = 1
 - One line per set
 - Each memory address is mapped to exactly one line in the cache
-- $b = log_2(B), s = log_2(R)$
+- $b = log_2(B)$
+- $s = log_2(R)$
 - $N = 1$
 - $t = m - b$
 
@@ -87,14 +88,19 @@ N = 1
 
 - R = 1 (allow a memory address to be mapped to any cache block)
 - Tag is whole address except block offset
-- $b = log_2(B), s = 0, t = m - b$
+- $b = log_2(B)$
+- $s = 0$
 - $N = C/B$
+- $t = m - b$
 
 **N-way set associative (We use this most of the time**):
 
 - N is typically 2, 4, 8, or 16 (sometimes 32)
 - A memory block maps to a specific set but can be placed in any way of that set (so there are N choices of mapping).
-- $b = log_2(B), R = C/(B \times N), s = log_2(R), t = m - s- b$
+- $b = log_2(B)$
+- $s = log_2(R)$
+- $R = C/(B \times N)$
+- $t = m - s- b$
 
 ## Why Middle Bits For Set Index?
 
