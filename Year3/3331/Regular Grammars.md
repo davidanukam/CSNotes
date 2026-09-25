@@ -15,3 +15,6 @@ Start with S and then apply rules (rewrite left had side by the right hand side)
 
 $S \rightarrow^{\mathbb{R}} Sa \rightarrow^{\mathbb{R}} Saa \rightarrow^{\mathbb{R}} aaa$
 
+---
+
+In FSM, when S (state) goes to T (another state), you have the Grammar rule: $S \rightarrow aT$
