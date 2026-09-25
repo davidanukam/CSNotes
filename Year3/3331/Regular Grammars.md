@@ -18,3 +18,8 @@ $S \rightarrow^{\mathbb{R}} Sa \rightarrow^{\mathbb{R}} Saa \rightarrow^{\mathbb
 ---
 
 In FSM, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
+
+## Conversions
+
+![[Pasted image 20260925114513.png]]
+
