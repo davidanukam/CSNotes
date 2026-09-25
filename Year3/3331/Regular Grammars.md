@@ -13,7 +13,7 @@ Terminal: a
 
 **X** can be rewritten as **y**
 
-Start with **S** and then apply rules (rewrite left had side by the right hand side) until you have only terminals.
+Start with **S** and then apply rules (rewrite left had side by the right hand side) until you have ONLY **terminals**.
 
 $S \overset{\mathbb{R}}{\rightarrow} Sa \overset{\mathbb{R}}{\rightarrow} Saa \overset{\mathbb{R}}{\rightarrow} aaa$
 
