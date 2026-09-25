@@ -1,5 +1,5 @@
 ## Grammars
-- Grammars are rewriting systems
+- Grammars are rewriting systems (that produce strings)
 - **Non-terminals** will do the work (Upper case)
 - **Terminals** form the final strings (Lower case)
 
@@ -17,4 +17,4 @@ $S \rightarrow^{\mathbb{R}} Sa \rightarrow^{\mathbb{R}} Saa \rightarrow^{\mathbb
 
 ---
 
-In FSM, when S (state) goes to T (another state), you have the Grammar rule: $S \rightarrow aT$
+In FSM, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
