@@ -28,12 +28,12 @@ Given a language:
 - Prove that we can always find a (unique up to state naming) deterministic FSM with a number of states equal to the number of equivalence classes of strings.
 - Describe and algorithm for finding that DFSM
 
-Indistinguishable (with respect to a language L):
+**Indistinguishable** (with respect to a language L):
 - If, not matter what is tacked on to them on the **right**, either they will both be in L or neither will.
 
-If $x$ and $y$ are indistinguishable, then we can merge $p$ and $q$ to get a minimized DFSM.
+If $x$ and $y$ are **indistinguishable**, then we can merge $p$ and $q$ to get a minimized DFSM.
 
-![[Pasted image 20260918114655.png]]
+![IndistinguishableStatesExample](assets/IndistinguishableStatesExample.png)
 
 Yes, they are because the lengths of the strings will be the same so every time one is odd it is not in the language and every time |w| is even then it is in the language.
 
@@ -79,25 +79,3 @@ so $\therefore xa \approx_{L} ya$
 
 The # of Accepting States = # of equivalence classes that have all strings $\in L$
 
-## The Overclustering Approach
-
-States **p** and state **q** behave the **same** for any w *iff* they do the same job by either both leading to an **accepting** state or both leading to a **rejecting** state.
-
-Therefore, they are mergeable.
-
-## Constructing $\equiv_{n}$ (length $n$)
-
-$\forall{p, q} \in K \ \text{and any} \ n \ge 1$
-
-$q \equiv_{n} p$
-
-*iff*
-
-1.
-2.
-
-Lets look at an example
-
-![MimizingDFSMByUsingEquivalentClassesExample](assets/MimizingDFSMByUsingEquivalentClassesExample.png)
-
-Complete DFA means that all states basically have n outnodes (where n = length of alphabet and each outnode appears at most once for any state)
