@@ -43,7 +43,7 @@ No, because (after adding the empty string to the end), one can be in the langua
 
 ## Equivalence Relation
 
-![[Pasted image 20260918115013.png]]
+![EquivalenceRelationDefinition](assets/EquivalenceRelationDefinition.png)
 
 Because L is an equivalence relation:
 - No equivalence class of L is empty
