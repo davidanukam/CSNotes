@@ -75,7 +75,7 @@ so $\therefore xa \approx_{L} ya$
 
 > Remember: The number of states has to be at least the number of classes
 
-![]()
+![EquivalenceClassExample3](assets/EquivalenceClassExample3.png)
 
 The # of Accepting States = # of equivalence classes that have all strings $\in L$
 
