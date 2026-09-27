@@ -53,11 +53,11 @@ Because $L$ is an equivalence relation:
 
 E.g.
 
-![EquivalenceClassExample]()
+![EquivalenceClassExample1](assets/EquivalenceClassExample1.png)
 
 E.g.
 
-![[Pasted image 20260918115326.png]]
+![EquivalenceClassExample2](assets/EquivalenceClassExample2.png)
 
 Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in $L$ are the **Accepting States**. The rest are the non-accepting states and the dead states.
 
@@ -75,7 +75,7 @@ so $\therefore xa \approx_{L} ya$
 
 > Remember: The number of states has to be at least the number of classes
 
-![[Pasted image 20260918121117.png]]
+![]()
 
 The # of Accepting States = # of equivalence classes that have all strings $\in L$
 
