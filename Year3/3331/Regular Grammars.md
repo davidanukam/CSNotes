@@ -67,4 +67,4 @@ This is arguably the **most important part** of this chapter or unit or section,
 
 Given a Regular Grammar you can kind of see exactly what the NDFSM will look like.
 
-Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression )
+Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression and break it down into sets using the building blocks: L(a) = $\lbrace{a\rbrace}$)
