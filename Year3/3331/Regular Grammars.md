@@ -50,7 +50,9 @@ The **language** defined by a grammar: all terminal strings that can be obtained
 
 Also notice that in **FSA**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
 
-The reason $T \rightarrow a$ and $T \rightarrow b$ is because from State $T$ to successfully end the string (go to an accepting state), you need to add either an a or a b to make it even. However
+The reason $T \rightarrow a$ and $T \rightarrow b$ is because from State $T$ (a string of odd length) to successfully end the string (go to an accepting state), you need to add either an $a$ or a $b$ to make it even.
+
+However when at State $S$, the accepting state, if you add just an a o
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
