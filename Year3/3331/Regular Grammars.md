@@ -12,10 +12,10 @@ $S \rightarrow \epsilon$
 2. Terminal: a
 
 A Grammar G is a quadruple of the form (V, $\Sigma$, R, S)
-- V is the rule alphabet (it contains the Non-terminals and Terminals)
-- 
-
-**R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$
+- **V** is the rule alphabet (it contains the Non-terminals and Terminals)
+- $\Sigma$ is the set of terminals which is a subset of **V**
+- **R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$
+- $S \in V - \Sigma$ wh
 
 **X** can be rewritten as **y**
 
