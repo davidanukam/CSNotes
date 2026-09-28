@@ -63,11 +63,13 @@ However when at State $S$, the accepting state, if you add just an $a$ or a $b$,
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
 
-This is arguably the **most important part** of this chapter or unit or section, or whatever.
+This is arguably the **most important part** of this chapter or unit or section, or whatever. So summary time!
 
-Given a Regular Grammar you can kind of see exactly what the NDFSM will look like.
+## Summary
 
-Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression, break it down into sets: L(a) = $\lbrace{a\rbrace}$, L(a*) = $\lbrace{a\rbrace}^{*}$, etc. and then use the building blocks). 
+Given a **Regular Grammar** you can kind of see exactly what the NDFSM will look like.
+
+Given a **Regular Expression**, you can make the NDFSM by using Thompson Construction (Take the expression, break it down into sets: L(a) = $\lbrace{a\rbrace}$, L(a*) = $\lbrace{a\rbrace}^{*}$, etc. and then use the building blocks). 
 
 Now, to make the DFSM you need to first create the **Epsilon Closure** of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
 
@@ -78,4 +80,4 @@ Now we need to minimize the DFSM. To do so, we need to create two sets and use *
 - By $a$, 1 and 2 go to 6 but the others don't. So split: {{1, 2}, {3, 4, 5}, {6}}
 - Repeat this until each element in a subset behaves the same as the other elements in its subset (So 1 and 2 should behave the same, 3, 4, and 5 should behave the same and 6 should behave the same)
 
-After, you can use the **equivalence classes** (basically the subsets used to make the Minimial DFSM) to create $\approx L$ which is the 
+After, you can use the **equivalence classes** (basically the subsets used to make the Minimial DFSM) to create $\approx_{L}$ which is the **Regular Language**.
