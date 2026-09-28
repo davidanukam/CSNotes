@@ -13,7 +13,12 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 
 Example
 
-If $\Sigma = \lbrace{a, b\rbrace}$, the followi
+If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
+- $\emptyset$
+- $\epsilon$
+- $a$
+- $(a \cup b)^{*}$
+- $abba \cup \epsilon$
 ## Structural Induction
 
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
