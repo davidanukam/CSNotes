@@ -3,12 +3,13 @@
 - **Non-terminals** will do the work (Upper case)
 - **Terminals** form the final strings (Lower case)
 
-e.g.
+E.g.
 
 $S \rightarrow Sa$
 $S \rightarrow \epsilon$
-Non-terminal: S
-Terminal: a
+
+- Non-terminal: S
+- Terminal: a
 
 **R** has a finite set of **rules** of the form:
 
