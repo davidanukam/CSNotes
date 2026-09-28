@@ -75,4 +75,5 @@ From there you can start from the first state, add it to a set, and then add all
 
 Now we need to minimize the DFSM. To do so, create two sets. One for the **Accepting States** and one for the **Rejecting States**. Then you want to try and see which transition functions lead elements from one set to a different set:
 - {{1, 2, 3, 4, 5}, {6}} ({1, 2, 3, 4, 5} are Rejecting and {6} is Accepting)
-- By $a$, 1 and 2 go to 6 but 3, 4, and 5 go to either 3, 4, or 5. So split 
+- By $a$, 1 and 2 go to 6 but the others don't. So split: {{1, 2}, {3, 4, 5}, {6}}
+- Repeat this until each element in a subset behaves the same as t
