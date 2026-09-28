@@ -22,7 +22,8 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 
 ## Regular Expressions Define Languages
 
-
+Semantic interpretation: the **language L($\alpha$)** expressed by a regular expression $\alpha$:
+1. L(\emptyset) = \empty
 ## Structural Induction
 
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
