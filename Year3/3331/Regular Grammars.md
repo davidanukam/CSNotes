@@ -67,8 +67,8 @@ This is arguably the **most important part** of this chapter or unit or section,
 
 Given a Regular Grammar you can kind of see exactly what the NDFSM will look like.
 
-Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression, break it down into sets: L(a) = $\lbrace{a\rbrace}$, L(a*) = $\lbrace{a\rbrace}^{*}$, etc. and then use the building blocks to create the DFSM). 
+Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression, break it down into sets: L(a) = $\lbrace{a\rbrace}$, L(a*) = $\lbrace{a\rbrace}^{*}$, etc. and then use the building blocks). 
 
-Now, to minimize you need to create the Epsilon Closure of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
+Now, to make the DFSM you need to first create the Epsilon Closure of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
 
-From there you can 
+From there you can start from the first state, add it to a set, and then add 
