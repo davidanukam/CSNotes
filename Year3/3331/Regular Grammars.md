@@ -4,6 +4,7 @@
 - **Terminals** form the final strings (Lower case)
 
 e.g.
+
 $S \rightarrow Sa$
 $S \rightarrow \epsilon$
 Non-terminal: S
