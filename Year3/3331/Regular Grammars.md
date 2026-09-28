@@ -15,9 +15,9 @@ $S \rightarrow \epsilon$
 
 **X** can be rewritten as **y**
 
-Start with **S** and then apply rules (rewrite left had side by the right hand side) until you have ONLY **terminals**.
+Start with **S** and then apply rules (rewrite left hand side with the right hand side) until you have ONLY **terminals**.
 
-$S \overset{\mathbb{1}}{\rightarrow} Sa \overset{\mathbb{1}}{\rightarrow} Saa \overset{\mathbb{1}}{\rightarrow} Saaa \overset{\mathbb{2}}{\rightarrow} aaa$
+$S \overset{1}{\Rightarrow} Sa \overset{1}{\Rightarrow} Saa \overset{1}{\Rightarrow} Saaa \overset{2}{\Rightarrow} aaa$
 
 ---
 
