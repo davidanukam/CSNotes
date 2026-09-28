@@ -25,10 +25,10 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 Semantic interpretation: the **language L($\alpha$)** expressed by a regular expression $\alpha$:
 1. $L(\emptyset) = \emptyset$
 2. $L()$
-3. $L()$
-4. $L()$
-5. $L()$
-6. $L(\alpha^{*})$
+3. $L(c) = {c}$
+4. $L(\alpha \beta) = L(\alpha) L(\beta)$
+5. $L(\alpha \cup \beta) = L(\alpha) \cup L(\beta)$
+6. $L(\alpha^{*}) = L(\alpha)^{*}$
 7. $L(\alpha^{+})$
 8. $L((\alpha)) = L(\alpha)$
 ## Structural Induction
