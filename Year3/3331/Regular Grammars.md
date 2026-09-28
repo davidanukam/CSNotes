@@ -1,4 +1,5 @@
 ## Grammars
+- A Grammar G is a 
 - Grammars are rewriting systems (that produce strings)
 - **Non-terminals** will do the work (Upper case)
 - **Terminals** form the final strings (Lower case)
@@ -11,9 +12,11 @@ $S \rightarrow \epsilon$
 1. Non-terminal: S
 2. Terminal: a
 
-**R** has a finite set of **rules** of the form:
+**R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$
 
 **X** can be rewritten as **y**
+
+## How to Derive Strings
 
 Start with **S** and then apply rules (rewrite left hand side with the right hand side) until you have ONLY **terminals**.
 
