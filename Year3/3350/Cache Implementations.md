@@ -103,7 +103,7 @@ Therefore the **Byte Address** of this **Word** = $N \times X = 8 \times 16 = 12
 
 ## Why Middle Bits For Set Index?
 
-![[Pasted image 20260918101658.png]]
+![DirectMappedCacheExplainer](assets/DirectMappedCacheExplainer.png)
 
 **High-Order Bit Indexing**:
 
@@ -119,5 +119,5 @@ Non-underlined bits are the set (so which of the 4 sets to go to)
 
 Oh! Lets see an example for a **Direct-Mapped Cache**
 
-![[Pasted image 20260918104935.png]]
+![DirectMappedCacheExample](assets/DirectMappedCacheExample.png)
 
