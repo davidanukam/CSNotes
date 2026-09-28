@@ -41,6 +41,7 @@ set # = (block address) mod R
 | 2   | 000...010 |
 | ... | ...       |
 | B-1 | ...       |
+
 **Word Address**: Viewing the main memory as a succession of bytes
 
 **Byte Address**:
