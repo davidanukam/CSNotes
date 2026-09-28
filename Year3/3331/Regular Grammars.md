@@ -71,4 +71,4 @@ Given a Regular Expression, you can make the NDFSM by using Thompson Constructio
 
 Now, to make the DFSM you need to first create the **Epsilon Closure** of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
 
-From there you can start from the first state, add it to a set, and then add all the states in its epsilon closure to the same set. Then by once character in the alphabet (e.g. by $a$), you see where each element in the
+From there you can start from the first state, add it to a set, and then add all the states in its epsilon closure to the same set. Then by once character in the alphabet (e.g. by $a$), you see where each state in the set goes to. For each one, you add it and its epsilon closure to the new set. Then you connect the sets with an arrow with a transition function equal to the character used to get there (e.g. ${0, 1, 2, 3}$).
