@@ -34,7 +34,10 @@ In a Regular Grammar, all rules in **R** must:
 - Have a right hand side that is:
 	- $\epsilon$ or
 	- a single terminal or
-	- 
+	- a single terminal followed by a single nonterminal
+
+Legal: $S \rightarrow a, S \rightarrow \epsilon, and $
+
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
