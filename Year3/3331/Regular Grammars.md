@@ -1,5 +1,4 @@
 ## Grammars
-- A Grammar G is a 
 - Grammars are rewriting systems (that produce strings)
 - **Non-terminals** will do the work (Upper case)
 - **Terminals** form the final strings (Lower case)
@@ -11,6 +10,10 @@ $S \rightarrow \epsilon$
 
 1. Non-terminal: S
 2. Terminal: a
+
+A Grammar G is a quadruple of the form (V, $\Sigma$, R, S)
+- V is the rule alphabet (it contains the Non-terminals and Terminals)
+- 
 
 **R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$
 
