@@ -24,20 +24,15 @@ Start with **S** and then apply rules (rewrite left hand side with the right han
 
 $S \overset{1}{\Rightarrow} Sa \overset{1}{\Rightarrow} Saa \overset{1}{\Rightarrow} Saaa \overset{2}{\Rightarrow} aaa$
 
----
-
-
-
----
-
 In a Regular Grammar, all rules in **R** must:
 - Have a left hand side that is a **single nonterminal**
 - Have a right hand side that is:
 	- $\epsilon$ or
-	- a single terminal or
-	- a single terminal followed by a single nonterminal
+	- a **single terminal** or
+	- a **single terminal** followed by a **single nonterminal**
 
 Legal: $S \rightarrow a, S \rightarrow \epsilon, \ \text{and} \ T \rightarrow aS$
+
 Not Legal: $S \rightarrow aSa \ \text{and} \ aSa \rightarrow T$
 
 The **language** defined by a grammar: all terminal strings that can be obtained starting from S and applying the rules.
