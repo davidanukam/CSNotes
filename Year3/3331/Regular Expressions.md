@@ -30,6 +30,9 @@ Semantic interpretation: the **language L($\alpha$)** expressed by a regular exp
 5. $L(\alpha \cup \beta) = L(\alpha) \cup L(\beta)$
 6. $L(\alpha^{*}) = L(\alpha)^{*}$
 7. $L(\alpha^{+})$
+	- If L(a) is equal to \emptyset$, thenL(a+) is also equal to Æ. Otherwise L(a+) is the
+language that is formed by concatenating together one
+or more strings drawn from L(a)
 8. $L((\alpha)) = L(\alpha)$
 ## Structural Induction
 
