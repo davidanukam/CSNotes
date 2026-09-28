@@ -26,7 +26,7 @@ $S \overset{1}{\Rightarrow} Sa \overset{1}{\Rightarrow} Saa \overset{1}{\Rightar
 
 ---
 
-In **FSM**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
+
 
 ---
 
@@ -46,7 +46,9 @@ The **language** defined by a grammar: all terminal strings that can be obtained
 
 ![RegularGrammarExample](assets/RegularGrammarExample.png)
 
-> Note $S \rightarrow \epsilon$ is a part of the Grammar because the empty string
+> Note $S \rightarrow \epsilon$ is a part of the Grammar because the empty string has a length of 0, which is even.
+
+Also notice that in **FSA**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$ (So its easier to form )
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
