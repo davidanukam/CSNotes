@@ -46,7 +46,7 @@ The **language** defined by a grammar: all terminal strings that can be obtained
 
 ![RegularGrammarExample](assets/RegularGrammarExample.png)
 
-
+> Note $S \rightarrow \epsilon$ is a part of the Grammar because the empty string
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
