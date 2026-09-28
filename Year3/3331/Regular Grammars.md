@@ -73,4 +73,4 @@ Now, to make the DFSM you need to first create the **Epsilon Closure** of every 
 
 From there you can start from the first state, add it to a set, and then add all the states in its epsilon closure to the same set. Then by once character in the alphabet (e.g. by $a$), you see where each state in the set goes to. For each one, you add it and its epsilon closure to the new set. Then you connect the sets with an arrow with a transition function equal to the character used to get there (e.g. $\lbrace{0, 1, 2, 3\rbrace} \overset{a}{\rightarrow} \lbrace{4, 5, 6\rbrace}$).
 
-Now we need to mi
+Now we need to minimize the DFSM. To do so, create two sets. One for the **Accepting States** and one for the **Rejecting States**. Then you want to try and see which transition func
