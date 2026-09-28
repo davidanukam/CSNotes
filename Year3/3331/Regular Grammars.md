@@ -69,6 +69,6 @@ Given a Regular Grammar you can kind of see exactly what the NDFSM will look lik
 
 Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression, break it down into sets: L(a) = $\lbrace{a\rbrace}$, L(a*) = $\lbrace{a\rbrace}^{*}$, etc. and then use the building blocks). 
 
-Now, to make the DFSM you need to first create the Epsilon Closure of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
+Now, to make the DFSM you need to first create the **Epsilon Closure** of every state (eps($q_i$) = $\lbrace{q_{i}\rbrace} \ \cup \ \lbrace{p_{1} : p_{1} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ q_{i} \rbrace} \ \cup \ \lbrace{p_{2} : p_{2} \ \text{is a state that can be reached by} \ \epsilon \ \text{from} \ p_{1} \rbrace}$, and so on)
 
-From there you can start from the first state, add it to a set, and then add 
+From there you can start from the first state, add it to a set, and then add all the states in its epsilon closure to the same set. Then by once character in the alphabet (e.g. by $a$), you see where each element in the
