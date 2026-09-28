@@ -34,6 +34,8 @@ Semantic interpretation: the **language L($\alpha$)** expressed by a regular exp
 8. $L((\alpha)) = L(\alpha)$
 ## Structural Induction
 
+This is the way we create the set representations of the 
+
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
 
 $L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
