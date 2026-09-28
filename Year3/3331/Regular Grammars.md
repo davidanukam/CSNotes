@@ -58,8 +58,9 @@ However when at State $S$, the accepting state, if you add just an $a$ or a $b$,
 
 ![StringsThatEndWithAAAA](assets/StringsThatEndWithAAAA.png)
 
-
+![OneCharacterMissingExample](assets/OneCharacterMissingExample.png)
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
 
+This is arguably the **most important part** of this chapter or unit or section, or whatever. 
