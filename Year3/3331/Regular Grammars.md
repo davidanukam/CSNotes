@@ -73,7 +73,9 @@ Now, to make the DFSM you need to first create the **Epsilon Closure** of every 
 
 From there you can start from the first state, add it to a set, and then add all the states in its epsilon closure to the same set. Then by once character in the alphabet (e.g. by $a$), you see where each state in the set goes to. For each one, you add it and its epsilon closure to the new set. Then you connect the sets with an arrow with a transition function equal to the character used to get there (e.g. $\lbrace{0, 1, 2, 3\rbrace} \overset{a}{\rightarrow} \lbrace{4, 5, 6\rbrace}$).
 
-Now we need to minimize the DFSM. To do so, create two sets. One for the **Accepting States** and one for the **Rejecting States**. Then you want to try and see which transition functions lead elements from one set to a different set:
+Now we need to minimize the DFSM. To do so, we need to create two sets and use **Subset Construction**. Create one sOne for the **Accepting States** and one for the **Rejecting States**. Then you want to try and see which transition functions lead elements from one set to a different set:
 - {{1, 2, 3, 4, 5}, {6}} ({1, 2, 3, 4, 5} are Rejecting and {6} is Accepting)
 - By $a$, 1 and 2 go to 6 but the others don't. So split: {{1, 2}, {3, 4, 5}, {6}}
-- Repeat this until each element in a subset behaves the same as t
+- Repeat this until each element in a subset behaves the same as the other elements in its subset (So 1 and 2 should behave the same, 3, 4, and 5 should behave the same and 6 should behave the same)
+
+After, 
