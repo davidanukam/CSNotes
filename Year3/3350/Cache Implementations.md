@@ -20,7 +20,7 @@ We are going to answer these in this course
 
 ## Memory-Cache Mapping (Addressing Cache Memories)
 
-![[Pasted image 20260918105341.png]]
+![AddressingCacheExample](assets/AddressingCacheExample.png)
 
 The data word at the *m*-bit address A is in cache if the tag bits in one of the $<\text{valid}>$ lines in set $<\text{set index}>$ match $<\text{tag}>$
 
