@@ -57,6 +57,8 @@ However when at State $S$, the accepting state, if you add just an $a$ or a $b$,
 ## Some More Examples
 
 ![StringsThatEndWithAAAA](assets/StringsThatEndWithAAAA.png)
+
+
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
