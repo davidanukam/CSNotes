@@ -14,10 +14,8 @@ $S \rightarrow \epsilon$
 A Grammar G is a quadruple of the form (V, $\Sigma$, R, S)
 - **V** is the rule alphabet (it contains the Non-terminals and Terminals)
 - $\Sigma$ is the set of terminals which is a subset of **V**
-- **R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$
-- $S \in V - \Sigma$ wh
-
-**X** can be rewritten as **y**
+- **R** has a finite set of **rules** of the form: $X \rightarrow Y, X Y \in V^{*}$ where **X** can be rewritten as **y**
+- $S \in V - \Sigma$ which just means that it is the **start symbol**.
 
 ## How to Derive Strings
 
@@ -27,7 +25,7 @@ $S \overset{1}{\Rightarrow} Sa \overset{1}{\Rightarrow} Saa \overset{1}{\Rightar
 
 ---
 
-In FSM, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
+In **FSM**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
 
 ## Conversions
 
