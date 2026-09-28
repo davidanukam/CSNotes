@@ -23,7 +23,14 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 ## Regular Expressions Define Languages
 
 Semantic interpretation: the **language L($\alpha$)** expressed by a regular expression $\alpha$:
-1. L(\emptyset) = \empty
+1. $L(\emptyset) = \emptyset$
+2. $L()$
+3. $L()$
+4. $L()$
+5. $L()$
+6. $L(\alpha^{*})$
+7. $L(\alpha^{+})$
+8. $L((\alpha)) = L(\alpha)$
 ## Structural Induction
 
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
