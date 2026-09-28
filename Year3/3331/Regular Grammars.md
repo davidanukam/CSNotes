@@ -8,8 +8,8 @@ E.g.
 $S \rightarrow Sa$
 $S \rightarrow \epsilon$
 
-- Non-terminal: S
-- Terminal: a
+1. Non-terminal: S
+2. Terminal: a
 
 **R** has a finite set of **rules** of the form:
 
@@ -17,7 +17,7 @@ $S \rightarrow \epsilon$
 
 Start with **S** and then apply rules (rewrite left had side by the right hand side) until you have ONLY **terminals**.
 
-$S \overset{\mathbb{R}}{\rightarrow} Sa \overset{\mathbb{R}}{\rightarrow} Saa \overset{\mathbb{R}}{\rightarrow} aaa$
+$S \overset{\mathbb{1}}{\rightarrow} Sa \overset{\mathbb{1}}{\rightarrow} Saa \overset{\mathbb{1}}{\rightarrow} Saaa \overset{\mathbb{2}}{\rightarrow} aaa$
 
 ---
 
