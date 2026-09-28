@@ -29,6 +29,7 @@ The word contents begin at offset $<\text{block offset}>$ bytes from the beginni
 **Address Mapping**:
 
 block address = $<\text{tag}> || <\text{set index}>$
+
 set # = (block address) mod R
 - just take the "s bits" as set index
 
