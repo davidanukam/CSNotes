@@ -24,8 +24,8 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 
 Semantic interpretation: the **language L($\alpha$)** expressed by a regular expression $\alpha$:
 1. $L(\emptyset) = \emptyset$
-2. $L()$
-3. $L(c) = {c}$
+2. $L(\epsilon) = \lbrace{\epsilon\rbrace}$
+3. $L(c) = \lbrace{c\rbrace},\ \text{where} \ c \in \Sigma$
 4. $L(\alpha \beta) = L(\alpha) L(\beta)$
 5. $L(\alpha \cup \beta) = L(\alpha) \cup L(\beta)$
 6. $L(\alpha^{*}) = L(\alpha)^{*}$
