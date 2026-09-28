@@ -27,6 +27,14 @@ $S \overset{1}{\Rightarrow} Sa \overset{1}{\Rightarrow} Saa \overset{1}{\Rightar
 
 In **FSM**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
 
+---
+
+In a Regular Grammar, all rules in **R** must:
+- Have a left hand side that is a **single nonterminal**
+- Have a right hand side that is:
+	- $\epsilon$ or
+	- a single terminal or
+	- 
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
