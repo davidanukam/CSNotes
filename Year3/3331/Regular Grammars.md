@@ -1,4 +1,5 @@
 ## Grammars
+
 - Grammars are rewriting systems (that produce strings)
 - **Non-terminals** will do the work (Upper case)
 - **Terminals** form the final strings (Lower case)
@@ -40,6 +41,10 @@ Legal: $S \rightarrow a, S \rightarrow \epsilon, \ \text{and} \ T \rightarrow aS
 Not Legal: $S \rightarrow aSa \ \text{and} \ aSa \rightarrow T$
 
 The **language** defined by a grammar: all terminal strings that can be obtained starting from S and applying the rules.
+
+## Regular Grammar Example
+
+![RegularGrammarExample]()
 
 ## Conversions
 
