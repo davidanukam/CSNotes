@@ -23,5 +23,5 @@ In FSM, when $S$ (state) goes to $T$ (another state) by $a$, you have the Gramma
 
 ## Conversions
 
-![[Pasted image 20260925114513.png]]
+![CompleteConversionMap](assets/CompleteConversionMap.png)
 
