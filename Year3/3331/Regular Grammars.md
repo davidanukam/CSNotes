@@ -49,6 +49,8 @@ The **language** defined by a grammar: all terminal strings that can be obtained
 > Note $S \rightarrow \epsilon$ is a part of the Grammar because the empty string has a length of 0, which is even.
 
 Also notice that in **FSA**, when $S$ (state) goes to $T$ (another state) by $a$, you have the Grammar rule: $S \rightarrow aT$
+
+The 
 ## Conversions
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
