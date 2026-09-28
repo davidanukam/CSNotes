@@ -19,6 +19,10 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 - $a$
 - $(a \cup b)^{*}$
 - $abba \cup \epsilon$
+
+## Regular Expressions Define Languages
+
+
 ## Structural Induction
 
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
