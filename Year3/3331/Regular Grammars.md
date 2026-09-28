@@ -44,7 +44,8 @@ The **language** defined by a grammar: all terminal strings that can be obtained
 
 ## Regular Grammar Example
 
-![RegularGrammarExample]()
+![RegularGrammarExample](assets/RegularGrammarExample.png)
+
 
 ## Conversions
 
