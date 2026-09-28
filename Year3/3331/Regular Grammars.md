@@ -63,4 +63,8 @@ However when at State $S$, the accepting state, if you add just an $a$ or a $b$,
 
 ![CompleteConversionMap](assets/CompleteConversionMap.png)
 
-This is arguably the **most important part** of this chapter or unit or section, or whatever. 
+This is arguably the **most important part** of this chapter or unit or section, or whatever.
+
+Given a Regular Grammar you can kind of see exactly what the NDFSM will look like.
+
+Given a Regular Expression, you can make the NDFSM by using Thompson Construction (Take the expression )
