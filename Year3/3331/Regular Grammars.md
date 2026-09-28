@@ -36,7 +36,9 @@ In a Regular Grammar, all rules in **R** must:
 	- a single terminal or
 	- a single terminal followed by a single nonterminal
 
-Legal: $S \rightarrow a, S \rightarrow \epsilon, and $
+Legal: $S \rightarrow a, S \rightarrow \epsilon, \ \text{and} \ T \rightarrow aS$
+Not Legal: 
+
 
 ## Conversions
 
