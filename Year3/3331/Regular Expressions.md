@@ -63,6 +63,12 @@ So by something called **Thompson's Construction** we can build and NDFSM.
 
 Here are the Building Blocks that we can use to build the NDFSM
 
+**Basic**
+
+![BasicBlock1](assets/BasicBlock1.png)
+
+**Concatenation**
+
 
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
