@@ -61,4 +61,8 @@ Well we can see the multiple responsibilities being handled in one class:
 - File persistence (I/O)
 - Email communication (messaging)
 
-If the file format changes, then the `Report` class must change.
+If the file format changes, then the `Report` class must also change.
+If the email system changes, then the `Report` class must also change.
+If the business rules change, then the `Report` class must also change.
+
+SRP
