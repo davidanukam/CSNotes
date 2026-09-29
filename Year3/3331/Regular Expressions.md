@@ -1,13 +1,13 @@
 ## Regular Expressions
 
-Regular Expressions are \star\starstrings\star\star over an alphabet $\Sigma$ that can be obtained as follows:
+Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtained as follows:
 
 1. $\emptyset$ is a regular expression
 2. $\epsilon$ is a regular expression
 3. Every element $a \in \Sigma$ is a regular expression
 4. If $\alpha, \beta$ are regular expressions, then so is $\alpha\beta$
 5. If $\alpha, \beta$ are regular expressions, then so is $\alpha \cup \beta$
-6. If $\alpha$ are regular expressions, then so is $\alpha^{\star}$
+6. If $\alpha$ are regular expressions, then so is $\alpha^{*}$
 7. $\alpha$ are regular expressions, then so is $\alpha^{+}$
 8. If $\alpha$ are regular expressions, then so is $(\alpha)$
 
@@ -17,65 +17,65 @@ If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 - $\emptyset$
 - $\epsilon$
 - $a$
-- $(a \cup b)^{\star}$
+- $(a \cup b)^{*}$
 - $abba \cup \epsilon$
 
 ## Regular Expressions Define Languages
 
-Semantic interpretation: the \star\starlanguage L($\alpha$)\star\star expressed by a regular expression $\alpha$:
+Semantic interpretation: the **language L($\alpha$)** expressed by a regular expression $\alpha$:
 1. $L(\emptyset) = \emptyset$
 2. $L(\epsilon) = \lbrace{\epsilon\rbrace}$
 3. $L(c) = \lbrace{c\rbrace},\ \text{where} \ c \in \Sigma$
 4. $L(\alpha \beta) = L(\alpha) L(\beta)$
 5. $L(\alpha \cup \beta) = L(\alpha) \cup L(\beta)$
-6. $L(\alpha^{\star}) = L(\alpha)^{\star}$
+6. $L(\alpha^{*}) = L(\alpha)^{*}$
 7. $L(\alpha^{+})$
 	- If $L(a)$ is equal to $\emptyset$, then $L(a+)$ is also equal to $\emptyset$. Otherwise $L(a+)$ is the language that is formed by concatenating together one or more strings drawn from $L(a)$
 8. $L((\alpha)) = L(\alpha)$
 
-This is the way we create the \star\starset representations\star\star (the \star\starRegular Language\star\star) of the \star\starRegular Expression\star\star.
+This is the way we create the **set representations** (the **Regular Language**) of the **Regular Expression**.
 
 Examples:
 
-$L(a^{\star}b^{\star}) = L(a^{\star})L(b^{\star}) = L(a)^{\star}L(b)^{\star} = \lbrace{a\rbrace}^{\star}\lbrace{b\rbrace}^{\star} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
+$L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
 
-$L = \lbrace{w \in \lbrace{a, b\rbrace}^{\star} \ : \  |w| \ \text{is even}\rbrace} = \lbrace{\lbrace{aa\rbrace} \cup \lbrace{ab\rbrace} \cup \lbrace{ba\rbrace} \cup \lbrace{bb\rbrace}\rbrace}^{\star}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} = \lbrace{\lbrace{aa\rbrace} \cup \lbrace{ab\rbrace} \cup \lbrace{ba\rbrace} \cup \lbrace{bb\rbrace}\rbrace}^{*}$
 
 ## Operator Precedence in Regular Expressions
 
 ![OperatorPrecedenceInRegularExpressions](assets/OperatorPrecedenceInRegularExpressions.png)
 
-> So $a^{\star} \cup b^{\star} \neq (a \cup b)^{\star}$ and $(ab)^{\star} \neq a^{\star}b^{\star}$
+> So $a^{*} \cup b^{*} \neq (a \cup b)^{*}$ and $(ab)^{*} \neq a^{*}b^{*}$
 
-Sometimes it \star\starISN'T\star\star possible to make a \star\starRegular Expression\star\star to represent a \star\starLanguage\star\star:
+Sometimes it **ISN'T** possible to make a **Regular Expression** to represent a **Language**:
 
 ![ImpossibleLanguageToRegularExpression](assets/ImpossibleLanguageToRegularExpression.png)
 
 ## Structural Induction
 
-\star\starFinite State Machines\star\star and \star\starRegular Expressions\star\star define the same class of languages. This means that the class of languages that can be defined with regular expressions is \star\starEXACTLY\star\star the class of regular languages.
+**Finite State Machines** and **Regular Expressions** define the same class of languages. This means that the class of languages that can be defined with regular expressions is **EXACTLY** the class of regular languages.
 
-So by something called \star\starThompson's Construction\star\star we can build and NDFSM.
+So by something called **Thompson's Construction** we can build and NDFSM.
 
-> Every NDFSM that we can build using Thompson's Construction has a \star\starstarting state\star\star with no incoming edges and \star\starONE\star\star \star\staraccepting state\star\star that has no outgoing edges
+> Every NDFSM that we can build using Thompson's Construction has a **starting state** with no incoming edges and **ONE** **accepting state** that has no outgoing edges
 
 ### Building Blocks
 
 Here are the Building Blocks that we can use to build the NDFSM
 
-\star\starBasic\star\star : $L(\emptyset) \ \text{and} \ L(a) \ \text{where} \ a \in \Sigma$
+**Basic** : $L(\emptyset) \ \text{and} \ L(a) \ \text{where} \ a \in \Sigma$
 
 ![BasicBlock1](assets/BasicBlock1.png)
 
-\star\starConcatenation\star\star: $\alpha = \beta \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
+**Concatenation**: $\alpha = \beta \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
 ![ConcatenationBlock](assets/ConcatenationBlock.png)
 
-\star\starUnion (Or)\star\star: $\alpha = \beta \cup \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
+**Union (Or)**: $\alpha = \beta \cup \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
 ![UnionBlock](assets/UnionBlock.png)
 
-\star\starKleene \star (Star)\star\star: $\alpha = \beta^{\star} \rightarrow \ \text{NDFSM for} \ L(\alpha)$
+**Kleene * (Star)**: $\alpha = \beta^{*} \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
 ![KleeneStarBlock](assets/KleeneStarBlock.png)
 
@@ -85,7 +85,7 @@ Example of Regular Expression to NDFSM using Thompson's Construction:
 
 ## FSM To Regular Expression
 
-Basically, take any state, and remove it from the FSM. Then you update the \star\startransition function/relation\star\star from the state on the left to the state on the right so that it is a regular expression
+Basically, take any state, and remove it from the FSM. Then you update the **transition function/relation** from the state on the left to the state on the right so that it is a regular expression
 
 Example:
 
@@ -136,13 +136,12 @@ Explanation:
 
 ## Pattern Matching
 
-Any file that \star\starcontains\star\star the pattern
+Any file that **contains** the pattern
 
 $L(\Sigma^{\star} \ \text{abcabb} \ \Sigma^{\star})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 ## Pattern Searching
 
-Any file that \star\starends with\star\star the pattern
+Any file that **ends with** the pattern
 
 $L(\Sigma^{\star} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
-
