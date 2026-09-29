@@ -107,12 +107,6 @@ public:
 		file << content;              // save report content
 		file.close();                 // close file
 	}
-	
-	// Communication: send report via email
-	void sendEmail(const std::string &address) {
-		std::cout << "Sending report to " << address << std::endl;
-		// Pretend SMTP logic is here...
-	}
 };
 
 // =========================
@@ -122,7 +116,15 @@ public:
 // and can genreate/return it.
 // It does NOT know about saving or emailing.
 // =========================
-
+class ReportSender {
+public:
+	// Communication: send report via email
+	void sendEmail(const std::string &address) {
+		std::cout << "Sending report to " << address << std::endl;
+		std::cout << "Content: " << report.getContent() << std::endl;
+		// Real SMTP logic would go here...
+	}
+};
 
 int main() {
 	Report report("Quarterly Sales");
