@@ -53,7 +53,11 @@ Sometimes it **ISN'T** possible to make a **Regular Expression** to represent a 
 
 ## Structural Induction
 
-**Finite State Machines** and Regular Expressions define the same class of languages. This means that the class of languages that can be defined with regular expressions is **EXACTLY** the class of regular languages.
+**Finite State Machines** and **Regular Expressions** define the same class of languages. This means that the class of languages that can be defined with regular expressions is **EXACTLY** the class of regular languages.
+
+So by something called **Thompson's Construction** we can build and NDFSM.
+
+> Every NDFSM 
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
