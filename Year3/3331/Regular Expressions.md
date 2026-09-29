@@ -138,7 +138,7 @@ Explanation:
 
 Any file that **contains** the pattern
 
-$L(\Sigma^{\star} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
+$L(\Sigma^{\star} \ \text{abcabb} \ \Sigma^{\star})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 ## Pattern Searching
 
