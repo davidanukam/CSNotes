@@ -129,12 +129,14 @@ public:
 // (4) MAIN
 // -------------------------
 // Demonstrates how these pieces interact.
-// It knows how to send a Report somewhere,
-// but it does NOT generate or save reports.
+// Notice: Report is passed to saver/sender.
+// Relationships are ASSOCIATIONS, not inheritance.
 // =========================
 int main() {
 	Report report("Quarterly Sales");
-	report.generate();
+	report.generate(); // (1) Business logic only
+	
+	ReportSa
 	report.saveToFile("Sales.txt");
 	report.sendEmail("ceo@company.com");
 }
