@@ -29,7 +29,12 @@ public:
 	
 	// Business logic: generate a report
 	void generate() {
-		
+		std::cout <, "Generating Report: " << content << std::endl;
+	}
+	
+	// Persistence: save the report to a file
+	void saveToFile(const std::string &filename) {
+		std::ofstream file(file)
 	}
 }
 ```
