@@ -35,6 +35,11 @@ public:
 	// Persistence: save the report to a file
 	void saveToFile(const std::string &filename) {
 		std::ofstream file(filename);
+		file << content;
+		file.close();
 	}
+	
+	// Communication: send report via email
+	void sendEmail(const st)
 }
 ```
