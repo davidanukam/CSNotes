@@ -66,6 +66,8 @@ Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The o
 
 ## The Best We Can Do is also Unique
 
+
+
 $\delta : [x] \overset{a}{\rightarrow} [x, a]$
 
 e.g.
