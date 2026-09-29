@@ -147,7 +147,15 @@ Regex's describe sets:
 Concatenation:
 - Concatenation is associative:
 - $\epsilon$ is the identity for Concatenation:
-- $\emptyset$ is the zero for o
+- $\emptyset$ is the zero for concatenation:
+
+Concatenation **distributes** over Union:
+- ()
+- ()
+
+Kleene Star:
+- $\emptyset^{\star} = \epsilon$
+- \epsilon^{\star} = \epsilon$
 ## Pattern Matching
 
 Any file that **contains** the pattern
