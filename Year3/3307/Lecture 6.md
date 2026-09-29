@@ -44,13 +44,13 @@ public:
 		std::cout << "Sending report to " << address << std::endl;
 		// Pretend SMTP logic is here...
 	}
-	
-	int main() {
-		Report report("Quarterly Sales");
-		report.generate();
-		report.saveToFile("Sales.txt");
-		report.sendEmail("ceo@company.com");
-	}
+};
+
+int main() {
+	Report report("Quarterly Sales");
+	report.generate();
+	report.saveToFile("Sales.txt");
+	report.sendEmail("ceo@company.com");
 }
 ```
 
@@ -80,7 +80,7 @@ If the business rules change, then the `Report` class must also change.
 // It does NOT know about saving or emailing.
 // =========================
 class Report {
-	std::string content;
+	std::string content; // the "business data"
 public:
 	Report(const std::string &text) : content(text) {}
 	
@@ -88,6 +88,8 @@ public:
 	void generate() {
 		std::cout <, "Generating Report: " << content << std::endl;
 	}
+	
+	std::string getContent() const { return content; }
 	
 	// Persistence: save the report to a file
 	void saveToFile(const std::string &filename) {
