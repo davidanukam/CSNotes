@@ -1,12 +1,14 @@
-To Minimize the number of states we can do two things
+## State Minimization
 
-Step 1: Get rid of unreachable states:
+To Minimize the number of states in a DFSM we can do two things
 
-3/34
+**Step 1**: Get rid of unreachable states:
+
+![[Pasted image 20260928215108.png]]
 
 - Find the reachable ones and then see which ones are not reachable
 
-Step 2: Get rid of redundant states:
+**Step 2**: Get rid of redundant states:
 
 3/34
 
