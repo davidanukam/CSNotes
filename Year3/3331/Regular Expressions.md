@@ -127,9 +127,10 @@ Explanation:
 
 ## Some Extra/Real World Regular Expressions
 
-| Syntax | Name    | Description |
-| ------ | ------- | ----------- |
-| $abc$  | Concate |             |
+| Syntax  | Name          | Description                                                            |
+| ------- | ------------- | ---------------------------------------------------------------------- |
+| $abc$   | Concatenation | Matches $a$, then $b$, then $c$ where $a$, $b$, and $c$ are any regexs |
+| $a \|c$ |               |                                                                        |
 
 ## Pattern Matching
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
