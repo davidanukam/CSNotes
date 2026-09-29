@@ -124,9 +124,16 @@ Explanation:
 | Before                               | After                              |
 | ------------------------------------ | ---------------------------------- |
 | ![FSMBefore4](assets/FSMBefore4.png) | ![FSMAfter4](assets/FSMAfter4.png) |
+
+## Some Extra/Real World Regular Expressions
+
+| Syntax | Name    | Description |
+| ------ | ------- | ----------- |
+| $abc$  | Concate |             |
+
 ## Pattern Matching
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
-
+## Pattern Searching
 $L(\Sigma^{*} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
 
