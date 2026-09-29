@@ -12,8 +12,8 @@ To Minimize the number of states in a DFSM we can do two things
 
 ![RedundantStateExample](assets/RedundantStateExample.png)
 
-- Find the states that are **equivalent**. This means that by their sets of transitions, they both lead to the same state (have the same fate)
-- In this example, by transition a, both q2 and q3 lead to q1 and by transition b, both q2 and q3 lead to q1 again.
+- Find the states that are **equivalent**. This means that by their **transition functions**, they both lead to the same state (have the same fate)
+- In this example, by transition $a$, both $q_2$ and $q_3$ lead to $q_1$ and by transition $b$, both $q_2$ and $q_3$ lead to $q_1$ again.
 - So we can merge them!
 
 ## Finding a Minimal DFSM
