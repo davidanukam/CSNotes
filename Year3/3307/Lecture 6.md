@@ -65,4 +65,4 @@ If the file format changes, then the `Report` class must also change.
 If the email system changes, then the `Report` class must also change.
 If the business rules change, then the `Report` class must also change.
 
-SRP
+SRP Adherence Example
