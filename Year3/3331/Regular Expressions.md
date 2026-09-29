@@ -73,6 +73,10 @@ Here are the Building Blocks that we can use to build the NDFSM
 
 **Union**: $\alpha = \beta \cup \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
+![UnionBlock](assets/UnionBlock.png)
+
+**Kleene * (Star)**: 
+
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 $L(\Sigma^{*} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
