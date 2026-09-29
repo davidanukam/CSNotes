@@ -102,7 +102,7 @@ public:
 // =========================
 class ReportSaver {
 public:
-	void saveToFile(const std::string &filename) {
+	void saveToFile(const Report &report, const std::string &filename) {
 		std::ofstream file(filename); // open file for writing
 		file << content;              // save report content
 		file.close();                 // close file
@@ -118,7 +118,7 @@ public:
 // =========================
 class ReportSender {
 public:
-	void sendEmail(const std::string &address) {
+	void sendEmail(const Report &report, const std::string &address) {
 		std::cout << "Sending report to " << address << std::endl;
 		std::cout << "Content: " << report.getContent() << std::endl;
 		// Real SMTP logic would go here...
