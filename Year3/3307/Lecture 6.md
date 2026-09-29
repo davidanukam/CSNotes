@@ -44,5 +44,13 @@ public:
 		std::cout << "Sending report to " << address << std::endl;
 		// Pretend SMTP logic is here...
 	}
+	
+	int main() {
+		Report report("Quarterly Sales");
+		report.generate();
+		report.saveToFile("Sales.txt");
+		report.sendEmail("ceo@company.com");
+	}
 }
 ```
+
