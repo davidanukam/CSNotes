@@ -136,6 +136,12 @@ Explanation:
 | $a^{\star}$       | Kleene Star   | Matches 0 or more $a's$ where $a$ is any regex                         |
 | Finish this later |               |                                                                        |
 
+## Simplifying Regular Expressions
+
+Regex's describe sets:
+- **Union** is **commutative**:
+- Union is associative:
+- $\emptyset$ is the identiry
 ## Pattern Matching
 
 Any file that **contains** the pattern
