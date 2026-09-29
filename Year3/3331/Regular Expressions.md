@@ -93,7 +93,12 @@ Example:
 
 Formal Steps:
 
-1. Create
+1. Create a new initial state and a new, unique accepting state, neither of which is part of a loop.
+
+|||
+|-
+
+2. 
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
