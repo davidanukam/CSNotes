@@ -32,9 +32,9 @@ Given a language:
 
 **Indistinguishable** (with respect to a language L):
 - If, no matter what is tacked on to them on the **right**, either they will **both** be in $L$ or **neither** will be in $L$.
-- Obviously, strings that are Indistinguishable are also E
+- Obviously, strings that are **Indistinguishable** are also **Equivalent** with respect to $L$.
 
-If $x$ and $y$ are **indistinguishable**, then we can merge $p$ and $q$ to get a minimized DFSM.
+If $x$ and $y$ are **indistinguishable**, then we can merge $p$ and $q$ to minimize the DFSM.
 
 ![IndistinguishableStatesExample](assets/IndistinguishableStatesExample.png)
 
@@ -48,8 +48,8 @@ No, because (after adding the empty string to the end), one can be in the langua
 
 ![EquivalenceRelationDefinition](assets/EquivalenceRelationDefinition.png)
 
-Because $L$ is an equivalence relation:
-- No equivalence class of L is empty
+Because $L$ is an **equivalence relation**:
+- No **equivalence class** of L is **empty**
 - Each string in $\Sigma^{*}$ is in exactly one equivalence class of $L$
 - Also it defines a partition meaning that each string goes to only ONE equivalence class and no equivalence classes are empty (we just said this but whatever)
 - The union of the equivalence classes is equal to $\Sigma^{*}$
