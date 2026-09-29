@@ -34,7 +34,7 @@ public:
 	
 	// Persistence: save the report to a file
 	void saveToFile(const std::string &filename) {
-		std::ofstream file(file)
+		std::ofstream file(filename);
 	}
 }
 ```
