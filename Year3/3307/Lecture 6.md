@@ -94,7 +94,7 @@ public:
 };
 
 // =========================
-// (1) Class: ReportSaver
+// (2) Class: ReportSaver
 // -------------------------
 // Responsibility: handles persistence.
 // It knows how to save a Report to disk,
@@ -110,15 +110,14 @@ public:
 };
 
 // =========================
-// (1) Class: ReportSender
+// (3) Class: ReportSender
 // -------------------------
 // Responsibility: handles communication.
 // It knows how to send a Report somewhere,
-// It does NOT know about saving or emailing.
+// but it does NOT generate or save reports.
 // =========================
 class ReportSender {
 public:
-	// Communication: send report via email
 	void sendEmail(const std::string &address) {
 		std::cout << "Sending report to " << address << std::endl;
 		std::cout << "Content: " << report.getContent() << std::endl;
@@ -126,6 +125,13 @@ public:
 	}
 };
 
+// =========================
+// (4) MAIN
+// -------------------------
+// Demonstrates how these pieces interact.
+// It knows how to send a Report somewhere,
+// but it does NOT generate or save reports.
+// =========================
 int main() {
 	Report report("Quarterly Sales");
 	report.generate();
