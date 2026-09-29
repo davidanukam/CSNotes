@@ -103,15 +103,15 @@ Formal Steps:
 
 - Remove State 3
 
-| Before                               | After                       |
-| ------------------------------------ | --------------------------- |
-| ![FSMBefore2](assets/FSMBefore2.png) | ![FSMAfter2](FSMAfter2.png) |
+| Before                               | After                              |
+| ------------------------------------ | ---------------------------------- |
+| ![FSMBefore2](assets/FSMBefore2.png) | ![FSMAfter2](assets/FSMAfter2.png) |
 
 - Remove State 2
 
-| Before                               | After                            |
-| ------------------------------------ | -------------------------------- |
-| ![FSMBefore3](assets/FSMBefore3.png) | ![FSMAfter3](assetFSMAfter3.png) |
+| Before                               | After                              |
+| ------------------------------------ | ---------------------------------- |
+| ![FSMBefore3](assets/FSMBefore3.png) | ![FSMAfter3](assets/FSMAfter3.png) |
 
 - Remove State 1
 
