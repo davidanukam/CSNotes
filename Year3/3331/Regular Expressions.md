@@ -42,9 +42,13 @@ $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbr
 
 $L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} = \lbrace{\lbrace{aa\rbrace} \cup \lbrace{ab\rbrace} \cup \lbrace{ba\rbrace} \cup \lbrace{bb\rbrace}\rbrace}^{*}$
 
+## Operator Precedence in Regular Expressions
+
 ![OperatorPrecedenceInRegularExpressions](assets/OperatorPrecedenceInRegularExpressions.png)
 
-> So $a^{*} \cup b^{*} \neq (a \cup b)^{*}$ and $(ab)^{*$
+> So $a^{*} \cup b^{*} \neq (a \cup b)^{*}$ and $(ab)^{*} \neq a^{*}b^{*}$
+
+Sometimes it ISNT pos
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
