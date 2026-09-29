@@ -112,8 +112,8 @@ public:
 // =========================
 // (1) Class: ReportSender
 // -------------------------
-// Responsibility: ONLY holds report content
-// and can genreate/return it.
+// Responsibility: handles communication.
+// It knows how to send a Report somewhere,
 // It does NOT know about saving or emailing.
 // =========================
 class ReportSender {
