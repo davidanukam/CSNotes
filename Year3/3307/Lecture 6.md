@@ -1,15 +1,15 @@
 ## Lecture 6
 
 We're going to be learning about the **SOLID** Principles:
-- SRP
-- (O)CP
-- (L)SP
-- (I)SP
-- (D)IP
+- **S**RP
+- **O**CP
+- **L**SP
+- **I**SP
+- **D**IP
 
 ## Single Responsibility Principle (SRP)
 
-*A class sould have only one reason to change*
+"*A class should have only one reason to change*"
 
 This principle basically says that any module should encapsulate **one** axis of change or responsibility:
 - Responsibility here means a **stakeholder** or **concern** (business logic, persistence, presentation, etc.).
@@ -144,13 +144,9 @@ int main() {
 }
 ```
 
-Here is the continuation and completion of your markdown notes, formatted in your style:
-
-  
-
 ## Open/Closed Principle (OCP)
 
-"Software entities should be open for extension, but closed for modification."
+"*Software entities should be open for extension, but closed for modification.*"
 
   
 
