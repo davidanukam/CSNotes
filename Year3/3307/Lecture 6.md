@@ -25,6 +25,11 @@ SRP Violation Example:
 class Report {
 	std::string content;
 public:
-	Report(const std::string &text)
+	Report(const std::string &text) : content(text) {}
+	
+	// Business logic: generate a report
+	void generate() {
+		
+	}
 }
 ```
