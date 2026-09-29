@@ -136,8 +136,10 @@ int main() {
 	Report report("Quarterly Sales");
 	report.generate(); // (1) Business logic only
 	
-	ReportSa
-	report.saveToFile("Sales.txt");
-	report.sendEmail("ceo@company.com");
+	ReportSaver saver;
+	saver.saveToFile(report, "Sales.txt"); // (2) Persistence
+	
+	ReportSender sender;
+	sender.sendEmail(report, "ceo@company.com"); // (3) Communication
 }
 ```
