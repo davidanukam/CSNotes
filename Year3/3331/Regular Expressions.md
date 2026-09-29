@@ -89,7 +89,11 @@ Basically, take any state, and remove it from the FSM. Then you update the **tra
 
 Example:
 
-!
+![RipOutStateExample](assets/RipOutStateExample.png)
+
+Formal Steps:
+
+1. Create
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
