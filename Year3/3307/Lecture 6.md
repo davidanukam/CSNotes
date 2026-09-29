@@ -9,7 +9,7 @@ We're going to be learning about the **SOLID** Principles:
 
 ## Single Responsibility Principle (SRP)
 
-"*A class should have only one reason to change*"
+"*A class should have only one reason to change.*"
 
 This principle basically says that any module should encapsulate **one** axis of change or responsibility:
 - Responsibility here means a **stakeholder** or **concern** (business logic, persistence, presentation, etc.).
@@ -148,13 +148,9 @@ int main() {
 
 "*Software entities should be open for extension, but closed for modification.*"
 
-  
-
 You should be able to add new behavior (extension) without changing existing, stable code (modification). Achieved through abstraction (interfaces, base classes) or composition (strategy, plugins).
 
-  
-
-### OCP Violation Example
+### OCP **Violation** Example
 
 ```cpp
 #include <iostream>
@@ -238,21 +234,13 @@ int main() {
 
 High-level policy (`PaymentProcessor`) must be modified for every new payment method or rule change.
 
-  
-
-Logic is branched by enum (`switch`/`if-else` ladder), ensuring constant churn.
-
-  
+Logic is branched by Enum (`switch`/`if-else` ladder), ensuring constant churn.
 
 Details leak in (fees, gateways, receipts), tangling responsibilities and coupling code.
 
-  
-
 Testing becomes significantly harder due to large methods with many execution paths.
 
-  
-
-### OCP Adherence Example
+### OCP **Adherence** Example
 
 ```cpp
 #include <iostream>
