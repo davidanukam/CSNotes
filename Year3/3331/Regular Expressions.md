@@ -142,10 +142,10 @@ Regex's describe sets:
 - Union is **commutative**: $\alpha \cup \beta = \beta \cup \alpha$
 - Union is **associative**: $(\alpha \cup \beta) \cup \gamma = \alpha \cup (\beta \cup \gamma)$
 - $\emptyset$ is the **identity** for Union: $\alpha \cup \emptyset = \emptyset \cup \alpha = \alpha$
-- Union is **idempotent**: 
+- Union is **idempotent**: $\alpha \cup \alpha = \alpha$
 
 Concatenation:
-- Concatenation is **associative**:
+- Concatenation is **associative**: $(\alpha\beta)\gamma = \alpha(\beta\gamma)$
 - $\epsilon$ is the **identity** for Concatenation:
 - $\emptyset$ is the **zero** for concatenation:
 
