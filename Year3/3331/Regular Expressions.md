@@ -57,7 +57,7 @@ Sometimes it **ISN'T** possible to make a **Regular Expression** to represent a 
 
 So by something called **Thompson's Construction** we can build and NDFSM.
 
-> Every NDFSM 
+> Every NDFSM that we can build using Thompson's Construction has a **starting state** with no incoming edges and **ONE** **accepting state** that has no outgoing edges
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
