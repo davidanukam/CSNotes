@@ -50,9 +50,9 @@ No, because (after adding the empty string to the end), one can be in the langua
 
 Because $L$ is an **equivalence relation**:
 - No **equivalence class** of L is **empty**
-- Each string in $\Sigma^{*}$ is in exactly one equivalence class of $L$
-- Also it defines a partition meaning that each string goes to only ONE equivalence class and no equivalence classes are empty (we just said this but whatever)
-- The union of the equivalence classes is equal to $\Sigma^{*}$
+- Each string in $\Sigma^{*}$ is in **exactly** one equivalence class of $L$
+- Also it defines a **partition** meaning that each string goes to only ONE equivalence class and no equivalence classes are empty (we just said this but whatever)
+- The **union** of the equivalence classes is equal to $\Sigma^{*}$
 
 E.g.
 
@@ -62,7 +62,7 @@ E.g.
 
 ![EquivalenceClassExample2](assets/EquivalenceClassExample2.png)
 
-Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in $L$ are the **Accepting States**. The rest are the non-accepting states and the dead states.
+Some equivalence classes in $\Sigma^{*}$ are $\in L$ while others are not. The ones that are in $L$ are the **Accepting States**. The rest are the **Rejecting States** and the **Dead States**.
 
 ## The Best We Can Do is also Unique
 
