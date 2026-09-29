@@ -40,6 +40,9 @@ public:
 	}
 	
 	// Communication: send report via email
-	void sendEmail(const st)
+	void sendEmail(const std::string &address) {
+		std::cout << "Sending report to " << address << std::endl;
+		// Pretend SMTP logic is here...
+	}
 }
 ```
