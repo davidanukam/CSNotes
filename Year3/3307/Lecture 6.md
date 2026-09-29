@@ -61,3 +61,4 @@ Well we can see the multiple responsibilities being handled in one class:
 - File persistence (I/O)
 - Email communication (messaging)
 
+If the file format changes, then the `Report` class must change.
