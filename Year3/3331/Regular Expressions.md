@@ -95,8 +95,9 @@ Formal Steps:
 
 1. Create a new initial state and a new, unique accepting state, neither of which is part of a loop.
 
-|||
-|-
+| Before                               | After                              |
+| ------------------------------------ | ---------------------------------- |
+| ![FSMBefore1](assets/FSMBefore1.png) | ![FSMAfter1](assets/FSMAfter1.png) |
 
 2. 
 
