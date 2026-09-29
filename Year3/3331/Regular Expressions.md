@@ -155,7 +155,10 @@ Concatenation **distributes** over Union:
 
 Kleene Star:
 - $\emptyset^{\star} = \epsilon$
-- \epsilon^{\star} = \epsilon$
+- $\epsilon^{\star} = \epsilon$
+- $(\alpha^{\star})^{\star} = \alpha^{\star}$
+- $\alpha^{\star}\alpha^{\star} = \alpha^{\star}$
+- $() = ()^{\star}$
 ## Pattern Matching
 
 Any file that **contains** the pattern
