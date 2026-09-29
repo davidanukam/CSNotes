@@ -70,7 +70,15 @@ If the business rules change, then the `Report` class must also change.
 ```cpp
 #include <iostream> // for console output
 #include <fstream> // for file output
-#include <string> // for std::s
+#include <string> // for std::string
+
+// =====
+// (1) Class: Report
+// ------
+// Responsibility: ONLY holds report content
+// and can genreate/return it.
+// It does NOT know about saving or emailing.
+// ==========================
 
 class Report {
 	std::string content;
