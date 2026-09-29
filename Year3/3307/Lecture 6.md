@@ -54,7 +54,7 @@ int main() {
 }
 ```
 
-Why does this **break** SRP?
+### Why does this break SRP?
 
 Well we can see the multiple responsibilities being handled in one class:
 - Report content generation (business logic)
