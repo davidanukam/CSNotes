@@ -27,11 +27,11 @@ Lets focus on problem 1 for now...
 
 Given a language:
 - Capture the notion of **equivalence classes** of strings with respect to that language
-- Prove that we can always find a (unique up to state naming) deterministic FSM with a number of states equal to the number of equivalence classes of strings.
+- Prove that we can always find a (unique up to state naming) DFSM with a *number of states* **equal** to the number of *equivalence classes of strings*.
 - Describe and algorithm for finding that DFSM
 
 **Indistinguishable** (with respect to a language L):
-- If, not matter what is tacked on to them on the **right**, either they will both be in L or neither will.
+- If, no matter what is tacked on to them on the **right**, either they will both be in $L$ or neither will .
 
 If $x$ and $y$ are **indistinguishable**, then we can merge $p$ and $q$ to get a minimized DFSM.
 
