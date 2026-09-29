@@ -1,7 +1,7 @@
 ## Lecture 6
 
 We're going to be learning about the **SOLID** Principles:
-- (S)RP
+- SRP
 - (O)CP
 - (L)SP
 - (I)SP
@@ -519,9 +519,7 @@ Prefer many small, role-specific interfaces over large, "fat" ones. Reduces coup
 
 ### ISP Violation Example
 
-C++
-
-```
+```cpp
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -603,9 +601,7 @@ Swapping implementations passes compilation but causes runtime exceptions when u
 
 ### ISP Adherence Example
 
-C++
-
-```
+```cpp
 #include <iostream>
 #include <string>
 
@@ -717,9 +713,7 @@ High-level modules should not depend on low-level modules; both should depend on
 
 ### DIP Violation Example
 
-C++
-
-```
+```cpp
 #include <iostream>
 #include <string>
 
@@ -773,9 +767,7 @@ The high-level module instantiates its own dependencies internally, preventing d
 
 ### DIP Adherence Example
 
-C++
-
-```
+```cpp
 #include <iostream>
 #include <string>
 
@@ -839,22 +831,10 @@ int main() {
 }
 ```
 
-## Summary: One-Line Key Takeaways
+## Summary
 
 - **SRP** $\rightarrow$ Cohesion
-    
-      
-    
 - **OCP** $\rightarrow$ Extensibility
-    
-      
-    
 - **LSP** $\rightarrow$ Behavioral Substitutability
-    
-      
-    
 - **ISP** $\rightarrow$ Lean Contracts
-    
-      
-    
 - **DIP** $\rightarrow$ Dependency Flow Inversion
