@@ -150,7 +150,7 @@ Concatenation:
 - $\emptyset$ is the zero for concatenation:
 
 Concatenation **distributes** over Union:
-- ()
+- $(\alpha \cup \beta) \gamma = (\alpha \gamma) \cup (\beta \gamma)$
 - ()
 
 Kleene Star:
@@ -158,7 +158,7 @@ Kleene Star:
 - $\epsilon^{\star} = \epsilon$
 - $(\alpha^{\star})^{\star} = \alpha^{\star}$
 - $\alpha^{\star}\alpha^{\star} = \alpha^{\star}$
-- $() = ()^{\star}$
+- $(\alpha \cup \beta)^{\star} = (\alpha^{\star}\beta^{\star})^{\star}$
 ## Pattern Matching
 
 Any file that **contains** the pattern
