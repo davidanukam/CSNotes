@@ -127,13 +127,17 @@ Explanation:
 
 ## Some Extra/Real World Regular Expressions
 
-| Syntax        | Name          | Description                                                            |
-| ------------- | ------------- | ---------------------------------------------------------------------- |
-| $abc$         | Concatenation | Matches $a$, then $b$, then $c$ where $a$, $b$, and $c$ are any regexs |
-| $a \| b \| c$ | Union (Or)    | Matches $a$ or $b$ or $c$ where $a$, $b$, and $c$ are any regexs       |
-| $a^{*}$       | Kleene Star   | Matches 0 or more $a's$ where $a$ is any regexs                        |
+| Syntax            | Name          | Description                                                            |
+| ----------------- | ------------- | ---------------------------------------------------------------------- |
+| $abc$             | Concatenation | Matches $a$, then $b$, then $c$ where $a$, $b$, and $c$ are any regexs |
+| $a \| b \| c$     | Union (Or)    | Matches $a$ or $b$ or $c$ where $a$, $b$, and $c$ are any regexs       |
+| $a^{*}$           | Kleene Star   | Matches 0 or more $a's$ where $a$ is any regex                         |
+| Finish this later |               |                                                                        |
 
 ## Pattern Matching
+
+Any file that con
+
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 ## Pattern Searching
