@@ -54,3 +54,10 @@ public:
 }
 ```
 
+Why does this **break** SRP?
+
+Well we can see the multiple responsibilities being handled in one class:
+- Report content generation (business logic)
+- File persistence (I/O)
+- Email communication (messaging)
+
