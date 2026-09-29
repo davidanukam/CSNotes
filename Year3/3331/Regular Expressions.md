@@ -139,8 +139,8 @@ Explanation:
 ## Simplifying Regular Expressions
 
 Regex's describe sets:
-- Union is **commutative**:
-- Union is **associative**:
+- Union is **commutative**: $\alpha \cup \beta = \beta \cup \alpha$
+- Union is **associative**: $(\alpha \cup \beta) \cup \gamma = \alpha \$
 - $\emptyset$ is the **identity** for Union:
 - Union is **idempotent**:
 
