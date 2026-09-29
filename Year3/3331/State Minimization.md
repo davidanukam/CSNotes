@@ -31,7 +31,8 @@ Given a language:
 - Describe and algorithm for finding that DFSM
 
 **Indistinguishable** (with respect to a language L):
-- If, no matter what is tacked on to them on the **right**, either they will both be in $L$ or neither will .
+- If, no matter what is tacked on to them on the **right**, either they will **both** be in $L$ or **neither** will be in $L$.
+- Obviously, strings that are Indistinguishable are also E
 
 If $x$ and $y$ are **indistinguishable**, then we can merge $p$ and $q$ to get a minimized DFSM.
 
