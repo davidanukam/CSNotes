@@ -63,11 +63,11 @@ So by something called **Thompson's Construction** we can build and NDFSM.
 
 Here are the Building Blocks that we can use to build the NDFSM
 
-**Basic**
+**Basic** : $L(\emptyset) \and L(a)$
 
 ![BasicBlock1](assets/BasicBlock1.png)
 
-**Concatenation**: $\alpha = $
+**Concatenation**: $\alpha = \beta \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
 ![ConcatenationBlock](assets/ConcatenationBlock.png)
 
