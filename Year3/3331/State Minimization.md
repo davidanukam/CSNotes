@@ -4,13 +4,13 @@ To Minimize the number of states in a DFSM we can do two things
 
 **Step 1**: Get rid of unreachable states:
 
-![[Pasted image 20260928215108.png]]
+![UnreachableStateExample](assets/UnreachableStateExample.png)
 
 - Find the reachable ones and then see which ones are not reachable
 
 **Step 2**: Get rid of redundant states:
 
-3/34
+![![[Pasted image 20260928215208.png]]]()
 
 - Find the states that are equivalent. This means that by their sets of transitions, they both lead to the same state (have the same fate)
 - In this example, by transition a, both q2 and q3 lead to q1 and by transition b, both q2 and q3 lead to q1 again.
