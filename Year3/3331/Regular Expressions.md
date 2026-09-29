@@ -106,6 +106,9 @@ Formal Steps:
 | Before                               | After                              |
 | ------------------------------------ | ---------------------------------- |
 | ![FSMBefore2](assets/FSMBefore2.png) | ![FSMAfter2](assets/FSMAfter2.png) |
+Explanation:
+
+![RemoveState3Explanation](assets/RemoveState3Explanation.png)
 
 - Remove State 2
 
@@ -117,6 +120,10 @@ Explanation:
 ![RemoveState2Explanation](assets/RemoveState2Explanation.png)
 
 - Remove State 1
+
+| Before | After |
+| ------ | ----- |
+|        |       |
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
