@@ -48,9 +48,11 @@ $L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} 
 
 > So $a^{*} \cup b^{*} \neq (a \cup b)^{*}$ and $(ab)^{*} \neq a^{*}b^{*}$
 
-Sometimes it ISNT possible to make a Regular Expression to represent a Language:
+Sometimes it **ISN'T** possible to make a **Regular Expression** to represent a **Language**:
 
 ![ImpossibleLanguageToRegularExpression](assets/ImpossibleLanguageToRegularExpression.png)
+
+
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
