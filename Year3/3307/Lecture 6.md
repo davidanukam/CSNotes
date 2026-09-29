@@ -89,9 +89,19 @@ public:
 		std::cout <, "Generating Report: " << content << std::endl;
 	}
 	
+	// Expose content safely (read-only)
 	std::string getContent() const { return content; }
-	
-	// Persistence: save the report to a file
+};
+
+// =========================
+// (1) Class: ReportSaver
+// -------------------------
+// Responsibility: ONLY holds report content
+// and can genreate/return it.
+// It does NOT know about saving or emailing.
+// =========================
+class ReportSaver {
+public:
 	void saveToFile(const std::string &filename) {
 		std::ofstream file(filename);
 		file << content;
