@@ -147,7 +147,7 @@ Regex's describe sets:
 Concatenation:
 - Concatenation is **associative**: $(\alpha\beta)\gamma = \alpha(\beta\gamma)$
 - $\epsilon$ is the **identity** for Concatenation: $\alpha \epsilon = \epsilon \alpha = \alpha$
-- $\emptyset$ is the **zero** for concatenation: $\alpha$
+- $\emptyset$ is the **zero** for concatenation: $\alpha \emptyset = \emptyset \alpha = \emptyset$
 
 Concatenation **distributes** over Union:
 - $(\alpha \cup \beta) \gamma = (\alpha \gamma) \cup (\beta \gamma)$
