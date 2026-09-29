@@ -99,7 +99,9 @@ Formal Steps:
 | ------------------------------------ | ---------------------------------- |
 | ![FSMBefore1](assets/FSMBefore1.png) | ![FSMAfter1](assets/FSMAfter1.png) |
 
-2. 
+2. Remove states and arcs and replace with arcs labelled with larger and larger regular expressions.
+	1. Remove State 3
+	2. Remove State 2
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
