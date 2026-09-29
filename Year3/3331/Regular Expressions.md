@@ -67,7 +67,9 @@ Here are the Building Blocks that we can use to build the NDFSM
 
 ![BasicBlock1](assets/BasicBlock1.png)
 
-**Concatenation**
+**Concatenation**: $\alpha = $
+
+![ConcatenationBlock](assets/ConcatenationBlock.png)
 
 
 
