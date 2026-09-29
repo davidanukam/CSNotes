@@ -44,7 +44,7 @@ $L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} 
 
 ![OperatorPrecedenceInRegularExpressions](assets/OperatorPrecedenceInRegularExpressions.png)
 
-
+> So $a^{*} \cup b^{*} \neq (a \cup b)^{*}$ and $(ab)^{*$
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
