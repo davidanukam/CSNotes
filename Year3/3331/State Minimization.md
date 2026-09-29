@@ -23,10 +23,10 @@ Two problems:
 1. Given a regular language, find a minimal DFSM for it
 2. Given a DFSM, find a minimal DFSM equivalent to it.
 
-Lets focus on problem1 for now
+Lets focus on problem 1 for now...
 
 Given a language:
-- Capture the notion of equivalence classes of strings with respect to that language
+- Capture the notion of **equivalence classes** of strings with respect to that language
 - Prove that we can always find a (unique up to state naming) deterministic FSM with a number of states equal to the number of equivalence classes of strings.
 - Describe and algorithm for finding that DFSM
 
