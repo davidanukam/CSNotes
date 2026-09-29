@@ -140,7 +140,7 @@ Explanation:
 
 Regex's describe sets:
 - Union is **commutative**: $\alpha \cup \beta = \beta \cup \alpha$
-- Union is **associative**: $(\alpha \cup \beta) \cup \gamma = \alpha \$
+- Union is **associative**: $(\alpha \cup \beta) \cup \gamma = \alpha \cup (\beta \cup \gamma)$
 - $\emptyset$ is the **identity** for Union:
 - Union is **idempotent**:
 
