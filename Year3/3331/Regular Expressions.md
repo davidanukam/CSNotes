@@ -32,7 +32,6 @@ Semantic interpretation: the **language L($\alpha$)** expressed by a regular exp
 7. $L(\alpha^{+})$
 	- If $L(a)$ is equal to $\emptyset$, then $L(a+)$ is also equal to $\emptyset$. Otherwise $L(a+)$ is the language that is formed by concatenating together one or more strings drawn from $L(a)$
 8. $L((\alpha)) = L(\alpha)$
-## Structural Induction
 
 This is the way we create the **set representations** (the **Regular Language**) of the **Regular Expression**.
 
@@ -52,7 +51,9 @@ Sometimes it **ISN'T** possible to make a **Regular Expression** to represent a 
 
 ![ImpossibleLanguageToRegularExpression](assets/ImpossibleLanguageToRegularExpression.png)
 
+## Structural Induction
 
+Finite State Machines and Regular Expressions define the same class of languages. This measn 
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
