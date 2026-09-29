@@ -11,7 +11,7 @@ Regular Expressions are **strings** over an alphabet $\Sigma$ that can be obtain
 7. $\alpha$ are regular expressions, then so is $\alpha^{+}$
 8. If $\alpha$ are regular expressions, then so is $(\alpha)$
 
-Example
+Example:
 
 If $\Sigma = \lbrace{a, b\rbrace}$, the following are regular expressions:
 - $\emptyset$
@@ -36,9 +36,13 @@ Semantic interpretation: the **language L($\alpha$)** expressed by a regular exp
 
 This is the way we create the **set representations** (the **Regular Language**) of the **Regular Expression**.
 
+Examples:
+
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
 
 $L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} = \lbrace{\lbrace{aa\rbrace} \cup \lbrace{ab\rbrace} \cup \lbrace{ba\rbrace} \cup \lbrace{bb\rbrace}\rbrace}^{*}$
+
+![]()
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
