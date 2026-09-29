@@ -59,6 +59,12 @@ So by something called **Thompson's Construction** we can build and NDFSM.
 
 > Every NDFSM that we can build using Thompson's Construction has a **starting state** with no incoming edges and **ONE** **accepting state** that has no outgoing edges
 
+### Building Blocks
+
+Here are the Building Blocks that we can use to build the NDFSM
+
+
+
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 $L(\Sigma^{*} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
