@@ -112,6 +112,9 @@ Formal Steps:
 | Before                               | After                              |
 | ------------------------------------ | ---------------------------------- |
 | ![FSMBefore3](assets/FSMBefore3.png) | ![FSMAfter3](assets/FSMAfter3.png) |
+Explanation:
+
+![RemoveState2Explanation](assets/RemoveState2Explanation.png)
 
 - Remove State 1
 
