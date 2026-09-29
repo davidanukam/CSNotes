@@ -79,9 +79,9 @@ Here are the Building Blocks that we can use to build the NDFSM
 
 ![KleeneStarBlock](assets/KleeneStarBlock.png)
 
-Example:
+Example of Regular Expression to NDFSM using Thompson's Construction:
 
-
+![RegularExpressionToNDFSM](assets/RegularExpressionToNDFSM.png)
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
