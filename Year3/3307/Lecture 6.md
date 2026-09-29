@@ -15,4 +15,16 @@ This principle basically says that any module should encapsulate **one** axis of
 - Responsibility here means a **stakeholder** or **concern** (business logic, persistence, presentation, etc.).
 This is important because if a class has multiple reasons to change, it the **couples** unrelated concerns and becomes too fragile.
 
-S
+SRP Violation Example:
+
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+
+class Report {
+	std::string content;
+public:
+	Report(const std::string &text)
+}
+```
