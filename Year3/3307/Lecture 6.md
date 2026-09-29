@@ -29,7 +29,7 @@ public:
 	
 	// Business logic: generate a report
 	void generate() {
-		std::cout <, "Generating Report: " << content << std::endl;
+		std::cout << "Generating Report: " << content << std::endl;
 	}
 	
 	// Persistence: save the report to a file
@@ -86,7 +86,7 @@ public:
 	
 	// Business logic: generate a report
 	void generate() {
-		std::cout <, "Generating Report: " << content << std::endl;
+		std::cout << "Generating Report: " << content << std::endl;
 	}
 	
 	// Expose content safely (read-only)
@@ -143,3 +143,4 @@ int main() {
 	sender.sendEmail(report, "ceo@company.com"); // (3) Communication
 }
 ```
+
