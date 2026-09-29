@@ -487,9 +487,7 @@ int main() {
 
 Prefer many small, role-specific interfaces over large, "fat" ones. Reduces coupling and makes it impossible to misuse an object by calling methods it doesn't support. Prevents classes from being burdened with no-op or error-throwing implementations.
 
-  
-
-### ISP Violation Example
+### ISP **Violation** Example
 
 ```cpp
 #include <iostream>
@@ -561,17 +559,11 @@ int main() {
 
 A fat interface (`IMultiFunctionDevice`) forces implementers to provide dummy or exception-throwing methods for features they don't support.
 
-  
-
 Clients with narrow needs are tightly coupled to unused interface members.
-
-  
 
 Swapping implementations passes compilation but causes runtime exceptions when unsupported methods are called.
 
-  
-
-### ISP Adherence Example
+### ISP **Adherence** Example
 
 ```cpp
 #include <iostream>
@@ -675,13 +667,9 @@ int main() {
 
 ## Dependency Inversion Principle (DIP)
 
-"Depend on abstractions, not on concretions."
-
-  
+"*Depend on abstractions, not on concretions.*"
 
 High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details; details (implementations) should depend on abstractions. Commonly realized through constructor injection and interfaces in C++.
-
-  
 
 ### DIP Violation Example
 
@@ -727,17 +715,11 @@ int main() {
 
 `NotificationManager` (high-level) directly depends on `EmailService` (low-level concretion).
 
-  
-
 There is no abstraction layer between high-level logic and low-level details.
-
-  
 
 The high-level module instantiates its own dependencies internally, preventing dependency injection or mocking for tests.
 
-  
-
-### DIP Adherence Example
+### DIP **Adherence** Example
 
 ```cpp
 #include <iostream>
