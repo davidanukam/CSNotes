@@ -141,8 +141,8 @@ Explanation:
 Regex's describe sets:
 - Union is **commutative**: $\alpha \cup \beta = \beta \cup \alpha$
 - Union is **associative**: $(\alpha \cup \beta) \cup \gamma = \alpha \cup (\beta \cup \gamma)$
-- $\emptyset$ is the **identity** for Union:
-- Union is **idempotent**:
+- $\emptyset$ is the **identity** for Union: $\alpha \cup \emptyset = \emptyset \cup \alpha = \alpha$
+- Union is **idempotent**: 
 
 Concatenation:
 - Concatenation is **associative**:
