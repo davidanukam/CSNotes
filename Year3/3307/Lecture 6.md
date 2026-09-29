@@ -104,7 +104,7 @@ class ReportSaver {
 public:
 	void saveToFile(const Report &report, const std::string &filename) {
 		std::ofstream file(filename); // open file for writing
-		file << content;              // save report content
+		file << content.getContent(); // save report content
 		file.close();                 // close file
 	}
 };
