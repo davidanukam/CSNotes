@@ -139,19 +139,19 @@ Explanation:
 ## Simplifying Regular Expressions
 
 Regex's describe sets:
-- **Union** is **commutative**:
-- Union is associative:
-- $\emptyset$ is the identity for Union:
-- Union is idempotent:
+- Union is **commutative**:
+- Union is **associative**:
+- $\emptyset$ is the **identity** for Union:
+- Union is **idempotent**:
 
 Concatenation:
-- Concatenation is associative:
-- $\epsilon$ is the identity for Concatenation:
-- $\emptyset$ is the zero for concatenation:
+- Concatenation is **associative**:
+- $\epsilon$ is the **identity** for Concatenation:
+- $\emptyset$ is the **zero** for concatenation:
 
 Concatenation **distributes** over Union:
 - $(\alpha \cup \beta) \gamma = (\alpha \gamma) \cup (\beta \gamma)$
-- ()
+- $\gamma(\alpha \cup \beta) = (\gamma\alpha) \cup (\gamma\beta)$
 
 Kleene Star:
 - $\emptyset^{\star} = \epsilon$
