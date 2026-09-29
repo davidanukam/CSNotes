@@ -78,7 +78,7 @@ because $x \approx_{L} y$
 
 so $\therefore xa \approx_{L} ya$
 
-> Remember: The number of states has to be at least the number of classes
+> Remember: The number of states has to be **at least** the number of equivalence classes (but you can have more states $\rightarrow$ not a minimized DFSM)
 
 ![EquivalenceClassExample3](assets/EquivalenceClassExample3.png)
 
