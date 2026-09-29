@@ -136,10 +136,13 @@ Explanation:
 
 ## Pattern Matching
 
-Any file that con
+Any file that **contains** the pattern
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 ## Pattern Searching
+
+Any file that **ends with** the pattern
+
 $L(\Sigma^{*} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
 
