@@ -96,16 +96,16 @@ public:
 // =========================
 // (1) Class: ReportSaver
 // -------------------------
-// Responsibility: ONLY holds report content
-// and can genreate/return it.
-// It does NOT know about saving or emailing.
+// Responsibility: handles persistence.
+// It knows how to save a Report to disk,
+// but it does NOT generate or email reports.
 // =========================
 class ReportSaver {
 public:
 	void saveToFile(const std::string &filename) {
-		std::ofstream file(filename);
-		file << content;
-		file.close();
+		std::ofstream file(filename); // open file for writing
+		file << content;              // save report content
+		file.close();                 // close file
 	}
 	
 	// Communication: send report via email
@@ -116,7 +116,7 @@ public:
 };
 
 // =========================
-// (1) Class: Report
+// (1) Class: ReportSender
 // -------------------------
 // Responsibility: ONLY holds report content
 // and can genreate/return it.
