@@ -34,11 +34,11 @@ Semantic interpretation: the **language L($\alpha$)** expressed by a regular exp
 8. $L((\alpha)) = L(\alpha)$
 ## Structural Induction
 
-This is the way we create the set representations (and the Regular Language) of the Regular Expression.
+This is the way we create the set representations (the **Regular Language**) of the **Regular Expression**.
 
 $L(a^{*}b^{*}) = L(a^{*})L(b^{*}) = L(a)^{*}L(b)^{*} = \lbrace{a\rbrace}^{*}\lbrace{b\rbrace}^{*} = \lbrace{a^{n}b^{m} | n, m \ge 0\rbrace}$
 
-$L = {w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}}$
+$L = \lbrace{w \in \lbrace{a, b\rbrace}^{*} \ : \  |w| \ \text{is even}\rbrace} = \lbrace{}$
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
