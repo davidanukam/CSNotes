@@ -63,7 +63,7 @@ So by something called **Thompson's Construction** we can build and NDFSM.
 
 Here are the Building Blocks that we can use to build the NDFSM
 
-**Basic** : $L(\emptyset) \and L(a)$
+**Basic** : $L(\emptyset) \ \text{and} \ L(a) \ \text{where} \ a \in \Sigma$
 
 ![BasicBlock1](assets/BasicBlock1.png)
 
@@ -71,7 +71,7 @@ Here are the Building Blocks that we can use to build the NDFSM
 
 ![ConcatenationBlock](assets/ConcatenationBlock.png)
 
-
+**Union**: $\alpha = \beta \cup \gamma \rightarrow \ \text{NDFSM for} \ L(\alpha)$
 
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
