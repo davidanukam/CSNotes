@@ -353,15 +353,11 @@ int main() {
 
 ## Liskov Substitution Principle (LSP)
 
-"Subtypes must be substitutable for their base types without altering the correctness of the program."
-
-  
+"*Subtypes must be substitutable for their base types without altering the correctness of the program.*"
 
 A derived class must honor the contract of its base class. Clients using the base type should not need to know the concrete subtype to function correctly. Violations often occur when derived classes throw, restrict, or weaken behavior promised by the base type.
 
-  
-
-### LSP Violation Example
+### LSP **Violation** Example
 
 ```cpp
 #include <iostream>
@@ -408,17 +404,11 @@ int main() {
 
 The base class `Bird` promises: "you can always call `fly()`".
 
-  
-
 Anywhere a `Bird` is expected, substituting a `Penguin` breaks client expectations.
-
-  
 
 Because `Penguin` is not truly substitutable for `Bird`, LSP is broken.
 
-  
-
-### LSP Adherence Example
+### LSP **Adherence** Example
 
 ```cpp
 #include <iostream>
@@ -493,9 +483,7 @@ int main() {
 
 ## Interface Segregation Principle (ISP)
 
-"Clients should not be forced to depend upon interfaces they do not use."
-
-  
+"*Clients should not be forced to depend upon interfaces they do not use.*"
 
 Prefer many small, role-specific interfaces over large, "fat" ones. Reduces coupling and makes it impossible to misuse an object by calling methods it doesn't support. Prevents classes from being burdened with no-op or error-throwing implementations.
 
