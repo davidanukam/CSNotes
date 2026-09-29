@@ -72,14 +72,13 @@ If the business rules change, then the `Report` class must also change.
 #include <fstream> // for file output
 #include <string> // for std::string
 
-// =====
+// =========================
 // (1) Class: Report
-// ------
+// -------------------------
 // Responsibility: ONLY holds report content
 // and can genreate/return it.
 // It does NOT know about saving or emailing.
-// ==========================
-
+// =========================
 class Report {
 	std::string content;
 public:
@@ -102,12 +101,21 @@ public:
 		std::cout << "Sending report to " << address << std::endl;
 		// Pretend SMTP logic is here...
 	}
-	
-	int main() {
-		Report report("Quarterly Sales");
-		report.generate();
-		report.saveToFile("Sales.txt");
-		report.sendEmail("ceo@company.com");
-	}
+};
+
+// =========================
+// (1) Class: Report
+// -------------------------
+// Responsibility: ONLY holds report content
+// and can genreate/return it.
+// It does NOT know about saving or emailing.
+// =========================
+
+
+int main() {
+	Report report("Quarterly Sales");
+	report.generate();
+	report.saveToFile("Sales.txt");
+	report.sendEmail("ceo@company.com");
 }
 ```
