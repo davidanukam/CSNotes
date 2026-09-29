@@ -83,6 +83,10 @@ Example of Regular Expression to NDFSM using Thompson's Construction:
 
 ![RegularExpressionToNDFSM](assets/RegularExpressionToNDFSM.png)
 
+## FSM To Regular Expression
+
+Basically, take any state, and remove it from the FSM. Then you update the transition function
+
 $L(\Sigma^{*} \ \text{abcabb} \ \Sigma^{*})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 43
 
 $L(\Sigma^{*} \ \text{abcabb})$ -> NFA -> DFA -> Minimize -> gets the minimal DFSM on 44
