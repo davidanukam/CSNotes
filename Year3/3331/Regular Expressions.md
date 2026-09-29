@@ -141,7 +141,13 @@ Explanation:
 Regex's describe sets:
 - **Union** is **commutative**:
 - Union is associative:
-- $\emptyset$ is the identiry
+- $\emptyset$ is the identity for Union:
+- Union is idempotent:
+
+Concatenation:
+- Concatenation is associative:
+- $\epsilon$ is the identity for Concatenation:
+- $\emptyset$ is the zero for o
 ## Pattern Matching
 
 Any file that **contains** the pattern
