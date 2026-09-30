@@ -98,4 +98,5 @@ $$
 - One extra value is represented with the same number of bits
 
 For an $n$-bit number:
-- Range of values = -2^{}
+- Range of values is from $-2^{n-1}$ to $2^{n-1} - 1$
+
