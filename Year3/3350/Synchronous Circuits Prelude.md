@@ -145,5 +145,5 @@ This also works in reverse! (from negative to positive)
 - Very easy in two’s compliment!
 - Copy the signed bit to the left until desired number of bits
 
-Examples:
+![SignedExtensionExamples](assets/SignedExtensionExamples.png)
 
