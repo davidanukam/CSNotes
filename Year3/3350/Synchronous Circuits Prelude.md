@@ -24,7 +24,7 @@ Decimal vs Binary:
 
 ## Unsigned Binary Integers
 
-**Unsigned Integers** $\Longrightarrow$ the normal representation
+**Unsigned Binary Integers** $\Longrightarrow$ the normal representation
 
 A $n$-bit number:
 
