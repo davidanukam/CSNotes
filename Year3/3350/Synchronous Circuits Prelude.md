@@ -51,4 +51,6 @@ Well, we have two methods:
 
 ### One's Complement
 
-- The **Leading Bit** (the one on the far left) decides if negative or not
+- The **Leading Bit** (the one on the far left) decides if the integer is negative or not
+- All positive numbers have the same representation as unsigned.
+
