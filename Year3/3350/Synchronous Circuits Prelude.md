@@ -49,4 +49,6 @@ Well, we have two methods:
 - One's Complement
 - Two's Complement
 
-### One's Com
+### One's Complement
+
+- The **Leading Bit** (the one on the far left) decides if negative or not
