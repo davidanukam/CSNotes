@@ -106,6 +106,7 @@ It is important to realize that the same bit sequence can represent different nu
 
 $$
 \begin{aligned}
-(1001 \ 1010)_{2} &\Longrightarrow (154)_{10}
+(1001 \ 1010)_{2} &\Longrightarrow (154)_{10} \ \text{interpretted as unsigned} \\
+&\Longrightarrow (-102)_{10}
 \end{aligned}
 $$
