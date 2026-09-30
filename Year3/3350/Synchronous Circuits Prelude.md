@@ -72,6 +72,8 @@ So it's pretty obvious that one's complement is rarely used!
 
 **You invert the leading bit, read the expansion as a non-negative integer and add $-2^{n}$, ignoring any overflow**
 
+> The $n$ in $-2^{n} is the $
+
 Example:
 
 - $(0101)_{2} = (0101)_{2} = 5$ 
