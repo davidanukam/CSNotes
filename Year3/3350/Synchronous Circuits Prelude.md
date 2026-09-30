@@ -41,3 +41,6 @@ $$
 	- $(11)_{10} = 0 + \cdots + 8 + 0 + 2 + 1$
 - If we had $32$ bits, then we could represent the numbers $0$ to +$4,294,967,295$
 
+## Signed Binary Integers
+
+So the question is probably: "How do we encode a Negative num "
