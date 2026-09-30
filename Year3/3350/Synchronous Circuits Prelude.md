@@ -137,4 +137,5 @@ $$
 $$
 
 This also works in reverse! (from negative to positive)
-- $-6 = (101)$
+- $-6 = (1010)_{2} \Rightarrow (0101)_{2} + 1 \Rightarrow (0110)_{2} = 6$
+
