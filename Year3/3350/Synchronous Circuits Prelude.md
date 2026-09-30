@@ -11,4 +11,6 @@ In a **radix**, $r$ representation digits $(d_{i})$ are from the set $\lbrace{0,
 - $r = 8 \Rightarrow$ octal, $\lbrace{0, 1, 2, 3, 4, 5, 6, 7\rbrace}$
 - $r = 16 \Rightarrow$ hexadecimal, $\lbrace{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f\rbrace}$
 
-Going from Deci
+Going from Decimal to Binary:
+
+$(13)_{10} = (1 ) + ()$
