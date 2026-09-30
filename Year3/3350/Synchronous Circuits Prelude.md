@@ -128,10 +128,13 @@ We can get the **bit-wise complement** and then **add 1** to it:
 
 $$
 \begin{aligned}
-6 = (0110)_{2} &= (0 \times 2^{3}) + (1 \times 2^{2}) + (1 \times 2^{1}) + (0 \times 2) \\
+6 = (0110)_{2} &= (0 \times 2^{3}) + (1 \times 2^{2}) + (1 \times 2^{1}) + (0 \times 2^{0}) \\
 \Downarrow \ &\text{complement} \\
-(1001)_{2} &= () + () + () + () = -8 + 1 \\
+(1001)_{2} &= (-1 \times 2^{3}) + (0 \times 2^{2}) + (0 \times 2^{1}) + (1 \times 2^{0}) = -8 + 1 \\
 \Downarrow \ &\text{add one} \\
 (1001)_{2} + (0001)_{2} &= (1010)_{2} = -8 + 0 + 2 + 0 = -6
 \end{aligned}
 $$
+
+This also works in reverse! (from negative to positive)
+- $-6 = (101)$
