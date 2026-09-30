@@ -161,7 +161,7 @@ This also works in reverse! (from negative to positive)
 - Shift the bits **left** or right a specified number of times.
 - Fills the vacancies with 0s on shift left.
 	- indeed an arithmetic shift left is a multiplication by a power of 2
-- Fills the vacancies with 1s on shift right if number is negative.
+- Fills the vacancies with 1s on shift right if number is **negative**.
 	- indeed an arithmetic shift right is an integer quotient by a power of 2
 - **Fills the vacancies with 0s on shift right if number is positive.**
 - Throw away any bits that flow out.
@@ -169,4 +169,4 @@ This also works in reverse! (from negative to positive)
 
 ![ArithmeticShiftExamples](assets/ArithmeticShiftExamples.png)
 
-<< 0
+Basically, on Arithmetic Shift Right, take the Leading Bit (MSB) and use that to fill in the vacancies.
