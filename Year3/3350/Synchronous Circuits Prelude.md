@@ -34,3 +34,6 @@ $$
 
 - Has a term up to $2^{n-1}$
 - Has a range: $0$ to $(2^n - 1)$
+- Example:
+	- 0x0000000B
+	- 0000
