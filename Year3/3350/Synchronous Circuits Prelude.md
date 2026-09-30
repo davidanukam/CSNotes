@@ -11,8 +11,8 @@ In a **radix**, $r$ representation digits $(d_{i})$ are from the set $\lbrace{0,
 - $r = 8 \Rightarrow$ octal, $\lbrace{0, 1, 2, 3, 4, 5, 6, 7\rbrace}$
 - $r = 16 \Rightarrow$ hexadecimal, $\lbrace{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f\rbrace}$
 
-Going from Decimal to Binary:
+Decimal vs Binary:
 
-$(13)_{10} = (1 \times 10^{1}) + (3 \times 10^{0})$
+- $(13)_{10} = (1 \times 10^{1}) + (3 \times 10^{0})$
+- $(1101)_{2} = (1 \times 2^{3}) + (1 \times 2^{2}) + (0 \times 2^{1}) + (1 \times 2^{0}) = 8 + 4 + 0 + 1 = (13)_{10}$
 
-$(1101)_{2} = (1 \times 2^{3}) + (1 \times 2^{2}) + (0 \times 2^{1}) + (1 \times 2) = 8 + 4 + 0 + 1 = (13)_{10}$
