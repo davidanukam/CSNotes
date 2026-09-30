@@ -54,3 +54,8 @@ Well, we have two methods:
 - The **Leading Bit** (the one on the far left) decides if the integer is negative or not
 - All positive numbers have the same representation as unsigned.
 
+**Get the Value of a Negative Number by inverting all bits then multiply by -1**
+
+Example:
+
+- $(0101)$
