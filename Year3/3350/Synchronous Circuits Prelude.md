@@ -72,12 +72,12 @@ So it's pretty obvious that one's complement is rarely used!
 
 **You invert the leading bit, read the expansion as a non-negative integer and add $-2^{n}$, ignoring any overflow**
 
-> The $n$ in $-2^{n}$ is the exponent on the 2. So in (1101)_{2}, the leading bit = 1 so its a negative number. That leading bit is the 3th bit because $\rightarrow$ $\underbrace{1}_{2^{3}}\underbrace{1}_{2^{2}}\underbrace{0}_{2^{1}}\underbrace{1}_{2^{0}}$ so $n = 3$
+> The $n$ in $-2^{n}$ is the exponent on the 2. So in $(1101)_{2}$, the leading bit = 1 so its a negative number. That leading bit is the 3th bit because $\rightarrow$ $\underbrace{1}_{2^{3}}\underbrace{1}_{2^{2}}\underbrace{0}_{2^{1}}\underbrace{1}_{2^{0}}$ so $n = 3$
 
 Example:
 
 - $(0101)_{2} = (0101)_{2} = 5$ 
-- $(1101)_{2} = (0101)_{2} - 2^{3} = 5 + -8 = -3$
+- $(1101)_{2} = (0101)_{2} - 2^{3} = 5 - 8 = -3$
 - $(0000)_{2} = (0000)_{2} = 0$
-- $(1111)_{2} = -1 \times (0000)_{2} = -0 ????$ So it does not deal with **overflow**
+- $(1111)_{2} = (0111)_{2} - 2^{3} =$ So it does not deal with **overflow**
 
