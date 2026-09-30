@@ -156,3 +156,13 @@ This also works in reverse! (from negative to positive)
 
 ![LogicalShiftExample](assets/LogicalShiftExample.png)
 
+## Arithmetic Shift
+
+Shift the bits left or right a specified number of times.
+Fills the vacancies with 0s on shift left.
+ë indeed an arithmetic shift left is a multiplication by a power of 2
+Fills the vacancies with 1s on shift right if number is negative.
+ë indeed an arithmetic shift right is an integer quotient by a power of 2
+Fills the vacancies with 0s on shift right if number is positive.
+Throw away any bits that flow out.
+<< (shift left) and >> (shift right) in C (signed)
