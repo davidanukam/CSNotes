@@ -102,4 +102,10 @@ For an $n$-bit number:
 
 ## Same bits, but different numbers
 
-It i
+It is important to realize that the same bit sequence can represent different numbers
+
+$$
+\begin{aligned}
+(1001 \ 1010)_{2} &\Longrightarrow (154)_{10}
+\end{aligned}
+$$
