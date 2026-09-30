@@ -100,3 +100,6 @@ $$
 For an $n$-bit number:
 - Range of values is from $-2^{n-1}$ to $2^{n-1} - 1$
 
+## Same bits, but different numbers
+
+It i
