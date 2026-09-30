@@ -62,3 +62,8 @@ Example:
 - $(1101)_{2} = -1 \times (0010)_{2} = -2$
 - $(0000)_{2} = (0000)_{2} = 0$
 - $(1111)_{2} = -1 \times (0000)_{2} = -0 ????$ So it does not deal with **overflow**
+
+So it's pretty obvious that one's complement is rarely used!
+
+### Two's Complement
+
