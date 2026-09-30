@@ -156,4 +156,3 @@ This also works in reverse! (from negative to positive)
 
 ![[Pasted image 20260930172705.png]]
 
-(0100) = 1011 + 1 = 1100 = -4
