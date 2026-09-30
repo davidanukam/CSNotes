@@ -85,5 +85,10 @@ Advantages:
 - Arithmetic is the same whether positive or negative:
 
 $$
+\begin{aligned}
+()_{2} &= 5 \\
++ ()_{2} &= -3 \\
+---
 
+\end{aligned}
 $$
