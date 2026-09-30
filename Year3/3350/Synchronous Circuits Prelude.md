@@ -122,4 +122,12 @@ int b = a;                  // b = -2147483648 (signed)
 
 In two's compliment, sometimes we want to find the negative representation of a binary number.
 
-Let's say we have the number 6. We know that this is $()_{2}$ in binary. But what is -6 in binary
+Let's say we have the number 6. We know that this is $()_{2}$ in binary. But what is -6 in binary?
+
+We can get the **bit-wise complement** and then **add 1** to it:
+
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
