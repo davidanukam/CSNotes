@@ -43,4 +43,9 @@ $$
 
 ## Signed Binary Integers
 
-So the question is probably: "How do we encode a Negative num "
+So the question is probably: "How do we encode a Negative integer?"
+
+Well, we have two methods:
+- One's Complement
+- Two's Complement
+
