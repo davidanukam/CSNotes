@@ -49,3 +49,4 @@ Well, we have two methods:
 - One's Complement
 - Two's Complement
 
+### One's Com
