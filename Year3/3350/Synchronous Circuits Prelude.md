@@ -29,5 +29,8 @@ Decimal vs Binary:
 A $n$-bit number:
 
 $$
-x = x_{n-1}2^{n-1} + x_{n-2}2^{n-2} + \cdots +
+x = x_{n-1}2^{n-1} + x_{n-2}2^{n-2} + \cdots + x_{1}2^{1} + x_{0}2^{0}
 $$
+
+- Has a term up to $2^{n-1}$
+- Has a range: $0$ to $(2^n - 1)$
