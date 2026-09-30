@@ -1,6 +1,6 @@
 ## Synchronous Circuits: Prelude
 
-### Radix Representations
+## Radix Representations
 
 **Radix** is the **base number** in some numbering system.
 
@@ -16,3 +16,6 @@ Decimal vs Binary:
 - $(13)_{10} = (1 \times 10^{1}) + (3 \times 10^{0})$
 - $(1101)_{2} = (1 \times 2^{3}) + (1 \times 2^{2}) + (0 \times 2^{1}) + (1 \times 2^{0}) = 8 + 4 + 0 + 1 = (13)_{10}$
 
+> Going from Decimal to Binary:
+
+## 
