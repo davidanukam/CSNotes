@@ -7,7 +7,7 @@
 In a **radix**, $r$ representation digits $(d_{i})$ are from the set $\lbrace{0, 1, \dots, r - 1\rbrace}$ 
 
 $$
-
+x = d_{n-1} \times r^{n-1} + d_{n-2} \times r^{n-2} + \cdots + d_{1} \times r^{1} + d_{0}
 $$
 
 - $r = 10 \Rightarrow$ decimal, $\lbrace{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\rbrace}$
