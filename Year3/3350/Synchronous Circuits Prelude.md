@@ -168,4 +168,7 @@ This also works in reverse! (from negative to positive)
 ? : 1110 0000
 
 1
-- 0001 1111 + 1 = 0010 0000 = 32
+- 0001 1111 + 1 = 0010 0000 = -32
+
+2
+- -1 * 2^7 + 96
