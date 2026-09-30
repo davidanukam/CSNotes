@@ -154,21 +154,5 @@ This also works in reverse! (from negative to positive)
 - Throw away any bits that flow out.
 - << (shift left) and >> (shift right) in C (unsigned).
 
-![[Pasted image 20260930172705.png]]
+![LogicalShiftExample](assets/LogicalShiftExample.png)
 
--32
-
-32: 0010 0000
-
-1101 1111 + 1
-
--32: 1110 0000
-
-
-? : 1110 0000
-
-1
-- 0001 1111 + 1 = 0010 0000 = -32
-
-2
-- -1 * 2^7 + 96
