@@ -13,4 +13,6 @@ In a **radix**, $r$ representation digits $(d_{i})$ are from the set $\lbrace{0,
 
 Going from Decimal to Binary:
 
-$(13)_{10} = (1 ) + ()$
+$(13)_{10} = (1 \times 10^{1}) + (3 \times 10^{0})$
+
+$(1101)_{2} = (1 \times 2^{3}) + (1 \times 10^{0})$
