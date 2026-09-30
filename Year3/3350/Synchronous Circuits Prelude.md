@@ -106,7 +106,13 @@ It is important to realize that the same bit sequence can represent different nu
 
 $$
 \begin{aligned}
-(1001 \ 1010)_{2} &\Longrightarrow (154)_{10} \ \text{interpretted as unsigned} \\
+(1001 \ 1010)_{2} &\Longrightarrow (154)_{10} \ \ \ \ \text{interpretted as unsigned} \\
 &\Longrightarrow (-102)_{10} \ \text{interpretted as two's complement}
 \end{aligned}
 $$
+
+This can clearly be a problem when programming!
+
+```cpp
+unsigned int a = (1 << 31); // a = 2147483648
+```
