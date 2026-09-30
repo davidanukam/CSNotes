@@ -129,7 +129,8 @@ We can get the **bit-wise complement** and then **add 1** to it:
 $$
 \begin{aligned}
 6 = (0110)_{2} &= () + () + () + () \\
+\Downarrow
 ()_{2} &= () + () + () + () = -8 + 1 \\
-()_{2} + (0001)_{}
+()_{2} + (0001)_{2} &= (1010)_{2} = -8 + 0 + 2 + 0 = -6
 \end{aligned}
 $$
