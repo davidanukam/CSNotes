@@ -82,13 +82,14 @@ Example:
 - $(1111)_{2} = (0111)_{2} - 2^{3} = 7 - 8 = -1$
 
 Advantages:
+
 - Arithmetic is the same whether positive or negative:
 
 $$
 \begin{aligned}
-()_{2} &= 5 \\
-+ ()_{2} &= -3 \\
----
-
+(0101)_{2} &= 5 \\
++ \ (1101)_{2} &= -3 \\
+\hline
+(0010)_{2} &= 2
 \end{aligned}
 $$
