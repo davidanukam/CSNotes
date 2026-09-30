@@ -118,3 +118,6 @@ unsigned int a = (1 << 31); // a = 2147483648 (unsigned)
 int b = a;                  // b = -2147483648 (signed)
 ```
 
+## Computing the opposite (signed negation)
+
+In two's compliment, sometimes we want to re
