@@ -147,3 +147,10 @@ This also works in reverse! (from negative to positive)
 
 ![SignedExtensionExamples](assets/SignedExtensionExamples.png)
 
+## Logical Shift
+
+Shift the bits left or right a specified number of times.
+Fills the vacancies with 0s on shift left and shift right.
+Throw away any bits that flow out.
+<< (shift left) and >> (shift right) in C (unsigned).
+See the details at Logical Shift
