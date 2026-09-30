@@ -68,7 +68,10 @@ So it's pretty obvious that one's complement is rarely used!
 ### Two's Complement
 
 - The **Leading Bit** (the one on the far left) decides if the integer is negative or not: 1 = Negative
-- If a number is non-negative (so 0 is included), then same representation as unsigned, otherwise
+- If a number is non-negative (so 0 is included), then same representation as unsigned, otherwise:
 
-**Get the Value of a Negative Number by inverting all bits then multiply by -1**
+**You invert the leading bit, read the expansion as a non-negative integer and add $-2^{n}$, ignoring any overflow**
+
+Example:
+
 
