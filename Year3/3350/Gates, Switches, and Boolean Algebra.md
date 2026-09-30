@@ -4,3 +4,6 @@ $\cap$
 $\wedge$
 $\vee$
 
+$(A + B) * (C + D) * (E + F)$
+
+$(A * B) + (C * D) + (E + F)$
