@@ -113,7 +113,7 @@ $$
 
 This can clearly be a problem when programming!
 
-```cpp
+```c
 unsigned int a = (1 << 31); // a = 2147483648 (unsigned)
 int b = a;                  // b = -2147483648 (signed)
 ```
@@ -149,8 +149,10 @@ This also works in reverse! (from negative to positive)
 
 ## Logical Shift
 
-Shift the bits left or right a specified number of times.
-Fills the vacancies with 0s on shift left and shift right.
-Throw away any bits that flow out.
-<< (shift left) and >> (shift right) in C (unsigned).
-See the details at Logical Shift
+- Shift the bits **left** or **right** a specified number of times.
+- Fills the vacancies with 0s on shift left and shift right.
+- Throw away any bits that flow out.
+- << (shift left) and >> (shift right) in C (unsigned).
+
+![[Pasted image 20260930172705.png]]
+
