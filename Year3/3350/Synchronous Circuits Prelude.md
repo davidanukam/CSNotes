@@ -26,7 +26,7 @@ Decimal vs Binary:
 
 **Unsigned Binary Integers** $\Longrightarrow$ the normal representation
 
-A $n$-bit number:
+An $n$-bit number:
 
 $$
 x = x_{n-1}2^{n-1} + x_{n-2}2^{n-2} + \cdots + x_{1}2^{1} + x_{0}2^{0}
@@ -93,3 +93,9 @@ $$
 (0010)_{2} &= 2
 \end{aligned}
 $$
+
+- No signed 0
+- One extra value is represented with the same number of bits
+
+For an $n$-bit number:
+- Range of values = -2^{}
