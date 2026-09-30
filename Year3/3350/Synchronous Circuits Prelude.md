@@ -156,3 +156,6 @@ This also works in reverse! (from negative to positive)
 
 ![[Pasted image 20260930172705.png]]
 
+-32
+
+0010 0000
