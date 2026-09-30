@@ -158,4 +158,8 @@ This also works in reverse! (from negative to positive)
 
 -32
 
-0010 0000
+32: 0010 0000
+
+1101 1111 + 1
+
+-32: 1110 0000
