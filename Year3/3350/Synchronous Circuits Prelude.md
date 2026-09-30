@@ -72,7 +72,7 @@ So it's pretty obvious that one's complement is rarely used!
 
 **You invert the leading bit, read the expansion as a non-negative integer and add $-2^{n}$, ignoring any overflow**
 
-> The $n$ in $-2^{n} is the $
+> The $n$ in $-2^{n}$ is the bit number. So in (1101)_{2}, the leading bit = 1 so its a negative number. That leading bit is the 4th bit 
 
 Example:
 
