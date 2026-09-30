@@ -24,4 +24,10 @@ Decimal vs Binary:
 
 ## Unsigned Binary Integers
 
-**Unsigned Integers** $\Longtightarrow$ 
+**Unsigned Integers** $\Longrightarrow$ the normal representation
+
+A $n$-bit number:
+
+$$
+x = x_{n-1}2^{n-1} + x_{n-2}2^{n-2} + \cdots +
+$$
