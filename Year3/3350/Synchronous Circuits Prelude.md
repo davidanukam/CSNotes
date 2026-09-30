@@ -79,5 +79,11 @@ Example:
 - $(0101)_{2} = (0101)_{2} = 5$ 
 - $(1101)_{2} = (0101)_{2} - 2^{3} = 5 - 8 = -3$
 - $(0000)_{2} = (0000)_{2} = 0$
-- $(1111)_{2} = (0111)_{2} - 2^{3} =$ So it does not deal with **overflow**
+- $(1111)_{2} = (0111)_{2} - 2^{3} = 7 - 8 = -1$
 
+Advantages:
+- Arithmetic is the same whether positive or negative:
+
+$$
+
+$$
