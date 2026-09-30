@@ -51,7 +51,7 @@ Well, we have two methods:
 
 ### One's Complement
 
-- The **Leading Bit** (the one on the far left) decides if the integer is negative or not
+- The **Leading Bit** (the one on the far left) decides if the integer is negative or not: 1 = Negative
 - All positive numbers have the same representation as unsigned.
 
 **Get the Value of a Negative Number by inverting all bits then multiply by -1**
@@ -66,4 +66,9 @@ Example:
 So it's pretty obvious that one's complement is rarely used!
 
 ### Two's Complement
+
+- The **Leading Bit** (the one on the far left) decides if the integer is negative or not: 1 = Negative
+- If a number is non-negative (so 0 is included), then same representation as unsigned, otherwise
+
+**Get the Value of a Negative Number by inverting all bits then multiply by -1**
 
