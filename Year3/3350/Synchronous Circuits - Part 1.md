@@ -20,6 +20,11 @@ We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT
 - Need circuit design to understand logic design.
 - Need logic design to understand CPU Datapath
 
+## Digital Circuits
+
+NOT DIGITAL (LOGIC) DESIGN!!!
+
+This just talks about how everything to do with circuits is **digital** in the sense that they
 
 $\cap$
 $\wedge$
