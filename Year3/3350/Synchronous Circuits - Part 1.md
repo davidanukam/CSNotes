@@ -68,7 +68,9 @@ Like I said, we don't care about transistors so nothing more needs to be said he
 
 The Basics: AND (), OR, NOT():
 
+![BasicLogicGateSymbols]()
 
+**Arity**: The number of input signals a gate/function has (AND = 2, OR = 2, NOT = 1)
 
 $\cap$
 $\wedge$
