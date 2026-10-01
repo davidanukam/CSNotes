@@ -39,8 +39,13 @@ Basically, everything is a switch.
 - "Input" $\Rightarrow A$
 - "Output" $\Rightarrow Z$
 
-I don't really need to explain this but I got 
-If A is 0 (false) then the switch is open and Z is off
+I don't really need to explain this but I got some time right now so...
+
+If A is 0 (false) then the switch is **open** and Z is **off**.
+If A is 1 (true) then the switch is **closed** and Z is **on**.
+
+So, since the state of A is equal to the state of Z, we can summarize and say that this circuit implements:
+
 
 $\cap$
 $\wedge$
