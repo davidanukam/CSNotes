@@ -12,6 +12,13 @@ We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT
 
 **Circuit Design**: The Design of individual circuits
 
+## Circuit Design
+
+### Why do we care? (good question)
+- Appreciate the limitations of hardware.
+- Understand why some things are fast and some things are slow.
+- Need circuit design to understand logic design.
+- Need logic design to understand CPU Datapath
 
 
 $\cap$
