@@ -28,7 +28,13 @@ This just talks about how everything to do with circuits is **digital** in the s
 
 However, this means that we must convert an **analog**: take a continuous variable (in our case electricity) and change that signal to digital
 
-In other words we take the analog signal, electricity (voltage) and cov
+In other words we take the analog signal, electricity (voltage) and covert it into binary (0's and 1's)
+- "High" voltage $\Rightarrow 1$
+- "Low" voltage $\Rightarrow 0$
+
+## Physicality of Circuits
+
+Basically, 
 
 $\cap$
 $\wedge$
