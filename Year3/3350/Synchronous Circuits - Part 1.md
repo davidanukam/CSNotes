@@ -1,6 +1,10 @@
+# Synchronous Circuits
+
 ## Part 1: Gates, Switches, and Boolean Algebra
 
 ## Layers of Abstraction
+
+![TheLayersOfAbstraction](assets/TheLayersOfAbstraction.png)
 
 $\cap$
 $\wedge$
