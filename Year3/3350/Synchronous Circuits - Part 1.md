@@ -58,7 +58,8 @@ Like I said, we don't care about transistors so nothing more needs to be said he
 
 ![TransistorsChannelSlide](assets/TransistorsChannelSlide.png)
 
-## Logic Gates
+## Logic as Circuits
+
 
 
 $\cap$
