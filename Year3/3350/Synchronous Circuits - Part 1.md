@@ -56,6 +56,9 @@ $$
 
 Like I said, we don't care about transistors so nothing more needs to be said here. Maybe learn it for midterm or exam (idk)
 
+![TransistorsChannelSlide](assets/TransistorsChannelSlide.png)
+
+## Logic Gates
 
 
 $\cap$
