@@ -1,4 +1,6 @@
-## Synchronous Circuits: Prelude
+# Synchronous Circuits
+
+## Prelude
 
 ## Radix Representations
 
