@@ -24,7 +24,9 @@ We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT
 
 NOT DIGITAL (LOGIC) DESIGN!!!
 
-This just talks about how everything to do with circuits is **digital** in the sense that they
+This just talks about how everything to do with circuits is **digital** in the sense that they are represented by discrete, individual values (so no gray areas or ambiguity).
+
+However, this means that we must convert an **analog**: take a continuose variable (in our case electricity) and change  
 
 $\cap$
 $\wedge$
