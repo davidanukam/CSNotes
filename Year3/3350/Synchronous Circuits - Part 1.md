@@ -34,7 +34,9 @@ In other words we take the analog signal, electricity (voltage) and covert it in
 
 ## Physicality of Circuits
 
-Basically, everything is a switch.
+In terms of **Circuits**, everything is a **switch**.
+
+![CircuitsAre]()
 
 - "Input" $\Rightarrow A$
 - "Output" $\Rightarrow Z$
@@ -46,6 +48,11 @@ If A is 1 (true) then the switch is **closed** and Z is **on**.
 
 So, since the state of A is equal to the state of Z, we can summarize and say that this circuit implements:
 
+$$
+A \equiv Z
+$$
+
+text
 
 $\cap$
 $\wedge$
