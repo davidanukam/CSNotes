@@ -6,6 +6,10 @@
 
 ![TheLayersOfAbstraction](assets/TheLayersOfAbstraction.png)
 
+We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT TRANSISTORS).
+
+Circuit Design: The Design of individual circuits
+
 $\cap$
 $\wedge$
 $\vee$
