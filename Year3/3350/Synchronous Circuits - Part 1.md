@@ -26,7 +26,9 @@ NOT DIGITAL (LOGIC) DESIGN!!!
 
 This just talks about how everything to do with circuits is **digital** in the sense that they are represented by discrete, individual values (so no gray areas or ambiguity).
 
-However, this means that we must convert an **analog**: take a continuose variable (in our case electricity) and change  
+However, this means that we must convert an **analog**: take a continuous variable (in our case electricity) and change that signal to digital
+
+In other words we take the analog signal, electricity (voltage) and cov
 
 $\cap$
 $\wedge$
