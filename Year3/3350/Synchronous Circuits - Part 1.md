@@ -61,8 +61,14 @@ Like I said, we don't care about transistors so nothing more needs to be said he
 ## Logic as Circuits
 
 **Propositional Logic**: A set of propositions (mathematical sentences that are either **true** or **false**) combined by some **Logical Connectives**.
-- Each proposition is represented by a binary digital signal (0 or 1 as false and true respectively)
+- Each proposition is represented by a binary digital signal (0 or 1 as false and true respectively).
 - **Local Connectives** are presented by **Logic Gates**.
+
+**Logic Gate**: A circuit mapping **a number of propositions** to one (sometimes more) proposition(s).
+
+The Basics: AND (), OR, NOT():
+
+
 
 $\cap$
 $\wedge$
