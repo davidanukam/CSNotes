@@ -8,7 +8,11 @@
 
 We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT TRANSISTORS).
 
-Circuit Design: The Design of individual circuits
+**Digital (Logic) Design**: Using circuits to implement some logic
+
+**Circuit Design**: The Design of individual circuits
+
+
 
 $\cap$
 $\wedge$
