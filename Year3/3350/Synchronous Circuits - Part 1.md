@@ -60,9 +60,9 @@ Like I said, we don't care about transistors so nothing more needs to be said he
 
 ## Logic as Circuits
 
-**Propositional Logic**: A set of propositions (mathematical sentences that are either **true** or **false**) combined by some What are you doing? You added it to the Internship Planner Google Sheet, thats good. But you gave me a text and markdown file in the new application folder?? Seriously?? You know that the not_applied and applied folders have the application folders that contain a tailored resume and cover letter in them. So remove the text and markdown files in the hydro one application folder in appiled and give me a tailored resume and cover letter for it!
-
-Also sometimes, it requires me to click the blue "Run" button to allow you to run some commands. Just run them by yourself. How can I change that so you have access?
+**Propositional Logic**: A set of propositions (mathematical sentences that are either **true** or **false**) combined by some **Logical Connectives**.
+- Each proposition is represented by a binary digital signal (0 or 1 as false and true respectively)
+- **Local Connectives** are presented by **Logic Gates**.
 
 $\cap$
 $\wedge$
