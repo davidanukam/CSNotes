@@ -4,6 +4,8 @@ $\cap$
 $\wedge$
 $\vee$
 
-$(A + B) * (C + D) * (E + F)$
+CNF: $(A + B) * (C + D) * (E + F)$
 
-$(A * B) + (C * D) + (E + F)$
+DNF: $(A * B) + (C * D) + (E * F)$
+
+
