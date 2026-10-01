@@ -34,7 +34,13 @@ In other words we take the analog signal, electricity (voltage) and covert it in
 
 ## Physicality of Circuits
 
-Basically, 
+Basically, everything is a switch.
+
+- "Input" $\Rightarrow A$
+- "Output" $\Rightarrow Z$
+
+I don't really need to explain this but I got 
+If A is 0 (false) then the switch is open and Z is off
 
 $\cap$
 $\wedge$
