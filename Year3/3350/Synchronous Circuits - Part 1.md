@@ -36,7 +36,7 @@ In other words we take the analog signal, electricity (voltage) and covert it in
 
 In terms of **Circuits**, everything is a **switch**.
 
-![CircuitsAre]()
+![CircuitsAreSwitches](assets/CircuitsAreSwitches.png)
 
 - "Input" $\Rightarrow A$
 - "Output" $\Rightarrow Z$
