@@ -74,7 +74,7 @@ The Basics: AND ($\wedge$), OR ($\vee$), NOT($\neg$):
 
 ## Gates as Switches
 
-
+When it comes to
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
