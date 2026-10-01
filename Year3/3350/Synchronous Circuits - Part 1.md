@@ -52,7 +52,7 @@ $$
 A \equiv Z
 $$
 
-text
+Like I said, we don't 
 
 $\cap$
 $\wedge$
