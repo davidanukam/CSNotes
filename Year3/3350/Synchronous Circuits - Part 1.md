@@ -66,19 +66,19 @@ Like I said, we don't care about transistors so nothing more needs to be said he
 
 **Logic Gate**: A circuit mapping **a number of propositions** to one (sometimes more) proposition(s).
 
-The Basics: AND (), OR, NOT():
+The Basics: AND ($\wedge$), OR ($\vee$), NOT($\neg$):
 
-![BasicLogicGateSymbols]()
+![BasicLogicGateSymbols](assets/BasicLogicGateSymbols.png)
 
 **Arity**: The number of input signals a gate/function has (AND = 2, OR = 2, NOT = 1)
 
-$\cap$
-$\wedge$
-$\vee$
+## Gates as Switches
 
-CNF: $(A + B) * (C + D) * (E + F)$
 
-DNF: $(A * B) + (C * D) + (E * F)$
+
+**CNF**: $(A + B) * (C + D) * (E + F)$
+
+**DNF**: $(A * B) + (C * D) + (E * F)$
 
 
 
