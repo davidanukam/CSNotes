@@ -250,7 +250,7 @@ $$
 \end{aligned}
 $$
 
-|x|y|z||$
+|$x$|$y$|$z$||$xy$||$\overline{xy}$|$\overline{xy} \ \overline{z}$|$\overline{xy} \ z$|
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
