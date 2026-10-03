@@ -144,6 +144,13 @@ Truth Table for **NAND**
 | 1   | 0   | 1                               |
 | 1   | 1   | 0                               |
 
+### NOR
+
+![NorLogicGate](assets/NorLogicGate.png)
+
+- $\neg (A \vee B) \equiv C$
+- $\overline{}$
+
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
 **DNF**: $(A * B) + (C * D) + (E * F)$
