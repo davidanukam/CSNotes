@@ -99,7 +99,20 @@ Truth Table for **AND**
 
 ## OR
 
-![ORLogicG]()
+![OrLogicGate](assets/OrLogicGate.png)
+
+$A \vee B \equiv C$
+
+$A + B \equiv C$
+
+Truth Table for **OR**
+
+| A   | B   | $A \vee B \equiv C$ |
+| --- | --- | ------------------- |
+| 0   | 0   | 0                   |
+| 0   | 1   | 0                   |
+| 1   | 0   | 0                   |
+| 1   | 1   | 1                   |
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
