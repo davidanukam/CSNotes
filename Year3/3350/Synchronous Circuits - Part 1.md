@@ -261,7 +261,12 @@ $$
 | 1   | 1   | 0   | 1    | **0**           | 0                              | 0                   | **0**                                              |
 | 1   | 1   | 1   | 1    | **0**           | 0                              | 0                   | **0**                                              |
 
+Sometimes a **Truth Table** is too challenging...
+- For $v$ variables a truth table has $2^{v}$ rows
 
+
+
+---
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
