@@ -245,10 +245,12 @@ $$
 $$
 \begin{aligned}
 \overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} &\equiv \overline{xy}(\overline{z} + z) \qquad \text{Factor} \ \overline{xy} \\
-&\equiv \overline{xy}(1) \\
-&\equiv \overline{xy}
+&\equiv \overline{xy}(1) \qquad \text{Complementation of} \ z \\
+&\equiv \overline{xy} \qquad \text{Identity with} \ \overline{xy} \\
 \end{aligned}
 $$
+
+|x|y|z||$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
