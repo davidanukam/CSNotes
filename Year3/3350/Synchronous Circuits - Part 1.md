@@ -149,7 +149,20 @@ Truth Table for **NAND**
 ![NorLogicGate](assets/NorLogicGate.png)
 
 - $\neg (A \vee B) \equiv C$
-- $\overline{}$
+- $\overline{A + B} \equiv C$
+
+Truth Table for **NOR**
+
+| A   | B   | $\overline{A + B} \equiv C$ |
+| --- | --- | --------------------------- |
+| 0   | 0   | 1                           |
+| 0   | 1   | 0                           |
+| 1   | 0   | 0                           |
+| 1   | 1   | 0                           |
+
+### XOR
+
+!
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
