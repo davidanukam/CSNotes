@@ -134,7 +134,9 @@ Truth Table for **NOT**
 
 $\neg (A \wedge B) \equiv C$
 
-$\bar{A} \bar{\cdot B} \equiv C$
+$\overline{A \cdot B} \equiv C$
+
+$A $
 
 Truth Table for **NAND**
 
