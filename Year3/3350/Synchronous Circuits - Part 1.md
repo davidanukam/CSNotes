@@ -245,7 +245,8 @@ $$
 $$
 \begin{aligned}
 \overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} &\equiv \overline{xy}(\overline{z} + z) \\
-
+&\equiv \overline{xy}(1) \\
+&\equiv 
 \end{aligned}
 $$
 
