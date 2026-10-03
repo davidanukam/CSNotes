@@ -243,7 +243,10 @@ $$
 $$
 
 $$
-\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} \equiv \overline{xy}(\overline{})
+\begin{aligned}
+\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} &\equiv \overline{xy}(\overline{z} + z) \\
+
+\end{aligned}
 $$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
