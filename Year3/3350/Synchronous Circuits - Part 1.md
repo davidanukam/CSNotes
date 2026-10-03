@@ -84,9 +84,8 @@ When it comes to implementing **Logic Gates** as **Switches**, we can just think
 
 ![AndLogicGate](assets/AndLogicGate.png)
 
-$A \wedge B \equiv C$
-
-$A \cdot B \equiv C$
+- $A \wedge B \equiv C$
+- $A \cdot B \equiv C$
 
 Truth Table for **AND**
 
@@ -101,9 +100,8 @@ Truth Table for **AND**
 
 ![OrLogicGate](assets/OrLogicGate.png)
 
-$A \vee B \equiv C$
-
-$A + B \equiv C$
+- $A \vee B \equiv C$
+- $A + B \equiv C$
 
 Truth Table for **OR**
 
@@ -117,9 +115,8 @@ Truth Table for **OR**
 
 ![NotLogicGate](assets/NotLogicGate.png)
 
-$\neg A \equiv C$
-
-$\bar{A} \equiv C$
+- $\neg A \equiv C$
+- $\bar{A} \equiv C$
 
 Truth Table for **NOT**
 
@@ -132,11 +129,9 @@ Truth Table for **NOT**
 
 ![NandLogicGate](assets/NandLogicGate.png)
 
-$\neg (A \wedge B) \equiv C$
-
-$\overline{A \cdot B} \equiv C$
-
-$A \ | \ B$ 
+- $\neg (A \wedge B) \equiv C$
+- $\overline{A \cdot B} \equiv C$
+- $A \ | \ B$ 
 
 > "|" = Sheffer Stroke
 
