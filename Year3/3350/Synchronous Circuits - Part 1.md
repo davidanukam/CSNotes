@@ -229,7 +229,12 @@ $$
 \overline{A + B} \equiv \overline{A} \cdot \overline{B}
 $$
 
-|A|B|$A + B$|$\overline{}$
+| A   | B   | $A + B$ | $\overline{A + B}$ |
+| --- | --- | ------- | ------------------ |
+| 0   | 0   | 0       |                    |
+| 0   | 1   | 1       | 0                  |
+| 1   | 0   | 1       | 0                  |
+| 1   | 1   | 1       | 0                  |
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
