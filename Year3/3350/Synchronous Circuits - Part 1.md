@@ -84,7 +84,13 @@ When it comes to implementing **Logic Gates** as **Switches**, we can just think
 
 ![AndLogicGate](assets/AndLogicGate.png)
 
+$A \wedge B \equiv C$
 
+$A \cdot B \equiv C$
+
+Truth Table for **AND**
+
+|A|B|$A \wedge$|
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
