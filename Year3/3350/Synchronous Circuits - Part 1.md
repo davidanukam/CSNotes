@@ -128,6 +128,23 @@ Truth Table for **NOT**
 | 0   | 1                 |
 | 1   | 0                 |
 
+### NAND
+
+![NandLogicGate](assets/NandLogicGate.png)
+
+$A \wedge B \equiv C$
+
+$A \cdot B \equiv C$
+
+Truth Table for **NAND**
+
+| A   | B   | $\neg (A \wedge B) \equiv C$ |
+| --- | --- | ---------------------------- |
+| 0   | 0   | 1                            |
+| 0   | 1   | 1                            |
+| 1   | 0   | 1                            |
+| 1   | 1   | 0                            |
+
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
 **DNF**: $(A * B) + (C * D) + (E * F)$
