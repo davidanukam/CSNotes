@@ -164,7 +164,18 @@ Truth Table for **NOR**
 
 ![XorLogicGate](assets/XorLogicGate.png)
 
-- $A \or B \equiv C$
+- $A \oplus B \equiv C$
+
+Truth Table for **XOR**
+
+| A   | B   | $A \oplus B \equiv C$ |
+| --- | --- | --------------------- |
+| 0   | 0   | 0                     |
+| 0   | 1   | 1                     |
+| 1   | 0   | 1                     |
+| 1   | 1   | 0                     |
+
+44
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
