@@ -90,7 +90,16 @@ $A \cdot B \equiv C$
 
 Truth Table for **AND**
 
-|A|B|$A \wedge$|
+| A   | B   | $A \wedge B \equiv C$ |
+| --- | --- | --------------------- |
+| 0   | 0   | 0                     |
+| 0   | 1   | 0                     |
+| 1   | 0   | 0                     |
+| 1   | 1   | 1                     |
+
+## OR
+
+![ORLogicG]()
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
