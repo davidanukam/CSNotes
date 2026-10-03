@@ -221,7 +221,13 @@ Complementation:
 
 ## Proving De Morgan's Laws
 
-We have seen this a billion times but w
+We have seen this a billion times but whatever, here we go again!
+
+Proof By Exhaustion: The easiest way to prove something is to write out each expression's truth table.
+
+$$
+\overline{A + B} 
+$$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
