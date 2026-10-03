@@ -97,7 +97,7 @@ Truth Table for **AND**
 | 1   | 0   | 0                     |
 | 1   | 1   | 1                     |
 
-## OR
+### OR
 
 ![OrLogicGate](assets/OrLogicGate.png)
 
@@ -110,9 +110,16 @@ Truth Table for **OR**
 | A   | B   | $A \vee B \equiv C$ |
 | --- | --- | ------------------- |
 | 0   | 0   | 0                   |
-| 0   | 1   | 0                   |
-| 1   | 0   | 0                   |
+| 0   | 1   | 1                   |
+| 1   | 0   | 1                   |
 | 1   | 1   | 1                   |
+### NOT
+
+![NotLogicGate](assets/NotLogicGate.png)
+
+$A \wedge B \equiv C$
+
+$\bar{A} B \equiv C$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
