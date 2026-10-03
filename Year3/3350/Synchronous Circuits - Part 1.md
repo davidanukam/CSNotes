@@ -177,7 +177,7 @@ Truth Table for **XOR**
 
 ## The Algebra of Logic Gates
 
-
+Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algebra is heavily
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
