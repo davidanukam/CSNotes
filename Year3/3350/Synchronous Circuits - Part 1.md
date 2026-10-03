@@ -239,8 +239,10 @@ $$
 ## Simplifying Expressions with Boolean Algebra
 
 $$
-\overline{xy}
+\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z}
 $$
+
+$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
