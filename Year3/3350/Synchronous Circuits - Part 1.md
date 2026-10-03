@@ -175,7 +175,9 @@ Truth Table for **XOR**
 | 1   | 0   | 1                     |
 | 1   | 1   | 0                     |
 
-44
+## The Algebra of Logic Gates
+
+
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
