@@ -242,7 +242,9 @@ $$
 \overline{xy} \ \overline{z} + \overline{xy} \ \overline{z}
 $$
 
-$
+$$
+\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} \equiv \overline{xy}(\overline{})
+$$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
