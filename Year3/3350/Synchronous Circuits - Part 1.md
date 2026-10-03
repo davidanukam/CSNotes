@@ -215,7 +215,13 @@ De Morgan's Laws:
 - l
 - l
 
-Comple
+Complementation:
+- l
+- l
+
+## Proving De Morgan's Laws
+
+We have seen this a billion times but w
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
