@@ -236,7 +236,11 @@ $$
 | 1   | 0   | 1       | **0**              | 0              | 1              | **0**                             |
 | 1   | 1   | 1       | **0**              | 0              | 0              | **0**                             |
 
+## Simplifying Expressions with Boolean Algebra
 
+$$
+\overline{xy}
+$$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
