@@ -74,9 +74,15 @@ The Basics: AND ($\wedge$), OR ($\vee$), NOT($\neg$):
 
 ## Gates as Switches
 
-When it comes to implementing Logic Gates as Switches, we can just think of the switches as Boolean Integers:
+When it comes to implementing **Logic Gates** as **Switches**, we can just think of the switches as **Boolean Integers**:
 
 ![LogicGatesAsSwitches](assets/LogicGatesAsSwitches.png)
+
+## Logic Gates in Detail
+
+### AND
+
+![AndLogicGate](assets/AndLogicGate.png)
 
 
 
