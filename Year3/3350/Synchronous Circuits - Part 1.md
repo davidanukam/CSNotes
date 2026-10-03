@@ -74,7 +74,7 @@ The Basics: AND ($\wedge$), OR ($\vee$), NOT($\neg$):
 
 ## Gates as Switches
 
-When it comes to
+When it comes to implementing Logic Gates as Switches, we can just 
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
