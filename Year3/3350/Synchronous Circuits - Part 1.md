@@ -132,9 +132,9 @@ Truth Table for **NOT**
 
 ![NandLogicGate](assets/NandLogicGate.png)
 
-$A \wedge B \equiv C$
+$\neg (A \wedge B) \equiv C$
 
-$A \cdot B \equiv C$
+$\bar{A} \bar{\cdot B} \equiv C$
 
 Truth Table for **NAND**
 
