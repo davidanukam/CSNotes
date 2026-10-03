@@ -177,7 +177,45 @@ Truth Table for **XOR**
 
 ## The Algebra of Logic Gates
 
-Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algebra is heavily
+Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algebra is heavily used when discussing Circuitry.
+
+Associativity:
+- l
+- l
+
+Identity:
+- l
+- l
+
+Commutativity:
+- l
+- l
+
+Annihilation:
+- l
+- l
+
+Distributivity:
+- l
+- l
+
+Idempotence:
+- l
+- l
+
+Absorption:
+- l
+- l
+
+Double Negation:
+- l
+- l
+
+De Morgan's Laws:
+- l
+- l
+
+Comple
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
