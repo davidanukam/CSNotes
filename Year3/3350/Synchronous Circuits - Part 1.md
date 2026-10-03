@@ -162,7 +162,9 @@ Truth Table for **NOR**
 
 ### XOR
 
-!
+![XorLogicGate](assets/XorLogicGate.png)
+
+- $A \or B \equiv C$
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
