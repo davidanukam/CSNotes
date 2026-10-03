@@ -244,9 +244,9 @@ $$
 
 $$
 \begin{aligned}
-\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} &\equiv \overline{xy}(\overline{z} + z) \\
+\overline{xy} \ \overline{z} + \overline{xy} \ \overline{z} &\equiv \overline{xy}(\overline{z} + z) \ \text{Factor} \overline \\
 &\equiv \overline{xy}(1) \\
-&\equiv 
+&\equiv \overline{xy}
 \end{aligned}
 $$
 
