@@ -136,16 +136,18 @@ $\neg (A \wedge B) \equiv C$
 
 $\overline{A \cdot B} \equiv C$
 
-$A $
+$A \ | \ B$ 
+
+> "|" = Sheffer Stroke
 
 Truth Table for **NAND**
 
-| A   | B   | $\neg (A \wedge B) \equiv C$ |
-| --- | --- | ---------------------------- |
-| 0   | 0   | 1                            |
-| 0   | 1   | 1                            |
-| 1   | 0   | 1                            |
-| 1   | 1   | 0                            |
+| A   | B   | $\overline (A \wedge B) \equiv C$ |
+| --- | --- | --------------------------------- |
+| 0   | 0   | 1                                 |
+| 0   | 1   | 1                                 |
+| 1   | 0   | 1                                 |
+| 1   | 1   | 0                                 |
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
