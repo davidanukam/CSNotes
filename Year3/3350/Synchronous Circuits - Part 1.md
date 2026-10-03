@@ -117,9 +117,16 @@ Truth Table for **OR**
 
 ![NotLogicGate](assets/NotLogicGate.png)
 
-$A \wedge B \equiv C$
+$\neg A \equiv C$
 
-$\bar{A} B \equiv C$
+$\bar{A} \equiv C$
+
+Truth Table for **NOT**
+
+| A   | $\neg A \equiv C$ |
+| --- | ----------------- |
+| 0   | 1                 |
+| 1   | 0                 |
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
