@@ -338,8 +338,9 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 > To Prove Functional Completeness, we need to show that the operators of the set can mimic the functionality of the set $\lbrace{+, \cdot, \neg\rbrace}$.
 
 **NAND** = $|$
-- $\neg X \equiv X | X$
-- $X \cdot Y \equiv \overline{X | Y} \equiv (X|Y)$
+- $\neg X \equiv X \ | \ X$
+- $X \cdot Y \equiv \overline{X \ | \ Y} \equiv (X \ | \ Y) \ | \ (X \ | \ Y)$
+- $X + Y \equiv \overline{\overline{}}$
 
 ## Summary
 
