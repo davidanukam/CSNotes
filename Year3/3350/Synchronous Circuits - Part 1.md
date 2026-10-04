@@ -211,15 +211,15 @@ Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algeb
 - $A \cdot (A + B) \equiv A$
 
 **Double Negation**:
-- $$
+- $\overline{\overline{A}} \equiv A$
 
 **De Morgan's Laws**:
-- l
+- $\overline{A + B} \equiv \overline{A} \cdot \overline{$
 - l
 
 **Complementation**:
-- l
-- l
+- $A + \overline{A} \equiv 1$
+- $A \cdot \overline{A} \equiv 0$
 
 ## Proving De Morgan's Laws
 
