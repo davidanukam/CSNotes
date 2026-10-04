@@ -342,6 +342,7 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 
 **NOR** = $\downarrow$
 - $\neg X \equiv X \downarrow X$
+- 
 ## Summary
 
 Boolean Algebra can simplify circuits.
