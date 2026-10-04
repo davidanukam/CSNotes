@@ -321,3 +321,4 @@ $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} +
 
 ## Functional Completeness
 
+A Formula 
