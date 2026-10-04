@@ -319,4 +319,7 @@ Example:
 | 1   | 1   | 0   | 0   |
 | 1   | 1   | 1   | 1   |
 
-$\therefore \ \overline{a}\overline{b}\overline{c} + $
+$\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} + a\overline{b}\overline{c} + abc$
+
+## Functional Completeness
+
