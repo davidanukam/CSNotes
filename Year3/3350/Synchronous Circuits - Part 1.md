@@ -328,6 +328,9 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 - However, thanks to the goat De Morgan, we only need one of **AND** or **OR**.
 - The sets $\lbrace{+, \neg\rbrace}$ (NOR) and $\lbrace{\cdot, \neg\rbrace}$ (NAND) are both Functionally Complete AND Minimal.
 
+## NAND & NOR (Functional Completeness)
+
+
 ## Summary
 
 Boolean Algebra can simplify circuits.
@@ -335,4 +338,4 @@ Boolean Algebra can simplify circuits.
 - Simplifies expression, removing needless gates.
 - Space and time complexity improved!
 
-Truth Tables, Canonical Forms, and 
+Truth Tables, Canonical Forms, and Functional Completeness are all related in one happy family. Yay!
