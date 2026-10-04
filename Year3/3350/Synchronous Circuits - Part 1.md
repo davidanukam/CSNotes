@@ -327,3 +327,12 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 - Minimal: Removing any one of the operators would make the set functionally *incomplete*!
 - However, thanks to the goat De Morgan, we only need one of **AND** or **OR**.
 - The sets $\lbrace{+, \neg\rbrace}$ (NOR) and $\lbrace{\cdot, \neg\rbrace}$ (NAND) are both Functionally Complete AND Minimal.
+
+## Summary
+
+Boolean Algebra can simplify circuits.
+- Remove variables that the output does not depend on.
+- Simplifies expression, removing needless gates.
+- Space and time complexity improved!
+
+Truth Tables, Canonical Forms, and 
