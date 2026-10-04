@@ -199,12 +199,12 @@ Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algeb
 - $A \cdot 0 \equiv 0$
 
 **Distributivity**:
-- $A + (B \c)$
-- l
+- $A + (B \cdot C) \equiv (A + B) \cdot (A + C)$
+- $A \cdot (B + C) \equiv (A \cdot B) + (A \cdot C)$
 
 **Idempotence**:
-- l
-- l
+- $A + A \equiv A$
+- $A \cdot A \equiv A$
 
 **Absorption**:
 - l
