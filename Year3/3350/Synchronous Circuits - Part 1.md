@@ -6,7 +6,7 @@
 
 ![TheLayersOfAbstraction](assets/TheLayersOfAbstraction.png)
 
-We are now going to be looking at the **lowest level** of the hierarchy (BUT NOT TRANSISTORS).
+We are now going to be looking at the **lowest level** of the hierarchy (**BUT NOT TRANSISTORS**!).
 
 **Digital (Logic) Design**: Using circuits to implement some logic
 
@@ -180,7 +180,7 @@ Truth Table for **XOR**
 
 ## The Algebra of Logic Gates
 
-Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algebra is heavily used when discussing Circuitry.
+Due to the equivalence of **Truth Tables** and **Binary Digital Signals**, **Boolean Algebra** is heavily used when discussing **Circuitry**.
 
 **Associativity**:
 - $(A + N) + C \equiv A + (B + C)$
@@ -214,8 +214,8 @@ Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algeb
 - $\overline{\overline{A}} \equiv A$
 
 **De Morgan's Laws**:
-- $\overline{A + B} \equiv \overline{A} \cdot \overline{$
-- l
+- $\overline{A + B} \equiv \overline{A} \cdot \overline{B}$
+- $\overline{A \cdot B} \equiv \overline{A} + \overline{B}$
 
 **Complementation**:
 - $A + \overline{A} \equiv 1$
