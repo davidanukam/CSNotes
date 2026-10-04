@@ -305,4 +305,16 @@ Example:
 1. $a$, $b$, $c$ are inputs, $f$ is output.
 2. Create one product term for every entry in the table with $f \equiv 1$
 3. Put $\overline{x}$ in product if $x$ is **False** in that row
-4. Put $x$ in product if $x$ is True
+4. Put $x$ in product if $x$ is **True** in that row
+5. OR all products together (connect them with a $\vee$ or $+$)
+
+| a   | b   | c   | f   |
+| --- | --- | --- | --- |
+| 0   | 0   | 0   | 1   |
+| 0   | 0   | 1   | 0   |
+| 0   | 1   | 0   | 1   |
+| 0   | 1   | 1   | 0   |
+| 1   | 0   | 0   | 1   |
+| 1   | 0   | 1   | 0   |
+| 1   | 1   | 0   | 1   |
+| 1   | 1   | 1   |     |
