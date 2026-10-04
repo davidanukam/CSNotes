@@ -340,7 +340,7 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 **NAND** = $|$
 - $\neg X \equiv X \ | \ X$
 - $X \cdot Y \equiv \overline{X \ | \ Y} \equiv (X \ | \ Y) \ | \ (X \ | \ Y)$
-- $X + Y \equiv \overline{\overline{}}$
+- $X + Y \equiv \overline{\overline{X + Y}} \equiv \overline{\overline{X} \cdot \overline{Y}} \equiv (X \ | \ X) \ | \ (Y \ | \ Y)$
 
 ## Summary
 
