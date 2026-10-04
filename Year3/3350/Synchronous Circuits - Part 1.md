@@ -302,5 +302,7 @@ From 2209 we know that there are 2 canonical forms:
 
 Example:
 
-- $a$, $b$, $c$ are inputs, $f$ is output.
-- Create one product term for every entry in the table 
+1. $a$, $b$, $c$ are inputs, $f$ is output.
+2. Create one product term for every entry in the table with $f \equiv 1$
+3. Put $\overline{x}$ in product if $x$ is **False** in that row
+4. Put $x$ in product if $x$ is True
