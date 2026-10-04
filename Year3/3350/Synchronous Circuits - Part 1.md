@@ -322,4 +322,6 @@ $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} +
 ## Functional Completeness
 
 A Formula whose outcomes and operations can be adequately described by a set of functions (operators) is called Functionally complete.
-- For Boolean Algebra, the classical set of ooperators
+- For Boolean Algebra, the classical set of operators: $\lbrace{+, \cdot, \neg\rbrace}$
+- is functionally complete but NOT **minimal**
+- However, thanks to the goat De Morgan, we only need one of AND or **OR**.
