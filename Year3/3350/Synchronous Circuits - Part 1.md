@@ -271,7 +271,9 @@ $$
 Instead, we can simplify using the laws of **Boolean Algebra**:
 
 $$
-\overline{(\overline{x} + \overline{z})}(abcd + xz) \Longrightarrow \ \text{6 variables, 64 rows}
+\begin{aligned}
+\overline{(\overline{x} + \overline{z})}(abcd + xz) &\equiv \overline{\overline{xz}}(abcd)
+\end{aligned}
 $$
 
 ---
