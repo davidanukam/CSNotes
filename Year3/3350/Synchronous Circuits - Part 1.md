@@ -264,7 +264,9 @@ $$
 Sometimes a **Truth Table** is too challenging...
 - For $v$ variables a truth table has $2^{v}$ rows
 
-
+$$
+\overline{(\overline{x}}
+$$
 
 ---
 
