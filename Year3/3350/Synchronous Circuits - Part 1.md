@@ -324,6 +324,6 @@ $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} +
 A Formula whose outcomes and operations can be adequately described by a set of functions (operators) is called Functionally complete.
 - For Boolean Algebra, the classical set of operators: $\lbrace{+, \cdot, \neg\rbrace}$
 - is functionally complete but NOT **minimal**
-- Minim
+- Minimal: Removing any one of the operators would make the set functionally *incomplete*!
 - However, thanks to the goat De Morgan, we only need one of **AND** or **OR**.
-- The sets $\lbrace{+, \neg\rbrace}$ and $\lbrace{\cdot, \neg\rbrace}$ are both Functionally Complete AND Minimal
+- The sets $\lbrace{+, \neg\rbrace}$ (NOR) and $\lbrace{\cdot, \neg\rbrace}$ (NAND) are both Functionally Complete AND Minimal.
