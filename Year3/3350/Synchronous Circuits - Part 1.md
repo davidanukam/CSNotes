@@ -298,8 +298,6 @@ From 2209 we know that there are 2 canonical forms:
 
 **EVERY** Boolean Expression can be converted to a Canonical Form! (**DNF** is more useful, practical and easier to create... because of **Truth Tables**!)
 
-> We can get a DNF expression directly from a truth table.
-
 Example:
 
 1. $a$, $b$, $c$ are inputs, $f$ is output.
