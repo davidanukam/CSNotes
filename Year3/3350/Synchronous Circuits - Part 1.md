@@ -321,4 +321,5 @@ $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} +
 
 ## Functional Completeness
 
-A Formula 
+A Formula whose outcomes and operations can be adequately described by a set of functions (operators) is called Functionally complete.
+- For Boolean Algebra, the classical set of ooperators
