@@ -342,7 +342,7 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 
 **NOR** = $\downarrow$
 - $\neg X \equiv X \downarrow X$
-- 
+- $X \cdot Y \equiv \overline{X \ \downarrow \ Y} \equiv (X \ | \ Y) \ | \ (X \ | \ Y)$
 ## Summary
 
 Boolean Algebra can simplify circuits.
