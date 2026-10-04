@@ -287,13 +287,11 @@ We can do the same with Circuits:
 ## Canonical Forms
 
 From 2209 we know that there are 2 canonical forms:
-- Disjunctive Normal Form (DNF) $\Rightarrow$
-- **Conjunctive Normal Form** (CNF) $\Rightarrow$ **AND** of **OR**s
-- 
+- **Disjunctive Normal Form** (DNF) $\Rightarrow$ **OR**s of **AND**s
+	- "Product "
+- **Conjunctive Normal Form** (CNF) $\Rightarrow$ **AND**s of **OR**s
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
 **DNF**: $(A * B) + (C * D) + (E * F)$
-
-
 
