@@ -333,12 +333,14 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 
 ## NAND & NOR (Functional Completeness)
 
-- **NAND** = $|$
 - **NOR** = $\downarrow$
 
 > To Prove Functional Completeness, we need to show that the operators of the set can mimic the functionality of the set $\lbrace{+, \cdot, \neg\rbrace}$.
 
-$\negX \equiv C$
+**NAND** = $|$
+- $\neg X \equiv X | X$
+- $X \cdot$
+
 ## Summary
 
 Boolean Algebra can simplify circuits.
