@@ -150,6 +150,9 @@ Truth Table for **NAND**
 
 - $\neg (A \vee B) \equiv C$
 - $\overline{A + B} \equiv C$
+- $A \downarrow B$
+
+> "$\downarrow$" = Pierce Arrow
 
 Truth Table for **NOR**
 
@@ -330,7 +333,8 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 
 ## NAND & NOR (Functional Completeness)
 
-
+NAND = $|$
+NOR = $
 ## Summary
 
 Boolean Algebra can simplify circuits.
