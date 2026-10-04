@@ -182,43 +182,43 @@ Truth Table for **XOR**
 
 Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algebra is heavily used when discussing Circuitry.
 
-Associativity:
+**Associativity**:
+- $(A + N) + C \equiv A + (B + C)$
+- $(A \cdot B) \cdot C \equiv $
+
+**Identity**:
 - l
 - l
 
-Identity:
+**Commutativity**:
 - l
 - l
 
-Commutativity:
+**Annihilation**:
 - l
 - l
 
-Annihilation:
+**Distributivity**:
 - l
 - l
 
-Distributivity:
+**Idempotence**:
 - l
 - l
 
-Idempotence:
+**Absorption**:
 - l
 - l
 
-Absorption:
+**Double Negation**:
 - l
 - l
 
-Double Negation:
+**De Morgan's Laws**:
 - l
 - l
 
-De Morgan's Laws:
-- l
-- l
-
-Complementation:
+**Complementation**:
 - l
 - l
 
@@ -315,10 +315,10 @@ Example:
 | 0     | 0     | 1     | 0     |
 | **0** | **1** | **0** | **1** |
 | 0     | 1     | 1     | 0     |
-| 1     | 0     | 0     | 1     |
+| **1** | **0** | **0** | **1** |
 | 1     | 0     | 1     | 0     |
 | 1     | 1     | 0     | 0     |
-| 1     | 1     | 1     | 1     |
+| **1**     | **1**     | **1**     | **1**     |
 
 $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} + a\overline{b}\overline{c} + abc$
 
