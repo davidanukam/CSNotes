@@ -333,8 +333,6 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 
 ## NAND & NOR (Functional Completeness)
 
-- **NOR** = $\downarrow$
-
 > To Prove Functional Completeness, we need to show that the operators of the set can mimic the functionality of the set $\lbrace{+, \cdot, \neg\rbrace}$.
 
 **NAND** = $|$
@@ -342,6 +340,8 @@ A Formula whose outcomes and operations can be adequately described by a set of 
 - $X \cdot Y \equiv \overline{X \ | \ Y} \equiv (X \ | \ Y) \ | \ (X \ | \ Y)$
 - $X + Y \equiv \overline{\overline{X + Y}} \equiv \overline{\overline{X} \cdot \overline{Y}} \equiv (X \ | \ X) \ | \ (Y \ | \ Y)$
 
+**NOR** = $\downarrow$
+- $\neg X \equiv X \downarrow X$
 ## Summary
 
 Boolean Algebra can simplify circuits.
