@@ -265,7 +265,13 @@ Sometimes a **Truth Table** is too challenging...
 - For $v$ variables a truth table has $2^{v}$ rows
 
 $$
-\overline{(\overline{x}}
+\overline{(\overline{x} + \overline{z})}(abcd + xz) \Longrightarrow \ \text{6 variables, 64 rows}
+$$
+
+Instead, we can simplify using the laws of **Boolean Algebra**:
+
+$$
+\overline{(\overline{x} + \overline{z})}(abcd + xz) \Longrightarrow \ \text{6 variables, 64 rows}
 $$
 
 ---
