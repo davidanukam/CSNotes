@@ -184,22 +184,22 @@ Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algeb
 
 **Associativity**:
 - $(A + N) + C \equiv A + (B + C)$
-- $(A \cdot B) \cdot C \equiv $
+- $(A \cdot B) \cdot C \equiv A \cdot (B \cdot C)$
 
 **Identity**:
-- l
-- l
+- $A + 0 \equiv A$
+- $A \cdot 1 \equiv A$
 
 **Commutativity**:
-- l
-- l
+- $A + B \equiv B + A$
+- $A \cdot B \equiv B \cdot A$
 
 **Annihilation**:
-- l
-- l
+- $A + 1 \equiv 1$
+- $A \cdot 0 \equiv 0$
 
 **Distributivity**:
-- l
+- $A + (B \c)$
 - l
 
 **Idempotence**:
