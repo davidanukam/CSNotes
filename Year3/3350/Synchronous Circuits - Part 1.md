@@ -273,9 +273,12 @@ Instead, we can simplify using the laws of **Boolean Algebra**:
 $$
 \begin{aligned}
 \overline{(\overline{x} + \overline{z})}(abcd + xz) &\equiv \overline{\overline{xz}}(abcd + xz) \qquad \ \text{De Morgan's Law} \\
-&\equiv xz(abcd + xz) \qquad \ \text{Double negation of} \ x \ \text{and} \
+&\equiv xz(abcd + xz) \qquad \ \text{Double negation of} \ x \ \text{and} \ z \\
+&\equiv xz \qquad \ \text{Absorption}
 \end{aligned}
 $$
+
+## Sim
 
 ---
 
