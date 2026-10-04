@@ -309,16 +309,16 @@ Example:
 4. Put $x$ in product if $x$ is **True** in that row
 5. OR all products together (connect them with a $\vee$ or $+$)
 
-| a   | b   | c   | f   |
-| --- | --- | --- | --- |
-| 0   | 0   | 0   | 1   |
-| 0   | 0   | 1   | 0   |
-| 0   | 1   | 0   | 1   |
-| 0   | 1   | 1   | 0   |
-| 1   | 0   | 0   | 1   |
-| 1   | 0   | 1   | 0   |
-| 1   | 1   | 0   | 0   |
-| 1   | 1   | 1   | 1   |
+| a     | b     | c     | f     |
+| ----- | ----- | ----- | ----- |
+| **0** | **0** | **0** | **1** |
+| 0     | 0     | 1     | 0     |
+| **0** | **1** | **0** | **1** |
+| 0     | 1     | 1     | 0     |
+| 1     | 0     | 0     | 1     |
+| 1     | 0     | 1     | 0     |
+| 1     | 1     | 0     | 0     |
+| 1     | 1     | 1     | 1     |
 
 $\therefore \ \overline{a}\overline{b}\overline{c} + \overline{a}b\overline{c} + a\overline{b}\overline{c} + abc$
 
