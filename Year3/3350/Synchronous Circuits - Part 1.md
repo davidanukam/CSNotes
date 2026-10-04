@@ -278,7 +278,11 @@ $$
 \end{aligned}
 $$
 
-## Sim
+## Simplifying Expressions for Simplified Circuits
+
+We can do the same with Circuits:
+
+![SimplifyingCircuitsExample](assets/SimplifyingCircuitsExample.png)
 
 ---
 
