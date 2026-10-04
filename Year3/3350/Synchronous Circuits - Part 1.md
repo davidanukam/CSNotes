@@ -207,12 +207,11 @@ Due to the equivalence of Truth Tables and Binary Digital Signals, Boolean Algeb
 - $A \cdot A \equiv A$
 
 **Absorption**:
-- l
-- l
+- $A + (A \cdot B) \equiv A$
+- $A \cdot (A + B) \equiv A$
 
 **Double Negation**:
-- l
-- l
+- $$
 
 **De Morgan's Laws**:
 - l
