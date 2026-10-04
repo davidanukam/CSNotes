@@ -284,7 +284,9 @@ We can do the same with Circuits:
 
 ![SimplifyingCircuitsExample](assets/SimplifyingCircuitsExample.png)
 
----
+## Canonical Forms
+
+From 2209 we know that 
 
 **CNF**: $(A + B) * (C + D) * (E + F)$
 
