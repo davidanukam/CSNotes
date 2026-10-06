@@ -6,9 +6,9 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 
 ## Notation
 
-- m: The Number of **rows** (training examples). Here `m = 5` 
-- n: 
-- $x^{(i)}$:  
+- m: The number of **rows** (training examples).
+- n: The number or **columns** (features).
+- $x^{(i)}$: One **row** written as a **column vector** (vertically). $i$ = 
 - $\theta$: 
 - $x^{\top}\theta$: 
 - $y^{(i)}$: 
