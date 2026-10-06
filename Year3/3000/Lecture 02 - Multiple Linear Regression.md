@@ -6,3 +6,8 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 
 ## Notation
 
+- m: 
+- n: 
+- $x^{(i)}$:  
+- $\theta$: 
+- $x^{\transpose}\theta$:
