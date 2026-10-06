@@ -13,4 +13,6 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 - $x^{\top}\theta$: Multiply corresponding entries and sum: $\theta_{0} + x_{1}\theta_{1} + x_{2}\theta_{2} + \cdots$ The $\top$ (transpose) turns the **column** into a **row**.
 - $y^{(i)}$: The **observed** target row $i$, which is **unknown** in advance.
 - $\hat{y}^{(i)}$: The model's **prediction** for that row. A hat always denotes an **estimate**, not a measurement.
-- H: All rows 
+- H: All rows stacked into one **matrix**: The design matrix, the entire dataset as one object.
+
+A common source of confusion: $x^{(3)}$ is the third row, $$
