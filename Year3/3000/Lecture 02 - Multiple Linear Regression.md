@@ -8,9 +8,9 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 
 - m: The number of **rows** (training examples).
 - n: The number or **columns** (features).
-- $x^{(i)}$: One **row** written as a **column vector** (vertically). $i$ = 
-- $\theta$: 
-- $x^{\top}\theta$: 
+- $x^{(i)}$: One **row** written as a **column vector** (vertically). $i$ = row number
+- $\theta$: The **weights**, one per column plus the intercept ($\theta_{0}$)
+- $x^{\top}\theta$: Multiply corresponding entries and sum: 
 - $y^{(i)}$: 
 - $\hat{y}^{(i)}$: 
 - H: 
