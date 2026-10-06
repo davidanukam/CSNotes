@@ -11,6 +11,6 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 - $x^{(i)}$: One **row** written as a **column vector** (vertically). $i$ = row number
 - $\theta$: The **weights**, one per column plus the intercept ($\theta_{0}$)
 - $x^{\top}\theta$: Multiply corresponding entries and sum: $\theta_{0} + x_{1}\theta_{1} + x_{2}\theta_{2} + \cdots$ The $\top$ (transpose) turns the column into a row.
-- $y^{(i)}$: 
+- $y^{(i)}$: The observed target row
 - $\hat{y}^{(i)}$: 
 - H: 
