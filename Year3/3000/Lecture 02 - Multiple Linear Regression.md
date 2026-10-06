@@ -6,8 +6,11 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 
 ## Notation
 
-- m: 
+- m: The Number of **rows** (training examples). Here `m = 5` 
 - n: 
 - $x^{(i)}$:  
 - $\theta$: 
-- $x^{\transpose}\theta$:
+- $x^{\top}\theta$: 
+- $y^{(i)}$: 
+- $\hat{y}^{(i)}$: 
+- H: 
