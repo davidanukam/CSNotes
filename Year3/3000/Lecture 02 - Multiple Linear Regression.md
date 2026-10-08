@@ -537,7 +537,7 @@ As $p$ grows, the fraction on the right grows, so the leftover error counts for 
 
 Both go up, so the second feature is justified even after the penalty. With five rows and two features the penalty is severe: 0.781 falls to 0.562. With a few hundred rows the same penalty barely moves.
 
-It penalizes the **number** of features. It has no idea whether a column generalizes. It is a better in-sample comparison than $R^{2}$. It is not a substitute for a test set. Use adjusted $R^{2}$ to compare models fitted on the same training rows. Use a test set to find out whether any of them work.
+The penalty counts how many features you used. It does not know whether those columns will hold up on new rows. Use adjusted $R^{2}$ to compare models fitted on the same training data. Use a test set to find out whether any of them work. The two numbers answer different questions.
 
 ## Exploring a Real Dataset
 
