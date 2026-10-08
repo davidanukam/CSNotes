@@ -17,3 +17,5 @@ In Lecture 1, we fitted a **simple linear regression** to some data. We calculat
 
 A **common source of confusion**: $x^{(3)}$ is the entire third row (n cells), $x_{2}$ is the entire second feature column (m cells), and $x_{2}^{(3)}$ is the second feature of the third row (one cell).
 
+
+
