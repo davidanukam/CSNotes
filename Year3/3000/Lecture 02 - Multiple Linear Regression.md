@@ -699,3 +699,5 @@ Today's answer to overfitting was "use fewer features". A column is in or it is 
 Lecture 3 keeps every column and shrinks the weights instead. It uses the same two norms from the loss section, L1 and L2, in a different role: as penalties on $\theta$.
 
 If you want the derivations written out, James, Witten, Hastie, and Tibshirani, *An Introduction to Statistical Learning*, chapter 3, follows the design matrix, the normal equation, and the $R^{2}$ argument. *The Elements of Statistical Learning*, section 3.2, has the least-squares derivation in matrix form. Géron, *Hands-On Machine Learning*, chapter 4, is the normal equation against gradient descent, and why scaling changes the second and not the first.
+
+Change some things
