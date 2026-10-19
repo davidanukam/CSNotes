@@ -1,5 +1,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { cache } from "react";
+import type { SearchEntry } from "@/lib/search";
 
 const SKIP = new Set(["assets"]);
 const YEAR_SLUGS = ["Year1", "Year2", "Year3", "Year4"] as const;
@@ -100,7 +102,7 @@ function notesFromFolder(courseDir: string): NoteMeta[] {
     }));
 }
 
-export function getYears(): YearMeta[] {
+export const getYears = cache(function getYears(): YearMeta[] {
   return yearFolders().map((slug) => {
     const yearDir = yearRoot(slug);
     const courses: CourseMeta[] = [];
@@ -137,7 +139,56 @@ export function getYears(): YearMeta[] {
       courses,
     };
   });
-}
+});
+
+export const getSearchIndex = cache(function getSearchIndex(): SearchEntry[] {
+  const entries: SearchEntry[] = [
+    {
+      kind: "folder",
+      href: "/",
+      path: "/",
+      label: "CSNotes",
+      names: ["/", "CSNotes"],
+      context: "",
+    },
+  ];
+
+  for (const year of getYears()) {
+    entries.push({
+      kind: "folder",
+      href: hrefFor(year.slug),
+      path: `/${year.slug}`,
+      label: year.label,
+      names: [year.slug, year.label],
+      context: "",
+    });
+
+    for (const course of year.courses) {
+      const coursePath = `/${year.slug}/${course.folder}`;
+      entries.push({
+        kind: "folder",
+        href: hrefFor(year.slug, course.folder),
+        path: coursePath,
+        label: course.title,
+        names: [course.folder, course.code, course.title],
+        context: `${year.slug} ${year.label}`,
+      });
+
+      for (const note of course.notes) {
+        entries.push({
+          kind: "page",
+          href: hrefFor(year.slug, course.folder, note.slug),
+          path: `${coursePath}/${note.title}`,
+          label: "",
+          names: [note.title],
+          context: `${year.slug} ${year.label} ${course.folder} ${course.code}`,
+        });
+      }
+    }
+  }
+
+  return entries;
+});
 
 export function decodeParam(value: string): string {
   let current = value.replace(/\+/g, " ");
