@@ -351,8 +351,19 @@ export function SiteSearch({ entries }: { entries: SearchEntry[] }) {
         )
       : null;
 
+  function openPalette(event: React.MouseEvent<HTMLDivElement>) {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    if (target.closest("button")) return;
+    setOpen(true);
+    if (target !== inputRef.current) {
+      event.preventDefault();
+      inputRef.current?.focus();
+    }
+  }
+
   return (
-    <div className={`nav-search${open ? " is-open" : ""}`}>
+    <div className={`nav-search${open ? " is-open" : ""}`} onMouseDown={openPalette}>
       <input
         ref={inputRef}
         role="combobox"

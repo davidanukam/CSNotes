@@ -18,11 +18,11 @@ export function TopBar({
     <header className="topbar">
       <div className="topbar-left">{backHref ? <BackButton href={backHref} /> : null}</div>
       <div className="nav-pill">
-        <Link className="brand" href="/">
+        <Link className="brand" href="/" aria-label="CSNotes">
           <img
             className="brand-logo"
             src="/CSNotesLogo.png"
-            alt="CSNotes"
+            alt=""
             width={40}
             height={40}
             draggable={false}
