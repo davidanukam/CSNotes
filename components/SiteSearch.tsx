@@ -176,14 +176,34 @@ export function SiteSearch({ entries }: { entries: SearchEntry[] }) {
     event.preventDefault();
   }
 
+  const keyboard = useRef({
+    open,
+    results,
+    selected,
+    dismiss,
+    toggleCase,
+    toggleWord,
+    push: router.push.bind(router),
+  });
+  keyboard.current = {
+    open,
+    results,
+    selected,
+    dismiss,
+    toggleCase,
+    toggleWord,
+    push: router.push.bind(router),
+  };
+
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
       if (event.isComposing) return;
+      const state = keyboard.current;
       const meta = event.metaKey || event.ctrlKey;
 
       if (meta && !event.altKey && !event.shiftKey && event.code === "KeyK") {
         event.preventDefault();
-        if (open) dismiss();
+        if (state.open) state.dismiss();
         else {
           setOpen(true);
           requestAnimationFrame(() => inputRef.current?.focus());
@@ -191,30 +211,30 @@ export function SiteSearch({ entries }: { entries: SearchEntry[] }) {
         return;
       }
 
-      if (!open) return;
+      if (!state.open) return;
 
       if (event.altKey && !meta && !event.shiftKey && !event.repeat) {
         if (event.code === "KeyC") {
           event.preventDefault();
-          toggleCase();
+          state.toggleCase();
           return;
         }
         if (event.code === "KeyW") {
           event.preventDefault();
-          toggleWord();
+          state.toggleWord();
           return;
         }
       }
 
       if (event.key === "Escape") {
         event.preventDefault();
-        dismiss();
+        state.dismiss();
         return;
       }
 
       if (event.key === "ArrowDown") {
         event.preventDefault();
-        setActive((index) => Math.min(index + 1, Math.max(results.length - 1, 0)));
+        setActive((index) => Math.min(index + 1, Math.max(state.results.length - 1, 0)));
         return;
       }
 
@@ -232,22 +252,37 @@ export function SiteSearch({ entries }: { entries: SearchEntry[] }) {
 
       if (event.key === "End") {
         event.preventDefault();
-        setActive(Math.max(results.length - 1, 0));
+        setActive(Math.max(state.results.length - 1, 0));
         return;
       }
 
-      if (event.key === "Enter" && event.target === inputRef.current && selected >= 0) {
-        const href = results[selected]?.href;
+      if (event.key === "Enter" && event.target === inputRef.current && state.selected >= 0) {
+        const href = state.results[state.selected]?.href;
         if (!href) return;
         event.preventDefault();
-        dismiss();
-        router.push(href);
+        state.dismiss();
+        state.push(href);
       }
     }
 
+    function onPointerDown(event: MouseEvent) {
+      const state = keyboard.current;
+      if (!state.open) return;
+      const target = event.target;
+      if (!(target instanceof Node)) return;
+      if (inputRef.current?.closest(".nav-search")?.contains(target)) return;
+      const element = target instanceof Element ? target : target.parentElement;
+      if (element?.closest(".search-dialog")) return;
+      state.dismiss();
+    }
+
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  });
+    document.addEventListener("mousedown", onPointerDown);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onPointerDown);
+    };
+  }, []);
 
   const shortcut = isMac ? "⌘K" : "Ctrl K";
   const popup =
