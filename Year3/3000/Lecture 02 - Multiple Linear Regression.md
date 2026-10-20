@@ -700,4 +700,4 @@ Lecture 3 keeps every column and shrinks the weights instead. It uses the same t
 
 If you want the derivations written out, James, Witten, Hastie, and Tibshirani, *An Introduction to Statistical Learning*, chapter 3, follows the design matrix, the normal equation, and the $R^{2}$ argument. *The Elements of Statistical Learning*, section 3.2, has the least-squares derivation in matrix form. Géron, *Hands-On Machine Learning*, chapter 4, is the normal equation against gradient descent, and why scaling changes the second and not the first.
 
-Change some things again and again
+NOTE: I WILL REFACTOR THIS NOTE WHEN I GET THE TIME!!!
