@@ -186,9 +186,9 @@ Try going through and figuring out how this TM works.
 ## Turing Machines as Language Recognizers
 
 As convention:
-- We will write the input on the tape as: $\Box \text{w} \Box$, where $\text{w}$ contains no $\Box$'s.
+- We will write the input $\text{w}$ on the tape as: $\Box \text{w} \Box$, where $\text{w}$ contains no $\Box$'s.
 - Thus, the initial configuration of M will be: (s, $\underline{\Box}\text{w}$)
 
 Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
-- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$)
+- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M^{*}}$
