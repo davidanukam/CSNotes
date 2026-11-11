@@ -261,8 +261,164 @@ html[data-theme="light"] .theme-icon-moon {
   text-decoration: none;
 }
 
-.entry-card:not(.year-card) {
+.entry-card:not(.year-card):not(.preview-card) {
   padding-right: 2.2rem;
+}
+
+.preview-card {
+  padding: 0;
+  overflow: hidden;
+  min-height: 0;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.preview-body {
+  position: relative;
+  flex: none;
+  height: 13rem;
+  overflow: hidden;
+}
+
+.preview-front {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  padding: 0.85rem 0.9rem 0;
+}
+
+.folder-preview .preview-back {
+  position: absolute;
+  left: 0.95rem;
+  right: 0.95rem;
+  top: 0.45rem;
+  height: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 8px 8px 0 0;
+  background: color-mix(in srgb, var(--bg) 40%, var(--line));
+}
+
+.folder-preview .preview-front {
+  position: absolute;
+  left: 0.55rem;
+  right: 0.55rem;
+  top: 0.95rem;
+  bottom: 0;
+  height: auto;
+  border: 1px solid var(--line);
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  background: var(--bg);
+  padding: 0.6rem 0.7rem 0;
+}
+
+.preview-body::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 1.8rem;
+  background: linear-gradient(to bottom, transparent, var(--bg-raised));
+  pointer-events: none;
+}
+
+.folder-preview .preview-body::after {
+  background: linear-gradient(to bottom, transparent, var(--bg));
+}
+
+.preview-footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  padding: 0.65rem 0.8rem 0.75rem;
+  background: var(--bg-raised);
+}
+
+.preview-kind {
+  display: inline-flex;
+  flex-shrink: 0;
+  color: var(--muted);
+}
+
+.preview-kind svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.preview-footer .entry-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.note-preview.markdown {
+  padding: 0;
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+.note-preview.markdown :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 0.35rem;
+  padding: 0;
+  border: none;
+  color: var(--accent);
+  scroll-margin: 0;
+}
+
+.note-preview.markdown h1 {
+  font-size: 1rem;
+}
+
+.note-preview.markdown h2 {
+  font-size: 0.92rem;
+}
+
+.note-preview.markdown h3,
+.note-preview.markdown h4 {
+  font-size: 0.82rem;
+  margin-top: 0.45rem;
+}
+
+.note-preview.markdown p,
+.note-preview.markdown li,
+.note-preview.markdown ul,
+.note-preview.markdown ol {
+  margin: 0.2rem 0;
+}
+
+.note-preview.markdown ul,
+.note-preview.markdown ol {
+  padding-left: 1.1rem;
+}
+
+.note-preview.markdown img {
+  max-height: 9rem;
+  object-fit: cover;
+  object-position: top center;
+  margin: 0.35rem 0;
+}
+
+.note-preview.markdown pre {
+  max-height: 4.5rem;
+  overflow: hidden;
+  margin: 0.35rem 0;
+  padding: 0.45rem 0.55rem;
+  font-size: 0.68rem;
+}
+
+.note-preview.markdown :not(pre) > code {
+  font-size: 0.85em;
 }
 
 .entry-card-kind {
@@ -308,7 +464,9 @@ html[data-theme="light"] .theme-icon-moon {
 .entry-card:hover .entry-card-title,
 .entry-card:focus .entry-card-title,
 .entry-card:hover .entry-card-kind,
-.entry-card:focus .entry-card-kind {
+.entry-card:focus .entry-card-kind,
+.entry-card:hover .preview-kind,
+.entry-card:focus .preview-kind {
   color: var(--accent);
 }
 

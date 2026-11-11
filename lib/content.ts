@@ -18,6 +18,10 @@ export type NoteMeta = {
   title: string;
   slug: string;
   fileName: string;
+  /** Directory URL used to resolve images in `preview`, such as `/Year3/3350`. */
+  dir: string;
+  /** Opening of the note, used as the card thumbnail. */
+  preview: string;
 };
 
 export type FolderMeta = {
@@ -125,7 +129,26 @@ function containsNote(entries: DirEntry[]): boolean {
   return entries.some((entry) => entry.kind === "note" || containsNote(entry.entries));
 }
 
-function readEntries(dir: string, inherited: Map<string, string>): DirEntry[] {
+function noteSnippet(markdown: string): string {
+  const lines = markdown.replace(/^\uFEFF/, "").split(/\r?\n/);
+  const kept: string[] = [];
+  let fence = false;
+  let math = false;
+  let chars = 0;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("```")) fence = !fence;
+    else if (!fence && trimmed === "$$") math = !math;
+    kept.push(line);
+    chars += line.length + 1;
+    if (!fence && !math && chars >= 720) break;
+  }
+  if (fence) kept.push("```");
+  if (math) kept.push("$$");
+  return kept.join("\n").trim();
+}
+
+function readEntries(dir: string, inherited: Map<string, string>, relDir: string): DirEntry[] {
   const readmePath = join(dir, "README.md");
   const readme = existsSync(readmePath) ? readFileSync(readmePath, "utf8") : "";
   const titles = new Map(inherited);
@@ -158,11 +181,14 @@ function readEntries(dir: string, inherited: Map<string, string>): DirEntry[] {
     if (!fileName || seen.has(key)) return;
     seen.add(key);
     const slug = fileSlug(fileName);
+    const raw = readFileSync(join(dir, fileName), "utf8");
     notes.push({
       kind: "note",
       title: titles.get(key) ?? slug,
       slug,
       fileName,
+      dir: relDir,
+      preview: noteSnippet(raw),
     });
   };
 
@@ -176,12 +202,12 @@ function readEntries(dir: string, inherited: Map<string, string>): DirEntry[] {
 
   const folders: FolderMeta[] = [];
   for (const name of folderNames.sort((a, b) => a.localeCompare(b))) {
-    const entries = readEntries(join(dir, name), childTitles(titles, name));
+    const entries = readEntries(join(dir, name), childTitles(titles, name), `${relDir}/${name}`);
     if (!containsNote(entries)) continue;
     folders.push({ kind: "folder", title: name, slug: name, entries });
   }
 
-  return [...notes, ...folders];
+  return [...folders, ...notes];
 }
 
 export const getYears = cache(function getYears(): YearMeta[] {
@@ -200,7 +226,7 @@ export const getYears = cache(function getYears(): YearMeta[] {
       const { code, title } = readme
         ? parseCourseTitle(readme, entry)
         : { code: entry, title: "Coming Soon" };
-      const entries = readEntries(courseDir, new Map());
+      const entries = readEntries(courseDir, new Map(), `/${slug}/${entry}`);
       const hasNotes = containsNote(entries);
 
       courses.push({

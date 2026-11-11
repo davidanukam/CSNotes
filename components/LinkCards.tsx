@@ -1,6 +1,47 @@
-import type { CourseMeta, DirEntry, YearMeta } from "@/lib/content";
+import type { CourseMeta, DirEntry, NoteMeta, YearMeta } from "@/lib/content";
 import { hrefFor } from "@/lib/content";
-import { EntryKindIcon } from "@/components/KindIcon";
+import { EntryKindIcon, FolderIcon, PageIcon } from "@/components/KindIcon";
+import { NotePreview } from "@/components/NotePreview";
+import { rewriteMarkdown } from "@/lib/markdown";
+
+function firstNote(entries: DirEntry[]): NoteMeta | undefined {
+  for (const entry of entries) {
+    if (entry.kind === "note") return entry;
+    const nested = firstNote(entry.entries);
+    if (nested) return nested;
+  }
+  return undefined;
+}
+
+function PreviewCard({
+  href,
+  kind,
+  title,
+  note,
+}: {
+  href: string;
+  kind: "folder" | "page";
+  title: string;
+  note?: NoteMeta;
+}) {
+  const preview = note?.preview ? rewriteMarkdown(note.preview, note.dir) : "";
+  return (
+    <a href={href} className={`entry-card preview-card${kind === "folder" ? " folder-preview" : ""}`}>
+      <span className="preview-body">
+        {kind === "folder" ? <span className="preview-back" aria-hidden="true" /> : null}
+        <span className="preview-front">
+          <NotePreview markdown={preview} />
+        </span>
+      </span>
+      <span className="preview-footer">
+        <span className="preview-kind" aria-hidden="true">
+          {kind === "folder" ? <FolderIcon /> : <PageIcon />}
+        </span>
+        <span className="entry-card-title">{title}</span>
+      </span>
+    </a>
+  );
+}
 
 export function YearCardGrid({ years }: { years: YearMeta[] }) {
   return (
@@ -62,13 +103,12 @@ export function EntryCardGrid({
     <ul className="card-grid">
       {entries.map((entry) => (
         <li key={`${entry.kind}:${entry.slug}`}>
-          <a
+          <PreviewCard
             href={hrefFor(yearSlug, courseFolder, ...segments, entry.slug)}
-            className="entry-card lecture-card"
-          >
-            <EntryKindIcon kind={entry.kind === "folder" ? "folder" : "page"} />
-            <span className="entry-card-title">{entry.title}</span>
-          </a>
+            kind={entry.kind === "folder" ? "folder" : "page"}
+            title={entry.title}
+            note={entry.kind === "note" ? entry : firstNote(entry.entries)}
+          />
         </li>
       ))}
     </ul>
