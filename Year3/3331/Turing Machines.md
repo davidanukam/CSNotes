@@ -163,5 +163,9 @@ To describe it as quick as I can:
 		- If the character you are at is a `1` do:
 			- (over)**write** the `1` on the tape with a `#`.
 			- Go Right until you find a $\Box$.
+			- (over)**write** the $\Box$ on the tape with a `#`.
+			- Go Right once
+			- (over)**write** the next **character** on the tape with a `#`.
+			- Go Left until you find a 
 		- Otherwise, if the character you are at is a $\Box$, then:
 			- 
