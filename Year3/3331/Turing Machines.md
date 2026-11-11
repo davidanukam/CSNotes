@@ -69,3 +69,5 @@ However, what about if we reach a trap state? Well then we are looping infinitel
 When we say looping infinitely, we mean that there is an **epsilon loop** (so no input is being consumed).
 
 In a FSM, when we have a trap state, we are saying that once we reach this state, any other characters being read from our input string should remain on this state. So if our string is 10 characters long and we reach the trap state on character 4, then we read the last 6 characters but stay on the trap state and finally `not accept` the string. THIS STILL COUNTS AS HALTING!
+
+- A DFSM M, on input w, is **guaranteed** to halt in |w| steps (because of what I just said above. No matter what, accepting or rejecting, we consume all input reagt)
