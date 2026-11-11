@@ -293,4 +293,4 @@ We know:
 
 Well, $f(x) = {x!}^{x!}$ grows really, really, really fast, but guess what? Not as fast as the BBFs!
 
-Basically, lets say we have 1 state in a TM. If we find 
+Basically, lets say we have 1 state in a TM. If we find EVERY TM with 1 state and take the machine that **produces** the most number of steps
