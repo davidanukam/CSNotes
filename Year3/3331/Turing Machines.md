@@ -154,7 +154,7 @@ Looking at the simplified RED machines:
 
 Okay so here's an example:
 
-![[Pasted image 20261111162456.png]]
+![TMExample]
 
 To describe it as best as I can:
 
@@ -179,7 +179,7 @@ To describe it as best as I can:
 
 Here's another example called a **Shifting Machine**:
 
-![[Pasted image 20261111164027.png]]
+![ShiftingMachineExample](assets/ShiftingMachineExample.png)
 
 Try going through and figuring out how this TM works.
 
