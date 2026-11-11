@@ -245,3 +245,6 @@ Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state whi
 
 ## Computing Functions
 
+Let 
+
+Define $M(w) = z$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{h}$, $\underline{\Box}$$\text{z}$)
