@@ -11,4 +11,4 @@ Review:
 - CFGs = Context-Free Grammars
 - PDAs = Push-Down Automata
 
-Turing Machines span two sets, those being (D)ecidable and (S)emi(D)ecidable
+Turing Machines span two sets, those being **Decidable** (D) and Semi-Decidable (SD).
