@@ -158,4 +158,6 @@ Okay so here's an example:
 
 To describe it as quick as I can:
 
-- Start at "**>**" and go Right until you find a `1` or an
+- Start at "**>**" and go Right until you find a `1` or a $\Box$.
+	- Once you are are at a `1` or a $\Box$, then:
+		- If the character you are at
