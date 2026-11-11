@@ -208,7 +208,7 @@ Here's an example:
 
 From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$ is NOT Context-Free (we can't use a stack to track more than 2 things). Well, guess what? We can create a Turing Machine for it now!
 
-![DecidableLanguagesExample1](assets/DecidableLanguagesExample1.pnd)
+![DecidableLanguagesExample1](assets/DecidableLanguagesExample1.png)
 
 Here's another one that we know is NOT Context-Free:
 
