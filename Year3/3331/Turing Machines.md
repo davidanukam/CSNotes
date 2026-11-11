@@ -236,5 +236,7 @@ Okay, so here's an example:
 
 If you follow the TM, you can see that if the input string w does NOT have an `a`, then you are going to keep moving Right forever, and never halt (you know this because there is no `n` (reject) state, nor a `h` (halt) state to get to).
 
-So then, putting on our thinking caps, how would you make this Semide
+So then, putting on our thinking caps, how would you make another language M' that **decides** L?
+
+Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) s
 
