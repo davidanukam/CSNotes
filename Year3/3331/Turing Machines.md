@@ -52,6 +52,6 @@ Here is a Turing machine M that will do what we said above:
 
 ![[Pasted image 20261111150106.png]]
 
-Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **put** `b` on the tape before **doing** `c`.
+Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** in direction `c`.
 
-For example, take the first transition from state 1 to state 2. We read $\Box$ (Blank) from the tape
+For example, take the first transition from state 1 to state 2. We **read** $\Box$ (Blank) from the tape, then we write $\Box$ (Blank)
