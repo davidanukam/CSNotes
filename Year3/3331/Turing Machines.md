@@ -90,4 +90,7 @@ Okay lets speed run this. From this point onwards, I want you to think of Turing
 ### Basic machines
 
 Symbol writing machines:
-- For each $\textbf{x} \in \Gamma$, define $M_{x}$, written as just **x**, to be a machine that writes **x**, then halts.
+- For each $\textbf{x} \in \Gamma$, define $M_{\textbf{x}}$, written as just **x**, to be a machine that writes **x**, then halts.
+
+Head moving machines:
+- R: for each $\textbf{x} \in \Gamma, \delta(s, \textbf{x}) = (s, \textbf{s})$
