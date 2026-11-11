@@ -323,12 +323,8 @@ html[data-theme="light"] .theme-icon-moon {
   bottom: 0;
   z-index: 1;
   height: 1.8rem;
-  background: linear-gradient(to bottom, transparent, var(--bg-raised));
+  background: linear-gradient(to bottom, transparent, var(--header-bg));
   pointer-events: none;
-}
-
-.folder-preview .preview-body::after {
-  background: linear-gradient(to bottom, transparent, var(--bg));
 }
 
 .preview-footer {
@@ -339,7 +335,8 @@ html[data-theme="light"] .theme-icon-moon {
   gap: 0.45rem;
   flex-shrink: 0;
   padding: 0.65rem 0.8rem 0.75rem;
-  background: var(--bg-raised);
+  background: var(--header-bg);
+  border-top: 1px solid var(--line);
 }
 
 .preview-kind {
