@@ -40,6 +40,12 @@ and adds `b`'s as required to make the number of `b`'s equal the number of `a`'s
 
 Well, the input to M would look something like this:
 
-|
+![[Pasted image 20261111145923.png]]
 
 And the output should be:
+
+![[Pasted image 20261111145929.png]]
+
+Well, hold your breath, cause this is gonna hurt.
+
+Here 
