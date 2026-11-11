@@ -60,7 +60,7 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 ## Halting
 
-Okay so to make this a one liner: "Haling means that a machine finishes its computation and stops running, rather than looping infinitely."
+Okay so to make this a one liner: `"Haling means that a machine finishes its computation and stops running, rather than looping infinitely."`
 
 Basically, think of a FSM, with an **final accepting state**. It obviously halts once an input string is read and reaches that final accepting state.
 
