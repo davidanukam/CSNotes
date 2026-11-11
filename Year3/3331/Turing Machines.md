@@ -81,4 +81,4 @@ Well, **clearly** we have an **epsilon transition** from state 1 to state 2 and 
 
 However, there exists an algorithm to construct an **equivalent** PDA M' that IS guaranteed to halt. What is it? I'll get back to that when I figure it out 😭
 
-- Lastly, a TM M, on input w, is NOT guaranteed to halt as well. This time we can confidently say that there does NOT exist an algorithm to construct a TM M' that is gur
+- Lastly, a TM M, on input w, is NOT guaranteed to halt as well. This time we can confidently say that there does NOT exist an algorithm to construct a TM M' that is guaranteed to halt.
