@@ -234,4 +234,7 @@ Okay, so here's an example:
 
 ![[Pasted image 20261111172004.png]]
 
-If you follow the TM, you can see that if the input string w does NOT have an `a`, then you keep moving right forever, and never halt (you know this because there is no `n` (reject) state, nor a `h` (halt) state.
+If you follow the TM, you can see that if the input string w does NOT have an `a`, then you are going to keep moving Right forever, and never halt (you know this because there is no `n` (reject) state, nor a `h` (halt) state to get to).
+
+So then, putting on our thinking caps, how would you make this Semide
+
