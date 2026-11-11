@@ -21,5 +21,7 @@ A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
 - $\Gamma$ is the **tape alphabet**, which must contain $\Box$ and have $\Sigma$ as a subset
 - s $\in$ K is the **initial state**
 - H $\subseteq$ K is the set of **halting states**
-- $\delta$ is the **transition function**
+- $\delta$ is the **transition function** (so deterministic)
+
+![[Pasted image 20261111145118.png]]
 
