@@ -233,7 +233,7 @@ A Language L is **semidecidable** iff there is a Turing Machine that **semidecid
 
 Okay, so here's an example of a TM M that semidecides L:
 
-![[Pasted image 20261111172004.png]]
+![SemiDecidableExample1](assets/SemiDecidableExample1.png)
 
 If you follow the TM, you can see that if the input string w does NOT have an `a`, then you are going to keep moving Right forever, and never halt (you know this because there is no `n` (reject) state, nor a `h` (halt) state to get to).
 
