@@ -158,7 +158,7 @@ Okay so here's an example:
 
 To describe it as quick as I can:
 
-- Start at "**>**" and go Right until you find a `1` or a $\Box$.
+- (1) Start at "**>**" and go Right until you find a `1` or a $\Box$.
 - Once you are are at a `1` or a $\Box$, then:
 	- If the character you are at is a `1` then:
 		- (over)**write** the `1` on the tape with a `#`
@@ -167,9 +167,11 @@ To describe it as quick as I can:
 		- Go Right once
 		- (over)**write** the next **character** on the tape with a `#`
 		- Go Left until you find a $\Box$
-		- Then go back to the starting state "**>**"
+		- Then go back to (1)
 	- Otherwise, if the character you are at is a $\Box$, then:
-		- Go Left once
+		- (2) Go Left once
 		- If the character you are at is a `#` then:
 			- (over)**write** the `#` on the tape with a `1`
-			- Then go back to the **Go Left once**
+			- Then go back to (2)
+		- Otherwise, if the character you are at is a $\Box$ then:
+		- 
