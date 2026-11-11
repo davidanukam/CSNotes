@@ -62,4 +62,6 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 Okay so to make this a one liner: "Haling means that a machine finishes its computation and stops running."
 
-Basically, think of a FSM, with an **final accepting state**. It o
+Basically, think of a FSM, with an **final accepting state**. It obviously halts once an input string is read and reaches that final accepting state.
+
+However, what about if we reach a trap state? Well then we are looping infinitely 
