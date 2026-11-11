@@ -194,6 +194,8 @@ Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 - M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
 - M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{n}$, $\text{w}$') for some string w'
 
+## Decidable Languages
+
 This means that M **decides** a language L $\subseteq \Sigma^{*}$ iff:
 - For any string w $\in \Sigma^{*}$ it is true that:
 	- if w $\in$ L then M accepts w, and
@@ -204,4 +206,10 @@ So we can say that a Language L is **decidable** iff there is a Turing Machine M
 Here's an example:
 
 From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$ is NOT Context-Free (we can't use a stack to track more than 2 things). Well, guess what? We can create a Turing Machine for it now!
+
+![[Pasted image 20261111171031.png]]
+
+Here's another one that we know is NOT Context-Free:
+
+![[Pasted image 20261111171045.png]]
 
