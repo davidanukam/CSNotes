@@ -73,5 +73,8 @@ In a FSM, when we have a trap state, we are saying that once we reach this state
 - A DFSM M, on input w, is **guaranteed** to halt in |w| steps (because of what I just said above. No matter what, accepting or rejecting, we consume all input regardless so it halts.)
 - On the other hand, A PDA M, on input w, is NOT guaranteed to halt at all. WHY? Here's an example:
 
+If we consider M =
+
 ![[Pasted image 20261111152016.png]]
 
+Well, **clearly** we have an epsilon transition  
