@@ -248,6 +248,7 @@ html[data-theme="light"] .theme-icon-moon {
 }
 
 .entry-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-height: 8.25rem;
@@ -258,6 +259,24 @@ html[data-theme="light"] .theme-icon-moon {
   border-radius: 12px;
   color: var(--text);
   text-decoration: none;
+}
+
+.entry-card:not(.year-card) {
+  padding-right: 2.2rem;
+}
+
+.entry-card-kind {
+  position: absolute;
+  top: 0.72rem;
+  right: 0.72rem;
+  display: inline-flex;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.entry-card-kind svg {
+  width: 1.05rem;
+  height: 1.05rem;
 }
 
 .entry-card.lecture-card {
@@ -287,7 +306,9 @@ html[data-theme="light"] .theme-icon-moon {
 }
 
 .entry-card:hover .entry-card-title,
-.entry-card:focus .entry-card-title {
+.entry-card:focus .entry-card-title,
+.entry-card:hover .entry-card-kind,
+.entry-card:focus .entry-card-kind {
   color: var(--accent);
 }
 
@@ -310,7 +331,10 @@ html[data-theme="light"] .theme-icon-moon {
 }
 
 .entry-card.muted .entry-card-code,
-.entry-card.muted .entry-card-title {
+.entry-card.muted .entry-card-title,
+.entry-card.muted .entry-card-kind,
+.entry-card.muted:hover .entry-card-kind,
+.entry-card.muted:focus .entry-card-kind {
   color: var(--muted);
 }
 

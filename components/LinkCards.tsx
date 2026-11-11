@@ -47,21 +47,27 @@ export function CourseCardGrid({
   );
 }
 
-export function LectureCardGrid({
+export function EntryCardGrid({
   yearSlug,
   courseFolder,
-  notes,
+  segments,
+  entries,
 }: {
   yearSlug: string;
   courseFolder: string;
-  notes: NoteMeta[];
+  segments: string[];
+  entries: DirEntry[];
 }) {
   return (
     <ul className="card-grid">
-      {notes.map((note) => (
-        <li key={note.slug}>
-          <a href={hrefFor(yearSlug, courseFolder, note.slug)} className="entry-card lecture-card">
-            <span className="entry-card-title">{note.title}</span>
+      {entries.map((entry) => (
+        <li key={`${entry.kind}:${entry.slug}`}>
+          <a
+            href={hrefFor(yearSlug, courseFolder, ...segments, entry.slug)}
+            className="entry-card lecture-card"
+          >
+            <EntryKindIcon kind={entry.kind === "folder" ? "folder" : "page"} />
+            <span className="entry-card-title">{entry.title}</span>
           </a>
         </li>
       ))}

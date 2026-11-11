@@ -68,24 +68,36 @@ export function rewriteMarkdown(markdown: string, noteDirUrl: string): string {
       return full.replace(url, `#${headingIdFromFragment(trimmed)}`);
     }
 
-    if (bang === "!" && !decoded.startsWith("/")) {
-      const next = `${noteDirUrl}/${decoded}`.replace(/\\/g, "/");
-      return full.replace(url, encodePath(next));
-    }
+    const { path, suffix } = splitSuffix(decoded.replace(/\\/g, "/"));
+    if (path.startsWith("/")) return full;
 
-    if (decoded.toLowerCase().endsWith(".md")) {
-      const file = decoded.split("/").pop() ?? decoded;
-      const slug = file.replace(/\.md$/i, "");
-      return full.replace(url, `${noteDirUrl}/${encodeURIComponent(slug)}`);
+    if (bang === "!") return full.replace(url, joinUrl(noteDirUrl, path) + suffix);
+
+    if (path.toLowerCase().endsWith(".md")) {
+      return full.replace(url, joinUrl(noteDirUrl, path.replace(/\.md$/i, "")) + suffix);
     }
 
     return full;
   });
 }
 
-function encodePath(path: string): string {
-  return path
-    .split("/")
-    .map((segment, index) => (index === 0 && segment === "" ? "" : encodeURIComponent(segment)))
-    .join("/");
+function splitSuffix(value: string): { path: string; suffix: string } {
+  const hash = value.indexOf("#");
+  const query = value.indexOf("?");
+  const cut = hash < 0 ? query : query < 0 ? hash : Math.min(hash, query);
+  if (cut < 0) return { path: value, suffix: "" };
+  return { path: value.slice(0, cut), suffix: value.slice(cut) };
+}
+
+function joinUrl(base: string, relative: string): string {
+  const parts = base.split("/").filter(Boolean);
+  for (const segment of relative.split("/")) {
+    if (!segment || segment === ".") continue;
+    if (segment === "..") {
+      parts.pop();
+      continue;
+    }
+    parts.push(segment);
+  }
+  return `/${parts.map((segment) => encodeURIComponent(segment)).join("/")}`;
 }
