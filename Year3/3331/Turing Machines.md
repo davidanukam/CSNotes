@@ -60,8 +60,10 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 ## Halting
 
-Okay so to make this a one liner: "Haling means that a machine finishes its computation and stops running."
+Okay so to make this a one liner: "Haling means that a machine finishes its computation and stops running, rather than looping infinitely."
 
 Basically, think of a FSM, with an **final accepting state**. It obviously halts once an input string is read and reaches that final accepting state.
 
-However, what about if we reach a trap state? Well then we are looping infinitely 
+However, what about if we reach a trap state? Well then we are looping infinitely, right? WRONG! Well, yes, but NO!
+
+When we say looping infinitely, we mean that there is an 
