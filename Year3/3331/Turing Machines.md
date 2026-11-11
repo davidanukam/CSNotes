@@ -62,6 +62,9 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 Okay so `halting` is a little different than `not accepting`.
 
-The way we want to think about halting is that it can mean 1 of three things:
-- We are at an accepting state
-- We are at a re
+The way we want to think about halting is that it can mean 1 of 3 things:
+- We are at an **accepting state**
+- We are at a **rejecting state**
+- We are at a **trap state**
+
+Now, I know you're thinking "but those are the "
