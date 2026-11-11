@@ -104,4 +104,9 @@ Machines that simply halt:
 ### Checking Inputs and Combining Machines
 
 Okay so now we need to describe how to:
-- Check the the tape and branch on what character we s
+- Check the the tape and branch on what character we see and
+- Combine the basic machines to form larger ones
+
+To do this, we need two forms:
+- $M_{1}M_{2}$:
+	- Begin in start state of $M_{1}$, run $M_{1}$ until hal
