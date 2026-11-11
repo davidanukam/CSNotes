@@ -177,4 +177,10 @@ To describe it as best as I can:
 		- Otherwise, if the character you are at is a $\Box$ then:
 			- go to the **halt state** and HALT (stop)
 
-Here's another example called a Shifting Machine
+Here's another example called a **Shifting Machine**:
+
+![[Pasted image 20261111164027.png]]
+
+Try going through and figuring out how this TM works.
+
+## 
