@@ -193,6 +193,7 @@ Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
 - M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
 - M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{n}$, $\text{w}$') for some string w'
+- (Honestly, you can try and figure these out but I think you understand when a )
 
 ## Decidable Languages
 
@@ -230,7 +231,7 @@ That IMPORTANT part is why these languages are **semidecidable**.
 
 A Language L is **semidecidable** iff there is a Turing Machine that **semidecides** it. We define the set **SD** to be the set of all **semidecidable** languages.
 
-Okay, so here's an example of a TM M that semidecides :
+Okay, so here's an example of a TM M that semidecides L:
 
 ![[Pasted image 20261111172004.png]]
 
@@ -240,5 +241,6 @@ So then, putting on our thinking caps, how could we make another TM M' that **de
 
 ![[Pasted image 20261111172430.png]]
 
-Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts.
+Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts after rejecting.
+
 
