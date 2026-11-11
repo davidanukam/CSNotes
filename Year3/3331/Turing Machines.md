@@ -223,4 +223,7 @@ M **semidecides** L iff, for any string w $\in (\Sigma_{M})^{*}$:
 - w $\in$ L $\rightarrow$ M **accepts** w
 - w $\not\in$ L $\rightarrow$ M **does not accept** w
 
-IMPORTANT!!
+IMPORTANT: "**does not accept**" means that M may either:
+- **REJECT** or **FAIL TO HALT**
+
+That IMPORTANT part is why these languages are 
