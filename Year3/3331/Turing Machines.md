@@ -271,4 +271,4 @@ For example:
 
 TM M computes a function $f$ from $\mathbb{N}^{m}$ to $\mathbb{N}$ iff, for some k:
 
-$$
+$$\text{value}_{k}(M(n_1; n_2; \dots n_{m})) = \text{f}()$$
