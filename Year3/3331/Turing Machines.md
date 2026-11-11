@@ -249,4 +249,8 @@ Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{\text{h}\rbrace}$). Its in
 
 Define $M(\text{w}) = \text{z}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{h}$, $\underline{\Box}$$\text{z}$).
 
-Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the set of symbols that M may leave on its tape when it halts)
+Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the **set of symbols** that M **MAY** leave on its **tape** when it **halts**)
+
+Let $f$ be any function from $\Sigma^{*}$ to $\Sigma'^{*}$
+
+M computes f iff for all $\te$
