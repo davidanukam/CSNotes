@@ -1,5 +1,8 @@
 Honestly, this is cooked but I'll try to add only the important parts.
 
-So we know that Regular Languages (FSMs, Regular Expressions) $\subseteq$ Context-Free Languages (CFGs, PDAs). 
+So we know that **Regular Languages** (FSMs, Regular Expressions) $\subseteq$ **Context-Free Languages** (CFGs, PDAs). 
 
-Now, we have Turing Machines which covers everything. SO now, Regular Languages (FSMs, Regular Expressions) $\subseteq$ Context-Free Languages (CFGs, PDAs) $\subseteq$ Turing Machines (Unrestricted Grammars, D)
+Now, we have **Turing Machines** which covers everything. So now, Regular Languages (FSMs, Regular Expressions) $\subseteq$ Context-Free Languages (CFGs, PDAs) $\subseteq$ Turing Machines (Unrestricted Grammars, D, SD).
+
+![[Pasted image 20261111144032.png]]
+
