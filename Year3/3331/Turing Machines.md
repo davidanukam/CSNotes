@@ -34,7 +34,7 @@ Some things to note:
 
 Example:
 
-lets say M takes as input a string in the language $\l{a^{i}b^{j}, 0 \le j \le i\right}$...
+lets say M takes as input a string in the language $\lbrace{a^{i}b^{j}, 0 \le j \le i\rbrace}$...
 
 and adds `b`'s as required to make the number of `b`'s equal the number of `a`'s.
 
@@ -101,5 +101,7 @@ Machines that simply halt:
 - **n**: **rejects** and then halts
 - **y**: **accepts** and then halts
 
-### Checking Inputs and Combinng Machines
+### Checking Inputs and Combining Machines
 
+Okay so now we need to describe how to:
+- Check the the tape and branch on what character we s
