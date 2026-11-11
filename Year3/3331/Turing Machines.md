@@ -50,7 +50,7 @@ Well, hold your breath, cause this is gonna hurt.
 
 Here is a Turing machine M that will do what we said above:
 
-![[Pasted image 20261111150106.png]]
+![FullTuringMachineExample](ass)
 
 Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** the `tape head` (the $\uparrow$ in the two pictures above) in direction `c`.
 
@@ -75,7 +75,7 @@ In a FSM, when we have a trap state, we are saying that once we reach this state
 
 If we consider M =
 
-![[Pasted image 20261111152016.png]]
+![NonHaltingPDA](assets/NonHaltingPDA.png)
 
 Well, **clearly** we have an **epsilon transition** from state 1 to state 2 and another one from state 2 BACK to state 1 (so technically a loop). This means it can `loop infinitely` and therefore NEVER halt.
 
