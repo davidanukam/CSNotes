@@ -159,14 +159,16 @@ Okay so here's an example:
 To describe it as quick as I can:
 
 - Start at "**>**" and go Right until you find a `1` or a $\Box$.
-	- Once you are are at a `1` or a $\Box$, then:
-		- If the character you are at is a `1` do:
-			- (over)**write** the `1` on the tape with a `#`
-			- Go Right until you find a $\Box$
-			- (over)**write** the $\Box$ on the tape with a `#`
-			- Go Right once
-			- (over)**write** the next **character** on the tape with a `#`
-			- Go Left until you find a $\Box$
-			- Then go back to the starting state "**>**"
-		- Otherwise, if the character you are at is a $\Box$, then:
+- Once you are are at a `1` or a $\Box$, then:
+	- If the character you are at is a `1` then:
+		- (over)**write** the `1` on the tape with a `#`
+		- Go Right until you find a $\Box$
+		- (over)**write** the $\Box$ on the tape with a `#`
+		- Go Right once
+		- (over)**write** the next **character** on the tape with a `#`
+		- Go Left until you find a $\Box$
+		- Then go back to the starting state "**>**"
+	- Otherwise, if the character you are at is a $\Box$, then:
+		- Go Left once
+		- If the character you are at is a `#` then:
 			- 
