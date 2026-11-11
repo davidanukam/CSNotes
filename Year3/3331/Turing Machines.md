@@ -32,3 +32,6 @@ Some things to note:
 - IMPORTANT: Turing machines do not necessarily halt (unlike FSMs and PDAs). WHY? Because to halt, they must enter a halting state, otherwise they loop.
 - Turing machines generate output so they can compute functions. (We'll see some examples later)
 
+Example:
+
+lets say M
