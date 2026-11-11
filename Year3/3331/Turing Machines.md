@@ -137,7 +137,7 @@ I'll explain the **Variables**:
 
 Example: $> \xrightarrow{\neg \Box}\text{Rx}$
 - This means to start at "**>**" (the starting position of the **tape head**) and if the character there is NOT Blank, then store the character into a variable **x** and then **move** Right and **write** that stored character in **x** on the tape at the current tape head's position (so basically overwriting the next character on the tape).
-- So for exma$\underline{a}bbab$ becomes $a\underline{a}bab$
+- So for example, $\underline{a}bbab, x = \text{None} \Rightarrow a\underline{b}bab, x = a \Rightarrow$
 
 
 ### Some Useful Machines
