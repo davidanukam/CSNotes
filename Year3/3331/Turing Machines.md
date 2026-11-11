@@ -275,11 +275,11 @@ $$\text{value}_{k}(M(n_1; n_2; \dots, n_{m})) = f(\text{value}_{k}(n_1), \dots, 
 
 Here's a quick example:
 
-![[Pasted image 20261111175414.png]]
+![NumericFunctions](assets/NumericFunctions.png)
 
 ## Not All Functions Are Computable
 
-![BusyBeaverFunctions](assets/Bust)
+![BusyBeaverFunctions](assets/BusyBeaverFunctions.png)
 
 To explain this briefly, since it probably won't ever be tested, these **busy beaver functions** are the fastest growing functions out there.
 
