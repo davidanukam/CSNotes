@@ -186,4 +186,5 @@ Try going through and figuring out how this TM works.
 ## Turing Machines as Language Recognizers
 
 As convention:
-- We 
+- We will write the input on the tape as: $\Box \text{w} \Box$, where $\text{w}$ contains no $\Box$'s.
+- Thus, the initial configuration of M will be:
