@@ -152,4 +152,10 @@ Looking at the simplified RED machines:
 
 ![[Pasted image 20261111160331.png]]
 
+Okay so here's an example:
 
+![[Pasted image 20261111162456.png]]
+
+To describe it as quick as I can:
+
+- Start at "**>**" and go Right until you find a `1` or an
