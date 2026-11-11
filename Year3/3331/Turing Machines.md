@@ -183,4 +183,7 @@ Here's another example called a **Shifting Machine**:
 
 Try going through and figuring out how this TM works.
 
-## 
+## Turing Machines as Language Recognizers
+
+As convention:
+- We 
