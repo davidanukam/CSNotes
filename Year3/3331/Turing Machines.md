@@ -201,7 +201,7 @@ This means that M **decides** a language L $\subseteq \Sigma^{*}$ iff:
 	- if w $\in$ L then M accepts w, and
 	- if w $\in$ L then M rejects w.
 
-So we can say that a Language L is **decidable** iff there is a Turing Machine M that **decides** it. In this case, the language L is in **D**.
+So we can say that a Language L is **decidable** iff there is a Turing Machine M that **decides** it. In this case, the language L is in **D** so we define the set **D** to be the set of all **decidable** languages.
 
 Here's an example:
 
@@ -228,4 +228,7 @@ IMPORTANT: "**does not accept**" means that M may either:
 
 That IMPORTANT part is why these languages are semidecidable.
 
-A Language L is **semidecidable** iff there is a Turing Machine that **semidecides** it. We define the set **SD** to be the set of all semidecidable
+A Language L is **semidecidable** iff there is a Turing Machine that **semidecides** it. We define the set **SD** to be the set of all **semidecidable** languages.
+
+Okay, so here's an example:
+
