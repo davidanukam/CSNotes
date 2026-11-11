@@ -279,7 +279,7 @@ Here's a quick example:
 
 ## Not All Functions Are Computable
 
-![[Pasted image 20261111175857.png]]
+![BusyBeaverFunctions](assets/Bust)
 
 To explain this briefly, since it probably won't ever be tested, these **busy beaver functions** are the fastest growing functions out there.
 
