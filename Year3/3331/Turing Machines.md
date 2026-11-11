@@ -171,4 +171,5 @@ To describe it as quick as I can:
 	- Otherwise, if the character you are at is a $\Box$, then:
 		- Go Left once
 		- If the character you are at is a `#` then:
-			- 
+			- (over)**write** the `#` on the tape with a `1`
+			- Then go back
