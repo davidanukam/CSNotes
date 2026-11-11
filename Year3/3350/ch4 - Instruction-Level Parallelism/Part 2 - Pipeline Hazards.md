@@ -1,0 +1,1 @@
+number of instructions + 4 (24, cycles)
