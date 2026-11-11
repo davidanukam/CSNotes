@@ -29,4 +29,6 @@ Some things to note:
 - The input tape is infinite in both directions
 - $\delta$ is a function NOT A RELATION, so this definition is for deterministic Turing machines.
 - $\delta$ must be defined for all (state, input) pair unless the state is a halting state.
-- IMPORTANT: Turing machines do not necessar
+- IMPORTANT: Turing machines do not necessarily halt (unlike FSMs and PDAs). WHY? Because to halt, they must enter a halting state, otherwise they loop.
+- Turing machines generate output so they can compute functions. (We'll see some examples later)
+
