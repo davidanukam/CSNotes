@@ -199,8 +199,9 @@ This means that M **decides** a language L $\subseteq \Sigma^{*}$ iff:
 	- if w $\in$ L then M accepts w, and
 	- if w $\in$ L then M rejects w.
 
-So we can say that a Language L is **decidable** iff there is a Turning Machine M that **decides** it. In this case, the language L is in **D**.
+So we can say that a Language L is **decidable** iff there is a Turing Machine M that **decides** it. In this case, the language L is in **D**.
 
 Here's an example:
 
-From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$
+From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$ is NOT Context-Free (we can't use a stack to track more than 2 things). Well, guess what? We can create a Turing Machine for it now!
+
