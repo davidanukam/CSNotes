@@ -284,5 +284,10 @@ Here's a quick example:
 To explain this briefly, since it probably won't ever be tested, these **bust beaver functions** are the fastest growing functions out there.
 
 We know:
-- f(x) = x
-- f(x) = x^
+- $f(x) = x$
+- $f(x) = x^2$
+- $f(x) = x^{x}$
+- $f(x) = x^{x!}$
+- $f(x) = {x!}^{x!}$
+- etc...
+
