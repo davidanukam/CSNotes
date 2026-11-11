@@ -5,5 +5,5 @@
 3. [State Minimization](State%20%20Minimization.md)
 4. [Transducers](Transducers.md)
 5. [Regular Expressions](Regular%20Expressions.md)
-6. [Regular Grammars](Theory%20of%20Computation.md)
-7. [Theory of Computation](Theory%20of%20Computation.md)
+6. [Regular Grammars](Regular%20Grammars.md)
+7. [Turing Machines](Turing%20Machines.md)
