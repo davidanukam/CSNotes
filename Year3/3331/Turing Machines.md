@@ -118,4 +118,5 @@ Alright, lets see an example:
 ![[Pasted image 20261111155800.png]]
 
 - So we start at the initial (start) state of $M_{1}$. ("**>**" marks the beginning).
-- Compute $M_{1}$
+- Compute until $M_{1}$ reaches a halt state.
+- Then examine the tape and take the appropriate transition (`a` or `b`)
