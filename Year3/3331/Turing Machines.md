@@ -131,7 +131,8 @@ Alright, lets see an example:
 Honestly, if you've been locked in, then most of these should make sense of rip. Review FSM if needed.
 
 I'll explain the **Variables**:
-- For the first 1, we're basically saying that to transition from $M_{1}$ to $M_{2}$, we need to **read** the tape and find any character that is NOT `a` AND then **save** that character into **x**. **x** is stored elsewhere but its 
+- For the first one, we're basically saying that to transition from $M_{1}$ to $M_{2}$, we need to **read** the tape and find any character that is NOT `a` AND then **save** that character into **x**. **x** is stored elsewhere but its a variable just like in programming. So it can be referenced and used later on.
+- For the second one, we're just saying that we can transition from $M_{1}$ to $M_{2}$
 
 ### Some Useful Machines
 
