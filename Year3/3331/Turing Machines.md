@@ -281,4 +281,8 @@ Here's a quick example:
 
 ![[Pasted image 20261111175857.png]]
 
-To explain this bre
+To explain this briefly, since it probably won't ever be tested, these **bust beaver functions** are the fastest growing functions out there.
+
+We know:
+- f(x) = x
+- f(x) = x^
