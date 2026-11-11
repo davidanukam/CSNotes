@@ -130,9 +130,8 @@ Alright, lets see an example:
 
 Honestly, if you've been locked in, then most of these should make sense of rip. Review FSM if needed.
 
-I'll explain the variables:
-
-- 
+I'll explain the **Variables**:
+- We
 
 ### Some Useful Machines
 
