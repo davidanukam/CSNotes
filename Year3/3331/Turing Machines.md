@@ -213,3 +213,5 @@ Here's another one that we know is NOT Context-Free:
 
 ![[Pasted image 20261111171045.png]]
 
+## Semi-decidable Languages
+
