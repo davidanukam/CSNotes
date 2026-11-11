@@ -219,4 +219,8 @@ Okay now for the last set of possible language types: **Semidecidables**
 
 Let $\Sigma_{M}$ be the input alphabet to a Turing Machine M. Let L $\subseteq (\Sigma_{M})^{*}$.
 
-M **semidecides** L iff, for any string w $\in \Sgma$
+M **semidecides** L iff, for any string w $\in (\Sigma_{M})^{*}$:
+- w $\in$ L $\rightarrow$ M **accepts** w
+- w $\not\in$ L $\rightarrow$ M **does not accept** w
+
+IMPORTANT!!
