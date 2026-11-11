@@ -34,7 +34,7 @@ Some things to note:
 
 Example:
 
-lets say M takes as input a string in the language $\{a^{i}b^{j}, 0 \le j \le i\}$...
+lets say M takes as input a string in the language $\l{a^{i}b^{j}, 0 \le j \le i\right}$...
 
 and adds `b`'s as required to make the number of `b`'s equal the number of `a`'s.
 
