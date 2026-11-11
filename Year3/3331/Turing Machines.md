@@ -126,7 +126,7 @@ Alright, lets see an example:
 
 ### Some Shorthands
 
-![[Pasted image 20261111160250.png]]
+![SomeTMShorthands](asset)
 
 Honestly, if you've been locked in, then most of these should make sense of rip. Review FSM if needed.
 
@@ -150,7 +150,7 @@ Looking at the simplified RED machines:
 - $L_{\neg \Box}$: Go **Left** until you find a character that is not $\Box$.
 ### Some More Useful Machines
 
-![[Pasted image 20261111160331.png]]
+![SomeMoreUsefulMachines](assets/SomeMoreUsefulMachines.png)
 
 Okay so here's an example:
 
