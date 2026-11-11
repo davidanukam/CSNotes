@@ -253,7 +253,7 @@ Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the **set of sy
 
 Let $f$ be any function from $\Sigma^{*}$ to $\Sigma'^{*}$
 
-M computes $f$ iff for **all** w $\in \Sigma^{*}$, M(w) = f(w).
+M **computes $f$** iff for **all** w $\in \Sigma^{*}$, M(w) = f(w).
 
-A function $f$ is **recursive** or **computable** iff there is a Turing machine m that computes it.
+A **function $f$** is **recursive** or **computable** iff there is a Turing machine M that computes it. Note that M always halts here ($\lbrace{h\rbrace}$).
 
