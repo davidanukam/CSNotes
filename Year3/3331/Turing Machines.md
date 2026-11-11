@@ -172,4 +172,4 @@ To describe it as quick as I can:
 		- Go Left once
 		- If the character you are at is a `#` then:
 			- (over)**write** the `#` on the tape with a `1`
-			- Then go back
+			- Then go back to the 
