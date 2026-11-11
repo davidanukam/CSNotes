@@ -66,4 +66,6 @@ Basically, think of a FSM, with an **final accepting state**. It obviously halts
 
 However, what about if we reach a trap state? Well then we are looping infinitely, right? WRONG! Well, yes, but NO!
 
-When we say looping infinitely, we mean that there is an 
+When we say looping infinitely, we mean that there is an **epsilon loop** (so no input is being consumed).
+
+In a FSM, when we have a trap state, we are saying that once we reach this state, any other characters being read from our input string should remain on this state. However, no matter
