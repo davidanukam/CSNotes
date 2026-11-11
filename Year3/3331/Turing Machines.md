@@ -199,4 +199,8 @@ This means that M **decides** a language L $\subseteq \Sigma^{*}$ iff:
 	- if w $\in$ L then M accepts w, and
 	- if w $\in$ L then M rejects w.
 
-So we can say that a Language L is **decidable** iff there is a Turning Machine M that **decides** it.
+So we can say that a Language L is **decidable** iff there is a Turning Machine M that **decides** it. In this case, the language L is in **D**.
+
+Here's an example:
+
+From Context-Free Lanuga
