@@ -60,4 +60,8 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 ## Halting
 
-Okay so `halting` is a little different than
+Okay so `halting` is a little different than `not accepting`.
+
+The way we want to think about halting is that it can mean 1 of three things:
+- We are at an accepting state
+- We are at a re
