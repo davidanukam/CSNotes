@@ -272,3 +272,10 @@ For example:
 TM M computes a function $f$ from $\mathbb{N}^{m}$ to $\mathbb{N}$ iff, for some k:
 
 $$\text{value}_{k}(M(n_1; n_2; \dots, n_{m})) = f(\text{value}_{k}(n_1), \dots, \text{value}_{k}(n_{m}))$$
+
+Here's a quick example:
+
+![[Pasted image 20261111175414.png]]
+
+## Not All Functions Are Computable
+
