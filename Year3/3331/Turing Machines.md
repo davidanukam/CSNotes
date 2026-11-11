@@ -257,3 +257,10 @@ M **computes $f$** iff for **all** w $\in \Sigma^{*}$, M(w) = f(w).
 
 A **function $f$** is **recursive** or **computable** iff there is a Turing machine M that computes it. Note that M always halts here ($\lbrace{h\rbrace}$).
 
+An example makes this easier to understand:
+
+![[Pasted image 20261111174908.png]]
+
+## Computing Numeric Functions
+
+Lets say w
