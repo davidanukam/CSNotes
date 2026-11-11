@@ -128,8 +128,12 @@ Alright, lets see an example:
 
 ![[Pasted image 20261111160250.png]]
 
+Honestly, if you've been locked in, these should all make sense of rip. 
 ### Some Useful Machines
 
 ![[Pasted image 20261111160308.png]]
 
-### S
+### Some More Useful Machines
+
+![[Pasted image 20261111160331.png]]
+
