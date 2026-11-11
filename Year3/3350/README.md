@@ -8,4 +8,4 @@
 
 ## Chapter 4
 1. [Pipelining (Part 1)](ch4%20-%20Instruction-Level%20Parallelism/Part%201%20-%20Pipelining.md)
-2. [Pipeline Hazards (Part 2)](ch4%20-%20Instruction-Level%20Parallelism/Part%201%20-%20Pipel.md)
+2. [Pipeline Hazards (Part 2)](ch4%20-%20Instruction-Level%20Parallelism/Part%202%20-%20Pipeline%20Hazards.md)
