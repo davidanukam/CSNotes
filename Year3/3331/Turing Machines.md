@@ -215,3 +215,6 @@ Here's another one that we know is NOT Context-Free:
 
 ## Semi-decidable Languages
 
+Okay now for the last set of possible language types: **Semidecidables**
+
+Let $\Sigma_{M}$
