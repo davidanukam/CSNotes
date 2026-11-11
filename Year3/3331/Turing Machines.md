@@ -128,7 +128,12 @@ Alright, lets see an example:
 
 ![[Pasted image 20261111160250.png]]
 
-Honestly, if you've been locked in, these should all make sense of rip. 
+Honestly, if you've been locked in, then most of these should make sense of rip. Review FSM if needed.
+
+I'll explain the variables:
+
+- 
+
 ### Some Useful Machines
 
 ![[Pasted image 20261111160308.png]]
