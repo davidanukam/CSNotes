@@ -226,9 +226,12 @@ M **semidecides** L iff, for any string w $\in (\Sigma_{M})^{*}$:
 IMPORTANT: "**does not accept**" means that M may either:
 - **REJECT** or **FAIL TO HALT**
 
-That IMPORTANT part is why these languages are semidecidable.
+That IMPORTANT part is why these languages are **semidecidable**.
 
 A Language L is **semidecidable** iff there is a Turing Machine that **semidecides** it. We define the set **SD** to be the set of all **semidecidable** languages.
 
 Okay, so here's an example:
 
+![[Pasted image 20261111172004.png]]
+
+If you follow the TM, you can see that if the input string w does NOT have an
