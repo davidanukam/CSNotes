@@ -52,4 +52,4 @@ Here is a Turing machine M that will do what we said above:
 
 ![[Pasted image 20261111150106.png]]
 
-Kind of like PDAs, we have the transition format a/b/c where 
+Kind of like PDAs, we have the transition format `a`/`b`/c where we read `a` from the tape
