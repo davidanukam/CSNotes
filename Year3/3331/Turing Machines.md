@@ -34,6 +34,12 @@ Some things to note:
 
 Example:
 
-lets say M takes as input a string in the language $\{a^{i}b^{j}, 0 \le j \le i\}$
+lets say M takes as input a string in the language $\{a^{i}b^{j}, 0 \le j \le i\}$...
 
-and adds b's as required to make the numver of b's equal the number of a's.
+and adds `b`'s as required to make the number of `b`'s equal the number of `a`'s.
+
+Well, the input to M would look something like this:
+
+|
+
+And the output should be:
