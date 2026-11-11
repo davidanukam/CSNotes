@@ -191,8 +191,8 @@ As convention:
 
 Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
-- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
-- M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{n}$, $\text{w}$') for some string w'
+- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
+- M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{n}$, $\text{w}$') for some string w'
 
 ## Decidable Languages
 
@@ -217,4 +217,6 @@ Here's another one that we know is NOT Context-Free:
 
 Okay now for the last set of possible language types: **Semidecidables**
 
-Let $\Sigma_{M}$ be the input alphabet to a Turing Machine M. Let L $\subseteq (\Sigma_{M})^{*}$
+Let $\Sigma_{M}$ be the input alphabet to a Turing Machine M. Let L $\subseteq (\Sigma_{M})^{*}$.
+
+M **semidecides** L iff, for any string w $\in \Sgma$
