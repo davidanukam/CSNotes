@@ -119,4 +119,6 @@ Alright, lets see an example:
 
 - So we start at the initial (start) state of $M_{1}$. ("**>**" marks the beginning).
 - Compute until $M_{1}$ reaches a halt state.
-- Then examine the tape and take the appropriate transition (`a` or `b`)
+- Then examine the tape and take the appropriate transition (`a` or `b`).
+- We then start at the initial (start) state of the next machine (here its either $M_{2}$ or $M_{3}$).
+- Again, we have to halt if any cm
