@@ -9,4 +9,6 @@ Well, guess what? **Turing Machines** now cover everything. So now we have, **Re
 Review:
 - FSMs = Finite State Machines
 - CFGs = Context-Free Grammars
-- 
+- PDAs = Push-Down Automata
+
+Turing Machines span two sets, those being (D)ecidable and (S)emi(D)ecidable
