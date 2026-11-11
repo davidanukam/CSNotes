@@ -230,13 +230,15 @@ That IMPORTANT part is why these languages are **semidecidable**.
 
 A Language L is **semidecidable** iff there is a Turing Machine that **semidecides** it. We define the set **SD** to be the set of all **semidecidable** languages.
 
-Okay, so here's an example:
+Okay, so here's an example of a TM M that semidecides :
 
 ![[Pasted image 20261111172004.png]]
 
 If you follow the TM, you can see that if the input string w does NOT have an `a`, then you are going to keep moving Right forever, and never halt (you know this because there is no `n` (reject) state, nor a `h` (halt) state to get to).
 
-So then, putting on our thinking caps, how would you make another language M' that **decides** L?
+So then, putting on our thinking caps, how could we make another TM M' that **decides** L?
 
-Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) s
+![[Pasted image 20261111172430.png]]
+
+Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts.
 
