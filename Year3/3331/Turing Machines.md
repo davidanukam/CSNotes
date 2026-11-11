@@ -115,7 +115,7 @@ To do this, we need two forms:
 
 Alright, lets see an example:
 
-![[Pasted image 20261111155800.png]]
+![SimpleTMExample](assets/SimpleTMExample.png)
 
 - So we start at the **initial (start) state** of $M_{1}$. ("**>**" marks the beginning).
 - Compute until $M_{1}$ reaches a **halt state**.
@@ -126,7 +126,7 @@ Alright, lets see an example:
 
 ### Some Shorthands
 
-![SomeTMShorthands](asset)
+![SomeTMShorthands](assets/SomeTMShorthands.png)
 
 Honestly, if you've been locked in, then most of these should make sense of rip. Review FSM if needed.
 
