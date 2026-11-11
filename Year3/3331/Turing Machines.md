@@ -217,4 +217,4 @@ Here's another one that we know is NOT Context-Free:
 
 Okay now for the last set of possible language types: **Semidecidables**
 
-Let $\Sigma_{M}$
+Let $\Sigma_{M}$ be the input alphabet to a Turing Machine M. Let L $\subseteq (\Sigma_{M})^{*}$
