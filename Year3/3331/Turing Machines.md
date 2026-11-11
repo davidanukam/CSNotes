@@ -15,4 +15,4 @@ Turing Machines span two sets, those being **Decidable** (D) and **Semi-Decidabl
 
 ## Formal Definition
 
-A Turing Machine is a 
+A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, )
