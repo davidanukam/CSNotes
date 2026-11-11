@@ -15,4 +15,6 @@ Turing Machines span two sets, those being **Decidable** (D) and **Semi-Decidabl
 
 ## Formal Definition
 
-A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, )
+A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
+- K is a finite set of **states**
+- $\Sigma$ is the input alphabet, which does not contain
