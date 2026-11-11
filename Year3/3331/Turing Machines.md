@@ -208,11 +208,11 @@ Here's an example:
 
 From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$ is NOT Context-Free (we can't use a stack to track more than 2 things). Well, guess what? We can create a Turing Machine for it now!
 
-![[Pasted image 20261111171031.png]]
+![DecidableLanguagesExample1](assets/DecidableLanguagesExample1.pnd)
 
 Here's another one that we know is NOT Context-Free:
 
-![[Pasted image 20261111171045.png]]
+![DecidableLanguagesExample2](assets/DecidableLanguagesExample2.png)
 
 ## Semi-decidable Languages
 
