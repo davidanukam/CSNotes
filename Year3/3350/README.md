@@ -7,4 +7,5 @@
 5. [Synchronous Circuits - Part 1](Synchronous%20Circuits%20-%20Part%201.md)
 
 ## Chapter 4
-1. [Pipelining (Part 1)]()
+1. [Pipelining (Part 1)](ch4%20-%20Instruction-Level%20Parallelism/Part%201%20-%20Pipelining.md)
+2. [Pipeline Hazards (Part 2)](ch4%20-%20Instruction-Level%20Parallelism/Part%201%20-%20Pipel.md)
