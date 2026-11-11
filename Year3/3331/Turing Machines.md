@@ -34,4 +34,4 @@ Some things to note:
 
 Example:
 
-lets say M
+lets say M takes as input a string in the language $\left{a^{i}b^{j\right}$ 
