@@ -136,7 +136,7 @@ I'll explain the **Variables**:
 - For the third one, we are checking if the character stored in a variable **x** is the same character stored in another variable **y**. If they are the same, then we take the transition and from $M_{1}$ to $M_{2}$.
 
 Example: $> \xrightarrow{\neg \Box}\text{Rx}$
-
+- This means to start at "**>**" (the starting position of the **tape head**) and if the character there is NOT Blank, then we 
 
 
 ### Some Useful Machines
