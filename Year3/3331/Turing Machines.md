@@ -141,7 +141,7 @@ Example: $> \xrightarrow{\neg \Box}\text{Rx}$
 
 ### Some Useful Machines
 
-![[Pasted image 20261111160308.png]]
+![SomeUsefulMachines](assets/SomeUsefulMachines.png)
 
 Looking at the simplified RED machines:
 - $R_{\Box}$: Go **Right** until you find a $\Box$.
@@ -154,7 +154,7 @@ Looking at the simplified RED machines:
 
 Okay so here's an example:
 
-![TMExample]
+![TMTripleExample](assets/TMTripleExample.png)
 
 To describe it as best as I can:
 
