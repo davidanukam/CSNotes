@@ -117,8 +117,9 @@ Alright, lets see an example:
 
 ![[Pasted image 20261111155800.png]]
 
-- So we start at the initial (start) state of $M_{1}$. ("**>**" marks the beginning).
-- Compute until $M_{1}$ reaches a halt state.
-- Then examine the tape and take the appropriate transition (`a` or `b`).
-- We then start at the initial (start) state of the next machine (here its either $M_{2}$ or $M_{3}$).
-- Again, we have to halt if any cm
+- So we start at the **initial (start) state** of $M_{1}$. ("**>**" marks the beginning).
+- Compute until $M_{1}$ reaches a **halt state**.
+- Then examine the **tape** and take the appropriate **transition** (`a` or `b`).
+- We then start at the **initial (start) state** of the next machine (here its either $M_{2}$ or $M_{3}$).
+- Again, we have to **halt** if any component reaches a **halt state** and hos no place to go.
+- However, if **ANY** component FAILS TO HALT, then the entire machine MAY fail to halt.
