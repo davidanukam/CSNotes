@@ -133,7 +133,11 @@ Honestly, if you've been locked in, then most of these should make sense of rip.
 I'll explain the **Variables**:
 - For the first one, we're basically saying that to transition from $M_{1}$ to $M_{2}$, we need to **read** the **tape** and find any character that is NOT `a` AND then **save** that character into a variable **x**. **x** is stored elsewhere but its a variable just like in programming. So it can be referenced and used later on.
 - For the second one, we're just saying that we can transition from $M_{1}$ to $M_{2}$ by either **reading** an `a` or a `b` from the **tape** and then **saving** that character into a variable **x**.
-- For the third one, we are checking if the character stored in a variable **x** is the same character stored in another variable **y**. If they are the same, then we take the transition 
+- For the third one, we are checking if the character stored in a variable **x** is the same character stored in another variable **y**. If they are the same, then we take the transition and from $M_{1}$ to $M_{2}$.
+
+Example: $> \xrightarrow{\neg \Box}\text{Rx}$
+
+
 
 ### Some Useful Machines
 
