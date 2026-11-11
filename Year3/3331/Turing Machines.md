@@ -196,4 +196,7 @@ Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
 This means that M **decides** a language L $\subseteq \Sigma^{*}$ iff:
 - For any string w $\in \Sigma^{*}$ it is true that:
-	- if w $\in$ L then 
+	- if w $\in$ L then M accepts w, and
+	- if w $\in$ L then M rejects w.
+
+So we can say that a Language L is **decidable** iff there is a Turning Machine M that **decides** it.
