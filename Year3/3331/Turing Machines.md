@@ -18,5 +18,8 @@ Turing Machines span two sets, those being **Decidable** (D) and **Semi-Decidabl
 A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
 - K is a finite set of **states**
 - $\Sigma$ is the **input alphabet**, which does not contain $\Box$ (Blank)
-- $\Gamma$ is the **tape alphabet**, which must contain $\Box$ and have $\Sigma$ as a subset.
-- s 
+- $\Gamma$ is the **tape alphabet**, which must contain $\Box$ and have $\Sigma$ as a subset
+- s $\in$ K is the **initial state**
+- H $\subseteq$ K is the set of **halting states**
+- $\delta$ is the **transition function**
+
