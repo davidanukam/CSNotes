@@ -279,3 +279,6 @@ Here's a quick example:
 
 ## Not All Functions Are Computable
 
+![[Pasted image 20261111175857.png]]
+
+To explain this bre
