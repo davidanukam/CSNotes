@@ -176,3 +176,5 @@ To describe it as best as I can:
 			- Then go back to (2)
 		- Otherwise, if the character you are at is a $\Box$ then:
 			- go to the **halt state** and HALT (stop)
+
+Here's another example called a Shifting Machine
