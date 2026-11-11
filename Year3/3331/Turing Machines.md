@@ -191,5 +191,7 @@ As convention:
 
 Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
-- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{y}$, $\text{w'}$) for some string w'
-- M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ (y, w') for some string w'
+- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
+- M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $|-_{M}^{*}$ ($\text{n}$, $\text{w}$') for some string w'
+
+This means that 
