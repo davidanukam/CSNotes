@@ -79,4 +79,6 @@ If we consider M =
 
 Well, **clearly** we have an **epsilon transition** from state 1 to state 2 and another one from state 2 BACK to state 1 (so technically a loop). This means it can `loop infinitely` and therefore NEVER halt.
 
-However, there exists an algorithm to construct an **equivalent** PDA M' that IS guaranteed to halt.
+However, there exists an algorithm to construct an **equivalent** PDA M' that IS guaranteed to halt. What is it? I'll get back to that when I figure it out 😭
+
+- Lastly, a TM M, on input w, is NOT guaranteed to
