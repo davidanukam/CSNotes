@@ -25,3 +25,5 @@ A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
 
 ![[Pasted image 20261111145118.png]]
 
+Some things to note:
+- The input tape is infinite in both directions)
