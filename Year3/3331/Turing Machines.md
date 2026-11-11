@@ -243,4 +243,3 @@ So then, putting on our thinking caps, how could we make another TM M' that **de
 
 Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts after rejecting.
 
-
