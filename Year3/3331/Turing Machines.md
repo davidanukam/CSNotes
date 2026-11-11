@@ -281,7 +281,7 @@ Here's a quick example:
 
 ![[Pasted image 20261111175857.png]]
 
-To explain this briefly, since it probably won't ever be tested, these **bust beaver functions** are the fastest growing functions out there.
+To explain this briefly, since it probably won't ever be tested, these **busy beaver functions** are the fastest growing functions out there.
 
 We know:
 - $f(x) = x$
@@ -291,4 +291,6 @@ We know:
 - $f(x) = {x!}^{x!}$
 - etc...
 
-Well, $f(x) = {x!}^{x!}$ grows really, really, really fast, but 
+Well, $f(x) = {x!}^{x!}$ grows really, really, really fast, but guess what? Not as fast as the BBFs!
+
+Basically, lets say we have 1 state in a TM. If we find 
