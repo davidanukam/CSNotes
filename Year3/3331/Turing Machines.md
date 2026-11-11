@@ -70,4 +70,8 @@ When we say looping infinitely, we mean that there is an **epsilon loop** (so no
 
 In a FSM, when we have a trap state, we are saying that once we reach this state, any other characters being read from our input string should remain on this state. So if our string is 10 characters long and we reach the trap state on character 4, then we read the last 6 characters but stay on the trap state and finally `not accept` the string. THIS STILL COUNTS AS HALTING!
 
-- A DFSM M, on input w, is **guaranteed** to halt in |w| steps (because of what I just said above. No matter what, accepting or rejecting, we consume all input reagt)
+- A DFSM M, on input w, is **guaranteed** to halt in |w| steps (because of what I just said above. No matter what, accepting or rejecting, we consume all input regardless so it halts.)
+- On the other hand, A PDA M, on input w, is NOT guaranteed to halt at all. WHY? Here's an example:
+
+![[Pasted image 20261111152016.png]]
+
