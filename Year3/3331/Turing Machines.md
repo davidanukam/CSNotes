@@ -101,4 +101,5 @@ Machines that simply halt:
 - **n**: **rejects** and then halts
 - **y**: **accepts** and then halts
 
-### Checking inputs and
+### Checking Inputs and Combinng Machines
+
