@@ -266,4 +266,9 @@ An example makes this easier to understand:
 For any positive integer k, $\text{value}_{k}(n)$ returns the nonnegative integer that is encoded, base k, by the string $n$
 
 For example:
-- 
+- $\text{value}_{2}(101)$ = 5
+- $\text{value}_{8}(101)$ = 65
+
+TM M computes a function $f$ from $\mathbb{N}^{m}$ to $\mathbb{N}$ iff, for some k:
+
+$$
