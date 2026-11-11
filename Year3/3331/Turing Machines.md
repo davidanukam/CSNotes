@@ -143,7 +143,12 @@ Example: $> \xrightarrow{\neg \Box}\text{Rx}$
 
 ![[Pasted image 20261111160308.png]]
 
-Looking at the simplified RED 
+Looking at the simplified RED machines:
+
+- $R_{\Box}$: Go **Right** until you find a $\Box$.
+- $R_{\Box}$: Go **Left** until you find a $\Box$.
+- $R_{\neg \Box}$: Go **Right** until you find a $\Box$.
+- $R_{\neg \Box}$: Go **Left** until you find a $\Box$.
 ### Some More Useful Machines
 
 ![[Pasted image 20261111160331.png]]
