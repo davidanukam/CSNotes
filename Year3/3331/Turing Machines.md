@@ -122,4 +122,14 @@ Alright, lets see an example:
 - Then examine the **tape** and take the appropriate **transition** (`a` or `b`).
 - We then start at the **initial (start) state** of the next machine (here its either $M_{2}$ or $M_{3}$).
 - Again, we have to **halt** if any component reaches a **halt state** and hos no place to go.
-- However, if **ANY** component FAILS TO HALT, then the entire machine MAY fail to halt.
+- However, if **ANY** component **FAILS TO HALT**, then the **ENTIRE** machine **MAY** fail to halt.
+
+### Some Shorthands
+
+![[Pasted image 20261111160250.png]]
+
+### Some Useful Machines
+
+![[Pasted image 20261111160308.png]]
+
+### S
