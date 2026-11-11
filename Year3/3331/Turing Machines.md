@@ -111,4 +111,7 @@ To do this, we need two forms:
 - $M_{1}M_{2}$:
 	- Begin in start state of $M_{1}$, run $M_{1}$ until it halts, begin $M_{2}$ in its start state, run $M_{2}$ until it halts, then halt the entire machine. If EITHER FAIL TO HALT, then $M_{1}M_{2}$ fails to halt (the entire machine fails to halt).
 - $M_{1} \xrightarrow{\text{<condition>}} M_{2}$
-	- The same as the $M_{1}M_{2}$ form abo
+	- The same as the $M_{1}M_{2}$ form above, except that `<condition>` is checked to move from $M_{1}$ to $M_{2}$.
+
+Alright, lets see an example:
+
