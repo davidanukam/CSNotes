@@ -90,4 +90,4 @@ Okay lets speed run this. From this point onwards, I want you to think of Turing
 ### Basic machines
 
 Symbol writing machines:
-- For each $x \in \Gamme$
+- For each $\textbf{x} \in \Gamma$, define $M_{x}$, written as just **x**, to be a machine that writes **x**, then halts.
