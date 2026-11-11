@@ -5,4 +5,6 @@
 3. [Cache Implementations](Cache%20Implementations.md)
 4. [Synchronous Circuits - Prelude](Synchronous%20Circuits%20-%20Prelude.md)
 5. [Synchronous Circuits - Part 1](Synchronous%20Circuits%20-%20Part%201.md)
-6. []()
+
+## Chapter 4
+1. [Pipelining (Part 1)]()
