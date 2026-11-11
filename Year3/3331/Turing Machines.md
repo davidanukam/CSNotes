@@ -156,10 +156,10 @@ Okay so here's an example:
 
 ![[Pasted image 20261111162456.png]]
 
-To describe it as quick as I can:
+To describe it as best as I can:
 
 - (1) Start at "**>**" and go Right until you find a `1` or a $\Box$.
-- Once you are are at a `1` or a $\Box$, then:
+- Once you are are at a `1` or a $\Box$ then:
 	- If the character you are at is a `1` then:
 		- (over)**write** the `1` on the tape with a `#`
 		- Go Right until you find a $\Box$
@@ -174,4 +174,4 @@ To describe it as quick as I can:
 			- (over)**write** the `#` on the tape with a `1`
 			- Then go back to (2)
 		- Otherwise, if the character you are at is a $\Box$ then:
-		- 
+			- go to the **halt state** and HALT (stop)
