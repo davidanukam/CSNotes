@@ -10,8 +10,7 @@
 2. [Synchronous Circuits - Part 1](Synchronous%20Circuits%20-%20Part%201.md)
 
 ## Chapter 3 - CPU Control and Datapath
-Comming S
-
+Coming Soon
 
 ## Chapter 4 - Instruction-Level Parallelism
 1. [Pipelining (Part 1)](ch4%20-%20Instruction-Level%20Parallelism/Part%201%20-%20Pipelining.md)

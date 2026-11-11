@@ -14,17 +14,27 @@ export type Heading = {
 };
 
 export type NoteMeta = {
+  kind: "note";
   title: string;
   slug: string;
   fileName: string;
 };
+
+export type FolderMeta = {
+  kind: "folder";
+  title: string;
+  slug: string;
+  entries: DirEntry[];
+};
+
+export type DirEntry = NoteMeta | FolderMeta;
 
 export type CourseMeta = {
   year: string;
   folder: string;
   code: string;
   title: string;
-  notes: NoteMeta[];
+  entries: DirEntry[];
   comingSoon: boolean;
 };
 
@@ -73,33 +83,105 @@ function parseCourseTitle(markdown: string, fallbackCode: string): { code: strin
   return { code: fallbackCode, title: heading };
 }
 
-function parseNoteLinks(markdown: string): NoteMeta[] {
-  const notes: NoteMeta[] = [];
+function fileSlug(fileName: string): string {
+  return fileName.replace(/\.md$/i, "");
+}
+
+function noteRelPath(raw: string): string | undefined {
+  const trimmed = raw.trim().split(/[?#]/)[0]?.replace(/\\/g, "/") ?? "";
+  if (!trimmed || /^(https?:|mailto:|data:)/i.test(trimmed) || trimmed.startsWith("/")) return undefined;
+  let decoded = trimmed;
+  try {
+    decoded = decodeURIComponent(trimmed);
+  } catch {
+    decoded = trimmed;
+  }
+  decoded = decoded.replace(/^\.\//, "");
+  if (!decoded || decoded.split("/").includes("..") || !decoded.toLowerCase().endsWith(".md")) return undefined;
+  return decoded.replace(/\.md$/i, "");
+}
+
+function parseNoteLinks(markdown: string): Array<{ title: string; relPath: string }> {
+  const notes: Array<{ title: string; relPath: string }> = [];
   const re = /\[([^\]]+)\]\(([^)]+\.md)\)/gi;
   for (const match of markdown.matchAll(re)) {
-    const title = match[1].trim();
-    const fileName = decodeURIComponent(match[2].split("/").pop() ?? match[2]);
-    const slug = fileName.replace(/\.md$/i, "");
-    notes.push({ title, slug, fileName });
+    const relPath = noteRelPath(match[2]);
+    if (!relPath) continue;
+    notes.push({ title: match[1].trim(), relPath });
   }
   return notes;
 }
 
-function mergeNotes(listed: NoteMeta[], onDisk: NoteMeta[]): NoteMeta[] {
-  const seen = new Set(listed.map((note) => note.slug.toLowerCase()));
-  const extras = onDisk.filter((note) => !seen.has(note.slug.toLowerCase()));
-  return [...listed, ...extras];
+function childTitles(titles: Map<string, string>, folderName: string): Map<string, string> {
+  const prefix = `${folderName.toLowerCase()}/`;
+  const next = new Map<string, string>();
+  for (const [key, title] of titles) {
+    if (key.startsWith(prefix)) next.set(key.slice(prefix.length), title);
+  }
+  return next;
 }
 
-function notesFromFolder(courseDir: string): NoteMeta[] {
-  return readdirSync(courseDir)
-    .filter((name) => name.endsWith(".md") && name.toLowerCase() !== "readme.md")
-    .sort((a, b) => a.localeCompare(b))
-    .map((fileName) => ({
-      title: fileName.replace(/\.md$/i, ""),
-      slug: fileName.replace(/\.md$/i, ""),
+function containsNote(entries: DirEntry[]): boolean {
+  return entries.some((entry) => entry.kind === "note" || containsNote(entry.entries));
+}
+
+function readEntries(dir: string, inherited: Map<string, string>): DirEntry[] {
+  const readmePath = join(dir, "README.md");
+  const readme = existsSync(readmePath) ? readFileSync(readmePath, "utf8") : "";
+  const titles = new Map(inherited);
+  const listed: string[] = [];
+  for (const link of parseNoteLinks(readme)) {
+    const key = link.relPath.toLowerCase();
+    titles.set(key, link.title);
+    if (!key.includes("/")) listed.push(key);
+  }
+
+  const fileBySlug = new Map<string, string>();
+  const folderNames: string[] = [];
+  for (const name of readdirSync(dir)) {
+    if (name.startsWith(".")) continue;
+    const full = join(dir, name);
+    if (statSync(full).isDirectory()) {
+      if (SKIP.has(name)) continue;
+      folderNames.push(name);
+      continue;
+    }
+    if (name.toLowerCase().endsWith(".md") && name.toLowerCase() !== "readme.md") {
+      fileBySlug.set(fileSlug(name).toLowerCase(), name);
+    }
+  }
+
+  const notes: NoteMeta[] = [];
+  const seen = new Set<string>();
+  const take = (key: string) => {
+    const fileName = fileBySlug.get(key);
+    if (!fileName || seen.has(key)) return;
+    seen.add(key);
+    const slug = fileSlug(fileName);
+    notes.push({
+      kind: "note",
+      title: titles.get(key) ?? slug,
+      slug,
       fileName,
-    }));
+    });
+  };
+
+  for (const key of listed) take(key);
+  for (const key of inherited.keys()) {
+    if (!key.includes("/")) take(key);
+  }
+  for (const fileName of [...fileBySlug.values()].sort((a, b) => a.localeCompare(b))) {
+    take(fileSlug(fileName).toLowerCase());
+  }
+
+  const folders: FolderMeta[] = [];
+  for (const name of folderNames.sort((a, b) => a.localeCompare(b))) {
+    const entries = readEntries(join(dir, name), childTitles(titles, name));
+    if (!containsNote(entries)) continue;
+    folders.push({ kind: "folder", title: name, slug: name, entries });
+  }
+
+  return [...notes, ...folders];
 }
 
 export const getYears = cache(function getYears(): YearMeta[] {
@@ -118,17 +200,16 @@ export const getYears = cache(function getYears(): YearMeta[] {
       const { code, title } = readme
         ? parseCourseTitle(readme, entry)
         : { code: entry, title: "Coming Soon" };
-      const listed = readme ? parseNoteLinks(readme) : [];
-      const onDisk = notesFromFolder(courseDir);
-      const notes = mergeNotes(listed, onDisk);
+      const entries = readEntries(courseDir, new Map());
+      const hasNotes = containsNote(entries);
 
       courses.push({
         year: slug,
         folder: entry,
         code,
-        title: notes.length === 0 && !readme ? "Coming Soon" : title,
-        notes,
-        comingSoon: notes.length === 0,
+        title: !hasNotes && !readme ? "Coming Soon" : title,
+        entries,
+        comingSoon: !hasNotes,
       });
     }
 
@@ -174,16 +255,13 @@ export const getSearchIndex = cache(function getSearchIndex(): SearchEntry[] {
         context: `${year.slug} ${year.label}`,
       });
 
-      for (const note of course.notes) {
-        entries.push({
-          kind: "page",
-          href: hrefFor(year.slug, course.folder, note.slug),
-          path: `${coursePath}/${note.title}`,
-          label: "",
-          names: [note.title],
-          context: `${year.slug} ${year.label} ${course.folder} ${course.code}`,
-        });
-      }
+      addSearchTree(
+        course.entries,
+        [year.slug, course.folder],
+        [year.slug, course.folder],
+        `${year.slug} ${year.label} ${course.folder} ${course.code}`,
+        entries,
+      );
     }
   }
 
@@ -221,34 +299,108 @@ export function getCourse(yearSlug: string, courseCode: string): CourseMeta | un
   );
 }
 
-export function getNoteFile(
+export type CourseLocation =
+  | {
+      kind: "folder";
+      course: CourseMeta;
+      title: string;
+      entries: DirEntry[];
+      parentHref: string;
+      segments: string[];
+    }
+  | {
+      kind: "note";
+      course: CourseMeta;
+      meta: NoteMeta;
+      markdown: string;
+      relDir: string;
+      parentHref: string;
+    };
+
+function addSearchTree(
+  items: DirEntry[],
+  hrefParts: string[],
+  pathParts: string[],
+  context: string,
+  out: SearchEntry[],
+) {
+  for (const item of items) {
+    const nextHref = [...hrefParts, item.slug];
+    const nextPath = [...pathParts, item.title];
+    const path = `/${nextPath.join("/")}`;
+    if (item.kind === "folder") {
+      out.push({
+        kind: "folder",
+        href: hrefFor(...nextHref),
+        path,
+        label: "",
+        names: [item.title],
+        context,
+      });
+      addSearchTree(item.entries, nextHref, nextPath, `${context} ${item.title}`, out);
+      continue;
+    }
+    out.push({
+      kind: "page",
+      href: hrefFor(...nextHref),
+      path,
+      label: "",
+      names: [item.title],
+      context,
+    });
+  }
+}
+
+export function resolveCourseEntry(
   yearSlug: string,
   courseCode: string,
-  noteSlug: string,
-): { meta: NoteMeta; course: CourseMeta; markdown: string; relDir: string } | undefined {
+  segments: string[],
+): CourseLocation | undefined {
   const course = getCourse(yearSlug, courseCode);
   const year = matchYearSlug(yearSlug);
-  if (!course || !year) return undefined;
+  if (!course || !year || segments.length === 0) return undefined;
 
-  const want = decodeParam(noteSlug).replace(/\.md$/i, "");
-  const yearDir = yearRoot(year);
-  const courseDir = join(yearDir, course.folder);
-  const meta =
-    course.notes.find((note) => sameName(note.slug, want) || sameName(note.fileName, want)) ??
-    notesFromFolder(courseDir).find(
-      (note) => sameName(note.slug, want) || sameName(note.fileName, want),
+  let items = course.entries;
+  const folderSlugs: string[] = [];
+
+  for (let index = 0; index < segments.length; index++) {
+    const want = segments[index];
+    const entry = items.find(
+      (item) => sameName(item.slug, want) || (item.kind === "note" && sameName(item.fileName, want)),
     );
-  if (!meta) return undefined;
+    if (!entry) return undefined;
 
-  const filePath = join(courseDir, meta.fileName);
-  if (!existsSync(filePath)) return undefined;
+    const parentHref = hrefFor(year, course.folder, ...folderSlugs);
+    if (entry.kind === "folder") {
+      if (index === segments.length - 1) {
+        return {
+          kind: "folder",
+          course,
+          title: entry.title,
+          entries: entry.entries,
+          parentHref,
+          segments: [...folderSlugs, entry.slug],
+        };
+      }
+      folderSlugs.push(entry.slug);
+      items = entry.entries;
+      continue;
+    }
 
-  return {
-    meta,
-    course,
-    markdown: readFileSync(filePath, "utf8"),
-    relDir: `/${year}/${course.folder}`,
-  };
+    if (index !== segments.length - 1) return undefined;
+    const filePath = join(yearRoot(year), course.folder, ...folderSlugs, entry.fileName);
+    if (!existsSync(filePath)) return undefined;
+    return {
+      kind: "note",
+      course,
+      meta: entry,
+      markdown: readFileSync(filePath, "utf8"),
+      relDir: `/${[year, course.folder, ...folderSlugs].join("/")}`,
+      parentHref,
+    };
+  }
+
+  return undefined;
 }
 
 export function hrefFor(...parts: string[]): string {

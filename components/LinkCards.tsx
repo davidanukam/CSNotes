@@ -1,5 +1,6 @@
-import type { CourseMeta, NoteMeta, YearMeta } from "@/lib/content";
+import type { CourseMeta, DirEntry, YearMeta } from "@/lib/content";
 import { hrefFor } from "@/lib/content";
+import { EntryKindIcon } from "@/components/KindIcon";
 
 export function YearCardGrid({ years }: { years: YearMeta[] }) {
   return (
@@ -10,6 +11,7 @@ export function YearCardGrid({ years }: { years: YearMeta[] }) {
             href={hrefFor(year.slug)}
             className={`entry-card year-card${year.comingSoon ? " muted" : ""}`}
           >
+            <EntryKindIcon kind="folder" />
             <span className="entry-card-title">{year.label}</span>
           </a>
         </li>
@@ -33,6 +35,7 @@ export function CourseCardGrid({
             href={hrefFor(yearSlug, course.folder)}
             className={`entry-card${course.comingSoon ? " muted" : ""}`}
           >
+            <EntryKindIcon kind="folder" />
             <span className="entry-card-code">{course.code}</span>
             <span className="entry-card-title">
               {course.comingSoon ? "Coming Soon" : course.title}
