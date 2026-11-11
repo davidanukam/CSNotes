@@ -239,7 +239,7 @@ If you follow the TM, you can see that if the input string w does NOT have an `a
 
 So then, putting on our thinking caps, how could we make another TM M' that **decides** L?
 
-![[Pasted image 20261111172430.png]]
+![SemiDecidableExample2](assets/SemiDecidableExample2.png)
 
 Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts after rejecting.
 
