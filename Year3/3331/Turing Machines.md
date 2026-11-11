@@ -187,4 +187,6 @@ Try going through and figuring out how this TM works.
 
 As convention:
 - We will write the input on the tape as: $\Box \text{w} \Box$, where $\text{w}$ contains no $\Box$'s.
-- Thus, the initial configuration of M will be:
+- Thus, the initial configuration of M will be: (s, $\underline{\Box}\text{w}$)
+
+Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, ${}$)
