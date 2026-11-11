@@ -297,4 +297,6 @@ Basically, lets say we have 1 state in a TM. If we find EVERY TM with 1 state an
 
 If we take that `n` steps and say that we have a TM with `n` states, then we can repeat by taking EVERY TM with `n` states and finding the machine that **produces** the most number of steps when run on the same input tape.
 
-This grows faster than ka-chow! (Cool ig).
+This grows faster than ka-chow!
+
+😐
