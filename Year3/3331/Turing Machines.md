@@ -93,4 +93,10 @@ Symbol writing machines:
 - For each $\textbf{x} \in \Gamma$, define $M_{\textbf{x}}$, written as just **x**, to be a machine that writes **x**, then halts.
 
 Head moving machines:
-- R: for each $\textbf{x} \in \Gamma, \delta(s, \textbf{x}) = (s, \textbf{s})$
+- R: for each $\textbf{x} \in \Gamma, \delta(s, \textbf{x}) = (s, \textbf{x}, \rightarrow)$
+- L: for each $\textbf{x} \in \Gamma, \delta(s, \textbf{x}) = (s, \textbf{x}, \leftarrow)$
+
+Machines that simply halt:
+- h: just halts
+- n: **rejects** and then halts
+- y: **accepts** and then halts
