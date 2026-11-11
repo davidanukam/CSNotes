@@ -4,7 +4,7 @@ So we know that **Regular Languages** (FSMs, Regular Expressions) $\subseteq$ **
 
 Well, guess what? **Turing Machines** now cover everything. So now we have, **Regular Languages** (FSMs, Regular Expressions) $\subseteq$ **Context-Free Languages** (CFGs, PDAs) $\subseteq$ **Turing Machines** (Unrestricted Grammars, D, SD). So every Regular Language IS a Context-Free Language AND every Context-Free Language IS a Turing Machine.
 
-![[Pasted image 20261111144032.png]]
+![AllLanguages](assets/AllLanguages.png)
 
 Review:
 - FSMs = Finite State Machines
@@ -23,7 +23,7 @@ A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
 - H $\subseteq$ K is the set of **halting states**
 - $\delta$ is the **transition function**
 
-![[Pasted image 20261111145118.png]]
+![TuringMachineFormalDefinition](assets/TuringMachineFormalDefinition.png)
 
 Some things to note:
 - The input tape is infinite in both directions
