@@ -52,8 +52,10 @@ Here is a Turing machine M that will do what we said above:
 
 ![[Pasted image 20261111150106.png]]
 
-Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** in direction `c`.
+Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** the tape head (the $\uparrow$ in) in direction `c`.
 
-For example, take the first transition from state 1 to state 2. We **read** $\Box$ (Blank) from the tape, then we **write** $\Box$ (Blank) to the tape (at the same position we just read from), then lastly, we **move** $\rightarrow$ (right, duh). In proper notation, it would be:
+For example, take the first transition from state 1 to state 2. We **read** $\Box$ (Blank) from the tape, then we **write** $\Box$ (Blank) to the tape (at the same position we just read from), then lastly, we **move** the tape head $\rightarrow$ (right, duh). In proper notation, it would be:
 
 $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
+
+sd
