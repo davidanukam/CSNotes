@@ -77,4 +77,6 @@ If we consider M =
 
 ![[Pasted image 20261111152016.png]]
 
-Well, **clearly** we have an **epsilon transition** from state 1 to state 2 and another one from state 2 **BACK** to state 1 (so technically a loop). This means it can `loop infinitely`
+Well, **clearly** we have an **epsilon transition** from state 1 to state 2 and another one from state 2 BACK to state 1 (so technically a loop). This means it can `loop infinitely` and therefore NEVER halt.
+
+However, there exists an algorithm to construct an **equivalent** PDA M' that IS guaranteed to halt.
