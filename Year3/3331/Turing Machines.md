@@ -85,4 +85,4 @@ However, there exists an algorithm to construct an **equivalent** PDA M' that IS
 
 ## Notation for Turing Machines
 
-Okay lets speed run this. From this point Turing macines
+Okay lets speed run this. From this point onwards, I want you to think of Turing machines as a group of some basic machines. Kind of like the phone you keep being distracted by instead of locking in. Its made up of a bunch of little "machines" 
