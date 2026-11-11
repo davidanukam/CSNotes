@@ -161,6 +161,7 @@ To describe it as quick as I can:
 - Start at "**>**" and go Right until you find a `1` or a $\Box$.
 	- Once you are are at a `1` or a $\Box$, then:
 		- If the character you are at is a `1` do:
-			- **write**/overwrite that 
+			- (over)**write** the `1` on the tape with a `#`.
+			- Go Right until you find a $\Box$.
 		- Otherwise, if the character you are at is a $\Box$, then:
 			- 
