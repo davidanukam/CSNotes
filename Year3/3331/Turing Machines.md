@@ -263,4 +263,7 @@ An example makes this easier to understand:
 
 ## Computing Numeric Functions
 
-Lets say w
+For any positive integer k, $\text{value}_{k}(n)$ returns the nonnegative integer that is encoded, base k, by the string $n$
+
+For example:
+- 
