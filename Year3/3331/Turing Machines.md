@@ -259,7 +259,7 @@ A **function $f$** is **recursive** or **computable** iff there is a Turing mach
 
 An example makes this easier to understand:
 
-![[Pasted image 20261111174908.png]]
+![ComputingFunctions](assets/ComputingFunctions.png)
 
 ## Computing Numeric Functions
 
