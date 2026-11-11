@@ -245,6 +245,7 @@ Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state whi
 
 ## Computing Functions
 
-Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{h\rbrace}$). Its in
+Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{\text{h}\rbrace}$). Its initial configuration is (s, $\underline{\Box}\text{w}$).
 
 Define $M(\text{w}) = \text{z}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{h}$, $\underline{\Box}$$\text{z}$)
+
