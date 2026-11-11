@@ -40,17 +40,17 @@ and adds `b`'s as required to make the number of `b`'s equal the number of `a`'s
 
 Well, the input to M would look something like this:
 
-![[Pasted image 20261111145923.png]]
+![InputTapeExample](assets/InputTapeExample.png)
 
 And the output should be:
 
-![[Pasted image 20261111145929.png]]
+![OutputTapeExample](assets/OutputTapeExample.png)
 
 Well, hold your breath, cause this is gonna hurt.
 
 Here is a Turing machine M that will do what we said above:
 
-![FullTuringMachineExample](ass)
+![FullTuringMachineExample](assets/FullTuringMachineExample.png)
 
 Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** the `tape head` (the $\uparrow$ in the two pictures above) in direction `c`.
 
