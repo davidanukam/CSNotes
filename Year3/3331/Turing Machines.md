@@ -245,15 +245,15 @@ Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state whi
 
 ## Computing Functions
 
-Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{h\rbrace}$). Its initial configuration is (s, $\underline{\Box}\text{w}$).
+Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{h\rbrace}$). Its initial configuration is (s, $\underline{\Box}$w).
 
-Define $M(w) = z$ iff (s, $\underline{\Box}w$) $(|-_{M})^{*}$ ($h$, $\underline{\Box}w$).
+Define M(w) = z **iff** (s, $\underline{\Box}$w) $(|-_{M})^{*}$ (h, $\underline{\Box}$w).
 
 Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the **set of symbols** that M **MAY** leave on its **tape** when it **halts**)
 
 Let $f$ be any function from $\Sigma^{*}$ to $\Sigma'^{*}$
 
-M computes $f$ iff for all $\text{w} \in \Sigma^{*}$, M(w) = f(w).
+M computes $f$ iff for **all** w $\in \Sigma^{*}$, M(w) = f(w).
 
 A function $f$ is **recursive** or **computable** iff there is a Turing machine m that computes it.
 
