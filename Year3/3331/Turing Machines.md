@@ -203,4 +203,4 @@ So we can say that a Language L is **decidable** iff there is a Turning Machine 
 
 Here's an example:
 
-From Context-Free Lanuga
+From the Context-Free Languages notes, we know that $A^{n}B^{n}C^{n} = \lbrace{a^{n}b^{n}c^{n} : n \ge 0\rbrace}$
