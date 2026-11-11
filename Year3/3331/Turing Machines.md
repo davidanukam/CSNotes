@@ -60,11 +60,6 @@ $$\delta(1, \Box) = (2, \Box, \rightarrow)$$
 
 ## Halting
 
-Okay so `halting` is a little different than `not accepting`.
+Okay so to make this a one liner: "Haling means that a machine finishes its computation and stops running."
 
-The way we want to think about halting is that it can mean 1 of 3 things:
-- We are at an **accepting state**
-- We are at a **rejecting state**
-- We are at a **trap state**
-
-Now, I know you're thinking "but those are the "
+Basically, think of a FSM, with an **final accepting state**. It o
