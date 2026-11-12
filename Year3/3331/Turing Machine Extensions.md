@@ -22,4 +22,5 @@ The **transition function** for a **k-tape** Turing machine:
 
 To simply this absolute jargon, just think about how we transition on the basic TM.
 
-The `tape head` ($\uparrow$) is at some location on our tape and, for example, we check if the character at that location is the 
+The `tape head` ($\uparrow$) is at some location on our tape and, for example, we check if the character at that location is an `a`, if it is, then we go to another machine (not state since TMs are just large machines made from smaller machines).
+
