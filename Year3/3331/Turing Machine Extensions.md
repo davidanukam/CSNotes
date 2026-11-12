@@ -68,4 +68,6 @@ I ain't gonna explain this one fully cause you should understand how this works:
 
 Okay so now we have to (kinda) prove that even if we had like 10 ka-billion tapes, the "power" would not change. (Power here refers to...)
 
-Theorem: Let M be a **k-tape** Turing Machine for some
+Theorem: Let M be a **k-tape** Turing Machine for some k $\ge$ 1.
+- Then there is a standard TM M' where $\Sigma \subseteq \Sigma'$, and:
+	- On input x, M halts with output z on
