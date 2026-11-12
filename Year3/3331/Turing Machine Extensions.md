@@ -66,4 +66,5 @@ I ain't gonna explain this one fully cause you should understand how this works:
 
 ## Adding Tapes Adds No Power
 
-Okay so now we have to prove that even if we add 1 kagillion tapes, the 
+Okay so now we have to (kinda) prove that even if we had like 10 ka-billion tapes, the "power" would not change. (Power here refers to...)
+
