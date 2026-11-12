@@ -32,8 +32,10 @@ We could have tape1 have our input string w while tape2 just has $\Box$'s (Blank
 
 Then we could have the two `tape head`'s start at a location on their tape (in this case, we only care that tape1's `tape head` starts at the $\Box$ right before the input string).
 
-Then, we could go through the TM, using the simple machines from the last note, and every time we see a letter in the input string, we can **write** it on tape2.
+Then, we could go through the TM, using the simple machines from the last note, and every time we **read** a letter in the input string, we can **write** it on tape2.
 
 We can then return back to the start of the copied string on tape2 (since its `tape head` is independent).
 
-Then we can read the string again (this time on tape2) and while we are reading the characters, we can write them onto tape1 (notice that we did not reset tape1)
+Then we can **read** the string again (this time on tape2) and while we are **reading** the characters, we can **write** them onto tape1 (notice that we did NOT reset tape1's `tape head`).
+
+This allows us to produce a final output string ww
