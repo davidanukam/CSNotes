@@ -28,11 +28,11 @@ Well, since we have more tapes, we can treat each one separately, each with thei
 
 For example, lets say we wanted to copy a string `w (abba)`.
 
-We could have tape1 have our input string w while tape2 just has $\Box$'s (Blanks).
+[1] We could have tape1 have our input string w while tape2 just has $\Box$'s (Blanks).
 
 Then we could have the two `tape head`'s start at a location on their tape (in this case, we only care that tape1's `tape head` starts at the $\Box$ right before the input string).
 
-Then, we could go through the TM, using the simple machines from the last note, and every time we **read** a letter in the input string, we can **write** it on tape2.
+[2] Then, we could go through the TM, using the simple machines from the last note, and every time we **read** a letter in the input string, we can **write** it on tape2.
 
 We can then return back to the start of the copied string on tape2 (since its `tape head` is independent).
 
@@ -40,9 +40,13 @@ Then we can **read** the string again (this time on tape2) and while we are **re
 
 This allows us to produce a final output string `ww (abbaabba)`.
 
+[1]
 ![[Pasted image 20261111203718.png]]
 
+[2]
 ![[Pasted image 20261111203727.png]]
 
+[3]
 ![[Pasted image 20261111203736.png]]
 
+![[Pasted image 20261111203750.png]]
