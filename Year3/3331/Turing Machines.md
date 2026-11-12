@@ -247,7 +247,7 @@ Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state whi
 
 Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{h\rbrace}$). Its initial configuration is (s, $\underline{\Box}$w).
 
-Define M(w) = z **iff** (s, $\underline{\Box}$w) $(|-_{M})^{*}$ (h, $\underline{\Box}$w).
+Define M(w) = z **iff** (s, $\underline{\square}$w) $(|-_{M})^{*}$ (h, $\underline{\square}$w).
 
 Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the **set of symbols** that M **MAY** leave on its **tape** when it **halts**)
 
