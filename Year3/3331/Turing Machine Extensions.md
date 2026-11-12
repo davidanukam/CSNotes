@@ -34,11 +34,11 @@ Then we could have the two `tape head`'s start at a location on their tape (in t
 
 [2] Then, we could go through the TM, using the simple machines from the last note, and every time we **read** a letter in the input string, we can **write** it on tape2.
 
-We can then return back to the start of the copied string on tape2 (since its `tape head` is independent).
+[3] We can then return back to the start of the copied string on tape2 (since its `tape head` is independent).
 
 Then we can **read** the string again (this time on tape2) and while we are **reading** the characters, we can **write** them onto tape1 (notice that we did NOT reset tape1's `tape head`).
 
-This allows us to produce a final output string `ww (abbaabba)`.
+[4] This allows us to produce a final output string `ww (abbaabba)`.
 
 [1]
 ![[Pasted image 20261111203718.png]]
@@ -49,4 +49,11 @@ This allows us to produce a final output string `ww (abbaabba)`.
 [3]
 ![[Pasted image 20261111203736.png]]
 
+[4]
 ![[Pasted image 20261111203750.png]]
+
+Another given Two Tape example is **Addition**:
+
+![[Pasted image 20261111203933.png]]
+
+I ain't gonna explain this one cause you should understand the
