@@ -17,8 +17,8 @@ Turing Machines span two sets, those being **Decidable** (D) and **Semi-Decidabl
 
 A Turing Machine M is a sextuple (K, $\Sigma$, $\Gamma$, $\delta$, s, H):
 - K is a finite set of **states**
-- $\Sigma$ is the **input alphabet**, which does not contain $\Box$ (Blank)
-- $\Gamma$ is the **tape alphabet**, which must contain $\Box$ and have $\Sigma$ as a subset
+- $\Sigma$ is the **input alphabet**, which does not contain $\square$ (Blank)
+- $\Gamma$ is the **tape alphabet**, which must contain $\square$ and have $\Sigma$ as a subset
 - s $\in$ K is the **initial state**
 - H $\subseteq$ K is the set of **halting states**
 - $\delta$ is the **transition function**
@@ -54,9 +54,9 @@ Here is a Turing machine M that will do what we said above:
 
 Kind of like PDAs, we have the transition format `a`/`b`/`c` where we **read** `a` from the tape, then **write** `b` on the tape before **moving** the `tape head` (the $\uparrow$ in the two pictures above) in direction `c`.
 
-For example, take the first transition from state 1 to state 2. We **read** $\Box$ (Blank) from the tape, then we **write** $\Box$ (Blank) to the tape (at the same position we just read from), then lastly, we **move** the `tape head` $\rightarrow$ (right, duh). In proper notation, it would be:
+For example, take the first transition from state 1 to state 2. We **read** $\square$ (Blank) from the tape, then we **write** $\square$ (Blank) to the tape (at the same position we just read from), then lastly, we **move** the `tape head` $\rightarrow$ (right, duh). In proper notation, it would be:
 
-$$\delta(1, \Box) = (2, \Box, \rightarrow)$$
+$$\delta(1, \square) = (2, \square, \rightarrow)$$
 
 ## Halting
 
@@ -135,7 +135,7 @@ I'll explain the **Variables**:
 - For the second one, we're just saying that we can transition from $M_{1}$ to $M_{2}$ by either **reading** an `a` or a `b` from the **tape** and then **saving** that character into a variable **x**.
 - For the third one, we are checking if the character stored in a variable **x** is the same character stored in another variable **y**. If they are the same, then we take the transition and from $M_{1}$ to $M_{2}$.
 
-Example: $> \xrightarrow{\neg \Box}\text{Rx}$
+Example: $> \xrightarrow{\neg \square}\text{Rx}$
 - This means to start at "**>**" (the starting position of the **tape head**) and if the character there is NOT Blank, then store the character into a variable **x** and then **move** Right and **write** that stored character in **x** on the tape at the current tape head's position (so basically overwriting the next character on the tape).
 - So for example, $\underline{a}bbab, x = \text{None} \Rightarrow a\underline{b}bab, x = a \Rightarrow a\underline{a}bab$
 
@@ -144,10 +144,10 @@ Example: $> \xrightarrow{\neg \Box}\text{Rx}$
 ![SomeUsefulMachines](assets/SomeUsefulMachines.png)
 
 Looking at the simplified RED machines:
-- $R_{\Box}$: Go **Right** until you find a $\Box$.
-- $L_{\Box}$: Go **Left** until you find a $\Box$.
-- $R_{\neg \Box}$: Go **Right** until you find a character that is not $\Box$.
-- $L_{\neg \Box}$: Go **Left** until you find a character that is not $\Box$.
+- $R_{\square}$: Go **Right** until you find a $\square$.
+- $L_{\square}$: Go **Left** until you find a $\square$.
+- $R_{\neg \square}$: Go **Right** until you find a character that is not $\square$.
+- $L_{\neg \square}$: Go **Left** until you find a character that is not $\square$.
 ### Some More Useful Machines
 
 ![SomeMoreUsefulMachines](assets/SomeMoreUsefulMachines.png)
@@ -159,22 +159,22 @@ Okay so here's an example:
 To describe it as best as I can:
 
 - Start at "**>**"
-- (1) Go Right until you find a `1` or a $\Box$.
-- Once you are are at a `1` or a $\Box$ then:
+- (1) Go Right until you find a `1` or a $\square$.
+- Once you are are at a `1` or a $\square$ then:
 	- If the character you are at is a `1` then:
 		- (over)**write** the `1` on the tape with a `#`
-		- Go Right until you find a $\Box$
-		- (over)**write** the $\Box$ on the tape with a `#`
+		- Go Right until you find a $\square$
+		- (over)**write** the $\square$ on the tape with a `#`
 		- Go Right once
 		- (over)**write** the next **character** on the tape with a `#`
-		- Go Left until you find a $\Box$
+		- Go Left until you find a $\square$
 		- Then go back to (1)
-	- Otherwise, if the character you are at is a $\Box$, then:
+	- Otherwise, if the character you are at is a $\square$, then:
 		- (2) Go Left once
 		- If the character you are at is a `#` then:
 			- (over)**write** the `#` on the tape with a `1`
 			- Then go back to (2)
-		- Otherwise, if the character you are at is a $\Box$ then:
+		- Otherwise, if the character you are at is a $\square$ then:
 			- go to the **halt state** and HALT (stop)
 
 Here's another example called a **Shifting Machine**:
@@ -186,13 +186,13 @@ Try going through and figuring out how this TM works.
 ## Turing Machines as Language Recognizers
 
 As convention:
-- We will write the input $\text{w}$ on the tape as: $\Box \text{w} \Box$, where $\text{w}$ contains no $\Box$'s.
-- Thus, the initial configuration of M will be: (s, $\underline{\Box}\text{w}$)
+- We will write the input $\text{w}$ on the tape as: $\square \text{w} \square$, where $\text{w}$ contains no $\square$'s.
+- Thus, the initial configuration of M will be: (s, $\underline{\square}\text{w}$)
 
 Let M = (K, $\Sigma$, $\Gamma$, $\delta$, s, $\lbrace{y, n\rbrace}$)
 
-- M **accepts** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
-- M **rejects** a string $\text{w}$ iff (s, $\underline{\Box}\text{w}$) $(|-_{M})^{*}$ ($\text{n}$, $\text{w}$') for some string w'
+- M **accepts** a string $\text{w}$ iff (s, $\underline{\square}\text{w}$) $(\vdash_{M})^{*}$ ($\text{y}$, $\text{w}'$) for some string w'
+- M **rejects** a string $\text{w}$ iff (s, $\underline{\square}\text{w}$) $(\vdash_{M})^{*}$ ($\text{n}$, $\text{w}$') for some string w'
 - (Honestly, you can try and figure out what these mean formally but, I think you understand when a FSM, PDA, and TM accept and reject by now)
 
 ## Decidable Languages
@@ -241,7 +241,7 @@ So then, putting on our thinking caps, how could we make another TM M' that **de
 
 ![SemiDecidableExample2](assets/SemiDecidableExample2.png)
 
-Exactly! We can just add a $\Box$ (Blank) transition to a `n` (reject) state which automatically halts after rejecting.
+Exactly! We can just add a $\square$ (Blank) transition to a `n` (reject) state which automatically halts after rejecting.
 
 ## Computing Functions
 
