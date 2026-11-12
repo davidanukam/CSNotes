@@ -30,4 +30,6 @@ For example, lets say we wanted to copy a string.
 
 We could have tape1 have our input string w while tape2 just has $\Box$'s (Blanks).
 
-Then we could have the two `tape head`'s start at a location on their tape ()
+Then we could have the two `tape head`'s start at a location on their tape (in this case, we only care that tape1's `tape head` starts at the $\Box$ right before the input string).
+
+Then, we could go through the TM, using the simple machines from the last 
