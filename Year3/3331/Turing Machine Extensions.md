@@ -32,4 +32,6 @@ We could have tape1 have our input string w while tape2 just has $\Box$'s (Blank
 
 Then we could have the two `tape head`'s start at a location on their tape (in this case, we only care that tape1's `tape head` starts at the $\Box$ right before the input string).
 
-Then, we could go through the TM, using the simple machines from the last 
+Then, we could go through the TM, using the simple machines from the last note, and every time we see a letter in the input string, we can **write** it on tape2.
+
+We can then return back to the start of the 
