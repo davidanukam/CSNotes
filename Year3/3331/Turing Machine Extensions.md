@@ -62,4 +62,8 @@ I ain't gonna explain this one fully cause you should understand how this works:
 - Since addition starts from the furthest right digit and makes its way to the left-most digit, I think you get the picture.
 	- We can "add" the two characters located at both `tape head`'s by using a simple TM
 		- Maybe if tape_head_1 == `1` and tape_head_2 == `1` then write a `0`, if tape_head_1 == 0 and tape_head_2 == `1` then write a `1`
-	- I probably don't have to point this out, but we are wr
+	- I probably don't have to point this out, but we are writing the output string back on tape1.
+
+## Adding Tapes Adds No Power
+
+Okay so now we have to prove that even if we add 1 kagillion tapes, the 
