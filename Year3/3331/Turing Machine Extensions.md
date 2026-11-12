@@ -90,3 +90,4 @@ So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help tr
 
 Alright, really quickly, I'm gonna add some notes.
 
+So there's a slide that
