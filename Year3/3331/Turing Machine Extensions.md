@@ -14,10 +14,11 @@ So we know that in the **basic** Turing Machine model, there is only **ONE** inp
 
 Well, what if we wanted to use more than 1 tape?
 
-Not surprisingly, we can do so by re-defining what the transition function looks like.
+Not surprisingly, we can do so by re-defining what the **transition function** looks like.
 
-The transition function for a k-tape Turing machine:
+The **transition function** for a **k-tape** Turing machine:
 
 ![[Pasted image 20261111202439.png]]
 
-To simply this absolute jargon, just think 
+To simply this absolute jargon, just think about how we transition on the basic TM.
+
