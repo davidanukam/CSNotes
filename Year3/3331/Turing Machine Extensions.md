@@ -73,9 +73,9 @@ Theorem: Let M be a **k-tape** Turing Machine for some k $\ge$ 1.
 	- On input x, M **halts** with output z on the first tape iff M' halts in the **same state** with z on its tape.
 	- On input x, if M **halts** in **n** steps, M' halts in $O(n^2)$ steps.
 
-We can prove this with a Proof by Construction.
+We can prove this with a **Proof by Construction**.
 
-Since we don't care (it won't be tested at all), this is basically what we get:
+Since WE don't actually care (it won't be tested at all), this is basically what we get:
 
 ![[Pasted image 20261111205457.png]]
 
