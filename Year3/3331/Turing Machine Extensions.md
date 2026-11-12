@@ -58,4 +58,6 @@ Another given Two Tape example is **Addition**:
 
 I ain't gonna explain this one fully cause you should understand how this works:
 - Move both `tape head`'s to the Right but only copy the first number (in binary) to tape2. (the numbers are separated by a **;** on tape1).
-- Now both  `tape head`
+- Now both `tape head`'s are at the end of their respective numbers.
+- Since addition starts from the furthest right digit and makes its way to the left-most digit, I think you get the picture.
+- We can "add" the two characters located at
