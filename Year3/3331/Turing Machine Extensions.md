@@ -70,8 +70,8 @@ Okay so now we have to (kinda) prove that even if we had like 10 ka-billion tape
 
 Theorem: Let M be a **k-tape** Turing Machine for some k $\ge$ 1.
 - Then there is a standard TM M' where $\Sigma \subseteq \Sigma'$, and:
-	- On input x, M halts with output z on the first tape iff M' halts in the same state with z on its tape.
-	- On input x, if M halts in n steps, M' halts in $O(n^2)$ steps.
+	- On input x, M **halts** with output z on the first tape iff M' halts in the **same state** with z on its tape.
+	- On input x, if M **halts** in **n** steps, M' halts in $O(n^2)$ steps.
 
 We can prove this with a Proof by Construction.
 
@@ -79,9 +79,10 @@ Since we don't care (it won't be tested at all), this is basically what we get:
 
 ![[Pasted image 20261111205457.png]]
 
-Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one of the tracks the `tape head` of the tape above it.
+Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one of the 2 new tapes track the `tape head` of the tape above it.
 
 - So the **2nd tape** basically tracks the `tape head` of the **first tape**
 - and the **4th tape** is used to track the `tape head` of the **third tape**
 
 So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help track the location of the **k-tape-heads**
+
