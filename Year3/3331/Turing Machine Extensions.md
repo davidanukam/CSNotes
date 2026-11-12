@@ -79,9 +79,9 @@ Since we don't care (it won't be tested at all), this is basically what we get:
 
 ![[Pasted image 20261111205457.png]]
 
-Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one tracks the `tape head` of the tape above it.
+Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one of the tracks the `tape head` of the tape above it.
 
-- So the 2nd tape basically tracks the tape head of the first tape
-- and the 4th tape is used to track the tape head of the third tape
+- So the **2nd tape** basically tracks the `tape head` of the **first tape**
+- and the **4th tape** is used to track the `tape head` of the **third tape**
 
-So to generalize, if we have k-tapes
+So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help track the location of the **k-tape-heads**
