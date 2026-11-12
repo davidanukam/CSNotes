@@ -79,4 +79,6 @@ Since we don't care (it won't be tested at all), this is basically what we get:
 
 ![[Pasted image 20261111205457.png]]
 
-Essentially, we are saying that if we have 
+Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one tracks the `tape head` of the tape above it.
+
+So the 2nd tape 
