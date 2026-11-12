@@ -28,4 +28,6 @@ Well, since we have more tapes, we can treat each one separately, each with thei
 
 For example, lets say we wanted to copy a string.
 
-We could have tape1 be em
+We could have tape1 have our input string w while tape2 just has $\Box$'s (Blanks).
+
+Then we could have the two `tape head`'s start at a location on their tape ()
