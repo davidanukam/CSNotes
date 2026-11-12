@@ -251,7 +251,7 @@ Define M(w) = z **iff** (s, $\underline{\Box}$w) $(|-_{M})^{*}$ (h, $\underline{
 
 Let $\Sigma' \subseteq \Sigma$ be M's **output alphabet** (i.e., the **set of symbols** that M **MAY** leave on its **tape** when it **halts**)
 
-Let $f$ be any function from $\Sigma^{\star}$ to $\Sigma'^{\star}$
+Let $f$ be any function from $\Sigma^{\star}$ to $\Sigma^{\star}'$
 
 M **computes $f$** iff for **all** w $\in \Sigma^{*}$, M(w) = f(w).
 
