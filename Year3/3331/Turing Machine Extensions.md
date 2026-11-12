@@ -86,3 +86,7 @@ Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes 
 
 So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help track the location of the **k-tape-heads**
 
+## Nondeterministic Turing Machines
+
+Alright, really quickly, I'm gonna add that some notes.
+
