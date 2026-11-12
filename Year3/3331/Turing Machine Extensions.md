@@ -56,4 +56,5 @@ Another given Two Tape example is **Addition**:
 
 ![[Pasted image 20261111203933.png]]
 
-I ain't gonna explain this one cause you should understand the
+I ain't gonna explain this one fully cause you should understand how this works:
+- Move both `tape head`'s to the Right but only copy the
