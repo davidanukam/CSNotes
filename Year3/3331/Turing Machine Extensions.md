@@ -75,4 +75,8 @@ Theorem: Let M be a **k-tape** Turing Machine for some k $\ge$ 1.
 
 We can prove this with a Proof by Construction.
 
-Since we don't care, 
+Since we don't care (it won't be tested at all), this is basically what we get:
+
+![[Pasted image 20261111205457.png]]
+
+Essentially, we are saying that if we have 
