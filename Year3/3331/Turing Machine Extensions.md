@@ -10,4 +10,8 @@ We are going to talk about two possible extensions:
 
 ![[Pasted image 20261111202246.png]]
 
-So we know that in the 
+So we know that in the **basic** Turing Machine model, there is only **ONE** input tape where we **read**, and **write** to.
+
+Well, what if we wanted to use more than 1 tape?
+
+Not surprisingly, we can do so by just
