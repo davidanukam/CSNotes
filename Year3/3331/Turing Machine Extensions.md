@@ -57,4 +57,5 @@ Another given Two Tape example is **Addition**:
 ![[Pasted image 20261111203933.png]]
 
 I ain't gonna explain this one fully cause you should understand how this works:
-- Move both `tape head`'s to the Right but only copy the
+- Move both `tape head`'s to the Right but only copy the first number (in binary) to tape2. (the numbers are separated by a **;** on tape1).
+- Now both  `tape head`
