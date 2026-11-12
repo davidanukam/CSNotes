@@ -70,4 +70,9 @@ Okay so now we have to (kinda) prove that even if we had like 10 ka-billion tape
 
 Theorem: Let M be a **k-tape** Turing Machine for some k $\ge$ 1.
 - Then there is a standard TM M' where $\Sigma \subseteq \Sigma'$, and:
-	- On input x, M halts with output z on
+	- On input x, M halts with output z on the first tape iff M' halts in the same state with z on its tape.
+	- On input x, if M halts in n steps, M' halts in $O(n^2)$ steps.
+
+We can prove this with a Proof by Construction.
+
+Since we don't care, 
