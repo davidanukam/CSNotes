@@ -26,7 +26,7 @@ The `tape head` ($\uparrow$) is at some location on our tape and, for example, w
 
 Well, since we have more tapes, we can treat each one separately, each with their own `tape head`.
 
-For example, lets say we wanted to copy a string.
+For example, lets say we wanted to copy a string `w (abba)`.
 
 We could have tape1 have our input string w while tape2 just has $\Box$'s (Blanks).
 
@@ -38,4 +38,11 @@ We can then return back to the start of the copied string on tape2 (since its `t
 
 Then we can **read** the string again (this time on tape2) and while we are **reading** the characters, we can **write** them onto tape1 (notice that we did NOT reset tape1's `tape head`).
 
-This allows us to produce a final output string ww
+This allows us to produce a final output string `ww (abbaabba)`.
+
+![[Pasted image 20261111203718.png]]
+
+![[Pasted image 20261111203727.png]]
+
+![[Pasted image 20261111203736.png]]
+
