@@ -88,5 +88,5 @@ So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help tr
 
 ## Nondeterministic Turing Machines
 
-Alright, really quickly, I'm gonna add that some notes.
+Alright, really quickly, I'm gonna add some notes.
 
