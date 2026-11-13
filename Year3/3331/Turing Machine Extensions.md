@@ -192,4 +192,4 @@ When we're trying the paths in a NDTM, we have to follow a specific algorithm to
 	2. If a solution is found, then accept and exit.
 	3. Otherwise, `d` = `d` + 1
 
-If you
+If you passed 2210 and have been doing LeetCode then you've probably realized that this is a Breath-First Search (BFS) mixed with a Depth-First Search (DFS).
