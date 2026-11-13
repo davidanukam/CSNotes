@@ -120,6 +120,9 @@ Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}
 
 Let w be an element of $\Sigma^{*}$
 
-M **accepts** w iff at least one of its computations accetps.
-M **rejects** w iff all of its computations reject
-M decides a language L $\subseteq \Sigma^{*}$ iff, $\forall$w
+M **accepts** w iff at least ONE of its computations **accepts**.
+M **rejects** w iff ALL of its computations **reject**
+M **decides** a language L $\subseteq \Sigma^{*}$ iff, $\forall$w:
+- There is a finite number of paths that M can follow on input w,
+- All of those paths halt, and
+- w $\in$ L iff M accepts w
