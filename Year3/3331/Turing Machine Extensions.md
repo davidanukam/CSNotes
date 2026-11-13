@@ -198,7 +198,11 @@ If you passed 2210 and have been doing LeetCode then you've probably realized th
 
 ## Simulation
 
+Something to mention is that M' uses three tapes (again this is for seeing if a NDTM is Deciding or Semideciding).
 
+These three tapes (bars) are defined as so:
+
+0. 
 
 If we have a **two-way** tape, then we can simulate it by splitting the tape into two sections to create Tape 1 and Tape 2.
 
