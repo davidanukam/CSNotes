@@ -145,11 +145,11 @@ NDTM M decides L by doing the following on input $w$:
 
 Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}$) be a nondeterministic TM
 
-We can say that M **semideicdes** a language L $\subseteq \Sigma^{*}$ iff:
+We can say that M **semidecides** a language L $\subseteq \Sigma^{*}$ iff:
 - for all $w \in \Sigma^{*}$:
 	- (s, $\underline{\square}w$) yields a least ONE **accepting** configuration
 
-Alright, lets look an example:
+Alright, lets look at an example of NDFSM that semidecides a language:
 
 ![[Pasted image 20261113125914.png]]
 
