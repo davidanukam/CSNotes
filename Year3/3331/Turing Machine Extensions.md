@@ -133,6 +133,9 @@ let L = $\lbrace{w \in \lbrace{0, 1\rbrace}^{*} : w \ \text{is the binary encodi
 
 NDTM M decides L by doing the following on input $w$:
 
-1. Nondeterministically choose two positive binary number such that: $2 \le |p| \ \text{and} \ |q| \le |w|$
+1. Nondeterministically choose two positive binary number such that:
+	- $2 \le |p| \ \text{and} \ |q| \le |w|$
+	- Write them on the tape, after $w$, separated by a semicolon (;)
+		- $\square$
 2. multiply $p$ and $q$ and put the answer, $A$, on the tape, in place of $p$ and $q$: []
 3. Compare $A$ and $w$. If they are equal, then go to $y$ (accept). Otherwise, go to $n$ (reject).
