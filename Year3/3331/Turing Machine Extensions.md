@@ -141,3 +141,10 @@ NDTM M decides L by doing the following on input $w$:
 	- $\underline{\square}110011;1011111\square\square$
 3. Compare $A$ and $w$. If they are equal, then go to $y$ (accept). Otherwise, go to $n$ (reject).
 
+## Nondeterministic Turing Machine Semideciding
+
+Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}$) be a nondeterministic TM
+
+We can say that M **semideicdes** a language L $\subseteq \Sigma^{*}$ iff:
+- for all $w \in \Sigma^{*}$:
+	- () yields a least one
