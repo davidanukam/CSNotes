@@ -8,7 +8,7 @@ We are going to talk about two possible extensions:
 
 ## Multiple Tapes Turing Machines (TMs)
 
-![[Pasted image 20261111202246.png]]
+![ThreeTapesTM](assets/ThreeTapesTM.png)
 
 So we know that in the **basic** Turing Machine model, there is only **ONE** input tape where we **read**, and **write** to.
 
@@ -48,7 +48,7 @@ This allows us to produce a final output string `ww (abbaabba)`.
 
 ![MultipleTapesPart4](assets/MultipleTapesPart4.png)
 
-Another given Two Tape example is **Addition**:
+Another given **Two Tape** example is **Addition**:
 
 ![TwoTapeAdditionExample](assets/TwoTapeAdditionExample.png)
 
