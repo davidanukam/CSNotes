@@ -184,7 +184,12 @@ I'm going to have to explain this a bit.
 
 When we're trying the paths in a NDTM, we have to follow a specific algorithm to ensure that we can cover all paths in a finite amount of time.
 
-Algorithm:
-1. d = 1 (set the initial depth limit to 1)
+**Algorithm**:
+
+1. `d` = 1 (set the initial depth limit to 1)
 2. Loop until a solution is found
-	1. 
+	1. Start at the root node, and explore ALL paths of depth `d`, depth first
+	2. If a solution is found, then accept and exit.
+	3. Otherwise, `d` = `d` + 1
+
+If you
