@@ -118,4 +118,8 @@ Okay but then what does it mean for a nondeterministic TUring machine to:
 
 Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}$) be a nondeterministic TM
 
-Let w be an elem
+Let w be an element of $\Sigma^{*}$
+
+M **accepts** w iff at least one of its computations accetps.
+M **rejects** w iff all of its computations reject
+M decides a language L $\subseteq \Sigma^{*}$ iff, $\forall$w
