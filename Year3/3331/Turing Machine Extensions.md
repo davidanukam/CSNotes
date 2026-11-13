@@ -182,4 +182,9 @@ Okay but now we run into something that requires DSA (remember that 😭 oof)
 
 I'm going to have to explain this a bit.
 
-When we're trying the paths in a 
+When we're trying the paths in a NDTM, we have to follow a specific algorithm to ensure that we can cover all paths in a finite amount of time.
+
+Algorithm:
+1. d = 1 (set the initial depth limit to 1)
+2. Loop until a solution is found
+	1. 
