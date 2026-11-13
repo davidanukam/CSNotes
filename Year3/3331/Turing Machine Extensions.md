@@ -157,4 +157,7 @@ Alright, lets look at an example of NDFSM that semidecides a language L:
 
 ## Nondeterministic Functions Computation
 
-M **com**
+M **computes** a functions $f$ iff, $\forall w \in \Sigma^{*}$:
+- **All** of M's computations **halt**, and
+- **All** off M's computations result in **f(w)**
+
