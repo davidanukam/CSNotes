@@ -180,4 +180,5 @@ Okay but now we run into something that requires DSA (remember that 😭)
 
 ## Iterative Deepening
 
-I'm go
+I'm going to have to explain this a bit.
+
