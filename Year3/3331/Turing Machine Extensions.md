@@ -218,3 +218,5 @@ Why do we care about this??? Because we can actually simulate a PDA with a TM.
 
 ## Simulating a PDA
 
+The components of a PDA:
+- Finite state controll
