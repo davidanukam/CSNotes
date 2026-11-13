@@ -202,7 +202,13 @@ Something to mention is that M' uses three tapes (again this is for seeing if a 
 
 These three tapes (bars) are defined as so:
 
-0. 
+Tape 0: Input: this tape will NEVER change so the original input is ALWAYS available
+
+Tape 1: Copy of the input: to be changed as needed on each path
+
+Tape 2: Sequence of choices that determine the current path
+
+> Tape 1 and Tape 2 make up variable p
 
 If we have a **two-way** tape, then we can simulate it by splitting the tape into two sections to create Tape 1 and Tape 2.
 
