@@ -32,7 +32,11 @@ For example, lets say we wanted to copy a string `w (abba)`.
 
 Then we could have the two `tape head`'s start at a location on their tape (in this case, we only care that tape1's `tape head` starts at the $\Box$ right before the input string).
 
+![MultipleTapesPart1](assets/MultipleTapesPart1.png)
+
 [2] Then, we could go through the TM, using the simple machines from the last note, and every time we **read** a letter in the input string, we can **write** it on tape2.
+
+![MultipleTapesPart2]
 
 [3] We can then return back to the start of the copied string on tape2 (since its `tape head` is independent).
 
