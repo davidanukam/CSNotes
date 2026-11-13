@@ -208,8 +208,13 @@ Tape 1: Copy of the input: to be changed as needed on each path
 
 Tape 2: Sequence of choices that determine the current path
 
-> Tape 1 and Tape 2 make up variable p
+> Tape 1 and Tape 2 make up variable `p` whatever that means
 
 If we have a **two-way** tape, then we can simulate it by splitting the tape into two sections to create Tape 1 and Tape 2.
 
 Then we can use a third tape, Tape 3, to keep track of the sequence of choices that determine the current path we need to take.
+
+Why do we care about this??? Because we can actually simulate a PDA with a TM.
+
+## Simulating a PDA
+
