@@ -161,3 +161,6 @@ M **computes** a functions $f$ iff, $\forall w \in \Sigma^{*}$:
 - **All** of M's computations **halt**, and
 - **All** off M's computations result in **f(w)**
 
+## Equivalence of Deterministic and Nondeterministic Turing Machines
+
+**Theorem**: If a nondeterministic TM M **decides** or **semidecides**  a language, or computes a function, then there is a standard (deterministic) TM M' deciding or semideciding the SAME language or computing  
