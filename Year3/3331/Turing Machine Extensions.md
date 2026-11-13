@@ -198,4 +198,8 @@ If you passed 2210 and have been doing LeetCode then you've probably realized th
 
 ## Simulation
 
+
+
 If we have a **two-way** tape, then we can simulate it by splitting the tape into two sections to create Tape 1 and Tape 2.
+
+Then we can use a third tape, Tape 3, to keep track of the sequence of choices that determine the current path we need to take.
