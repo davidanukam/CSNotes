@@ -174,4 +174,10 @@ I mean I guess bro. Whatever you say.
 Basically, we have a NDTM M and we want to see if it decides a language or if it semidecides it.
 
 1. First, we have to actually build M', which tries the possible computations of M. If ONE of them **accepts**, the M' **accepts**.
-2. So, essentially, if you try path 1 and it accpets, then accept and exit.
+2. So, essentially, if you try path 1 and it accepts, then accept and exit. Otherwise, try path 2, then path 3, etc.
+
+Okay but now we run into something that requires DSA (remember that 😭)
+
+## Iterative Deepening
+
+I'm go
