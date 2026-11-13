@@ -167,5 +167,10 @@ M **computes** a functions $f$ iff, $\forall w \in \Sigma^{*}$:
 
 **Proof**: (By construction) $\rightarrow$ We must do separate constructions for deciding/semideciding and for function computation.
 
-I mean I bro
+I mean I guess bro. Whatever you say.
 
+## For Deciding/Semideciding
+
+Basically, we have a NDTM and we want to see if it decides a language or if it semidecides it.
+
+1. First, we have to actually build M', which 
