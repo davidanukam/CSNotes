@@ -126,3 +126,7 @@ M **decides** a language L $\subseteq \Sigma^{*}$ iff, $\forall$w:
 - There is a finite number of paths that M can follow on input w,
 - All of those paths halt, and
 - w $\in$ L iff M accepts w
+
+Okay, well this is all ramble unless we see an example so:
+
+let L = $\lbrace{w \in {} : \text{w is the binary encoding of a composite number} \rbrace}$
