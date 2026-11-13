@@ -163,4 +163,9 @@ M **computes** a functions $f$ iff, $\forall w \in \Sigma^{*}$:
 
 ## Equivalence of Deterministic and Nondeterministic Turing Machines
 
-**Theorem**: If a nondeterministic TM M **decides** or **semidecides**  a language, or computes a function, then there is a standard (deterministic) TM M' deciding or semideciding the SAME language or computing  
+**Theorem**: If a nondeterministic TM M **decides** or **semidecides**  a language, or computes a function, then there is a standard (deterministic) TM M' **deciding** or **semideciding** the SAME language or computing the SAME function.
+
+**Proof**: (By construction) $\rightarrow$ We must do separate constructions for deciding/semideciding and for function computation.
+
+I mean I bro
+
