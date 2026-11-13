@@ -96,4 +96,8 @@ So there's a slide that says that when we make any one of these nondeterministic
 	- This is because ...
 - For Turing Machines, liked we just proved, when we make them nondeterministic, the power also does NOT increase.
 
-Okay but then waht is a nondeterministic TM?
+Okay but then what is a nondeterministic TM?
+
+## Nondeterministic Turing Machines
+A nondeterministic TM is a sextuple (K, $\Sigma$, $\Gamma$, $\Delta$, s, H) where $\Delta$ is a subset of:
+=
