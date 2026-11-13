@@ -1,3 +1,4 @@
+# Finite State Machines
 ### Finite Automata (Finite memory/states)
 
 ![FSMExampleForAVendingMachine](assets/FSMExampleForAVendingMachine.png)

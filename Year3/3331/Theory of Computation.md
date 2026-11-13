@@ -1,3 +1,4 @@
+# Theory of Computation
 ## LANGUAGES AND STRINGS:
 
 Why do we bother to study the theory of computation?
