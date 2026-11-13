@@ -151,7 +151,7 @@ We can say that M **semidecides** a language L $\subseteq \Sigma^{*}$ iff:
 
 Alright, lets look at an example of NDFSM that semidecides a language L:
 
-![[Pasted image 20261113125914.png]]
+![N]
 
 > Something to note here is that in this case, the picture above, we can actually "do better" or in other words, there's a better NDTM that DECIDES the language L, but, FOR SOME REASON, he didn't include it so idek what it is.
 
@@ -194,7 +194,7 @@ When we're trying the paths in a NDTM, we have to follow a specific algorithm to
 
 If you passed 2210 and have been doing LeetCode then you've probably realized that this is a **Breath-First Search** (BFS) mixed with a **Depth-First Search** (DFS).
 
-![[Pasted image 20261113151531.png]]
+![IterativeDeepening](assets/IterativeDeepening.png)
 
 ## Simulation
 
