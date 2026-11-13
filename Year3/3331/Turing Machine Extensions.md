@@ -133,5 +133,4 @@ let L = $\lbrace{w \in \lbrace{0, 1\rbrace}^{*} : \text{w is the binary encoding
 
 NDTM M decides L by doing the following on input w:
 
-1. Nondeterministically choose two positive binary number such that:
-	1. 
+1. Nondeterministically choose two positive binary number such that: $2 \le |p| and |q| $
