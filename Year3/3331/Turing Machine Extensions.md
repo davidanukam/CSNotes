@@ -129,4 +129,9 @@ M **decides** a language L $\subseteq \Sigma^{*}$ iff, $\forall$w:
 
 Okay, well this is all ramble unless we see an example so:
 
-let L = $\lbrace{w \in {} : \text{w is the binary encoding of a composite number} \rbrace}$
+let L = $\lbrace{w \in \lbrace{0, 1\rbrace}^{*} : \text{w is the binary encoding of a composite number} \rbrace}$
+
+NDTM M decides L by doing the following on input w:
+
+1. Nondeterministically choose two positive binary number such that:
+	1. 
