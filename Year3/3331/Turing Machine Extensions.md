@@ -231,4 +231,6 @@ We can also use two stacks
 
 ## Stacks vs. a Tape
 
-Did we lose anything by giving up the PDA's stack in favor of the TM's
+Did we lose anything by giving up the PDA's stack in favor of the TM's tape? **Nope**.
+
+Could we have gotten the power of a TM's tape just with stacks? **Nope**.
