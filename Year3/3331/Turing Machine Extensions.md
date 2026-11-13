@@ -190,6 +190,9 @@ When we're trying the paths in a NDTM, we have to follow a specific algorithm to
 2. Loop until a solution is found
 	1. Start at the root node, and explore ALL paths of depth `d`, depth first
 	2. If a solution is found, then accept and exit.
-	3. Otherwise, `d` = `d` + 1
+	3. Otherwise, `d` = `d` + 1 (AND START AT THE **ROOT NODE**)
 
-If you passed 2210 and have been doing LeetCode then you've probably realized that this is a Breath-First Search (BFS) mixed with a Depth-First Search (DFS).
+If you passed 2210 and have been doing LeetCode then you've probably realized that this is a **Breath-First Search** (BFS) mixed with a **Depth-First Search** (DFS).
+
+![[Pasted image 20261113151531.png]]
+
