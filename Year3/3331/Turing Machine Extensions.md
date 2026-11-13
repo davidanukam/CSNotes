@@ -219,4 +219,16 @@ Why do we care about this??? Because we can actually simulate a PDA with a TM.
 ## Simulating a PDA
 
 The components of a PDA:
-- Finite state controll
+- Finite state controller
+- Input stream
+- Stack
+
+![[Pasted image 20261113152253.png]]
+
+We can also use two stacks
+
+![[Pasted image 20261113152312.png]]
+
+## Stacks vs. a Tape
+
+Did we lose anything by giving up the PDA's stack in favor of the TM's
