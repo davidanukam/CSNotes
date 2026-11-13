@@ -223,11 +223,11 @@ The components of a PDA:
 - Input stream
 - Stack
 
-![[Pasted image 20261113152253.png]]
+![OneStackSimulationOfPDA](assets/OneStackSimulationOfPDA.png)
 
 We can also use two stacks
 
-![[Pasted image 20261113152312.png]]
+![TwoStackSimulationOfPDA](assets/TwoStackSimulationOfPDA.png)
 
 ## Stacks vs. a Tape
 
