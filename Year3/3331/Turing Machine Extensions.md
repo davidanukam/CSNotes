@@ -116,3 +116,6 @@ Okay but then what does it mean for a nondeterministic TUring machine to:
 
 ## Nondeterministic Turing Machine Deciding
 
+Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}$) be a nondeterministic TM
+
+Let w be an elem
