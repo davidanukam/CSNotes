@@ -105,7 +105,7 @@ A nondeterministic TM is a sextuple (K, $\Sigma$, $\Gamma$, $\Delta$, s, H) wher
 
 What does this mean? Well, I don't actually know but I can give an example:
 
-![[Pasted image 20261113124310.png]]
+![NDTMExample](assets/NDTMExample.png)
 
 Using a kind of **parse tree** version of a TM, we can see that at any **node**, we have options just like in **NDPDA**s, and **NDFSM**.
 
@@ -151,7 +151,7 @@ We can say that M **semidecides** a language L $\subseteq \Sigma^{*}$ iff:
 
 Alright, lets look at an example of NDFSM that semidecides a language L:
 
-![N]
+![NDFSMSemidecidingExample](assets/NDFSMSemidecidingExample.png)
 
 > Something to note here is that in this case, the picture above, we can actually "do better" or in other words, there's a better NDTM that DECIDES the language L, but, FOR SOME REASON, he didn't include it so idek what it is.
 
