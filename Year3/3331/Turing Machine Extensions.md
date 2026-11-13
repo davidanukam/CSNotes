@@ -99,6 +99,7 @@ So there's a slide that says that when we make any one of these nondeterministic
 Okay but then what is a nondeterministic TM?
 
 ## Nondeterministic Turing Machines
+
 A nondeterministic TM is a sextuple (K, $\Sigma$, $\Gamma$, $\Delta$, s, H) where $\Delta$ is a subset of:
 - $((K - H) \times \Gamma) \times (K \times \Gamma \times \lbrace{\leftarrow, \rightarrow \rbrace})$
 
@@ -108,4 +109,10 @@ What does this mean? Well, I don't actually know but I can give an example:
 
 Using a kind of **parse tree** version of a TM, we can see that at any **node**, we have options just like in **NDPDA**s, and **NDFSM**.
 
-Okay but then what
+Okay but then what does it mean for a nondeterministic TUring machine to:
+- Decide a language
+- Semidecide a language
+- Compute a function
+
+## Nondeterministic Turing Machine Deciding
+
