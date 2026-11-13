@@ -77,7 +77,7 @@ We can prove this with a **Proof by Construction**.
 
 Since WE don't actually care (it won't be tested at all), this is basically what we get:
 
-![[Pasted image 20261111205457.png]]
+![MultipleTapesTM](assets/MultipleTapesTM.png)
 
 Essentially, we are saying that if we have 2 tapes then we can add 2 more tapes where each one of the 2 new tapes track the `tape head` of the tape above it.
 
