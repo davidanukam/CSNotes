@@ -91,7 +91,9 @@ So to generalize, if we have **k-tapes**, we can add **k-MORE** tapes to help tr
 Alright, really quickly, I'm gonna add some notes.
 
 So there's a slide that says that when we make any one of these nondeterministic, then the Power () changes:
-- For FSMs, liked I talked about above, when we make them nondeterministic, the Power does NOT increase
+- For FSMs, liked we talked about above, when we make them nondeterministic, the Power does NOT increase
 - For PDAs, then we make them nondeterministic, the power DOES increase
 	- This is because ...
-- For Turing Machines, also liked I mentioned before, when we ma
+- For Turing Machines, liked we just proved, when we make them nondeterministic, the power also does NOT increase.
+
+Okay but then waht is a nondeterministic TM?
