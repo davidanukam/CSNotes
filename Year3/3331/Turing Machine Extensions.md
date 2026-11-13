@@ -18,7 +18,7 @@ Not surprisingly, we can do so by re-defining what the **transition function** l
 
 The **transition function** for a **k-tape** Turing machine:
 
-![[Pasted image 20261111202439.png]]
+![TransitionFunctionForKTapeTM](assets/TransitionFunctionForKTapeTM.png)
 
 To simply this absolute jargon, just think about how we transition on the basic TM.
 
@@ -47,18 +47,6 @@ Then we can **read** the string again (this time on tape2) and while we are **re
 This allows us to produce a final output string `ww (abbaabba)`.
 
 ![MultipleTapesPart4](assets/MultipleTapesPart4.png)
-
-[1]
-![[Pasted image 20261111203718.png]]
-
-[2]
-![[Pasted image 20261111203727.png]]
-
-[3]
-![[Pasted image 20261111203736.png]]
-
-[4]
-![[Pasted image 20261111203750.png]]
 
 Another given Two Tape example is **Addition**:
 
