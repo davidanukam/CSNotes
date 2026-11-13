@@ -147,4 +147,6 @@ Let M = (K, $\Sigma$, $\Gamma$, $\Delta$, s, $\lbrace{\text{y}, \text{n}\rbrace}
 
 We can say that M **semideicdes** a language L $\subseteq \Sigma^{*}$ iff:
 - for all $w \in \Sigma^{*}$:
-	- () yields a least one
+	- (s, $\underline{\square}w$) yields a least ONE **accepting** configuration
+
+Alright, lets lo
