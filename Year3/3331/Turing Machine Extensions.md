@@ -106,4 +106,6 @@ What does this mean? Well, I don't actually know but I can give an example:
 
 ![[Pasted image 20261113124310.png]]
 
-Using a kind of **parse tree** version of a TM, we can see that at any **node**, we have options just like in PDAs, and NDFSM
+Using a kind of **parse tree** version of a TM, we can see that at any **node**, we have options just like in **NDPDA**s, and **NDFSM**.
+
+Okay but then what
