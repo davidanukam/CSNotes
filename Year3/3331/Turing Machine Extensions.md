@@ -100,4 +100,4 @@ Okay but then what is a nondeterministic TM?
 
 ## Nondeterministic Turing Machines
 A nondeterministic TM is a sextuple (K, $\Sigma$, $\Gamma$, $\Delta$, s, H) where $\Delta$ is a subset of:
-=
+- $(() \times \Gamma) \times ()$
